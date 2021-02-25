@@ -1,0 +1,8 @@
+Assets {
+  Id: 14625782774431909634
+  Name: "LeaderboardControllerClient"
+  PlatformAssetType: 3
+  TextAsset {
+  }
+  SerializationVersion: 73
+}
