@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3268761002471664639
   Name: "HeadshotResourceTrackerServer"
   PlatformAssetType: 3
@@ -10,5 +10,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

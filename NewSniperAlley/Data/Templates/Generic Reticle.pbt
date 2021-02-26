@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15515637826283224864
   Name: "Generic Reticle"
   PlatformAssetType: 5
@@ -27,10 +27,6 @@
           Overrides {
             Name: "cs:StartAngle"
             Float: 90
-          }
-          Overrides {
-            Name: "cs:HideOnSprint"
-            Bool: true
           }
         }
         WantsNetworking: true
@@ -138,7 +134,7 @@
           }
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 17586365689296088662
             }
             Color {
               R: 1
@@ -219,7 +215,7 @@
         }
         Control {
           Width: 15
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -227,7 +223,7 @@
           }
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -277,7 +273,7 @@
         }
         Control {
           Width: 15
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -285,7 +281,7 @@
           }
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -335,7 +331,7 @@
         }
         Control {
           Width: 15
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -343,7 +339,7 @@
           }
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -392,7 +388,7 @@
         }
         Control {
           Width: 15
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -400,7 +396,7 @@
           }
           Image {
             Brush {
-              Id: 5196377603841433560
+              Id: 841534158063459245
             }
             Color {
               R: 1
@@ -425,8 +421,8 @@
       }
     }
     Assets {
-      Id: 5196377603841433560
-      Name: "Background Flat 020"
+      Id: 17586365689296088662
+      Name: "BG Gradient 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -438,5 +434,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6657921366064206637
   Name: "Resource Icons Manager"
   PlatformAssetType: 5
@@ -284,5 +284,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

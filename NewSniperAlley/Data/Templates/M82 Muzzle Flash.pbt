@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15740674489552756164
   Name: "M82 Muzzle Flash"
   PlatformAssetType: 5
@@ -81,6 +81,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -184,6 +187,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -316,5 +322,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

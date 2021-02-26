@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3144871937647846964
   Name: "Whizby Sound"
   PlatformAssetType: 5
@@ -26,7 +26,7 @@
         }
         AudioInstance {
           AudioAsset {
-            Id: 4117575639148968106
+            Id: 384250229741832731
           }
           AutoPlay: true
           Transient: true
@@ -39,12 +39,12 @@
       }
     }
     Assets {
-      Id: 4117575639148968106
-      Name: "Gunshot Bullet Flyby Passby Whiz 01 SFX"
+      Id: 384250229741832731
+      Name: "Gunshot Bullet Flyby Passby Whiz 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_bullet_flyby_01_Cue_ref"
+        AssetId: "sfx_bullet_flyby_02_Cue_ref"
       }
     }
     PrimaryAssetId {
@@ -52,5 +52,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

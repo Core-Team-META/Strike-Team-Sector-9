@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3292398012336150117
   Name: "UIToggleParentEventListenerClient"
   PlatformAssetType: 3
@@ -22,5 +22,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

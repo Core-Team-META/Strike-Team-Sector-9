@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 4234223267105235970
   Name: "Kar_Wood"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 14231809728886464860
     ParameterOverrides {

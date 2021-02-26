@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5029134983519601692
   Name: "Knife Muzzle Flash"
   PlatformAssetType: 5
@@ -116,5 +116,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

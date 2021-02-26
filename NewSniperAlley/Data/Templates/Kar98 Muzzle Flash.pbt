@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2995327311034807113
   Name: "Kar98 Muzzle Flash"
   PlatformAssetType: 5
@@ -73,6 +73,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -175,6 +178,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -306,5 +312,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

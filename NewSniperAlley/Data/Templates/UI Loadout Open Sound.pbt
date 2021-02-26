@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13951275346936159072
   Name: "UI Loadout Open Sound"
   PlatformAssetType: 5
@@ -48,5 +48,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15470680638991640411
   Name: "Scoreboard Entry"
   PlatformAssetType: 5
@@ -379,6 +379,8 @@
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -446,5 +448,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

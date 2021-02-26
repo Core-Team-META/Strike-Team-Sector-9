@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4310254455220395843
   Name: "DelayedPlay"
   PlatformAssetType: 3
@@ -15,5 +15,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15609452995484838046
   Name: "ClientPostProcess"
   PlatformAssetType: 5
@@ -592,7 +592,7 @@
     }
     Assets {
       Id: 2920556432021751741
-      Name: "Vingette Grain Post Process"
+      Name: "Vignette Grain Post Process"
       PlatformAssetType: 6
       PrimaryAsset {
         AssetType: "BlueprintAssetRef"
@@ -613,5 +613,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

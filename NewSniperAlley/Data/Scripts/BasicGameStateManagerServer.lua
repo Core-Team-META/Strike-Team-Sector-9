@@ -26,6 +26,10 @@ local ROUND_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundHasDuration")
 local ROUND_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundDuration")
 local ROUND_END_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndHasDuration")
 local ROUND_END_DURATION = COMPONENT_ROOT:GetCustomProperty("RoundEndDuration")
+local STATS_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsHasDuration")
+local STATS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsDuration")
+local VOTING_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingHasDuration")
+local VOTING_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingDuration")
 
 -- Check user properties
 if LOBBY_DURATION < 0.0 then
@@ -60,22 +64,6 @@ function GetTimeRemainingInState()
 	return math.max(endTime - time(), 0.0)
 end
 
--- float GetStateDuration(int)
--- Gets the state duration if state has duration. Passed to API
-function GetStateDuration(state)
-	-- Get new state duration information
-	if state == ABGS.GAME_STATE_LOBBY and LOBBY_HAS_DURATION then
-		return LOBBY_DURATION
-	elseif state == ABGS.GAME_STATE_ROUND and ROUND_HAS_DURATION then
-		return ROUND_DURATION
-	elseif state == ABGS.GAME_STATE_ROUND_END and ROUND_END_HAS_DURATION then
-		return ROUND_END_DURATION
-	else
-		error("Tried to set game state to unknown state %d", state)
-	end
-	return nil
-end
-
 -- nil SetGameState()
 -- Sets the state and configures timing. Passed to API
 function SetGameState(newState)
@@ -92,6 +80,15 @@ function SetGameState(newState)
 	elseif newState == ABGS.GAME_STATE_ROUND_END then
 		stateHasduration = ROUND_END_HAS_DURATION
 		stateDuration = ROUND_END_DURATION
+	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
+		stateHasduration = VOTING_HAS_DURATION
+		stateDuration = VOTING_DURATION
+	elseif newState ==  ABGS.GAME_STATE_ROUND_STATS then
+		stateHasduration = STATS_HAS_DURATION
+		stateDuration = STATS_DURATION
+	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
+		stateHasduration = VOTING_HAS_DURATION
+		stateDuration = VOTING_DURATION
 	else
 		error("Tried to set game state to unknown state %d", newState)
 	end
@@ -145,6 +142,10 @@ function Tick(deltaTime)
 		elseif previousState == ABGS.GAME_STATE_ROUND then
 			nextState = ABGS.GAME_STATE_ROUND_END
 		elseif previousState == ABGS.GAME_STATE_ROUND_END then
+			nextState = ABGS.GAME_STATE_ROUND_STATS
+		elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
+			nextState = ABGS.GAME_STATE_ROUND_VOTING
+		elseif previousState == ABGS.GAME_STATE_ROUND_VOTING then
 			nextState = ABGS.GAME_STATE_LOBBY
 		end
 
@@ -155,11 +156,4 @@ end
 -- Initialize
 SetGameState(ABGS.GAME_STATE_LOBBY)
 
-local functionTable = {}
-functionTable.GetGameState = GetGameState
-functionTable.GetTimeRemainingInState = GetTimeRemainingInState
-functionTable.GetStateDuration = GetStateDuration
-functionTable.SetGameState = SetGameState
-functionTable.SetTimeRemainingInState = SetTimeRemainingInState
-
-ABGS.RegisterGameStateManagerServer(functionTable)
+ABGS.RegisterGameStateManagerServer(GetGameState, GetTimeRemainingInState, SetGameState, SetTimeRemainingInState)

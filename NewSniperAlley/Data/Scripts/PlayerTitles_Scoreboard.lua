@@ -29,6 +29,8 @@ local HeaderPlayerName = script:GetCustomProperty("HeaderPlayerName"):WaitForObj
 local HeaderSocialIcon = script:GetCustomProperty("HeaderSocialIcon"):WaitForObject()
 local HeaderSocialPrefix = script:GetCustomProperty("HeaderSocialPrefix"):WaitForObject()
 
+local LeaderstatsGroup = script:GetCustomProperty("Leaderstats"):WaitForObject()
+
 local LocalPlayer = Game.GetLocalPlayer()
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -57,19 +59,6 @@ local EASING_EQUATION_IN = Scoreboard:GetCustomProperty("EasingEquationIn")
 local EASING_DIRECTION_IN = Scoreboard:GetCustomProperty("EasingDirectionIn")
 local EASING_EQUATION_OUT = Scoreboard:GetCustomProperty("EasingEquationOut")
 local EASING_DIRECTION_OUT = Scoreboard:GetCustomProperty("EasingDirectionOut")
-
-local LEADERSTAT_ONE_ENABLED = Scoreboard:GetCustomProperty("Leaderstat1Enabled")
-local LEADERSTAT_ONE_NAME = Scoreboard:GetCustomProperty("Leaderstat1Name")
-local LEADERSTAT_ONE_TYPE = Scoreboard:GetCustomProperty("Leaderstat1Type")
-local LEADERSTAT_ONE_RESOURCE = Scoreboard:GetCustomProperty("Leaderstat1Resource")
-local LEADERSTAT_TWO_ENABLED = Scoreboard:GetCustomProperty("Leaderstat2Enabled")
-local LEADERSTAT_TWO_NAME = Scoreboard:GetCustomProperty("Leaderstat2Name")
-local LEADERSTAT_TWO_TYPE = Scoreboard:GetCustomProperty("Leaderstat2Type")
-local LEADERSTAT_TWO_RESOURCE = Scoreboard:GetCustomProperty("Leaderstat2Resource")
-local LEADERSTAT_THREE_ENABLED = Scoreboard:GetCustomProperty("Leaderstat3Enabled")
-local LEADERSTAT_THREE_NAME = Scoreboard:GetCustomProperty("Leaderstat3Name")
-local LEADERSTAT_THREE_TYPE = Scoreboard:GetCustomProperty("Leaderstat3Type")
-local LEADERSTAT_THREE_RESOURCE = Scoreboard:GetCustomProperty("Leaderstat3Resource")
 
 local COLOR_DEFAULT = Color.New(1, 1, 1, 1)
 
@@ -146,7 +135,15 @@ end
 --	nil UpdatePlayerEntries()
 --	Re-orders all of the players in the list
 local function UpdatePlayerEntries()
-	for index, entry in pairs(Entries:GetChildren()) do
+	local sort = Entries:GetChildren()
+	table.sort( sort, function(a,b)
+		if(a.clientUserData.owner.team == b.clientUserData.owner.team) then
+			return a.clientUserData.owner.kills > b.clientUserData.owner.kills
+		else
+			return a.clientUserData.owner.team < b.clientUserData.owner.team
+		end
+	end )
+	for index, entry in pairs(sort) do
 		entry.y = (entry.height * (index - 1)) + (GAP_BETWEEN_ENTRIES * (index - 1))
 	end
 end
@@ -162,7 +159,7 @@ local function CreatePlayerEntry(player)
 		parent = Entries
 	})
 	entry.name = player.name
-
+	entry.clientUserData.owner = player
 	entries[player] = {
 		entry = entry,
 		leaderstats = {},
@@ -203,22 +200,18 @@ local function CreatePlayerEntry(player)
 	end
 
 	local count = 0
-	if(LEADERSTAT_ONE_ENABLED) then
-		local success = CreatePlayerLeaderstat(player, entry, LEADERSTAT_ONE_NAME, LEADERSTAT_ONE_TYPE, LEADERSTAT_ONE_RESOURCE, count)
-		if(success) then
-			count = count + 1
-		end
-	end
-	if(LEADERSTAT_TWO_ENABLED) then
-		local success = CreatePlayerLeaderstat(player, entry, LEADERSTAT_TWO_NAME, LEADERSTAT_TWO_TYPE, LEADERSTAT_TWO_RESOURCE, count)
-		if(success) then
-			count = count + 1
-		end
-	end
-	if(LEADERSTAT_THREE_ENABLED) then
-		local success = CreatePlayerLeaderstat(player, entry, LEADERSTAT_THREE_NAME, LEADERSTAT_THREE_TYPE, LEADERSTAT_THREE_RESOURCE, count)
-		if(success) then
-			count = count + 1
+	local leaderstats = LeaderstatsGroup:GetChildren()
+	for index = #leaderstats, 1, -1 do
+		local leaderstat = leaderstats[index]
+		local enabled, lType, resource =
+			leaderstat:GetCustomProperty("Enabled"),
+			leaderstat:GetCustomProperty("Type"),
+			leaderstat:GetCustomProperty("Resource")
+		if(enabled) then
+			local success = CreatePlayerLeaderstat(player, entry, leaderstat.name, lType, resource, count)
+			if(success) then
+				count = count + 1
+			end
 		end
 	end
 
@@ -264,6 +257,8 @@ local function UpdatePlayerEntry(player)
 	else
 		playerNameText:SetColor(PLAYER_NAME_COLOR)
 	end
+
+	UpdatePlayerEntries()
 end
 
 --	nil UpdateHeader()
@@ -325,7 +320,30 @@ local function UpdatePlayer(player)
 		elseif(leaderstatType == "DEATHS") then
 			leaderstat.text.text = tostring(player.deaths)
 		elseif(leaderstatType == "RESOURCE") then
-			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource) or 0)
+			leaderstat.text.text = tostring(player:GetResource(leaderstat.resource))
+		elseif(leaderstatType == "KD") then
+			if(player.deaths == 0) then 
+				leaderstat.text.text = tostring(CoreMath.Round(player.kills,1))
+			else
+				leaderstat.text.text = tostring(CoreMath.Round( player.kills/player.deaths,2 ))
+			end	
+		end
+	end
+	UpdatePlayerEntries()
+	end
+
+local function CreateHeaderLeaderstats()
+	local count = 0
+	local leaderstats = LeaderstatsGroup:GetChildren()
+	for index = #leaderstats, 1, -1 do
+		local leaderstat = leaderstats[index]
+		local enabled, lType, resource =
+			leaderstat:GetCustomProperty("Enabled"),
+			leaderstat:GetCustomProperty("Type"),
+			leaderstat:GetCustomProperty("Resource")
+
+		if(enabled) then
+			CreateHeaderLeaderstat(leaderstat.name, lType, resource)
 		end
 	end
 end
@@ -420,7 +438,6 @@ if(TOGGLE_BINDING) then
 end
 
 PLAYER_NAME_COLOR_MODE = GetProperty(PLAYER_NAME_COLOR_MODE, PLAYER_NAME_COLOR_MODES)
-LEADERSTAT_ONE_TYPE = GetProperty(LEADERSTAT_ONE_TYPE, LEADERSTAT_TYPES)
 
 EASING_EQUATION_IN = EaseUI.EasingEquation[EASING_EQUATION_IN]
 EASING_DIRECTION_IN = EaseUI.EasingEquation[EASING_DIRECTION_IN]
@@ -451,12 +468,4 @@ else
 	HeaderSocialPrefix.text = "Player"
 end
 
-if(LEADERSTAT_ONE_ENABLED) then
-	CreateHeaderLeaderstat(LEADERSTAT_ONE_NAME, LEADERSTAT_ONE_TYPE, LEADERSTAT_ONE_RESOURCE)
-end
-if(LEADERSTAT_TWO_ENABLED) then
-	CreateHeaderLeaderstat(LEADERSTAT_TWO_NAME, LEADERSTAT_TWO_TYPE, LEADERSTAT_TWO_RESOURCE)
-end
-if(LEADERSTAT_THREE_ENABLED) then
-	CreateHeaderLeaderstat(LEADERSTAT_THREE_NAME, LEADERSTAT_THREE_TYPE, LEADERSTAT_THREE_RESOURCE)
-end
+CreateHeaderLeaderstats()

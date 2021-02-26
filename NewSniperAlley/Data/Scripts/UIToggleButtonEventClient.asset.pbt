@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6818497044281192280
   Name: "UIToggleButtonEventClient"
   PlatformAssetType: 3
@@ -14,5 +14,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

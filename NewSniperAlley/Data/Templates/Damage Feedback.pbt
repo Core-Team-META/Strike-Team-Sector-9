@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 154786425439666144
+Assets {
+  Id: 12984678018063706940
   Name: "Damage Feedback"
   PlatformAssetType: 5
   TemplateAsset {
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 3542647966778852427
+        ParentId: 6219254998580302767
         ChildIds: 64735976921106042
         ChildIds: 6477636794412699986
         UnregisteredParameters {
@@ -43,10 +43,6 @@
             Bool: true
           }
           Overrides {
-            Name: "cs:ShowHealthChangeEffect"
-            Bool: true
-          }
-          Overrides {
             Name: "cs:HitFeedbackSound"
             ObjectReference {
               SubObjectId: 11463521339905986033
@@ -58,7 +54,7 @@
           }
           Overrides {
             Name: "cs:DamageTextColor:tooltip"
-            String: "Fly up damage text color on target player / npc."
+            String: "Fly up damage text color."
           }
           Overrides {
             Name: "cs:DisplayBigText:tooltip"
@@ -71,10 +67,6 @@
           Overrides {
             Name: "cs:HitFeedbackSound:tooltip"
             String: "A sound played when the local player hits an enemy player. Tick \"Disable Spatial\" to make it work with local player."
-          }
-          Overrides {
-            Name: "cs:ShowHealthChangeEffect:tooltip"
-            String: "Show post proccess effect on player\'s health change."
           }
         }
         Collidable_v2 {
@@ -112,7 +104,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 10075954645707622603
+            Id: 272612625331176844
           }
         }
       }
@@ -132,7 +124,6 @@
         }
         ParentId: 5020465629018774494
         ChildIds: 17670346521050862664
-        ChildIds: 1830145392499084542
         ChildIds: 11463521339905986033
         ChildIds: 10712405606033682503
         UnregisteredParameters {
@@ -174,18 +165,6 @@
               SubObjectId: 60500734892315015
             }
           }
-          Overrides {
-            Name: "cs:DeathIndicator"
-            ObjectReference {
-              SubObjectId: 3467271642671574524
-            }
-          }
-          Overrides {
-            Name: "cs:HealthChangePostProcess"
-            ObjectReference {
-              SubObjectId: 1830145392499084542
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -196,68 +175,6 @@
         Script {
           ScriptAsset {
             Id: 1723234306837824973
-          }
-        }
-      }
-      Objects {
-        Id: 1830145392499084542
-        Name: "Radial Blur Post Process"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6477636794412699986
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Tint C"
-            Color {
-              R: 0.789999962
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Effect Strength"
-            Float: 0
-          }
-          Overrides {
-            Name: "bp:Blend Weight"
-            Float: 1
-          }
-          Overrides {
-            Name: "bp:High Quality"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Ragged Mask"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Blur Distance"
-            Float: 7
-          }
-          Overrides {
-            Name: "bp:Center Area Contrast"
-            Float: 3
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 15827161974310758262
-          }
-          TeamSettings {
           }
         }
       }
@@ -286,7 +203,7 @@
         }
         AudioInstance {
           AudioAsset {
-            Id: 5966922762302179674
+            Id: 16068421836437121074
           }
           Volume: 0.8
           Falloff: 3600
@@ -309,7 +226,6 @@
         }
         ParentId: 6477636794412699986
         ChildIds: 60500734892315015
-        ChildIds: 3467271642671574524
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -385,79 +301,14 @@
           }
         }
       }
-      Objects {
-        Id: 3467271642671574524
-        Name: "Death Indicator"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10712405606033682503
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        Control {
-          Width: 80
-          Height: 80
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 9384520849142346961
-            }
-            Color {
-              R: 0.85
-              A: 0.5
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
     }
     Assets {
-      Id: 15827161974310758262
-      Name: "Radial Blur Post Process"
-      PlatformAssetType: 6
-      PrimaryAsset {
-        AssetType: "BlueprintAssetRef"
-        AssetId: "fxbp_ppm_radial_blur"
-      }
-    }
-    Assets {
-      Id: 5966922762302179674
-      Name: "Bullet Body Flesh 01 Impact SFX"
+      Id: 16068421836437121074
+      Name: "Bullet Body Thump 01 Impact SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_bullet_impact_body_flesh_01_Cue_ref"
+        AssetId: "sfx_bullet_impact_body_thump_01_Cue_ref"
       }
     }
     Assets {
@@ -469,19 +320,10 @@
         AssetId: "Crosshair_020"
       }
     }
-    Assets {
-      Id: 9384520849142346961
-      Name: "Icon Death"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Death"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6780116108034801676
   Name: "Helper_BasicInventoryLine"
   PlatformAssetType: 5
@@ -261,6 +261,8 @@
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -381,6 +383,8 @@
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -563,6 +567,8 @@
               Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -641,7 +647,7 @@
     }
     Assets {
       Id: 5196377603841433560
-      Name: "Background Flat 020"
+      Name: "BG Gradient 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
@@ -689,5 +695,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

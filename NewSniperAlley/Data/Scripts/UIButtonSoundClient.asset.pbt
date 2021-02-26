@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12521191481231182391
   Name: "UIButtonSoundClient"
   PlatformAssetType: 3
@@ -11,5 +11,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

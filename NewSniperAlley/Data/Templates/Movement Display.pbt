@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9411286908764953147
   Name: "Movement Display"
   PlatformAssetType: 5
@@ -425,5 +425,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

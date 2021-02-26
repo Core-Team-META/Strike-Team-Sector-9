@@ -22,13 +22,20 @@ local TEXT_BOX = script:GetCustomProperty("TextBox"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("ProgressBar"):WaitForObject()
 local AMMO_PANEL = script:GetCustomProperty("AmmoPanel"):WaitForObject()
 local AMMO_TEXT = script:GetCustomProperty("AmmoText"):WaitForObject()
+local MAX_AMMO_TEXT = script:GetCustomProperty("MaxAmmo"):WaitForObject()
+local WEAPON_NAME = script:GetCustomProperty("WeaponName"):WaitForObject()
+
 
 -- User exposed properties
 local SHOW_NUMBER = COMPONENT_ROOT:GetCustomProperty("ShowNumber")
 local SHOW_MAXIMUM = COMPONENT_ROOT:GetCustomProperty("ShowMaximum")
 local SHOW_AMMO = COMPONENT_ROOT:GetCustomProperty("ShowAmmo")
-local AMMO_TYPE_FILTER = COMPONENT_ROOT:GetCustomProperty("AmmoTypeFilter")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+local CURRENT_WEAPON
+
+local AmmoSize =  AMMO_TEXT.fontSize
+
 
 -- Player GetViewedPlayer()
 -- Returns which player the local player is spectating (or themselves if not spectating)
@@ -46,42 +53,48 @@ end
 -- Returns weapon that player is using
 function GetWeapon(player)
 	for i,v in ipairs(player:GetEquipment()) do
-		if v:IsA("Weapon") and (AMMO_TYPE_FILTER == "" or AMMO_TYPE_FILTER == v.ammoType) then
-			return v
+        if v.name ~= "Equipment" then       
+			return v    
 		end
-    end
-    return nil
+	end
 end
 
 function Tick(deltaTime)
     local player = GetViewedPlayer()
     if player then
-        local healthFraction = player.hitPoints / player.maxHitPoints
-        PROGRESS_BAR.progress = healthFraction
-
-        if SHOW_NUMBER then
-            if SHOW_MAXIMUM then
-                TEXT_BOX.text = string.format("%.0f / %.0f", player.hitPoints, player.maxHitPoints)
-            else
-                TEXT_BOX.text = string.format("%.0f", player.hitPoints)
+        if (GetWeapon(player) ~= CURRENT_WEAPON) then
+            CURRENT_WEAPON = GetWeapon(player) 
+            if CURRENT_WEAPON then
+            WEAPON_NAME.text = CURRENT_WEAPON.name or ""
             end
         end
 
-        if SHOW_AMMO then
-            AMMO_PANEL.visibility = Visibility.INHERIT
+		if SHOW_AMMO then
 			local weapon = GetWeapon(player)
             if weapon ~= nil then
-                if SHOW_MAXIMUM then
-                    AMMO_TEXT.text = string.format("%.0f/%.0f", weapon.currentAmmo, weapon.maxAmmo)
+                --while not weapon.clientUserData.MaxAmmo and not weapon.clientUserData.Ammo do Task.Wait() end
+                if weapon.clientUserData.Ammo then
+                    if weapon.clientUserData.reloading then 
+                        AMMO_TEXT.fontSize = 22 
+                        AMMO_TEXT.text = "Reloading..."
+                    else
+                        AMMO_TEXT.fontSize = AmmoSize
+                        AMMO_TEXT.text = tostring(weapon.clientUserData.Ammo)
+                    end
+                else AMMO_TEXT.text = "" end
+                if weapon.clientUserData.MaxAmmo then
+                    MAX_AMMO_TEXT.text = tostring(weapon.clientUserData.MaxAmmo)  or weapon.maxAmmo 
                 else
-                    AMMO_TEXT.text = string.format("%.0f", weapon.currentAmmo)
+                    MAX_AMMO_TEXT.text = ""
                 end
             else
-                AMMO_PANEL.visibility = Visibility.FORCE_OFF
+                AMMO_TEXT.text = tostring("∞")
+                MAX_AMMO_TEXT.text = tostring("")
             end
+            AMMO_PANEL.visibility = Visibility.INHERIT
         else
             AMMO_PANEL.visibility = Visibility.FORCE_OFF
-		end
+        end
     end
 end
 

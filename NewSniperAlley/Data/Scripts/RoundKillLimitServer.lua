@@ -29,8 +29,6 @@ local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
 -- User exposed properties
 local KILL_LIMIT = COMPONENT_ROOT:GetCustomProperty("KillLimit")
-local RESOURCE = COMPONENT_ROOT:GetCustomProperty("Resource")
-local EVENT_DELAY = COMPONENT_ROOT:GetCustomProperty("EventDelay")
 
 -- Check user properties
 if KILL_LIMIT <= 0 then
@@ -62,7 +60,6 @@ function Tick(deltaTime)
 
 		if winner then
 			Events.Broadcast("PlayerVictory", winner)
-			Task.Wait(EVENT_DELAY)
 			ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
 		end
 	end

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14810372418436101375
   Name: "Helper_LoadoutSelectionPanel"
   PlatformAssetType: 5
@@ -331,6 +331,8 @@
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -423,5 +425,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

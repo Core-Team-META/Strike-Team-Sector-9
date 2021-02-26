@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 11962036712949342240
   Name: "Sniper Impact Flash"
   PlatformAssetType: 5
@@ -71,6 +71,9 @@
             AutoPlay: true
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -87,5 +90,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2020 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -23,31 +23,9 @@ end
 
 -- User Exposed Variables
 local EQUIPMENT_STANCE = EQUIPMENT:GetCustomProperty("EquipmentStance")
-local SPRINT_STANCE = EQUIPMENT:GetCustomProperty("SprintStance")
-
-if EQUIPMENT:IsA('Weapon') then
-    EQUIPMENT_STANCE = EQUIPMENT.animationStance
-end
 
 -- Internal variables
 local originalStance = "unarmed_stance"
-local isSprinting = false
-local currentStance = EQUIPMENT_STANCE
-
-function Tick()
-    if not Object.IsValid(EQUIPMENT) then return end
-    if not Object.IsValid(EQUIPMENT.owner) then return end
-
-    if isSprinting and EQUIPMENT.owner.isAccelerating then
-        currentStance = SPRINT_STANCE
-    else
-        currentStance = EQUIPMENT_STANCE
-    end
-
-    if currentStance ~= EQUIPMENT.owner.animationStance then
-        EQUIPMENT.owner.animationStance = currentStance
-    end
-end
 
 -- nil OnEquipped(Equipment, Player)
 function OnEquipped(equipment, player)
@@ -61,20 +39,6 @@ function OnUnequipped(equipment, player)
     player.animationStance = originalStance
 end
 
-function UpdateWalkStance(player, states)
-    if not Object.IsValid(EQUIPMENT) then return end
-    if EQUIPMENT.owner ~= player then return end
-	local speedType = states.Running and "Run" or "Walk"
-
-    if speedType == "Run" then
-        isSprinting = true
-    else
-        isSprinting = false
-    end
-end
-
 -- Initialize
 EQUIPMENT.equippedEvent:Connect(OnEquipped)
 EQUIPMENT.unequippedEvent:Connect(OnUnequipped)
-
-Events.ConnectForPlayer("ChangeMovementType", UpdateWalkStance)

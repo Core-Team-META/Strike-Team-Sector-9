@@ -2,7 +2,7 @@ Assets {
   Id: 15081286166223962909
   Name: "sand hill"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 3756141379889822314
     ParameterOverrides {

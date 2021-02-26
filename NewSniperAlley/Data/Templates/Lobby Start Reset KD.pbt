@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 14209296791507969096
+Assets {
+  Id: 17154454822903296868
   Name: "Lobby Start Reset KD"
   PlatformAssetType: 5
   TemplateAsset {
@@ -48,7 +48,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 11974742996071064388
+              Id: 1850528848628444034
             }
           }
         }
@@ -70,5 +70,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

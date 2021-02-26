@@ -1,5 +1,5 @@
-﻿--[[
-Copyright 2019 Manticore Games, Inc.
+﻿	--[[
+Copyright 2019 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
@@ -28,31 +28,37 @@ local API = {}
 API.GAME_STATE_LOBBY = 0
 API.GAME_STATE_ROUND = 1
 API.GAME_STATE_ROUND_END = 2
+API.GAME_STATE_ROUND_STATS = 3
+API.GAME_STATE_ROUND_VOTING = 4
 
--- nil RegisterGameStateManager(table) [Server]
+-- nil RegisterGameStateManager(function, function, function, function) [Server]
 -- Called once by a manager component that at minimum handles replication.
 -- Functions passed in must match signatures of the functions below.
-function API.RegisterGameStateManagerServer(functionTable)
+function API.RegisterGameStateManagerServer(stateGetter, stateTimeGetter, stateSetter, stateTimeSetter)
 	if _G.APIBasicGameState and _G.APIBasicGameState.registeredOnServer then
 		error("A game cannot have multiple game state managers")
 	end
 
 	_G.APIBasicGameState = {}
-	_G.APIBasicGameState = functionTable
 	_G.APIBasicGameState.registeredOnServer = true
+	_G.APIBasicGameState.stateGetter = stateGetter
+	_G.APIBasicGameState.stateTimeGetter = stateTimeGetter
+	_G.APIBasicGameState.stateSetter = stateSetter
+	_G.APIBasicGameState.stateTimeSetter = stateTimeSetter
 end
 
--- nil RegisterGameStateManager(table) [Client]
+-- nil RegisterGameStateManager(function, function) [Client]
 -- Called once by a manager component that at minimum handles replication.
 -- Functions passed in must match signatures of the functions below.
-function API.RegisterGameStateManagerClient(functionTable)
+function API.RegisterGameStateManagerClient(stateGetter, stateTimeGetter)
 	if _G.APIBasicGameState and _G.APIBasicGameState.registeredOnClient  then
 		error("A game cannot have multiple game state managers")
 	end
 
 	_G.APIBasicGameState = {}
-	_G.APIBasicGameState = functionTable
 	_G.APIBasicGameState.registeredOnClient = true
+	_G.APIBasicGameState.stateGetter = stateGetter
+	_G.APIBasicGameState.stateTimeGetter = stateTimeGetter
 end
 
 -- bool IsGameStateManagerRegistered() [Client, Server]
@@ -69,7 +75,7 @@ function API.GetGameState()
 		return nil
 	end
 
-	return _G.APIBasicGameState.GetGameState()
+	return _G.APIBasicGameState.stateGetter()
 end
 
 -- <float> GetTimeRemainingInState() [Client, Server]
@@ -81,19 +87,7 @@ function API.GetTimeRemainingInState()
 		return nil
 	end
 
-	return _G.APIBasicGameState.GetTimeRemainingInState()
-end
-
--- <float> GetStateDuration(int) [Client, Server]
--- Returns the time remaining in the current state, or nil if there is no
--- duration.
-function API.GetStateDuration(state)
-	if not _G.APIBasicGameState then
-		warn("Cannot get time remaining with no manager registered")
-		return nil
-	end
-
-	return _G.APIBasicGameState.GetStateDuration(state)
+	return _G.APIBasicGameState.stateTimeGetter()
 end
 
 -- nil SetGameState(int) [Server]
@@ -104,7 +98,7 @@ function API.SetGameState(newState)
 		return
 	end
 
-	_G.APIBasicGameState.SetGameState(newState)
+	_G.APIBasicGameState.stateSetter(newState)
 end
 
 -- nil GetTimeRemainingInState(float) [Server]
@@ -115,7 +109,7 @@ function API.SetTimeRemainingInState(remainingTime)
 		return
 	end
 
-	_G.APIBasicGameState.SetTimeRemainingInState(remainingTime)
+	_G.APIBasicGameState.stateTimeSetter(remainingTime)
 end
 
 return API

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8748649906093321891
   Name: "Basic Inventory"
   PlatformAssetType: 5
@@ -213,5 +213,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

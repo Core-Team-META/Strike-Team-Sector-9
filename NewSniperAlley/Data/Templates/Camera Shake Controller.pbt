@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9604878931577023905
   Name: "Camera Shake Controller"
   PlatformAssetType: 5
@@ -126,5 +126,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

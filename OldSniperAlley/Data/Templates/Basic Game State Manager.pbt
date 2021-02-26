@@ -224,5 +224,5 @@ Assets {
       AssetId: "Basic_Game_State_Manager"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

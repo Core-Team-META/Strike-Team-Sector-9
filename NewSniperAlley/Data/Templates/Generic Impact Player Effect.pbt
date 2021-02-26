@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 307406115803496087
   Name: "Generic Impact Player Effect"
   PlatformAssetType: 5
@@ -62,11 +62,14 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 16039011261841658489
+            Id: 7628097165165581423
           }
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -106,7 +109,7 @@
       }
     }
     Assets {
-      Id: 16039011261841658489
+      Id: 7628097165165581423
       Name: "Generic Player Impact VFX"
       PlatformAssetType: 8
       PrimaryAsset {
@@ -128,5 +131,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

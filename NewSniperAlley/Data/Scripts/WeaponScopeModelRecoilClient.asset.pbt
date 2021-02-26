@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8497223800927779959
   Name: "WeaponScopeModelRecoilClient"
   PlatformAssetType: 3
@@ -48,5 +48,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

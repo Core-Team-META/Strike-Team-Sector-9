@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -24,10 +24,11 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
+local WEAPON_TYPE = WEAPON:GetCustomProperty("WeaponType")
 
 -- Exposed variables --
-local DAMAGE_AMOUNT = WEAPON:GetCustomProperty("BaseDamage")
-local DAMAGE_HEADSHOT = WEAPON:GetCustomProperty("HeadshotDamage")
+local DAMAGE_AMOUNT = script:GetCustomProperty("BaseDamage")
+local DAMAGE_HEADSHOT = script:GetCustomProperty("HeadshotDamage")
 
 function OnWeaponInteracted(weapon, impactData)
     local target = impactData.targetObject
@@ -37,28 +38,25 @@ function OnWeaponInteracted(weapon, impactData)
 
         local weaponOwner = impactData.weaponOwner
         local numberOfHits = #impactData:GetHitResults()
-
+        local isHeadShot = false
         -- Assign a headshot damage if projectile hit enemy's head
         local damage = DAMAGE_AMOUNT
         if impactData.isHeadshot then
             damage = DAMAGE_HEADSHOT
+            isHeadShot = true
         end
 
         -- Creating damage information
         -- Note: number of hits sums up the damage number for multi-shot weapons (e.g. shotgun)
         local newDamageInfo = Damage.New(damage * numberOfHits)
-
-        -- HACK: sends isHeadshot information to client
-        if impactData.isHeadshot then
-            newDamageInfo.reason = DamageReason.FRIENDLY_FIRE
-        else
-            newDamageInfo.reason = DamageReason.COMBAT
-        end
+        newDamageInfo.reason = DamageReason.COMBAT
         newDamageInfo.sourceAbility = impactData.sourceAbility
         newDamageInfo.sourcePlayer = weaponOwner
-
+        newDamageInfo:SetHitResult(impactData:GetHitResults()[1])
         -- Apply damage to the enemy player
         target:ApplyDamage(newDamageInfo)
+
+        Events.Broadcast("AS.PlayerDamaged", WEAPON.owner, target, WEAPON_TYPE, isHeadShot)
     end
 end
 

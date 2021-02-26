@@ -1,12 +1,12 @@
-﻿Assets {
-  Id: 5271172355077334201
+Assets {
+  Id: 14699126022621410800
   Name: "Sniper Muzzle Flash"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 15477658573305039755
+      RootId: 8804992172169633245
       Objects {
-        Id: 15477658573305039755
+        Id: 8804992172169633245
         Name: "Sniper Muzzle Flash"
         Transform {
           Scale {
@@ -15,15 +15,40 @@
             Z: 1
           }
         }
-        ParentId: 14093591283607499813
-        ChildIds: 7382871688938039157
-        ChildIds: 2964895701545435408
-        ChildIds: 11021262918717062650
-        ChildIds: 15525881080779901268
-        ChildIds: 3388672417327577690
+        ParentId: 4781671109827199097
+        ChildIds: 4214912732193155472
         UnregisteredParameters {
         }
-        Lifespan: 3
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 4214912732193155472
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8804992172169633245
+        ChildIds: 8859014818991424340
+        ChildIds: 574345558867883073
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,53 +60,10 @@
         }
       }
       Objects {
-        Id: 7382871688938039157
-        Name: "Generic Muzzleflash VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15477658573305039755
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 5
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 11069266415187801776
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-      }
-      Objects {
-        Id: 2964895701545435408
+        Id: 8859014818991424340
         Name: "Gunshot Sniper Rifle Set 01 SFX"
         Transform {
           Location {
-            X: 144
-            Z: 85
           }
           Rotation {
           }
@@ -91,13 +73,17 @@
             Z: 1
           }
         }
-        ParentId: 15477658573305039755
+        ParentId: 4214912732193155472
         UnregisteredParameters {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_sniper_01:7"
+              Value: "mc:esfx_gunshot_sniper_01:3"
             }
+          }
+          Overrides {
+            Name: "bp:Enable Dynamic Distant Sound"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -112,25 +98,23 @@
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1.4
-            Falloff: 25000
-            Radius: 2200
+            Volume: 0.7
+            Falloff: 4000
+            Radius: 600
             EnableOcclusion: true
             IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
           }
         }
       }
       Objects {
-        Id: 11021262918717062650
-        Name: "Shell Ejection VFX"
+        Id: 574345558867883073
+        Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
-            X: -70
-            Y: 5
-            Z: -5
+            Z: -8
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
             X: 1
@@ -138,27 +122,15 @@
             Z: 1
           }
         }
-        ParentId: 15477658573305039755
+        ParentId: 4214912732193155472
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Size"
-            Vector {
-              X: 0.5
-              Y: 0.5
-              Z: 0.5
-            }
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.8
           }
           Overrides {
-            Name: "bp:Spawn Rate"
-            Float: 2
-          }
-          Overrides {
-            Name: "bp:Local Space"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Life"
-            Float: 3
+            Name: "bp:Emissive Boost"
+            Float: 4
           }
         }
         Collidable_v2 {
@@ -169,110 +141,15 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 7795187591388094071
-          }
-          TeamSettings {
+            Id: 16322635077100878811
           }
           Vfx {
             AutoPlay: true
           }
         }
-      }
-      Objects {
-        Id: 15525881080779901268
-        Name: "DelayedPlay"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
+        Relevance {
+          Value: "mc:eproxyrelevance:high"
         }
-        ParentId: 15477658573305039755
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Object"
-            ObjectReference {
-              SubObjectId: 3388672417327577690
-            }
-          }
-          Overrides {
-            Name: "cs:DelayTime"
-            Float: 0.5
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 4310254455220395843
-          }
-        }
-      }
-      Objects {
-        Id: 3388672417327577690
-        Name: "Bullet Shell Casing Drop Set 01 SFX"
-        Transform {
-          Location {
-            X: 50
-            Y: 75
-            Z: -100
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 15477658573305039755
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_bullet_shells_casings_drop_01:2"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 8678297403067758444
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 11069266415187801776
-      Name: "Generic Muzzleflash VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_generic_muzzleflash"
       }
     }
     Assets {
@@ -285,21 +162,12 @@
       }
     }
     Assets {
-      Id: 7795187591388094071
-      Name: "Shell Ejection VFX"
+      Id: 16322635077100878811
+      Name: "Generic Muzzleflash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_shell_ejection"
-      }
-    }
-    Assets {
-      Id: 8678297403067758444
-      Name: "Bullet Shell Casing Drop Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_bullet_shell_casings_drop_ref"
+        AssetId: "fxbp_generic_muzzleflash"
       }
     }
     PrimaryAssetId {
@@ -307,5 +175,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

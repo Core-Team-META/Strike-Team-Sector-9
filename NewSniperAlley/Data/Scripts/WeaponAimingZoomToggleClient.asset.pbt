@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16145975224884401916
   Name: "WeaponAimingZoomToggleClient"
   PlatformAssetType: 3
@@ -19,5 +19,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

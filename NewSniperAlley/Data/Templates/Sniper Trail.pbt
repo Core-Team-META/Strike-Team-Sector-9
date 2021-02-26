@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5827782117553591009
   Name: "Sniper Trail"
   PlatformAssetType: 5
@@ -110,6 +110,9 @@
             AutoPlay: true
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -126,5 +129,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

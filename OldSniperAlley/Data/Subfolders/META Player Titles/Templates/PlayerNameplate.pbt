@@ -81,6 +81,7 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -114,6 +115,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -155,6 +158,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -193,6 +198,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -231,6 +238,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -269,6 +278,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -309,6 +320,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -350,6 +363,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -388,6 +403,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -426,6 +443,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -464,6 +483,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -505,6 +526,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -546,6 +569,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -584,6 +609,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -622,6 +649,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -660,6 +689,8 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Text {
+          FontAsset {
+          }
           Color {
             A: 1
           }
@@ -748,6 +779,7 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -799,6 +831,7 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -838,5 +871,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

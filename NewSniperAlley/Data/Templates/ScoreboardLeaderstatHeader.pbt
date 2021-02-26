@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 397569832168989839
+Assets {
+  Id: 1932674136380284570
   Name: "ScoreboardLeaderstatHeader"
   PlatformAssetType: 5
   TemplateAsset {
@@ -45,6 +45,8 @@
               Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -66,5 +68,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

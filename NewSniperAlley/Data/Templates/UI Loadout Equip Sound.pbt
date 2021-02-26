@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15789926087455707872
   Name: "UI Loadout Equip Sound"
   PlatformAssetType: 5
@@ -48,5 +48,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

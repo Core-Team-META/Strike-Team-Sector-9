@@ -1,14 +1,11 @@
-﻿Assets {
+Assets {
   Id: 3782352254596838357
   Name: "Scope Glass Material"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 16845241941935487831
     ParameterOverrides {
-      Overrides {
-        Float: 0
-      }
       Overrides {
         Name: "Specular"
         Float: 0.407395124

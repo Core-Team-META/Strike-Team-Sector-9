@@ -1,27 +1,52 @@
-﻿Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
+Assets {
+  Id: 10271821231561790687
+  Name: "Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "71e08e50f9394b8fb68ec3586912de31"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
+  Id: 7844212678526986406
+  Name: "Loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
+  Id: 7292900206551466579
+  Name: "Stats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "9c28804fd45342228835d004da0e503a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 5646419812666555425
+  Name: "LifeTime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
   }
 }

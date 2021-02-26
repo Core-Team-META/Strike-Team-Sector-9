@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2020 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -29,11 +29,11 @@ if not WEAPON:IsA('Weapon') then
 end
 
 -- Exposed variables --
-local STAND_PRECISION = WEAPON:GetCustomProperty("SpreadStandPrecision")
-local WALK_PRECISION = WEAPON:GetCustomProperty("SpreadWalkPrecision")
-local JUMP_PRECISION = WEAPON:GetCustomProperty("SpreadJumpPrecision")
-local CROUCH_PRECISION = WEAPON:GetCustomProperty("SpreadCrouchPrecision")
-local AIM_PRECISION_BONUS = WEAPON:GetCustomProperty("SpreadAimModifierBonus")
+local STAND_PRECISION = script:GetCustomProperty("SpreadStandPrecision")
+local WALK_PRECISION = script:GetCustomProperty("SpreadWalkPrecision")
+local JUMP_PRECISION = script:GetCustomProperty("SpreadJumpPrecision")
+local CROUCH_PRECISION = script:GetCustomProperty("SpreadCrouchPrecision")
+local AIM_PRECISION_BONUS = script:GetCustomProperty("SpreadAimModifierBonus")
 
 -- Constatnt variables
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -89,6 +89,7 @@ function Tick()
     end
     -- Adjust the player spread modify gradually over time
     newSpreadModifyValue = spreadDelta * (1 - newSpreadModifyValue)
+    newSpreadModifyValue =  newSpreadModifyValue * (player.clientUserData.SpreadModifier  or 1)
     player.spreadModifier = GetSmoothValue(player.spreadModifier, newSpreadModifyValue)
 end
 
@@ -96,11 +97,11 @@ function GetSmoothValue(from, number)
     return CoreMath.Lerp(from, number, WEAPON.spreadDecreaseSpeed/100)
 end
 
-function OnWeaponAimChanged(aimingPlayer, aimingStatus)
+function OnWeaponAimChanged(_, aimingStatus)
     if not Object.IsValid(WEAPON) then return end
 
     -- Caches the local player aiming status
-    if aimingPlayer == WEAPON.owner then
+    if player == WEAPON.owner then
         isAiming = aimingStatus
     end
 end

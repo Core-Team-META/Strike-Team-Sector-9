@@ -2,7 +2,7 @@ Assets {
   Id: 5133326972847505510
   Name: "Custom Stucco Wall"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 13174009668515209438
     ParameterOverrides {

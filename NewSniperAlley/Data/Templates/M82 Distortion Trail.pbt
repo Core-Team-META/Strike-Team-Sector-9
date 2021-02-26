@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 4666476204708905959
   Name: "M82 Distortion Trail"
   PlatformAssetType: 5
@@ -109,6 +109,9 @@
             AutoPlay: true
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 13607464596104955631
@@ -160,6 +163,9 @@
             AutoPlay: true
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -185,5 +191,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

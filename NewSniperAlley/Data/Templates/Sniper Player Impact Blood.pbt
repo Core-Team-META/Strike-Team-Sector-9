@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 5951340069238290564
   Name: "Sniper Player Impact Blood"
   PlatformAssetType: 5
@@ -81,6 +81,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -187,5 +190,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

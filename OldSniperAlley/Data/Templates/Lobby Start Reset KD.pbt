@@ -70,5 +70,5 @@ Assets {
       AssetId: "Lobby_Start_Reset_KD"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

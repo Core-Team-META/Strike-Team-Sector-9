@@ -2,7 +2,7 @@ Assets {
   Id: 90360518583526089
   Name: "Construction bricks normal"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 4111036502078940015
     ParameterOverrides {

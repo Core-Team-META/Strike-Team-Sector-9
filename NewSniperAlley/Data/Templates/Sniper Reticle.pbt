@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14147161957281691847
   Name: "Sniper Reticle"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4899860569401700481
+        ParentId: 4781671109827199097
         ChildIds: 6092416372630632711
         ChildIds: 7375051925608214880
         UnregisteredParameters {
@@ -27,11 +27,8 @@
             Name: "cs:StartAngle"
             Float: 90
           }
-          Overrides {
-            Name: "cs:HideOnSprint"
-            Bool: true
-          }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -89,6 +86,7 @@
             }
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -126,8 +124,9 @@
         ChildIds: 8505768246690446730
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -153,6 +152,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -210,6 +210,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -218,7 +219,7 @@
         }
         Control {
           Width: 20
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -232,7 +233,7 @@
               R: 1
               G: 1
               B: 1
-              A: 0.7
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -267,6 +268,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -323,6 +325,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -331,7 +334,7 @@
         }
         Control {
           Width: 20
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -345,7 +348,7 @@
               R: 1
               G: 1
               B: 1
-              A: 0.7
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -379,6 +382,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -435,6 +439,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -443,7 +448,7 @@
         }
         Control {
           Width: 20
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -457,7 +462,7 @@
               R: 1
               G: 1
               B: 1
-              A: 0.7
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -491,6 +496,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -547,6 +553,7 @@
         ParentId: 7375051925608214880
         UnregisteredParameters {
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -555,7 +562,7 @@
         }
         Control {
           Width: 20
-          Height: 1
+          Height: 2
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -569,7 +576,7 @@
               R: 1
               G: 1
               B: 1
-              A: 0.7
+              A: 0.8
             }
           }
           AnchorLayout {
@@ -610,5 +617,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

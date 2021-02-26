@@ -314,5 +314,5 @@ Assets {
       AssetId: "Compass"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

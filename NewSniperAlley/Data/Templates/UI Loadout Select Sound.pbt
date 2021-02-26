@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8912642276523541543
   Name: "UI Loadout Select Sound"
   PlatformAssetType: 5
@@ -48,5 +48,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

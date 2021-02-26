@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2531070360907569321
   Name: "MovementServer"
   PlatformAssetType: 3
@@ -11,5 +11,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

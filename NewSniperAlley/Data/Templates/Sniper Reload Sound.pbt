@@ -1,12 +1,12 @@
-﻿Assets {
-  Id: 8789360442987623158
+Assets {
+  Id: 8544973748730250786
   Name: "Sniper Reload Sound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 487072674763529293
+      RootId: 885681776955048119
       Objects {
-        Id: 487072674763529293
+        Id: 885681776955048119
         Name: "Sniper Reload Sound"
         Transform {
           Scale {
@@ -15,11 +15,40 @@
             Z: 1
           }
         }
-        ParentId: 14093591283607499813
-        ChildIds: 13994950373992553279
+        ParentId: 4781671109827199097
+        ChildIds: 11678038020303426565
         UnregisteredParameters {
         }
-        Lifespan: 2
+        Lifespan: 0.5
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11678038020303426565
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 885681776955048119
+        ChildIds: 18096977053309451830
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -31,7 +60,7 @@
         }
       }
       Objects {
-        Id: 13994950373992553279
+        Id: 18096977053309451830
         Name: "Gun Weapon Reload Set 01 SFX"
         Transform {
           Location {
@@ -44,7 +73,7 @@
             Z: 1
           }
         }
-        ParentId: 487072674763529293
+        ParentId: 11678038020303426565
         UnregisteredParameters {
           Overrides {
             Name: "bp:Type"
@@ -66,8 +95,9 @@
           AudioBP {
             AutoPlay: true
             Volume: 1
-            Falloff: 1400
-            Radius: 400
+            Falloff: 1000
+            Radius: 100
+            EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
@@ -88,5 +118,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

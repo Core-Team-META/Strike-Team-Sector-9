@@ -1,12 +1,12 @@
-﻿Assets {
+Assets {
   Id: 18403044146386498216
   Name: "Grenade Explosion Projectile Impact"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 3631816468235174342
+      RootId: 3547787129964795936
       Objects {
-        Id: 3631816468235174342
+        Id: 3547787129964795936
         Name: "Grenade Explosion Projectile Impact"
         Transform {
           Scale {
@@ -15,13 +15,42 @@
             Z: 1
           }
         }
-        ParentId: 14093591283607499813
+        ParentId: 4781671109827199097
+        ChildIds: 3631816468235174342
+        UnregisteredParameters {
+        }
+        Lifespan: 6
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3631816468235174342
+        Name: "Client Context"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3547787129964795936
         ChildIds: 8294218620204688349
         ChildIds: 15578947255402770909
         ChildIds: 6403277457468986457
         UnregisteredParameters {
         }
-        Lifespan: 5
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -59,7 +88,7 @@
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 2
+            Float: 1.5
           }
         }
         Collidable_v2 {
@@ -78,6 +107,9 @@
             AutoPlay: true
           }
         }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15578947255402770909
@@ -88,28 +120,16 @@
           Rotation {
           }
           Scale {
-            X: 2.00000024
-            Y: 2.00000024
-            Z: 2.00000024
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
           }
         }
         ParentId: 3631816468235174342
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Enable Flash"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Light"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Fire"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Smoke"
-            Bool: true
+            Name: "bp:Light Brightness Multiplier"
+            Float: 0.06
           }
         }
         Collidable_v2 {
@@ -127,6 +147,9 @@
           Vfx {
             AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -189,7 +212,7 @@
           AudioBP {
             AutoPlay: true
             Volume: 1
-            Falloff: 10000
+            Falloff: 15000
             Radius: 400
             EnableOcclusion: true
             IsSpatializationEnabled: true
@@ -230,5 +253,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

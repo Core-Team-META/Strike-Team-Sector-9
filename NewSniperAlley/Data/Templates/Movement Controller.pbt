@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 7269106062537390572
   Name: "Movement Controller"
   PlatformAssetType: 5
@@ -193,5 +193,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

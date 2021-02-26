@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 9707940006251687899
   Name: "Knife"
   PlatformAssetType: 5
@@ -481,6 +481,7 @@
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -540,6 +541,7 @@
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -741,5 +743,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

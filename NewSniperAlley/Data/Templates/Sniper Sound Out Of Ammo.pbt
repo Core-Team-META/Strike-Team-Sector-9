@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 16206631969917829710
   Name: "Sniper Sound Out Of Ammo"
   PlatformAssetType: 5
@@ -124,5 +124,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

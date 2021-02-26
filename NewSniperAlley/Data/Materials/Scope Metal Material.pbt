@@ -1,8 +1,8 @@
-﻿Assets {
+Assets {
   Id: 12828439768393304099
   Name: "Scope Metal Material"
   PlatformAssetType: 13
-  SerializationVersion: 68
+  SerializationVersion: 77
   CustomMaterialAsset {
     BaseMaterialId: 13817732287301134308
     ParameterOverrides {

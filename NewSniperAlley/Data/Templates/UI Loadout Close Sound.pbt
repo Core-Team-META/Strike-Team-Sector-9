@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2565361932759410874
   Name: "UI Loadout Close Sound"
   PlatformAssetType: 5
@@ -48,5 +48,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

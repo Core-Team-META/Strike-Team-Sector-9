@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12875714967131619237
   Name: "WeaponAimingToggleClient"
   PlatformAssetType: 3
@@ -23,5 +23,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 1388850750649787194
+Assets {
+  Id: 12110771893887422485
   Name: "Game State Display"
   PlatformAssetType: 5
   TemplateAsset {
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4153407088614009222
+        ParentId: 1519193322060715142
         ChildIds: 1605561193072132470
         UnregisteredParameters {
           Overrides {
@@ -28,23 +28,11 @@
           }
           Overrides {
             Name: "cs:ShowDuringRound"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:ShowDuringRoundEnd"
             Bool: true
-          }
-          Overrides {
-            Name: "cs:LobbyText"
-            String: "LOBBY"
-          }
-          Overrides {
-            Name: "cs:RoundText"
-            String: "FIRST 10 KILLS WINS!"
-          }
-          Overrides {
-            Name: "cs:RoundEndText"
-            String: "ROUND ENDED"
           }
           Overrides {
             Name: "cs:ShowStateName:tooltip"
@@ -103,7 +91,7 @@
       }
       Objects {
         Id: 11701566102101910365
-        Name: "GameStateDisplayClient"
+        Name: "GameStateRoundTimeDisplayClient"
         Transform {
           Location {
           }
@@ -120,7 +108,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 11974742996071064388
+              Id: 1850528848628444034
             }
           }
           Overrides {
@@ -156,7 +144,7 @@
       }
       Objects {
         Id: 6621926890735536071
-        Name: "Canvas"
+        Name: "UI Container"
         Transform {
           Location {
           }
@@ -203,7 +191,6 @@
           }
         }
         ParentId: 6621926890735536071
-        ChildIds: 7108544572174764075
         ChildIds: 6092631959476493595
         ChildIds: 3299506318204361248
         UnregisteredParameters {
@@ -215,9 +202,10 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 400
-          Height: 70
-          UIY: 25
+          Width: 200
+          Height: 50
+          UIX: -15
+          UIY: -1015
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -228,72 +216,12 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:bottomright"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7108544572174764075
-        Name: "UI Image"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13474914646443004031
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: -100
-          Height: 80
-          UIY: -15
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 10889678778383508688
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 0.7
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:bottomright"
               }
             }
           }
@@ -324,15 +252,16 @@
         }
         Control {
           Width: 100
-          Height: 40
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           UseParentWidth: true
+          UseParentHeight: true
           Text {
-            Label: "GAME STATE"
+            Label: "State"
             Color {
               R: 1
               G: 1
@@ -341,19 +270,21 @@
             }
             Size: 20
             Justification {
-              Value: "mc:etextjustify:center"
+              Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -384,14 +315,14 @@
         }
         Control {
           Width: 100
-          Height: 25
-          UIY: -5
+          Height: 60
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           UseParentWidth: true
+          UseParentHeight: true
           Text {
             Label: "00:00"
             Color {
@@ -400,34 +331,27 @@
               B: 1
               A: 1
             }
-            Size: 17
+            Size: 20
             Justification {
-              Value: "mc:etextjustify:center"
+              Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 10889678778383508688
-      Name: "Sci-fi Frame 009"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Frame_010"
       }
     }
     PrimaryAssetId {
@@ -435,5 +359,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

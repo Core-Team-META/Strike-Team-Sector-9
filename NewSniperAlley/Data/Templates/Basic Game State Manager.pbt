@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 11213207951554462376
+Assets {
+  Id: 3683989391263939746
   Name: "Basic Game State Manager"
   PlatformAssetType: 5
   TemplateAsset {
@@ -15,17 +15,17 @@
             Z: 1
           }
         }
-        ParentId: 12760770767779893599
+        ParentId: 15560188646105002552
         ChildIds: 17454989556266754053
         ChildIds: 17734718294272544408
         UnregisteredParameters {
           Overrides {
             Name: "cs:LobbyHasDuration"
-            Bool: true
+            Bool: false
           }
           Overrides {
             Name: "cs:LobbyDuration"
-            Float: 30
+            Float: 20
           }
           Overrides {
             Name: "cs:RoundHasDuration"
@@ -33,7 +33,7 @@
           }
           Overrides {
             Name: "cs:RoundDuration"
-            Float: 600
+            Float: 120
           }
           Overrides {
             Name: "cs:RoundEndHasDuration"
@@ -41,7 +41,7 @@
           }
           Overrides {
             Name: "cs:RoundEndDuration"
-            Float: 10
+            Float: 5
           }
           Overrides {
             Name: "cs:LobbyHasDuration:tooltip"
@@ -97,7 +97,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 11974742996071064388
+              Id: 1850528848628444034
             }
           }
           Overrides {
@@ -173,7 +173,7 @@
       }
       Objects {
         Id: 7470680187010079913
-        Name: "BasicGameStateManagerClient"
+        Name: "GameStateManagerClient"
         Transform {
           Location {
           }
@@ -190,19 +190,13 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 11974742996071064388
+              Id: 1850528848628444034
             }
           }
           Overrides {
             Name: "cs:ServerScript"
             ObjectReference {
               SubObjectId: 17454989556266754053
-            }
-          }
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 16086570097188718822
             }
           }
         }
@@ -214,7 +208,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 13768914357262734965
+            Id: 18347967775460952926
           }
         }
       }
@@ -224,5 +218,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

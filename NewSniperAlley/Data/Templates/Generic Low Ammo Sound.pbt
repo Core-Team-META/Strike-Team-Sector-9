@@ -1,12 +1,12 @@
-﻿Assets {
+Assets {
   Id: 16064653477604779480
   Name: "Generic Low Ammo Sound"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16196546363947031314
+      RootId: 1075979780911459583
       Objects {
-        Id: 16196546363947031314
+        Id: 1075979780911459583
         Name: "Generic Low Ammo Sound"
         Transform {
           Scale {
@@ -16,10 +16,39 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 4574798814266286760
+        ChildIds: 16196546363947031314
         UnregisteredParameters {
         }
         Lifespan: 2
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 16196546363947031314
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1075979780911459583
+        ChildIds: 4574798814266286760
+        UnregisteredParameters {
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -75,7 +104,7 @@
     }
     Assets {
       Id: 6491078578190431103
-      Name: "Gunshot Assualt Rifle AK Set 01 SFX"
+      Name: "Gunshot Assault Rifle AK Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -87,5 +116,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

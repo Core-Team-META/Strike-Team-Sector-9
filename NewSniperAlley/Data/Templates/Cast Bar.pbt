@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13708965621987629232
   Name: "Cast Bar"
   PlatformAssetType: 5
@@ -339,6 +339,8 @@
               Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -360,5 +362,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

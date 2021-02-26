@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 3924777449802135546
   Name: "Helper_LoadoutStatsPanel"
   PlatformAssetType: 5
@@ -115,6 +115,8 @@
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -174,6 +176,8 @@
               Value: "mc:etextjustify:right"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -255,5 +259,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

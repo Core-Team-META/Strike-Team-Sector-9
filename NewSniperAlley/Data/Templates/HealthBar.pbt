@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2594737190888074108
   Name: "HealthBar"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 3542647966778852427
+        ParentId: 14560643965801980386
         ChildIds: 11998222910335367302
         UnregisteredParameters {
           Overrides {
@@ -29,10 +29,6 @@
           Overrides {
             Name: "cs:ShowAmmo"
             Bool: true
-          }
-          Overrides {
-            Name: "cs:AmmoTypeFilter"
-            String: "rounds"
           }
           Overrides {
             Name: "cs:ShowNumber:tooltip"
@@ -101,7 +97,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 14633632985083390763
+              Id: 11640028631574086095
             }
           }
           Overrides {
@@ -208,7 +204,9 @@
           }
         }
         ParentId: 16216112337715104375
+        ChildIds: 2122568507985227842
         ChildIds: 10854241257423548620
+        ChildIds: 13903505791324495437
         ChildIds: 59732826306283420
         UnregisteredParameters {
         }
@@ -219,8 +217,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 300
-          Height: 33
+          Width: 400
+          Height: 84
           UIX: 40
           UIY: -50
           RenderTransformPivot {
@@ -245,127 +243,6 @@
         }
       }
       Objects {
-        Id: 10854241257423548620
-        Name: "ProgressBar"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: 5.03726405e-05
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12618683415422377385
-        ChildIds: 10517258386224980325
-        ChildIds: 2122568507985227842
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 372
-          Height: 25
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          StatBar {
-            Color {
-              G: 0.76
-              B: 0.00503314
-              A: 1
-            }
-            BackgroundColor {
-              R: 0.01
-              G: 0.01
-              B: 0.01
-              A: 0.7
-            }
-            Percent: 0.5
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10517258386224980325
-        Name: "UI Image"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10854241257423548620
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 200
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 6904506121435638997
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
         Id: 2122568507985227842
         Name: "TextBox"
         Transform {
@@ -383,7 +260,7 @@
             Z: 1
           }
         }
-        ParentId: 10854241257423548620
+        ParentId: 12618683415422377385
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -393,39 +270,166 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: -25
-          Height: -3
+          Width: 200
+          Height: 44
+          UIY: 25
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
-          UseParentHeight: true
           Text {
-            Label: "100"
+            Label: "HealthValue"
             Color {
               R: 1
               G: 1
               B: 1
-              A: 1
+              A: 0.7
             }
-            Size: 11
+            Size: 18
             Justification {
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10854241257423548620
+        Name: "ProgressBar"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 5.03726405e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12618683415422377385
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 372
+          Height: 20
+          UIX: -14
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          StatBar {
+            Color {
+              R: 0.20688729
+              G: 0.710000038
+              A: 1
+            }
+            BackgroundColor {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13903505791324495437
+        Name: "TextBox"
+        Transform {
+          Location {
+            X: -214.259048
+            Y: -409.173462
+            Z: -1242.27026
+          }
+          Rotation {
+            Yaw: 13.4324617
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12618683415422377385
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 44
+          UIX: -94
+          UIY: 24
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Health: "
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.7
+            }
+            Size: 18
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            ClipTextToSize: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -446,8 +450,8 @@
           }
         }
         ParentId: 12618683415422377385
+        ChildIds: 2139262766837285193
         ChildIds: 13562594414894203653
-        ChildIds: 8473125584047666989
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -458,8 +462,9 @@
         }
         Control {
           Width: 200
-          Height: 35
-          UIX: -5
+          Height: 40
+          UIX: -10
+          UIY: -70
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -475,7 +480,74 @@
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2139262766837285193
+        Name: "TextBox"
+        Transform {
+          Location {
+            X: -214.259048
+            Y: -409.173462
+            Z: -1242.27026
+          }
+          Rotation {
+            Yaw: 13.4325018
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 59732826306283420
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 44
+          UIX: 17
+          UIY: 10
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Ammo: "
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.7
+            }
+            Size: 18
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            ClipTextToSize: true
+            Font {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -509,119 +581,44 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 120
-          Height: 60
-          UIX: 55
-          UIY: 5
+          Width: 200
+          Height: 44
+          UIX: 110
+          UIY: 10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          UseParentWidth: true
-          UseParentHeight: true
           Text {
-            Label: "AMMO"
+            Label: "AmmoValue"
             Color {
               R: 1
               G: 1
               B: 1
               A: 0.7
             }
-            Size: 15
+            Size: 18
             Justification {
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8473125584047666989
-        Name: "UI Image"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 59732826306283420
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 35
-          Height: 35
-          UIX: 10
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 13792699748244539037
-            }
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            TeamSettings {
+            Font {
             }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 6904506121435638997
-      Name: "UI Basic Frame 001"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Basic_Frame_001"
-      }
-    }
-    Assets {
-      Id: 13792699748244539037
-      Name: "Icon Ammo"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Ammo"
       }
     }
     PrimaryAssetId {
@@ -629,5 +626,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

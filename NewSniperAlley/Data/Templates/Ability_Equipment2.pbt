@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2562805716718381916
   Name: "Ability_Equipment2"
   PlatformAssetType: 5
@@ -84,5 +84,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -172,6 +172,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -230,6 +232,8 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -260,5 +264,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

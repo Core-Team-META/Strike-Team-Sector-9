@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15439020698300454081
   Name: "EquipmentLoadoutDisplayClient"
   PlatformAssetType: 3
@@ -54,5 +54,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

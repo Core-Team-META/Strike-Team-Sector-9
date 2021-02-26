@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 17581269583555298765
   Name: "Ability_NextEquipment"
   PlatformAssetType: 5
@@ -84,5 +84,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

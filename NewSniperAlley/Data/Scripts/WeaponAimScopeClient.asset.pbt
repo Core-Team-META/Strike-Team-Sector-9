@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13511250510657008800
   Name: "WeaponAimScopeClient"
   PlatformAssetType: 3
@@ -21,5 +21,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

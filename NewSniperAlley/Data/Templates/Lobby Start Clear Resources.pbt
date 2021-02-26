@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 2331218049952169965
   Name: "Lobby Start Clear Resources"
   PlatformAssetType: 5
@@ -84,5 +84,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 8113725433182133795
   Name: "Grenade Muzzle Flash"
   PlatformAssetType: 5
@@ -19,6 +19,7 @@
         ChildIds: 14400253843638661859
         UnregisteredParameters {
         }
+        Lifespan: 1
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -155,5 +156,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

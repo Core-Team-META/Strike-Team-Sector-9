@@ -1,5 +1,5 @@
-﻿Assets {
-  Id: 7238539448231204938
+Assets {
+  Id: 10226583373665735959
   Name: "Round Kill Limit"
   PlatformAssetType: 5
   TemplateAsset {
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 14612505551008999114
+        ParentId: 10412379021265105746
         ChildIds: 9244366846504141008
         UnregisteredParameters {
           Overrides {
@@ -23,20 +23,8 @@
             Int: 10
           }
           Overrides {
-            Name: "cs:Resource"
-            String: "Wins"
-          }
-          Overrides {
-            Name: "cs:EventDelay"
-            Float: 2
-          }
-          Overrides {
             Name: "cs:KillLimit:tooltip"
-            String: "When a team reaches this many points, the round ends"
-          }
-          Overrides {
-            Name: "cs:EventDelay:tooltip"
-            String: "Delay before the victory announcer sends the victory event."
+            String: "When a player reaches this many points, the round ends."
           }
         }
         Collidable_v2 {
@@ -68,7 +56,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 11974742996071064388
+              Id: 1850528848628444034
             }
           }
           Overrides {
@@ -96,5 +84,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

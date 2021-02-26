@@ -339,6 +339,8 @@ Assets {
               Value: "mc:etextjustify:center"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -360,5 +362,5 @@ Assets {
       AssetId: "Cast_Bar"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

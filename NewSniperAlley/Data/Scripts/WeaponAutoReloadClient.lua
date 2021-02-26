@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -27,13 +27,10 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local RELOAD_ABILITY = WEAPON:GetAbilities()[2]
 
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.Ammo do Task.Wait() end
 -- Grabs ability again from weapon in case the client hasn't loaded the object yet
-while not Object.IsValid(RELOAD_ABILITY) do
-    Task.Wait()
-    RELOAD_ABILITY = WEAPON:GetAbilities()[2]
-end
 
 -- Exposed properties
 local AUTO_RELOAD = WEAPON:GetCustomProperty("EnableAutoReload")
@@ -42,46 +39,50 @@ local AUTO_RELOAD = WEAPON:GetCustomProperty("EnableAutoReload")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local autoReloaded = false
 
+
 -- Manually spawn the reloading audio
 function SpawnReloadingAudio()
-    if WEAPON.reloadSoundId then
+    if WEAPON.reloadSoundId ~= nil then
         World.SpawnAsset(WEAPON.reloadSoundId, {position = WEAPON:GetWorldPosition()})
     end
 end
 
-function Tick(deltaTime)
+function Reload()
 
     -- If auto reload is not actiavted ignore the script
     if not AUTO_RELOAD then return end
 
     -- Makes sure that the weapon owner is the local player
     if not Object.IsValid(WEAPON) then return end
-    if not Object.IsValid(RELOAD_ABILITY) then return end
-    if WEAPON.owner ~= LOCAL_PLAYER then return end
+    if WEAPON.owner ~= LOCAL_PLAYER or not WEAPON.clientUserData.RELOAD_ABILITY.owner == LOCAL_PLAYER  then return end
 
-    if not WEAPON.isAmmoFinite then
         -- Checks when the weapon has empty ammo to reload
-        if WEAPON.currentAmmo == 0
+        if WEAPON.clientUserData.Ammo == 0
         and not autoReloaded then
+            WEAPON.clientUserData.RELOAD_ABILITY:Activate()
             SpawnReloadingAudio()
-            RELOAD_ABILITY:Activate()
             autoReloaded = true
-            Task.Wait(RELOAD_ABILITY.castPhaseSettings.duration)
+            Task.Wait(WEAPON.clientUserData.RELOAD_ABILITY.castPhaseSettings.duration)
         end
 
         -- Interrupts the reloading animation,
         -- If the weapon is in different state and the ammo is not empty
-        if WEAPON.currentAmmo > 0
-        and RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY
+        if WEAPON.clientUserData.Ammo > 0
+        and WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() ~= AbilityPhase.READY
         and autoReloaded then
-            RELOAD_ABILITY:Interrupt()
+            WEAPON.clientUserData.RELOAD_ABILITY:Interrupt()
+            autoReloaded = false
+        end
+        
+        -- Reset autoReloaded bool on ready phase
+        if WEAPON.clientUserData.RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY
+        and autoReloaded then
             autoReloaded = false
         end
 
-        -- Reset autoReloaded bool on ready phase
-        if RELOAD_ABILITY:GetCurrentPhase() == AbilityPhase.READY
-        and autoReloaded then
-            autoReloaded = false
-        end
-    end
+end
+
+function Tick( )
+    Reload()
+    Task.Wait()
 end

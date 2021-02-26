@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1668896259630592055
   Name: "Knife Sound Pickup"
   PlatformAssetType: 5
@@ -126,5 +126,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

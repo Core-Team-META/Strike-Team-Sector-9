@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12523150062194003944
   Name: "EquipmentLoadoutSlot"
   PlatformAssetType: 3
@@ -20,5 +20,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

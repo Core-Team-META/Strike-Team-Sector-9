@@ -436,10 +436,43 @@ Objects {
   }
 }
 Objects {
-  Id: 6164072797569602487
-  Name: "Map"
+  Id: 13331721803363029510
+  Name: "SniperAlley_OriginalMapExport"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14093591283607499813
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15840565595015858257
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SniperAlley_OriginalMapExport"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8813260060497387525
+    }
+  }
+}
+Objects {
+  Id: 8897455647238802618
+  Name: "Terrain"
   Transform {
     Location {
+      Z: -2230
     }
     Rotation {
     }
@@ -453,14 +486,18 @@ Objects {
   UnregisteredParameters {
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Map"
+  Terrain {
+    Material {
+      Id: 15655408216294861166
+    }
+    VoxelSize: 700
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED:{\"ver\":2,\"gen\":\"heightmap_distant\",\"save\":\"terrain_02.vox\",\"params\":{\"HeightOffset\":\"0.0\",\"HeightScale\":\"0.4\"}}"
   }
 }
 Objects {

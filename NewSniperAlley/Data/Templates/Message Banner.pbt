@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 6039822344767593962
   Name: "Message Banner"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4153407088614009222
+        ParentId: 4113106027073691432
         ChildIds: 11273653940987149079
         UnregisteredParameters {
           Overrides {
@@ -186,7 +186,6 @@
           }
         }
         ParentId: 13042368893488459696
-        ChildIds: 17542670235592444785
         ChildIds: 2215929790428371099
         UnregisteredParameters {
         }
@@ -197,9 +196,9 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 800
-          Height: 90
-          UIY: -300
+          Width: 600
+          Height: 100
+          UIY: 190
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -210,67 +209,12 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17542670235592444785
-        Name: "Background"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13469228761640500648
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 200
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 2896317386107075320
-            }
-            Color {
-              A: 0.7
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -307,8 +251,6 @@
               Value: "mc:euianchor:middlecenter"
             }
           }
-          UseParentWidth: true
-          UseParentHeight: true
           Text {
             Label: "Message Banner"
             Color {
@@ -317,11 +259,13 @@
               B: 1
               A: 1
             }
-            Size: 39
+            Size: 45
             Justification {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -363,8 +307,8 @@
         }
         Control {
           Width: 400
-          Height: 45
-          UIY: -230
+          Height: 50
+          UIY: 150
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -375,12 +319,12 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -417,21 +361,21 @@
               Value: "mc:euianchor:middlecenter"
             }
           }
-          UseParentWidth: true
-          UseParentHeight: true
           Text {
-            Label: "YOU ELIMINATED {name}!"
+            Label: "You eliminated {name}!"
             Color {
               R: 1
               G: 1
               B: 1
-              A: 0.7
+              A: 1
             }
-            Size: 22
+            Size: 24
             Justification {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -448,19 +392,10 @@
         }
       }
     }
-    Assets {
-      Id: 2896317386107075320
-      Name: "UI Gradient Circular 001"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Basic_Shape_001"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

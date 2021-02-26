@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -31,6 +31,7 @@ local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
+local WEAPON_TYPE = WEAPON:GetCustomProperty("WeaponType")
 
 -- Exposed variables
 local FRIENDLY_EXPLOSION = WEAPON:GetCustomProperty("FriendlyExplosionDamage")
@@ -61,20 +62,21 @@ function Blast(center)
 
     local players = Game.FindPlayersInSphere(center, EXPLOSION_RADIUS)
     for _, player in pairs(players) do
-
-        -- Shake the camera within range
-        Events.BroadcastToPlayer(player, "StartCameraShake", 2)
-
         local canDamage = false
 
         -- Checks to blast the enemy team
         if Teams.AreTeamsEnemies(player.team, WEAPON.owner.team) then
             canDamage = true
+
+
         -- Checks to blast the ally team (including damaging to self)
         elseif FRIENDLY_EXPLOSION then
             canDamage = true
         end
 
+        if WEAPON.owner == player then
+            canDamage = true
+        end
         -- If canDamage is true and there is no objects obstructing the explosion then damage the player
         if canDamage then
             local displacement = player:GetWorldPosition() - center
@@ -88,12 +90,12 @@ function Blast(center)
 
             -- Create damage information
             local damage = Damage.New(damageAmount)
-            damage.reason = DamageReason.COMBAT
             damage.sourcePlayer = WEAPON.owner
-            damage.sourceAbility = WEAPON:GetAbilities()[1]
+            damage.sourceAbility = WEAPON:FindDescendantByName("Throw")
 
             -- Apply damage to player
             player:ApplyDamage(damage)
+            Events.Broadcast("AS.PlayerDamaged", WEAPON.owner, player, WEAPON_TYPE, false)
 
             -- Create a direction at which the player is pushed away from the blast
             player:AddImpulse((displacement):GetNormalized() * player.mass * EXPLOSION_KNOCKBACK_SPEED)

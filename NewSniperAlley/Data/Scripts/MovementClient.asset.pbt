@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 15266428588988720739
   Name: "MovementClient"
   PlatformAssetType: 3
@@ -11,5 +11,5 @@
       }
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

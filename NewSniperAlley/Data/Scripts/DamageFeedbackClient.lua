@@ -18,90 +18,41 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 -- Internal custom properties
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local HIT_INDICATOR = script:GetCustomProperty("HitIndicator"):WaitForObject()
-local DEATH_INDICATOR = script:GetCustomProperty("DeathIndicator"):WaitForObject()
-local HEALTH_CHANGE_POST_PROCESS = script:GetCustomProperty("HealthChangePostProcess"):WaitForObject()
+local ReliableEvents =  require(script:GetCustomProperty("ReliableEvents"))
 
 -- User exposed properties
 local DAMAGE_TEXT_DURATION = COMPONENT_ROOT:GetCustomProperty("DamageTextDuration")
 local DAMAGE_TEXT_COLOR = COMPONENT_ROOT:GetCustomProperty("DamageTextColor")
-local SHOW_FLY_UP_TEXT = COMPONENT_ROOT:GetCustomProperty("ShowFlyUpText")
 local IS_BIG_TEXT = COMPONENT_ROOT:GetCustomProperty("DisplayBigText")
 local SHOW_HIT_FEEDBACK = COMPONENT_ROOT:GetCustomProperty("ShowHitFeedback")
-local SHOW_HEALTH_CHANGE_EFFECT = COMPONENT_ROOT:GetCustomProperty("ShowHealthChangeEffect")
+local SHOW_FLY_UP_TEXT = COMPONENT_ROOT:GetCustomProperty("ShowFlyUpText")
 local HIT_FEEDBACK_SOUND = COMPONENT_ROOT:GetCustomProperty("HitFeedbackSound"):WaitForObject()
 
 -- Constant variables
 local LOCAL_PLAYER = Game.GetLocalPlayer()
-local HIT_INDICATOR_DURATION = .5
-local HEALTH_CHANGE_EFFECT_DURATION = .8
 
-local effectStrength = 0.0
-local targetEffectStrength = 0
-local lastTime = 0
-
-function Tick()
-    local fraction = (time() - lastTime) / (HEALTH_CHANGE_EFFECT_DURATION / 2)
-    if fraction > 1 then
-        fraction = 1
-    elseif fraction < 0 then
-        fraction = 0
-    end
-
-    if targetEffectStrength == 1 then
-        effectStrength = CoreMath.Lerp(0, 1, fraction)
-    else
-        effectStrength = CoreMath.Lerp(1, 0, fraction)
-    end
-
-    HEALTH_CHANGE_POST_PROCESS:SetSmartProperty("Effect Strength", effectStrength)
-end
+-- Set indicator UI off at start
+HIT_INDICATOR.visibility = Visibility.FORCE_OFF
 
 -- nil TriggerHitIndicator()
--- Displays the hit indicator once local player hit an enemy
+-- Displays the the hit indicator for half a second
 function TriggerHitIndicator()
     HIT_INDICATOR.visibility = Visibility.INHERIT
-
-    Task.Wait(HIT_INDICATOR_DURATION)
-
+    Task.Wait(1)
     HIT_INDICATOR.visibility = Visibility.FORCE_OFF
-end
-
--- nil TriggerDeathIndicator()
--- Displays the death indicator once local player killed an enemy
-function TriggerDeathIndicator()
-    DEATH_INDICATOR.visibility = Visibility.INHERIT
-
-    Task.Wait(HIT_INDICATOR_DURATION)
-
-    DEATH_INDICATOR.visibility = Visibility.FORCE_OFF
-end
-
--- nil TriggerHitPostProcess(Color)
--- Displays the health change post process. Can represent increase or decrease in health.
-function TriggerHitPostProcess(color)
-    if not color then
-        color = Color.RED
-    end
-
-    HEALTH_CHANGE_POST_PROCESS:SetSmartProperty("Tint C", color)
-    lastTime = time()
-    targetEffectStrength = 1
-
-    Task.Wait(HEALTH_CHANGE_EFFECT_DURATION)
-
-    lastTime = time()
-    targetEffectStrength = 0
 end
 
 -- nil DisplayDamage(float, Player, Player)
 -- Displays the fly up text on source player the damage or
--- shows damage direction to the target player
+-- shows damage directin to the targt player
 function DisplayDamage(damage, targetPlayer, sourcePlayer)
 
     if sourcePlayer == LOCAL_PLAYER then
         if SHOW_FLY_UP_TEXT then
             -- Show fly up damage text on target player
-            UI.ShowFlyUpText(string.format("%.0f", damage), targetPlayer:GetWorldPosition(),
+            local CalcX = (math.random() + math.random(-2,0)) * 50
+            local HorizontalVec = ((LOCAL_PLAYER:GetViewWorldRotation() * Vector3.FORWARD) ^ Vector3.UP ) * CalcX
+            UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100 + HorizontalVec,
                 {duration = DAMAGE_TEXT_DURATION,
                 color = DAMAGE_TEXT_COLOR,
                 isBig = IS_BIG_TEXT})
@@ -113,29 +64,13 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
         end
 
         -- Show the hit indicator feedback for this damage
-        if SHOW_HIT_FEEDBACK and targetPlayer ~= LOCAL_PLAYER then
-            if targetPlayer.hitPoints <= damage then
-                TriggerDeathIndicator()
-            else
-                TriggerHitIndicator()
-            end
-        end
-
-        if targetPlayer == LOCAL_PLAYER then
-            if SHOW_HEALTH_CHANGE_EFFECT then
-                TriggerHitPostProcess(Color.RED)
-            end
+        if SHOW_HIT_FEEDBACK then
+            TriggerHitIndicator()
         end
     elseif targetPlayer == LOCAL_PLAYER then
         UI.ShowDamageDirection(sourcePlayer)
-
-        if SHOW_HEALTH_CHANGE_EFFECT then
-            TriggerHitPostProcess(Color.RED)
-        end
     end
 end
 
 -- Initialize
-Events.Connect("PD", DisplayDamage)
-
-HIT_INDICATOR.visibility = Visibility.FORCE_OFF
+Events.Connect("PlayerDamage_Internal", DisplayDamage)

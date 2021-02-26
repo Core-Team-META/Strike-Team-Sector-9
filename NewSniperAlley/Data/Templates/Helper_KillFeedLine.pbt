@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 1235385159574739258
   Name: "Helper_KillFeedLine"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4602020029702084272
+        ParentId: 12650245047976557178
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -25,8 +25,8 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 800
-          Height: 30
+          Width: 500
+          Height: 44
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -40,11 +40,12 @@
               B: 1
               A: 1
             }
-            Size: 15
+            Size: 20
             Justification {
               Value: "mc:etextjustify:right"
             }
-            ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -66,5 +67,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

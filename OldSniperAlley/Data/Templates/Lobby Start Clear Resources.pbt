@@ -84,5 +84,5 @@ Assets {
       AssetId: "Lobby_Start_Clear_Resources"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

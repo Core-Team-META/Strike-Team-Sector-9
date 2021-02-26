@@ -76,6 +76,8 @@ Assets {
         }
         Text {
           Text: "01"
+          FontAsset {
+          }
           Color {
             R: 0.783538043
             G: 0.701102138
@@ -118,6 +120,8 @@ Assets {
         }
         Text {
           Text: "abcdefghijklmnopqrstuvw"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -160,6 +164,8 @@ Assets {
         }
         Text {
           Text: "999.9M"
+          FontAsset {
+          }
           Color {
             G: 0.496933132
             B: 1
@@ -181,5 +187,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

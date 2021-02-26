@@ -254,6 +254,8 @@ Assets {
               Value: "mc:etextjustify:right"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -429,6 +431,8 @@ Assets {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -468,5 +472,5 @@ Assets {
       AssetId: "PlayerCountDisplay"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 77
 }

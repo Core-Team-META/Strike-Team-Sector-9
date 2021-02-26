@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 14189444608285287900
   Name: "Scoreboard (PlayerTitles)"
   PlatformAssetType: 5
@@ -633,6 +633,8 @@
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -750,6 +752,8 @@
               Value: "mc:etextjustify:left"
             }
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -910,5 +914,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }

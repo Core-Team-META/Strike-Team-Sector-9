@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -35,7 +35,6 @@ local CAN_AIM = WEAPON:GetCustomProperty("EnableAim")
 local AIM_BINDING = WEAPON:GetCustomProperty("AimBinding")
 local AIM_WALK_SPEED_PERCENTAGE = WEAPON:GetCustomProperty("AimWalkSpeedPercentage")
 local AIM_ACTIVE_STANCE = WEAPON:GetCustomProperty("AimActiveStance")
-local SPRINT_STANCE = WEAPON:GetCustomProperty("SprintStance")
 
 -- Internal variables --
 local speedReduced = 0                      -- Cache the amount of speed reduced from the player walk speed
@@ -47,8 +46,6 @@ local UNARMED_STANCE = "unarmed_stance"     -- Default stance when the weapon is
 -- Player states variables
 local isMounted = false
 local isAiming = false
-local isSprinting = false
-local currentStance = WEAPON.animationStance
 
 function Tick(deltaTime)
     -- The script can works when the weapon has the owner
@@ -64,49 +61,27 @@ function Tick(deltaTime)
         end
         isMounted = WEAPON.owner.isMounted
     end
-
-    if isSprinting and WEAPON.owner.isAccelerating then
-        currentStance = SPRINT_STANCE
-    else
-        if isAiming then
-            currentStance = AIM_ACTIVE_STANCE
-        else
-            currentStance = WEAPON.animationStance
-        end
-    end
-
-    if currentStance ~= WEAPON.owner.animationStance then
-        WEAPON.owner.animationStance = currentStance
-    end
 end
 
 -- Sets the speed when the player aims using speedReduced variable
 function SetAimingSpeed(player)
-    if Object.IsValid(player) and Object.IsValid(WEAPON) and player == WEAPON.owner then
+    if Object.IsValid(player) and player == WEAPON.owner then
         if not player.isMounted and speedReduced == 0 then
             speedReduced = player.maxWalkSpeed * AIM_WALK_SPEED_PERCENTAGE
-            if player.serverUserData.maxWalkSpeed then
-                player.maxWalkSpeed = player.serverUserData.maxWalkSpeed - speedReduced
-            else
-                player.maxWalkSpeed = player.maxWalkSpeed - speedReduced
-            end
+            player.maxWalkSpeed = player.maxWalkSpeed - speedReduced
         end
-        player.animationStance = currentStance
+        player.animationStance = AIM_ACTIVE_STANCE
     end
 end
 
 -- Resets the player speed to the current walk speed
 function ResetPlayerSpeed(player)
-    if Object.IsValid(player) and Object.IsValid(WEAPON) and player == WEAPON.owner then
+    if Object.IsValid(WEAPON) and Object.IsValid(player) then
         if not player.isMounted then
-            if player.serverUserData.maxWalkSpeed then
-                player.maxWalkSpeed = player.serverUserData.maxWalkSpeed
-            else
-                player.maxWalkSpeed = player.maxWalkSpeed + speedReduced
-            end
+            player.maxWalkSpeed = player.maxWalkSpeed + speedReduced
             speedReduced = 0
         end
-        player.animationStance = currentStance
+        player.animationStance = WEAPON.animationStance
     end
 end
 
@@ -151,20 +126,6 @@ function OnUnequipped(weapon, player)
     player.animationStance = UNARMED_STANCE
 end
 
-function UpdateWalkStance(player, states)
-    if not Object.IsValid(WEAPON) then return end
-    if WEAPON.owner ~= player then return end
-	local speedType = states.Running and "Run" or "Walk"
-
-    if speedType == "Run" then
-        isSprinting = true
-    else
-        isSprinting = false
-    end
-end
-
 -- Connecting weapon event to functions
 WEAPON.equippedEvent:Connect(OnEquipped)
 WEAPON.unequippedEvent:Connect(OnUnequipped)
-
-Events.ConnectForPlayer("ChangeMovementType", UpdateWalkStance)

@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 18196809568001063302
   Name: "Kill Indicator Message"
   PlatformAssetType: 5
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 3542647966778852427
+        ParentId: 4781671109827199097
         ChildIds: 10535396979737332761
         UnregisteredParameters {
           Overrides {
@@ -31,8 +31,32 @@
             Float: 1.8
           }
           Overrides {
+            Name: "cs:IconStartSize"
+            Int: 100
+          }
+          Overrides {
+            Name: "cs:IconEndSize"
+            Int: 45
+          }
+          Overrides {
+            Name: "cs:ComboCooldown"
+            Float: 10
+          }
+          Overrides {
             Name: "cs:IndicatorDuration:tooltip"
             String: "How long does the kill indicator shows up for th local player"
+          }
+          Overrides {
+            Name: "cs:IconStartSize:tooltip"
+            String: "Start size of kill indicator animation"
+          }
+          Overrides {
+            Name: "cs:IconEndSize:tooltip"
+            String: "End size of kill indicator animation"
+          }
+          Overrides {
+            Name: "cs:ComboCooldown:tooltip"
+            String: "Set the duration to count combos for local player"
           }
         }
         Collidable_v2 {
@@ -130,19 +154,13 @@
             }
           }
           Overrides {
-            Name: "cs:Panel"
+            Name: "cs:KillIcon"
             ObjectReference {
-              SubObjectId: 12570393415179122999
+              SubObjectId: 13643204286804738436
             }
           }
           Overrides {
-            Name: "cs:Background"
-            ObjectReference {
-              SubObjectId: 6196818834552286381
-            }
-          }
-          Overrides {
-            Name: "cs:KillCountLabel"
+            Name: "cs:KillComboLabel"
             ObjectReference {
               SubObjectId: 10626000548712262320
             }
@@ -175,7 +193,7 @@
           }
         }
         ParentId: 4958708832077241407
-        ChildIds: 6196818834552286381
+        ChildIds: 13643204286804738436
         ChildIds: 10626000548712262320
         UnregisteredParameters {
         }
@@ -183,12 +201,12 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 380
-          Height: 50
-          UIY: -90
+          Width: 200
+          Height: 100
+          UIY: 100
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -199,22 +217,23 @@
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomcenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
         }
       }
       Objects {
-        Id: 6196818834552286381
-        Name: "Background"
+        Id: 13643204286804738436
+        Name: "KillIcon"
         Transform {
           Location {
+            Z: 400
           }
           Rotation {
           }
@@ -225,6 +244,8 @@
           }
         }
         ParentId: 12570393415179122999
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -232,34 +253,32 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 200
-          Height: 200
+          Width: 45
+          Height: 45
+          UIY: -50
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          UseParentWidth: true
-          UseParentHeight: true
           Image {
             Brush {
-              Id: 2896317386107075320
+              Id: 9384520849142346961
             }
             Color {
-              A: 0.8
-            }
-            TeamSettings {
+              R: 0.97
+              A: 1
             }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -267,7 +286,7 @@
       }
       Objects {
         Id: 10626000548712262320
-        Name: "KillCountLabel"
+        Name: "KillComboLabel"
         Transform {
           Location {
             X: 1
@@ -299,14 +318,10 @@
               Value: "mc:euianchor:middleleft"
             }
           }
-          UseParentWidth: true
-          UseParentHeight: true
           Text {
             Label: "KILL COUNT TEXT"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.26
               A: 1
             }
             Size: 24
@@ -315,6 +330,8 @@
             }
             AutoWrapText: true
             ClipTextToSize: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -332,12 +349,12 @@
       }
     }
     Assets {
-      Id: 2896317386107075320
-      Name: "UI Gradient Circular 001"
+      Id: 9384520849142346961
+      Name: "Icon Death"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Basic_Shape_001"
+        AssetId: "Icon_Death"
       }
     }
     PrimaryAssetId {
@@ -345,5 +362,5 @@
       AssetId: "None"
     }
   }
-  SerializationVersion: 68
+  SerializationVersion: 77
 }
