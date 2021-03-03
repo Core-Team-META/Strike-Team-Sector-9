@@ -1,31 +1,4 @@
 Assets {
-  Id: 14796711042662669165
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 14530549821576425562
-  Name: "Animated Neon Sign- Potion"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Potion"
-  }
-}
-Assets {
-  Id: 13151094483699461398
-  Name: "Modern Stairs Stringer 01 - Angled 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_angled_003_ref"
-  }
-}
-Assets {
   Id: 10271821231561790687
   Name: "Storage"
   PlatformAssetType: 23
@@ -36,15 +9,6 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 7912394905030614762
-  Name: "Animated Neon Sign- Battery"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Battery"
   }
 }
 Assets {
@@ -84,14 +48,5 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 708182823465676072
-  Name: "Prism - 4-Sided Trapezoid Right"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_trapezoid_001"
   }
 }

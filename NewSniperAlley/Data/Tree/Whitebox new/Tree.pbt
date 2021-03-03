@@ -1,6 +1,65 @@
 Name: "Whitebox new"
 RootId: 14187091637818002669
 Objects {
+  Id: 9146495913682853377
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -2465
+      Y: 2900
+      Z: -1130
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 20.25
+      Y: 20.25
+      Z: 7.99999857
+    }
+  }
+  ParentId: 14187091637818002669
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.777
+        G: 0.777
+        B: 0.777
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11766467113026910646
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 10427942139364297824
   Name: "BGBuilding"
   Transform {
@@ -1067,7 +1126,7 @@ Objects {
     Location {
       X: -2045
       Y: 4975
-      Z: -410
+      Z: -415
     }
     Rotation {
       Yaw: 89.9999542
@@ -1183,9 +1242,9 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -2365
+      X: -2265
       Y: 4975
-      Z: -410
+      Z: -415
     }
     Rotation {
       Yaw: 89.9999542

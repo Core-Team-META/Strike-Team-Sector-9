@@ -264,7 +264,7 @@ Objects {
   Name: "Player Access Red"
   Transform {
     Location {
-      X: -1700
+      X: -2120
       Y: -3725
       Z: 1460
     }
@@ -2354,7 +2354,7 @@ Objects {
   Transform {
     Location {
       X: 5925
-      Y: -7200
+      Y: -7465
       Z: 1560.00195
     }
     Rotation {
@@ -2641,8 +2641,8 @@ Objects {
   Name: "Capture point"
   Transform {
     Location {
-      X: -5100
-      Y: -7575
+      X: -5755
+      Y: -8115
       Z: -290
     }
     Rotation {
@@ -2698,9 +2698,9 @@ Objects {
   Name: "Capture point"
   Transform {
     Location {
-      X: -3130
-      Y: -1200
-      Z: -290
+      X: -405
+      Y: -995
+      Z: -289.996094
     }
     Rotation {
     }
@@ -2793,242 +2793,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 7195564222692247037
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4778831299489510486
-  Name: "Player Access Red"
-  Transform {
-    Location {
-      X: -9375
-      Y: -2075
-      Z: 3185
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 3.5
-      Y: 12.25
-      Z: 6.5
-    }
-  }
-  ParentId: 12894786428890402115
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.0400000215
-        B: 0.0400000215
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10868260544352788496
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14021425836031181800
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1744928042579599861
-  Name: "Player Access Red"
-  Transform {
-    Location {
-      X: -9375
-      Y: 25
-      Z: 3185
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 3.5
-      Y: 12.25
-      Z: 6.5
-    }
-  }
-  ParentId: 12894786428890402115
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.0400000215
-        B: 0.0400000215
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10868260544352788496
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14021425836031181800
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16916234676479970639
-  Name: "Player Access Red"
-  Transform {
-    Location {
-      X: 6150
-      Y: -1975
-      Z: 3185
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 3.5
-      Y: 12.25
-      Z: 6.5
-    }
-  }
-  ParentId: 12894786428890402115
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.0400000215
-        B: 0.0400000215
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10868260544352788496
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14021425836031181800
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13307790692134961887
-  Name: "Player Access Red"
-  Transform {
-    Location {
-      X: 6150
-      Y: 25
-      Z: 3185
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 3.5
-      Y: 12.25
-      Z: 6.5
-    }
-  }
-  ParentId: 12894786428890402115
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.0400000215
-        B: 0.0400000215
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10868260544352788496
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14021425836031181800
     }
     Teams {
       IsTeamCollisionEnabled: true
