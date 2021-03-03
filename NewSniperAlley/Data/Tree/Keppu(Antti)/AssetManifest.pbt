@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16822105844726729693
+  Name: "Modern Stairs Railing 01 - Angled 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_angled_001_ref"
+  }
+}
+Assets {
   Id: 16806279030337361658
   Name: "Urban Mailbox 01"
   PlatformAssetType: 1
@@ -62,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16198346205888411814
+  Name: "Urban Fence Door"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_door_01"
+  }
+}
+Assets {
   Id: 15950976603585584640
   Name: "Fire Hydrant"
   PlatformAssetType: 1
@@ -77,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corelogo_shape_001"
+  }
+}
+Assets {
+  Id: 15458208188275667794
+  Name: "Modern Stairs Stringer 01 - Angled 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_stringer_angled_001_ref"
   }
 }
 Assets {
@@ -149,6 +176,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 14278021748334546251
+  Name: "Frame Large Straight - Neon Double"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_Neon3_Straight_Double"
   }
 }
 Assets {
@@ -314,6 +350,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8987660903937091019
+  Name: "Frame Medium Straight - Neon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_Neon2_Straight"
+  }
+}
+Assets {
   Id: 8547555202929038780
   Name: "Trim - Curve 90\302\260 - 16m Radius"
   PlatformAssetType: 1
@@ -350,21 +395,21 @@ Assets {
   }
 }
 Assets {
-  Id: 7803695959612648836
-  Name: "Urban Vehicle Truck - Tail Light 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_taillight_002_ref"
-  }
-}
-Assets {
   Id: 7648717670233836541
   Name: "Craftsman Roof 01 Eaves"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_eaves_001"
+  }
+}
+Assets {
+  Id: 7406772572059355525
+  Name: "Modern Stairs Steps 01 - 8m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_steps_001_ref"
   }
 }
 Assets {
@@ -473,6 +518,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_shipping_container_6m_001"
+  }
+}
+Assets {
+  Id: 2829304148396294310
+  Name: "Metal Grates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_002_uv"
+  }
+}
+Assets {
+  Id: 2611548225149256512
+  Name: "Frame Medium Straight - Neon 1 Sided Ending"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_Neon2_Ender_1s"
   }
 }
 Assets {

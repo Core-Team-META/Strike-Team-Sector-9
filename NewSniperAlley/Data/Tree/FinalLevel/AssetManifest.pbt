@@ -1,13 +1,4 @@
 Assets {
-  Id: 18393437648231545508
-  Name: "Urban Pipe Flange 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
-  }
-}
-Assets {
   Id: 18288887982644722132
   Name: "Pipe - Quarter Thick - Large"
   PlatformAssetType: 1
@@ -593,6 +584,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6921744610000133130
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
   Id: 6842764727794571561
   Name: "Container - Hex- Rounded"
   PlatformAssetType: 1
@@ -683,15 +683,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5381367210591412322
-  Name: "Urban Pipe Elbow 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
-  }
-}
-Assets {
   Id: 5253811867366632597
   Name: "Grass Tall"
   PlatformAssetType: 1
@@ -707,6 +698,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_001"
+  }
+}
+Assets {
+  Id: 5178947421179229826
+  Name: "Modern Stairs Steps 01 - 2m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_steps_003_ref"
   }
 }
 Assets {
