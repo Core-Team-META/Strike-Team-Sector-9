@@ -167,6 +167,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -205,6 +211,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -247,6 +259,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -285,6 +303,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -327,6 +351,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -365,6 +395,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -407,6 +443,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -445,6 +487,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -487,6 +535,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -525,6 +579,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -567,6 +627,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -605,6 +671,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -647,6 +719,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -687,6 +765,12 @@ Objects {
           Vector {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -725,6 +809,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -913,8 +1003,8 @@ Objects {
   Name: "Keppu(Antti)"
   Transform {
     Location {
-      X: 35
-      Y: 6560
+      X: 50
+      Y: 1475
       Z: 115
     }
     Rotation {

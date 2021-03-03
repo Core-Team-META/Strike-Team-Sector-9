@@ -2303,15 +2303,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1782827872224928972
-  Name: "Terrain - Grass Cliffs"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_terrain_cliff-grass-001_wa"
-  }
-}
-Assets {
   Id: 1763920700836873880
   Name: "Wooden Barrel"
   PlatformAssetType: 1

@@ -188,15 +188,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
   Id: 16872004337369500726
   Name: "Urban Vehicle Truck - Body Rear 01"
   PlatformAssetType: 1
@@ -320,15 +311,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_post_001_ref"
-  }
-}
-Assets {
-  Id: 16285172041817233770
-  Name: "Advanced Color Grading Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_advanced_color_grading"
   }
 }
 Assets {
@@ -521,15 +503,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14697405062555329113
-  Name: "Ambient Occlusion Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_ao"
-  }
-}
-Assets {
   Id: 14692871545412135955
   Name: "Urban Vehicle Truck - Rollbar 01"
   PlatformAssetType: 1
@@ -689,15 +662,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_kit_frame_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 13845678474517861045
-  Name: "Lensflare Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_lensflare"
   }
 }
 Assets {
@@ -989,15 +953,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11905645224756837966
-  Name: "Ambient Occlusion Recolor Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_AO_Recolor"
-  }
-}
-Assets {
   Id: 11730308934333352162
   Name: "Main Street Window 01"
   PlatformAssetType: 1
@@ -1058,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_rack_storage_rail_top_mid_001_ref"
-  }
-}
-Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
   }
 }
 Assets {
@@ -1493,15 +1439,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8173247588564110467
-  Name: "Bloom Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_bloom"
-  }
-}
-Assets {
   Id: 8158438355727892145
   Name: "Trash Can - Urban 01"
   PlatformAssetType: 1
@@ -1544,15 +1481,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_pole_002"
-  }
-}
-Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
   }
 }
 Assets {
@@ -2087,15 +2015,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3471881598561556181
-  Name: "Motion Blur Post Process"
-  PlatformAssetType: 20
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_advanced_motion_blur"
-  }
-}
-Assets {
   Id: 3456686779070553167
   Name: "Main Street Window 02"
   PlatformAssetType: 1
@@ -2444,15 +2363,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_acc_hvac_001_ref"
-  }
-}
-Assets {
-  Id: 2224571462023946700
-  Name: "Environment Fog Default VFX"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_env_fog_default"
   }
 }
 Assets {
