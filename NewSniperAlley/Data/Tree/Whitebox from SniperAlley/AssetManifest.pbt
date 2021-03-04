@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6878308890745792706
+  Name: "Metal 9 Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
   Id: 198353679974341757
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1

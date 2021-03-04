@@ -1,36 +1,32 @@
 Assets {
-  Id: 13144702163278733163
-  Name: "ST2_Asphalt01"
+  Id: 11349616726691993323
+  Name: "ST2_ConcretePanelsBrightWet "
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 6242693564613071554
+    BaseMaterialId: 6317093348408192352
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 3
-          G: 2.6447
-          B: 1.87800014
+          R: 2
+          G: 2
+          B: 2
           A: 1
         }
       }
       Overrides {
-        Name: "material_scale"
-        Float: 5
-      }
-      Overrides {
         Name: "roughness_multiplier"
-        Float: 1
+        Float: 0
       }
     }
     Assets {
-      Id: 6242693564613071554
-      Name: "Asphalt 01"
+      Id: 6317093348408192352
+      Name: "Concrete Panels 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_gen_concrete_panels_002"
       }
     }
   }

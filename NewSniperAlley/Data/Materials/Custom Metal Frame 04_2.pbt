@@ -1,27 +1,25 @@
 Assets {
-  Id: 799570258100730409
-  Name: "ST2_RoofShinglesCorner"
+  Id: 15298193565057129559
+  Name: "ST_MetalFrameUnlit"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 16580967182531809220
+    BaseMaterialId: 3496064729835474692
     ParameterOverrides {
       Overrides {
-        Name: "color"
+        Name: "color_lights"
         Color {
-          R: 3
-          G: 0.468325853
           A: 1
         }
       }
     }
     Assets {
-      Id: 16580967182531809220
-      Name: "Craftsman Roof Tile Detail"
+      Id: 3496064729835474692
+      Name: "Metal Frame 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_trim_craftsman_roofDetail1"
+        AssetId: "mi_metal_frames_002_uv"
       }
     }
   }

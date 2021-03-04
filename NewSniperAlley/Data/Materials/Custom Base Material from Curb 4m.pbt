@@ -1,27 +1,28 @@
 Assets {
-  Id: 799570258100730409
-  Name: "ST2_RoofShinglesCorner"
+  Id: 2941188481358631055
+  Name: "ST2_CurbConcrete"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 16580967182531809220
+    BaseMaterialId: 12671617676790229312
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
           R: 3
-          G: 0.468325853
+          G: 3
+          B: 3
           A: 1
         }
       }
     }
     Assets {
-      Id: 16580967182531809220
-      Name: "Craftsman Roof Tile Detail"
+      Id: 12671617676790229312
+      Name: "Concrete Trim (default)"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_trim_craftsman_roofDetail1"
+        AssetId: "mi_concrete_trims_002_uv"
       }
     }
   }

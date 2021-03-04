@@ -1,4 +1,13 @@
 Assets {
+  Id: 17452387132035491001
+  Name: "Whitebox Wall 01 Window Slot 3x"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_winSlot3x"
+  }
+}
+Assets {
   Id: 15484605620023334162
   Name: "Wedge - Corner Complex"
   PlatformAssetType: 1
@@ -14,6 +23,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 11635162136967954539
+  Name: "Whitebox Floor 01 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
 Assets {
@@ -53,12 +71,39 @@ Assets {
   }
 }
 Assets {
+  Id: 7029954145321885546
+  Name: "Main Street Wall 03 - Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_003_doorway_ref"
+  }
+}
+Assets {
   Id: 4344775540932160826
   Name: "Office Wall Panel 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_wall_003_uv_ref"
+  }
+}
+Assets {
+  Id: 2942971563143602674
+  Name: "Shipping Container Side 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wall_shipping_container_6m_001"
+  }
+}
+Assets {
+  Id: 397361870061653419
+  Name: "Whitebox Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
   }
 }
 Assets {

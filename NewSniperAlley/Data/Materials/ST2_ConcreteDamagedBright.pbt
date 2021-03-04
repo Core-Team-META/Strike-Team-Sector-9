@@ -1,36 +1,32 @@
 Assets {
-  Id: 13144702163278733163
-  Name: "ST2_Asphalt01"
+  Id: 3133392879817898254
+  Name: "ST2_ConcreteDamagedBright"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 6242693564613071554
+    BaseMaterialId: 698534003690564864
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 3
-          G: 2.6447
-          B: 1.87800014
+          R: 4
+          G: 4
+          B: 4
           A: 1
         }
       }
       Overrides {
         Name: "material_scale"
-        Float: 5
-      }
-      Overrides {
-        Name: "roughness_multiplier"
-        Float: 1
+        Float: 2
       }
     }
     Assets {
-      Id: 6242693564613071554
-      Name: "Asphalt 01"
+      Id: 698534003690564864
+      Name: "Concrete Damaged 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_gen_concrete_cracked_001_uv"
       }
     }
   }

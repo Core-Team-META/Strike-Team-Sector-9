@@ -1,32 +1,36 @@
 Assets {
-  Id: 11766467113026910646
-  Name: "ST2_ConcreteSidewalk"
+  Id: 3716406579825646319
+  Name: "ST2_MetalPaintedCyan"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 12648550473195782623
+    BaseMaterialId: 2606200893917864133
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 0.87625
-          B: 0.505
+          R: 0.156374
+          G: 0.7128
+          B: 0.683828
           A: 1
         }
       }
       Overrides {
+        Name: "edge_roughness"
+        Float: 1
+      }
+      Overrides {
         Name: "roughness_multiplier"
-        Float: 0
+        Float: 0.0603950098
       }
     }
     Assets {
-      Id: 12648550473195782623
-      Name: "Concrete Sidewalk"
+      Id: 2606200893917864133
+      Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_sidewalk_001"
+        AssetId: "mi_metal_painted_new_001_uv"
       }
     }
   }
