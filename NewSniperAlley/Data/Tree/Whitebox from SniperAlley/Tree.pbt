@@ -4478,6 +4478,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12306622679456331034
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8637,7 +8643,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11517834777195097018
+        Id: 2941188481358631055
       }
     }
   }

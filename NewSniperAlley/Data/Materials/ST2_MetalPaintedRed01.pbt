@@ -1,6 +1,6 @@
 Assets {
   Id: 10373164713394311159
-  Name: "ST2_MetalPaintedRed"
+  Name: "ST2_MetalPaintedRed01"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {

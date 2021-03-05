@@ -1,6 +1,6 @@
 Assets {
   Id: 4282262114945353141
-  Name: "Custom Magic Glass_1 - Copy"
+  Name: "ST_AdBG02"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
@@ -12,11 +12,11 @@ Assets {
       }
       Overrides {
         Name: "speed"
-        Float: 0
+        Float: 0.192017213
       }
       Overrides {
         Name: "magic distortion"
-        Float: 0.5
+        Float: 3
       }
       Overrides {
         Name: "color"
@@ -31,6 +31,22 @@ Assets {
         Color {
           A: 1
         }
+      }
+      Overrides {
+        Name: "object normal strength"
+        Float: 0
+      }
+      Overrides {
+        Name: "magic gradient low"
+        Float: 0
+      }
+      Overrides {
+        Name: "magic gradient high"
+        Float: 2.74076581
+      }
+      Overrides {
+        Name: "magic color blend power"
+        Float: 3
       }
     }
     Assets {

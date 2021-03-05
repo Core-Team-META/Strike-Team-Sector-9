@@ -197,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16447630291553548532
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 16313303550199064158
   Name: "Modern Stairs Post 01"
   PlatformAssetType: 1
@@ -221,6 +230,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_door_01"
+  }
+}
+Assets {
+  Id: 16131503078867448818
+  Name: "Street Post Round 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_round_001"
+  }
+}
+Assets {
+  Id: 16105687716078266600
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -1403,6 +1430,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2899842837741361229
+  Name: "Concrete Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_tiles_001"
+  }
+}
+Assets {
   Id: 2829304148396294310
   Name: "Metal Grates 01"
   PlatformAssetType: 2
@@ -1463,6 +1499,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_skylight_001"
+  }
+}
+Assets {
+  Id: 2424595272811825214
+  Name: "Barrier Caution Light 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_caution_001"
   }
 }
 Assets {

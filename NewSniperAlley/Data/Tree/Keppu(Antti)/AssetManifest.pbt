@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14905682372048534582
-  Name: "Modern Stairs Stringer 01 - Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_straight_001_ref"
-  }
-}
-Assets {
   Id: 14796711042662669165
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -59,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_lensflare"
+  }
+}
+Assets {
+  Id: 11917007313670209110
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {
@@ -98,6 +98,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6878308890745792706
+  Name: "Metal 9 Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
+  Id: 6588567122613861857
+  Name: "Metal 9 Slice Frame 005"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_9slice_005"
+  }
+}
+Assets {
   Id: 3471881598561556181
   Name: "Motion Blur Post Process"
   PlatformAssetType: 20
@@ -113,5 +131,14 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 198353679974341757
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }

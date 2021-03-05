@@ -1,36 +1,32 @@
 Assets {
-  Id: 13144702163278733163
-  Name: "ST2_Asphalt01"
+  Id: 12552185674621616297
+  Name: "ST2_ConcreteSidewalkBrightWetCyan"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 6242693564613071554
+    BaseMaterialId: 12648550473195782623
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 4
-          G: 3.52626681
-          B: 2.50400019
+          R: 0.312748
+          G: 1.4256
+          B: 1.36765599
           A: 1
         }
       }
       Overrides {
-        Name: "material_scale"
-        Float: 5
-      }
-      Overrides {
         Name: "roughness_multiplier"
-        Float: 1
+        Float: 0
       }
     }
     Assets {
-      Id: 6242693564613071554
-      Name: "Asphalt 01"
+      Id: 12648550473195782623
+      Name: "Concrete Sidewalk"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_gen_concrete_sidewalk_001"
       }
     }
   }

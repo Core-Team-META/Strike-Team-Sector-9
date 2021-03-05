@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18229223362050490496
+  Name: "Metal Simple Tech Panel Wall 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_tech_panel_001_uv"
+  }
+}
+Assets {
   Id: 18203793883226836462
   Name: "Urban Pipe Cap 01"
   PlatformAssetType: 1
@@ -1922,15 +1931,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_19th_century_4m_001"
-  }
-}
-Assets {
-  Id: 4249201813422598465
-  Name: "Small Open Crate"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_crate_narrow_open_simple_160cm_001"
   }
 }
 Assets {

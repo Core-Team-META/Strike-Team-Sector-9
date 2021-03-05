@@ -1,10 +1,10 @@
 Assets {
-  Id: 17452387132035491001
-  Name: "Whitebox Wall 01 Window Slot 3x"
-  PlatformAssetType: 1
+  Id: 16447630291553548532
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_winSlot3x"
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
   }
 }
 Assets {
@@ -17,12 +17,30 @@ Assets {
   }
 }
 Assets {
+  Id: 15191120951180189582
+  Name: "Concrete Bunker"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_bunker_001"
+  }
+}
+Assets {
   Id: 14285279341781365881
   Name: "Plastic Matte"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 12306622679456331034
+  Name: "Concrete Sidewalk"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_sidewalk_001"
   }
 }
 Assets {
@@ -80,6 +98,24 @@ Assets {
   }
 }
 Assets {
+  Id: 6878308890745792706
+  Name: "Metal 9 Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
+  Id: 5549379117761037396
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
+  }
+}
+Assets {
   Id: 4344775540932160826
   Name: "Office Wall Panel 03"
   PlatformAssetType: 2
@@ -95,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_shipping_container_6m_001"
+  }
+}
+Assets {
+  Id: 2247888389600537611
+  Name: "Sci-fi Base HVAC 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_acc_hvac_001_ref"
   }
 }
 Assets {
