@@ -440,6 +440,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14021425836031181800
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
   Id: 13861388637588403371
   Name: "Urban Vehicle Car - Frame Pillar 01"
   PlatformAssetType: 1

@@ -1,23 +1,979 @@
 Name: "FinalLevel"
 RootId: 11317219377363600946
 Objects {
-  Id: 7015344820767579387
-  Name: "Office Cubicle Desk Leg 01"
+  Id: 3533235445893524592
+  Name: "ST2_BGBuildings02"
   Transform {
     Location {
-      X: -2500
-      Y: -2420
-      Z: 675
+      X: 157259.641
+      Y: 58585
+      Z: -225.000977
+    }
+    Rotation {
+      Yaw: -153.010437
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13014780415456592837
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_BGBuildings02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 157209.641
+            Y: 17835
+            Z: -100.000977
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -153.010437
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3481201642912921991
+    }
+  }
+}
+Objects {
+  Id: 16624145387953906549
+  Name: "ST2_BGBuildings02"
+  Transform {
+    Location {
+      X: 157259.641
+      Y: -25583.7266
+      Z: -225.000977
+    }
+    Rotation {
+      Yaw: -153.010437
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13014780415456592837
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_BGBuildings02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 157209.641
+            Y: 57110
+            Z: -100.000977
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -153.010437
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3481201642912921991
+    }
+  }
+}
+Objects {
+  Id: 16977997131960599581
+  Name: "Megarail"
+  Transform {
+    Location {
+      X: -12860
+      Y: 1060
+      Z: 19915
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 12943325521366387573
+  ChildIds: 14540515728161757142
+  ChildIds: 143846704899404105
+  ChildIds: 8800574008220908967
+  ChildIds: 12101922547229328711
+  ChildIds: 17844045054762279685
+  ChildIds: 16839717870985142549
+  ChildIds: 7666441455426254812
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7666441455426254812
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 3410
+      Y: 3490
+      Z: 124.999756
     }
     Rotation {
     }
     Scale {
       X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 15.0835247
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14474180358060273267
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16839717870985142549
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 3370
+      Y: 3430
+      Z: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.5
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12329912718303648187
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17844045054762279685
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 125
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 15.0835247
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14474180358060273267
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12101922547229328711
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -70
+      Z: 94.9229736
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.5
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12329912718303648187
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8800574008220908967
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 13.1261816
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8547555202929038780
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 143846704899404105
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7046531213084076619
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2.15477419
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.102000006
+        G: 0.102000006
+        B: 0.102000006
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8547555202929038780
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14540515728161757142
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 75
+      Z: 94.9229736
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.438934952
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13103517599490266136
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12943325521366387573
+  Name: "Wedge - Corner Complex"
+  Transform {
+    Location {
+      X: -70
+      Y: -15
+      Z: -180
+    }
+    Rotation {
+      Yaw: 180
+      Roll: 180
+    }
+    Scale {
+      X: 7.75000048
+      Y: 7.50000048
+      Z: 7.50000048
+    }
+  }
+  ParentId: 16977997131960599581
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15484605620023334162
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9947160159728233265
+  Name: "Frame Large Outside Corner"
+  Transform {
+    Location {
+      X: -3215
+      Y: -3340
+      Z: 549.999878
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 5.25000191
+      Y: 4
+      Z: 4
+    }
+  }
+  ParentId: 11317219377363600946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9989821240073934753
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15951077384610594724
+  Name: "Frame Large Outside Corner"
+  Transform {
+    Location {
+      X: -2605
+      Y: -3340
+      Z: 549.999878
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 5.25
+      Y: 4
+      Z: 3.25
+    }
+  }
+  ParentId: 11317219377363600946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5186266192997647835
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2839418152781511130
+  Name: "Window"
+  Transform {
+    Location {
+      X: -1375
+      Y: -3460
+      Z: 530
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 5216612278033346494
+  ChildIds: 10874995241106037256
+  ChildIds: 11809172171144974329
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11809172171144974329
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -110
+      Y: 16.572998
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.4584229
+      Y: 3.5
+      Z: 8.24999809
+    }
+  }
+  ParentId: 2839418152781511130
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10874995241106037256
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: 1.57299805
+      Z: 148.960083
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2839418152781511130
+  ChildIds: 7508720150453340797
+  ChildIds: 3416797590531053942
+  ChildIds: 2500370263844911216
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 2500370263844911216
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 10874995241106037256
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3416797590531053942
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
       Y: 1.5
       Z: 2.75
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 10874995241106037256
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -42,23 +998,31 @@ Objects {
   }
 }
 Objects {
-  Id: 11326816107771364508
-  Name: "Office Cubicle Desk Leg 01"
+  Id: 7508720150453340797
+  Name: "Glass"
   Transform {
     Location {
-      X: -2500
-      Y: -2440
-      Z: 730
+      X: 81.387207
+      Z: 65
     }
     Rotation {
+      Roll: 89.9999924
     }
     Scale {
-      X: 2.25
-      Y: 1.5
-      Z: 3
+      X: 4.15907764
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 10874995241106037256
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -67,7 +1031,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 7320255990073764485
+      Id: 14021425836031181800
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -83,23 +1047,62 @@ Objects {
   }
 }
 Objects {
-  Id: 4705765233820239108
-  Name: "Office Cubicle Desk Leg 01"
+  Id: 5216612278033346494
+  Name: "WindowHald"
   Transform {
     Location {
-      X: -1870
-      Y: -2440
-      Z: 730
+      X: 55
+      Y: -18.145752
+      Z: 198.747131
     }
     Rotation {
     }
     Scale {
-      X: 2.25
-      Y: 1.5
-      Z: 3
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 2839418152781511130
+  ChildIds: 4579735823894915551
+  ChildIds: 3860241894298260757
+  ChildIds: 1261079992413036194
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1261079992413036194
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 5216612278033346494
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -108,7 +1111,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 7320255990073764485
+      Id: 14796711042662669165
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -124,23 +1127,31 @@ Objects {
   }
 }
 Objects {
-  Id: 6336467772002059090
+  Id: 3860241894298260757
   Name: "Office Cubicle Desk Leg 01"
   Transform {
     Location {
-      X: -1870
-      Y: -2420
-      Z: 675
+      X: -130
+      Y: 10
+      Z: -1.70257568
     }
     Rotation {
     }
     Scale {
-      X: 2.25
+      X: 2.12557149
       Y: 1.5
       Z: 2.75
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 5216612278033346494
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -150,6 +1161,1506 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4579735823894915551
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5216612278033346494
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5111455091515764131
+  Name: "Window"
+  Transform {
+    Location {
+      X: -1375
+      Y: -2755
+      Z: 530
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 14889171982183455480
+  ChildIds: 8685625945534483962
+  ChildIds: 10901848009266511511
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10901848009266511511
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -110
+      Y: 16.572998
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.4584229
+      Y: 3.5
+      Z: 8.24999809
+    }
+  }
+  ParentId: 5111455091515764131
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8685625945534483962
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: 1.57299805
+      Z: 148.960083
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5111455091515764131
+  ChildIds: 16653381983917824866
+  ChildIds: 1063097887263998569
+  ChildIds: 14584930136464903401
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14584930136464903401
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 8685625945534483962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1063097887263998569
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 8685625945534483962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16653381983917824866
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8685625945534483962
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14889171982183455480
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: -18.145752
+      Z: 198.747131
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5111455091515764131
+  ChildIds: 107658847853731777
+  ChildIds: 10148864703691230331
+  ChildIds: 10480562157827704832
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10480562157827704832
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 14889171982183455480
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10148864703691230331
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 14889171982183455480
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 107658847853731777
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14889171982183455480
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11697978400750598879
+  Name: "Window"
+  Transform {
+    Location {
+      X: -1770.95471
+      Y: -2431.573
+      Z: 530
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 10411984842568559099
+  ChildIds: 12813762571311520952
+  ChildIds: 11446840620373756857
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11446840620373756857
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -110
+      Y: 16.572998
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.4584229
+      Y: 3.5
+      Z: 8.24999809
+    }
+  }
+  ParentId: 11697978400750598879
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12813762571311520952
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: 1.57299805
+      Z: 148.960083
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11697978400750598879
+  ChildIds: 5268100139221341734
+  ChildIds: 7781957972812108941
+  ChildIds: 4545809385204853665
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4545809385204853665
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 12813762571311520952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7781957972812108941
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 12813762571311520952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5268100139221341734
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12813762571311520952
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10411984842568559099
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: -18.145752
+      Z: 198.747131
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11697978400750598879
+  ChildIds: 3718078026202119467
+  ChildIds: 3060660880289767563
+  ChildIds: 15563269305284460691
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15563269305284460691
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 10411984842568559099
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3060660880289767563
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 10411984842568559099
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3718078026202119467
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10411984842568559099
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7214087928131744561
+  Name: "Megarail"
+  Transform {
+    Location {
+      X: -6510
+      Y: -755.232666
+      Z: 11311.9492
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 18201673991961952772
+  ChildIds: 9898536456588077113
+  ChildIds: 3478182918280765185
+  ChildIds: 12500525382047129146
+  ChildIds: 14581272969603965596
+  ChildIds: 16472905037366276857
+  ChildIds: 3734906057300931049
+  ChildIds: 16950183175084926868
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 16950183175084926868
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 3410
+      Y: 3490
+      Z: 124.999756
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 15.0835247
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14474180358060273267
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3734906057300931049
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 3370
+      Y: 3430
+      Z: 95
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.5
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12329912718303648187
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16472905037366276857
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 125
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 15.0835247
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14474180358060273267
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14581272969603965596
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -70
+      Z: 94.9229736
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.5
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12329912718303648187
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12500525382047129146
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 125
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 0.75
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7786941293731162116
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 13.1261816
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 5
+        G: 5
+        B: 5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8547555202929038780
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3478182918280765185
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: -75
+      Z: 30
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 2.25
+      Y: 2.25
+      Z: 2
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7046531213084076619
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.73659754
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2.15477419
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.102000006
+        G: 0.102000006
+        B: 0.102000006
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8547555202929038780
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9898536456588077113
+  Name: "Frame Medium Corner - Neon Double 1 Sided Ending"
+  Transform {
+    Location {
+      X: 75
+      Z: 94.9229736
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5.75
+      Y: 5.75
+      Z: 0.438934952
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 14285279341781365881
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 7.88501358
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13103517599490266136
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18201673991961952772
+  Name: "Wedge - Corner Complex"
+  Transform {
+    Location {
+      X: -70
+      Y: -15
+      Z: -180
+    }
+    Rotation {
+      Yaw: 180
+      Roll: 180
+    }
+    Scale {
+      X: 7.75000048
+      Y: 7.50000048
+      Z: 7.50000048
+    }
+  }
+  ParentId: 7214087928131744561
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15484605620023334162
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1912,13 +4423,43 @@ Objects {
   }
 }
 Objects {
-  Id: 9718549949518998506
+  Id: 8109129213729593725
+  Name: "Window"
+  Transform {
+    Location {
+      X: -2420
+      Y: -2431.573
+      Z: 530
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11317219377363600946
+  ChildIds: 4502147539355377360
+  ChildIds: 16999644183894348538
+  ChildIds: 13818045342428421903
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 13818045342428421903
   Name: "Office Cubicle Desk Leg 01"
   Transform {
     Location {
-      X: -1885
-      Y: -2415
-      Z: 530
+      X: -110
+      Y: 16.572998
     }
     Rotation {
     }
@@ -1928,7 +4469,15 @@ Objects {
       Z: 8.24999809
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 8109129213729593725
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1953,23 +4502,111 @@ Objects {
   }
 }
 Objects {
-  Id: 13818045342428421903
-  Name: "Office Cubicle Desk Leg 01"
+  Id: 16999644183894348538
+  Name: "WindowHald"
   Transform {
     Location {
-      X: -2530
-      Y: -2415
-      Z: 530
+      X: 55
+      Y: 1.57299805
+      Z: 148.960083
     }
     Rotation {
     }
     Scale {
-      X: 2.4584229
-      Y: 3.5
-      Z: 8.24999809
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 11317219377363600946
+  ParentId: 8109129213729593725
+  ChildIds: 6270718989036084892
+  ChildIds: 7015344820767579387
+  ChildIds: 15061483009440401633
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15061483009440401633
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 16999644183894348538
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7015344820767579387
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 16999644183894348538
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1979,6 +4616,233 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6270718989036084892
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16999644183894348538
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4502147539355377360
+  Name: "WindowHald"
+  Transform {
+    Location {
+      X: 55
+      Y: -18.145752
+      Z: 198.747131
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8109129213729593725
+  ChildIds: 12325692105196957999
+  ChildIds: 4799976081489448613
+  ChildIds: 15782853622390304164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 15782853622390304164
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 70
+      Y: -1.73748779
+      Z: 18.2974243
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.2369113
+      Y: 0.0482299887
+      Z: 1.0524255
+    }
+  }
+  ParentId: 4502147539355377360
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3536424485003547599
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4799976081489448613
+  Name: "Office Cubicle Desk Leg 01"
+  Transform {
+    Location {
+      X: -130
+      Y: 10
+      Z: -1.70257568
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.12557149
+      Y: 1.5
+      Z: 2.75
+    }
+  }
+  ParentId: 4502147539355377360
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11517834777195097018
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7320255990073764485
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12325692105196957999
+  Name: "Glass"
+  Transform {
+    Location {
+      X: 81.387207
+      Z: 65
+    }
+    Rotation {
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 4.15907764
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4502147539355377360
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 539670975280601370
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14021425836031181800
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1998,7 +4862,7 @@ Objects {
   Name: "Frame Large Outside Corner"
   Transform {
     Location {
-      X: -1355
+      X: -1015
       Y: -2650
       Z: 549.999878
     }
@@ -4217,9 +7081,7 @@ Objects {
   ChildIds: 18137409870076426474
   ChildIds: 11142433601407634015
   ChildIds: 862082293116633532
-  ChildIds: 9957363009802184090
   ChildIds: 6417637428912064027
-  ChildIds: 10980553660498381888
   ChildIds: 14698437298434409924
   ChildIds: 5358852351454586972
   ChildIds: 5569537069859483094
@@ -4227,7 +7089,6 @@ Objects {
   ChildIds: 4821626098695203318
   ChildIds: 14593223625407344130
   ChildIds: 16179418923395387684
-  ChildIds: 13273286829758354265
   ChildIds: 5611817336603621917
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4251,57 +7112,6 @@ Objects {
     Rotation {
       Pitch: -90
       Roll: -179.999969
-    }
-    Scale {
-      X: 1.75
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2021542072474616395
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18397491135299377529
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17501882913104705053
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13273286829758354265
-  Name: "Curb 8m"
-  Transform {
-    Location {
-      X: -616
-      Y: 16
-      Z: 216
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 180
     }
     Scale {
       X: 1.75
@@ -4646,16 +7456,16 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -5
-      Y: 4
-      Z: 372
+      X: 4
+      Y: 3.99999976
+      Z: 64
     }
     Rotation {
     }
     Scale {
       X: 12.75
       Y: 1
-      Z: 0.75
+      Z: 3.50000095
     }
   }
   ParentId: 2021542072474616395
@@ -4664,55 +7474,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 18397491135299377529
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14796711042662669165
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 10980553660498381888
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -4
-      Y: 34
-      Z: 218
-    }
-    Rotation {
-    }
-    Scale {
-      X: 12.25
-      Y: 0.75
-      Z: 1.5
-    }
-  }
-  ParentId: 2021542072474616395
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 12494902583794210842
       }
     }
   }
@@ -4780,84 +7541,6 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: true
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 890442874131206195
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9957363009802184090
-  Name: "Office Cubicle Desk Leg 01"
-  Transform {
-    Location {
-      X: -4
-      Y: 60
-      Z: 188
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 4.25
-      Y: 4.25000048
-      Z: 1.75
-    }
-  }
-  ParentId: 2021542072474616395
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 10921710060818800464
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 10921710060818800464
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 6878308890745792706
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 6.75738573
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 5.45666218
     }
   }
   Collidable_v2 {
@@ -5090,7 +7773,6 @@ Objects {
       Z: 584.072449
     }
     Rotation {
-      Yaw: -90
     }
     Scale {
       X: 2.71896505
@@ -5142,8 +7824,8 @@ Objects {
   Transform {
     Location {
       X: 600
-      Y: -156.47612
-      Z: 432
+      Y: -396.476135
+      Z: 364
     }
     Rotation {
       Yaw: -90
@@ -5493,7 +8175,7 @@ Objects {
   Transform {
     Location {
       X: 600
-      Y: -176
+      Y: -295.038635
     }
     Rotation {
       Pitch: 6.83018879e-06
@@ -5501,8 +8183,8 @@ Objects {
       Roll: 89.9999695
     }
     Scale {
-      X: 1.5
-      Y: 1
+      X: 2.60125113
+      Y: 1.00000012
       Z: 1
     }
   }
@@ -5693,18 +8375,17 @@ Objects {
   Transform {
     Location {
       X: -548
-      Y: -400.476166
-      Z: 16
+      Y: -340.476166
+      Z: -8
     }
     Rotation {
       Pitch: 44.9999428
       Yaw: 89.9999695
-      Roll: -2.41483394e-06
     }
     Scale {
-      X: 5.4
-      Y: 5.20000029
-      Z: 9
+      X: 4
+      Y: 2.75
+      Z: 5.75
     }
   }
   ParentId: 7021336649299320595
@@ -5744,19 +8425,18 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 528
-      Y: -400.476166
-      Z: 16
+      X: 548
+      Y: -340.476166
+      Z: -8
     }
     Rotation {
       Pitch: 44.9999428
       Yaw: 89.9999695
-      Roll: -2.41483394e-06
     }
     Scale {
-      X: 5.4
-      Y: 5.20000029
-      Z: 9
+      X: 4
+      Y: 2.75
+      Z: 5.75
     }
   }
   ParentId: 7021336649299320595
@@ -6904,7 +9584,6 @@ Objects {
   ParentId: 2178522698414262343
   ChildIds: 669356181828509572
   ChildIds: 10818742805049609744
-  ChildIds: 17874939693812397179
   ChildIds: 10975858805633363122
   ChildIds: 8317830443788807458
   ChildIds: 7123187579056584383
@@ -7135,8 +9814,9 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -607.999451
-      Y: -227.999985
+      X: -604.442
+      Y: -225.824982
+      Z: 1.51435554
     }
     Rotation {
       Yaw: 90
@@ -7186,7 +9866,7 @@ Objects {
   Transform {
     Location {
       X: -5
-      Y: -128
+      Y: -127.999992
       Z: -12
     }
     Rotation {
@@ -7194,7 +9874,7 @@ Objects {
     Scale {
       X: 12.25
       Y: 3
-      Z: 0.75
+      Z: 2.25
     }
   }
   ParentId: 17892611431656933847
@@ -7284,14 +9964,14 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -4
+      X: -51.9999962
       Y: 12
       Z: 420
     }
     Rotation {
     }
     Scale {
-      X: 13.000001
+      X: 14.7500029
       Y: 1.5
       Z: 0.25
     }
@@ -7301,7 +9981,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3133392879817898254
+        Id: 10921710060818800464
       }
     }
   }
@@ -7993,56 +10673,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 890442874131206195
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17874939693812397179
-  Name: "Sci-fi Base Breakout Box 03"
-  Transform {
-    Location {
-      X: -604
-      Y: -116
-      Z: 432
-    }
-    Rotation {
-      Yaw: 89.9999924
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
-    }
-  }
-  ParentId: 17892611431656933847
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 10921710060818800464
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6625916772802830449
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -13903,13 +16533,13 @@ Objects {
   Transform {
     Location {
       X: -70
-      Z: 94.9229736
+      Z: 94.9228516
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 5.75
+      X: 18.7500095
       Y: 5.75
       Z: 0.5
     }
@@ -14355,13 +16985,12 @@ Objects {
   Transform {
     Location {
       X: -42875
-      Y: -11575
+      Y: -13895
       Z: 28950
     }
     Rotation {
-      Pitch: -6.83018879e-06
-      Yaw: 89.9999695
-      Roll: -89.9999695
+      Yaw: 90
+      Roll: -90
     }
     Scale {
       X: 14
@@ -14459,13 +17088,12 @@ Objects {
   Transform {
     Location {
       X: -42975.0039
-      Y: -4575
+      Y: -6895.00195
       Z: 29000
     }
     Rotation {
-      Pitch: -2.73207552e-05
-      Yaw: 89.9999542
-      Roll: -89.9999542
+      Yaw: 90
+      Roll: -90
     }
     Scale {
       X: -13.4999933
@@ -15651,7 +18279,7 @@ Objects {
   Name: "Frame Large Outside Corner"
   Transform {
     Location {
-      X: -1555
+      X: -1215
       Y: -2450
       Z: 549.999878
     }
@@ -15661,7 +18289,7 @@ Objects {
     Scale {
       X: 5.25
       Y: 4
-      Z: 4.25
+      Z: 6.00000048
     }
   }
   ParentId: 11317219377363600946
