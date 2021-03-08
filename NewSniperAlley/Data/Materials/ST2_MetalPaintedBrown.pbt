@@ -1,6 +1,6 @@
 Assets {
-  Id: 8191402814560574490
-  Name: "ST2_MetalPaintedOrange"
+  Id: 1094385691941767444
+  Name: "ST2_MetalPaintedBrown"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
@@ -9,8 +9,9 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 0.437086
+          R: 0.630757153
+          G: 0.351532608
+          B: 0.226965874
           A: 1
         }
       }
@@ -20,16 +21,7 @@ Assets {
       }
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0
-      }
-      Overrides {
-        Name: "color_edgewear"
-        Color {
-          R: 0.5
-          G: 0.5
-          B: 0.5
-          A: 1
-        }
+        Float: 0.553049743
       }
     }
     Assets {

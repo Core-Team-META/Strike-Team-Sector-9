@@ -1,6 +1,90 @@
 Name: "Keppu(Antti)"
 RootId: 6388150592898695602
 Objects {
+  Id: 5500273529500443381
+  Name: "Urban Stairs Fire Escape - 6m 01"
+  Transform {
+    Location {
+      X: -5095
+      Y: 2265
+      Z: 255.000031
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6388150592898695602
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16361900871520744060
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14004477507592356674
+  Name: "Urban Stairs Fire Escape - 6m 01"
+  Transform {
+    Location {
+      X: -4485
+      Y: 2265
+      Z: -312.976044
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6388150592898695602
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16361900871520744060
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 11264608302108530935
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -782,20 +866,19 @@ Objects {
   }
 }
 Objects {
-  Id: 3652938730459498537
-  Name: "Cube - Bottom-Aligned"
+  Id: 11832368935317947773
+  Name: "WindowGlass"
   Transform {
     Location {
-      X: -3765
-      Y: 715
-      Z: 2201.24756
+      X: -1935
+      Y: 1000
+      Z: 3615.13452
     }
     Rotation {
     }
     Scale {
-      X: 4.2369113
-      Y: 0.182408452
-      Z: 2.00552535
+      X: 9.75
+      Z: 5.00000095
     }
   }
   ParentId: 6388150592898695602
@@ -803,7 +886,16 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4282262114945353141
+        Id: 10868260544352788496
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.160000026
+        G: 0.866489768
+        B: 1
+        A: 1
       }
     }
   }

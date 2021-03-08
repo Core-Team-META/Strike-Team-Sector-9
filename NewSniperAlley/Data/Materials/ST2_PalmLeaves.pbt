@@ -30,6 +30,14 @@ Assets {
         Name: "wind_weight"
         Float: 1
       }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 0.650143862
+          G: 1
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 12263871192000562331

@@ -1,6 +1,122 @@
 Name: "Decals"
 RootId: 4816131956374653564
 Objects {
+  Id: 2509184654490065625
+  Name: "Liquid Decal Wet Road Water Puddle"
+  Transform {
+    Location {
+      X: -5145
+      Y: 830
+      Z: -254.934204
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.11479819
+      Y: 1.11479819
+      Z: 0.496474892
+    }
+  }
+  ParentId: 4816131956374653564
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:eliquiddecaltype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 4
+        G: 4
+        B: 4
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11445222157905148236
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 9459546954863179365
+  Name: "Liquid Decal Wet Road Water Puddle"
+  Transform {
+    Location {
+      X: -3705
+      Y: 295
+      Z: -254.934204
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.11479819
+      Y: 1.11479819
+      Z: 0.496474892
+    }
+  }
+  ParentId: 4816131956374653564
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:eliquiddecaltype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 4
+        G: 4
+        B: 4
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11445222157905148236
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 7337017828687883977
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {

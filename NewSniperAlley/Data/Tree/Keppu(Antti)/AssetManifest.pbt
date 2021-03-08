@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16361900871520744060
+  Name: "Urban Stairs Fire Escape - 6m 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_stairs_firesc_001_ref"
+  }
+}
+Assets {
   Id: 16285172041817233770
   Name: "Advanced Color Grading Post Process"
   PlatformAssetType: 6
@@ -77,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 10868260544352788496
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
   }
 }
 Assets {

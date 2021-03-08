@@ -242,6 +242,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 16357557897714794618
+  Name: "Pipe Thick 01 - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_thick_lg_001_ref"
+  }
+}
+Assets {
   Id: 16313303550199064158
   Name: "Modern Stairs Post 01"
   PlatformAssetType: 1
@@ -494,6 +512,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14198415401224027527
+  Name: "Basic Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
   Id: 14150131608064648431
   Name: "Sci-fi Base - Window 01"
   PlatformAssetType: 1
@@ -710,6 +737,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12630862952169066180
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
+  }
+}
+Assets {
   Id: 12598129352734110789
   Name: "Corrugated Sheet Large"
   PlatformAssetType: 1
@@ -878,6 +914,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_kit_roof_003_ref"
+  }
+}
+Assets {
+  Id: 11001967573859652020
+  Name: "Cone - Truncated Hollow Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_004"
   }
 }
 Assets {
@@ -1301,6 +1346,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_door_garage_001"
+  }
+}
+Assets {
+  Id: 7091993363097197037
+  Name: "Text 01: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_037"
   }
 }
 Assets {

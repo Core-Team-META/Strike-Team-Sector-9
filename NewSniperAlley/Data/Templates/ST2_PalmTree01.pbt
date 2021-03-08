@@ -31,6 +31,8 @@ Assets {
         ChildIds: 4347106251311016085
         ChildIds: 6747111539788782943
         ChildIds: 10677281779488755173
+        ChildIds: 3772900657986530630
+        ChildIds: 538163352598873144
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -168,7 +170,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12548070615489990248
+              Id: 78069825643377446
             }
           }
           Overrides {
@@ -177,14 +179,14 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 14.4166
+            Float: 4.34206772
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.276041657
-              G: 0.276041657
-              B: 0.276041657
+              R: 2
+              G: 1.24406672
+              B: 0.665999889
               A: 1
             }
           }
@@ -845,6 +847,124 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 3772900657986530630
+        Name: "Fern 03"
+        Transform {
+          Location {
+            X: 3.61816406
+            Y: -31.8422852
+            Z: 1327.55176
+          }
+          Rotation {
+            Pitch: -16.0253906
+            Yaw: 122.439095
+            Roll: -2.90301514
+          }
+          Scale {
+            X: 4.20124102
+            Y: 4.10002708
+            Z: 2.70691967
+          }
+        }
+        ParentId: 14568912842533860157
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.147582665
+              G: 0.227000013
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13372691205743875705
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 538163352598873144
+        Name: "Fern 03"
+        Transform {
+          Location {
+            X: 3.61816406
+            Y: -31.8422852
+            Z: 1215.30652
+          }
+          Rotation {
+            Pitch: -16.0253906
+            Yaw: 76.6925888
+            Roll: -2.90301514
+          }
+          Scale {
+            X: 1.5648576
+            Y: 1.52715802
+            Z: 1.00826013
+          }
+        }
+        ParentId: 14568912842533860157
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 16478338501499728149
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.147582665
+              G: 0.227000013
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13372691205743875705
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 11001967573859652020
@@ -871,15 +991,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_quarter_torus_003"
-      }
-    }
-    Assets {
-      Id: 12548070615489990248
-      Name: "Bark Oak 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_bark_oak_001_uv"
       }
     }
     Assets {
