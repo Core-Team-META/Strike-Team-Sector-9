@@ -94,6 +94,8 @@ Assets {
               Id: 622433789355555801
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

@@ -1,29 +1,38 @@
 Name: "Keppu(Antti)"
 RootId: 6388150592898695602
 Objects {
-  Id: 14044569302442780070
+  Id: 11264608302108530935
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -3765
-      Y: 850
-      Z: 55.4080505
+      X: -1965
+      Y: -2610
+      Z: -364.999939
     }
     Rotation {
-      Roll: -51.6996155
+      Yaw: -179.999954
     }
     Scale {
-      X: 4.2369113
-      Y: 0.182408452
-      Z: 2.00552535
+      X: 5.25000095
+      Y: 4
+      Z: 6.00000048
     }
   }
   ParentId: 6388150592898695602
   UnregisteredParameters {
     Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4282262114945353141
+        Id: 6878308890745792706
       }
     }
   }
@@ -35,7 +44,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 14796711042662669165
+      Id: 198353679974341757
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -47,6 +56,55 @@ Objects {
         Mass: 100
         LinearDamping: 0.01
       }
+    }
+  }
+}
+Objects {
+  Id: 3497976082505862760
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -3640
+      Y: -2815
+      Z: 10
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6388150592898695602
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.70020485
+    Color {
+      R: 0.642516792
+      B: 0.99
+      A: 1
+    }
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
     }
   }
 }
@@ -290,7 +348,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -4185
+      X: -4195
       Y: -3400
       Z: 265
     }
@@ -539,7 +597,7 @@ Objects {
     Location {
       X: -3765
       Y: -350
-      Z: 235
+      Z: 2230
     }
     Rotation {
       Yaw: -179.999985
@@ -730,7 +788,7 @@ Objects {
     Location {
       X: -3765
       Y: 715
-      Z: 206.247559
+      Z: 2201.24756
     }
     Rotation {
     }

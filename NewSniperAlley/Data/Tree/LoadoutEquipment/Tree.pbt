@@ -473,6 +473,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3408,6 +3410,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4340,6 +4344,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -5274,6 +5280,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -6206,6 +6214,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -7140,6 +7150,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -8072,6 +8084,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -9006,6 +9020,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -9937,6 +9953,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -11274,6 +11292,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:preciseclick"
+      }
+      Font {
       }
     }
     AnchorLayout {

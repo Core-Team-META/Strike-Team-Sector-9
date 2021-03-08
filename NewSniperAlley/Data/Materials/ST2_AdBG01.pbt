@@ -59,6 +59,10 @@ Assets {
         Name: "object normal strength"
         Float: 1
       }
+      Overrides {
+        Name: "brightness"
+        Float: 49.0206413
+      }
     }
     Assets {
       Id: 6208893264273673412

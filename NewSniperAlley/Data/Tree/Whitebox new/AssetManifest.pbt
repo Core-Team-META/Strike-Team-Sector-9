@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14796711042662669165
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
+  }
+}
+Assets {
   Id: 14285279341781365881
   Name: "Plastic Matte"
   PlatformAssetType: 2
@@ -44,12 +53,30 @@ Assets {
   }
 }
 Assets {
+  Id: 11730308934333352162
+  Name: "Main Street Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_part_window_001_ref"
+  }
+}
+Assets {
   Id: 11635162136967954539
   Name: "Whitebox Floor 01 8m x 8m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
+  Id: 10868260544352788496
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
   }
 }
 Assets {

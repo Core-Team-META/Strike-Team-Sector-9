@@ -2195,6 +2195,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2805121172112350453
+  Name: "Metal 9 Slice Lockers 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_advanced_9slice_lockers_001_ref"
+  }
+}
+Assets {
   Id: 2769563029775643720
   Name: "Urban Vehicle Car - Tire 01"
   PlatformAssetType: 1

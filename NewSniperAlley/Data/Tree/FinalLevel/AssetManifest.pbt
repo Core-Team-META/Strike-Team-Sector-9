@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18009603480987123451
+  Name: "Sci-fi Base Breakout Box 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_breakout_002_ref"
+  }
+}
+Assets {
   Id: 18007920917829283239
   Name: "Road Sidewalk - Driveway"
   PlatformAssetType: 1
@@ -95,6 +104,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_2m_001"
+  }
+}
+Assets {
+  Id: 17357257902648977758
+  Name: "Sci-fi Base Capsule 01 Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_bot_001_ref"
+  }
+}
+Assets {
+  Id: 17303180997739090003
+  Name: "Text 01: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_019"
   }
 }
 Assets {
@@ -203,6 +230,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "steel_001"
+  }
+}
+Assets {
+  Id: 16417116211763376902
+  Name: "Girder Medium Angled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
   }
 }
 Assets {
@@ -413,6 +449,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14373933028864739004
+  Name: "Sci-fi Base Stairs 01 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_stairs_001_150cm_ref"
+  }
+}
+Assets {
   Id: 14285279341781365881
   Name: "Plastic Matte"
   PlatformAssetType: 2
@@ -449,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14150131608064648431
+  Name: "Sci-fi Base - Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_win_001_ref"
+  }
+}
+Assets {
   Id: 14099581719801039369
   Name: "Sci-fi Base Breakout Box 01"
   PlatformAssetType: 1
@@ -476,6 +530,24 @@ Assets {
   }
 }
 Assets {
+  Id: 14010943251033244363
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
+  Id: 13877856592080960583
+  Name: "Urban Water Tower Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_watertower_base_002"
+  }
+}
+Assets {
   Id: 13861388637588403371
   Name: "Urban Vehicle Car - Frame Pillar 01"
   PlatformAssetType: 1
@@ -491,6 +563,15 @@ Assets {
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
     AssetId: "npc_human_gal_head_basic_001_ref"
+  }
+}
+Assets {
+  Id: 13377764251575694508
+  Name: "Text 01: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_014"
   }
 }
 Assets {
@@ -548,12 +629,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13105350100751157865
+  Name: "Steam Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_steam_volume_vfx"
+  }
+}
+Assets {
   Id: 13103517599490266136
   Name: "Stone Railing Curved 6m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_railing_6m_bend_001"
+  }
+}
+Assets {
+  Id: 13084610212546141882
+  Name: "Urban Fence Gate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_gate_001"
   }
 }
 Assets {
@@ -608,6 +707,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_stringer_straight_corner_001_ref"
+  }
+}
+Assets {
+  Id: 12598129352734110789
+  Name: "Corrugated Sheet Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
   }
 }
 Assets {
@@ -683,12 +791,30 @@ Assets {
   }
 }
 Assets {
+  Id: 11687057706392781665
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
   Id: 11604361694182844306
   Name: "Urban Vehicle Sedan - Door Trunk 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_sdn_door_trunk_001_ref"
+  }
+}
+Assets {
+  Id: 11573315623214987718
+  Name: "Animated Neon Sign- Skull"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Skull"
   }
 }
 Assets {
@@ -707,6 +833,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001"
+  }
+}
+Assets {
+  Id: 11333095049857697952
+  Name: "Urban Pipe Valve 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_valve_002_ref"
   }
 }
 Assets {
@@ -773,6 +908,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10783917728922435042
+  Name: "Rain Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rain_volume_vfx"
+  }
+}
+Assets {
   Id: 10699661390325116495
   Name: "Urban Vehicle Car - Front Seat Bottom 01"
   PlatformAssetType: 1
@@ -788,15 +932,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_rim_003_ref"
-  }
-}
-Assets {
-  Id: 10631229615313416833
-  Name: "Animated Neon Sign- Sun"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Sun"
   }
 }
 Assets {
@@ -899,12 +1034,66 @@ Assets {
   }
 }
 Assets {
+  Id: 9646355133109534865
+  Name: "Rain Splash Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_rainsplash_volume"
+  }
+}
+Assets {
+  Id: 9536141319314062468
+  Name: "Craftsman Porch Fence Railing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
+  }
+}
+Assets {
   Id: 9503903904385404246
   Name: "Urban Vehicle Sedan - Bumper Front 01 - Bottom 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_sdn_bump_front_001_bot_001_ref"
+  }
+}
+Assets {
+  Id: 9398431931771867526
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
+  }
+}
+Assets {
+  Id: 9344290158071339761
+  Name: "Pipe - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_003"
+  }
+}
+Assets {
+  Id: 9176145884981181688
+  Name: "Pipe - Half Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_002"
+  }
+}
+Assets {
+  Id: 9171120742628567637
+  Name: "Text 06: K"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_010"
   }
 }
 Assets {
@@ -989,6 +1178,33 @@ Assets {
   }
 }
 Assets {
+  Id: 8027963421494365694
+  Name: "Sci-fi Base Capsule 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
+  }
+}
+Assets {
+  Id: 7983192630700777426
+  Name: "Text 01: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_004"
+  }
+}
+Assets {
+  Id: 7930932716296535070
+  Name: "Urban Damaged Rebar - Lattice 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_rebar_002_ref"
+  }
+}
+Assets {
   Id: 7912394905030614762
   Name: "Animated Neon Sign- Battery"
   PlatformAssetType: 1
@@ -1022,6 +1238,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_eaves_001"
+  }
+}
+Assets {
+  Id: 7537325611308639403
+  Name: "Urban Pedestrian Barrier 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_pedestrian_002_ref"
+  }
+}
+Assets {
+  Id: 7506086121990254465
+  Name: "Plane Kite - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_kite_001"
   }
 }
 Assets {
@@ -1133,12 +1367,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6865249745567109080
+  Name: "Corrugated Sheet Bent"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+  }
+}
+Assets {
   Id: 6842764727794571561
   Name: "Container - Hex- Rounded"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_hex_rnd_001_ref"
+  }
+}
+Assets {
+  Id: 6787262208996147711
+  Name: "Metal Complex Tech Panel Wall 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_complex_tech_panel_003_uv"
   }
 }
 Assets {
@@ -1157,6 +1409,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_003_ref"
+  }
+}
+Assets {
+  Id: 6432912761929814416
+  Name: "Craftsman Porch Pillar 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
   }
 }
 Assets {
@@ -1277,6 +1538,24 @@ Assets {
   }
 }
 Assets {
+  Id: 5154493427538871909
+  Name: "Corrugated Sheet Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
+  Id: 5133116907795621363
+  Name: "Text 01: P"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_015"
+  }
+}
+Assets {
   Id: 5035333608653009594
   Name: "Urban Vehicle Car - Windshield 01"
   PlatformAssetType: 1
@@ -1304,12 +1583,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4794041361382728409
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
   Id: 4687434041811739163
   Name: "Urban Vehicle Car - Front Seat Top 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_seat_front_top_001_ref"
+  }
+}
+Assets {
+  Id: 4567991919998467135
+  Name: "Pipe - Quarter Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter-pipe_003"
   }
 }
 Assets {
@@ -1331,12 +1628,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4018843460426939186
-  Name: "Road Sidewalk - Crosswalk"
+  Id: 4296357288588367821
+  Name: "Girder Small 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_sidewalk_xwalk_001"
+    AssetId: "sm_girder_19th_century_4m_001"
   }
 }
 Assets {
@@ -1403,15 +1700,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3171382779234621301
-  Name: "Road Crosswalk"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_xwalk_001"
-  }
-}
-Assets {
   Id: 3104633519268009050
   Name: "Urban Vehicle Car - Door Front 01 - Window 01"
   PlatformAssetType: 1
@@ -1436,15 +1724,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_tiles_001"
-  }
-}
-Assets {
-  Id: 2829304148396294310
-  Name: "Metal Grates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_002_uv"
   }
 }
 Assets {
@@ -1481,6 +1760,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_barrier_light_001"
+  }
+}
+Assets {
+  Id: 2557549460494517044
+  Name: "Plane Ring - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_ring_001"
+  }
+}
+Assets {
+  Id: 2521409856080866625
+  Name: "Large Girder 8m x 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wall_girder_large_8m_001"
   }
 }
 Assets {
@@ -1535,6 +1832,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_brake_001_ref"
+  }
+}
+Assets {
+  Id: 1882399476102658604
+  Name: "Text 01: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_020"
+  }
+}
+Assets {
+  Id: 1881717030136337457
+  Name: "Prism - 3-Sided Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_triangle_convex_001"
   }
 }
 Assets {
@@ -1724,5 +2039,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_kit_hood_001_ref"
+  }
+}
+Assets {
+  Id: 99428546513861114
+  Name: "Urban Floor Grate Fire Escape - 2m x 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
   }
 }

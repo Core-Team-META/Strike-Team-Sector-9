@@ -2839,6 +2839,8 @@ Assets {
             ClickMode {
               Value: "mc:ebuttonclickmode:default"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

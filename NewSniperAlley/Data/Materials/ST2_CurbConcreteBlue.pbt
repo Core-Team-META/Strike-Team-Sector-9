@@ -1,10 +1,10 @@
 Assets {
   Id: 6777045133803335889
-  Name: "ST2_CurbConcrete - Copy"
+  Name: "ST2_ConcreteBlue"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 12671617676790229312
+    BaseMaterialId: 5549379117761037396
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -17,12 +17,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12671617676790229312
-      Name: "Concrete Trim (default)"
+      Id: 5549379117761037396
+      Name: "Concrete Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_concrete_trims_002_uv"
+        AssetId: "mi_gen_concrete_001"
       }
     }
   }

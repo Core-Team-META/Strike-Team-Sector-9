@@ -1,35 +1,32 @@
 Assets {
-  Id: 8191402814560574490
-  Name: "ST2_MetalPaintedOrange"
+  Id: 3387205567503621562
+  Name: "ST2_FloorInterior01"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 2606200893917864133
+    BaseMaterialId: 12306622679456331034
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 0.437086
+          R: 2
+          G: 2
+          B: 2
           A: 1
         }
       }
       Overrides {
-        Name: "edge_roughness"
-        Float: 1
-      }
-      Overrides {
         Name: "roughness_multiplier"
-        Float: 0
+        Float: 0.250334173
       }
     }
     Assets {
-      Id: 2606200893917864133
-      Name: "Metal Painted 01"
+      Id: 12306622679456331034
+      Name: "Concrete Sidewalk"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_painted_new_001_uv"
+        AssetId: "mi_gen_concrete_sidewalk_001"
       }
     }
   }

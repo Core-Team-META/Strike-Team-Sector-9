@@ -648,6 +648,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1389,6 +1391,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -3050,6 +3054,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -4869,6 +4875,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -6816,6 +6824,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -8765,6 +8775,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -10528,6 +10540,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -11716,6 +11730,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -13298,6 +13314,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -14358,6 +14376,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -16679,6 +16699,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -18388,6 +18410,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -19449,6 +19473,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {
@@ -21213,6 +21239,8 @@ Objects {
       IsButtonEnabled: true
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
       }
     }
     AnchorLayout {

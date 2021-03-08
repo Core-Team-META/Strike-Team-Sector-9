@@ -36827,7 +36827,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8191402814560574490
+        Id: 2941188481358631055
       }
     }
   }
@@ -42317,7 +42317,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3966505191564837760
+        Id: 12523811087982930414
       }
     }
   }
@@ -42987,6 +42987,14 @@ Objects {
     }
   }
   ParentId: 7746239358586859571
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18397491135299377529
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -54865,6 +54873,14 @@ Objects {
   ParentId: 15343795541873780997
   ChildIds: 12023119018826770984
   ChildIds: 16458583283367459855
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 6777045133803335889
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -56929,7 +56945,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail2:id"
       AssetReference {
-        Id: 13284270366767062626
+        Id: 2805121172112350453
       }
     }
   }
@@ -61776,7 +61792,7 @@ Objects {
     Overrides {
       Name: "ma:Street_Sidewalk:id"
       AssetReference {
-        Id: 11766467113026910646
+        Id: 2941188481358631055
       }
     }
     Overrides {

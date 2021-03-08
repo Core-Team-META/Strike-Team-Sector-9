@@ -306,6 +306,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -411,6 +413,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -522,6 +526,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -633,6 +639,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -744,6 +752,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -855,6 +865,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -966,6 +978,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1077,6 +1091,8 @@ Assets {
               Id: 841534158063459245
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

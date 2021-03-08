@@ -1016,6 +1016,8 @@ Assets {
               Id: 17586365689296088662
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1602,6 +1604,8 @@ Assets {
               Id: 17586365689296088662
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1864,6 +1868,8 @@ Assets {
             }
             IsButtonEnabled: true
             OnlyUseMainColor: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1945,6 +1951,8 @@ Assets {
             }
             IsButtonEnabled: true
             OnlyUseMainColor: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2025,6 +2033,8 @@ Assets {
             }
             IsButtonEnabled: true
             OnlyUseMainColor: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -2572,6 +2582,8 @@ Assets {
               Id: 17586365689296088662
             }
             IsButtonEnabled: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

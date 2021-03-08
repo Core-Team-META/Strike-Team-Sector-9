@@ -228,6 +228,8 @@ Assets {
             }
             IsButtonEnabled: true
             OnlyUseMainColor: true
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

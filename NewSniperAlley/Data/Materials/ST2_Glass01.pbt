@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {
-    BaseMaterialId: 16630259605395466384
+    BaseMaterialId: 16845241941935487831
     ParameterOverrides {
       Overrides {
         Name: "Roughness"
@@ -20,7 +20,7 @@ Assets {
       }
       Overrides {
         Name: "Clarity"
-        Float: 1
+        Float: 0
       }
       Overrides {
         Name: "Thickness"
@@ -36,12 +36,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16630259605395466384
-      Name: "Frosted Glass"
+      Id: 16845241941935487831
+      Name: "Glass 01 (no distortion)"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_frosted_glass"
+        AssetId: "mi_basic_glass_001"
       }
     }
   }

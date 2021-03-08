@@ -71,6 +71,8 @@ Assets {
             ClickMode {
               Value: "mc:ebuttonclickmode:preciseclick"
             }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {
