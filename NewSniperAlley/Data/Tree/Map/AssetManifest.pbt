@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18260262392570302422
-  Name: "Car Paint 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_car-paint_001"
-  }
-}
-Assets {
   Id: 18151428822017384440
   Name: "Trim Crenellated 4m 01"
   PlatformAssetType: 1
@@ -50,24 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_wallpaper_002"
-  }
-}
-Assets {
-  Id: 17858062676346065101
-  Name: "Steam Pressure Release Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_steam_pressure_release_looped_01_Cue_ref"
-  }
-}
-Assets {
-  Id: 17683201677434688252
-  Name: "Cylinder - Chamfered"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_chamfer"
   }
 }
 Assets {
@@ -152,24 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
-  Id: 16845241941935487831
-  Name: "Glass 01 (no distortion)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
   Id: 16754690508371648370
   Name: "Craftsman Part - Window 03"
   PlatformAssetType: 1
@@ -194,15 +149,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "steel_001"
-  }
-}
-Assets {
-  Id: 16414038839051432119
-  Name: "Ambience Desert Creatures 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_desert_creatures_01_Cue_ref"
   }
 }
 Assets {
@@ -266,24 +212,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
-  Id: 15972825592445059763
-  Name: "Cone - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_001"
-  }
-}
-Assets {
-  Id: 15935123960702825668
-  Name: "Cylinder - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_002"
   }
 }
 Assets {
@@ -386,24 +314,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14960009196618633521
-  Name: "Vehicle Aircraft Plane Misc Engine Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_vehicles_planes_jets_ref"
-  }
-}
-Assets {
-  Id: 14922648517014774562
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 14919851232151685085
   Name: "Craftsman Dining Table"
   PlatformAssetType: 1
@@ -431,15 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14567379244716597416
-  Name: "Camouflage - Woodland"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "camo_woodland_001"
-  }
-}
-Assets {
   Id: 14558541219575780998
   Name: "Wooden Bucket"
   PlatformAssetType: 1
@@ -449,30 +350,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14285279341781365881
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
-  }
-}
-Assets {
   Id: 14250420636917373162
   Name: "Rock 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_003"
-  }
-}
-Assets {
-  Id: 14215156300719162252
-  Name: "Forest Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "forest-floor_001"
   }
 }
 Assets {
@@ -548,15 +431,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13845678474517861045
-  Name: "Lensflare Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_lensflare"
-  }
-}
-Assets {
   Id: 13832010168595006209
   Name: "Dresser Drawer"
   PlatformAssetType: 1
@@ -608,15 +482,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_hollow_convex_001"
-  }
-}
-Assets {
-  Id: 13422088155021954845
-  Name: "Tech Panel 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_003_uv"
   }
 }
 Assets {
@@ -773,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12149544217203441937
-  Name: "Simple Exposure Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_simple_exposure"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -818,15 +674,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12011553901486581175
-  Name: "World Music Score Set 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_WorldMusic_ref"
-  }
-}
-Assets {
   Id: 11962195740089165680
   Name: "Girder Medium 4m"
   PlatformAssetType: 1
@@ -842,15 +689,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_brick_6m_001"
-  }
-}
-Assets {
-  Id: 11905645224756837966
-  Name: "Ambient Occlusion Recolor Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_AO_Recolor"
   }
 }
 Assets {
@@ -935,15 +773,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
   Id: 11487793042175105402
   Name: "Road Edge Corner"
   PlatformAssetType: 1
@@ -968,15 +797,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_part_intTrim_001_up"
-  }
-}
-Assets {
-  Id: 11179827780822674035
-  Name: "Ambience Desert Wind and Sand 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_desert_sandwind_01_Cue_ref"
   }
 }
 Assets {
@@ -1052,15 +872,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10431978243425830506
-  Name: "Arch Fancy 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_3m_001"
-  }
-}
-Assets {
   Id: 10415104586946721638
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -1079,15 +890,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10298342875175243448
-  Name: "Rocket Trail VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_rocket_trail"
-  }
-}
-Assets {
   Id: 10222256584730616192
   Name: "Pipe - 90-Degree Short"
   PlatformAssetType: 1
@@ -1103,15 +905,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_winInsert_001_archTop"
-  }
-}
-Assets {
-  Id: 10150678018080873769
-  Name: "Action Music Score Set 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_ActionMusic_ref"
   }
 }
 Assets {
@@ -1250,30 +1043,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8951767227868718915
-  Name: "Wispy Fog Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_fog_volume_vfx"
-  }
-}
-Assets {
   Id: 8856967052442566524
   Name: "Marble Basic 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_marble_tiles_001_uv"
-  }
-}
-Assets {
-  Id: 8847410236676091177
-  Name: "Cube - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_001"
   }
 }
 Assets {
@@ -1310,15 +1085,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torch_001"
-  }
-}
-Assets {
-  Id: 8762770251388164140
-  Name: "Camouflage - Digital"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "camo_digital_001"
   }
 }
 Assets {
@@ -1403,39 +1169,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8173247588564110467
-  Name: "Bloom Post Process"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_bloom"
-  }
-}
-Assets {
   Id: 8029899505444148157
   Name: "Craftsman Roof 01 Bracket"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_001_bracket"
-  }
-}
-Assets {
-  Id: 7914643784799349320
-  Name: "Tech Panel 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_002_uv"
-  }
-}
-Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
   }
 }
 Assets {
@@ -1511,15 +1250,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7443569836154553489
-  Name: "Vehicle Aircraft Helicopter Misc Engine Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_vehicles_helicopters_ref"
-  }
-}
-Assets {
   Id: 7256150472122362846
   Name: "Craftsman Porch Fence Post 01"
   PlatformAssetType: 1
@@ -1592,15 +1322,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6737034391709837237
-  Name: "Sphere - Half Quarter"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter_hemisphere_001"
-  }
-}
-Assets {
   Id: 6485771761840313257
   Name: "Craftsman Dining Chair"
   PlatformAssetType: 1
@@ -1655,24 +1376,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6148860198612611974
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
-  Id: 6105927269412364502
-  Name: "Donut"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_001"
-  }
-}
-Assets {
   Id: 6066558745328622384
   Name: "Whitebox Stairs 01 Straight 150cm"
   PlatformAssetType: 1
@@ -1688,15 +1391,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_dirt_patch_001"
-  }
-}
-Assets {
-  Id: 5790407225035293597
-  Name: "Snow Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_snow_volume"
   }
 }
 Assets {
@@ -1742,15 +1436,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trim_crenellated_6m_003"
-  }
-}
-Assets {
-  Id: 5447229297479933144
-  Name: "Ambience Desert Day 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_desert_day_01_Cue_ref"
   }
 }
 Assets {
@@ -1907,15 +1592,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4133113831380048683
-  Name: "Wedge - Convex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_convex_001"
-  }
-}
-Assets {
   Id: 4111036502078940015
   Name: "Bricks Worn Stone 01"
   PlatformAssetType: 2
@@ -2033,15 +1709,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3132668714698569095
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 3036948031346541906
   Name: "Dresser 01"
   PlatformAssetType: 1
@@ -2075,15 +1742,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_chain_001"
-  }
-}
-Assets {
-  Id: 2905751522032673006
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -2129,15 +1787,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
-  Id: 2727467945905195560
-  Name: "Wedge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -2195,24 +1844,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2312738015467044171
-  Name: "Pipe - Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_001"
-  }
-}
-Assets {
-  Id: 2224571462023946700
-  Name: "Environment Fog Default VFX"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_env_fog_default"
-  }
-}
-Assets {
   Id: 2170489941041560753
   Name: "Gear - generic small solid"
   PlatformAssetType: 1
@@ -2258,15 +1889,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1967454480797501765
-  Name: "Cylinder - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_001"
-  }
-}
-Assets {
   Id: 1938148825372685458
   Name: "Teardrop - Truncated"
   PlatformAssetType: 1
@@ -2282,15 +1904,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
-  }
-}
-Assets {
-  Id: 1852837797462642665
-  Name: "Nature Wind Steady 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_nature_wind_steady_01_Cue_ref"
   }
 }
 Assets {
@@ -2489,15 +2102,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bullet_001"
-  }
-}
-Assets {
-  Id: 255224006117058275
-  Name: "Cone"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_001"
   }
 }
 Assets {

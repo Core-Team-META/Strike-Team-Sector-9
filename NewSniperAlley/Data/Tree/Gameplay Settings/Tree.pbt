@@ -8154,7 +8154,7 @@ Objects {
   Settings {
     IsDefault: true
     PlayerMovementSettings {
-      WalkSpeed: 640
+      WalkSpeed: 1200
       MaxAcceleration: 1800
       BrakingDecelerationFalling: 8
       WalkableFloorAngle: 75
@@ -8166,7 +8166,7 @@ Objects {
       Buoyancy: 1
       TouchForceFactor: 1
       BrakingDecelerationFlying: 600
-      MaxFlightSpeed: 600
+      MaxFlightSpeed: 2000
       MovementControlMode {
         Value: "mc:emovementcontrolmode:lookrelative"
       }
@@ -8182,7 +8182,7 @@ Objects {
         Value: "mc:eprojectionplane:xy"
       }
       MountedMaxAcceleration: 640
-      MountedWalkSpeed: 640
+      MountedWalkSpeed: 2000
       MountedJumpMaxCount: 1
       MountedJumpVelocity: 900
       DismountWhenDamaged: true

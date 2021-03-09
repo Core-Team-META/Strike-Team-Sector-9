@@ -1295,6 +1295,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7531058706496198656
+  Name: "Whitebox Wall 01 Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
   Id: 7506086121990254465
   Name: "Plane Kite - One Sided"
   PlatformAssetType: 1
@@ -1751,6 +1760,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_seat_front_top_001_ref"
+  }
+}
+Assets {
+  Id: 3183406401151404830
+  Name: "Whitebox Stairs 01 Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001"
   }
 }
 Assets {

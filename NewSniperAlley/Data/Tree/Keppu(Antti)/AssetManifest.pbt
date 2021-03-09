@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15246078607150945099
+  Name: "Street Sign 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_sign_002"
+  }
+}
+Assets {
   Id: 14796711042662669165
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_lensflare"
+  }
+}
+Assets {
+  Id: 12577563649059889738
+  Name: "Whitebox Wall 01 Window Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_windowL"
   }
 }
 Assets {
@@ -116,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7531058706496198656
+  Name: "Whitebox Wall 01 Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
   Id: 6878308890745792706
   Name: "Metal 9 Slice Shipping Container 01"
   PlatformAssetType: 2
@@ -131,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_005"
+  }
+}
+Assets {
+  Id: 5186266192997647835
+  Name: "Frame Extra Large Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tray_XtraLong"
   }
 }
 Assets {
