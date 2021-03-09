@@ -8401,7 +8401,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 15191120951180189582
+        Id: 6777045133803335889
       }
     }
     Overrides {
@@ -45669,7 +45669,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 1485983272164927005
+        Id: 5415312787801914892
       }
     }
   }
@@ -63148,7 +63148,7 @@ Objects {
     Overrides {
       Name: "ma:Street_Sidewalk:id"
       AssetReference {
-        Id: 11766467113026910646
+        Id: 5415312787801914892
       }
     }
     Overrides {
@@ -63203,7 +63203,7 @@ Objects {
     Overrides {
       Name: "ma:Street_Sidewalk:id"
       AssetReference {
-        Id: 11766467113026910646
+        Id: 10388386134589691686
       }
     }
     Overrides {
@@ -64498,7 +64498,7 @@ Objects {
     Overrides {
       Name: "ma:Street_Curb:id"
       AssetReference {
-        Id: 8191402814560574490
+        Id: 5415312787801914892
       }
     }
     Overrides {

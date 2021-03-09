@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9608867807191114934
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
   Id: 7195564222692247037
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1

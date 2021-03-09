@@ -1,6 +1,6 @@
 Assets {
   Id: 13412464127967364327
-  Name: "SAR_Black"
+  Name: "ST2_Black"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {

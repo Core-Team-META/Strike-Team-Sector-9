@@ -1,6 +1,6 @@
 Assets {
   Id: 8191402814560574490
-  Name: "ST2_MetalPaintedOrange"
+  Name: "ST2_MetalPaintedYellow"
   PlatformAssetType: 13
   SerializationVersion: 77
   CustomMaterialAsset {

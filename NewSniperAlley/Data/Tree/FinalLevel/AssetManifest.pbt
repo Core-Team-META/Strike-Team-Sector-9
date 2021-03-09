@@ -521,15 +521,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14150131608064648431
-  Name: "Sci-fi Base - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_win_001_ref"
-  }
-}
-Assets {
   Id: 14099581719801039369
   Name: "Sci-fi Base Breakout Box 01"
   PlatformAssetType: 1
@@ -707,15 +698,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_steering_wheel_001_ref"
-  }
-}
-Assets {
-  Id: 12726548188486298846
-  Name: "Frame Medium Corner - Neon Double 2 Sided Ending"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_Corner_Ender_2s_db"
   }
 }
 Assets {
@@ -1283,15 +1265,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_eaves_001"
-  }
-}
-Assets {
-  Id: 7537325611308639403
-  Name: "Urban Pedestrian Barrier 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_pedestrian_002_ref"
   }
 }
 Assets {

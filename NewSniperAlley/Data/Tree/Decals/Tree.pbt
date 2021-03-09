@@ -1,13 +1,131 @@
 Name: "Decals"
 RootId: 4816131956374653564
 Objects {
+  Id: 17049616993345530775
+  Name: "Liquid Decal Wet Road Water Puddle"
+  Transform {
+    Location {
+      X: -1475.65051
+      Y: 1369.64038
+      Z: -254.934464
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1.11479819
+      Y: 1.11479819
+      Z: 0.496474892
+    }
+  }
+  ParentId: 4816131956374653564
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:eliquiddecaltype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 4
+        G: 4
+        B: 4
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11445222157905148236
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 13450708269817443158
+  Name: "Liquid Decal Wet Road Water Puddle"
+  Transform {
+    Location {
+      X: -2096.67261
+      Y: 1369.64038
+      Z: -254.934464
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1.11479819
+      Y: 1.11479819
+      Z: 0.496474892
+    }
+  }
+  ParentId: 4816131956374653564
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:eliquiddecaltype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 4
+        G: 4
+        B: 4
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11445222157905148236
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 2509184654490065625
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
       X: -5145
       Y: 830
-      Z: -254.934204
+      Z: -256.142578
     }
     Rotation {
     }
@@ -180,12 +298,12 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -2190
-      Y: 795
-      Z: -254.934418
+      X: -2880
+      Y: 695
+      Z: -254.934479
     }
     Rotation {
-      Yaw: -44.9999962
+      Yaw: -45
     }
     Scale {
       X: 1.11479819
@@ -521,12 +639,12 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -1420
-      Y: 960
-      Z: -254.934219
+      X: -2865
+      Y: 860
+      Z: -254.93428
     }
     Rotation {
-      Yaw: -44.9999962
+      Yaw: -45
     }
     Scale {
       X: 1.11479819
@@ -580,7 +698,7 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -2094.60327
+      X: -2849.60327
       Y: 390
       Z: -254.934235
     }
@@ -638,7 +756,7 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -1955
+      X: -2710
       Y: -40
       Z: -254.934219
     }
@@ -808,12 +926,12 @@ Objects {
   Name: "Liquid Decal Wet Road"
   Transform {
     Location {
-      X: -2228.98193
+      X: -2983.98193
       Y: 446.426727
       Z: -319.999939
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 2.25
@@ -860,7 +978,7 @@ Objects {
   Name: "Liquid Decal Wet Road"
   Transform {
     Location {
-      X: -2265
+      X: -3020
       Y: 810
       Z: -320
     }
@@ -966,7 +1084,7 @@ Objects {
   Name: "Liquid Decal Wet Road"
   Transform {
     Location {
-      X: -2035
+      X: -2790
       Y: -15
       Z: -320
     }

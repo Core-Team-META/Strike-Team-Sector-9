@@ -1,6 +1,55 @@
 Name: "Whitebox"
 RootId: 13498286685645607662
 Objects {
+  Id: 6786550807016685808
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -1150
+      Y: 5690
+      Z: -340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 4.25
+      Z: 5.75
+    }
+  }
+  ParentId: 13498286685645607662
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9608867807191114934
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 18264189124343207819
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -270,7 +319,7 @@ Objects {
   Transform {
     Location {
       X: -5625
-      Y: -7840
+      Y: -8185
       Z: -340
     }
     Rotation {
@@ -367,7 +416,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -675.000061
+      X: -365.000061
       Y: 3740
       Z: 1374.99988
     }
@@ -376,7 +425,7 @@ Objects {
     }
     Scale {
       X: 49.25
-      Y: 59.2500191
+      Y: 56.75
       Z: 3.5
     }
   }
@@ -555,7 +604,7 @@ Objects {
   Transform {
     Location {
       X: -2305
-      Y: 1200
+      Y: 1219.13208
       Z: -339.999939
     }
     Rotation {
@@ -811,7 +860,7 @@ Objects {
     Scale {
       X: 15
       Y: 7
-      Z: 3.5
+      Z: 0.75
     }
   }
   ParentId: 13498286685645607662

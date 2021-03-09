@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16417116211763376902
+  Name: "Girder Medium Angled"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
+  }
+}
+Assets {
   Id: 16361900871520744060
   Name: "Urban Stairs Fire Escape - 6m 01"
   PlatformAssetType: 1
@@ -62,6 +71,24 @@ Assets {
   }
 }
 Assets {
+  Id: 14150131608064648431
+  Name: "Sci-fi Base - Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_win_001_ref"
+  }
+}
+Assets {
+  Id: 14041692737859807372
+  Name: "Animated Neon Sign- Boba"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Boba"
+  }
+}
+Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
@@ -71,12 +98,48 @@ Assets {
   }
 }
 Assets {
+  Id: 13171200732535708403
+  Name: "Metal Corrugated 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
+  }
+}
+Assets {
+  Id: 13105350100751157865
+  Name: "Steam Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_steam_volume_vfx"
+  }
+}
+Assets {
+  Id: 12598129352734110789
+  Name: "Corrugated Sheet Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
+  }
+}
+Assets {
   Id: 12577563649059889738
   Name: "Whitebox Wall 01 Window Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_windowL"
+  }
+}
+Assets {
+  Id: 11962195740089165680
+  Name: "Girder Medium 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_girder_medium_4m_1-5m_001"
   }
 }
 Assets {
@@ -107,12 +170,21 @@ Assets {
   }
 }
 Assets {
-  Id: 10868260544352788496
-  Name: "Glass 01"
-  PlatformAssetType: 2
+  Id: 10507400395406811830
+  Name: "Barrier Plastic 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_street_barrier_002"
+  }
+}
+Assets {
+  Id: 8483451495408102647
+  Name: "HVAC Unit"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_HVAC_001"
   }
 }
 Assets {
@@ -122,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_bloom"
+  }
+}
+Assets {
+  Id: 7900480577560620211
+  Name: "Street Light Pole 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_002"
   }
 }
 Assets {
@@ -161,12 +242,57 @@ Assets {
   }
 }
 Assets {
+  Id: 6314858928202309588
+  Name: "Urban Floor Grate Fire Escape - 1m x 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_1x2_001_ref"
+  }
+}
+Assets {
+  Id: 6033741828283651487
+  Name: "Sci-fi Base Trim 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_002_8m_ref"
+  }
+}
+Assets {
+  Id: 5734988360010929569
+  Name: "Military Tank Historic Armor Skirt 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_skirt_001_mid_ref"
+  }
+}
+Assets {
   Id: 5186266192997647835
   Name: "Frame Extra Large Straight"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tray_XtraLong"
+  }
+}
+Assets {
+  Id: 5154493427538871909
+  Name: "Corrugated Sheet Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
+  Id: 3561802186483994182
+  Name: "Sci-fi Base Floor Trim 01 - 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_floor_trim_001_4m_ref"
   }
 }
 Assets {
@@ -179,12 +305,66 @@ Assets {
   }
 }
 Assets {
+  Id: 3453125660196790227
+  Name: "Military Tank Modern Tread Frame 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
+  }
+}
+Assets {
+  Id: 2521409856080866625
+  Name: "Large Girder 8m x 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wall_girder_large_8m_001"
+  }
+}
+Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1419480028385412641
+  Name: "Street Light Pole Base 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_001_base"
+  }
+}
+Assets {
+  Id: 890442874131206195
+  Name: "Office Cubicle Desk Leg 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_off_cubicle_deskleg_001_ref"
+  }
+}
+Assets {
+  Id: 567193264820089861
+  Name: "Urban Fence Lock"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_lock_001"
+  }
+}
+Assets {
+  Id: 472496642976630875
+  Name: "Urban Fence Panel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_wall_01"
   }
 }
 Assets {
