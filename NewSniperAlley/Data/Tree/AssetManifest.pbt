@@ -1,10 +1,10 @@
 Assets {
-  Id: 10271821231561790687
-  Name: "Storage"
+  Id: 17911966383670151221
+  Name: "Keppu\'s loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "71e08e50f9394b8fb68ec3586912de31"
+      Key: "8749aad24dcb4b1692fa82104542daa9"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7844212678526986406
-  Name: "Loadout"
+  Id: 17895981944308846036
+  Name: "Keppu\'s StatKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "bd3cad5f0a8c4f1781bb72b3401fb7f3"
+      Key: "6219c60c03314490b533b3c9cdcdefd0"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7292900206551466579
-  Name: "Stats"
+  Id: 15288748177938868855
+  Name: "Keppu\'s storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "9c28804fd45342228835d004da0e503a"
+      Key: "3b667a3824cc45b48396cfef4d00ae2c"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -38,12 +38,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5646419812666555425
-  Name: "LifeTime"
+  Id: 14111837269791330645
+  Name: "Keppu\'s LifetimeStats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "ece6cd52eda04284b1f6e3c51ce77cb6"
+      Key: "1ba4b0524188404c8a6fbceb2ab4c8d8"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

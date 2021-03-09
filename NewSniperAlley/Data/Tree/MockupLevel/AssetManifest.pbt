@@ -486,7 +486,7 @@ Assets {
 }
 Assets {
   Id: 14844207987662279749
-  Name: "Barrier LIght"
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -855,7 +855,7 @@ Assets {
 }
 Assets {
   Id: 12612874835391805465
-  Name: "Barrier LIght"
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -2241,7 +2241,7 @@ Assets {
 }
 Assets {
   Id: 2566880633644170439
-  Name: "Barrier LIght"
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

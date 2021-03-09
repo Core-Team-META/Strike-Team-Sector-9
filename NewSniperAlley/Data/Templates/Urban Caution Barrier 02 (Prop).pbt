@@ -383,7 +383,7 @@ Assets {
     }
     Assets {
       Id: 12612874835391805465
-      Name: "Barrier LIght"
+      Name: "Barrier Light"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"

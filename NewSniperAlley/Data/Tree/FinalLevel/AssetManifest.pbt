@@ -144,7 +144,7 @@ Assets {
 }
 Assets {
   Id: 16954609655144784247
-  Name: "Humanoid 1 Scifi Helmet"
+  Name: "Humanoid 1 Viper Helmet"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
@@ -396,7 +396,7 @@ Assets {
 }
 Assets {
   Id: 14844207987662279749
-  Name: "Barrier LIght"
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1800,7 +1800,7 @@ Assets {
 }
 Assets {
   Id: 2566880633644170439
-  Name: "Barrier LIght"
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
