@@ -260,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6066558745328622384
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+  }
+}
+Assets {
   Id: 6033741828283651487
   Name: "Sci-fi Base Trim 02 8m"
   PlatformAssetType: 1
