@@ -25,6 +25,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceon"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           BundleDummy {
             ReferencedAssets {
@@ -46,5 +49,5 @@ Assets {
     Version: "1.1.0"
     Description: "\r\nNow updated for direction!!!\r\n\r\nThis asset will allow players to jump to higher elevations. Jump height can be adjusted in the properties of the tigger inside the script folder."
   }
-  SerializationVersion: 77
+  SerializationVersion: 78
 }

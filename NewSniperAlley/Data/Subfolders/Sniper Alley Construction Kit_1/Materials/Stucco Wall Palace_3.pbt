@@ -2,7 +2,7 @@ Assets {
   Id: 12826936769824659992
   Name: "Stucco Wall Palace"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 13174009668515209438
     ParameterOverrides {

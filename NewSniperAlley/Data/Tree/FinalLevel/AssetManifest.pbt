@@ -80,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17574211455635082249
-  Name: "Text 05: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_004"
-  }
-}
-Assets {
   Id: 17560617045900804652
   Name: "Column Base 02"
   PlatformAssetType: 1
@@ -140,15 +131,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_exhaust_dual_002_ref"
-  }
-}
-Assets {
-  Id: 16954609655144784247
-  Name: "Humanoid 1 Viper Helmet"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_hat_scifi_001_ref"
   }
 }
 Assets {
@@ -287,15 +269,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16131503078867448818
-  Name: "Street Post Round 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_post_round_001"
-  }
-}
-Assets {
   Id: 16105687716078266600
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -419,15 +392,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 14738524806015956578
-  Name: "Text 05: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_024"
   }
 }
 Assets {
@@ -572,15 +536,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_kit_frame_pillar_001_ref"
-  }
-}
-Assets {
-  Id: 13603351768712987773
-  Name: "Humanoid 1 Cassidy"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_001_ref"
   }
 }
 Assets {
@@ -980,30 +935,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10455374281433081979
-  Name: "Text 05: R"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_017"
-  }
-}
-Assets {
   Id: 10116332148539442832
   Name: "Urban Parking Meter Pole"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_meter_parking_post_001_ref"
-  }
-}
-Assets {
-  Id: 10038687211292323623
-  Name: "Sci-fi Barrel 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_barrel_001_ref"
   }
 }
 Assets {
@@ -1067,15 +1004,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_rainsplash_volume"
-  }
-}
-Assets {
-  Id: 9536141319314062468
-  Name: "Craftsman Porch Fence Railing 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }
 Assets {
@@ -1166,15 +1094,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_trk_001_bumper_rear_01_ref"
-  }
-}
-Assets {
-  Id: 8317679741492838839
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
@@ -1412,15 +1331,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6842764727794571561
-  Name: "Container - Hex- Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_hex_rnd_001_ref"
-  }
-}
-Assets {
   Id: 6787262208996147711
   Name: "Metal Complex Tech Panel Wall 03"
   PlatformAssetType: 2
@@ -1445,15 +1355,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_003_ref"
-  }
-}
-Assets {
-  Id: 6432912761929814416
-  Name: "Craftsman Porch Pillar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_pillar"
   }
 }
 Assets {
@@ -1511,6 +1412,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6066558745328622384
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+  }
+}
+Assets {
   Id: 5711247199587316769
   Name: "Urban Fence Pole - Extender Connecting"
   PlatformAssetType: 1
@@ -1526,15 +1436,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
-  Id: 5546359925665541106
-  Name: "Text 05: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_002"
   }
 }
 Assets {
@@ -1652,15 +1553,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_wall_003_uv_ref"
-  }
-}
-Assets {
-  Id: 4343715601199152368
-  Name: "Text 03: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_002"
   }
 }
 Assets {
@@ -1934,24 +1826,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1547287109932923518
-  Name: "Text 05: B"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_001"
-  }
-}
-Assets {
-  Id: 1461448635993541112
-  Name: "Text 03: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_011"
-  }
-}
-Assets {
   Id: 1378719400991316622
   Name: "Urban Trash Can 02"
   PlatformAssetType: 1
@@ -1970,30 +1844,12 @@ Assets {
   }
 }
 Assets {
-  Id: 978916223442242776
-  Name: "Text 03: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_000"
-  }
-}
-Assets {
   Id: 890442874131206195
   Name: "Office Cubicle Desk Leg 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_deskleg_001_ref"
-  }
-}
-Assets {
-  Id: 874365167851496878
-  Name: "Text 05: ~"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_036"
   }
 }
 Assets {
@@ -2048,15 +1904,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_wall_01"
-  }
-}
-Assets {
-  Id: 306471646271968506
-  Name: "Text 03: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_014"
   }
 }
 Assets {

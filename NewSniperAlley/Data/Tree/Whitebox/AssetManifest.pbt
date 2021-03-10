@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13206135842285396679
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
+  }
+}
+Assets {
   Id: 12306622679456331034
   Name: "Concrete Sidewalk"
   PlatformAssetType: 2
@@ -32,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_glass_refrac_001"
+  }
+}
+Assets {
+  Id: 10244512211031728539
+  Name: "Arch"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arch_001"
   }
 }
 Assets {

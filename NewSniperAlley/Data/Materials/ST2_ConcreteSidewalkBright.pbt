@@ -2,16 +2,16 @@ Assets {
   Id: 11766467113026910646
   Name: "ST2_ConcreteSidewalkBrightWet"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 12648550473195782623
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 2
-          G: 2
-          B: 2
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }

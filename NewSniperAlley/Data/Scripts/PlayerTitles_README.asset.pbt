@@ -4,6 +4,6 @@ Assets {
   PlatformAssetType: 3
   TextAsset {
   }
-  SerializationVersion: 77
+  SerializationVersion: 78
   DirectlyPublished: true
 }

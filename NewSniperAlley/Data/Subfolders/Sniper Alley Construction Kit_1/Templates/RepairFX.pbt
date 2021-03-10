@@ -23,6 +23,9 @@ Assets {
         }
         Lifespan: 2
         WantsNetworking: true
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         NetworkContext {
         }
       }
@@ -71,6 +74,9 @@ Assets {
             Bool: true
           }
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
             Id: 9773676362131248981
@@ -99,5 +105,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 77
+  SerializationVersion: 78
 }

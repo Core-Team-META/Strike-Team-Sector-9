@@ -2,7 +2,7 @@ Assets {
   Id: 4282262114945353141
   Name: "ST_AdBG02"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 14065635217134112544
     ParameterOverrides {

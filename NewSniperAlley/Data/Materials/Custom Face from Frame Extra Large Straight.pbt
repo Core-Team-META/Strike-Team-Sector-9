@@ -2,7 +2,7 @@ Assets {
   Id: 1720037132913382974
   Name: "Custom Face from Frame Extra Large Straight"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 13673122976761444724
     ParameterOverrides {

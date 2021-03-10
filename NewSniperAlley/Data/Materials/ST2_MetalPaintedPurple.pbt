@@ -2,7 +2,7 @@ Assets {
   Id: 16600302899515025333
   Name: "ST2_MetalPaintedPurple"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 2606200893917864133
     ParameterOverrides {

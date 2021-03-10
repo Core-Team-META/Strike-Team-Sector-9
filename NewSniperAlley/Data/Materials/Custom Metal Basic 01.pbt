@@ -2,22 +2,28 @@ Assets {
   Id: 18080397685168790491
   Name: "ST2_MetalShiny"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 3184356387751164974
+    BaseMaterialId: 6317093348408192352
     ParameterOverrides {
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0
+        Float: 0.547114134
+      }
+      Overrides {
+        Name: "color_lights"
+        Color {
+          A: 1
+        }
       }
     }
     Assets {
-      Id: 3184356387751164974
-      Name: "Metal Basic 01"
+      Id: 6317093348408192352
+      Name: "Concrete Panels 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_basic_001"
+        AssetId: "mi_gen_concrete_panels_002"
       }
     }
   }

@@ -2,16 +2,16 @@ Assets {
   Id: 1094385691941767444
   Name: "ST2_MetalPaintedBrown"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 2606200893917864133
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 0.630757153
-          G: 0.351532608
-          B: 0.226965874
+          R: 0.333
+          G: 0.185587078
+          B: 0.119823679
           A: 1
         }
       }

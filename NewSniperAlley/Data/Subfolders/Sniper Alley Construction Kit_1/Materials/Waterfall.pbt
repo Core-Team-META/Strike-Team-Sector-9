@@ -2,7 +2,7 @@ Assets {
   Id: 6620552361778989692
   Name: "Waterfall"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 14219218119685579637
     ParameterOverrides {
