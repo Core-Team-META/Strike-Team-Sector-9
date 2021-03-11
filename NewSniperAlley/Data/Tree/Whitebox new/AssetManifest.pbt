@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11962195740089165680
+  Name: "Girder Medium 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_girder_medium_4m_1-5m_001"
+  }
+}
+Assets {
   Id: 11917007313670209110
   Name: "Play Bold"
   PlatformAssetType: 28

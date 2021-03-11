@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17850784779650210910
-  Name: "Military Sandbag 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_sandbag_001"
-  }
-}
-Assets {
   Id: 17804872816677549927
   Name: "Main Street Floor 01 - 4m x 4m"
   PlatformAssetType: 1

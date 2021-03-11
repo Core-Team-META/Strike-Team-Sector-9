@@ -8,24 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18242853694291035774
-  Name: "Urban Vehicle Accessory - Sideview Mirror 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_mirror_sideview_001_ref"
-  }
-}
-Assets {
-  Id: 18119351551008849317
-  Name: "Urban Vehicle Accessory - Sedan Fenderflare 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_fenderflare_002_ref"
-  }
-}
-Assets {
   Id: 18009603480987123451
   Name: "Sci-fi Base Breakout Box 02"
   PlatformAssetType: 1
@@ -44,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17917087527987100066
-  Name: "Urban Vehicle Truck - Bumper Front 01 - Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_trk_001_bumper_front_01_bot_ref"
-  }
-}
-Assets {
   Id: 17868552823851201768
   Name: "Office Vending Machine 02"
   PlatformAssetType: 1
@@ -68,15 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_004_ref"
-  }
-}
-Assets {
-  Id: 17591161558402514443
-  Name: "Urban Vehicle Car - Center Console 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_console_center_001_ref"
   }
 }
 Assets {
@@ -125,24 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16962281255639280105
-  Name: "Urban Vehicle Car - Dual Exhaust 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_exhaust_dual_002_ref"
-  }
-}
-Assets {
-  Id: 16872004337369500726
-  Name: "Urban Vehicle Truck - Body Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_trk_001_body_01_rear_ref"
-  }
-}
-Assets {
   Id: 16869814041125097620
   Name: "Urban Rooftop Fan 01"
   PlatformAssetType: 1
@@ -179,30 +125,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16737023815630923572
-  Name: "Urban Vehicle Car - Glovebox 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_glovebox_001_ref"
-  }
-}
-Assets {
   Id: 16569967721778793374
   Name: "Transparent Bubble Glass"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_transparent_bubble_glass"
-  }
-}
-Assets {
-  Id: 16516459769229762722
-  Name: "Urban Car Screens 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_tachometer_001_ref"
   }
 }
 Assets {
@@ -278,39 +206,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16049211287924608873
-  Name: "Urban Vehicle Car - Front Seat Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_bot_001_ref"
-  }
-}
-Assets {
   Id: 15950976603585584640
   Name: "Fire Hydrant"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fire_hydrant_001"
-  }
-}
-Assets {
-  Id: 15714687381745373579
-  Name: "Urban Vehicle Car - Body Front 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_body_front_001_ref"
-  }
-}
-Assets {
-  Id: 15654135293853786027
-  Name: "Urban Vehicle Accessory - Door Handle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_door_handle_001_ref"
   }
 }
 Assets {
@@ -338,15 +239,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_vending_machine_01_ref"
-  }
-}
-Assets {
-  Id: 15353476744572170853
-  Name: "Urban Vehicle Car - Front Seat Leg 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_leg_001_ref"
   }
 }
 Assets {
@@ -395,15 +287,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14692871545412135955
-  Name: "Urban Vehicle Truck - Rollbar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rollbar_001_ref"
-  }
-}
-Assets {
   Id: 14530549821576425562
   Name: "Animated Neon Sign- Potion"
   PlatformAssetType: 1
@@ -449,30 +332,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14283164676165383348
-  Name: "Urban Vehicle Sedan - Body Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_body_rear_001_ref"
-  }
-}
-Assets {
   Id: 14278021748334546251
   Name: "Frame Large Straight - Neon Double"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon3_Straight_Double"
-  }
-}
-Assets {
-  Id: 14212988502358508072
-  Name: "Metal Basic Steel"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "steel_001"
   }
 }
 Assets {
@@ -491,15 +356,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_001_ref"
-  }
-}
-Assets {
-  Id: 14023212398559948573
-  Name: "Metal Chrome"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "chrome_001"
   }
 }
 Assets {
@@ -530,15 +386,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13861388637588403371
-  Name: "Urban Vehicle Car - Frame Pillar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_frame_pillar_001_ref"
-  }
-}
-Assets {
   Id: 13377764251575694508
   Name: "Text 01: O"
   PlatformAssetType: 1
@@ -554,15 +401,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_railing_002_4m_ref"
-  }
-}
-Assets {
-  Id: 13333199006335366198
-  Name: "Urban Vehicle Car - Back Seat End 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_back_end_001_ref"
   }
 }
 Assets {
@@ -638,33 +476,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12823153297399776751
-  Name: "Urban Vehicle Car - Roof 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_roof_001_ref"
-  }
-}
-Assets {
-  Id: 12821608187918865362
-  Name: "Urban Vehicle Car - Steering Wheel 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_steering_wheel_001_ref"
-  }
-}
-Assets {
-  Id: 12715360250534035700
-  Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_taillight_001_ref"
-  }
-}
-Assets {
   Id: 12684181422670302428
   Name: "Modern Stairs Stringer 01 - Straight Corner"
   PlatformAssetType: 1
@@ -719,30 +530,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12482639849349891471
-  Name: "Urban Vehicle Car - Door Front 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_door_front_001_ref"
-  }
-}
-Assets {
   Id: 12329912718303648187
   Name: "Stone Railing 8m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_railing_6m_001"
-  }
-}
-Assets {
-  Id: 12298031942360970354
-  Name: "Urban Vehicle Car - Steering Wheel 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_steering_wheel_001_ref"
   }
 }
 Assets {
@@ -755,15 +548,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11713966534695940483
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
   Id: 11687057706392781665
   Name: "Invisible"
   PlatformAssetType: 2
@@ -773,30 +557,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11604361694182844306
-  Name: "Urban Vehicle Sedan - Door Trunk 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_door_trunk_001_ref"
-  }
-}
-Assets {
   Id: 11573315623214987718
   Name: "Animated Neon Sign- Skull"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Skull"
-  }
-}
-Assets {
-  Id: 11508015507968617304
-  Name: "Urban Vehicle Car - Frame 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_frame_001_ref"
   }
 }
 Assets {
@@ -845,15 +611,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11056821811230590625
-  Name: "Urban Vehicle Car - Roof 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_roof_003_ref"
-  }
-}
-Assets {
   Id: 11001967573859652020
   Name: "Cone - Truncated Hollow Wide"
   PlatformAssetType: 1
@@ -899,66 +656,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10699661390325116495
-  Name: "Urban Vehicle Car - Front Seat Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_bot_001_ref"
-  }
-}
-Assets {
-  Id: 10638299353573151252
-  Name: "Urban Vehicle Car - Rim 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rim_003_ref"
-  }
-}
-Assets {
-  Id: 10533640116125518676
-  Name: "Sci-fi Console Screen 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scifi_screen_001_ref"
-  }
-}
-Assets {
-  Id: 10493976187644509689
-  Name: "Urban Vehicle Car - Tire 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_tire_001_ref"
-  }
-}
-Assets {
   Id: 10116332148539442832
   Name: "Urban Parking Meter Pole"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_meter_parking_post_001_ref"
-  }
-}
-Assets {
-  Id: 10037221186293404892
-  Name: "Urban Vehicle Sedan - Door Rear 01 - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_door_rear_001_window_001_ref"
-  }
-}
-Assets {
-  Id: 10003506984621339876
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
   }
 }
 Assets {
@@ -1007,15 +710,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9503903904385404246
-  Name: "Urban Vehicle Sedan - Bumper Front 01 - Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_bump_front_001_bot_001_ref"
-  }
-}
-Assets {
   Id: 9398431931771867526
   Name: "Decal Road Sign Symbols"
   PlatformAssetType: 14
@@ -1052,15 +746,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9130926378089456830
-  Name: "Urban Vehicle Sedan - Bumper Front 01 - Bottom 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_bump_front_001_bot_001_ref"
-  }
-}
-Assets {
   Id: 9122789709490702857
   Name: "Road Sidewalk Corner - In"
   PlatformAssetType: 1
@@ -1088,39 +773,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8426178907157142955
-  Name: "Urban Vehicle Truck - Bumper Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_trk_001_bumper_rear_01_ref"
-  }
-}
-Assets {
   Id: 8243311917055672270
   Name: "Curb 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_4m_001"
-  }
-}
-Assets {
-  Id: 8221182919805045275
-  Name: "Urban Vehicle Car - Rim 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rim_002_ref"
-  }
-}
-Assets {
-  Id: 8092405337000926198
-  Name: "Urban Vehicle Car - Hood Scoop 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_hood_scoop_001_ref"
   }
 }
 Assets {
@@ -1169,15 +827,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7684792462566627680
-  Name: "Urban Vehicle Truck - Tailgate 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_trk_001_tailgate_01_ref"
-  }
-}
-Assets {
   Id: 7648717670233836541
   Name: "Craftsman Roof 01 Eaves"
   PlatformAssetType: 1
@@ -1223,15 +872,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7285783594485045595
-  Name: "Urban Vehicle Car - Front Seat Leg 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_leg_001_ref"
-  }
-}
-Assets {
   Id: 7185288536232535515
   Name: "Road Sidewalk Corner"
   PlatformAssetType: 1
@@ -1274,33 +914,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_003_doorway_ref"
-  }
-}
-Assets {
-  Id: 7027821189002198349
-  Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_taillight_001_ref"
-  }
-}
-Assets {
-  Id: 7005392159686448132
-  Name: "Urban Vehicle Accessory - Sedan Fenderflare 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_fenderflare_001_ref"
-  }
-}
-Assets {
-  Id: 7002388663740390274
-  Name: "Urban Vehicle Sedan - Bumper Front 01 - Top 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_bump_front_001_top_001_ref"
   }
 }
 Assets {
@@ -1358,48 +971,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6357071581542016026
-  Name: "Urban Vehicle Sedan - Bumper Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_bump_rear_001_ref"
-  }
-}
-Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_002"
-  }
-}
-Assets {
-  Id: 6242160511200985545
-  Name: "Urban Vehicle Accessory - Sideview Mirror 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_mirror_sideview_001_ref"
-  }
-}
-Assets {
-  Id: 6212966131070499893
-  Name: "Urban Vehicle Car - Back Seat 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_back_001_ref"
-  }
-}
-Assets {
-  Id: 6209556876010214815
-  Name: "Urban Vehicle Car - Brake 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_brake_001_ref"
   }
 }
 Assets {
@@ -1448,15 +1025,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5199824919016904048
-  Name: "Cube - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_001"
-  }
-}
-Assets {
   Id: 5186266192997647835
   Name: "Frame Extra Large Straight"
   PlatformAssetType: 1
@@ -1493,15 +1061,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5035333608653009594
-  Name: "Urban Vehicle Car - Windshield 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_wndshield_001_ref"
-  }
-}
-Assets {
   Id: 4937555997507243807
   Name: "Barrier Triangle Base"
   PlatformAssetType: 1
@@ -1526,15 +1085,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
-  Id: 4687434041811739163
-  Name: "Urban Vehicle Car - Front Seat Top 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_top_001_ref"
   }
 }
 Assets {
@@ -1565,39 +1115,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3852383504164076369
-  Name: "Urban Vehicle Car - Dual Exhaust 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_exhaust_dual_002_ref"
-  }
-}
-Assets {
-  Id: 3611412382760728892
-  Name: "Urban Vehicle Sedan - Door Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_sdn_door_rear_001_ref"
-  }
-}
-Assets {
   Id: 3604252656281658198
   Name: "Whitebox Stairs 01 L"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001_L"
-  }
-}
-Assets {
-  Id: 3439188728876349152
-  Name: "Urban Vehicle Truck - Roof Rear 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_trk_001_roof_rear_01_ref"
   }
 }
 Assets {
@@ -1619,30 +1142,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3203349032132710974
-  Name: "Urban Vehicle Car - Front Seat Top 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_front_top_001_ref"
-  }
-}
-Assets {
   Id: 3183406401151404830
   Name: "Whitebox Stairs 01 Straight"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001"
-  }
-}
-Assets {
-  Id: 3104633519268009050
-  Name: "Urban Vehicle Car - Door Front 01 - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_door_front_001_window_001_ref"
   }
 }
 Assets {
@@ -1664,39 +1169,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2769563029775643720
-  Name: "Urban Vehicle Car - Tire 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_tire_001_ref"
-  }
-}
-Assets {
-  Id: 2665093081634824723
-  Name: "Urban Vehicle Accessory - Sedan Fenderflare 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_fenderflare_001_ref"
-  }
-}
-Assets {
   Id: 2611548225149256512
   Name: "Frame Medium Straight - Neon 1 Sided Ending"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Ender_1s"
-  }
-}
-Assets {
-  Id: 2566880633644170439
-  Name: "Barrier Light"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_light_001"
   }
 }
 Assets {
@@ -1754,24 +1232,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2105469337981746227
-  Name: "Military Tank Historic Armor Plate 01 - Rear"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_armorplate_001_rear_ref"
-  }
-}
-Assets {
-  Id: 2039606655896571360
-  Name: "Urban Vehicle Car - Brake 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_brake_001_ref"
-  }
-}
-Assets {
   Id: 1882399476102658604
   Name: "Text 01: U"
   PlatformAssetType: 1
@@ -1808,15 +1268,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1756573072496644269
-  Name: "Sci-fi Ship Wing Small 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_wing_small_001_ref"
-  }
-}
-Assets {
   Id: 1553305104100685690
   Name: "Modern Stairs Railing 01 - Straight 01"
   PlatformAssetType: 1
@@ -1832,15 +1283,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_trash_can_003_ref"
-  }
-}
-Assets {
-  Id: 1300544216590495067
-  Name: "Urban Vehicle Accessory - Sedan Fenderflare 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_fenderflare_002_ref"
   }
 }
 Assets {
@@ -1913,24 +1355,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 181225085528308616
-  Name: "Urban Vehicle Car - Back Seat Middle 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_seat_back_mid_001_ref"
-  }
-}
-Assets {
-  Id: 121171132792744816
-  Name: "Urban Vehicle Car - Hood 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_kit_hood_001_ref"
   }
 }
 Assets {

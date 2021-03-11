@@ -17,7 +17,7 @@ Assets {
       }
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0
+        Float: 1
       }
     }
     Assets {
