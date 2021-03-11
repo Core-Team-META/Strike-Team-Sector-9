@@ -89,6 +89,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14010943251033244363
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
@@ -338,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_girder_large_8m_001"
+  }
+}
+Assets {
+  Id: 2426365243272789686
+  Name: "Urban Skylight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_skylight_001"
   }
 }
 Assets {
