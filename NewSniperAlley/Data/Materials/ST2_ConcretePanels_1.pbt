@@ -1,18 +1,17 @@
 Assets {
-  Id: 18080397685168790491
-  Name: "ST2_MetalShiny"
+  Id: 3966505191564837760
+  Name: "ST2_ConcretePanels"
   PlatformAssetType: 13
   SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 6317093348408192352
     ParameterOverrides {
       Overrides {
-        Name: "roughness_multiplier"
-        Float: 0.547114134
-      }
-      Overrides {
-        Name: "color_lights"
+        Name: "color"
         Color {
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
       }

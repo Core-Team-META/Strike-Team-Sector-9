@@ -1,5 +1,5 @@
 Assets {
-  Id: 3966505191564837760
+  Id: 18080397685168790491
   Name: "ST2_ConcretePanels"
   PlatformAssetType: 13
   SerializationVersion: 78
@@ -7,11 +7,12 @@ Assets {
     BaseMaterialId: 6317093348408192352
     ParameterOverrides {
       Overrides {
-        Name: "color"
+        Name: "roughness_multiplier"
+        Float: 0.547114134
+      }
+      Overrides {
+        Name: "color_lights"
         Color {
-          R: 0.0600590743
-          G: 0.074
-          B: 0.0574727505
           A: 1
         }
       }
