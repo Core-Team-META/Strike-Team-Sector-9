@@ -68,12 +68,3 @@ Assets {
     }
   }
 }
-Assets {
-  Id: 10030495421633776105
-  Name: "Sci-fi Cargo Crate 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_crate_cargo_001"
-  }
-}
