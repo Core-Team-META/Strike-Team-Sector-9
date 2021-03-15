@@ -143,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6713301730188216932
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
+  }
+}
+Assets {
   Id: 5549379117761037396
   Name: "Concrete Basic 01"
   PlatformAssetType: 2

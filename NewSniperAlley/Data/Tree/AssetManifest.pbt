@@ -25,24 +25,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17759641504777558449
-  Name: "Humanoid 2 Kava"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_sport_001_ref"
-  }
-}
-Assets {
-  Id: 16237330725608463998
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
-  }
-}
-Assets {
   Id: 15288748177938868855
   Name: "Keppu\'s storage"
   PlatformAssetType: 23
