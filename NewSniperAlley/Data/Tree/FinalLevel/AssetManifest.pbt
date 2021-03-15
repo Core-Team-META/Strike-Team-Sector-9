@@ -1250,15 +1250,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9279130763178750287
-  Name: "Urban Fence Doorway"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_wall_01_door_001"
-  }
-}
-Assets {
   Id: 9246394684961412836
   Name: "Main Street Door Shopfront 01"
   PlatformAssetType: 1
