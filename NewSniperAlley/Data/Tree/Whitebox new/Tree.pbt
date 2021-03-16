@@ -1,6 +1,78 @@
 Name: "Whitebox new"
 RootId: 14187091637818002669
 Objects {
+  Id: 1230309123466286077
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 4745
+      Y: -7940
+      Z: 820
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.61910462
+      Y: 4.00000048
+      Z: 1
+    }
+  }
+  ParentId: 14187091637818002669
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.777
+        G: 0.777
+        B: 0.777
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 1
+        G: 0.149802
+        B: 0.010033
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11635162136967954539
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 18285627627767298463
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -73,8 +145,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 4.39935064
-      Y: 3.74999976
+      X: 3
+      Y: 3.75000024
       Z: 1
     }
   }
@@ -4678,78 +4750,6 @@ Objects {
   }
 }
 Objects {
-  Id: 6580520555682086137
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 3850
-      Y: 3555
-      Z: 955
-    }
-    Rotation {
-    }
-    Scale {
-      X: 4.39935064
-      Y: 3.74999976
-      Z: 1
-    }
-  }
-  ParentId: 14187091637818002669
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.777
-        G: 0.777
-        B: 0.777
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Ceiling:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11635162136967954539
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 4473532182174012760
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -5520,8 +5520,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.82254887
-      Y: 2.25
+      X: 2.75
+      Y: 2.5
       Z: 1
     }
   }

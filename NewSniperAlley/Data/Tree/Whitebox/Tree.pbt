@@ -1,11 +1,413 @@
 Name: "Whitebox"
 RootId: 13498286685645607662
 Objects {
+  Id: 3625797375403868618
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 9620
+      Y: -6035
+      Z: 400
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 40.75
+      Y: 22.25
+      Z: 11.5
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11878537774294363118
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 8195
+      Y: -9045
+      Z: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 40.75
+      Y: 22.25
+      Z: 11.5
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2616010752171346269
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 5615
+      Y: -9045
+      Z: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 17.5
+      Y: 22.25
+      Z: 4.00000095
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16730730545993270618
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 7685
+      Y: 30
+      Z: -339.99939
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 0.75
+      Y: 7.99999857
+      Z: 3.25
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 815980309007818828
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 6380
+      Y: 30
+      Z: -339.99939
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 0.75
+      Y: 6.5
+      Z: 3.25
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16181815194595682674
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 2805
+      Y: -6775
+      Z: 380
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.5
+      Y: 12.2500019
+      Z: 5
+    }
+  }
+  ParentId: 13498286685645607662
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2744685314836259436
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 6095
+      Y: 795
+      Z: -339.999268
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 14.75
+      Z: 3.25
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15499310615965863924
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 9010
+      Y: 4190
+      Z: -339.999268
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.75
+      Y: 14.75
+      Z: 3.25
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6040473231396913297
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 8550
+      Y: 4900
+      Z: -339.999268
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 15.9022112
+      Y: 9.99999523
+      Z: 7.25
+    }
+  }
+  ParentId: 13498286685645607662
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 4195862590589389674
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 5275.24219
+      X: 4760
       Y: 3265
       Z: -340
     }
@@ -177,14 +579,14 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 5370
+      X: 4905
       Y: 1440
       Z: -340
     }
     Rotation {
     }
     Scale {
-      X: 34.5000038
+      X: 24.5
       Y: 16.75
       Z: 13
     }
@@ -4356,15 +4758,15 @@ Objects {
   Transform {
     Location {
       X: -5845
-      Y: 2170
+      Y: 2282.56152
       Z: -340
     }
     Rotation {
       Yaw: 89.9999542
     }
     Scale {
-      X: 5.5
-      Y: 9.5
+      X: 6.34284258
+      Y: 9.50000095
       Z: 6.5
     }
   }
@@ -4714,7 +5116,7 @@ Objects {
   Transform {
     Location {
       X: -5635
-      Y: 910
+      Y: 640
       Z: 260
     }
     Rotation {
@@ -7548,7 +7950,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 7480
+      X: 7490
       Y: -3675
       Z: -339.999756
     }
@@ -11962,7 +12364,7 @@ Objects {
   Name: "Capture point"
   Transform {
     Location {
-      X: 6038.28467
+      X: 4990
       Y: 2146.16577
       Z: 986.04541
     }
@@ -12185,7 +12587,7 @@ Objects {
   Transform {
     Location {
       X: -6395
-      Y: 895
+      Y: 635
       Z: -764.999512
     }
     Rotation {
@@ -12447,16 +12849,16 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 8865
-      Y: -8635
-      Z: -340
+      X: 8710
+      Y: -8305
+      Z: -355
     }
     Rotation {
     }
     Scale {
       X: 9.75
       Y: 8.75
-      Z: 5.75
+      Z: 7.25
     }
   }
   ParentId: 13498286685645607662
@@ -12813,8 +13215,8 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 8547.01465
-      Y: 794.935059
+      X: 8550
+      Y: 785
       Z: -339.999268
     }
     Rotation {
@@ -12864,9 +13266,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 36.3987389
+      X: 36.5
       Y: 25
-      Z: 7.25
+      Z: 29.4999981
     }
   }
   ParentId: 13498286685645607662
@@ -12900,16 +13302,16 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 8865
-      Y: 3765
+      X: 9010
+      Y: 2115
       Z: -339.999268
     }
     Rotation {
     }
     Scale {
-      X: 2
-      Y: 14.7500019
-      Z: 7.25
+      X: 0.75
+      Y: 14.75
+      Z: 3.25
     }
   }
   ParentId: 13498286685645607662
@@ -14463,7 +14865,7 @@ Objects {
     Scale {
       X: 27.75
       Y: 24.75
-      Z: 17.7193813
+      Z: 31.5000057
     }
   }
   ParentId: 13498286685645607662
@@ -14540,7 +14942,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 5395
+      X: 4920
       Y: 3265
       Z: -340
     }
@@ -14550,92 +14952,6 @@ Objects {
       X: 16.75
       Y: 16.75
       Z: 7.49999905
-    }
-  }
-  ParentId: 13498286685645607662
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 11482606635852503957
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 5590
-      Y: 2215
-      Z: -340
-    }
-    Rotation {
-    }
-    Scale {
-      X: 16.75
-      Y: 16.75
-      Z: 7.25
-    }
-  }
-  ParentId: 13498286685645607662
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 314842337452448430
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 5590
-      Y: 1440
-      Z: -340
-    }
-    Rotation {
-    }
-    Scale {
-      X: 34.5000038
-      Y: 16.75
-      Z: 13
     }
   }
   ParentId: 13498286685645607662

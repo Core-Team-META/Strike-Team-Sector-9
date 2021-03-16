@@ -16,7 +16,7 @@ Assets {
       }
       Overrides {
         Name: "index"
-        Float: 1
+        Float: 4
       }
     }
     Assets {
