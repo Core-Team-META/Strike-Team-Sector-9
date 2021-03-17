@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16076709891097091549
+  Name: "Whitebox Stairs 01 U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_U"
+  }
+}
+Assets {
   Id: 15484605620023334162
   Name: "Wedge - Corner Complex"
   PlatformAssetType: 1
@@ -35,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14796711042662669165
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 14285279341781365881
   Name: "Plastic Matte"
   PlatformAssetType: 2
@@ -68,15 +68,6 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
-  }
-}
-Assets {
-  Id: 11730308934333352162
-  Name: "Main Street Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_part_window_001_ref"
   }
 }
 Assets {
@@ -194,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_shipping_container_6m_001"
+  }
+}
+Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
