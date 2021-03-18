@@ -38,15 +38,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14796711042662669165
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 14111837269791330645
   Name: "Keppu\'s LifetimeStats"
   PlatformAssetType: 23
@@ -57,14 +48,5 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
-  }
-}
-Assets {
-  Id: 7531058706496198656
-  Name: "Whitebox Wall 01 Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
   }
 }

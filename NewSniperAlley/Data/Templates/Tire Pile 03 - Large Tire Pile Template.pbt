@@ -2433,5 +2433,5 @@ Assets {
       AssetId: "Military_Tire_Pile_03_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }
