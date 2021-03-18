@@ -2,7 +2,7 @@ Assets {
   Id: 9956790518479667483
   Name: "Custom Base Material from Girder Medium 4m"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 79
   CustomMaterialAsset {
     BaseMaterialId: 6205532769676489147
     ParameterOverrides {

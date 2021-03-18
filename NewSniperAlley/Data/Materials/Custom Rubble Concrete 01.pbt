@@ -2,7 +2,7 @@ Assets {
   Id: 3332563484212804006
   Name: "Custom Rubble Concrete 01"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 79
   CustomMaterialAsset {
     BaseMaterialId: 16844107203508180063
     ParameterOverrides {

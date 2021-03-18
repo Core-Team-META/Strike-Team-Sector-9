@@ -2,7 +2,7 @@ Assets {
   Id: 15076707308823440700
   Name: "ST2_BGBuildingOfficeFloors"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 79
   CustomMaterialAsset {
     BaseMaterialId: 4344775540932160826
     ParameterOverrides {

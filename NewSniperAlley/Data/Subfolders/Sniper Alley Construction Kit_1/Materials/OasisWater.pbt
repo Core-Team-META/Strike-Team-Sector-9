@@ -2,7 +2,7 @@ Assets {
   Id: 4995364750062228212
   Name: "OasisWater"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 79
   CustomMaterialAsset {
     BaseMaterialId: 14219218119685579637
     ParameterOverrides {

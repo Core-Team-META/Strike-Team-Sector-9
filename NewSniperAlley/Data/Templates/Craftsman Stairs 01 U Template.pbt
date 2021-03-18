@@ -361,5 +361,5 @@ Assets {
       AssetId: "Craftsman_Stairs_01_U_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

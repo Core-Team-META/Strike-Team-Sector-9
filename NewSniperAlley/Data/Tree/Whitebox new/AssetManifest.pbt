@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16076709891097091549
-  Name: "Whitebox Stairs 01 U"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_U"
-  }
-}
-Assets {
   Id: 15484605620023334162
   Name: "Wedge - Corner Complex"
   PlatformAssetType: 1
@@ -41,6 +32,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_bunker_001"
+  }
+}
+Assets {
+  Id: 14796711042662669165
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -140,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_001"
+  }
+}
+Assets {
+  Id: 6066558745328622384
+  Name: "Whitebox Stairs 01 Straight 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
   }
 }
 Assets {

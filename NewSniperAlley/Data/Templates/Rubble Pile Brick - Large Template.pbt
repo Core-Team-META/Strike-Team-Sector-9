@@ -3842,5 +3842,5 @@ Assets {
       AssetId: "Rubble_Pile_Brick_-_Large_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

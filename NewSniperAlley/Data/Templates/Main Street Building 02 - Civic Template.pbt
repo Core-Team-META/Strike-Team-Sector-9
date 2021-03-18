@@ -76006,5 +76006,5 @@ Assets {
       AssetId: "Main_Street_Building_-_Civic_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

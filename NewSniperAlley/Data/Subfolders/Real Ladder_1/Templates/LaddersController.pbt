@@ -3503,6 +3503,6 @@ Assets {
   Marketplace {
     Description: "Real ladder you can climb up and down, jump from it and so on"
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
   DirectlyPublished: true
 }

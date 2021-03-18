@@ -3129,5 +3129,5 @@ Assets {
       AssetId: "Military_Barrier_04_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

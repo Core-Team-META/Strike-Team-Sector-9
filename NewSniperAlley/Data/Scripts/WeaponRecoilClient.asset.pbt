@@ -98,5 +98,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

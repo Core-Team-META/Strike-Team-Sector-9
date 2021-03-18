@@ -368,5 +368,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_Straight_8m_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }

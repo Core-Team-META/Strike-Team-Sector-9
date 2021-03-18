@@ -2,7 +2,7 @@ Assets {
   Id: 5415312787801914892
   Name: "ST2_ConcreteBrown"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 79
   CustomMaterialAsset {
     BaseMaterialId: 5549379117761037396
     ParameterOverrides {

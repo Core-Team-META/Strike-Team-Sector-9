@@ -21533,5 +21533,5 @@ Assets {
       AssetId: "Main_Street_Building_-_Corner_Template"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 79
 }
