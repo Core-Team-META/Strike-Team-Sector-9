@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17828004970017454132
+  Name: "Text 01: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_024"
+  }
+}
+Assets {
   Id: 17804872816677549927
   Name: "Main Street Floor 01 - 4m x 4m"
   PlatformAssetType: 1
@@ -113,6 +122,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_004_ref"
+  }
+}
+Assets {
+  Id: 17591749222201037974
+  Name: "Urban Damaged Glass Shard  - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_glass_shard_001_ref"
   }
 }
 Assets {
@@ -215,6 +233,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16701471895469829501
+  Name: "Text 01: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_000"
+  }
+}
+Assets {
   Id: 16630259605395466384
   Name: "Frosted Glass"
   PlatformAssetType: 2
@@ -305,6 +332,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16245899296389337529
+  Name: "Urban Damaged Concrete Chunk 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
+  }
+}
+Assets {
   Id: 16237330725608463998
   Name: "Humanoid 2 Rig"
   PlatformAssetType: 25
@@ -386,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15659294955587728976
+  Name: "Text 04: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_019"
+  }
+}
+Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
@@ -446,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_sign_002"
+  }
+}
+Assets {
+  Id: 15232603397834190844
+  Name: "Text 04: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_002"
   }
 }
 Assets {
@@ -692,6 +746,24 @@ Assets {
   }
 }
 Assets {
+  Id: 13583156742950437506
+  Name: "Text 01: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_001"
+  }
+}
+Assets {
+  Id: 13510797511506354084
+  Name: "Text 04: A"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_000"
+  }
+}
+Assets {
   Id: 13377764251575694508
   Name: "Text 01: O"
   PlatformAssetType: 1
@@ -800,6 +872,24 @@ Assets {
   }
 }
 Assets {
+  Id: 13054793214920919028
+  Name: "Text 01: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_018"
+  }
+}
+Assets {
+  Id: 12783865392164197828
+  Name: "Text 04: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_011"
+  }
+}
+Assets {
   Id: 12728337217389179065
   Name: "Craftsman Wall 02 Corner"
   PlatformAssetType: 1
@@ -845,6 +935,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12619559196295511488
+  Name: "Metal 9 Slice Frame 002"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_9slice_002"
+  }
+}
+Assets {
   Id: 12598129352734110789
   Name: "Corrugated Sheet Large"
   PlatformAssetType: 1
@@ -887,6 +986,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_webportal"
+  }
+}
+Assets {
+  Id: 12444572401020615185
+  Name: "Text 01: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_013"
   }
 }
 Assets {
@@ -1070,6 +1178,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10988321735701093802
+  Name: "Text 04: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_014"
+  }
+}
+Assets {
   Id: 10975066442102718841
   Name: "Barrier Caution Light 2"
   PlatformAssetType: 1
@@ -1169,6 +1286,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10106375602517479291
+  Name: "Text 04: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_013"
+  }
+}
+Assets {
+  Id: 10084579082453840554
+  Name: "Text 04: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_012"
+  }
+}
+Assets {
   Id: 10030495421633776105
   Name: "Sci-fi Cargo Crate 01"
   PlatformAssetType: 1
@@ -1193,6 +1328,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tray9_OuterCorner"
+  }
+}
+Assets {
+  Id: 9980316909404850007
+  Name: "Urban Damaged Concrete Chunk 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
   }
 }
 Assets {
@@ -1331,6 +1475,24 @@ Assets {
   }
 }
 Assets {
+  Id: 8448622295464365122
+  Name: "Frame Medium Outside Corner - Neon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_Neon3_OutsideCorner"
+  }
+}
+Assets {
+  Id: 8266239062619785653
+  Name: "Text 04: V"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_021"
+  }
+}
+Assets {
   Id: 8243311917055672270
   Name: "Curb 4m"
   PlatformAssetType: 1
@@ -1358,6 +1520,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7971533233606131662
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_scribbles_001"
+  }
+}
+Assets {
   Id: 7930932716296535070
   Name: "Urban Damaged Rebar - Lattice 01"
   PlatformAssetType: 1
@@ -1382,6 +1553,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_pole_002"
+  }
+}
+Assets {
+  Id: 7766997663479197753
+  Name: "Text 01: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_011"
   }
 }
 Assets {
@@ -1535,6 +1715,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+  }
+}
+Assets {
+  Id: 6842764727794571561
+  Name: "Container - Hex- Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_hex_rnd_001_ref"
   }
 }
 Assets {
@@ -1772,6 +1961,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4837075670809400986
+  Name: "Frame Large Straight - Neon"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_Neon3_Straight"
+  }
+}
+Assets {
   Id: 4811718779179670830
   Name: "Craftsman Part - Inside Upper Trim 01"
   PlatformAssetType: 1
@@ -1961,6 +2159,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2965407751154133105
+  Name: "Text 01: W"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_022"
+  }
+}
+Assets {
   Id: 2899842837741361229
   Name: "Concrete Tiles 01"
   PlatformAssetType: 2
@@ -2096,6 +2303,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1881291942488998340
+  Name: "Metal 9 Slice Frame 006"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_9slice_006"
+  }
+}
+Assets {
   Id: 1875649979914107750
   Name: "Office Vending Machine 03"
   PlatformAssetType: 1
@@ -2159,6 +2375,24 @@ Assets {
   }
 }
 Assets {
+  Id: 1161497408010170015
+  Name: "Sign Font 1 Neon Outline: @"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeNeon_Outline_01_Text_038"
+  }
+}
+Assets {
+  Id: 1115657846336343337
+  Name: "Text 04: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_024"
+  }
+}
+Assets {
   Id: 1104198953447072835
   Name: "Object Domestic Doors & Creaks Set 01 SFX"
   PlatformAssetType: 10
@@ -2174,6 +2408,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_005_corner_ref"
+  }
+}
+Assets {
+  Id: 962531297881391870
+  Name: "Text 04: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F7_Text_004"
   }
 }
 Assets {

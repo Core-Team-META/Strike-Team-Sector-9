@@ -1,6 +1,6 @@
 Assets {
   Id: 8339236779796389830
-  Name: "SAR_ConcretePanelsPlaster"
+  Name: "ST2_ConcretePanelsPlasterGradient"
   PlatformAssetType: 13
   SerializationVersion: 80
   CustomMaterialAsset {
@@ -9,9 +9,6 @@ Assets {
       Overrides {
         Name: "gradient_color"
         Color {
-          R: 0.436000019
-          G: 0.401287138
-          B: 0.313484
           A: 1
         }
       }
@@ -21,7 +18,7 @@ Assets {
       }
       Overrides {
         Name: "gradient_falloff"
-        Float: 0
+        Float: 0.358055413
       }
       Overrides {
         Name: "gradient_worldspace"
@@ -47,12 +44,30 @@ Assets {
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.249589205
+        Float: 0.210340366
       }
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
           Id: 6317093348408192352
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material1"
+        Color {
+          R: 0.405000031
+          G: 0.405000031
+          B: 0.405000031
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cmpc:Material2"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
         }
       }
     }

@@ -30,7 +30,10 @@ local destructionTrigger = script.parent
 function handleOverlap(trigger, object)
 
     if object ~= nil and object:GetVelocity().size > breakVelocity then 
-        print("GetVelocity =", object:GetVelocity().size)
+        -- Get obj data for the debris before the bullet is destroyed
+        local collisionPos = object:GetWorldPosition()
+        local colObjVel = object:GetVelocity().size
+
          -- Apply SFX & VFX
         if Object.IsValid(FXLocation01) then
             World.SpawnAsset(destructionFX01, { position = FXLocation01:GetWorldPosition() })
@@ -47,15 +50,17 @@ function handleOverlap(trigger, object)
            
         -- Activate debris physics for everything else
         debrisGroup.visibility = Visibility.FORCE_ON
+
         local rng = RandomStream.New()
-        local epicenter = script:GetWorldPosition()
-        local DISTANCE_TO_EXPLODE = 300
-        local EXPLOSION_FORCE = 450
+       
+        local EXPLOSION_FORCE =  CoreMath.Clamp((colObjVel * 0.25),1,200)
+        
         for _, child in ipairs(debrisGroup:GetChildren()) do          
             child.isSimulatingDebrisPhysics = true
             child.cameraCollision = 2
-            local direction = (child:GetWorldPosition() - epicenter):GetNormalized()
-            child:SetVelocity((rng:GetVector3() + direction * 2) * EXPLOSION_FORCE)
+            local direction = (child:GetWorldPosition() - collisionPos):GetNormalized()
+            -- Explode in the opposite direction of the collision
+            child:SetVelocity((rng:GetVector3() + direction * -2) * EXPLOSION_FORCE)
         end
                 
         -- Make after destruction cosmetic stuff visible

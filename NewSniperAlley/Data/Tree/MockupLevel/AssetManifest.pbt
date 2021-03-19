@@ -1169,6 +1169,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10683864516513296011
+  Name: "Frosted Glass No Distortion"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass_nodistortion"
+  }
+}
+Assets {
   Id: 10638299353573151252
   Name: "Urban Vehicle Car - Rim 03"
   PlatformAssetType: 1
