@@ -148,5 +148,5 @@ Assets {
       AssetId: "Grenade_01"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

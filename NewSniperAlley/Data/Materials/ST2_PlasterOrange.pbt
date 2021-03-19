@@ -2,7 +2,7 @@ Assets {
   Id: 11517834777195097018
   Name: "ST2_PlasterOrange"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

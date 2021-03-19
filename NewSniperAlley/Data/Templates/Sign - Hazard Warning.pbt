@@ -278,5 +278,5 @@ Assets {
       AssetId: "Sign_-_Hazard_Warning"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

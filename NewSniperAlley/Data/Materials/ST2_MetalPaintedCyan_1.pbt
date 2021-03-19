@@ -2,7 +2,7 @@ Assets {
   Id: 3716406579825646319
   Name: "ST2_MetalPaintedCyan"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 2606200893917864133
     ParameterOverrides {

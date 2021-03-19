@@ -2,7 +2,7 @@ Assets {
   Id: 3133392879817898254
   Name: "ST2_ConcreteDamagedBright"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 698534003690564864
     ParameterOverrides {

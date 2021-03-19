@@ -323,5 +323,5 @@ Assets {
       AssetId: "Stop_Sign"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

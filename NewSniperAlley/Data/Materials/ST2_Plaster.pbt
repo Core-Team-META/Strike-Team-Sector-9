@@ -2,7 +2,7 @@ Assets {
   Id: 18397491135299377529
   Name: "ST2_Plaster"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

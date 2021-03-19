@@ -25,6 +25,24 @@ Assets {
   }
 }
 Assets {
+  Id: 17591749222201037974
+  Name: "Urban Damaged Glass Shard  - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_glass_shard_001_ref"
+  }
+}
+Assets {
+  Id: 16245899296389337529
+  Name: "Urban Damaged Concrete Chunk 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
+  }
+}
+Assets {
   Id: 15288748177938868855
   Name: "Keppu\'s storage"
   PlatformAssetType: 23
@@ -48,5 +66,23 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
+  }
+}
+Assets {
+  Id: 9980316909404850007
+  Name: "Urban Damaged Concrete Chunk 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
+  }
+}
+Assets {
+  Id: 198353679974341757
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }

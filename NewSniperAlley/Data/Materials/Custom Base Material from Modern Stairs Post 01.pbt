@@ -2,7 +2,7 @@ Assets {
   Id: 15902849951062777149
   Name: "Custom Base Material from Modern Stairs Post 01"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 2665193231932011980
     ParameterOverrides {

@@ -1,6 +1,6 @@
 Assets {
   Id: 3589751350767707736
-  Name: "SAR:DoorHallway"
+  Name: "SAR_DoorHallway"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -255,5 +255,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

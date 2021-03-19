@@ -2,7 +2,7 @@ Assets {
   Id: 8768196081368579403
   Name: "ST2_ConcreteBrightWet"
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 5549379117761037396
     ParameterOverrides {

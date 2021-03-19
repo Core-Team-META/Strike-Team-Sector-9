@@ -328,5 +328,5 @@ Assets {
       AssetId: "Urban_Pipe_Bent_-_02__Prop_"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

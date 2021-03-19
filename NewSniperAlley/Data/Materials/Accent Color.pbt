@@ -2,7 +2,7 @@ Assets {
   Id: 13284270366767062626
   Name: "Accent Color "
   PlatformAssetType: 13
-  SerializationVersion: 79
+  SerializationVersion: 80
   CustomMaterialAsset {
     BaseMaterialId: 15132818901450307376
     ParameterOverrides {

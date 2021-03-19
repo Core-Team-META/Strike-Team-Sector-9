@@ -124,7 +124,7 @@ Assets {
           Overrides {
             Name: "cs:LineTemplate"
             AssetReference {
-              Id: 8080234673380814911
+              Id: 841534158063459245
             }
           }
         }
@@ -249,5 +249,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

@@ -306,5 +306,5 @@ Assets {
       AssetId: "Sign_-_Pedestrian_Crossing"
     }
   }
-  SerializationVersion: 79
+  SerializationVersion: 80
 }

@@ -31,187 +31,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12894786428890402115
-  Name: "Whitebox from SniperAlley"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6388150592898695602
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Whitebox from SniperAlley"
-  }
-}
-Objects {
-  Id: 5651027783430747084
-  Name: "PlayableAreaSizeExport"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6388150592898695602
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 436114862008811390
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.323443711
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5620
-            Y: 390
-            Z: -100
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 879300416629537296
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.323443711
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1495
-            Y: 800
-            Z: -100
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13375306902931268399
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.323443711
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3925
-            Y: -1005
-            Z: -100
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15980262658522606838
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.74
-            G: 0.323443711
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -205
-            Y: -190
-            Z: -100
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17965083939551078598
-      value {
-        Overrides {
-          Name: "Name"
-          String: "PlayableAreaSizeExport"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -525
-            Y: -19865
-            Z: 48.3253784
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8996256876494011053
-    }
-  }
-}
-Objects {
   Id: 7746239358586859571
   Name: "MockupLevel"
   Transform {
@@ -241,47 +60,8 @@ Objects {
   }
 }
 Objects {
-  Id: 18387709152779558447
-  Name: "SniperAlley_OriginalMapExport"
-  Transform {
-    Location {
-      X: 7490
-      Y: -5735
-      Z: -390
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6388150592898695602
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Map"
-  }
-  InstanceHistory {
-    SelfId: 18387709152779558447
-    SubobjectId: 15840565595015858257
-    InstanceId: 625462129293179510
-    TemplateId: 8813260060497387525
-    WasRoot: true
-  }
-}
-Objects {
   Id: 12620923630688700211
-  Name: "Atmosphere_SD1"
+  Name: "Atmosphere_ST1"
   Transform {
     Location {
     }
@@ -294,7 +74,6 @@ Objects {
     }
   }
   ParentId: 6388150592898695602
-  ChildIds: 3300705284072794742
   ChildIds: 11225965630937591445
   ChildIds: 13429728426875344614
   ChildIds: 2236011792792835541
@@ -330,6 +109,7 @@ Objects {
     }
   }
   ParentId: 12620923630688700211
+  ChildIds: 3300705284072794742
   ChildIds: 12792493390528847933
   ChildIds: 2811748647166593164
   ChildIds: 9693290105081118999
@@ -713,6 +493,49 @@ Objects {
   }
 }
 Objects {
+  Id: 3300705284072794742
+  Name: "Motion Blur Post Process"
+  Transform {
+    Location {
+      Z: 1296.4812
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9300272677526177403
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 3471881598561556181
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 2236011792792835541
   Name: "Sun Light"
   Transform {
@@ -1015,45 +838,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 11515840070784317904
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 3300705284072794742
-  Name: "Motion Blur Post Process"
-  Transform {
-    Location {
-      Z: 3095
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12620923630688700211
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Blend Weight"
-      Float: 0
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 3471881598561556181
     }
     TeamSettings {
     }
