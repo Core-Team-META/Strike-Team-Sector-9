@@ -55,6 +55,7 @@ local revert = false
 local lerpFinished = false
 
 function Tick(deltaTime)
+
     -- Returns if the effect object is nil or the lerp can't be started
     if not canStart then return end
     if not Object.IsValid(EFFECT_OBJECT) then return end
@@ -162,9 +163,7 @@ end
 
 -- nil ResetLerp ()
 -- Resets lerp of the effect object
-function ResetLerp()
-    -- Reset some of the variables
-    
+function ResetLerp()    
     t = 0
     canStart = AUTO_START
     delayTime = RandomFloat(START_DELAY_RANGE.x, START_DELAY_RANGE.y)
