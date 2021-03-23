@@ -1,7 +1,95 @@
 Name: "Whitebox"
-RootId: 13498286685645607662
+RootId: 17903806154062347974
 Objects {
-  Id: 2107043252041068202
+  Id: 8165886892595103195
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -5189.04
+      Y: -3354.04688
+      Z: -614.999756
+    }
+    Rotation {
+    }
+    Scale {
+      X: 15.4752436
+      Y: 20.25
+      Z: 15.75
+    }
+  }
+  ParentId: 17903806154062347974
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17115641834514350024
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 9094.53516
+      Y: -3675
+      Z: -339.999756
+    }
+    Rotation {
+    }
+    Scale {
+      X: 17
+      Y: 17
+      Z: 7.25
+    }
+  }
+  ParentId: 17903806154062347974
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12618382596477045275
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17,7 +105,7 @@ Objects {
       Z: 29.5000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44,7 +132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10935450421890195298
+  Id: 12346500436013979980
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -60,7 +148,7 @@ Objects {
       Z: 12.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -87,7 +175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10265807533341201141
+  Id: 1973331081241159273
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -103,7 +191,7 @@ Objects {
       Z: 12.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -130,7 +218,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2811895682234718248
+  Id: 9109059842368336546
   Name: "Group"
   Transform {
     Location {
@@ -147,21 +235,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 9672982563078002635
-  ChildIds: 6551620082675220473
-  ChildIds: 9326862171052579322
-  ChildIds: 7991249474788727066
-  ChildIds: 14878919913281279641
-  ChildIds: 14118462752750589304
-  ChildIds: 12609926976981230105
-  ChildIds: 10798096437331498338
-  ChildIds: 17943453917209630897
-  ChildIds: 16318817267901088335
-  ChildIds: 6951645657088766860
-  ChildIds: 17271962394718909751
-  ChildIds: 4082314024922074161
-  ChildIds: 10634392179197262862
+  ParentId: 17903806154062347974
+  ChildIds: 15073474243092571784
+  ChildIds: 13653685430554420021
+  ChildIds: 13961859200703201216
+  ChildIds: 981614210494015998
+  ChildIds: 14424905720974196181
+  ChildIds: 17851663158917739802
+  ChildIds: 1238366980168355342
+  ChildIds: 13413292510924757012
+  ChildIds: 1996683227309567533
+  ChildIds: 13416931901904132902
+  ChildIds: 13425324003382083154
+  ChildIds: 11676290814619464004
+  ChildIds: 2747458922083543074
+  ChildIds: 5944996798009131277
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -176,7 +264,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10634392179197262862
+  Id: 5944996798009131277
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -195,7 +283,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -222,7 +310,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4082314024922074161
+  Id: 2747458922083543074
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -239,7 +327,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -266,7 +354,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17271962394718909751
+  Id: 11676290814619464004
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -282,7 +370,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -309,7 +397,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6951645657088766860
+  Id: 13425324003382083154
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -328,7 +416,7 @@ Objects {
       Z: 1.34098983
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -355,7 +443,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16318817267901088335
+  Id: 13416931901904132902
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -371,7 +459,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -398,7 +486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17943453917209630897
+  Id: 1996683227309567533
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -416,7 +504,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -443,7 +531,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10798096437331498338
+  Id: 13413292510924757012
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -459,7 +547,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -486,7 +574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12609926976981230105
+  Id: 1238366980168355342
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -504,7 +592,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -531,7 +619,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14118462752750589304
+  Id: 17851663158917739802
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -548,7 +636,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -575,7 +663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14878919913281279641
+  Id: 14424905720974196181
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -593,7 +681,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -620,7 +708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7991249474788727066
+  Id: 981614210494015998
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -637,7 +725,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -664,7 +752,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9326862171052579322
+  Id: 13961859200703201216
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -682,7 +770,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -709,7 +797,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6551620082675220473
+  Id: 13653685430554420021
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -726,7 +814,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -753,7 +841,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9672982563078002635
+  Id: 15073474243092571784
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -769,7 +857,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 2811895682234718248
+  ParentId: 9109059842368336546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -796,7 +884,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10388261285531934904
+  Id: 10052805188322037070
   Name: "Group"
   Transform {
     Location {
@@ -813,22 +901,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 8518101584612837946
-  ChildIds: 17964713298354686345
-  ChildIds: 4024354911404183914
-  ChildIds: 6421965847383337689
-  ChildIds: 14282852085205471846
-  ChildIds: 2901309174436554579
-  ChildIds: 9026239960728397712
-  ChildIds: 15746906033043671179
-  ChildIds: 2641676092481560085
-  ChildIds: 4970293324614177144
-  ChildIds: 14235595064376176592
-  ChildIds: 15306165957947512515
-  ChildIds: 6447698579734834796
-  ChildIds: 8273919784211985876
-  ChildIds: 4489178288199616374
+  ParentId: 17903806154062347974
+  ChildIds: 15819662000829198630
+  ChildIds: 17466896343912832519
+  ChildIds: 11325297268245757778
+  ChildIds: 273297184293625406
+  ChildIds: 115638529683721900
+  ChildIds: 743113338363518642
+  ChildIds: 11684220452598074593
+  ChildIds: 15020864331894563788
+  ChildIds: 17284847726420624577
+  ChildIds: 17537036157454210941
+  ChildIds: 9705721956374682120
+  ChildIds: 10365560019156513239
+  ChildIds: 4834787037903608400
+  ChildIds: 713531027287419930
+  ChildIds: 2700307316920600474
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -843,7 +931,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4489178288199616374
+  Id: 2700307316920600474
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -862,7 +950,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -889,7 +977,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8273919784211985876
+  Id: 713531027287419930
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -906,7 +994,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -933,7 +1021,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6447698579734834796
+  Id: 4834787037903608400
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -952,7 +1040,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -979,7 +1067,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15306165957947512515
+  Id: 10365560019156513239
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -995,7 +1083,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1022,7 +1110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14235595064376176592
+  Id: 9705721956374682120
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1041,7 +1129,7 @@ Objects {
       Z: 1.34098983
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1068,7 +1156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4970293324614177144
+  Id: 17537036157454210941
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1084,7 +1172,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1111,7 +1199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2641676092481560085
+  Id: 17284847726420624577
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1129,7 +1217,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1156,7 +1244,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15746906033043671179
+  Id: 15020864331894563788
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1172,7 +1260,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1199,7 +1287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9026239960728397712
+  Id: 11684220452598074593
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1217,7 +1305,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1244,7 +1332,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2901309174436554579
+  Id: 743113338363518642
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1261,7 +1349,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1288,7 +1376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14282852085205471846
+  Id: 115638529683721900
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1306,7 +1394,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1333,7 +1421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6421965847383337689
+  Id: 273297184293625406
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1350,7 +1438,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1377,7 +1465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4024354911404183914
+  Id: 11325297268245757778
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1395,7 +1483,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1422,7 +1510,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17964713298354686345
+  Id: 17466896343912832519
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1439,7 +1527,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1466,7 +1554,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8518101584612837946
+  Id: 15819662000829198630
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1483,7 +1571,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 10388261285531934904
+  ParentId: 10052805188322037070
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1510,7 +1598,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6129834989042178489
+  Id: 7538740216829267739
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1526,7 +1614,7 @@ Objects {
       Z: 18.2500057
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1553,7 +1641,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18059389373870787745
+  Id: 16908809581612781132
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1569,7 +1657,7 @@ Objects {
       Z: 11
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1596,7 +1684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11765523630039285194
+  Id: 309989159255089475
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1612,7 +1700,7 @@ Objects {
       Z: 12
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1639,7 +1727,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13063965785286744655
+  Id: 6058310536089594195
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1655,7 +1743,7 @@ Objects {
       Z: 7.49999905
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1682,7 +1770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4246032315766252130
+  Id: 3009924468726460355
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1698,7 +1786,7 @@ Objects {
       Z: 8.07819462
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1725,7 +1813,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13566978718325519268
+  Id: 15933562734397937701
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1742,7 +1830,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1777,7 +1865,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5045143364793714147
+  Id: 11549535510196806017
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1794,7 +1882,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1829,7 +1917,7 @@ Objects {
   }
 }
 Objects {
-  Id: 284040420387174123
+  Id: 7131465990167371740
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1846,7 +1934,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1881,7 +1969,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1954173354970520223
+  Id: 2882292764870087239
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1897,7 +1985,7 @@ Objects {
       Z: 12.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1924,7 +2012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 275218061066409664
+  Id: 5239953131000632558
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1940,7 +2028,7 @@ Objects {
       Z: 7.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1967,7 +2055,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4592949125008422923
+  Id: 15977267151032476730
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -1983,7 +2071,7 @@ Objects {
       Z: 7.49999905
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2010,7 +2098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13437344845380792879
+  Id: 9536516032498015622
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2028,7 +2116,7 @@ Objects {
       Z: 6.50007963
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2055,7 +2143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 472248474482266691
+  Id: 14968826011993108903
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2072,7 +2160,7 @@ Objects {
       Z: 6.50007963
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2099,7 +2187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9174605043005369746
+  Id: 7818388552868398981
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2115,7 +2203,7 @@ Objects {
       Z: 21.0000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2142,7 +2230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10556551901766053767
+  Id: 1534276163357199108
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2158,7 +2246,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2185,7 +2273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9985889683388352307
+  Id: 1490753045783041483
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2201,7 +2289,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2228,7 +2316,7 @@ Objects {
   }
 }
 Objects {
-  Id: 500411391996433101
+  Id: 1418922833095527240
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2244,7 +2332,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2271,7 +2359,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3687212987984308393
+  Id: 722515348272305424
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2287,7 +2375,7 @@ Objects {
       Z: 15
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2314,7 +2402,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14431997299139736419
+  Id: 16639809095499654490
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2330,7 +2418,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2357,7 +2445,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14842047165396125580
+  Id: 6154684020756822050
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2373,7 +2461,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2400,7 +2488,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14005192855924697724
+  Id: 8373352005175918825
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2416,7 +2504,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2443,7 +2531,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18355275005668144570
+  Id: 2915759490239595341
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2459,7 +2547,7 @@ Objects {
       Z: 9.78819275
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2486,7 +2574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12301294795672598815
+  Id: 12732466362890741292
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2503,7 +2591,7 @@ Objects {
       Z: 5.86775541
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2530,7 +2618,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3625797375403868618
+  Id: 915535906674763601
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2547,7 +2635,7 @@ Objects {
       Z: 11.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2574,7 +2662,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11878537774294363118
+  Id: 4636764338407304040
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2590,7 +2678,7 @@ Objects {
       Z: 11.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2617,7 +2705,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2616010752171346269
+  Id: 14530537799326185405
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2633,7 +2721,7 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2660,7 +2748,7 @@ Objects {
   }
 }
 Objects {
-  Id: 815980309007818828
+  Id: 16748034283956296546
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2677,7 +2765,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2704,7 +2792,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16181815194595682674
+  Id: 11277022966008348619
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2720,7 +2808,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2758,7 +2846,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2744685314836259436
+  Id: 574627892821718987
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2774,7 +2862,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2801,7 +2889,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4195862590589389674
+  Id: 15858967381772827761
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2817,7 +2905,7 @@ Objects {
       Z: 7.49999905
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2844,7 +2932,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2500512655362230900
+  Id: 17203518405058120960
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2860,7 +2948,7 @@ Objects {
       Z: 18
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2887,7 +2975,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3752788176869119507
+  Id: 7381584999452594429
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2903,7 +2991,7 @@ Objects {
       Z: 11
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2930,7 +3018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16219162212142116564
+  Id: 3754599864872143173
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2946,7 +3034,7 @@ Objects {
       Z: 12
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2973,7 +3061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16174926633673002251
+  Id: 3615757537098231442
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -2989,7 +3077,7 @@ Objects {
       Z: 7.50000048
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3016,7 +3104,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4394909390304515523
+  Id: 3603732638509824089
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3032,7 +3120,7 @@ Objects {
       Z: 15
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3059,7 +3147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17206600371043425051
+  Id: 382205841541103542
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3075,7 +3163,7 @@ Objects {
       Z: 7.42312956
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3102,7 +3190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16262065214298976620
+  Id: 7850854204347805133
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3118,7 +3206,7 @@ Objects {
       Z: 20.9146824
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3145,7 +3233,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11155555752048101963
+  Id: 17548215589378062124
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3161,7 +3249,7 @@ Objects {
       Z: 7.26327276
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3188,7 +3276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13339818701799336158
+  Id: 7731810992423008357
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3204,7 +3292,7 @@ Objects {
       Z: 7.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3231,7 +3319,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4754367949865821521
+  Id: 15029652911534869148
   Name: "Group"
   Transform {
     Location {
@@ -3248,22 +3336,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 18062874476736090485
-  ChildIds: 8160164794101756733
-  ChildIds: 3802273947862371090
-  ChildIds: 2075881388828737778
-  ChildIds: 13565036343257304162
-  ChildIds: 981560263100253079
-  ChildIds: 1876436951772343437
-  ChildIds: 1968751707767191221
-  ChildIds: 1875109195177982736
-  ChildIds: 12237836364652524442
-  ChildIds: 633674557853136438
-  ChildIds: 1777816170768540828
-  ChildIds: 14956867727041243771
-  ChildIds: 17401812094751559962
-  ChildIds: 8397328600615599912
+  ParentId: 17903806154062347974
+  ChildIds: 2156357254297771715
+  ChildIds: 6455811492720938414
+  ChildIds: 9656520235353829518
+  ChildIds: 10285716237944559519
+  ChildIds: 4500670190359664487
+  ChildIds: 3711315862309900217
+  ChildIds: 6347379805267208942
+  ChildIds: 17633593057053351176
+  ChildIds: 12276138076171220567
+  ChildIds: 12359303373818317146
+  ChildIds: 16800188430112869716
+  ChildIds: 16244354322138398183
+  ChildIds: 13941750313293068398
+  ChildIds: 14440564154400626339
+  ChildIds: 6729196813564927546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3278,7 +3366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8397328600615599912
+  Id: 6729196813564927546
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3297,7 +3385,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3324,7 +3412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17401812094751559962
+  Id: 14440564154400626339
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3341,7 +3429,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3368,7 +3456,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14956867727041243771
+  Id: 13941750313293068398
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3387,7 +3475,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3414,7 +3502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1777816170768540828
+  Id: 16244354322138398183
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3430,7 +3518,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3457,7 +3545,7 @@ Objects {
   }
 }
 Objects {
-  Id: 633674557853136438
+  Id: 16800188430112869716
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3476,7 +3564,7 @@ Objects {
       Z: 1.34098983
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3503,7 +3591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12237836364652524442
+  Id: 12359303373818317146
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3519,7 +3607,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3546,7 +3634,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1875109195177982736
+  Id: 12276138076171220567
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3564,7 +3652,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3591,7 +3679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1968751707767191221
+  Id: 17633593057053351176
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3607,7 +3695,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3634,7 +3722,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1876436951772343437
+  Id: 6347379805267208942
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3652,7 +3740,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3679,7 +3767,7 @@ Objects {
   }
 }
 Objects {
-  Id: 981560263100253079
+  Id: 3711315862309900217
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3696,7 +3784,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3723,7 +3811,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13565036343257304162
+  Id: 4500670190359664487
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3741,7 +3829,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3768,7 +3856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2075881388828737778
+  Id: 10285716237944559519
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3785,7 +3873,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3812,7 +3900,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3802273947862371090
+  Id: 9656520235353829518
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3830,7 +3918,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3857,7 +3945,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8160164794101756733
+  Id: 6455811492720938414
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3874,7 +3962,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3901,7 +3989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18062874476736090485
+  Id: 2156357254297771715
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3918,7 +4006,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 4754367949865821521
+  ParentId: 15029652911534869148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3945,7 +4033,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4510234609682823222
+  Id: 15685159629507636742
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -3961,7 +4049,7 @@ Objects {
       Z: 7.84015131
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -3990,7 +4078,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13483792538090542745
+  Id: 8934279265288373439
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4006,7 +4094,7 @@ Objects {
       Z: 7.84015131
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4035,7 +4123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4146388062214952205
+  Id: 7735578539188657259
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4051,7 +4139,7 @@ Objects {
       Z: 7.84015131
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4080,7 +4168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13389587500518775298
+  Id: 12633603631811470197
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4096,7 +4184,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4123,7 +4211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3939971812792648511
+  Id: 14439538498331543620
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4140,7 +4228,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4167,7 +4255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13892120499479970376
+  Id: 14767317674421246287
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4183,7 +4271,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4210,7 +4298,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10520821056990067506
+  Id: 2925639959747265083
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4226,7 +4314,7 @@ Objects {
       Z: 7.49999952
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4253,7 +4341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17048364031312434726
+  Id: 13271175186172411328
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4270,7 +4358,7 @@ Objects {
       Z: 14.2500029
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4305,7 +4393,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2712750522704744267
+  Id: 1594709572314634320
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4321,7 +4409,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4348,7 +4436,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17957261597403153722
+  Id: 7689375139115740772
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4365,7 +4453,7 @@ Objects {
       Z: 33.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4392,7 +4480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18286632543445336811
+  Id: 10868038184638915238
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4408,7 +4496,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4435,7 +4523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3449958945963984615
+  Id: 8897527110315465637
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4451,7 +4539,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4478,7 +4566,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14216911787533156552
+  Id: 12545403971773878399
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4494,7 +4582,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4521,7 +4609,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7854666661154333587
+  Id: 13468705353053352517
   Name: "Capture point"
   Transform {
     Location {
@@ -4537,14 +4625,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -4580,7 +4668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2341275977040687545
+  Id: 747120082951013564
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4599,7 +4687,7 @@ Objects {
       Z: 18.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4637,7 +4725,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1045907846438968664
+  Id: 11142600070710662545
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4656,7 +4744,7 @@ Objects {
       Z: 18.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4694,7 +4782,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12827946448823934519
+  Id: 9909555035826423421
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4711,7 +4799,7 @@ Objects {
       Z: 65.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4749,7 +4837,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14480561623524337267
+  Id: 4530994789735565485
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4766,7 +4854,7 @@ Objects {
       Z: 65.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4804,7 +4892,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9405046422167993609
+  Id: 12843772954513671833
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4823,7 +4911,7 @@ Objects {
       Z: 8.22522926
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4861,7 +4949,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14019647946258514581
+  Id: 5940173627002417053
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4880,7 +4968,7 @@ Objects {
       Z: 8.22522926
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4918,7 +5006,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7275590541055341353
+  Id: 6391891765466662770
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4936,7 +5024,7 @@ Objects {
       Z: 15.2500019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4974,7 +5062,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6637241670771854000
+  Id: 10673420083261294218
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -4992,7 +5080,7 @@ Objects {
       Z: 11.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5030,7 +5118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12462241971677559396
+  Id: 18392498270315522735
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5049,7 +5137,7 @@ Objects {
       Z: 18.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5087,7 +5175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8557925294838259865
+  Id: 16868398938863747027
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5105,7 +5193,7 @@ Objects {
       Z: 18.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5143,7 +5231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8347854436953364606
+  Id: 8039753037442896783
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5160,7 +5248,7 @@ Objects {
       Z: 65.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5198,7 +5286,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15847185127235028689
+  Id: 15431056546429664389
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5215,7 +5303,7 @@ Objects {
       Z: 65.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5253,7 +5341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11547363783559825291
+  Id: 11261072897122702425
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5270,7 +5358,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5297,7 +5385,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15263464997607594596
+  Id: 5280455033417271763
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5315,7 +5403,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5342,7 +5430,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3386455568218551401
+  Id: 3620376583646956491
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5360,7 +5448,7 @@ Objects {
       Z: 3.60526657
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5387,7 +5475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2377114969688990228
+  Id: 8166579938762757391
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5404,7 +5492,7 @@ Objects {
       Z: 1.78521919
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5431,7 +5519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13843427010830906668
+  Id: 6244860266872801496
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5449,7 +5537,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5476,7 +5564,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13945723245506685282
+  Id: 4568814327026555945
   Name: "Group"
   Transform {
     Location {
@@ -5492,22 +5580,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 11937578715742879162
-  ChildIds: 15473097532741943717
-  ChildIds: 10326014137994495674
-  ChildIds: 13935896462216165614
-  ChildIds: 16150250889049094671
-  ChildIds: 11074560157081492979
-  ChildIds: 9703721952827705909
-  ChildIds: 2777168730304204266
-  ChildIds: 12550729342640626226
-  ChildIds: 12876311337984281280
-  ChildIds: 11370208132387876130
-  ChildIds: 8976118237114448993
-  ChildIds: 4661486737599508150
-  ChildIds: 9668785921483615115
-  ChildIds: 2899904443206318486
+  ParentId: 17903806154062347974
+  ChildIds: 12851099655585739205
+  ChildIds: 2631730136348729726
+  ChildIds: 12860421736363669909
+  ChildIds: 9093970928558297851
+  ChildIds: 10377418045576699257
+  ChildIds: 13201369267452879008
+  ChildIds: 8214488741579873244
+  ChildIds: 9925008431527894340
+  ChildIds: 1383474602319953560
+  ChildIds: 13552864837117720080
+  ChildIds: 92185603259300543
+  ChildIds: 3145675750234339861
+  ChildIds: 11563101397073850475
+  ChildIds: 13943493626960951673
+  ChildIds: 13194713381913757607
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5522,7 +5610,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2899904443206318486
+  Id: 13194713381913757607
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5541,7 +5629,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5568,7 +5656,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9668785921483615115
+  Id: 13943493626960951673
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5585,7 +5673,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5612,7 +5700,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4661486737599508150
+  Id: 11563101397073850475
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5631,7 +5719,7 @@ Objects {
       Z: 1.40243053
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5658,7 +5746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8976118237114448993
+  Id: 3145675750234339861
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5674,7 +5762,7 @@ Objects {
       Z: 1.79264152
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5701,7 +5789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11370208132387876130
+  Id: 92185603259300543
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5720,7 +5808,7 @@ Objects {
       Z: 1.34098983
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5747,7 +5835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12876311337984281280
+  Id: 13552864837117720080
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5763,7 +5851,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5790,7 +5878,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12550729342640626226
+  Id: 1383474602319953560
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5808,7 +5896,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5835,7 +5923,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2777168730304204266
+  Id: 9925008431527894340
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5851,7 +5939,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5878,7 +5966,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9703721952827705909
+  Id: 8214488741579873244
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5896,7 +5984,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5923,7 +6011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11074560157081492979
+  Id: 13201369267452879008
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5939,7 +6027,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5966,7 +6054,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16150250889049094671
+  Id: 10377418045576699257
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5984,7 +6072,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6011,7 +6099,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13935896462216165614
+  Id: 9093970928558297851
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6027,7 +6115,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6054,7 +6142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10326014137994495674
+  Id: 12860421736363669909
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6072,7 +6160,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6099,7 +6187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15473097532741943717
+  Id: 2631730136348729726
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6116,7 +6204,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6143,7 +6231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11937578715742879162
+  Id: 12851099655585739205
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6159,7 +6247,7 @@ Objects {
       Z: 1.25
     }
   }
-  ParentId: 13945723245506685282
+  ParentId: 4568814327026555945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6186,7 +6274,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8121864940600105781
+  Id: 11514294397777345757
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6204,7 +6292,7 @@ Objects {
       Z: 3.60526657
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6231,7 +6319,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8856794441732645566
+  Id: 6755772798186906342
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6249,7 +6337,7 @@ Objects {
       Z: 3.60526443
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6276,7 +6364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7476630258308752987
+  Id: 6035721494467778584
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6293,7 +6381,7 @@ Objects {
       Z: 3.60526443
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6320,7 +6408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1428466340573465129
+  Id: 645327020823941515
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6337,7 +6425,7 @@ Objects {
       Z: 2.81794524
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6364,7 +6452,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2151075977737949797
+  Id: 11444519793310336194
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6381,7 +6469,7 @@ Objects {
       Z: 3.7452035
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6408,7 +6496,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9145230764312783233
+  Id: 13336376680161398240
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6425,7 +6513,7 @@ Objects {
       Z: 2.81794524
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6452,7 +6540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11542283933443667952
+  Id: 3959506982931598138
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6469,7 +6557,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6496,7 +6584,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12580191980487482617
+  Id: 3446756969936025133
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6512,7 +6600,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6539,7 +6627,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17499076809743988504
+  Id: 9538174872085094305
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6556,7 +6644,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6594,7 +6682,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4938512346577947210
+  Id: 1109553459301224106
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6611,7 +6699,7 @@ Objects {
       Z: 7.49999809
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6638,7 +6726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8417039375605366296
+  Id: 15368019898631083003
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6655,7 +6743,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6693,7 +6781,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11915485876849097887
+  Id: 16133756818039721792
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6709,7 +6797,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6738,7 +6826,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6531937662215042672
+  Id: 16872149941092575441
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6754,7 +6842,7 @@ Objects {
       Z: 15
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6783,7 +6871,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16476667752169822573
+  Id: 15844985582110664196
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6800,7 +6888,7 @@ Objects {
       Z: 86.46138
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6827,7 +6915,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13853671864493217524
+  Id: 10596767776301396440
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6844,7 +6932,7 @@ Objects {
       Z: 26
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6871,7 +6959,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4395987090132499868
+  Id: 2302308564208857525
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6887,7 +6975,7 @@ Objects {
       Z: 15.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6916,7 +7004,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11272691086543274734
+  Id: 10886471265287634324
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6933,7 +7021,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -6962,7 +7050,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2913365312479690445
+  Id: 348945918520943726
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -6979,7 +7067,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7006,7 +7094,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5574370217412199394
+  Id: 10097980424716106342
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7023,7 +7111,7 @@ Objects {
       Z: 26
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7050,7 +7138,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14921446348726320315
+  Id: 9136273912263337810
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7066,7 +7154,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7093,7 +7181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8889850043023721040
+  Id: 7751365518462066780
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7109,7 +7197,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7136,7 +7224,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6819626372841248166
+  Id: 844186689946495287
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7153,7 +7241,7 @@ Objects {
       Z: 7.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7180,7 +7268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15880473464498457997
+  Id: 8625750307677688457
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7197,7 +7285,7 @@ Objects {
       Z: 7.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7224,7 +7312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5034659626814305834
+  Id: 17841980525374328887
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7241,7 +7329,7 @@ Objects {
       Z: 6.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7268,7 +7356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5250226336877805745
+  Id: 4727993891038860804
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7285,7 +7373,7 @@ Objects {
       Z: 6.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7312,7 +7400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2136831344561052969
+  Id: 676617942859144931
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7329,7 +7417,7 @@ Objects {
       Z: 37.7500076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7356,7 +7444,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12012047773818042721
+  Id: 3533789791127159062
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7373,7 +7461,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7402,7 +7490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 333193531137391650
+  Id: 17252268527600247817
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7418,7 +7506,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7445,7 +7533,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15325183874653105033
+  Id: 6497044842196916721
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7462,7 +7550,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7491,7 +7579,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5557896538269612709
+  Id: 4457263983181146644
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7507,7 +7595,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7534,7 +7622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4185447073950153023
+  Id: 8519213915708374417
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7551,7 +7639,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7578,7 +7666,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10921010938385073802
+  Id: 1092389375096396943
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7595,7 +7683,7 @@ Objects {
       Z: 10.4999981
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7622,7 +7710,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2020446331298808685
+  Id: 9678785826471419941
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7639,7 +7727,7 @@ Objects {
       Z: 6.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7666,7 +7754,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10352410667865548607
+  Id: 2518276322463013702
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7683,7 +7771,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7710,7 +7798,7 @@ Objects {
   }
 }
 Objects {
-  Id: 890076331934523462
+  Id: 7188793696719699499
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7727,7 +7815,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7754,7 +7842,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1162642990313444101
+  Id: 2206121183106455513
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7771,7 +7859,7 @@ Objects {
       Z: 10.4999981
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7798,7 +7886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18007290635479072252
+  Id: 18282097531176269538
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7815,7 +7903,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7844,7 +7932,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6535700712996184260
+  Id: 12463580691394346295
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7861,7 +7949,7 @@ Objects {
       Z: 11.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7888,7 +7976,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3996886067485766341
+  Id: 16082901266792968537
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7905,7 +7993,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -7934,7 +8022,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11577293266971040152
+  Id: 5198038658431191067
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7951,7 +8039,7 @@ Objects {
       Z: 21.7500038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7978,7 +8066,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18233216139873016471
+  Id: 4316962087184742308
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -7995,7 +8083,7 @@ Objects {
       Z: 21.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8022,7 +8110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1319350406016040929
+  Id: 2025673795375293924
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8039,7 +8127,7 @@ Objects {
       Z: 16.2500057
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8066,7 +8154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18205791508860839390
+  Id: 7250518810014533862
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8083,7 +8171,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8110,7 +8198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4258645782780698977
+  Id: 12159347241880768558
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8126,7 +8214,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8153,7 +8241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2037755866952399264
+  Id: 11682987903614230474
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8169,7 +8257,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8196,7 +8284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12547950631726861015
+  Id: 16848350585485118413
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8212,7 +8300,7 @@ Objects {
       Z: 55.190918
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8239,7 +8327,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1989516524246080052
+  Id: 9602791320124325372
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8255,7 +8343,7 @@ Objects {
       Z: 16.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8282,7 +8370,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17674287792443041421
+  Id: 2129650288939154605
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8298,7 +8386,7 @@ Objects {
       Z: 16.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8325,7 +8413,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7423797980419712122
+  Id: 13977271456670622862
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8341,7 +8429,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8368,7 +8456,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6921045488806298213
+  Id: 7119640418683780025
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8385,7 +8473,7 @@ Objects {
       Z: 12
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8412,7 +8500,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14024384932612766535
+  Id: 7049792947396726450
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8429,7 +8517,7 @@ Objects {
       Z: 68.9973
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8456,7 +8544,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7842682355906198005
+  Id: 5476240626134984457
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8472,7 +8560,7 @@ Objects {
       Z: 9.75000095
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8499,7 +8587,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15172971429012975618
+  Id: 691498912642883182
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8516,7 +8604,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8543,7 +8631,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3492809021579063732
+  Id: 17758024480151517854
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8560,7 +8648,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8587,7 +8675,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9622806784959973241
+  Id: 5996908572714683549
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8604,7 +8692,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8631,7 +8719,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15815791036065702044
+  Id: 8735590718694496850
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8648,7 +8736,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8675,7 +8763,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16878913647095738114
+  Id: 12454102136468467109
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8692,7 +8780,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8719,7 +8807,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16832121984850100476
+  Id: 3753936901721958479
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8736,7 +8824,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8763,7 +8851,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3382692700266761461
+  Id: 2586815314198279654
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8780,7 +8868,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8807,7 +8895,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13881203432231362502
+  Id: 8406773499275269582
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8824,7 +8912,7 @@ Objects {
       Z: 16.2500057
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8851,7 +8939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15360365834594073476
+  Id: 14017897348775557182
   Name: "Group"
   Transform {
     Location {
@@ -8867,12 +8955,12 @@ Objects {
       Z: 1.3374995
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 13858400849327446914
-  ChildIds: 4481562990045629811
-  ChildIds: 7301354955702796639
-  ChildIds: 5602710600627200272
-  ChildIds: 4596443531617738347
+  ParentId: 17903806154062347974
+  ChildIds: 7330733681673516340
+  ChildIds: 9147577767676325881
+  ChildIds: 9571187398930834976
+  ChildIds: 11369777990758288586
+  ChildIds: 12384636033266955432
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8887,7 +8975,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4596443531617738347
+  Id: 12384636033266955432
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8904,7 +8992,7 @@ Objects {
       Z: 9.74999905
     }
   }
-  ParentId: 15360365834594073476
+  ParentId: 14017897348775557182
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8931,7 +9019,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5602710600627200272
+  Id: 11369777990758288586
   Name: "Arch"
   Transform {
     Location {
@@ -8948,7 +9036,7 @@ Objects {
       Z: 7.38392639
     }
   }
-  ParentId: 15360365834594073476
+  ParentId: 14017897348775557182
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8975,7 +9063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7301354955702796639
+  Id: 9571187398930834976
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -8991,7 +9079,7 @@ Objects {
       Z: 12.2500038
     }
   }
-  ParentId: 15360365834594073476
+  ParentId: 14017897348775557182
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9018,7 +9106,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4481562990045629811
+  Id: 9147577767676325881
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9035,7 +9123,7 @@ Objects {
       Z: 9.75
     }
   }
-  ParentId: 15360365834594073476
+  ParentId: 14017897348775557182
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9062,7 +9150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13858400849327446914
+  Id: 7330733681673516340
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9079,7 +9167,7 @@ Objects {
       Z: 9.75
     }
   }
-  ParentId: 15360365834594073476
+  ParentId: 14017897348775557182
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9106,7 +9194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 414822668411132330
+  Id: 5861531342052990367
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9123,7 +9211,7 @@ Objects {
       Z: 96.9710541
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9150,7 +9238,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17712067750289543606
+  Id: 4134891445550946836
   Name: "Capture point"
   Transform {
     Location {
@@ -9166,14 +9254,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -9209,7 +9297,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10470748967973484402
+  Id: 9796135047771693877
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9226,7 +9314,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9253,7 +9341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6530478122075051417
+  Id: 7433267880079284080
   Name: "Group"
   Transform {
     Location {
@@ -9269,21 +9357,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 9315921054046928941
-  ChildIds: 12578612035200457816
-  ChildIds: 12486698067755807145
-  ChildIds: 15296526915812679486
-  ChildIds: 6049204503338153882
-  ChildIds: 10856876052705264400
-  ChildIds: 4462981372562523374
-  ChildIds: 1644114604048338409
-  ChildIds: 15407448285603992552
-  ChildIds: 9896617326725731622
-  ChildIds: 6751610364763033919
-  ChildIds: 12295364593527808065
-  ChildIds: 16516778989809836833
-  ChildIds: 3701834205748398925
+  ParentId: 17903806154062347974
+  ChildIds: 16636671975368183844
+  ChildIds: 2330396991398952599
+  ChildIds: 13122697019994444976
+  ChildIds: 12663521231675676832
+  ChildIds: 2588822523151477169
+  ChildIds: 5072104378180953302
+  ChildIds: 2267969505612316479
+  ChildIds: 481957936053975058
+  ChildIds: 14152533456067282533
+  ChildIds: 6954556769321841857
+  ChildIds: 2137596781739798903
+  ChildIds: 15942307534769894659
+  ChildIds: 14973619818267831247
+  ChildIds: 6094889854286954481
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9298,7 +9386,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3701834205748398925
+  Id: 6094889854286954481
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9315,7 +9403,7 @@ Objects {
       Z: 17.5
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9342,7 +9430,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16516778989809836833
+  Id: 14973619818267831247
   Name: "Arch"
   Transform {
     Location {
@@ -9359,7 +9447,7 @@ Objects {
       Z: 3.53926897
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9397,7 +9485,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12295364593527808065
+  Id: 15942307534769894659
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9414,7 +9502,7 @@ Objects {
       Z: 15.25
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9441,7 +9529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6751610364763033919
+  Id: 2137596781739798903
   Name: "Arch"
   Transform {
     Location {
@@ -9459,7 +9547,7 @@ Objects {
       Z: 28.75
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9486,7 +9574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9896617326725731622
+  Id: 6954556769321841857
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9503,7 +9591,7 @@ Objects {
       Z: 32.25
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9530,7 +9618,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15407448285603992552
+  Id: 14152533456067282533
   Name: "Arch"
   Transform {
     Location {
@@ -9548,7 +9636,7 @@ Objects {
       Z: 28.75
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9575,7 +9663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1644114604048338409
+  Id: 481957936053975058
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9591,7 +9679,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9618,7 +9706,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4462981372562523374
+  Id: 2267969505612316479
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9634,7 +9722,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9661,7 +9749,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10856876052705264400
+  Id: 5072104378180953302
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9677,7 +9765,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9704,7 +9792,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6049204503338153882
+  Id: 2588822523151477169
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9720,7 +9808,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9747,7 +9835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15296526915812679486
+  Id: 12663521231675676832
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9763,7 +9851,7 @@ Objects {
       Z: 10.5
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9790,7 +9878,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12486698067755807145
+  Id: 13122697019994444976
   Name: "Arch"
   Transform {
     Location {
@@ -9808,7 +9896,7 @@ Objects {
       Z: 3.62517619
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9835,7 +9923,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12578612035200457816
+  Id: 2330396991398952599
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9851,7 +9939,7 @@ Objects {
       Z: 10.5
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9878,7 +9966,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9315921054046928941
+  Id: 16636671975368183844
   Name: "Arch"
   Transform {
     Location {
@@ -9895,7 +9983,7 @@ Objects {
       Z: 3.62517619
     }
   }
-  ParentId: 6530478122075051417
+  ParentId: 7433267880079284080
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9922,7 +10010,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3861974143942907391
+  Id: 13563528436166876103
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9939,7 +10027,7 @@ Objects {
       Z: 10.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9966,7 +10054,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17185833323011809975
+  Id: 16031696067495326407
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9983,7 +10071,7 @@ Objects {
       Z: 10.4905949
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10010,7 +10098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9013482543345573883
+  Id: 9716369752187936323
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10026,7 +10114,7 @@ Objects {
       Z: 19.0000038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10053,7 +10141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 556725290661828803
+  Id: 9970943840061053160
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10070,7 +10158,7 @@ Objects {
       Z: 6.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10097,7 +10185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6786550807016685808
+  Id: 4644106736261166415
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10113,7 +10201,7 @@ Objects {
       Z: 5.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10148,7 +10236,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14261609648744924333
+  Id: 8116668846039072543
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10164,7 +10252,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10191,7 +10279,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6778700784298718663
+  Id: 4095270545958606098
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10208,7 +10296,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10235,7 +10323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17454039877167577432
+  Id: 17589360935171842031
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10251,7 +10339,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10278,7 +10366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17039770418117386455
+  Id: 3854440076307060068
   Name: "Capture point"
   Transform {
     Location {
@@ -10294,14 +10382,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -10337,7 +10425,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9961589280810573057
+  Id: 16796505720708521728
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10353,7 +10441,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10380,7 +10468,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18170302369599308208
+  Id: 16164654730714338970
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10397,7 +10485,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10432,7 +10520,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17001689339227265389
+  Id: 9203914476578792212
   Name: "Area Light"
   Transform {
     Location {
@@ -10451,7 +10539,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10488,7 +10576,7 @@ Objects {
   }
 }
 Objects {
-  Id: 901869260636341783
+  Id: 17022806620288359894
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10505,7 +10593,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10532,7 +10620,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10162449730739247993
+  Id: 17214207791812599890
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10549,7 +10637,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10576,7 +10664,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13945951007284937281
+  Id: 7447144595841520280
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10593,7 +10681,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10628,7 +10716,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14731325548714503143
+  Id: 2785746050061768056
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10644,7 +10732,7 @@ Objects {
       Z: 12.3305855
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10679,7 +10767,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8788585665123598991
+  Id: 17989957332397597395
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10696,7 +10784,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10731,7 +10819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1828013245770028962
+  Id: 11723370735832149403
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10747,7 +10835,7 @@ Objects {
       Z: 6.48089457
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10782,7 +10870,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7603659754125089289
+  Id: 12195055645240389860
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10798,7 +10886,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10825,7 +10913,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2328302878077920693
+  Id: 15995508806083525422
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10842,7 +10930,7 @@ Objects {
       Z: 12.2368813
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10869,7 +10957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17151474836604527964
+  Id: 15371938477067719744
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10886,7 +10974,7 @@ Objects {
       Z: 19.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10913,7 +11001,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4768718636746721102
+  Id: 4342226638916414536
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10930,7 +11018,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10957,7 +11045,7 @@ Objects {
   }
 }
 Objects {
-  Id: 679107816560356392
+  Id: 6708316505427691512
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -10974,7 +11062,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11001,7 +11089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14720687919375363835
+  Id: 16929880991317706297
   Name: "PlayerAccess"
   Transform {
     Location {
@@ -11017,61 +11105,61 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13498286685645607662
-  ChildIds: 5331098913107020896
-  ChildIds: 2469280073686387409
-  ChildIds: 14967718711775244302
-  ChildIds: 16223175790931779187
-  ChildIds: 16383136028104906129
-  ChildIds: 421325179030681217
-  ChildIds: 7345288113403225253
-  ChildIds: 14930468528550210137
-  ChildIds: 8872257029793758210
-  ChildIds: 2495152249546037114
-  ChildIds: 17023437550387048894
-  ChildIds: 13586121424113726341
-  ChildIds: 3050620716153291310
-  ChildIds: 8613809219608681025
-  ChildIds: 11613895375200677959
-  ChildIds: 13900319642874673847
-  ChildIds: 10498644376177143756
-  ChildIds: 13601992809572482283
-  ChildIds: 11549066440100275664
-  ChildIds: 6502228983315976894
-  ChildIds: 8858085526292250553
-  ChildIds: 6709611697740947885
-  ChildIds: 15216004283631025255
-  ChildIds: 4030115348124216521
-  ChildIds: 12795495785312343873
-  ChildIds: 2835320958759960511
-  ChildIds: 1445647837800186922
-  ChildIds: 13601772461065180202
-  ChildIds: 13047499929770491710
-  ChildIds: 407581395854640254
-  ChildIds: 14430335474218092782
-  ChildIds: 10355015914306442809
-  ChildIds: 1388774773775394921
-  ChildIds: 16144590578538971015
-  ChildIds: 3756478257011006226
-  ChildIds: 5948230218589746446
-  ChildIds: 3220322654497098782
-  ChildIds: 2275999006633368719
-  ChildIds: 15119848743582950905
-  ChildIds: 5986395702778135257
-  ChildIds: 4710797326732434068
-  ChildIds: 8261755110356525980
-  ChildIds: 15914791189761946489
-  ChildIds: 5284672418101968720
-  ChildIds: 10748018545431838078
-  ChildIds: 15206270728192352073
-  ChildIds: 10577479704049095349
-  ChildIds: 11224827982006984839
-  ChildIds: 12115194850142631060
-  ChildIds: 8329932184780927401
-  ChildIds: 8658636145724301777
-  ChildIds: 3009850278421634526
-  ChildIds: 16393653742942345388
-  ChildIds: 9733078866347782739
+  ParentId: 17903806154062347974
+  ChildIds: 11600945194436830262
+  ChildIds: 10559220331183780622
+  ChildIds: 10727261834848400580
+  ChildIds: 16629706239403747919
+  ChildIds: 934675995389298494
+  ChildIds: 11102448008082248292
+  ChildIds: 15768273639794240259
+  ChildIds: 14233189504792664487
+  ChildIds: 4700424244977405424
+  ChildIds: 90211451822688050
+  ChildIds: 11300873246114875089
+  ChildIds: 16728246049916143911
+  ChildIds: 4450567865292402108
+  ChildIds: 13680238049595183692
+  ChildIds: 14402919250025198081
+  ChildIds: 17520314105973976533
+  ChildIds: 12620712174614895466
+  ChildIds: 7049394654380296895
+  ChildIds: 15821086585193218629
+  ChildIds: 5200872210581141491
+  ChildIds: 5823045565278193354
+  ChildIds: 15118250727467055142
+  ChildIds: 6149095040717785892
+  ChildIds: 1275841531468516880
+  ChildIds: 3915917845806964839
+  ChildIds: 745453371707324905
+  ChildIds: 7350322570763183235
+  ChildIds: 18280742699791216927
+  ChildIds: 12100447217004518341
+  ChildIds: 16637109174953536912
+  ChildIds: 3578145646161106657
+  ChildIds: 3644746724362860426
+  ChildIds: 16674540738695395854
+  ChildIds: 15867509669428142864
+  ChildIds: 16136094030875355413
+  ChildIds: 2984828596603700253
+  ChildIds: 11678550800768909624
+  ChildIds: 17904800847989619690
+  ChildIds: 11755672787454962275
+  ChildIds: 630195208627983006
+  ChildIds: 6081498867478305276
+  ChildIds: 7819674802234556656
+  ChildIds: 16335105589644037505
+  ChildIds: 13330469834099628057
+  ChildIds: 13125477559567685369
+  ChildIds: 3074450872481220525
+  ChildIds: 10981210974769987067
+  ChildIds: 14950011451828656766
+  ChildIds: 6583838597046959680
+  ChildIds: 15166790725130739315
+  ChildIds: 16472788555531948920
+  ChildIds: 5960982654663203108
+  ChildIds: 556619568068279214
+  ChildIds: 13045663351613255713
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -11086,7 +11174,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9733078866347782739
+  Id: 13045663351613255713
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11102,7 +11190,7 @@ Objects {
       Z: 4.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11146,7 +11234,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16393653742942345388
+  Id: 556619568068279214
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11163,7 +11251,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11207,7 +11295,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3009850278421634526
+  Id: 5960982654663203108
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11223,7 +11311,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11267,7 +11355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8658636145724301777
+  Id: 16472788555531948920
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11283,7 +11371,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11327,7 +11415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8329932184780927401
+  Id: 15166790725130739315
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11343,7 +11431,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11387,7 +11475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12115194850142631060
+  Id: 6583838597046959680
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11403,7 +11491,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11447,7 +11535,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11224827982006984839
+  Id: 14950011451828656766
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11463,7 +11551,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11507,7 +11595,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10577479704049095349
+  Id: 10981210974769987067
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11524,7 +11612,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11568,7 +11656,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15206270728192352073
+  Id: 3074450872481220525
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11585,7 +11673,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11629,7 +11717,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10748018545431838078
+  Id: 13125477559567685369
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11646,7 +11734,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11690,7 +11778,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5284672418101968720
+  Id: 13330469834099628057
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11707,7 +11795,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11751,7 +11839,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15914791189761946489
+  Id: 16335105589644037505
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11768,7 +11856,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11812,7 +11900,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8261755110356525980
+  Id: 7819674802234556656
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11829,7 +11917,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11873,7 +11961,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4710797326732434068
+  Id: 6081498867478305276
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11890,7 +11978,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11934,7 +12022,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5986395702778135257
+  Id: 630195208627983006
   Name: "Player Access Red"
   Transform {
     Location {
@@ -11951,7 +12039,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11995,7 +12083,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15119848743582950905
+  Id: 11755672787454962275
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12012,7 +12100,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12056,7 +12144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2275999006633368719
+  Id: 17904800847989619690
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12073,7 +12161,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12117,7 +12205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3220322654497098782
+  Id: 11678550800768909624
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12134,7 +12222,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12178,7 +12266,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5948230218589746446
+  Id: 2984828596603700253
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12195,7 +12283,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12239,7 +12327,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3756478257011006226
+  Id: 16136094030875355413
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12256,7 +12344,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12300,7 +12388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16144590578538971015
+  Id: 15867509669428142864
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12316,7 +12404,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12360,7 +12448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1388774773775394921
+  Id: 16674540738695395854
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12376,7 +12464,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12420,7 +12508,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10355015914306442809
+  Id: 3644746724362860426
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12436,7 +12524,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12480,7 +12568,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14430335474218092782
+  Id: 3578145646161106657
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12496,7 +12584,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12540,7 +12628,7 @@ Objects {
   }
 }
 Objects {
-  Id: 407581395854640254
+  Id: 16637109174953536912
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12556,7 +12644,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12600,7 +12688,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13047499929770491710
+  Id: 12100447217004518341
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12617,7 +12705,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12661,7 +12749,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13601772461065180202
+  Id: 18280742699791216927
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12678,7 +12766,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12722,7 +12810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1445647837800186922
+  Id: 7350322570763183235
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12738,7 +12826,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12782,7 +12870,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2835320958759960511
+  Id: 745453371707324905
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12797,7 +12885,7 @@ Objects {
       Z: 4.75
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12841,7 +12929,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12795495785312343873
+  Id: 3915917845806964839
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12857,7 +12945,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12901,7 +12989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4030115348124216521
+  Id: 1275841531468516880
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12918,7 +13006,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12962,7 +13050,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15216004283631025255
+  Id: 6149095040717785892
   Name: "Player Access Red"
   Transform {
     Location {
@@ -12979,7 +13067,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13023,7 +13111,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6709611697740947885
+  Id: 15118250727467055142
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13039,7 +13127,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13083,7 +13171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8858085526292250553
+  Id: 5823045565278193354
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13099,7 +13187,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13143,7 +13231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6502228983315976894
+  Id: 5200872210581141491
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13160,7 +13248,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13204,7 +13292,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11549066440100275664
+  Id: 15821086585193218629
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13221,7 +13309,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13265,7 +13353,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13601992809572482283
+  Id: 7049394654380296895
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13281,7 +13369,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13325,7 +13413,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10498644376177143756
+  Id: 12620712174614895466
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13341,7 +13429,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13385,7 +13473,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13900319642874673847
+  Id: 17520314105973976533
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13401,7 +13489,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13445,7 +13533,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11613895375200677959
+  Id: 14402919250025198081
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13461,7 +13549,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13505,7 +13593,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8613809219608681025
+  Id: 13680238049595183692
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13521,7 +13609,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13565,7 +13653,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3050620716153291310
+  Id: 4450567865292402108
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13581,7 +13669,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13625,7 +13713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13586121424113726341
+  Id: 16728246049916143911
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13641,7 +13729,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13685,7 +13773,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17023437550387048894
+  Id: 11300873246114875089
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13701,7 +13789,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13745,7 +13833,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2495152249546037114
+  Id: 90211451822688050
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13761,7 +13849,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13805,7 +13893,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8872257029793758210
+  Id: 4700424244977405424
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13821,7 +13909,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13865,7 +13953,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14930468528550210137
+  Id: 14233189504792664487
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13881,7 +13969,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13925,7 +14013,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7345288113403225253
+  Id: 15768273639794240259
   Name: "Player Access Red"
   Transform {
     Location {
@@ -13941,7 +14029,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -13985,7 +14073,7 @@ Objects {
   }
 }
 Objects {
-  Id: 421325179030681217
+  Id: 11102448008082248292
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14001,7 +14089,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14045,7 +14133,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16383136028104906129
+  Id: 934675995389298494
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14062,7 +14150,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14106,7 +14194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16223175790931779187
+  Id: 16629706239403747919
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14123,7 +14211,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14167,7 +14255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14967718711775244302
+  Id: 10727261834848400580
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14184,7 +14272,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14228,7 +14316,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2469280073686387409
+  Id: 10559220331183780622
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14244,7 +14332,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14288,7 +14376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5331098913107020896
+  Id: 11600945194436830262
   Name: "Player Access Red"
   Transform {
     Location {
@@ -14305,7 +14393,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 14720687919375363835
+  ParentId: 16929880991317706297
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14349,7 +14437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8342224745031937251
+  Id: 5165432240832211526
   Name: "Capture point"
   Transform {
     Location {
@@ -14365,14 +14453,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -14408,7 +14496,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14986573958598168732
+  Id: 12145707325203381188
   Name: "Capture point"
   Transform {
     Location {
@@ -14424,14 +14512,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -14467,7 +14555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10419951163905677763
+  Id: 3466391724864141839
   Name: "Capture point"
   Transform {
     Location {
@@ -14483,14 +14571,14 @@ Objects {
       Z: 59.5000076
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.00185429398
-        G: 0.035
-        A: 1
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
       }
     }
     Overrides {
@@ -14526,7 +14614,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3445174867295850413
+  Id: 3294456612963856300
   Name: "Ground"
   Transform {
     Location {
@@ -14542,7 +14630,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -14586,7 +14674,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13677953519518767744
+  Id: 11252191936032206414
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14603,7 +14691,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14630,7 +14718,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13549382999207385094
+  Id: 2979981074295069805
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14647,7 +14735,7 @@ Objects {
       Z: 10.4999981
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14674,7 +14762,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3708398533166436743
+  Id: 9071513967261571813
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14691,7 +14779,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14718,7 +14806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2934703157712702309
+  Id: 9307506096491477810
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14735,7 +14823,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14762,7 +14850,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4407180088147842198
+  Id: 9234203156038001562
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14778,7 +14866,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14805,7 +14893,7 @@ Objects {
   }
 }
 Objects {
-  Id: 595485230714409755
+  Id: 13288938638428860965
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14822,7 +14910,7 @@ Objects {
       Z: 20.0000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14849,7 +14937,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8643283263126698975
+  Id: 5401243690817308420
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14866,7 +14954,7 @@ Objects {
       Z: 20.0000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14893,7 +14981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13033734577740863128
+  Id: 17943102068857163101
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14909,7 +14997,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14936,7 +15024,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17772717451911391934
+  Id: 3850151344299603119
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -14952,7 +15040,7 @@ Objects {
       Z: 15.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14987,7 +15075,7 @@ Objects {
   }
 }
 Objects {
-  Id: 759755697606571914
+  Id: 3918832613587475413
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15003,7 +15091,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15030,7 +15118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2669816945974659196
+  Id: 2011173667579199867
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15046,7 +15134,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -15084,7 +15172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15204565220378723024
+  Id: 1907324332360693189
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15101,7 +15189,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15128,7 +15216,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14025941423431427730
+  Id: 17785730373646751572
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15145,7 +15233,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15172,7 +15260,7 @@ Objects {
   }
 }
 Objects {
-  Id: 321233185271663939
+  Id: 9922245620681593704
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15188,7 +15276,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15215,7 +15303,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16059835930674973212
+  Id: 7637378015401751164
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15232,7 +15320,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15259,7 +15347,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4641477564692510500
+  Id: 16066395165221547537
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15275,7 +15363,7 @@ Objects {
       Z: 29.5000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15302,7 +15390,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1311787955233848914
+  Id: 17912380977843217179
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15318,7 +15406,7 @@ Objects {
       Z: 3.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15345,7 +15433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11967683220802081563
+  Id: 5947485173655171430
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15361,7 +15449,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15388,7 +15476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8961130958316499901
+  Id: 15653584740131040448
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15404,7 +15492,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15431,7 +15519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6710417629332595334
+  Id: 13422052148297986613
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15447,7 +15535,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -15485,7 +15573,7 @@ Objects {
   }
 }
 Objects {
-  Id: 185982931425774855
+  Id: 5135270899885743102
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15501,7 +15589,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -15539,7 +15627,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14016015312993703914
+  Id: 8058400825854594565
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15555,7 +15643,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -15593,7 +15681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14370415927875887184
+  Id: 11564555091159575587
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15610,7 +15698,7 @@ Objects {
       Z: 13.7500019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15637,7 +15725,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1834813135665852909
+  Id: 15401928503386311398
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15654,7 +15742,7 @@ Objects {
       Z: 26.7500057
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15681,7 +15769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7395342487596719327
+  Id: 13661403801000097815
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15698,7 +15786,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15725,7 +15813,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15255681219802349513
+  Id: 13584399401349808358
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15742,7 +15830,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15769,7 +15857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6798556113647255323
+  Id: 7410759009002027281
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15786,7 +15874,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15813,7 +15901,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14600040520440282254
+  Id: 18102206147138734690
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15830,7 +15918,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15857,7 +15945,7 @@ Objects {
   }
 }
 Objects {
-  Id: 849964626863522856
+  Id: 2298018850284475439
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15874,7 +15962,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15901,7 +15989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9295494241138961017
+  Id: 2741356327103660953
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15918,7 +16006,7 @@ Objects {
       Z: 28.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15945,7 +16033,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17185446377559606544
+  Id: 6181927493850501297
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -15962,7 +16050,7 @@ Objects {
       Z: 33.9153748
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15989,7 +16077,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16912338954322966559
+  Id: 16443192671757905403
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16006,7 +16094,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16033,7 +16121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13473813610287750921
+  Id: 10395855837801785348
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16049,7 +16137,7 @@ Objects {
       Z: 8.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16076,7 +16164,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16513739566177824261
+  Id: 11608179939416735178
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16092,7 +16180,7 @@ Objects {
       Z: 19.5000019
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16119,7 +16207,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2772152006109766178
+  Id: 10556238394572634157
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16136,7 +16224,7 @@ Objects {
       Z: 19.0000038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16163,7 +16251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8495033571340909183
+  Id: 15691797514427229513
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16179,7 +16267,7 @@ Objects {
       Z: 28.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16206,7 +16294,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9789680573237240003
+  Id: 10153269897756021588
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16222,7 +16310,7 @@ Objects {
       Z: 23.0000038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16249,7 +16337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16324033535462027379
+  Id: 4155718115898567473
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16265,7 +16353,7 @@ Objects {
       Z: 23.0000038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16292,7 +16380,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10213280210213565052
+  Id: 14694415158563085135
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16308,7 +16396,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16335,7 +16423,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12393078156253162951
+  Id: 14387640514982232233
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16351,7 +16439,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16378,7 +16466,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8557734987137145944
+  Id: 13796402712671873029
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16394,7 +16482,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16421,7 +16509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7760482147316237252
+  Id: 16461350985611145833
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16437,7 +16525,7 @@ Objects {
       Z: 14.75
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16464,7 +16552,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6947361082589097202
+  Id: 1887620287317438723
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16480,7 +16568,7 @@ Objects {
       Z: 33.2500038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16507,7 +16595,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14634240403335478138
+  Id: 8291133119450084278
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16523,7 +16611,7 @@ Objects {
       Z: 33.2500038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16550,7 +16638,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10765051719309179758
+  Id: 14895543611161606121
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16566,7 +16654,7 @@ Objects {
       Z: 14.7500038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16593,7 +16681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15207628594470122974
+  Id: 15682078167701650854
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16609,7 +16697,7 @@ Objects {
       Z: 8.99999809
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16636,7 +16724,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17325390651551310146
+  Id: 15631698418567255745
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16652,7 +16740,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16679,7 +16767,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12458379533829782352
+  Id: 13539708214175476324
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16696,7 +16784,7 @@ Objects {
       Z: 29.4999962
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16723,7 +16811,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7819863824602633710
+  Id: 12929528895502437690
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16740,7 +16828,7 @@ Objects {
       Z: 19.0000057
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16767,7 +16855,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18013827839993836564
+  Id: 7801380269095403089
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16784,7 +16872,7 @@ Objects {
       Z: 33.7500038
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16811,7 +16899,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7271290075035564897
+  Id: 2176563597670723816
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16828,7 +16916,7 @@ Objects {
       Z: 19
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16855,7 +16943,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7226489335732706788
+  Id: 6208149418463102617
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16871,7 +16959,7 @@ Objects {
       Z: 12
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16898,7 +16986,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16250907251526500524
+  Id: 13120949881356114301
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16914,7 +17002,7 @@ Objects {
       Z: 11.7788467
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16941,7 +17029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6078700958880207193
+  Id: 2586555824152176041
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -16957,7 +17045,7 @@ Objects {
       Z: 12.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -16984,7 +17072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11222844497569821031
+  Id: 2261384280879018814
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17001,7 +17089,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17028,7 +17116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4468225033077988241
+  Id: 13609722872550184642
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17045,7 +17133,7 @@ Objects {
       Z: 14.2500029
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17072,7 +17160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4988678686879184614
+  Id: 14515253298113453440
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17089,7 +17177,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17116,7 +17204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15917509819939181147
+  Id: 4734070650575682320
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17132,7 +17220,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17159,7 +17247,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17679109568424800067
+  Id: 8845420850534057192
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17175,7 +17263,7 @@ Objects {
       Z: 7.25
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17202,7 +17290,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8731861954998575516
+  Id: 4664154321066502075
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17218,7 +17306,7 @@ Objects {
       Z: 7
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17245,7 +17333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2544867679075539124
+  Id: 1995107924871126390
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17262,7 +17350,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17289,7 +17377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9712765833983137962
+  Id: 2408608938030156960
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17306,7 +17394,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17333,7 +17421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8252814367120850246
+  Id: 4343561346199990602
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17350,7 +17438,7 @@ Objects {
       Z: 32.5452499
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -17377,7 +17465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15505250999066623901
+  Id: 10989884885106619358
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17394,7 +17482,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 13498286685645607662
+  ParentId: 17903806154062347974
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

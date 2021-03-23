@@ -36,6 +36,22 @@ Assets {
           }
         }
       }
+      Overrides {
+        Name: "cs:MiscKey"
+        NetReference {
+          Type {
+            Value: "mc:enetreferencetype:unknown"
+          }
+        }
+      }
+      Overrides {
+        Name: "cs:MainGameId"
+        String: "9442a4/strike-team"
+      }
+      Overrides {
+        Name: "cs:LoadoutGameId"
+        String: "d44cf9/strike-team-loadout"
+      }
     }
   }
   SerializationVersion: 80

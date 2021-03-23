@@ -12,21 +12,21 @@ if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
 
-WEAPON.clientUserData.reloading = false 
-
 while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
 while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
 
+
+WEAPON.clientUserData.reloading = false 
 
 function Reload()
     WEAPON.clientUserData.Ammo = MAX_AMMO
     if(RELOAD_SOUND) then
         local Sound = World.SpawnAsset(RELOAD_SOUND, {position = WEAPON:GetWorldPosition()})
-        Task.Spawn(function()
+        --[[Task.Spawn(function()
             if(Object.IsValid(Sound)) then 
                 Sound:Destroy()
             end
-        end, 1)
+        end, 1)]]--
     end
     WEAPON.clientUserData.reloading = false
 end
@@ -45,11 +45,11 @@ function CheckFire()
 
         if(RELOAD_SOUND) then
             local Sound = World.SpawnAsset(OUT_OF_AMMO, {position = WEAPON:GetWorldPosition()})
-            Task.Spawn(function()
+            --[[Task.Spawn(function()
                 if(Object.IsValid(Sound)) then 
                     Sound:Destroy()
                 end 
-            end, 1)
+            end, 1)]]--
         end
         return false
     else
@@ -76,7 +76,7 @@ end
 function BindReload()
     if not WEAPON then return end
     if(not WEAPON.owner or LOCAL_PLAYER ~= WEAPON.owner) then return end
-    ReloadEvent = WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
+    ReloadEvent = ReloadEvent or WEAPON.owner.bindingPressedEvent:Connect(function(player, binding)
         if(binding == RELOAD and WEAPON.clientUserData.reloading == false and  WEAPON.clientUserData.Ammo < MAX_AMMO) then
             if(WEAPON.owner == LOCAL_PLAYER) then
                 WEAPON.clientUserData.RELOAD_ABILITY:Activate()
@@ -88,7 +88,10 @@ end
 
 function UnBindReload()
     WEAPON.clientUserData.reloading = false 
-    if ReloadEvent then ReloadEvent:Disconnect() end
+    if ReloadEvent then
+	    ReloadEvent:Disconnect() 
+	    ReloadEvent = nil
+    end
 end
 
 function Setup()
@@ -114,4 +117,4 @@ ConnectedEvents = {
     end)
 }   
 Setup()
-BindReload()
+--BindReload()

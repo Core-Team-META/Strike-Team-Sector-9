@@ -1,14 +1,16 @@
 ------------------------------------------------------------------------------------------------------------------------
 -- Game Type Manager Server
 -- Author Morticai (META) - (https://www.coregames.com/user/d1073dbcc404405cbef8ce728e53d380)
--- Date: 2021/1/31
--- Version 0.1.1
+-- Date: 2021/3/4
+-- Version 0.1.2
 ------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 -- REQUIRES
 ------------------------------------------------------------------------------------------------------------------------
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
-while not _G.META_GAME_MODES do Task.Wait() end
+while not _G.META_GAME_MODES do
+    Task.Wait()
+end
 local GT_API = _G.META_GAME_MODES
 ------------------------------------------------------------------------------------------------------------------------
 -- OBJECTS
@@ -20,11 +22,11 @@ local DEFAULT_GAME_STATE = ROOT:GetCustomProperty("DEFAULT_GAME_ID")
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
-local gameTypes = {}
 local currentGameTypeId
-local currentGameInfo = {}
 local scoreLimit
 local roundStartTime = nil
+local listeners = {}
+local joinedTimes = {}
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
@@ -56,7 +58,6 @@ end
 
 local function GetCurrentGameId()
     currentGameTypeId = NETWORKED:GetCustomProperty("GAME_TYPE_ID")
-    currentGameInfo = GT_API.GetGameTypeInfo(currentGameTypeId)
     return currentGameTypeId
 end
 
@@ -66,14 +67,37 @@ local function OnGameTypeChanged(object, string)
     end
 end
 
+local function CleanUp(player)
+    if not Object.IsValid(player) then
+        return
+    end
+    if not listeners[player.id] then
+        return
+    end
+    for _, listener in pairs(listeners[player.id]) do
+        if listener.isConnected then
+            listener:Disconnect()
+        end
+    end
+    listeners[player.id] = nil
+end
+
+local function MarkPlayersWhoPlayedMoreThanHalf()
+    local duration = time() - roundStartTime
+    local roundMidTime = roundStartTime + duration / 2
+    for _, player in ipairs(Game.GetPlayers()) do
+        if joinedTimes[player.id] <= roundMidTime then
+            player.serverUserData.playedHalfRound = true
+        end
+    end
+end
+
 ------------------------------------------------------------------------------------------------------------------------
 -- GLOBAL FUNCTIONS
 ------------------------------------------------------------------------------------------------------------------------
 
 function Int()
     GT_API.RegisterGameTypes(GAME_TYPE_LIST)
-    gameTypes = GT_API.GetGameTypeList()
-    currentGameInfo = GT_API.GetGameTypeInfo(DEFAULT_GAME_STATE)
     Task.Wait(1)
     SetCurrentGameId(DEFAULT_GAME_STATE)
 end
@@ -89,6 +113,7 @@ function OnPlayerDamaged(player, damage)
 end
 
 function OnPlayerLeft(player)
+    CleanUp(player)
     Task.Wait() -- Wait one frame to make sure player that left is no longer in game
     if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local players = Game.GetPlayers()
@@ -100,10 +125,17 @@ function OnPlayerLeft(player)
                 shouldEnd = false
             end
         end
-        if #players <= 1 or shouldEnd then
+        if lastTeam and #players <= 1 or lastTeam and shouldEnd then
             _G["GameWinner"] = lastTeam
+            Game.SetTeamScore(lastTeam, 5)
+            Task.Wait()
             Events.Broadcast("TeamVictory", lastTeam)
             ABGS.SetGameState(ABGS.GAME_STATE_ROUND_END)
+        end
+    elseif ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY then
+        local players = Game.GetPlayers()
+        if #players <= 1 then
+            ABGS.SetGameState(ABGS.GAME_STATE_LOBBY)
         end
     end
 end
@@ -111,9 +143,35 @@ end
 -- nil OnPlayerJoined(Player)
 -- Register the diedEvent when a player joins
 function OnPlayerJoined(player)
-    player.diedEvent:Connect(OnPlayerDied)
-    player.damagedEvent:Connect(OnPlayerDamaged)
+    listeners[player.id] = {}
+    listeners[player.id]["diedEvent"] = player.diedEvent:Connect(OnPlayerDied)
+    listeners[player.id]["damagedEvent"] = player.damagedEvent:Connect(OnPlayerDamaged)
+    joinedTimes[player.id] = time()
     SetRespawnFlag(player)
+    Task.Wait()
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END then
+        if not Object.IsValid(player) then
+            return
+        end
+
+        for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
+            if Object.IsValid(equipment) then
+                equipment:Destroy()
+            end
+        end
+        Events.Broadcast("EmptyBackpack", player)
+        player.movementControlMode = MovementControlMode.NONE
+        player.lookControlMode = LookControlMode.NONE
+        Task.Spawn(
+            function()
+                while ABGS.GetGameState() == ABGS.GAME_STATE_ROUND_END do
+                    Task.Wait()
+                end
+                player.movementControlMode = MovementControlMode.LOOK_RELATIVE
+                player.lookControlMode = LookControlMode.RELATIVE
+            end
+        )
+    end
 end
 
 -- nil Tick(float)
@@ -123,7 +181,7 @@ function Tick(deltaTime)
         return
     end
 
-    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND and currentGameTypeId > 0 then
+    if ABGS.GetGameState() == ABGS.GAME_STATE_ROUND then
         local winningTeam = nil
         for i = 0, 4 do
             if Game.GetTeamScore(i) >= GT_API.GetCurrentScoreLimit(currentGameTypeId) then
@@ -151,7 +209,11 @@ end
 function OnGameStateChanged(oldState, newState, hasDuration, stateTime)
     if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
         SetCurrentGameId(0) -- Used to reset Game Modes
+        if not roundStartTime then
+            roundStartTime = 0
+        end
         SetRoundDuration(time() - roundStartTime)
+        MarkPlayersWhoPlayedMoreThanHalf()
     end
     if newState == ABGS.GAME_STATE_ROUND and oldState ~= ABGS.GAME_STATE_ROUND then
         local currentState = GetCurrentGameId()

@@ -1,14 +1,16 @@
-﻿while not _G["LoadoutKey"] do Task.Wait() end
+while not _G["LoadoutKey"] do Task.Wait() end
 local LoadoutKey =  _G["LoadoutKey"]
 local ReliableEvents = require(script:GetCustomProperty("ReliableEvents"))
 while not _G["DataBase"] do Task.Wait() end
 local NETWORKSPAWN = script:GetCustomProperty("NetworkSpawn")
 
+local DefaultString = "HK_00-S4_00-LI_00-EL_00-EP_00"
+
 function SetUp(player)
     return {
         ["1"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
         ["2"] = "SP_00-S4_00-LI_00-EL_00-EP_00",
-        ["3"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
+        ["3"] = "SV_00-S4_00-LI_00-EL_00-EP_00",
         ["4"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
         ["5"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
         ["6"] = "HK_00-S4_00-LI_00-EL_00-EP_00",
@@ -50,6 +52,14 @@ end
 
 function equipItem(player,equipstring,slot)
     --this is dumb code cant reference self 
+    local defaults = {
+        ["Primary"]     =  "HK",
+        ["Secondary"]   =  "S4",
+        ["Melee"]       =  "LR",
+        ["Equipment"]   =  "EL",
+        ["Perk"]        =  "EP",  
+    }
+
     local t = {
         ["Primary"]     =   _G["DataBase"]:GetPrimary(equipstring),
         ["Secondary"]   =   _G["DataBase"]:GetSecondary(equipstring),
@@ -59,6 +69,10 @@ function equipItem(player,equipstring,slot)
     }
     local str = t[slot]
     local item = _G["DataBase"]:SetupItemWithSkin(str)
+    if not item then 
+        item =  _G["DataBase"]:SetupItemWithSkin(defaults[slot])
+    end
+    if not item then return end
     local equipment = item:SpawnEquipment()
     player.serverUserData.Weapons[slot.."Weapon"] = equipment
     if(slot ~= "Equipment" and slot ~= "Perk" ) then
@@ -68,11 +82,18 @@ function equipItem(player,equipstring,slot)
 end
 
 function EquipPlayer(player)
+    -- Task.Wait()
+    if not Object.IsValid(player) then 
+        print(script.name .. " -- PLAYER WASN'T VALID")        
+        return
+    end
+    
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if( not Data["Loadouts"] ) then Data = FullSetup(player) end
     player.serverUserData.Weapons = {}
     
-    local EquipString = GetSlot(player,tostring( player:GetResource("EquipSlot")))
+    local EquipString = GetSlot(player,tostring(player:GetResource("EquipSlot") or 1))
+    if not EquipString then EquipString = DefaultString end 
     equipItem(player,EquipString,"Primary")
     equipItem(player,EquipString,"Secondary")
     equipItem(player,EquipString,"Melee")
@@ -89,10 +110,20 @@ function EquipPlayer(player)
     player.serverUserData.Weapons.PerkWeapon.name = "Equipment"
 
     Task.Wait()
+    if not Object.IsValid(player) then return end
+    
     Events.Broadcast("EquipWeapon", player, player.serverUserData.Weapons["PrimaryWeapon"])
 
-    Task.Spawn(function() 
-        while not player.serverUserData.NetworkSpawn do Task.Wait() end
+    Task.Spawn(function()
+    	if not Object.IsValid(player) then return end
+        local giveUpTime = time() + 5
+        while not player.serverUserData.NetworkSpawn do
+            if time() > giveUpTime then
+                return
+            end
+        	Task.Wait(0.1)
+        	if not Object.IsValid(player) then return end
+        end
         player.serverUserData.NetworkSpawn:SetNetworkedCustomProperty("EquippedLoadout", EquipString)
     end)
 
@@ -123,7 +154,7 @@ end
 function SetupPlayer(player)
     local Data = Storage.GetSharedPlayerData(LoadoutKey, player)
     if(not Data["Loadouts"] ) then  Data = FullSetup(player) end
-    player:SetResource("EquipSlot", Data["EquipSlot"])
+    player:SetResource("EquipSlot", Data["EquipSlot"] or 1)
     Storage.SetSharedPlayerData(LoadoutKey,player, Data)
 end
 
@@ -138,6 +169,9 @@ Events.ConnectForPlayer("EquipSlot",function ( player,slot)
 end)
 
 Game.playerJoinedEvent:Connect(function (player )
+	Task.Wait(0.5)
+	if not Object.IsValid(player) then return end
+	
     SetupPlayer(player)
     EquipPlayer(player)
     player:SetResource("WeaponSlot", 1)

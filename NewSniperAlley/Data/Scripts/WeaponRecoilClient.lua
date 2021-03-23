@@ -23,17 +23,17 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 ]]
 
 -- Internal custom properties
+
 local WEAPON = script:FindAncestorByType('Weapon')
 if not WEAPON:IsA('Weapon') then
     error(script.name .. " should be part of Weapon object hierarchy.")
 end
-local ATTACK_ABILITY = WEAPON:GetAbilities()[1]
 
--- Grabs ability again from weapon in case the client hasn't loaded the object yet
-while not Object.IsValid(ATTACK_ABILITY) do
-    Task.Wait()
-    ATTACK_ABILITY = WEAPON:GetAbilities()[1]
-end
+while not WEAPON.clientUserData.SHOOT_ABILITY do Task.Wait() end
+while not WEAPON.clientUserData.RELOAD_ABILITY do Task.Wait() end
+
+
+local ATTACK_ABILITY = WEAPON.clientUserData.SHOOT_ABILITY
 
 -- Exposed variables
 local ENABLE_RECOIL = script:GetCustomProperty("EnableRecoil")
@@ -136,7 +136,8 @@ end
 -- nil OnExecute(Ability)
 -- Moves player's look using recoil's min and max values
 function OnExecute(ability)
-    if not ENABLE_RECOIL then return end
+    Task.Spawn(function()
+	if not ENABLE_RECOIL then return end
     if not Object.IsValid(WEAPON) then return end
     if not Object.IsValid(LOCAL_PLAYER) then return end
     if ability.owner ~= LOCAL_PLAYER then return end
@@ -167,6 +168,7 @@ function OnExecute(ability)
         accumulatedRecoil = accumulatedRecoil + newRecoil
         RecoverFromRecoil()
     end
+    end)
 end
 
 -- nil OnWeaponAiming(Player, bool)
@@ -182,4 +184,12 @@ end
 
 -- Initialize
 ATTACK_ABILITY.executeEvent:Connect(OnExecute)
-Events.Connect("WeaponAiming", OnWeaponAiming)
+local weaponAimingListener = Events.Connect("WeaponAiming", OnWeaponAiming)
+
+-- Cleanup
+script.destroyEvent:Connect(function()
+	if weaponAimingListener then
+		weaponAimingListener:Disconnect()
+		weaponAimingListener = nil
+	end
+end)

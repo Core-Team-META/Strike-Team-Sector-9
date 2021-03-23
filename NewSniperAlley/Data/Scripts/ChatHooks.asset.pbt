@@ -10,6 +10,12 @@ Assets {
           Id: 841534158063459245
         }
       }
+      Overrides {
+        Name: "cs:Verified_Players"
+        AssetReference {
+          Id: 841534158063459245
+        }
+      }
     }
   }
   SerializationVersion: 80

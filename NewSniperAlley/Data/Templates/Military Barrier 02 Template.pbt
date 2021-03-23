@@ -1,5 +1,5 @@
 Assets {
-  Id: 16416696093504066379
+  Id: 8163583016473574728
   Name: "Military Barrier 02 Template"
   PlatformAssetType: 5
   TemplateAsset {

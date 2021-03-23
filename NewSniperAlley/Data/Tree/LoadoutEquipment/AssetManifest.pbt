@@ -8,12 +8,21 @@ Assets {
   }
 }
 Assets {
-  Id: 16873054259561342990
-  Name: "Frame Outline Thin 001"
+  Id: 15266094661921614944
+  Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameOutline_020"
+    AssetId: "CenterCircle_001Outline"
+  }
+}
+Assets {
+  Id: 10698833128597864431
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_WeaponAssaultRifle"
+  }
+}
+Assets {
+  Id: 2604353830693238371
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
   }
 }
 Assets {

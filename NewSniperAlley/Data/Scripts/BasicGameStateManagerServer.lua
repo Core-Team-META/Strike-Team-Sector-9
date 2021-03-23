@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -30,6 +30,14 @@ local STATS_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsHasDuration")
 local STATS_DURATION = COMPONENT_ROOT:GetCustomProperty("StatsDuration")
 local VOTING_HAS_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingHasDuration")
 local VOTING_DURATION = COMPONENT_ROOT:GetCustomProperty("VotingDuration")
+local TRANSFER_PLAYERS = script:GetCustomProperty("TransferPlayers")
+local ROUNDS_BEFORE_LOCKING = script:GetCustomProperty("RoundsBeforeLocking")
+local SECONDS_BEFORE_TRANSFER = script:GetCustomProperty("SecondsBeforeTransfer")
+local TRANSFER_GAME_ID = script:GetCustomProperty("TransferGameId")
+
+
+
+local roundsPlayed = 0
 
 -- Check user properties
 if LOBBY_DURATION < 0.0 then
@@ -64,6 +72,23 @@ function GetTimeRemainingInState()
 	return math.max(endTime - time(), 0.0)
 end
 
+function RefreshCheck()
+	if TRANSFER_PLAYERS then
+		roundsPlayed = roundsPlayed + 1
+		if roundsPlayed > ROUNDS_BEFORE_LOCKING then
+			-- "Note that players already in the process of joining the server will still be accepted
+			-- and Game.playerJoinedEvent may still fire for a short period of time after a call to this function returns."
+			Game.StopAcceptingPlayers()
+			-- send message to all players.
+			Events.BroadcastToAllPlayers("TransferMessage")
+			local bootPlayers = Task.Spawn(function()
+				Game.TransferAllPlayersToGame(TRANSFER_GAME_ID)
+			end, SECONDS_BEFORE_TRANSFER)
+		end
+	end
+	return
+end
+
 -- nil SetGameState()
 -- Sets the state and configures timing. Passed to API
 function SetGameState(newState)
@@ -72,6 +97,7 @@ function SetGameState(newState)
 
 	-- Get new state duration information
 	if newState == ABGS.GAME_STATE_LOBBY then
+		RefreshCheck()
 		stateHasduration = LOBBY_HAS_DURATION
 		stateDuration = LOBBY_DURATION
 	elseif newState == ABGS.GAME_STATE_ROUND then
@@ -80,9 +106,6 @@ function SetGameState(newState)
 	elseif newState == ABGS.GAME_STATE_ROUND_END then
 		stateHasduration = ROUND_END_HAS_DURATION
 		stateDuration = ROUND_END_DURATION
-	elseif newState == ABGS.GAME_STATE_ROUND_VOTING then
-		stateHasduration = VOTING_HAS_DURATION
-		stateDuration = VOTING_DURATION
 	elseif newState ==  ABGS.GAME_STATE_ROUND_STATS then
 		stateHasduration = STATS_HAS_DURATION
 		stateDuration = STATS_DURATION
@@ -142,11 +165,11 @@ function Tick(deltaTime)
 		elseif previousState == ABGS.GAME_STATE_ROUND then
 			nextState = ABGS.GAME_STATE_ROUND_END
 		elseif previousState == ABGS.GAME_STATE_ROUND_END then
-			nextState = ABGS.GAME_STATE_ROUND_STATS
-		elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
+			nextState = ABGS.GAME_STATE_LOBBY
+		--[[elseif previousState == ABGS.GAME_STATE_ROUND_STATS then
 			nextState = ABGS.GAME_STATE_ROUND_VOTING
 		elseif previousState == ABGS.GAME_STATE_ROUND_VOTING then
-			nextState = ABGS.GAME_STATE_LOBBY
+			nextState = ABGS.GAME_STATE_LOBBY]]--
 		end
 
 		SetGameState(nextState)

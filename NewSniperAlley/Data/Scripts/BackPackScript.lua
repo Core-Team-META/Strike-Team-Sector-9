@@ -1,4 +1,4 @@
-﻿
+
 local HolsterPoints = {
     ["LHip"]    = "left_hip",
     ["RHip"]    = "right_hip",
@@ -47,8 +47,12 @@ end
 
 function EmptyBackpack(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
-        if Object.IsValid( Weapon["Weapon"]) then
-            Weapon["Weapon"]:Destroy()
+        local currentWeapon = Weapon["Weapon"]
+        if Object.IsValid( currentWeapon ) then
+            currentWeapon:Unequip()
+            Task.Wait(0.1)       
+            if not Object.IsValid(currentWeapon) then return end  
+            currentWeapon:Destroy()
         end
     end
     player.serverUserData.Backpack = {}
@@ -57,7 +61,10 @@ end
 function DeequipWeapon(player, weapon)
     local Weapon = MatchBackPack(player,weapon)
     if(Weapon)then
-        Weapon["Weapon"]:Unequip()
+        local currentWeapon = Weapon["Weapon"]
+        currentWeapon:Unequip()
+        Task.Wait(0.1)
+        if not Object.IsValid(currentWeapon) then return end 
         AttatchWeapon(player, weapon)
     end
 end
@@ -68,10 +75,10 @@ function EquipWeapon(player, weapon)
         DeequipWeapon(player, Equipment)
     end
     local Weapon = MatchBackPack(player,weapon)
-    if(Weapon)then
+    if Object.IsValid(Weapon["Weapon"]) then
         Weapon["Weapon"]:Equip(player)
+        player.serverUserData.EquippedWeapon = weapon
     end
-    player.serverUserData.EquippedWeapon = weapon
 end
 
 function JoinedPlayer(player)
@@ -80,10 +87,20 @@ end
 
 function RemovePlayer(player)
     for _,Weapon in pairs(player.serverUserData.Backpack) do
-        if Object.IsValid( Weapon["Weapon"]) then
+        if Object.IsValid(Weapon["Weapon"]) then
+            Weapon["Weapon"]:Unequip()     
             Weapon["Weapon"]:Destroy()
         end
+     
     end
+
+    -- Loop everything on the player and tell it to be destroyed so scripts call
+    for _, attached in pairs(player:GetAttachedObjects()) do
+        if Object.IsValid(attached) then
+            attached:Destroy()
+        end
+    end
+
     player.serverUserData.Backpack = nil
 end
 
@@ -95,5 +112,5 @@ Events.Connect("AddWeaponToBackPack",function( player, weapon, holster, extraDat
     table.insert( player.serverUserData.Backpack, {["Weapon"] = weapon,["Holser"] = holster, ["Offset"] = extraData.rotation or Rotation.New(0,0,0)})
     AttatchWeapon(player, weapon)
 end)    
-Game.playerLeftEvent:Connect(RemovePlayer)
 Game.playerJoinedEvent:Connect(JoinedPlayer)
+Game.playerLeftEvent:Connect(RemovePlayer)

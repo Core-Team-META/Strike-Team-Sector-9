@@ -1,7 +1,7 @@
 Name: "SFX"
-RootId: 10715285447355166927
+RootId: 17364959403125339740
 Objects {
-  Id: 10041154209390869927
+  Id: 10070910521723076856
   Name: "Metal Cart Rolling Rattle Loop 02 SFX"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1.22193539
     }
   }
-  ParentId: 10715285447355166927
+  ParentId: 17364959403125339740
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

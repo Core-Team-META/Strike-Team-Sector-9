@@ -21,13 +21,13 @@ Assets {
       Overrides {
         Name: "cmp:Material1"
         AssetReference {
-          Id: 6456790297586556291
+          Id: 2923520979152270376
         }
       }
       Overrides {
         Name: "cmp:Material1_Sides"
         AssetReference {
-          Id: 6456790297586556291
+          Id: 10934087791914836081
         }
       }
       Overrides {
@@ -134,21 +134,21 @@ Assets {
       }
     }
     Assets {
-      Id: 6456790297586556291
-      Name: "Asphalt 01"
+      Id: 2923520979152270376
+      Name: "Bricks Rough Stone Floor 02"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "mi_brick_stone_floor_rough_002"
       }
     }
     Assets {
-      Id: 6456790297586556291
-      Name: "Asphalt 01"
+      Id: 10934087791914836081
+      Name: "Cliff 03"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_asphault_001"
+        AssetId: "cliff_003"
       }
     }
     Assets {

@@ -5,7 +5,11 @@ repeat
 until GT_API
 local ABGS = require(script:GetCustomProperty("APIBasicGameState"))
 
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
+
 local PlayerKilledEvent = script:GetCustomProperty("PlayerKilledEvent")
+
+local nemesisTrackerServer = script:GetCustomProperty("NemesisTrackerServer"):WaitForObject()
 
 local YourNemesisText = script:GetCustomProperty("YourNemesisText"):WaitForObject()
 local YourNemesisKillsText = script:GetCustomProperty("YourNemesisKillsText"):WaitForObject()
@@ -13,7 +17,13 @@ local YourNemesisKillsText = script:GetCustomProperty("YourNemesisKillsText"):Wa
 local NemesisOfText = script:GetCustomProperty("NemesisOfText"):WaitForObject()
 local NemesisOfKillsText = script:GetCustomProperty("NemesisOfKillsText"):WaitForObject()
 
-local rollTextTickSFX = script:GetCustomProperty("RollTextTickSFX")
+local victoryScreenContainer = script:GetCustomProperty("VictoryScreenContainer"):WaitForObject()
+
+local nemesisOfStatText = script:GetCustomProperty("NemesisOfStatText"):WaitForObject()
+
+local nemesisMarker = script:GetCustomProperty("NemesisVictoryScreenMarker")
+
+local tickGroup = script:GetCustomProperty("TickGroup"):WaitForObject()
 
 local localPlayer = Game.GetLocalPlayer()
 
@@ -27,105 +37,114 @@ local yourKillCountAsNemesis = 0
 local yourNemesisIs = ""
 local yourNemesisKillCount = 0
 
+local nemesisList = {}
+
+local markerList = {}
+
+local passComplete = false
+local passToTask = {}
+
+local skipAnimation = false
+
 local letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}
 
-function GetPlayer(playerId)
+local tickNumber = 1
+local tickList = tickGroup:GetChildren()
+
+function PlayTick()
 	
-	local playerList = Game.GetPlayers()
+	if tickNumber <= #tickList and Object.IsValid(tickList[tickNumber]) then
 	
-	for _, player in pairs(playerList) do
+		if not tickList[tickNumber].isPlaying or tickList[tickNumber].currentPlaybackTime >= 0.25 then
 	
-		if player.id == playerId then
-		
-			return player 
+			tickList[tickNumber]:Play()
 			
 		end
 		
-	end
-	
-	return nil
-
-end
-
-function TrackKill(killer, victim, otherstuff1, otherstuff2)
-
-	if resetting then
-	
-		return
-		
-	end
-
-	if not nemesisIndex[victim.id] then
-	
-		nemesisIndex[victim.id] = {}
-		
-	end
-	
-	if not nemesisIndex[victim.id][killer.id] then
-	
-		nemesisIndex[victim.id][killer.id] = 1
+		tickNumber = tickNumber + 1
 		
 	else 
 	
-		nemesisIndex[victim.id][killer.id] = nemesisIndex[victim.id][killer.id] + 1
+		tickNumber = 1
 		
-	end
-	
-	--print(killer.name .. " killed " .. victim.name .. " " .. tostring(nemesisIndex[victim.id][killer.id]) .. " times.")
+	end	
+		
+end
+
+function SetChildrenText(uiObj,_text) -- <-- generic children text function by AJ
+    if Object.IsValid(uiObj) and uiObj:IsA("UIText") then
+        uiObj.text = _text
+    end
+
+    for i,v in ipairs(uiObj:GetChildren()) do
+        if v:IsA("UIText") then
+            SetChildrenText(v,_text)
+        end
+    end
 
 end
 
-function RemoveFromTable(player)
+function AnimateWordText(givenText, targetText, allowTickSFX)
 
-	for victim, killerList in pairs(nemesisIndex) do
+	passComplete = false
+	passToTask = {givenText, targetText, allowTickSFX}
+
+	local task = Task.Spawn(function()
 	
-		for killer, killCount in pairs(killerList) do
+	local givenText = passToTask[1]
+	local targetText = passToTask[2]
+	local allowTickSFX = passToTask[3]
+	
+	passComplete = true
+
+	local displayText = ""
+	
+	for index = 1, string.len(targetText) do
 		
-			if player.id == killer then
+		local targetLetter = targetText:sub(index, index)
 			
-				killerList[killer] = nil
+		for i = 1, 3 do
+			
+			SetChildrenText(givenText, displayText .. letters[math.random(1, #letters)])
+			
+			if allowTickSFX then
+			
+				PlayTick()
 				
 			end
-		
+							
+			Task.Wait(0.07)	
+				
 		end
+				
+			
+		displayText = displayText .. targetLetter 
 		
-		if player.id == victim then
+		SetChildrenText(givenText, displayText)
+			
+	end
 		
-			for killer, killCount in pairs(killerList) do
-			
-				killerList[killer] = nil
-			
-			end	
-			
-			nemesisIndex[victim] = nil
-			
-		end
+	SetChildrenText(givenText, targetText)
+		
+	end, 0)
+	
+	while not passComplete do
+	
+		Task.Wait()
 		
 	end
 	
-end
-
-function CleanNemesisTable()
-
-	resetting = true
-
-	for victim, killerList in pairs(nemesisIndex) do
+	for i, x in pairs(passToTask) do
 	
-		for killer, killCount in pairs(killerList) do
-		
-			killerList[killer] = nil
-		
-		end
-		
-		nemesisIndex[victim] = nil
+		passToTask[i] = nil
 		
 	end
 	
-	nemesisIndex = {}
+	passToTask = {}
 	
-	resetting = false
+	return task
 	
-end
+end 
 
 function AnimateYourNemesis()
 
@@ -152,14 +171,23 @@ function AnimateYourNemesis()
 				
 			end
 			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
-			
-			tickSFX.lifeSpan = 1
-			
+			PlayTick()
+							
 			Task.Wait(0.07)	
 			
-		end
+			if skipAnimation then
 			
+				break
+				
+			end
+			
+		end
+		
+		if skipAnimation then
+			
+			break
+				
+		end	
 		
 		displayText = displayText .. targetLetter 
 		
@@ -181,7 +209,7 @@ function AnimateYouAsNemesis()
 	local displayText = ""
 	
 	local displayKillCount = 0
-	
+		
 	for index = 1, #youAreNemesisOf do
 	
 		local targetLetter = youAreNemesisOf:sub(index, index)
@@ -199,14 +227,24 @@ function AnimateYouAsNemesis()
 				NemesisOfKillsText.text = tostring(displayKillCount)
 				
 			end
-			
-			local tickSFX = World.SpawnAsset(rollTextTickSFX)
-			
-			tickSFX.lifeSpan = 1
-			
+					
+			PlayTick()
+							
 			Task.Wait(0.05)	
 			
+			if skipAnimation then
+			
+				break
+				
+			end
+			
 		end
+		
+		if skipAnimation then
+			
+			break
+				
+		end	
 			
 		
 		displayText = displayText .. targetLetter 
@@ -224,101 +262,182 @@ function AnimateYouAsNemesis()
 		
 end
 
-function ShowNemesis()
+function CalculateNemesis()
 
-	local nemesisList = {}
-
-	local selectedNemesis = nil
-	local nemesisKills = 0
-	local otherNemesisCount = 0
+	nemesisList = {}
 	
-	youAreNemesisOf = ""
+	while not nemesisTrackerServer:GetCustomProperty("ListSet") do
+	
+		Task.Wait()
+		
+	end
+	
+	local providedString = ""
+	
+	for i = 1, 12 do
+	
+		providedString = nemesisTrackerServer:GetCustomProperty("P" .. tostring(i)) 
+		
+	    local result = {}
+	    
+	    local insertThis = true
+	    
+	    for section in (providedString..":"):gmatch("(.-):") do
+	    
+	    	if section == "" then
+	    	
+	    		insertThis = false
+	    	
+	    		break
+	    		
+	    	end
+	    
+	        table.insert(result, section)
+	        
+	    end	
+	    
+	    if insertThis then
+	    
+	   		table.insert(nemesisList, {result[1], result[2], tonumber(result[3]), result[4], tonumber(result[5])})
+	   		
+	   	end
+	    
+	end
+end
+
+function MarkNemesis()
+
+	local theirNemesisEntryText = {}
+	local theirNemesisOfEntryText = {}
+	
+	youAreNemesisOf = "No Kills"
 	yourKillCountAsNemesis = 0
-	local countOfBeingNemesis = 0
 	
-	yourNemesisIs = ""
+	yourNemesisIs = "No Deaths"
 	yourNemesisKillCount = 0
 
-	-- Calculate who is the nemeis of who
-	for victim, killerList in pairs(nemesisIndex) do
-	
-		selectedNemesis = nil
-		
-		nemesisKills = 0
-		otherNemesisCount = 0
-	
-		for killer, killCount in pairs(killerList) do
-		
-			if killCount > nemesisKills then
-			
-				nemesisKills = killCount
-				
-				selectedNemesis = killer 
-				
-			end
-		
-		end
-		
-		if selectedNemesis then
-		
-			for killer, killCount in pairs(killerList) do
-			
-				if killCount == nemesisKills then
-				
-					otherNemesisCount = otherNemesisCount + 1					
-				end
-			
-			end
-			
-			otherNemesisCount = otherNemesisCount - 1 -- removing the same nemesis from count
-			
-			table.insert(nemesisList, {selectedNemesis, victim, otherNemesisCount, nemesisKills})
-					
-		end
-							
-	end
-	
-	-- create string to show your nemesis and who you are the nemesis of
-	
 	for _, entry in pairs(nemesisList) do
 		
-		if entry[1] == localPlayer.id and GetPlayer(entry[2]) then
+		-- Finding your nemesis
+		if entry[1] == localPlayer.name then
 		
-			youAreNemesisOf = GetPlayer(entry[2]).name
+			yourNemesisIs = entry[2]
 			
-			yourKillCountAsNemesis = entry[4]
+			yourNemesisKillCount = entry[3]
 			
-		elseif entry[1] == localPlayer.id and youAreNemesisOf then
-		
-			countOfBeingNemesis = countOfBeingNemesis + 1
+			youAreNemesisOf = entry[4]
 			
+			yourKillCountAsNemesis = entry[5]
+					
 		end
 		
-		if entry[2] == localPlayer.id then
+		-- Setting marker info
+		for number, panel in ipairs(victoryScreenContainer:GetChildren()) do
 		
-			yourNemesisIs = GetPlayer(entry[1]).name
+			local nameText = panel:GetCustomProperty("NameText"):WaitForObject()
 			
-			yourNemesisKillCount = entry[4]
+			if entry[1] == nameText.text then
 			
-			if entry[3] > 0 then
-			
-				yourNemesisIs = GetPlayer(entry[1]).name .. " + " .. tostring(entry[3]) .. " more"
+				theirNemesisEntryText[number] = entry[2]
 				
+				theirNemesisOfEntryText[number] = {}
+			
+				theirNemesisOfEntryText[number][1] = entry[4]
+				
+				theirNemesisOfEntryText[number][2] = entry[5]
+											
 			end
 			
 		end
 	
 	end
-	
-	if countOfBeingNemesis > 0 then
-	
-		youAreNemesisOf = youAreNemesisOf .. " + " .. tostring(countOfBeingNemesis) .. " more"
 		
+	-- Animate markers
+	for number, marker in ipairs(markerList) do
+	
+		local nemesisLabelText = marker:GetCustomProperty("NemesisText"):WaitForObject()
+		
+		local nemesisNameText = marker:GetCustomProperty("NemesisNameText"):WaitForObject()
+		
+		local nemesisOfLabelText = marker:GetCustomProperty("NemesisOfText"):WaitForObject()
+		
+		local nemesisOfNameText = marker:GetCustomProperty("NemesisOfNameText"):WaitForObject()
+			
+		marker.y = -1000
+			
+		nemesisNameText.text = ""
+			
+		nemesisOfNameText.text = ""
+		
+		marker.visibility = Visibility.FORCE_ON
+						
+		EaseUI.EaseY(marker, -94, 1, EaseUI.EasingEquation.ELASTIC, EaseUI.EasingDirection.OUT)
+			
+		if theirNemesisOfEntryText[number] then
+				
+			AnimateWordText(nemesisOfNameText, theirNemesisOfEntryText[number][1], true)
+				
+			if theirNemesisOfEntryText[number][2] <= 3 then
+				
+				SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
+				
+			elseif theirNemesisOfEntryText[number][2] <= 5 then
+				
+				SetChildrenText(nemesisOfLabelText, "YOU WRECKED")
+
+			elseif theirNemesisOfEntryText[number][2] <= 7 then
+				
+				SetChildrenText(nemesisOfLabelText, "YOU PULVERIZED")
+					
+			elseif theirNemesisOfEntryText[number][2] <= 10 then
+				
+				SetChildrenText(nemesisOfLabelText, "YOU DECIMATED")
+					
+			else
+				
+				SetChildrenText(nemesisOfLabelText, "YOU HUMILIATED")
+					
+			end
+				
+		else 
+			
+			SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
+				
+		end 
+			
+		if theirNemesisEntryText[number] then
+				
+			AnimateWordText(nemesisNameText, theirNemesisEntryText[number], true)
+				
+		end
+
 	end
 	
-	-- show on UI
+	if yourKillCountAsNemesis <= 3 then
+				
+		SetChildrenText(nemesisOfStatText, "YOU CRUSHED")
+				
+	elseif yourKillCountAsNemesis <= 5 then
+				
+		SetChildrenText(nemesisOfStatText, "YOU WRECKED")
+
+	elseif yourKillCountAsNemesis <= 7 then
+				
+		SetChildrenText(nemesisOfStatText, "YOU PULVERIZED")
+					
+	elseif yourKillCountAsNemesis <= 10 then
+				
+		SetChildrenText(nemesisOfStatText, "YOU DECIMATED")
+					
+	else
+				
+		SetChildrenText(nemesisOfStatText, "YOU HUMILIATED")
+					
+	end
 	
-	Task.Wait(1)
+end
+
+function ShowNemesis()
 	
 	if yourNemesisIs and localPlayer.deaths > 0 then
 	
@@ -326,7 +445,7 @@ function ShowNemesis()
 		
 	else 
 	
-		YourNemesisText.text = ""
+		YourNemesisText.text = "No Deaths"
 		YourNemesisKillsText.text = "0"
 		
 	end
@@ -337,7 +456,7 @@ function ShowNemesis()
 		
 	else 
 	
-		NemesisOfText.text = ""
+		NemesisOfText.text = "No Kills"
 		NemesisOfKillsText.text = "0"
 		
 	end
@@ -345,10 +464,27 @@ function ShowNemesis()
 end
 
 function OnGameStateChanged(oldState, newState, hasDuration, time)
-    if newState == ABGS.GAME_STATE_ROUND_STATS  and oldState ~= ABGS.GAME_STATE_ROUND_STATS then
-        
-        ShowNemesis()
-        
+
+	if newState == ABGS.GAME_STATE_ROUND_END and oldState ~= ABGS.GAME_STATE_ROUND_END then
+	
+		skipAnimation = false
+	
+		Task.Wait(1)
+	
+		CalculateNemesis()
+		
+		local firstPanel = victoryScreenContainer:GetChildren()[1]
+		
+		local nameText = firstPanel:GetCustomProperty("NameText"):WaitForObject()
+		
+		while nameText.text == "" do
+		
+			Task.Wait(1)
+			
+		end			
+		
+		MarkNemesis()
+	        
     elseif newState == ABGS.GAME_STATE_LOBBY and oldState ~= ABGS.GAME_STATE_LOBBY then
 
         NemesisOfText.text = ""
@@ -357,19 +493,58 @@ function OnGameStateChanged(oldState, newState, hasDuration, time)
         YourNemesisText.text = ""
         YourNemesisKillsText.text = "0"
         
-        CleanNemesisTable()
-        
+		if #nemesisList > 0 then
+	
+			for x, slot in pairs(nemesisList) do
+			
+				for y, entry in pairs(slot) do
+				
+					nemesisList[x][y] = nil
+					
+				end
+				
+				nemesisList[x] = nil
+				
+			end
+		
+		end
+				
+		nemesisList = {}    
+		
     end
 end
 
-NemesisOfText.text = ""
-NemesisOfKillsText.text = "0"
-       	
-YourNemesisText.text = ""
-YourNemesisKillsText.text = "0"
+function OnSkipAnimation()
 
-Events.Connect(PlayerKilledEvent, TrackKill)
+	skipAnimation = true
+	
+end
 
-Game.playerLeftEvent:Connect(RemoveFromTable)
+function InitializeVictoryScreenMarkers()
+
+	for _, entry in pairs(victoryScreenContainer:GetChildren()) do
+	
+		local marker = World.SpawnAsset(nemesisMarker, {parent = entry})
+		
+		marker.visibility = Visibility.FORCE_OFF
+		
+		marker.x = 0
+		marker.y = -94
+		
+		table.insert(markerList, marker)
+	
+	end
+	
+	NemesisOfText.text = ""
+	NemesisOfKillsText.text = "0"
+	       	
+	YourNemesisText.text = ""
+	YourNemesisKillsText.text = "0"
+	
+end
+
+InitializeVictoryScreenMarkers()
 
 Events.Connect("GameStateChanged", OnGameStateChanged)
+Events.Connect("ShowNemesis", ShowNemesis)
+Events.Connect("SkipAnimation", OnSkipAnimation)

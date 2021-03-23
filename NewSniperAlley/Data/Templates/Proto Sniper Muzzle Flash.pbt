@@ -4,10 +4,10 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 11849674454856236106
+      RootId: 3949730406865326438
       Objects {
-        Id: 11849674454856236106
-        Name: "Proto Sniper Muzzle Flash"
+        Id: 3949730406865326438
+        Name: "Client Context"
         Transform {
           Scale {
             X: 1
@@ -16,41 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 3949730406865326438
-        UnregisteredParameters {
-        }
-        Lifespan: 1
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3949730406865326438
-        Name: "Client Context"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11849674454856236106
         ChildIds: 4830060901979893044
-        ChildIds: 11150861978723312827
+        ChildIds: 9174143155165666566
         ChildIds: 4814135690681172435
         ChildIds: 8210747865621629975
         ChildIds: 502640409887200536
@@ -64,7 +31,7 @@ Assets {
         }
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -113,7 +80,7 @@ Assets {
           }
           AudioBP {
             AutoPlay: true
-            Volume: 1.99737298
+            Volume: 1.497
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -123,31 +90,23 @@ Assets {
         }
       }
       Objects {
-        Id: 11150861978723312827
-        Name: "Generic Muzzleflash VFX"
+        Id: 9174143155165666566
+        Name: "Advanced Muzzleflash VFX"
         Transform {
           Location {
+            X: 23.1574097
+            Y: 6.86645508e-05
           }
           Rotation {
             Pitch: -90
           }
           Scale {
-            X: 1.00000012
-            Y: 1
-            Z: 2.40851641
+            X: 0.416236639
+            Y: 0.416236579
+            Z: 1.00251257
           }
         }
         ParentId: 3949730406865326438
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 0.8
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 4
-          }
-        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -159,14 +118,16 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 16322635077100878811
+            Id: 11252187294642675795
+          }
+          TeamSettings {
           }
           Vfx {
             AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -208,7 +169,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: 1430.11865
-            Volume: 1.99737298
+            Volume: 1.497
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -258,7 +219,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -649.905518
-            Volume: 2.55087185
+            Volume: 2.151
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -306,7 +267,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -912.056
-            Volume: 1.99737298
+            Volume: 1.497
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -356,7 +317,7 @@ Assets {
           AudioBP {
             AutoPlay: true
             Pitch: -1646.17053
-            Volume: 2.55087185
+            Volume: 2.151
             Falloff: 7000
             Radius: 1500
             EnableOcclusion: true
@@ -370,8 +331,8 @@ Assets {
         Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
-            X: -20.3762817
-            Y: -2.9486084
+            X: 2.78112793
+            Y: -2.94853973
           }
           Rotation {
             Pitch: -90
@@ -413,7 +374,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -421,8 +382,8 @@ Assets {
         Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
-            X: -9.58575439
-            Y: -2.9486084
+            X: 13.5716553
+            Y: -2.94853973
           }
           Rotation {
             Pitch: -90
@@ -464,7 +425,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -472,8 +433,8 @@ Assets {
         Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
-            X: -9.58578491
-            Y: 3.67321777
+            X: 13.5716248
+            Y: 3.67328644
           }
           Rotation {
             Pitch: 90
@@ -515,7 +476,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -523,8 +484,8 @@ Assets {
         Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
-            X: -20.3763123
-            Y: 3.67321777
+            X: 2.78109741
+            Y: 3.67328644
           }
           Rotation {
             Pitch: 90
@@ -566,7 +527,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -657,7 +618,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:high"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
     }
@@ -671,12 +632,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16322635077100878811
-      Name: "Generic Muzzleflash VFX"
+      Id: 11252187294642675795
+      Name: "Advanced Muzzleflash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_generic_muzzleflash"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {
@@ -686,6 +647,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_assaultrifle_carbine_ref"
+      }
+    }
+    Assets {
+      Id: 16322635077100878811
+      Name: "Generic Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_generic_muzzleflash"
       }
     }
     Assets {

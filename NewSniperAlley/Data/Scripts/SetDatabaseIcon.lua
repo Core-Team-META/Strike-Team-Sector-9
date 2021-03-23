@@ -1,4 +1,4 @@
-﻿while not _G["DataBase"] do
+    while not _G["DataBase"] do
     Task.Wait()
 end
 
@@ -9,6 +9,7 @@ local Database = _G["DataBase"]
 
 function UpdateIcon(str)
    local item = Database:SetupItemWithSkin(Database:GetSlot(str,TYPE))
+   if not item then return end
    PASSIVE_ICON:SetImage(item.data.icon)
 end
 

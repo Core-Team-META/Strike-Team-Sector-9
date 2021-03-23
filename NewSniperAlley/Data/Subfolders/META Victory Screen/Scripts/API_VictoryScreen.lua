@@ -168,36 +168,40 @@ function API.CalculateWinners(winnerSortType, winnerSortResource)
 	return winners
 end
 
+
 function API.TeleportWinners( player, spawnObject, overrideCamera)
 	local spawnPosition = spawnObject:GetWorldPosition()
 	local spawnRotation = spawnObject:GetWorldRotation()
 		player:Respawn({position = spawnPosition, rotation = spawnRotation})
+		local LookDirection = Rotation.New(overrideCamera:GetWorldPosition()-spawnPosition, Vector3.UP)
 
 		player:ResetVelocity() -- stop the player from flying off if they are currently in motion
 		player:SetWorldPosition(spawnPosition)
-		player:SetWorldRotation(spawnRotation)
+		player:SetWorldRotation(LookDirection)
 		
 		Task.Wait(.1)
+		if not Object.IsValid(player) then return end
 
 		player:ResetVelocity()
 		player:SetWorldPosition(spawnPosition)
-		player:SetWorldRotation(spawnRotation)	
+		player:SetWorldRotation(LookDirection)	
 		
 		for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 			equipment:Destroy()
 		end
 
 		Task.Wait()
+		if not Object.IsValid(player) then return end
 		
 		player.animationStance = "unarmed_stance"
 		
 		for i=1,5 do
 			Task.Wait(.1)
+			if not Object.IsValid(player) then return end
 
 			player:ResetVelocity()
 			player:SetWorldPosition(spawnPosition)
-			player:SetWorldRotation(spawnRotation)	
-			
+			player:SetWorldRotation(LookDirection)
 		end
 end
 
@@ -227,19 +231,24 @@ function API.OnPlayerTeleported(victoryScreen, player,  topThreePlayerStats, dur
 	player:Respawn()
 	
 	Task.Wait(.1)
+	if not Object.IsValid(player) then return end
 
 	for _, equipment in pairs(player:GetEquipment()) do -- remove all equipment
 		equipment:Destroy()
 	end
-
+	
+	player.movementControlMode = MovementControlMode.NONE
+	player.lookControlMode = LookControlMode.NONE
 	Task.Wait()
 
 	--SendBroadcast(player, "SendToVictoryScreen", victoryScreen:GetReference().id) -- topThreePlayerStats
 
 	if(duration > 0) then
 		tasks[player] = Task.Spawn(function()
-			API.OnPlayerRestored(victoryScreen, player, data)
-			API.playerRestoredEvent:_Fire(player, data)
+			if Object.IsValid(player) then
+				API.OnPlayerRestored(victoryScreen, player, data)
+				API.playerRestoredEvent:_Fire(player, data)
+			end
 		end, duration)
 	end
 
@@ -268,6 +277,8 @@ function API.OnPlayerRestored(victoryScreen, player, data)
 		tasks[player] = nil
 	end
 	Task.Wait()
+	if not Object.IsValid(player) then return end
+	
 	player.lookControlMode = data.originalLookControlMode 
 end
 

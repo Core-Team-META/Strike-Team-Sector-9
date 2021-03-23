@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -46,18 +46,19 @@ end
 -- Displays the fly up text on source player the damage or
 -- shows damage directin to the targt player
 function DisplayDamage(damage, targetPlayer, sourcePlayer)
-
     if sourcePlayer == LOCAL_PLAYER then
         if SHOW_FLY_UP_TEXT then
             -- Show fly up damage text on target player
             local CalcX = (math.random() + math.random(-2,0)) * 50
             local HorizontalVec = ((LOCAL_PLAYER:GetViewWorldRotation() * Vector3.FORWARD) ^ Vector3.UP ) * CalcX
+            damage = math.min(damage,targetPlayer.hitPoints)
             UI.ShowFlyUpText(tostring(math.floor(damage)), targetPlayer:GetWorldPosition()+Vector3.UP*100 + HorizontalVec,
                 {duration = DAMAGE_TEXT_DURATION,
                 color = DAMAGE_TEXT_COLOR,
                 isBig = IS_BIG_TEXT})
         end
-
+        
+        if targetPlayer == sourcePlayer then return end
         -- Play the damage feedback sound to the source player
         if HIT_FEEDBACK_SOUND then
             HIT_FEEDBACK_SOUND:Play()
@@ -68,6 +69,7 @@ function DisplayDamage(damage, targetPlayer, sourcePlayer)
             TriggerHitIndicator()
         end
     elseif targetPlayer == LOCAL_PLAYER then
+        if targetPlayer == sourcePlayer then return end
         UI.ShowDamageDirection(sourcePlayer)
     end
 end

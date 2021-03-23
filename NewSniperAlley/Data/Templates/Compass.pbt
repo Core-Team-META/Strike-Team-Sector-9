@@ -134,7 +134,7 @@ Assets {
           Overrides {
             Name: "cs:LargeMark"
             AssetReference {
-              Id: 841534158063459245
+              Id: 14637022706542927902
             }
           }
           Overrides {

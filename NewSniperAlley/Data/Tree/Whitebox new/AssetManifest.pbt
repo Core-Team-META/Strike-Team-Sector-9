@@ -89,24 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9647297623024469013
-  Name: "Humanoid 1 Aparna"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_008_ref"
-  }
-}
-Assets {
-  Id: 8317679741492838839
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
-  }
-}
-Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1

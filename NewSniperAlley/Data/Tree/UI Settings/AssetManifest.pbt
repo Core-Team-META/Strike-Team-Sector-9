@@ -1,10 +1,28 @@
 Assets {
-  Id: 6311522453009581627
-  Name: "Crosshair 014"
+  Id: 16060214784296519809
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
+  Id: 15266094661921614944
+  Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Crosshair_014"
+    AssetId: "CenterCircle_001Outline"
+  }
+}
+Assets {
+  Id: 15192468558682982554
+  Name: "Center Arrow 009"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_009"
   }
 }
 Assets {

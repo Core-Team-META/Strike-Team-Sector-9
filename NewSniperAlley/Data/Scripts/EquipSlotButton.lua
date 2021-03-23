@@ -1,5 +1,6 @@
-﻿Button = script.parent
+Button = script.parent
 local BACKGROUNDIMAGE = script:GetCustomProperty("BackgroundImage"):WaitForObject()
+local IsEnabled = script:GetCustomProperty("IsEnabled")
 
 local Slot = script:GetCustomProperty("Slot")
 local Level = script:GetCustomProperty("Level")
@@ -9,6 +10,7 @@ local CurrentSlot = 1
 
 local HOVER_SOUND = script:GetCustomProperty("HOVER_SOUND")
 
+local DefaultFontsize = Button.fontSize
 
 function UpdateSelected()
     if(Slot == CurrentSlot) then
@@ -18,18 +20,30 @@ function UpdateSelected()
     end
 end
 
+
+
 function UpdateLevel()
+    if not IsEnabled then 
+        Button.isInteractable = false
+        Button.text = string.format( "LOADOUT INACTIVE")
+        Button.fontSize = 8
+        return 
+    end
+
     if LOCAL_PLAYER:GetResource("Level") >= Level then
         Button.isInteractable = true
         Button.text = string.format( "LOADOUT %d", Slot)
+        Button.fontSize = DefaultFontsize
     else
         Button.isInteractable = false
         Button.text = string.format("Level %d is required", Level )
+        Button.fontSize = 8
     end
 end
 UpdateLevel()
 
 Button.releasedEvent:Connect(function() 
+    print(string.format( "Swapping to slot %d", Slot))
     Events.BroadcastToServer("SetSlot", Slot)
     Events.Broadcast("SetSlot", Slot)
     if not LOCAL_PLAYER.isDead then 

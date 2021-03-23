@@ -17,7 +17,7 @@ Assets {
       }
       Overrides {
         Name: "emissive_boost"
-        Float: 5
+        Float: 1
       }
     }
     Assets {

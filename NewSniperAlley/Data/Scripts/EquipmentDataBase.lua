@@ -4,11 +4,13 @@ local Equipment = require(script:GetCustomProperty("Equipment"))
 local Rarity = require(script:GetCustomProperty("Rarity"))
 
 local Raritys = {
-    ["None"]  =Rarity.New("None",0,99,0,0),
-    ["Common"] =Rarity.New("Common",1000,1,1,0),
-    ["Rare"]  =Rarity.New("Rare",2000,2,2,5),
-    ["Epic"]  =Rarity.New("Epic",15000,3,3,10),
-    ["Legendary"]  =Rarity.New("Legendary",50000,4,4,15),
+    ["None"]  =Rarity.New("None",0,0,99,0,0),
+    ["Common"] =Rarity.New("Common",8000,200,1,1,0),
+    ["Rare"]  =Rarity.New("Rare",15000,375,2,2,5),
+    ["Epic"]  =Rarity.New("Epic",25000,625,3,3,10),
+    ["Legendary"]  =Rarity.New("Legendary",100000,2500,4,4,15),
+    ["Event"] = Rarity.New("Event",0,0,0,1,0),
+    ["Event2"] = Rarity.New("Event2",0,0,0,1,0),
 }
 
 local Database = {} 
@@ -30,7 +32,13 @@ function Database.ReturnSkinRarity(Skin)
     return Skin.rarity:GetRank()
 end
 
+
+function Database.ReturnSkinSort(Skin)
+    return Skin.rarity:GetSortValue()
+end
+
 function Database:SetupItemWithSkin(id)
+    if not id then return end
     local eq,sk = CoreString.Split(id,"_")
     local item = self:ReturnEquipmentById(eq)
     if(item) then
@@ -76,6 +84,7 @@ function Database:SpawnAllweapons()
 end
 
 function Database:SplitString(String)
+    if not String then return end 
     return {CoreString.Split(String ,"-")}
 end
 
@@ -154,6 +163,8 @@ function Database:RegisterEquipment()
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
+                NewItem["level"] = Item:GetCustomProperty("Level")
+                NewItem["cost"] = Item:GetCustomProperty("Cost")
                 local ItemSkins = {}
 
                 NewItem["defaultSkin"] = Database.SetupSkin( 

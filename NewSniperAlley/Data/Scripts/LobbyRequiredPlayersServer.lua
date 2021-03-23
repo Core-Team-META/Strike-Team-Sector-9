@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -43,7 +43,7 @@ function Tick(deltaTime)
 
 	if ABGS.GetGameState() == ABGS.GAME_STATE_LOBBY and ABGS.GetTimeRemainingInState() == nil then
 		local players = Game.GetPlayers()
-		if #players >= REQUIRED_PLAYERS then
+		if (#players >= REQUIRED_PLAYERS) or (Environment.IsPreview() and #players >= 1) then
 			ABGS.SetTimeRemainingInState(COUNTDOWN_TIME)
 		end
 	end

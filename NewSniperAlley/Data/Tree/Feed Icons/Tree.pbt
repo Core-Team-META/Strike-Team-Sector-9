@@ -41,10 +41,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 1
-        G: 0.459602535
-        B: 0.0400000215
-        A: 1
+        A: 0.786
       }
     }
     Overrides {
@@ -57,13 +54,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -71,14 +64,14 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
       }
     }
     Overrides {
@@ -91,8 +84,43 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: -2
-        Y: -2
+        X: -1
+        Y: -1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -158,10 +186,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 1
-        G: 0.459602535
-        B: 0.0400000215
-        A: 1
+        A: 0.786
       }
     }
     Overrides {
@@ -174,13 +199,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -188,14 +209,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -243,12 +299,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 3354143504959759040
-      }
-    }
-    Overrides {
       Name: "cs:Name"
       String: ""
     }
@@ -267,10 +317,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 1
-        G: 0.459602535
-        B: 0.0400000215
-        A: 1
+        A: 0.786
       }
     }
     Overrides {
@@ -283,13 +330,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -297,14 +340,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -368,13 +446,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -382,14 +456,267 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 0.786
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 16194584868840822723
+    SubobjectId: 8427935816344805884
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 1432410517337355618
+  Name: "Pan"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 17419868764283913739
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 367155900824895840
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 16558952592433488756
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 17582367140764135335
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.546
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: -35
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        X: -8
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: -10
+        Y: -10
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Offset"
+      Vector2 {
+        X: 4
+        Y: -3
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06"
+      AssetReference {
+        Id: 16558952592433488756
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05"
+      AssetReference {
+        Id: 367155900824895840
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Offset"
+      Vector2 {
+        X: -9
+        Y: 11
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_WidthHeight"
+      Vector2 {
+        X: -10
+        Y: -10
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Offset"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: -5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Rotate"
+      Float: -35
+    }
+    Overrides {
+      Name: "cs:Layer_06_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Color"
+      Color {
+        R: 0.702
+        G: 0.386332452
+        B: 0.210600019
+        A: 1
       }
     }
   }
@@ -455,10 +782,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 1
-        G: 0.459602535
-        B: 0.0400000215
-        A: 1
+        A: 0.786
       }
     }
     Overrides {
@@ -471,13 +795,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -485,14 +805,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -536,7 +891,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 15941196163952459759
+        Id: 9947807875728528770
       }
     }
     Overrides {
@@ -558,10 +913,7 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_Color"
       Color {
-        R: 1
-        G: 0.459602535
-        B: 0.0400000215
-        A: 1
+        A: 0.786
       }
     }
     Overrides {
@@ -574,10 +926,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 0
-    }
-    Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
       }
@@ -586,13 +934,13 @@ Objects {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
         X: 4
-        Y: 6
+        Y: 4
       }
     }
     Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -600,14 +948,41 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -651,7 +1026,7 @@ Objects {
     Overrides {
       Name: "cs:EquipmentTemplate"
       AssetReference {
-        Id: 10706991407395748906
+        Id: 16866294686352594257
       }
     }
     Overrides {
@@ -688,18 +1063,14 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 2
-        Y: 6
+        X: 4
+        Y: 4
       }
-    }
-    Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
     }
     Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -707,14 +1078,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -800,13 +1206,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -814,14 +1216,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 27
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 27
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -907,13 +1344,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -921,14 +1354,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1014,13 +1482,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1028,14 +1492,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1089,13 +1588,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 12832138002433923957
+        Id: 2417593569095758378
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 12832138002433923957
+        Id: 2417593569095758378
       }
     }
     Overrides {
@@ -1121,13 +1620,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1135,14 +1630,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1196,13 +1726,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 4425460120182619356
+        Id: 4297852791511374283
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 2554722082088045387
+        Id: 4297852791511374283
       }
     }
     Overrides {
@@ -1228,13 +1758,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 35
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1242,14 +1768,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1335,13 +1896,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 35
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1349,14 +1906,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1442,13 +2034,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1456,14 +2044,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1517,13 +2140,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 11429406116101648691
+        Id: 596326082968169910
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 11429406116101648691
+        Id: 596326082968169910
       }
     }
     Overrides {
@@ -1549,13 +2172,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 35
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1563,14 +2182,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1624,13 +2278,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 4801078581681820408
+        Id: 6108831877428093247
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 4801078581681820408
+        Id: 6108831877428093247
       }
     }
     Overrides {
@@ -1651,25 +2305,21 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 17
+        Y: 17
       }
     }
     Overrides {
       Name: "cs:Layer_04_WidthHeight"
       Vector2 {
-        X: 16
-        Y: 16
+        X: 13
+        Y: 13
       }
-    }
-    Overrides {
-      Name: "cs:AngleRotate"
-      Int: 30
     }
     Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1677,14 +2327,49 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1738,13 +2423,13 @@ Objects {
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 16672326753757397400
+        Id: 906141242737558317
       }
     }
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 16672326753757397400
+        Id: 906141242737558317
       }
     }
     Overrides {
@@ -1765,8 +2450,8 @@ Objects {
     Overrides {
       Name: "cs:Layer_03_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 17
+        Y: 17
       }
     }
     Overrides {
@@ -1777,13 +2462,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:AngleRotate"
-      Int: 35
-    }
-    Overrides {
       Name: "cs:Layer_02"
       AssetReference {
-        Id: 96162478431907100
+        Id: 17582367140764135335
       }
     }
     Overrides {
@@ -1791,14 +2472,53 @@ Objects {
       Color {
         R: 0.919999957
         G: 0.274172246
-        A: 0.807000041
+        A: 0.546
       }
     }
     Overrides {
       Name: "cs:Layer_02_WidthHeight"
       Vector2 {
-        X: 20
-        Y: 5
+        X: 12
+        Y: 12
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Rotate"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 35
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        Y: 3
       }
     }
   }
@@ -1895,7 +2615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10773252250967993722
+  Id: 12244024961621090639
   Name: "PlayerLeft"
   Transform {
     Location {
@@ -1917,19 +2637,99 @@ Objects {
     Overrides {
       Name: "cs:Layer_04"
       AssetReference {
-        Id: 3426494528448305421
+        Id: 1267408161283801911
       }
     }
     Overrides {
       Name: "cs:Layer_03"
       AssetReference {
-        Id: 3426494528448305421
+        Id: 1267408161283801911
       }
     }
     Overrides {
       Name: "cs:Layer_04_Color"
       Color {
-        R: 0.86
+        R: 0.0550289676
+        G: 0.328615844
+        B: 0.663000047
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 2
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        R: 0.00520833349
+        G: 0.00520833349
+        B: 0.00520833349
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+  InstanceHistory {
+    SelfId: 10721048094489838524
+    SubobjectId: 36138378962957699
+    InstanceId: 8298575278826370010
+    TemplateId: 17637473600633499804
+  }
+}
+Objects {
+  Id: 10773252250967993722
+  Name: "PlayerLoadout"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12865564118021892379
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Loadout"
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 14040275802819979174
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 14040275802819979174
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.820000052
+        G: 0.342119247
         A: 1
       }
     }

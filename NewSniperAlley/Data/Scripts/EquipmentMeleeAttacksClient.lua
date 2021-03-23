@@ -71,7 +71,7 @@ function MeleeAttack(player, abilityInfo)
     local ability = abilityInfo.ability
 
     -- Ignore if the hitbox is overlapping with the owner
-    if player == ability.owner then return end
+    if player == ability.owner or ability.owner == nil then return end
     -- Ignore friendly attack
     if Teams.AreTeamsFriendly(player.team, ability.owner.team) then return end
 
@@ -178,6 +178,11 @@ script.destroyEvent:Connect(function()
 
 -- Find all abilities with melee related custom properties
 local abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
+while #abilityDescendants < 1 do 
+    abilityDescendants = EQUIPMENT:FindDescendantsByType("Ability")
+    Task.Wait()
+end
+Task.Wait()
 for _, ability in ipairs(abilityDescendants) do
     local hitBox = ability:GetCustomProperty("Hitbox")
 

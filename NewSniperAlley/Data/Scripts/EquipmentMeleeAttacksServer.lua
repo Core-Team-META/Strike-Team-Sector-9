@@ -68,7 +68,9 @@ end
 -- Detect players within hitbox to apply damage
 function MeleeAttack(player, abilityInfo)
     local ability = abilityInfo.ability
-
+	
+	if not Object.IsValid(ability.owner) then return end
+	
     -- Ignore if the hitbox is overlapping with the owner
     if player == ability.owner then
         return
@@ -111,7 +113,9 @@ end
 -- Enables collision on player to make the hitbox collidable
 function OnEquipped()
     Task.Wait(0.1)
-    EQUIPMENT.collision = Collision.INHERIT
+    if Object.IsValid(EQUIPMENT) then
+        EQUIPMENT.collision = Collision.INHERIT
+    end
 end
 
 -- nil OnExecute(Ability)

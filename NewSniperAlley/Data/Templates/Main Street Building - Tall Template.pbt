@@ -1,5 +1,5 @@
 Assets {
-  Id: 16697822972015190342
+  Id: 12269222798214214195
   Name: "Main Street Building - Tall Template"
   PlatformAssetType: 5
   TemplateAsset {

@@ -21,12 +21,19 @@ local Database = _G["DataBase"]
 
 function WriteData(data)
     if not data then return end
-    local Primitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Primary"))
-    local Secitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Secondary"))
-    local Melitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Melee"))
-    local Eqitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Equipment"))
-    local Passitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Perk"))
-    
+    local Primitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Primary")) or Database:SetupItemWithSkin("HK") 
+    local Secitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Secondary")) or Database:SetupItemWithSkin("S4") 
+    local Melitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Melee")) or Database:SetupItemWithSkin("LR") 
+    local Eqitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Equipment")) or Database:SetupItemWithSkin("EL") 
+    local Passitem = Database:SetupItemWithSkin(Database:GetSlot(data ,"Perk")) or Database:SetupItemWithSkin("EP") 
+
+    if not Primitem then return end
+    if not Secitem then return end
+    if not Melitem then return end
+    if not Eqitem then return end
+    if not Passitem then return end
+
+
     EquipImage:SetImage(Eqitem.data.icon)
     PassiveImge:SetImage(Passitem.data.icon)
     PrimText.text = Primitem.data.type  .. " - " ..  Primitem.data.name
