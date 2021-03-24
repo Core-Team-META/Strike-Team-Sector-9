@@ -1,7 +1,7 @@
 Name: "Kurtis"
-RootId: 10477958480793043052
+RootId: 4527011715632760836
 Objects {
-  Id: 16776867802497188801
+  Id: 13202322157169419505
   Name: "Utils"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
-  ChildIds: 1707627438380732084
+  ParentId: 4527011715632760836
+  ChildIds: 4935899361554001896
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1707627438380732084
+  Id: 4935899361554001896
   Name: "ClientContext"
   Transform {
     Location {
@@ -43,8 +43,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16776867802497188801
-  ChildIds: 14699343568560412482
+  ParentId: 13202322157169419505
+  ChildIds: 1640171758431144681
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -52,13 +52,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 14699343568560412482
+  Id: 1640171758431144681
   Name: "GetWeaponSkinCodesClient"
   Transform {
     Location {
@@ -71,7 +71,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1707627438380732084
+  ParentId: 4935899361554001896
   UnregisteredParameters {
     Overrides {
       Name: "cs:ShowSkinsAtRun"
@@ -80,9 +80,9 @@ Objects {
     Overrides {
       Name: "cs:EquipmentDataBase"
       ObjectReference {
-        SelfId: 18058618599955452748
+        SelfId: 13317194463241306917
         SubObjectId: 12733346808813737482
-        InstanceId: 9054774325255140997
+        InstanceId: 15527942225712759483
         TemplateId: 12469272091380785429
       }
     }
@@ -103,7 +103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1767098222894358513
+  Id: 8899817805692996464
   Name: "EndgameUI"
   Transform {
     Location {
@@ -116,7 +116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
+  ParentId: 4527011715632760836
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -132,7 +132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11161596542682807598
+  Id: 12849495461491133645
   Name: "Event Double XP Cash Notifier"
   Transform {
     Location {
@@ -145,7 +145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
+  ParentId: 4527011715632760836
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -153,13 +153,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 8620392774914385537
+  Id: 888376720286846921
   Name: "EndUI"
   Transform {
     Location {
@@ -172,7 +172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
+  ParentId: 4527011715632760836
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10139885653258044757
+  Id: 2916839149807584004
   Name: "Kill Feedback UI"
   Transform {
     Location {
@@ -208,9 +208,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
-  ChildIds: 7320619206150015559
-  ChildIds: 15244880827608853350
+  ParentId: 4527011715632760836
+  ChildIds: 2823506064241232929
+  ChildIds: 3864468069751776941
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -225,7 +225,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15244880827608853350
+  Id: 3864468069751776941
   Name: "ClientContext"
   Transform {
     Location {
@@ -238,9 +238,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10139885653258044757
-  ChildIds: 11283744480151107696
-  ChildIds: 3916147311381743860
+  ParentId: 2916839149807584004
+  ChildIds: 2777160544301285351
+  ChildIds: 3182180748749400999
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -254,7 +254,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3916147311381743860
+  Id: 3182180748749400999
   Name: "UI Container"
   Transform {
     Location {
@@ -267,9 +267,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15244880827608853350
-  ChildIds: 528416074525031821
-  ChildIds: 7418018083741084127
+  ParentId: 3864468069751776941
+  ChildIds: 4472016818700420426
+  ChildIds: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -302,7 +302,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7418018083741084127
+  Id: 18289407499592539816
   Name: "Kill Spree Panel"
   Transform {
     Location {
@@ -315,12 +315,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3916147311381743860
-  ChildIds: 17853229354404564252
-  ChildIds: 13440933876428273943
-  ChildIds: 13873856577833231871
-  ChildIds: 9537625626690476188
-  ChildIds: 5015609009829463164
+  ParentId: 3182180748749400999
+  ChildIds: 159360442434016203
+  ChildIds: 10653250821764884772
+  ChildIds: 2703548862537418676
+  ChildIds: 17930567671868634447
+  ChildIds: 12974774960681744908
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -356,7 +356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5015609009829463164
+  Id: 12974774960681744908
   Name: "Kill Spree"
   Transform {
     Location {
@@ -369,7 +369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7418018083741084127
+  ParentId: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -416,7 +416,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9537625626690476188
+  Id: 17930567671868634447
   Name: "Shadow"
   Transform {
     Location {
@@ -429,7 +429,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7418018083741084127
+  ParentId: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -480,7 +480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13873856577833231871
+  Id: 2703548862537418676
   Name: "Shadow"
   Transform {
     Location {
@@ -493,7 +493,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7418018083741084127
+  ParentId: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -544,7 +544,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13440933876428273943
+  Id: 10653250821764884772
   Name: "Shadow"
   Transform {
     Location {
@@ -557,7 +557,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7418018083741084127
+  ParentId: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -608,7 +608,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17853229354404564252
+  Id: 159360442434016203
   Name: "Shadow"
   Transform {
     Location {
@@ -621,7 +621,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7418018083741084127
+  ParentId: 18289407499592539816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -672,7 +672,7 @@ Objects {
   }
 }
 Objects {
-  Id: 528416074525031821
+  Id: 4472016818700420426
   Name: "Skull Panel"
   Transform {
     Location {
@@ -685,11 +685,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3916147311381743860
-  ChildIds: 10968521152487223368
-  ChildIds: 8943560285618825303
-  ChildIds: 281124701256589438
-  ChildIds: 14730460892535759564
+  ParentId: 3182180748749400999
+  ChildIds: 6025822173251312753
+  ChildIds: 778722341944866066
+  ChildIds: 15078609306399033105
+  ChildIds: 7689619615967592996
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -725,7 +725,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14730460892535759564
+  Id: 7689619615967592996
   Name: "Skull"
   Transform {
     Location {
@@ -738,7 +738,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 528416074525031821
+  ParentId: 4472016818700420426
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -783,7 +783,7 @@ Objects {
   }
 }
 Objects {
-  Id: 281124701256589438
+  Id: 15078609306399033105
   Name: "Bright Red Outline"
   Transform {
     Location {
@@ -796,7 +796,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 528416074525031821
+  ParentId: 4472016818700420426
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -843,7 +843,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8943560285618825303
+  Id: 778722341944866066
   Name: "Dark Red Outline"
   Transform {
     Location {
@@ -856,7 +856,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 528416074525031821
+  ParentId: 4472016818700420426
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -903,7 +903,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10968521152487223368
+  Id: 6025822173251312753
   Name: "Skull Eyes"
   Transform {
     Location {
@@ -916,7 +916,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 528416074525031821
+  ParentId: 4472016818700420426
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -963,7 +963,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11283744480151107696
+  Id: 2777160544301285351
   Name: "KillFeedbackClient"
   Transform {
     Location {
@@ -976,18 +976,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15244880827608853350
+  ParentId: 3864468069751776941
   UnregisteredParameters {
     Overrides {
       Name: "cs:SkullPanel"
       ObjectReference {
-        SelfId: 528416074525031821
+        SelfId: 4472016818700420426
       }
     }
     Overrides {
       Name: "cs:KillSpreePanel"
       ObjectReference {
-        SelfId: 7418018083741084127
+        SelfId: 18289407499592539816
       }
     }
     Overrides {
@@ -1011,7 +1011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7320619206150015559
+  Id: 2823506064241232929
   Name: "KillFeedbackServer"
   Transform {
     Location {
@@ -1024,7 +1024,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10139885653258044757
+  ParentId: 2916839149807584004
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1041,7 +1041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12246315208470176305
+  Id: 14403184378332884064
   Name: "META Activity Feed Enhanced"
   Transform {
     Location {
@@ -1054,9 +1054,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10477958480793043052
-  ChildIds: 13315988494094812095
-  ChildIds: 15307178487492187744
+  ParentId: 4527011715632760836
+  ChildIds: 7218809796009093156
+  ChildIds: 11092033334106660406
   UnregisteredParameters {
     Overrides {
       Name: "cs:ReliableEvents"
@@ -1079,7 +1079,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15307178487492187744
+  Id: 11092033334106660406
   Name: "ClientContext"
   Transform {
     Location {
@@ -1092,8 +1092,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12246315208470176305
-  ChildIds: 13301011787139794892
+  ParentId: 14403184378332884064
+  ChildIds: 214267593737412834
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1109,7 +1109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13301011787139794892
+  Id: 214267593737412834
   Name: "meta_cc_ActivityFeedControllerClient"
   Transform {
     Location {
@@ -1122,14 +1122,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15307178487492187744
-  ChildIds: 12865564118021892379
-  ChildIds: 365339224457795529
+  ParentId: 11092033334106660406
+  ChildIds: 13987158713816059164
+  ChildIds: 6278380387574366893
   UnregisteredParameters {
     Overrides {
       Name: "cs:ActivityFeedPanel"
       ObjectReference {
-        SelfId: 18190329572761425322
+        SelfId: 16850318451738828286
       }
     }
     Overrides {
@@ -1165,13 +1165,13 @@ Objects {
     Overrides {
       Name: "cs:KillFeedSettings"
       ObjectReference {
-        SelfId: 365339224457795529
+        SelfId: 6278380387574366893
       }
     }
     Overrides {
       Name: "cs:FeedIcons"
       ObjectReference {
-        SelfId: 12865564118021892379
+        SelfId: 13987158713816059164
       }
     }
   }
@@ -1191,7 +1191,7 @@ Objects {
   }
 }
 Objects {
-  Id: 365339224457795529
+  Id: 6278380387574366893
   Name: "Kill Feed Settings"
   Transform {
     Location {
@@ -1204,8 +1204,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13301011787139794892
-  ChildIds: 14531416509008382359
+  ParentId: 214267593737412834
+  ChildIds: 17131435873308134731
   UnregisteredParameters {
     Overrides {
       Name: "cs:NumLines"
@@ -1358,7 +1358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14531416509008382359
+  Id: 17131435873308134731
   Name: "Activity Feed Container"
   Transform {
     Location {
@@ -1371,8 +1371,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 365339224457795529
-  ChildIds: 18190329572761425322
+  ParentId: 6278380387574366893
+  ChildIds: 16850318451738828286
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1407,7 +1407,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18190329572761425322
+  Id: 16850318451738828286
   Name: "META Activity Feed Panel"
   Transform {
     Location {
@@ -1420,7 +1420,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14531416509008382359
+  ParentId: 17131435873308134731
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1459,7 +1459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12865564118021892379
+  Id: 13987158713816059164
   Name: "Feed Icons"
   Transform {
     Location {
@@ -1472,7 +1472,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13301011787139794892
+  ParentId: 214267593737412834
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1494,7 +1494,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13315988494094812095
+  Id: 7218809796009093156
   Name: "meta_cc_KillFeedControllerServer"
   Transform {
     Location {
@@ -1507,12 +1507,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12246315208470176305
+  ParentId: 14403184378332884064
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 12246315208470176305
+        SelfId: 14403184378332884064
       }
     }
     Overrides {

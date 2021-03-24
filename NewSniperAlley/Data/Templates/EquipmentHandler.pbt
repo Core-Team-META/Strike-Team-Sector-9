@@ -94,7 +94,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -13412,7 +13412,7 @@ Assets {
           }
           Overrides {
             Name: "cs:Description"
-            String: "Bullet spread wiill be reduced."
+            String: "Bullet spread will be reduced."
           }
           Overrides {
             Name: "cs:RotationOffset"

@@ -1,7 +1,7 @@
 Name: "Brent"
-RootId: 9151753919777912365
+RootId: 14696609628630403828
 Objects {
-  Id: 353075264096251597
+  Id: 9046518886037277588
   Name: "META_AFK_Component"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
@@ -84,7 +84,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16713860716774960610
+  Id: 6928863494001017093
   Name: "Crate "
   Transform {
     Location {
@@ -97,7 +97,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113,7 +113,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15549939467812718615
+  Id: 12956099314995618217
   Name: "Rank Manager"
   Transform {
     Location {
@@ -126,7 +126,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -142,7 +142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9777098763579283102
+  Id: 15354785146084416614
   Name: "Reload Castbar"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -171,7 +171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16180529362581302619
+  Id: 15497491679313206888
   Name: "Achievement System"
   Transform {
     Location {
@@ -184,7 +184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enabled"
@@ -206,7 +206,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5767447152856169256
+  Id: 6634084826907940695
   Name: "Point Indicator"
   Transform {
     Location {
@@ -219,7 +219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -235,7 +235,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13759701891954085812
+  Id: 5740934596799920840
   Name: "Game Mode Manager"
   Transform {
     Location {
@@ -248,7 +248,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   UnregisteredParameters {
     Overrides {
       Name: "cs:DEFAULT_GAME_ID"
@@ -270,7 +270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1372466132249557023
+  Id: 12093551034550222674
   Name: "Game State UI"
   Transform {
     Location {
@@ -283,7 +283,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9151753919777912365
+  ParentId: 14696609628630403828
   UnregisteredParameters {
   }
   Collidable_v2 {

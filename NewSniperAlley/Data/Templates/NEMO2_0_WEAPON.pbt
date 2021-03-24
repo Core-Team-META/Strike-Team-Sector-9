@@ -1,6 +1,6 @@
 Assets {
   Id: 5739364599050502024
-  Name: "NEMO2.0_WEAPON"
+  Name: "WEAPON_PRI_LMG_AWK-R0K"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -112,6 +112,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "LMG"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -172,7 +176,7 @@ Assets {
               Id: 841534158063459245
             }
             BurstCount: 1
-            BurstDuration: 11.1
+            BurstDuration: 10.5
             AttackCooldown: 0.25
             Range: 100000
             ImpactPlayerAssetRef {
@@ -232,13 +236,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -248,7 +251,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -259,14 +261,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -306,7 +306,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
@@ -393,11 +393,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 38
+            Float: 46
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 56
+            Float: 64
           }
         }
         Collidable_v2 {
@@ -490,7 +490,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -551,7 +551,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
+            Float: 0.45
           }
           Overrides {
             Name: "cs:SpreadWalkPrecision"
@@ -567,7 +567,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.35
           }
         }
         Collidable_v2 {
@@ -719,7 +719,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:RecoilYMax"
-            Float: 45
+            Float: 75
           }
           Overrides {
             Name: "cs:RecoilYMin"
@@ -727,15 +727,31 @@ Assets {
           }
           Overrides {
             Name: "cs:RecoilXMin"
-            Float: -1
+            Float: -12
           }
           Overrides {
             Name: "cs:RecoilXMax"
-            Float: 1
+            Float: 25
           }
           Overrides {
             Name: "cs:EnableRecovery"
             Bool: false
+          }
+          Overrides {
+            Name: "cs:AimYReduction"
+            Float: 0.25
+          }
+          Overrides {
+            Name: "cs:AimXReduction"
+            Float: 0.25
+          }
+          Overrides {
+            Name: "cs:CrouchYReduction"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "cs:CrouchXReduction"
+            Float: 0.2
           }
         }
         Collidable_v2 {

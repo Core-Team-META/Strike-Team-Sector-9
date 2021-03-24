@@ -1,6 +1,6 @@
 Assets {
   Id: 5343945996030504866
-  Name: "SPECTOR452.0_WEAPON"
+  Name: "WEAPON_SEC_PISTOL_KZ99"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -39,7 +39,7 @@ Assets {
           }
           Overrides {
             Name: "cs:AimWalkSpeedPercentage"
-            Float: 0.2
+            Float: 0.4
           }
           Overrides {
             Name: "cs:AimZoomDistance"
@@ -107,7 +107,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SprintingStance"
-            String: "2hand_sword_ready"
+            String: "1hand_pistol_stance"
           }
           Overrides {
             Name: "cs:WeaponType"
@@ -141,7 +141,7 @@ Assets {
               Id: 5936961085923459411
             }
             MuzzleFlashAssetRef {
-              Id: 7611313799014583274
+              Id: 10747423591324880093
             }
             TrailAssetRef {
               Id: 9023864673320310867
@@ -232,13 +232,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -248,7 +247,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -259,7 +257,6 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -269,7 +266,6 @@ Assets {
             }
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -309,7 +305,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
@@ -493,7 +489,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -890,9 +886,9 @@ Assets {
           Overrides {
             Name: "bp:Size"
             Vector {
-              X: 0.4
-              Y: 0.4
-              Z: 0.4
+              X: 0.45
+              Y: 0.45
+              Z: 0.45
             }
           }
           Overrides {
@@ -907,8 +903,8 @@ Assets {
             Name: "bp:Ejection Velocity High"
             Vector {
               X: -200
-              Y: 200
-              Z: 200
+              Y: 500
+              Z: 500
             }
           }
         }

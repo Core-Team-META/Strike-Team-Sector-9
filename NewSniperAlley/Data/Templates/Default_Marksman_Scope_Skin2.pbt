@@ -1,6 +1,6 @@
 Assets {
   Id: 2893547370161218899
-  Name: "Default_Marksman_Scope_Skin2"
+  Name: "SCOPE_MKS_BLK_Laser"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -62,7 +62,7 @@ Assets {
           Overrides {
             Name: "cs:LocalMoveOffset"
             Vector {
-              X: -35
+              X: -10
               Z: 0.75
             }
           }
@@ -113,7 +113,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -912,7 +912,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9012634881940008866
+              Id: 5351428073291024820
             }
           }
           Overrides {
@@ -2306,7 +2306,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -2441,12 +2441,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9012634881940008866
-      Name: "Emissive Glow Transparent"
+      Id: 5351428073291024820
+      Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "fxma_opaque_emissive"
       }
     }
     Assets {

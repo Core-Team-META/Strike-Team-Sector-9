@@ -1,13 +1,13 @@
 Assets {
   Id: 1867073637100929594
-  Name: "HK99_DefaultSkin"
+  Name: "WSKIN_PRI_AR_MRCi-88_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 15595152309687486240
       Objects {
         Id: 15595152309687486240
-        Name: "HK99_DefaultSkin"
+        Name: "WSKIN_PRI_AR_MRCi-88_Default"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 7727032921054867838
-        Name: "HK99_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
             Z: 3.63154697

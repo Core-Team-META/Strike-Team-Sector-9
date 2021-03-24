@@ -1,7 +1,7 @@
 Name: "Game State Settings"
-RootId: 15718157928396756218
+RootId: 17865277309481751466
 Objects {
-  Id: 5960801999627558926
+  Id: 17962881389256585395
   Name: "Lobby Start Reset Team Scores"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718157928396756218
+  ParentId: 17865277309481751466
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -40,7 +40,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7535562993660984744
+  Id: 1190064734146805403
   Name: "Lobby Required Players"
   Transform {
     Scale {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718157928396756218
+  ParentId: 17865277309481751466
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -114,7 +114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5870305488101134202
+  Id: 8291381865721376540
   Name: "Lobby Start Respawn Players"
   Transform {
     Scale {
@@ -123,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718157928396756218
+  ParentId: 17865277309481751466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -172,7 +172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1178817802251444676
+  Id: 16241650262358117605
   Name: "Basic Game State Manager"
   Transform {
     Location {
@@ -185,9 +185,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718157928396756218
-  ChildIds: 4422093152864602407
-  ChildIds: 4142355757297100730
+  ParentId: 17865277309481751466
+  ChildIds: 17657620925774264536
+  ChildIds: 13952408187977801008
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
@@ -275,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4142355757297100730
+  Id: 13952408187977801008
   Name: "ClientContext"
   Transform {
     Location {
@@ -288,8 +288,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1178817802251444676
-  ChildIds: 12164164054030005643
+  ParentId: 16241650262358117605
+  ChildIds: 12036692631600872294
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -311,7 +311,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12164164054030005643
+  Id: 12036692631600872294
   Name: "GameStateManagerClient"
   Transform {
     Location {
@@ -324,7 +324,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4142355757297100730
+  ParentId: 13952408187977801008
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -335,7 +335,7 @@ Objects {
     Overrides {
       Name: "cs:ServerScript"
       ObjectReference {
-        SelfId: 4422093152864602407
+        SelfId: 17657620925774264536
       }
     }
   }
@@ -361,7 +361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4422093152864602407
+  Id: 17657620925774264536
   Name: "BasicGameStateManagerServer"
   Transform {
     Location {
@@ -374,7 +374,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1178817802251444676
+  ParentId: 16241650262358117605
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -385,7 +385,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 1178817802251444676
+        SelfId: 16241650262358117605
       }
     }
     Overrides {
@@ -468,7 +468,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7324714485151477857
+  Id: 6981846958286468556
   Name: "Game State Message"
   Transform {
     Scale {
@@ -477,7 +477,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718157928396756218
+  ParentId: 17865277309481751466
   UnregisteredParameters {
   }
   Collidable_v2 {

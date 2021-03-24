@@ -1,7 +1,7 @@
 Name: "Chat"
-RootId: 13973119890939008183
+RootId: 14797038986290514050
 Objects {
-  Id: 576532269061940442
+  Id: 14560078827957386352
   Name: "Chat Controller"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13973119890939008183
-  ChildIds: 266776635533442804
-  ChildIds: 2252674498917634120
+  ParentId: 14797038986290514050
+  ChildIds: 8912499560700003332
+  ChildIds: 8349182222228240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2252674498917634120
+  Id: 8349182222228240
   Name: "ClientContext"
   Transform {
     Location {
@@ -44,9 +44,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 576532269061940442
-  ChildIds: 4900770806114966804
-  ChildIds: 3243802795030650639
+  ParentId: 14560078827957386352
+  ChildIds: 141508107501895779
+  ChildIds: 6231434405689975311
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -54,13 +54,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 3243802795030650639
+  Id: 6231434405689975311
   Name: "UI Container"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2252674498917634120
+  ParentId: 8349182222228240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4900770806114966804
+  Id: 141508107501895779
   Name: "ChatControllerClient"
   Transform {
     Location {
@@ -122,7 +122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2252674498917634120
+  ParentId: 8349182222228240
   UnregisteredParameters {
     Overrides {
       Name: "cs:CommandsList"
@@ -139,7 +139,7 @@ Objects {
     Overrides {
       Name: "cs:Container"
       ObjectReference {
-        SelfId: 3243802795030650639
+        SelfId: 6231434405689975311
       }
     }
   }
@@ -159,7 +159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 266776635533442804
+  Id: 8912499560700003332
   Name: "ChatControllerServer"
   Transform {
     Location {
@@ -172,7 +172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 576532269061940442
+  ParentId: 14560078827957386352
   UnregisteredParameters {
     Overrides {
       Name: "cs:CommandsList"

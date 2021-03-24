@@ -1,6 +1,6 @@
 Assets {
   Id: 7849914397938662428
-  Name: "SVAA2.0_WEAPON"
+  Name: "WEAPON_PRI_MKS_BLK-NG7"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -106,6 +106,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Marksman"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -160,6 +164,7 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -180,7 +185,7 @@ Assets {
             ProjectileLifeSpan: 10
             ProjectileLength: 50
             ProjectileRadius: 5
-            SpreadMax: 2
+            SpreadMax: 4
             SpreadDecreaseSpeed: 5.5
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 1
@@ -223,13 +228,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -239,7 +243,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -250,14 +253,13 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
+            Duration: 0.35
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -294,13 +296,13 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.5
+            Duration: 1.5
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -381,11 +383,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 62
+            Float: 58
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 124
+            Float: 116
           }
         }
         Collidable_v2 {
@@ -478,7 +480,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -539,7 +541,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:SpreadStandPrecision"
-            Float: 0.5
+            Float: 0.3
           }
           Overrides {
             Name: "cs:SpreadWalkPrecision"
@@ -555,7 +557,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SpreadAimModifierBonus"
-            Float: 0.45
+            Float: 0.65
           }
         }
         Collidable_v2 {
@@ -707,7 +709,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 2.5
+            Float: 0.5
           }
           Overrides {
             Name: "cs:RECOIL_DIRECTION"
@@ -717,7 +719,11 @@ Assets {
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 4
+            Float: 0.9
+          }
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.14
           }
         }
         Collidable_v2 {
@@ -1158,7 +1164,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 6
+            Int: 14
           }
         }
         Collidable_v2 {

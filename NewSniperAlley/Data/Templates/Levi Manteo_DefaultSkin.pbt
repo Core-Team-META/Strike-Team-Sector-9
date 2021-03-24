@@ -1,13 +1,13 @@
 Assets {
   Id: 2288437177078657055
-  Name: "Levi Manteo_DefaultSkin"
+  Name: "WSKIN_PRI_SG_BCK_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 10300498948846537360
       Objects {
         Id: 10300498948846537360
-        Name: "Levi Manteo_DefaultSkin"
+        Name: "WSKIN_PRI_SG_BCK_Default"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 1571009874041896335
-        Name: "Levi Manteo_DefaultSkin"
+        Name: "Geo"
         Transform {
           Location {
           }

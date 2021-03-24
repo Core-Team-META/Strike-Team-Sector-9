@@ -1,13 +1,13 @@
 Assets {
   Id: 17805120535617629521
-  Name: "Proto Sniper Skin 6"
+  Name: "WSKIN_PRI_SR_T055_Dark-Devout"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 14833902573362674878
       Objects {
         Id: 14833902573362674878
-        Name: "Proto Sniper Skin 6"
+        Name: "WSKIN_PRI_SR_T055_Dark-Devout"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 86240929749375553
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 22.7393093

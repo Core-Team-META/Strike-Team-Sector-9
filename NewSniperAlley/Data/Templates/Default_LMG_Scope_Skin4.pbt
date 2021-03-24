@@ -1,6 +1,6 @@
 Assets {
   Id: 18062199344818942249
-  Name: "Default_LMG_Scope_Skin4"
+  Name: "SCOPE_LMG_AWKR_Fren"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -149,7 +149,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true

@@ -1,7 +1,7 @@
 Name: "Game State UI"
-RootId: 1372466132249557023
+RootId: 12093551034550222674
 Objects {
-  Id: 10851780825234184952
+  Id: 16849292744465979093
   Name: "Game State Display"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1372466132249557023
+  ParentId: 12093551034550222674
   UnregisteredParameters {
   }
   Collidable_v2 {

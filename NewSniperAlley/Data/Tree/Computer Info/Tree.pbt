@@ -1,7 +1,7 @@
 Name: "Computer Info"
-RootId: 9643592023418874311
+RootId: 16646250922296730380
 Objects {
-  Id: 9675597655759565464
+  Id: 9646183140547920574
   Name: "Computer 2"
   Transform {
     Location {
@@ -16,9 +16,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9643592023418874311
-  ChildIds: 13757061938243767405
-  ChildIds: 11230207955756418439
+  ParentId: 16646250922296730380
+  ChildIds: 14620045055240542863
+  ChildIds: 7359816008941254885
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11230207955756418439
+  Id: 7359816008941254885
   Name: "ClientContext"
   Transform {
     Location {
@@ -49,11 +49,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9675597655759565464
-  ChildIds: 10935915448565789069
-  ChildIds: 4269479369381774805
-  ChildIds: 1433368595512231932
-  ChildIds: 336727361689858181
+  ParentId: 9646183140547920574
+  ChildIds: 12435236601598649880
+  ChildIds: 1100997015633979272
+  ChildIds: 7688605602015767765
+  ChildIds: 8689449057953123778
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -61,13 +61,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 336727361689858181
+  Id: 8689449057953123778
   Name: "CB Radio Click Beep Squelch 02 SFX"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11230207955756418439
+  ParentId: 7359816008941254885
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -102,7 +102,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1433368595512231932
+  Id: 7688605602015767765
   Name: "Sci-fi UI Cute Beep Droid Confirm 01 SFX"
   Transform {
     Location {
@@ -115,7 +115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11230207955756418439
+  ParentId: 7359816008941254885
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -137,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4269479369381774805
+  Id: 1100997015633979272
   Name: "Game Portal Settings"
   Transform {
     Location {
@@ -153,7 +153,7 @@ Objects {
       Z: 0.0800736845
     }
   }
-  ParentId: 11230207955756418439
+  ParentId: 7359816008941254885
   UnregisteredParameters {
     Overrides {
       Name: "bp:Game ID"
@@ -333,7 +333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10935915448565789069
+  Id: 12435236601598649880
   Name: "Computer Info"
   Transform {
     Location {
@@ -346,30 +346,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11230207955756418439
+  ParentId: 7359816008941254885
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 13757061938243767405
+        SelfId: 14620045055240542863
       }
     }
     Overrides {
       Name: "cs:Portal"
       ObjectReference {
-        SelfId: 4269479369381774805
+        SelfId: 1100997015633979272
       }
     }
     Overrides {
       Name: "cs:OnSound"
       ObjectReference {
-        SelfId: 1433368595512231932
+        SelfId: 7688605602015767765
       }
     }
     Overrides {
       Name: "cs:OffSound"
       ObjectReference {
-        SelfId: 336727361689858181
+        SelfId: 8689449057953123778
       }
     }
   }
@@ -389,7 +389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13757061938243767405
+  Id: 14620045055240542863
   Name: "Trigger"
   Transform {
     Location {
@@ -404,7 +404,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9675597655759565464
+  ParentId: 9646183140547920574
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -427,7 +427,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3033931392673435521
+  Id: 5249334179997645580
   Name: "Computer 1"
   Transform {
     Location {
@@ -442,9 +442,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9643592023418874311
-  ChildIds: 3522608351264252122
-  ChildIds: 14502669593865421898
+  ParentId: 16646250922296730380
+  ChildIds: 2908763670942444397
+  ChildIds: 855202311808410577
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -459,7 +459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14502669593865421898
+  Id: 855202311808410577
   Name: "ClientContext"
   Transform {
     Location {
@@ -475,11 +475,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3033931392673435521
-  ChildIds: 7687414584531754384
-  ChildIds: 6531485560871199989
-  ChildIds: 13960356288528620669
-  ChildIds: 11377463317134666991
+  ParentId: 5249334179997645580
+  ChildIds: 1811872278844247097
+  ChildIds: 9060293642657407319
+  ChildIds: 17564982702621237814
+  ChildIds: 14206812950196059179
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -487,13 +487,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 11377463317134666991
+  Id: 14206812950196059179
   Name: "CB Radio Click Beep Squelch 02 SFX"
   Transform {
     Location {
@@ -506,7 +506,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14502669593865421898
+  ParentId: 855202311808410577
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -528,7 +528,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13960356288528620669
+  Id: 17564982702621237814
   Name: "Sci-fi UI Cute Beep Droid Confirm 01 SFX"
   Transform {
     Location {
@@ -541,7 +541,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14502669593865421898
+  ParentId: 855202311808410577
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -563,7 +563,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6531485560871199989
+  Id: 9060293642657407319
   Name: "Game Portal Settings"
   Transform {
     Location {
@@ -579,7 +579,7 @@ Objects {
       Z: 0.0800736845
     }
   }
-  ParentId: 14502669593865421898
+  ParentId: 855202311808410577
   UnregisteredParameters {
     Overrides {
       Name: "bp:Game ID"
@@ -759,7 +759,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7687414584531754384
+  Id: 1811872278844247097
   Name: "Computer Info"
   Transform {
     Location {
@@ -772,30 +772,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14502669593865421898
+  ParentId: 855202311808410577
   UnregisteredParameters {
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 3522608351264252122
+        SelfId: 2908763670942444397
       }
     }
     Overrides {
       Name: "cs:Portal"
       ObjectReference {
-        SelfId: 6531485560871199989
+        SelfId: 9060293642657407319
       }
     }
     Overrides {
       Name: "cs:OnSound"
       ObjectReference {
-        SelfId: 13960356288528620669
+        SelfId: 17564982702621237814
       }
     }
     Overrides {
       Name: "cs:OffSound"
       ObjectReference {
-        SelfId: 11377463317134666991
+        SelfId: 14206812950196059179
       }
     }
   }
@@ -815,7 +815,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3522608351264252122
+  Id: 2908763670942444397
   Name: "Trigger"
   Transform {
     Location {
@@ -830,7 +830,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3033931392673435521
+  ParentId: 5249334179997645580
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

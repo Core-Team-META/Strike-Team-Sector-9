@@ -1,7 +1,7 @@
 Name: "Knar"
-RootId: 4565846863626438544
+RootId: 8882019402186461505
 Objects {
-  Id: 487557207452801777
+  Id: 9103717334851792931
   Name: "Player Movement"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4565846863626438544
+  ParentId: 8882019402186461505
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

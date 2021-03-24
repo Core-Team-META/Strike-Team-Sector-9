@@ -1,6 +1,6 @@
 Assets {
   Id: 8234588220316895993
-  Name: "Default_LMG_Scope_Skin7"
+  Name: "SCOPE_LMG_AWKR_Steam-Punk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -116,7 +116,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }

@@ -1,13 +1,13 @@
 Assets {
   Id: 2790165356747472300
-  Name: "Proto Assault Skin 4"
+  Name: "WSKIN_PRI_AR_MRCi-88_Fren"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 10095934196945827579
       Objects {
         Id: 10095934196945827579
-        Name: "Proto Assault Skin 4"
+        Name: "WSKIN_PRI_AR_MRCi-88_Fren"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 16247590295452621306
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 20.7704391

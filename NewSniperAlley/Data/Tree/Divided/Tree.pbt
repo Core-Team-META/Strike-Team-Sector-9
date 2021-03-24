@@ -1,7 +1,7 @@
 Name: "Divided"
-RootId: 13957708681624490865
+RootId: 7103842444919765018
 Objects {
-  Id: 16638082524066565225
+  Id: 9448696986141590070
   Name: "GrenadeProximity"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13957708681624490865
-  ChildIds: 3847036865702065858
-  ChildIds: 881099676690102962
+  ParentId: 7103842444919765018
+  ChildIds: 15995522496059181017
+  ChildIds: 5062645470488206906
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,13 +24,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 881099676690102962
+  Id: 5062645470488206906
   Name: "UI Container"
   Transform {
     Location {
@@ -47,9 +47,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16638082524066565225
-  ChildIds: 18020230603338194676
-  ChildIds: 16814523295774856805
+  ParentId: 9448696986141590070
+  ChildIds: 17163436679420183240
+  ChildIds: 10970782381115992699
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -82,7 +82,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16814523295774856805
+  Id: 10970782381115992699
   Name: "GrenadeIcon"
   Transform {
     Location {
@@ -99,8 +99,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 881099676690102962
-  ChildIds: 8708156771605983482
+  ParentId: 5062645470488206906
+  ChildIds: 10794405212339520272
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -146,7 +146,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8708156771605983482
+  Id: 10794405212339520272
   Name: "GrenadeIcon"
   Transform {
     Location {
@@ -163,7 +163,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16814523295774856805
+  ParentId: 10970782381115992699
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -211,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18020230603338194676
+  Id: 17163436679420183240
   Name: "Ring"
   Transform {
     Location {
@@ -228,7 +228,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 881099676690102962
+  ParentId: 5062645470488206906
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -272,7 +272,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3847036865702065858
+  Id: 15995522496059181017
   Name: "GrenadeProximityUIClient"
   Transform {
     Location {
@@ -285,24 +285,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16638082524066565225
+  ParentId: 9448696986141590070
   UnregisteredParameters {
     Overrides {
       Name: "cs:UIContainer"
       ObjectReference {
-        SelfId: 881099676690102962
+        SelfId: 5062645470488206906
       }
     }
     Overrides {
       Name: "cs:Ring"
       ObjectReference {
-        SelfId: 18020230603338194676
+        SelfId: 17163436679420183240
       }
     }
     Overrides {
       Name: "cs:GrenadeIcon"
       ObjectReference {
-        SelfId: 16814523295774856805
+        SelfId: 10970782381115992699
       }
     }
   }

@@ -1,6 +1,6 @@
 Assets {
   Id: 11966506010167892247
-  Name: "Bat_Skin33"
+  Name: "WSKIN_MEL_BAT_<3"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -127,7 +127,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {

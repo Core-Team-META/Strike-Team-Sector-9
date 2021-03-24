@@ -1,7 +1,7 @@
 Name: "Bigglebuns"
-RootId: 1229943756454095254
+RootId: 14500840413510156487
 Objects {
-  Id: 13244858924417107668
+  Id: 16369607858125330401
   Name: "Invisible Collider"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 2.9222312
     }
   }
-  ParentId: 1229943756454095254
+  ParentId: 14500840413510156487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44,7 +44,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1626609097989359509
+  Id: 11986084799337861428
   Name: "Invisible Collider"
   Transform {
     Location {
@@ -61,7 +61,7 @@ Objects {
       Z: 8.17448235
     }
   }
-  ParentId: 1229943756454095254
+  ParentId: 14500840413510156487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,7 +88,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14079527131134118260
+  Id: 4027441581905764793
   Name: "LightingFinalTouches"
   Transform {
     Location {
@@ -104,12 +104,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1229943756454095254
-  ChildIds: 12094944473367730489
-  ChildIds: 16025621349563442748
-  ChildIds: 17657079786796873743
-  ChildIds: 524099398705352098
-  ChildIds: 12030649390159391512
+  ParentId: 14500840413510156487
+  ChildIds: 7488327423175680686
+  ChildIds: 3153700313936961194
+  ChildIds: 1563082967444767450
+  ChildIds: 12708107800812223340
+  ChildIds: 10372545830730617904
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -124,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12030649390159391512
+  Id: 10372545830730617904
   Name: "Point Light"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079527131134118260
+  ParentId: 4027441581905764793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -177,7 +177,7 @@ Objects {
   }
 }
 Objects {
-  Id: 524099398705352098
+  Id: 12708107800812223340
   Name: "Point Light"
   Transform {
     Location {
@@ -193,7 +193,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079527131134118260
+  ParentId: 4027441581905764793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -230,7 +230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17657079786796873743
+  Id: 1563082967444767450
   Name: "Point Light"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079527131134118260
+  ParentId: 4027441581905764793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -282,7 +282,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16025621349563442748
+  Id: 3153700313936961194
   Name: "Point Light"
   Transform {
     Location {
@@ -298,7 +298,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079527131134118260
+  ParentId: 4027441581905764793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -335,7 +335,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12094944473367730489
+  Id: 7488327423175680686
   Name: "Point Light"
   Transform {
     Location {
@@ -351,7 +351,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14079527131134118260
+  ParentId: 4027441581905764793
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -388,7 +388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5896239951057885929
+  Id: 7302125921240526494
   Name: "Decals Door Ventilation"
   Transform {
     Location {
@@ -404,15 +404,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1229943756454095254
-  ChildIds: 11902674726255830276
-  ChildIds: 8794600976014342404
-  ChildIds: 572040776663401413
-  ChildIds: 16576433525668013596
-  ChildIds: 3507535342119692793
-  ChildIds: 5828071262690253694
-  ChildIds: 3763480769463275658
-  ChildIds: 15539701132290983801
+  ParentId: 14500840413510156487
+  ChildIds: 7297634926485136143
+  ChildIds: 12358951851523819360
+  ChildIds: 996011058410897707
+  ChildIds: 3127829680577729437
+  ChildIds: 17718387297890955248
+  ChildIds: 2883047064388090137
+  ChildIds: 13699139458317988880
+  ChildIds: 9370349972511000290
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -427,7 +427,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15539701132290983801
+  Id: 9370349972511000290
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -444,7 +444,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -474,7 +474,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3763480769463275658
+  Id: 13699139458317988880
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -491,7 +491,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -521,7 +521,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5828071262690253694
+  Id: 2883047064388090137
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -540,7 +540,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -570,7 +570,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3507535342119692793
+  Id: 17718387297890955248
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -588,7 +588,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -618,7 +618,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16576433525668013596
+  Id: 3127829680577729437
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -636,7 +636,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -666,7 +666,7 @@ Objects {
   }
 }
 Objects {
-  Id: 572040776663401413
+  Id: 996011058410897707
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -684,7 +684,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -714,7 +714,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8794600976014342404
+  Id: 12358951851523819360
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -732,7 +732,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -762,7 +762,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11902674726255830276
+  Id: 7297634926485136143
   Name: "Decal Sci-fi Details 01"
   Transform {
     Location {
@@ -781,7 +781,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 5896239951057885929
+  ParentId: 7302125921240526494
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
@@ -811,7 +811,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10994677294877589670
+  Id: 5467212941030195498
   Name: "Decal Street Litter 01"
   Transform {
     Location {
@@ -828,7 +828,7 @@ Objects {
       Z: 0.0176355392
     }
   }
-  ParentId: 1229943756454095254
+  ParentId: 14500840413510156487
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -852,7 +852,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15609373510117827560
+  Id: 631101349920765838
   Name: "Hidden"
   Transform {
     Location {
@@ -867,9 +867,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1229943756454095254
-  ChildIds: 4966276557528679232
-  ChildIds: 5107868456560077893
+  ParentId: 14500840413510156487
+  ChildIds: 14783120602476289254
+  ChildIds: 10380516510765649085
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -877,14 +877,14 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 5107868456560077893
+  Id: 10380516510765649085
   Name: "Urban Pipe Straight - 02 (Prop)"
   Transform {
     Location {
@@ -902,15 +902,15 @@ Objects {
       Z: 0.917118907
     }
   }
-  ParentId: 15609373510117827560
-  ChildIds: 1966806576703190802
-  ChildIds: 1806544816761198413
-  ChildIds: 9868830653251312075
-  ChildIds: 5981853323407270955
-  ChildIds: 2862450399952390975
-  ChildIds: 1913569393562385264
-  ChildIds: 56157423399300659
-  ChildIds: 6647849350671225165
+  ParentId: 631101349920765838
+  ChildIds: 11833031331710326016
+  ChildIds: 3264789502771753467
+  ChildIds: 13156041642002226435
+  ChildIds: 10482426404591691193
+  ChildIds: 9850233130032932726
+  ChildIds: 11329087583821532057
+  ChildIds: 8859594245917260208
+  ChildIds: 10386316768470298857
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -925,7 +925,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6647849350671225165
+  Id: 10386316768470298857
   Name: "Urban Pipe Cap 03"
   Transform {
     Location {
@@ -944,7 +944,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -978,7 +978,7 @@ Objects {
   }
 }
 Objects {
-  Id: 56157423399300659
+  Id: 8859594245917260208
   Name: "Urban Pipe Cap 03"
   Transform {
     Location {
@@ -997,7 +997,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1031,7 +1031,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1913569393562385264
+  Id: 11329087583821532057
   Name: "Urban Pipe Clamp 04"
   Transform {
     Location {
@@ -1050,7 +1050,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1084,7 +1084,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2862450399952390975
+  Id: 9850233130032932726
   Name: "Urban Pipe Straight"
   Transform {
     Location {
@@ -1100,7 +1100,7 @@ Objects {
       Z: 4
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1134,7 +1134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5981853323407270955
+  Id: 10482426404591691193
   Name: "Urban Pipe Flange 01"
   Transform {
     Location {
@@ -1153,7 +1153,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1187,7 +1187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9868830653251312075
+  Id: 13156041642002226435
   Name: "Urban Pipe Flange 02"
   Transform {
     Location {
@@ -1206,7 +1206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1232,7 +1232,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1806544816761198413
+  Id: 3264789502771753467
   Name: "Urban Pipe Flange 02"
   Transform {
     Location {
@@ -1251,7 +1251,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1259,7 +1259,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   CoreMesh {
     MeshAsset {
@@ -1277,7 +1277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1966806576703190802
+  Id: 11833031331710326016
   Name: "Urban Pipe Clamp 04"
   Transform {
     Location {
@@ -1296,7 +1296,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5107868456560077893
+  ParentId: 10380516510765649085
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1330,7 +1330,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4966276557528679232
+  Id: 14783120602476289254
   Name: "SAR_ElectricBoxSmall"
   Transform {
     Scale {
@@ -1339,7 +1339,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15609373510117827560
+  ParentId: 631101349920765838
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

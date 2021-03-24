@@ -1,6 +1,6 @@
 Assets {
   Id: 18331266003853204645
-  Name: "Default_Sniper_Scope_Skin1"
+  Name: "SCOPE_SR_T055_Snow"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -2077,7 +2077,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }

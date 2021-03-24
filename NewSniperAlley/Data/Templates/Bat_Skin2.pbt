@@ -1,6 +1,6 @@
 Assets {
   Id: 8601709624907802614
-  Name: "Bat_Skin2"
+  Name: "WSKIN_MEL_BAT_Wood"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -113,7 +113,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {

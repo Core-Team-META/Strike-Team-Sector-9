@@ -1,7 +1,7 @@
 Name: "Feed Icons"
-RootId: 12865564118021892379
+RootId: 13987158713816059164
 Objects {
-  Id: 3495629711635025955
+  Id: 17565408083698036657
   Name: "Axe"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -146,7 +146,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8592621352834462794
+  Id: 16151515492065374635
   Name: "Mace"
   Transform {
     Location {
@@ -159,7 +159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -277,7 +277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17150900734325529441
+  Id: 6794771082009792277
   Name: "icepick"
   Transform {
     Location {
@@ -290,7 +290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -408,7 +408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18368812730179312811
+  Id: 11779988416143432738
   Name: "Pick"
   Transform {
     Location {
@@ -421,7 +421,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -530,7 +530,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1432410517337355618
+  Id: 12788037637680907165
   Name: "Pan"
   Transform {
     Location {
@@ -543,7 +543,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -742,7 +742,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8786342230990518860
+  Id: 7427357173508280897
   Name: "Bat"
   Transform {
     Location {
@@ -755,7 +755,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -873,7 +873,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3144598349130562356
+  Id: 2281667898613225601
   Name: "Grenade"
   Transform {
     Location {
@@ -886,7 +886,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1008,7 +1008,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16858810013891667189
+  Id: 11672099551674864953
   Name: "Molitov"
   Transform {
     Location {
@@ -1021,7 +1021,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1146,7 +1146,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10529928140925425830
+  Id: 2774344743601634053
   Name: "burst"
   Transform {
     Location {
@@ -1159,7 +1159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1284,7 +1284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6939972255912386107
+  Id: 6189422402911426884
   Name: "pistol"
   Transform {
     Location {
@@ -1297,7 +1297,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1422,7 +1422,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10146227641573237035
+  Id: 16377015024688439573
   Name: "Knife"
   Transform {
     Location {
@@ -1435,7 +1435,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1560,7 +1560,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6121066184968234709
+  Id: 2100303330211833318
   Name: "LMG"
   Transform {
     Location {
@@ -1573,7 +1573,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1698,7 +1698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5834499445902098763
+  Id: 11584153507864380975
   Name: "Sniper"
   Transform {
     Location {
@@ -1711,7 +1711,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1836,7 +1836,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5216943467522574744
+  Id: 14491007752202250538
   Name: "SVAA"
   Transform {
     Location {
@@ -1849,7 +1849,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1974,7 +1974,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15700494599703788716
+  Id: 603165087281568665
   Name: "Shotgun"
   Transform {
     Location {
@@ -1987,7 +1987,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2112,7 +2112,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18074567123639543237
+  Id: 18252199801440107455
   Name: "Manticore (Rocket)"
   Transform {
     Location {
@@ -2125,7 +2125,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2250,7 +2250,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17017778152224907648
+  Id: 3295699364066078499
   Name: "SP"
   Transform {
     Location {
@@ -2263,7 +2263,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2395,7 +2395,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15760093634648187675
+  Id: 3560767436486400660
   Name: "HK99"
   Transform {
     Location {
@@ -2408,7 +2408,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2544,7 +2544,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5179124286163218948
+  Id: 10089451028818257207
   Name: "PlayerJoined"
   Transform {
     Location {
@@ -2557,7 +2557,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2615,7 +2615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12244024961621090639
+  Id: 14295128170334608949
   Name: "PlayerLeft"
   Transform {
     Location {
@@ -2628,7 +2628,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2694,7 +2694,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10773252250967993722
+  Id: 12757173017978804419
   Name: "PlayerLoadout"
   Transform {
     Location {
@@ -2707,7 +2707,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2772,7 +2772,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15932845705330292157
+  Id: 14467596199610760126
   Name: "Default icon"
   Transform {
     Location {
@@ -2785,7 +2785,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2814,7 +2814,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8658487432453620463
+  Id: 1836070044959381688
   Name: "WorldKill"
   Transform {
     Location {
@@ -2827,7 +2827,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2940,7 +2940,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12179782502593801559
+  Id: 16749409970366292589
   Name: "Suicide"
   Transform {
     Location {
@@ -2953,7 +2953,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -3124,7 +3124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4003583421109603923
+  Id: 2763579724478453352
   Name: "Headshot"
   Transform {
     Location {
@@ -3137,7 +3137,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12865564118021892379
+  ParentId: 13987158713816059164
   UnregisteredParameters {
     Overrides {
       Name: "cs:Layer_01"

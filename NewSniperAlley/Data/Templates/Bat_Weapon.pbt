@@ -1,6 +1,6 @@
 Assets {
   Id: 7834147917182884450
-  Name: "Bat_Weapon"
+  Name: "WEAPON_MELEE_BAT"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -23,7 +23,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:EquipmentStance"
-            String: "1hand_melee_stance"
+            String: "2hand_sword_ready"
           }
           Overrides {
             Name: "cs:PickupSound"
@@ -94,9 +94,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.8
-            Y: 1.8
-            Z: 1.8
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
           }
         }
         ParentId: 8969396636807140608

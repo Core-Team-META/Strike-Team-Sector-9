@@ -1,7 +1,7 @@
 Name: "Crate"
-RootId: 16713860716774960610
+RootId: 6928863494001017093
 Objects {
-  Id: 5636135441605373729
+  Id: 57513927295343008
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16713860716774960610
-  ChildIds: 16099824660419113767
+  ParentId: 6928863494001017093
+  ChildIds: 10291102183336433618
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -23,13 +23,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 16099824660419113767
+  Id: 10291102183336433618
   Name: "CrateManager_Client"
   Transform {
     Location {
@@ -42,18 +42,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5636135441605373729
+  ParentId: 57513927295343008
   UnregisteredParameters {
     Overrides {
       Name: "cs:CrateTimerPanel"
       ObjectReference {
-        SelfId: 16779063350627383903
+        SelfId: 563662108729099462
       }
     }
     Overrides {
       Name: "cs:CrateTimerText"
       ObjectReference {
-        SelfId: 6770181587650516587
+        SelfId: 1867806128469238534
       }
     }
   }
@@ -73,7 +73,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5076724836968329084
+  Id: 3807099403851675929
   Name: "ServerContext"
   Transform {
     Location {
@@ -86,8 +86,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16713860716774960610
-  ChildIds: 14047655014697862279
+  ParentId: 6928863494001017093
+  ChildIds: 10422061212777880607
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -102,7 +102,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14047655014697862279
+  Id: 10422061212777880607
   Name: "CrateManager_Server"
   Transform {
     Location {
@@ -115,7 +115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5076724836968329084
+  ParentId: 3807099403851675929
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

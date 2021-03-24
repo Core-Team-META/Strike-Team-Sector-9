@@ -1,13 +1,13 @@
 Assets {
   Id: 13384424095730849487
-  Name: "Proto Shotgun Skin 8"
+  Name: "WSKIN_PRI_SG_BCK_Gold"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 5873260591165856961
       Objects {
         Id: 5873260591165856961
-        Name: "Proto Shotgun Skin 8"
+        Name: "WSKIN_PRI_SG_BCK_Gold"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 17092184364291625367
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 25

@@ -1,6 +1,6 @@
 Assets {
   Id: 11933362490048022431
-  Name: "Default_Sniper_Scope_Skin7"
+  Name: "SCOPE_SR_T055_Steam-Punk"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -2447,7 +2447,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }

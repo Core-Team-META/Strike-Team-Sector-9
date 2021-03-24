@@ -33,8 +33,6 @@ local HILL_TEMPLATE = script:GetCustomProperty("KingOfHills_HillTemplate")
 local oldGameId, currentHill
 local listeners = {}
 local hillPositions = {}
-local usedHillPositions = {} -- Keppu March 23 2021
-
 local oldPosition
 ------------------------------------------------------------------------------------------------------------------------
 -- LOCAL FUNCTIONS
@@ -48,59 +46,25 @@ local function Log(message, ...)
     print("GameMode Server [" .. ROOT.name .. "] " .. message, ...)
 end
 
-local function CheckUsedHillPositions(newPos) -- Keppu March 23 2021
-
-    for _, existingPos in pairs(usedHillPositions) do
-        if existingPos == newPos then
-            --print("Hill position already in the list: ", newPos)
-            return true
-        end
-    end
-    --print("Hill position not found: ", newPos)
-    return false
-end
-
 local function SpawnNewHill()
     Task.Wait(1)
     if ABGS.GAME_STATE_ROUND == ABGS.GetGameState() then
-        -- Keppu March 23 2021 - Changed how the new Strike Point is calculated. It now goes through all the points before using any point twice
-        -- First check if we have used all the hillpositions once, if so start from fresh
-        if #usedHillPositions > 2 then --== #hillPositions
-            --print("reseting used hills list as it is equal to available hills with amount of hills used being: ", #usedHillPositions)
-            usedHillPositions = {}
-        end
-        -- Find unused hillposition
         local hillPosition
-        
-        local foundUnUsedHillPos = false
-        repeat
-            Task.Wait()
+        if oldPosition then
+            repeat
+                hillPosition = hillPositions[math.random(1, #hillPositions)]
+                Task.Wait()
+            until hillPosition ~= oldPosition
+        else
             hillPosition = hillPositions[math.random(1, #hillPositions)]
-
-            if #usedHillPositions < 1 then
-                table.insert(usedHillPositions, hillPosition)
-                --print("Used hills list empty, using first available hill position: ", hillPosition)
-                foundUnUsedHillPos = true
-            else
-                --print("hillPosition: ", hillPosition)
-                if CheckUsedHillPositions(hillPosition) == false then 
-                    table.insert(usedHillPositions, hillPosition)
-                    foundUnUsedHillPos = true
-                end
-            
-            end 
-            
-        until foundUnUsedHillPos == true
-        -- / Keppu March 23 2021
-
+        end
         currentHill = GT_API.SpawnAsset(HILL_TEMPLATE, {position = hillPosition, parent = SPAWNED_OBJECTS})
         currentHill.name = tostring(myId)
         listeners[#listeners + 1] = currentHill.networkedPropertyChangedEvent:Connect(OnGameTypeChanged)
         GT_API.BroadcastObjectiveSpawned(currentHill, hillPosition)
+        oldPosition = currentHill:GetWorldPosition()
     end
 end
-
-
 
 local function Cleanup()
     GT_API.CleanUp(SPAWNED_OBJECTS)

@@ -1,6 +1,6 @@
 Assets {
   Id: 17356941743419137854
-  Name: "Default_Assault_Scope_Skin4"
+  Name: "SCOPE_AR_MRCi-88_Fren"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -142,7 +142,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true

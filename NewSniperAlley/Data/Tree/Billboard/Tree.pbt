@@ -1,7 +1,7 @@
 Name: "Billboard"
-RootId: 16248548387841004159
+RootId: 2754397542445792251
 Objects {
-  Id: 1187915173212593279
+  Id: 7096890526132506399
   Name: "Game Portal Settings"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 0.333441883
     }
   }
-  ParentId: 16248548387841004159
+  ParentId: 2754397542445792251
   UnregisteredParameters {
     Overrides {
       Name: "bp:Game ID"

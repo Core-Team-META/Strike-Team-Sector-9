@@ -1,13 +1,13 @@
 Assets {
   Id: 18167011984518134951
-  Name: "Proto SMG Skin 2"
+  Name: "WSKIN_PRI_SMG_ESTC_Laser"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 15950502612559143078
       Objects {
         Id: 15950502612559143078
-        Name: "Proto SMG Skin 2"
+        Name: "WSKIN_PRI_SMG_ESTC_Laser"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 16864528174957003293
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 21.6752357
@@ -147,7 +147,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -501,7 +501,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {

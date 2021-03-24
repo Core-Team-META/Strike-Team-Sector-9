@@ -5,17 +5,12 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:ScopeTemplate"
+        AssetReference {
+        }
+      }
+      Overrides {
         Name: "cs:ClientArt"
-        ObjectReference {
-        }
-      }
-      Overrides {
-        Name: "cs:ZoomSound"
-        ObjectReference {
-        }
-      }
-      Overrides {
-        Name: "cs:ToggleZoomSound"
         ObjectReference {
         }
       }

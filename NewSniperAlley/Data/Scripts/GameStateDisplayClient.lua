@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 Copyright 2019 Manticore Games, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -14,7 +14,6 @@ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEM
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --]]
-
 -- Internal custom properties
 local ABGS = require(script:GetCustomProperty("API"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
@@ -26,19 +25,17 @@ local SHOW_STATE_NAME = COMPONENT_ROOT:GetCustomProperty("ShowStateName")
 local SHOW_DURING_LOBBY = COMPONENT_ROOT:GetCustomProperty("ShowDuringLobby")
 local SHOW_DURING_ROUND = COMPONENT_ROOT:GetCustomProperty("ShowDuringRound")
 local SHOW_DURING_ROUND_END = COMPONENT_ROOT:GetCustomProperty("ShowDuringRoundEnd")
-local LOBBY_TEXT = COMPONENT_ROOT:GetCustomProperty("LobbyText")
-local ROUND_TEXT = COMPONENT_ROOT:GetCustomProperty("RoundText")
-local ROUND_END_TEXT = COMPONENT_ROOT:GetCustomProperty("RoundEndText")
 
 -- nil UpdateTimeRemaining(int)
 -- Displays time remaining in hh:mm:ss format
 function UpdateTimeRemaining(remainingTime)
-    if remainingTime then
+    if remainingTime and remainingTime ~= "" then
         STATE_TIME_TEXT.visibility = Visibility.INHERIT
         local minutes = math.floor(remainingTime) // 60 % 60
         local seconds = math.floor(remainingTime) % 60
-        --STATE_TIME_TEXT.text = string.format("%02d:%02d", minutes, seconds)
-        STATE_TIME_TEXT.text = string.format("%d", seconds)
+        STATE_TIME_TEXT.text = string.format("%02d:%02d", minutes, seconds)
+    else
+        STATE_TIME_TEXT.text = ""
     end
 end
 
@@ -51,20 +48,27 @@ function Tick(deltaTime)
         STATE_TIME_TEXT.visibility = Visibility.FORCE_OFF
         local currentState = ABGS.GetGameState()
         local remainingTime = ABGS.GetTimeRemainingInState()
-
         if currentState == ABGS.GAME_STATE_LOBBY and SHOW_DURING_LOBBY then
-            STATE_NAME_TEXT.text = LOBBY_TEXT
-            UpdateTimeRemaining(remainingTime)
+            local players = Game.GetPlayers()
+            if #players > 1 then
+                STATE_NAME_TEXT.text = "Lobby"
+                UpdateTimeRemaining(remainingTime)
+                STATE_NAME_TEXT.fontSize = 14
+            else
+                STATE_NAME_TEXT.text = "Waiting For Players"
+                STATE_NAME_TEXT.fontSize = 13
+                UpdateTimeRemaining()
+            end
         end
 
         if currentState == ABGS.GAME_STATE_ROUND and SHOW_DURING_ROUND then
-            STATE_NAME_TEXT.text = ROUND_TEXT
+            STATE_NAME_TEXT.text = "Round"
             UpdateTimeRemaining(remainingTime)
         end
 
         if currentState == ABGS.GAME_STATE_ROUND_END and SHOW_DURING_ROUND_END then
-            STATE_NAME_TEXT.text = ROUND_END_TEXT
-            UpdateTimeRemaining(remainingTime)
+            STATE_NAME_TEXT.text = ""
+            UpdateTimeRemaining("")
         end
     end
 end

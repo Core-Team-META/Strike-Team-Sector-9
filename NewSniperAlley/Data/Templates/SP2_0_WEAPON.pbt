@@ -1,6 +1,6 @@
 Assets {
   Id: 9332333382319278776
-  Name: "SP2.0_WEAPON"
+  Name: "WEAPON_PRI_SMG_EST-CMB0"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -231,13 +231,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -247,7 +246,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -258,14 +256,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -305,7 +301,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
@@ -473,7 +469,7 @@ Assets {
         ChildIds: 4888421261139671535
         ChildIds: 9324744713757153650
         ChildIds: 17330681716876336277
-        ChildIds: 11116573032484857336
+        ChildIds: 7908352306048144730
         ChildIds: 2251632774311718328
         ChildIds: 2742055301182517563
         ChildIds: 6073460861089349469
@@ -488,7 +484,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -700,48 +696,38 @@ Assets {
         }
       }
       Objects {
-        Id: 11116573032484857336
-        Name: "WeaponRecoilClient"
+        Id: 7908352306048144730
+        Name: "Recoil"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 1
+            Y: 1
             Z: 1
           }
         }
         ParentId: 4558619358907089796
         UnregisteredParameters {
           Overrides {
-            Name: "cs:RecoilYMax"
-            Float: 35
-          }
-          Overrides {
-            Name: "cs:RecoilYMin"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:RecoilXMin"
-            Float: -5
-          }
-          Overrides {
-            Name: "cs:RecoilXMax"
-            Float: 15
-          }
-          Overrides {
-            Name: "cs:EnableRecovery"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:AimYReduction"
+            Name: "cs:AMMOUNT"
             Float: 0.5
           }
           Overrides {
-            Name: "cs:AimXReduction"
-            Float: 0.25
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.5
+            }
+          }
+          Overrides {
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 0.6
+          }
+          Overrides {
+            Name: "cs:DURATION"
+            Float: 0.11
           }
         }
         Collidable_v2 {
@@ -755,7 +741,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4156168509254213209
+            Id: 17374269570626674164
           }
         }
       }
@@ -1066,7 +1052,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MaxAmmo"
-            Int: 40
+            Int: 32
           }
         }
         Collidable_v2 {

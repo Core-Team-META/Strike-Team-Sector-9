@@ -1,6 +1,6 @@
 Assets {
   Id: 11857961929768719493
-  Name: "MAMBA2.0_WEAPON"
+  Name: "WEAPON_PRI_SR_T055"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -106,6 +106,10 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:WeaponType"
+            String: "Sniper"
+          }
+          Overrides {
             Name: "cs:AimBinding:tooltip"
             String: "Keybinding to hold and activate scope / zoom ability for the weapon. Default is \"ability_secondary\" (right mouse button)."
           }
@@ -161,6 +165,7 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
+            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -223,13 +228,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -239,7 +243,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -250,14 +253,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -294,13 +295,13 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 3.5
+            Duration: 2.5
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -381,11 +382,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 97
+            Float: 87
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 163
+            Float: 174
           }
         }
         Collidable_v2 {
@@ -478,7 +479,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -1106,15 +1107,15 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:DURATION"
-            Float: 0.06
+            Float: 0.14
           }
           Overrides {
             Name: "cs:AMMOUNT"
-            Float: 2
+            Float: 1.5
           }
           Overrides {
             Name: "cs:SCOPE_AMMOUNT"
-            Float: 2
+            Float: 1.5
           }
         }
         Collidable_v2 {

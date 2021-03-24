@@ -1,6 +1,6 @@
 Assets {
   Id: 6729362224180268666
-  Name: "HK2.0_WEAPON"
+  Name: "WEAPON_PRI_AR_MRCI-88"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -230,13 +230,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -246,7 +245,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -257,14 +255,12 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
             PreventOtherAbilities: true
           }
           CooldownPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -304,13 +300,13 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_ult"
           CastPhaseSettings {
-            Duration: 2.3
+            Duration: 1.3
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -391,11 +387,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 45
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 65
+            Float: 70
           }
         }
         Collidable_v2 {
@@ -473,7 +469,7 @@ Assets {
         ChildIds: 9268603658093252770
         ChildIds: 15494752328031442508
         ChildIds: 110788476358619259
-        ChildIds: 4701555205911936464
+        ChildIds: 9961493714644037585
         ChildIds: 7072625529179786660
         ChildIds: 9013636594582731208
         ChildIds: 18154958446711881973
@@ -488,7 +484,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -700,44 +696,38 @@ Assets {
         }
       }
       Objects {
-        Id: 4701555205911936464
-        Name: "WeaponRecoilClient"
+        Id: 9961493714644037585
+        Name: "Recoil"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 1
+            Y: 1
             Z: 1
           }
         }
         ParentId: 4861632680637020456
         UnregisteredParameters {
           Overrides {
-            Name: "cs:RecoilYMax"
-            Float: 32
+            Name: "cs:AMMOUNT"
+            Float: 0.8
           }
           Overrides {
-            Name: "cs:RecoilYMin"
-            Float: 17
+            Name: "cs:RECOIL_DIRECTION"
+            Vector2 {
+              Y: 0.5
+            }
           }
           Overrides {
-            Name: "cs:RecoilXMin"
-            Float: -1
+            Name: "cs:SCOPE_AMMOUNT"
+            Float: 0.6
           }
           Overrides {
-            Name: "cs:RecoilXMax"
-            Float: 1
-          }
-          Overrides {
-            Name: "cs:EnableRecovery"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:AimYReduction"
-            Float: 0.75
+            Name: "cs:DURATION"
+            Float: 0.08
           }
         }
         Collidable_v2 {
@@ -751,7 +741,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 4156168509254213209
+            Id: 17374269570626674164
           }
         }
       }

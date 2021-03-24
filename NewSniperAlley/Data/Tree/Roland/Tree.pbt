@@ -1,7 +1,7 @@
 Name: "Roland"
-RootId: 16700493030671677123
+RootId: 12899980660047576632
 Objects {
-  Id: 9761395705329759207
+  Id: 559286095052608618
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16700493030671677123
-  ChildIds: 775338228034877852
-  ChildIds: 17734273498458175243
+  ParentId: 12899980660047576632
+  ChildIds: 5634223933111698425
+  ChildIds: 12527858331996325509
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,13 +24,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 17734273498458175243
+  Id: 12527858331996325509
   Name: "UI Container"
   Transform {
     Location {
@@ -43,8 +43,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9761395705329759207
-  ChildIds: 2050792046073687799
+  ParentId: 559286095052608618
+  ChildIds: 14370115004471047480
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2050792046073687799
+  Id: 14370115004471047480
   Name: "UI Panel"
   Transform {
     Location {
@@ -90,9 +90,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17734273498458175243
-  ChildIds: 1658697164214074484
-  ChildIds: 11856075876687313701
+  ParentId: 12527858331996325509
+  ChildIds: 13900163221393339613
+  ChildIds: 14097172422418124899
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -127,7 +127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11856075876687313701
+  Id: 14097172422418124899
   Name: "UI Text Box"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050792046073687799
+  ParentId: 14370115004471047480
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -191,7 +191,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1658697164214074484
+  Id: 13900163221393339613
   Name: "UI Image"
   Transform {
     Location {
@@ -204,7 +204,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050792046073687799
+  ParentId: 14370115004471047480
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -248,7 +248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 775338228034877852
+  Id: 5634223933111698425
   Name: "TransferMessage"
   Transform {
     Location {
@@ -261,12 +261,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9761395705329759207
+  ParentId: 559286095052608618
   UnregisteredParameters {
     Overrides {
       Name: "cs:TransferMessage"
       ObjectReference {
-        SelfId: 17734273498458175243
+        SelfId: 12527858331996325509
       }
     }
   }

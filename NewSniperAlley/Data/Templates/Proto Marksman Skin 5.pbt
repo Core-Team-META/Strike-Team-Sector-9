@@ -1,13 +1,13 @@
 Assets {
   Id: 2993531969050915480
-  Name: "Proto Marksman Skin 5"
+  Name: "WSKIN_PRI_MKS_BLK_LoL"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 1912518759436027539
       Objects {
         Id: 1912518759436027539
-        Name: "Proto Marksman Skin 5"
+        Name: "WSKIN_PRI_MKS_BLK_LoL"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 13010627029748572615
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 8.62246132

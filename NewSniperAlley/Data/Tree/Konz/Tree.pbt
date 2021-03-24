@@ -1,7 +1,7 @@
 Name: "Konz"
-RootId: 7666426452109523765
+RootId: 6951739588070700884
 Objects {
-  Id: 4355175678147851601
+  Id: 5760691934588608005
   Name: "LoadoutEquipment"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7666426452109523765
+  ParentId: 6951739588070700884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -37,7 +37,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5520905606491532745
+  Id: 14346017475513838192
   Name: "Leaderboard"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7666426452109523765
+  ParentId: 6951739588070700884
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

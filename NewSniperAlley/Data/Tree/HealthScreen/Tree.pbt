@@ -1,7 +1,7 @@
 Name: "HealthScreen"
-RootId: 4631372477339193968
+RootId: 17850945980266445748
 Objects {
-  Id: 11800027962501352336
+  Id: 6414942995656485475
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,10 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4631372477339193968
-  ChildIds: 13762199270860055975
-  ChildIds: 3003587611444483940
-  ChildIds: 12354726766493377029
+  ParentId: 17850945980266445748
+  ChildIds: 5158104788664156041
+  ChildIds: 15638028876540849209
+  ChildIds: 945441302312873453
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -25,7 +25,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
   }
@@ -37,7 +37,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12354726766493377029
+  Id: 945441302312873453
   Name: "ResetOverlayOnRespawn"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11800027962501352336
+  ParentId: 6414942995656485475
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -67,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3003587611444483940
+  Id: 15638028876540849209
   Name: "HealthOverlay"
   Transform {
     Location {
@@ -80,12 +80,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11800027962501352336
+  ParentId: 6414942995656485475
   UnregisteredParameters {
     Overrides {
       Name: "cs:Post"
       ObjectReference {
-        SelfId: 13762199270860055975
+        SelfId: 5158104788664156041
       }
     }
   }
@@ -111,7 +111,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13762199270860055975
+  Id: 5158104788664156041
   Name: "Post"
   Transform {
     Location {
@@ -124,72 +124,72 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11800027962501352336
+  ParentId: 6414942995656485475
   UnregisteredParameters {
     Overrides {
       Name: "cs:10"
       ObjectReference {
-        SelfId: 9639559579721079010
+        SelfId: 5281923728142925254
       }
     }
     Overrides {
       Name: "cs:20"
       ObjectReference {
-        SelfId: 4826107341599689771
+        SelfId: 12133550744448520371
       }
     }
     Overrides {
       Name: "cs:30"
       ObjectReference {
-        SelfId: 16736521914951701777
+        SelfId: 7906121826388935213
       }
     }
     Overrides {
       Name: "cs:40"
       ObjectReference {
-        SelfId: 15406341950227493770
+        SelfId: 2030049201315561871
       }
     }
     Overrides {
       Name: "cs:50"
       ObjectReference {
-        SelfId: 16349007327547293683
+        SelfId: 3789552730832232161
       }
     }
     Overrides {
       Name: "cs:60"
       ObjectReference {
-        SelfId: 1192569890521936724
+        SelfId: 8855346939756860133
       }
     }
     Overrides {
       Name: "cs:70"
       ObjectReference {
-        SelfId: 17149062306313869453
+        SelfId: 14673641738575744396
       }
     }
     Overrides {
       Name: "cs:80"
       ObjectReference {
-        SelfId: 3725879338177207945
+        SelfId: 4320026728396466708
       }
     }
     Overrides {
       Name: "cs:90"
       ObjectReference {
-        SelfId: 1547914787789121282
+        SelfId: 11170795540067107645
       }
     }
     Overrides {
       Name: "cs:100"
       ObjectReference {
-        SelfId: 1225318085367036687
+        SelfId: 13788926584246926975
       }
     }
     Overrides {
       Name: "cs:0"
       ObjectReference {
-        SelfId: 16056180101684760168
+        SelfId: 11873272134315871764
       }
     }
   }

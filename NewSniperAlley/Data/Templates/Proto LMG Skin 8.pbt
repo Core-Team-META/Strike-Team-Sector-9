@@ -1,13 +1,13 @@
 Assets {
   Id: 1307775782756946962
-  Name: "Proto LMG Skin 8"
+  Name: "WSKIN_PRI_LMG_AWKR_Gold"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13136845486963643936
       Objects {
         Id: 13136845486963643936
-        Name: "Proto LMG Skin 8"
+        Name: "WSKIN_PRI_LMG_AWKR_Gold"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 9235205420263131050
-        Name: "Group"
+        Name: "Geo"
         Transform {
           Location {
             X: 25

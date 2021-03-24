@@ -1,13 +1,13 @@
 Assets {
   Id: 3224017664261011587
-  Name: "SVAA_DefaultSkin"
+  Name: "WSKIN_PRI_MKS_BLK_Default"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 13477047833247429413
       Objects {
         Id: 13477047833247429413
-        Name: "SVAA_DefaultSkin"
+        Name: "WSKIN_PRI_MKS_BLK_Default"
         Transform {
           Scale {
             X: 1
@@ -26,14 +26,14 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
       }
       Objects {
         Id: 10668786675596747641
-        Name: "SVAA_Defaultskin"
+        Name: "Geo"
         Transform {
           Location {
           }

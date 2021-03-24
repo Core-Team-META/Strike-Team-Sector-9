@@ -1,6 +1,6 @@
 Assets {
   Id: 11534212189449765959
-  Name: "LilRipper"
+  Name: "WEAPON_MELEE_KNIFE"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -45,7 +45,7 @@ Assets {
           }
           Overrides {
             Name: "cs:SprintingStance"
-            String: "2hand_sword_ready"
+            String: "1hand_melee_shield_block"
           }
           Overrides {
             Name: "cs:WeaponType"
@@ -95,9 +95,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.8
-            Y: 1.8
-            Z: 1.8
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
           }
         }
         ParentId: 7828459315062628861

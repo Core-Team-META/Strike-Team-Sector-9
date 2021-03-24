@@ -1,6 +1,6 @@
 Assets {
   Id: 11623540953029695393
-  Name: "Proto LMG Skin 2"
+  Name: "WSKIN_PRI_LMG_AWKR_Laser"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }

@@ -1,47 +1,80 @@
-﻿--[[
-Copyright 2019 Manticore Games, Inc. 
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
-persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
-Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+--[[
+	META_CC_ACTIVITY FEED CONTROLLER SERVER
+	v1.0
+	by: Buckmonster
+	
+	Customizable activity feed, kills, join/leave, etc
 --]]
 
-function FindEquipmentNameFromAbilityId(abilityId)
-	if abilityId == nil then return nil end
-	local equipment = World.FindObjectById(abilityId).parent
-	if equipment:IsA("Equipment") then
-		return equipment
-	end
-	return nil
+-- Internal custom properties
+local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+
+-- Tools
+-- local ReliableEvents = require(COMPONENT_ROOT:GetCustomProperty("ReliableEvents"))
+
+-- User exposed properties
+local SHOW_EQUIPMENT_NAME = script:GetCustomProperty("ShowEquipmentName")
+
+-- string GetShortId(CoreObject)
+-- Returns the id of the object without the human-readable name on the end for networking
+-- Example: "842B77E668FD9258" instead of "842B77E668FD9258:Capture Point Assault"
+function GetShortId(object)
+	return string.sub(object.id, 1, string.find(object.id, ":") - 1)
 end
+
+function GetExtraCode(damage,theKilled)
+--[[
+    possible extra codes
+    0: nothing special
+    1 : headshot
+    2 : World kill
+    3 : Suicide
+]]
+
+	if not damage then return end
+
+    --check for headshot
+    if(damage:GetHitResult()) then
+        local hitRes = damage:GetHitResult()
+        if(Object.IsValid(hitRes.other) and hitRes.other:IsA("Player")) then
+            if(hitRes.socketName == "head") then
+                return 1
+            end
+        end
+    end
+
+    --check for world kill
+    if(damage.reason == DamageReason.MAP) then
+        return 2
+    end
+
+    --check for suicide
+    if(damage.sourcePlayer == theKilled) then
+        return 3
+    end
+
+    return 0
+end
+
 
 -- nil OnPlayerDied(Player, Damage)
 -- Fires an event for the client to add a line to the kill feed
 function OnPlayerDied(player, damage)
-	local equipmentName = nil
 	if damage.sourceAbility then
-		equipmentName = FindEquipmentNameFromAbilityId(CoreString.Split(damage.sourceAbility.id,":"))
-		if equipmentName then
-			equipmentName = equipmentName.name
+		local equipment = damage.sourceAbility:FindAncestorByType("Equipment")
+
+		if SHOW_EQUIPMENT_NAME and equipment then
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(equipment), GetExtraCode(damage,player))
 		else
-			equipmentName = nil
+			Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, GetShortId(damage.sourceAbility), GetExtraCode(damage,player))
 		end
+	else
+		Events.BroadcastToAllPlayers("PlayerKilled", damage.sourcePlayer, player, nil, GetExtraCode(damage,player))
 	end
-	Events.BroadcastToAllPlayers("KF", damage.sourcePlayer, player, equipmentName, damage.reason)
 end
 
 function OnPlayerJoined(player)
 	player.diedEvent:Connect(OnPlayerDied)
 end
 
--- Initialize
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

@@ -1,6 +1,6 @@
 Assets {
   Id: 10476310043397296838
-  Name: "LEVIMATEO2.0_WEAPON"
+  Name: "WEAPON_PRI_SG_BCK-3000"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -107,7 +107,7 @@ Assets {
           }
           Overrides {
             Name: "cs:WeaponType"
-            String: "LMG"
+            String: "Shotgun"
           }
           Overrides {
             Name: "cs:AimBinding:tooltip"
@@ -171,7 +171,7 @@ Assets {
             BurstCount: 1
             BurstDuration: 3.9
             AttackCooldown: 0.25
-            Range: 8000
+            Range: 5000
             ImpactPlayerAssetRef {
               Id: 307406115803496087
             }
@@ -230,13 +230,12 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
           KeyBinding: "ability_primary"
           CastPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -246,7 +245,6 @@ Assets {
             }
           }
           ExecutePhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -257,7 +255,6 @@ Assets {
             }
           }
           RecoveryPhaseSettings {
-            Duration: 0.01
             CanMove: true
             CanJump: true
             CanRotate: true
@@ -304,7 +301,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Ability {
           IsEnabled: true
@@ -355,7 +352,7 @@ Assets {
           }
         }
         ParentId: 16671993031585528870
-        ChildIds: 11276929558069602701
+        ChildIds: 3817199032108324209
         ChildIds: 8723040617309084336
         UnregisteredParameters {
         }
@@ -374,28 +371,44 @@ Assets {
         }
       }
       Objects {
-        Id: 11276929558069602701
-        Name: "WeaponDamageShootServer"
+        Id: 3817199032108324209
+        Name: "WeaponDamageShootServerWithFallof"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1.00000012
-            Y: 1.00000012
+            X: 0.99999994
+            Y: 0.99999994
             Z: 1
           }
         }
         ParentId: 14463978057497345265
         UnregisteredParameters {
           Overrides {
-            Name: "cs:BaseDamage"
-            Float: 35
+            Name: "cs:Range"
+            Float: 3000
+          }
+          Overrides {
+            Name: "cs:RangeDamage"
+            Float: 8
+          }
+          Overrides {
+            Name: "cs:RangeDamageHeadshot"
+            Float: 8
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 55
+            Float: 46
+          }
+          Overrides {
+            Name: "cs:BlendAmount"
+            Float: 0.08
+          }
+          Overrides {
+            Name: "cs:BaseDamage"
+            Float: 46
           }
         }
         Collidable_v2 {
@@ -409,7 +422,7 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 12210489528647249200
+            Id: 14295137872852766081
           }
         }
       }
@@ -488,7 +501,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }

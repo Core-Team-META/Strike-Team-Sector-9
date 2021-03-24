@@ -1,6 +1,6 @@
 Assets {
   Id: 14444661289632510227
-  Name: "KillFeedControllerServer"
+  Name: "meta_cc_KillFeedControllerServer"
   PlatformAssetType: 3
   TextAsset {
   }
