@@ -2,7 +2,7 @@ Assets {
   Id: 3575880389642659863
   Name: "ST2_Sign02"
   PlatformAssetType: 13
-  SerializationVersion: 80
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 18434937860384168447
     ParameterOverrides {

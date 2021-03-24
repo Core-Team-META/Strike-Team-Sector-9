@@ -1,10 +1,10 @@
 Assets {
-  Id: 17234973021792823713
-  Name: "Keppu\'s LifetimeStats"
+  Id: 15542798109129315031
+  Name: "test4"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "1ba4b0524188404c8a6fbceb2ab4c8d8"
+      Key: "59b5d6ada6a845449a46a14270414cdb"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,25 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15797661490370571986
-  Name: "st_loadout"
+  Id: 12561355295683988809
+  Name: "test3"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b37b215fa1c14a46995cdc7ecaf7b83a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 13104695243169751885
-  Name: "Keppu\'s StatKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "6219c60c03314490b533b3c9cdcdefd0"
+      Key: "0aea385502d7409fbb45bb357b787c22"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,12 +34,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5375695036404219826
-  Name: "Keppu\'s Loadout"
+  Id: 10355977902702160498
+  Name: "test1"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c43edd05a2d844d1846544bfb6b036ed"
+      Key: "64c9159d803e4f5c8296e5f0704525bd"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -60,12 +47,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5225512479484356360
-  Name: "st_lifetime"
+  Id: 8250900048322351855
+  Name: "test2"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "02099a9ad11e4ae3b4443adf78c87879"
+      Key: "4f42d2ae2381417bba32d7731cd7adc2"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -73,38 +60,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5135055519722914206
-  Name: "st_misc"
+  Id: 245783645597388300
+  Name: "test5"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "c5fb03576a6c43939301da448ca2640e"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 5088404394296050429
-  Name: "st_statkey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 4455363294556772757
-  Name: "st_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
+      Key: "a4a23c898e8d4064bb24703f1c8c2fa8"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

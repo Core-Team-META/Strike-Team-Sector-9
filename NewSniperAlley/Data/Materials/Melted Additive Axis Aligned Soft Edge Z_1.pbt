@@ -2,7 +2,7 @@ Assets {
   Id: 5010235995680372204
   Name: "Melted Additive Axis Aligned Soft Edge Z_1"
   PlatformAssetType: 13
-  SerializationVersion: 80
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 13071035348074642709
     ParameterOverrides {

@@ -760,7 +760,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -906,7 +906,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -975,7 +975,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -1273,7 +1273,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -1506,7 +1506,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "1ba4b0524188404c8a6fbceb2ab4c8d8"
+        Key: "59b5d6ada6a845449a46a14270414cdb"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1515,7 +1515,7 @@ Objects {
     Overrides {
       Name: "cs:Loadout"
       NetReference {
-        Key: "c43edd05a2d844d1846544bfb6b036ed"
+        Key: "64c9159d803e4f5c8296e5f0704525bd"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1524,7 +1524,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "6219c60c03314490b533b3c9cdcdefd0"
+        Key: "0aea385502d7409fbb45bb357b787c22"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -1533,6 +1533,24 @@ Objects {
     Overrides {
       Name: "cs:MainGameId"
       String: "5c3971/sniperalley2076"
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "4f42d2ae2381417bba32d7731cd7adc2"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "a4a23c898e8d4064bb24703f1c8c2fa8"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
     }
   }
   Collidable_v2 {

@@ -804,5 +804,5 @@ Assets {
       AssetId: "Urban_Fence_-_8m_Doorway_Template"
     }
   }
-  SerializationVersion: 80
+  SerializationVersion: 81
 }

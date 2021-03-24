@@ -225,5 +225,5 @@ Assets {
       AssetId: "Craftsman_Roof_01_-_Corner_Out_Template"
     }
   }
-  SerializationVersion: 80
+  SerializationVersion: 81
 }

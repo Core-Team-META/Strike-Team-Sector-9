@@ -404,7 +404,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -452,7 +452,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -500,7 +500,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -579,6 +579,6 @@ Assets {
   Marketplace {
     Description: "\r\nNow updated for direction!!!\r\n\r\nThis asset will allow players to jump to higher elevations. Jump height can be adjusted in the properties of the tigger inside the script folder."
   }
-  SerializationVersion: 80
+  SerializationVersion: 81
   DirectlyPublished: true
 }

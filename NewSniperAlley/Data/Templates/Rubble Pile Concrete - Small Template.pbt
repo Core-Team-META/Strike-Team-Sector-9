@@ -618,5 +618,5 @@ Assets {
       AssetId: "Rubble_Pile_Concrete_-_Small_Template"
     }
   }
-  SerializationVersion: 80
+  SerializationVersion: 81
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 17335591573452077698
   Name: "ST2_RoadLinesWallDecal"
   PlatformAssetType: 13
-  SerializationVersion: 80
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3003881514440673167
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 3732320322300096878
   Name: "ST2_MetalWallDark"
   PlatformAssetType: 13
-  SerializationVersion: 80
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 6787262208996147711
     ParameterOverrides {

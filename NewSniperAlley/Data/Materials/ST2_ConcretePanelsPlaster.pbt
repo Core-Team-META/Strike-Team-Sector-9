@@ -2,7 +2,7 @@ Assets {
   Id: 11189629668183138391
   Name: "ST2_ConcretePanelsPlaster"
   PlatformAssetType: 13
-  SerializationVersion: 80
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
