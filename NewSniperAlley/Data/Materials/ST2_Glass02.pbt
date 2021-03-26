@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
-    BaseMaterialId: 2898053740152178220
+    BaseMaterialId: 14054176190919042885
     ParameterOverrides {
       Overrides {
         Name: "Roughness"
@@ -27,15 +27,6 @@ Assets {
         Float: 1
       }
       Overrides {
-        Name: "color"
-        Color {
-          R: 0.160000026
-          G: 0.866489768
-          B: 1
-          A: 1
-        }
-      }
-      Overrides {
         Name: "roughness_multiplier"
         Float: 0
       }
@@ -49,16 +40,16 @@ Assets {
       }
       Overrides {
         Name: "material_scale"
-        Float: 3
+        Float: 0.1
       }
     }
     Assets {
-      Id: 2898053740152178220
-      Name: "Metal Steel Triangle 01"
+      Id: 14054176190919042885
+      Name: "Metal Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_steel_tri_001"
+        AssetId: "mi_metal_basic_001"
       }
     }
   }

@@ -53,25 +53,25 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "ma:Building_LowerTrimOuter:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
         }
@@ -127,7 +127,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
         }
@@ -177,7 +177,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1036725943543811742
+              Id: 841534158063459245
             }
           }
         }

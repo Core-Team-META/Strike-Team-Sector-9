@@ -50,7 +50,7 @@ Assets {
           Overrides {
             Name: "ma:Nature_Leaves:id"
             AssetReference {
-              Id: 14633748508747893171
+              Id: 841534158063459245
             }
           }
         }

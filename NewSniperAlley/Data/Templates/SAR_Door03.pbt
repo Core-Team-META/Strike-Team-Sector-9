@@ -35,7 +35,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13759327918816419910
+              Id: 841534158063459245
             }
           }
         }

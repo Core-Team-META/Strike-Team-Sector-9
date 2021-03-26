@@ -287,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16845241941935487831
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
+  }
+}
+Assets {
   Id: 16822105844726729693
   Name: "Modern Stairs Railing 01 - Angled 01"
   PlatformAssetType: 1
@@ -521,6 +530,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15855081481126140438
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
+  }
+}
+Assets {
   Id: 15732777065278343437
   Name: "Urban Pipe Clamp 01"
   PlatformAssetType: 1
@@ -629,6 +647,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14929264817361254184
+  Name: "Urban Rooftop Fan 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_rooftop_fan_003"
+  }
+}
+Assets {
   Id: 14905682372048534582
   Name: "Modern Stairs Stringer 01 - Straight"
   PlatformAssetType: 1
@@ -734,6 +761,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_wallpaper_003"
+  }
+}
+Assets {
+  Id: 14541379120575232735
+  Name: "Urban Pipe Coupling 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_001_ref"
   }
 }
 Assets {
@@ -1097,6 +1133,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13056377762012048845
+  Name: "Military Tank Historic Hull 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
+  }
+}
+Assets {
   Id: 13054793214920919028
   Name: "Text 01: S"
   PlatformAssetType: 1
@@ -1112,6 +1157,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_redwood_001_uv"
+  }
+}
+Assets {
+  Id: 12815283627814003432
+  Name: "Urban Rooftop Fan 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_rooftop_fan_002"
   }
 }
 Assets {
@@ -1322,6 +1376,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11642748949632175552
+  Name: "Sci-fi Base Girder 8m 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_girder_003_ref"
+  }
+}
+Assets {
   Id: 11635162136967954539
   Name: "Whitebox Floor 01 8m x 8m"
   PlatformAssetType: 1
@@ -1403,6 +1466,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11276239506218551822
+  Name: "Main Street Wall 02 - Half Window 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_half_window_02_ref"
+  }
+}
+Assets {
   Id: 11267528446476164903
   Name: "Main Street Pillar 02 Base"
   PlatformAssetType: 1
@@ -1454,6 +1526,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Thumbs"
+  }
+}
+Assets {
+  Id: 11085376824642961392
+  Name: "Urban Vehicle Car - Light Roof 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_veh_urb_car_acc_light_exterior_003_ref"
   }
 }
 Assets {
@@ -1625,6 +1706,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ring_faceted_003"
+  }
+}
+Assets {
+  Id: 10124763657611866910
+  Name: "Military Tank Modern Hatch 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_hatch_001_ref"
   }
 }
 Assets {

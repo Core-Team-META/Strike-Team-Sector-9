@@ -116,13 +116,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 15505603493108819243
+              Id: 841534158063459245
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 15505603493108819243
+              Id: 841534158063459245
             }
           }
           Overrides {

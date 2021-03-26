@@ -2969,8 +2969,9 @@ Objects {
   Name: "Victory Screen"
   Transform {
     Location {
-      X: -850
-      Y: 7200
+      X: -2197.30615
+      Y: -943.403442
+      Z: -381.273407
     }
     Rotation {
       Yaw: -179.999954

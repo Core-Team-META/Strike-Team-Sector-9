@@ -59,7 +59,7 @@ Assets {
           Overrides {
             Name: "ma:Prop_Handle:id"
             AssetReference {
-              Id: 12663918421043863170
+              Id: 841534158063459245
             }
           }
           Overrides {
@@ -128,7 +128,7 @@ Assets {
           Overrides {
             Name: "ma:Prop_Handle:id"
             AssetReference {
-              Id: 12663918421043863170
+              Id: 841534158063459245
             }
           }
           Overrides {
