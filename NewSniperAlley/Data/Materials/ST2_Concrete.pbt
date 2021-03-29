@@ -9,11 +9,19 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 1
-          G: 1
-          B: 1
+          R: 1.2
+          G: 1.2
+          B: 1.2
           A: 1
         }
+      }
+      Overrides {
+        Name: "roughness_multiplier"
+        Float: 1
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 4
       }
     }
     Assets {

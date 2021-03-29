@@ -12,19 +12,19 @@ Assets {
       }
       Overrides {
         Name: "Roughness"
-        Float: 1
+        Float: 0.844607234
       }
       Overrides {
         Name: "Specular"
-        Float: 1
+        Float: 0.808609068
       }
       Overrides {
         Name: "Metallic"
-        Float: 1
+        Float: 0.874605775
       }
       Overrides {
         Name: "Clarity"
-        Float: 1
+        Float: 0.418628514
       }
       Overrides {
         Name: "color"

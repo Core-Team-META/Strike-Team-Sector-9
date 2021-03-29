@@ -629,15 +629,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13886093468335490353
-  Name: "Floor Upper 4M Downtown 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_downtown_floor_upper_4m_001"
-  }
-}
-Assets {
   Id: 13877856592080960583
   Name: "Urban Water Tower Base"
   PlatformAssetType: 1

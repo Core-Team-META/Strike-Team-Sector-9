@@ -61,7 +61,7 @@ Objects {
 }
 Objects {
   Id: 2225353359253497757
-  Name: "Atmosphere_ST1"
+  Name: "Atmosphere_ST2"
   Transform {
     Location {
     }
@@ -745,7 +745,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Cloud Lighting Brightness"
-      Float: 22
+      Float: 10
     }
     Overrides {
       Name: "bp:Cloud Opacity"
@@ -814,14 +814,14 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 2.83407664
+      Float: 0.942515
     }
     Overrides {
       Name: "bp:Tint Color"
       Color {
-        R: 0.294482976
-        G: 0.536657333
-        B: 0.777
+        R: 0.480999947
+        G: 0.989688575
+        B: 1
         A: 1
       }
     }

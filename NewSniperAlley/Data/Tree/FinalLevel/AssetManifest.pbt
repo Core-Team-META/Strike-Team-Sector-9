@@ -287,15 +287,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16845241941935487831
-  Name: "Glass 01 (no distortion)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
   Id: 16822105844726729693
   Name: "Modern Stairs Railing 01 - Angled 01"
   PlatformAssetType: 1
@@ -1133,15 +1124,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13056377762012048845
-  Name: "Military Tank Historic Hull 01 - Mid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
-  }
-}
-Assets {
   Id: 13054793214920919028
   Name: "Text 01: S"
   PlatformAssetType: 1
@@ -1706,15 +1688,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ring_faceted_003"
-  }
-}
-Assets {
-  Id: 10124763657611866910
-  Name: "Military Tank Modern Hatch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hatch_001_ref"
   }
 }
 Assets {

@@ -68,6 +68,7 @@ Assets {
         Name: "Industrial Room Tone Loop 01 SFX"
         Transform {
           Location {
+            Y: -39.8520508
           }
           Rotation {
           }
@@ -332,7 +333,7 @@ Assets {
             Z: 50.2104683
           }
           Rotation {
-            Roll: -89.9999771
+            Roll: -89.9999695
           }
           Scale {
             X: 0.728653431
@@ -345,7 +346,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 841534158063459245
+              Id: 16234593645984050970
             }
           }
         }

@@ -9515,8 +9515,6 @@ Objects {
   ChildIds: 4678633943248698664
   ChildIds: 2379812358407922051
   ChildIds: 14546957049790239028
-  ChildIds: 10898977550062660291
-  ChildIds: 15914644222838115294
   ChildIds: 10072707936852002495
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9587,108 +9585,6 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 15914644222838115294
-  Name: "Floor Upper 4M Downtown 01"
-  Transform {
-    Location {
-      X: -284.811646
-      Y: -150.821945
-      Z: 525
-    }
-    Rotation {
-      Yaw: 0.000327848946
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2769553508256581668
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 2899842837741361229
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13886093468335490353
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10898977550062660291
-  Name: "Floor Upper 4M Downtown 01"
-  Transform {
-    Location {
-      X: 115.188362
-      Y: -150.819656
-      Z: 525
-    }
-    Rotation {
-      Yaw: 0.000327848946
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2769553508256581668
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Building_Floor:id"
-      AssetReference {
-        Id: 2899842837741361229
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13886093468335490353
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -66883,12 +66779,6 @@ Objects {
   }
   ParentId: 8137306674414415600
   UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8982491353876559242
-      }
-    }
     Overrides {
       Name: "ma:Street_Crosswalk:id"
       AssetReference {

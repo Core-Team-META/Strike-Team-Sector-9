@@ -40,7 +40,16 @@ Assets {
       }
       Overrides {
         Name: "material_scale"
-        Float: 0.1
+        Float: 0.001
+      }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 0.681000054
+          G: 0.681000054
+          B: 0.681000054
+          A: 1
+        }
       }
     }
     Assets {
