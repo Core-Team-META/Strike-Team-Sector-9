@@ -1,6 +1,6 @@
 Assets {
   Id: 17315070957124721441
-  Name: "Foundation Bricks"
+  Name: "ST2_Bricks01"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {

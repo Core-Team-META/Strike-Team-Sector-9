@@ -1,4 +1,22 @@
 Assets {
+  Id: 16855776306829432893
+  Name: "Plane 4m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_001"
+  }
+}
+Assets {
+  Id: 15614794363849386760
+  Name: "Urban Door Steel 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
+  }
+}
+Assets {
   Id: 15542798109129315031
   Name: "test4"
   PlatformAssetType: 23
@@ -9,6 +27,15 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
+  }
+}
+Assets {
+  Id: 13084610212546141882
+  Name: "Urban Fence Gate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_gate_001"
   }
 }
 Assets {
