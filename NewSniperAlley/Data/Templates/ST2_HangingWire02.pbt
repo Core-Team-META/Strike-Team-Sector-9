@@ -10,15 +10,15 @@ Assets {
         Name: "ST2_HangingWire02"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.8684448
+            Y: 1.8684448
+            Z: 1.8684448
           }
         }
         ParentId: 4781671109827199097
         ChildIds: 9700223835487934746
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"

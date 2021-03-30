@@ -22,15 +22,6 @@ Assets {
         Name: "roughness_multiplier"
         Float: 0
       }
-      Overrides {
-        Name: "color_edgewear"
-        Color {
-          R: 0.5
-          G: 0.5
-          B: 0.5
-          A: 1
-        }
-      }
     }
     Assets {
       Id: 2606200893917864133
