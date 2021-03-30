@@ -1,6 +1,110 @@
 Name: "Keppu(Antti)"
 RootId: 13806498739066217100
 Objects {
+  Id: 10876066305241150131
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -9410
+      Y: 6850
+      Z: -74.999939
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 608965782097273975
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -9820
+      Y: 3125
+      Z: 361.673645
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 4.75
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 9344800742729168087
   Name: "Curb 8m"
   Transform {
@@ -681,6 +785,14 @@ Objects {
     }
   }
   ParentId: 7297760050038288785
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -899,7 +1011,7 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -9125
+      X: -9030
       Y: 6850
       Z: -74.999939
     }
@@ -1971,7 +2083,7 @@ Objects {
           Vector {
             X: -9225
             Y: 6805.26709
-            Z: 625
+            Z: 555
           }
         }
         Overrides {
@@ -2780,6 +2892,14 @@ Objects {
     }
   }
   ParentId: 5876385118108818304
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
