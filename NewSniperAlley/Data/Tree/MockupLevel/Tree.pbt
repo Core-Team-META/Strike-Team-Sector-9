@@ -41874,7 +41874,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 18080397685168790491
+        Id: 17315070957124721441
       }
     }
   }
@@ -63944,7 +63944,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13144702163278733163
+        Id: 8976318233260387419
       }
     }
     Overrides {
@@ -64001,13 +64001,13 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13144702163278733163
+        Id: 8976318233260387419
       }
     }
     Overrides {
       Name: "ma:Street_CenterStripe:id"
       AssetReference {
-        Id: 17638283938023681106
+        Id: 16234593645984050970
       }
     }
   }
@@ -65350,7 +65350,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13144702163278733163
+        Id: 12480716687824974628
       }
     }
     Overrides {

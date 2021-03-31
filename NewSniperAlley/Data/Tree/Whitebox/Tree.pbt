@@ -228,7 +228,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3274564116417912529
+        Id: 17921777321927090544
       }
     }
   }
@@ -6273,12 +6273,6 @@ Objects {
   }
   ParentId: 4568814327026555945
   UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7251916648665635067
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -9426,7 +9420,7 @@ Objects {
     }
     Scale {
       X: 10.75
-      Y: 5.5
+      Y: 4.71398497
       Z: 10.5
     }
   }

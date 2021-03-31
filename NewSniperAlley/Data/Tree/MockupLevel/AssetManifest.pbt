@@ -1367,6 +1367,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8976318233260387419
+  Name: "Car Paint Advanced 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_advanced_001_uv_ref"
+  }
+}
+Assets {
   Id: 8718704750858778715
   Name: "Plane Triangle - One Sided Right"
   PlatformAssetType: 1

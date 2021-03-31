@@ -1376,15 +1376,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11576797890487599290
-  Name: "Office Wall Panel 04"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_urb_office_wall_004_uv_ref"
-  }
-}
-Assets {
   Id: 11573315623214987718
   Name: "Animated Neon Sign- Skull"
   PlatformAssetType: 1
