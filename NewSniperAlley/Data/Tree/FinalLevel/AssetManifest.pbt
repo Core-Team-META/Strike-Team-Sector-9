@@ -341,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16587363211812844610
+  Name: "Street Light Pole Extension 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_ext_002"
+  }
+}
+Assets {
   Id: 16569967721778793374
   Name: "Transparent Bubble Glass"
   PlatformAssetType: 2

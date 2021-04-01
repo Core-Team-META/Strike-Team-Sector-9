@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 13806498739066217100
         ChildIds: 10320295618089365104
         ChildIds: 3128588695825318826
         ChildIds: 8221335030136280488
@@ -237,7 +237,6 @@ Assets {
           }
         }
         ParentId: 8918295198662462952
-        ChildIds: 9950023989705133390
         ChildIds: 2429798238489180360
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -249,46 +248,6 @@ Assets {
           Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 9950023989705133390
-        Name: "Steam Pressure Release Loop 01 SFX"
-        Transform {
-          Location {
-            Y: -180.26709
-            Z: -60
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4831018316999336238
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 17858062676346065101
-          }
-          AutoPlay: true
-          Pitch: -2400
-          Volume: 1
-          Falloff: 4000
-          Radius: 100
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -399,15 +358,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
-      }
-    }
-    Assets {
-      Id: 17858062676346065101
-      Name: "Steam Pressure Release Loop 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_steam_pressure_release_looped_01_Cue_ref"
       }
     }
     Assets {

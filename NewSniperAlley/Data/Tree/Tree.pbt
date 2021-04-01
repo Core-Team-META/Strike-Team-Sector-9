@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 14776702606467825888
   ChildIds: 13806498739066217100
   ChildIds: 7624668735784682717
   ChildIds: 2240337295022429420
@@ -3057,5 +3058,39 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Keppu(Antti)"
+  }
+}
+Objects {
+  Id: 14776702606467825888
+  Name: "Terrain"
+  Transform {
+    Location {
+      Z: -335
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 11226533418756496031
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
   }
 }

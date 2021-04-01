@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1621043139137004612
-  Name: "Bricks Stone Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bricks_stone_block_001"
-  }
-}
-Assets {
   Id: 1513539958506661268
   Name: "Sharp Body Object Tap 01 SFX"
   PlatformAssetType: 7

@@ -10,9 +10,9 @@ Assets {
         Name: "ST2_WasteDisposalUnit"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.25
+            Y: 1.25
+            Z: 1.25
           }
         }
         ParentId: 4781671109827199097

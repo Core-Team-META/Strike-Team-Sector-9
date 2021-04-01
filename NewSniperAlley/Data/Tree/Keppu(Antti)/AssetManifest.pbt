@@ -17,6 +17,33 @@ Assets {
   }
 }
 Assets {
+  Id: 17403316637749788051
+  Name: "Vehicle Train Passenger Interior Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_vehicle_train_passenger_interior_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 17280976981586363031
+  Name: "Corrugated Sheet Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
+  }
+}
+Assets {
+  Id: 17060098565254150050
+  Name: "Urban Cardboard Box Damaged 01 - Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_damaged_001_lid_01_ref"
+  }
+}
+Assets {
   Id: 17008962275525995819
   Name: "Decal Graffiti Murals 02 (Variants)"
   PlatformAssetType: 14
@@ -41,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 16609600499553782676
+  Name: "Fantasy Sack Laying"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_sack_003_ref"
   }
 }
 Assets {
@@ -77,6 +113,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_004_ref"
+  }
+}
+Assets {
+  Id: 16131503078867448818
+  Name: "Street Post Round 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_round_001"
   }
 }
 Assets {
@@ -161,15 +206,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13880092152383056617
-  Name: "Decal Rubble Concrete 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_mil_rubble_concrete_001_ref"
-  }
-}
-Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
@@ -185,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_scf_details_001_ref"
+  }
+}
+Assets {
+  Id: 13261598718209045828
+  Name: "Urban Cardboard Box Damaged 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_damaged_002_ref"
   }
 }
 Assets {
@@ -233,6 +278,24 @@ Assets {
   }
 }
 Assets {
+  Id: 12584778807284305302
+  Name: "Sci-fi Base Antenna 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_antenna_001_ref"
+  }
+}
+Assets {
+  Id: 11962195740089165680
+  Name: "Girder Medium 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_girder_medium_4m_1-5m_001"
+  }
+}
+Assets {
   Id: 11905645224756837966
   Name: "Ambient Occlusion Recolor Post Process"
   PlatformAssetType: 6
@@ -266,6 +329,24 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_air_condition_room_tone_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 11024977997119225113
+  Name: "Sci-fi Cockpit Siderail 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_siderail_001_ref"
+  }
+}
+Assets {
+  Id: 10975066442102718841
+  Name: "Barrier Caution Light 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_caution_002"
   }
 }
 Assets {
@@ -305,6 +386,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10116332148539442832
+  Name: "Urban Parking Meter Pole"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_meter_parking_post_001_ref"
+  }
+}
+Assets {
   Id: 9635608271034126615
   Name: "Rubber Pattern 01"
   PlatformAssetType: 2
@@ -338,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_lines_001"
+  }
+}
+Assets {
+  Id: 8483451495408102647
+  Name: "HVAC Unit"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_HVAC_001"
   }
 }
 Assets {
@@ -395,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7839208677685505157
+  Name: "Ambience Cave Designed 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_cave_designed_01_Cue_ref"
+  }
+}
+Assets {
   Id: 6656501280773318390
   Name: "Cube - Arched"
   PlatformAssetType: 1
@@ -419,6 +527,24 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_bubbles_001"
+  }
+}
+Assets {
+  Id: 5717544946372160630
+  Name: "Sci-fi Cockpit Back 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_back_001_ref"
+  }
+}
+Assets {
+  Id: 5702680423135580218
+  Name: "Urban Manhole Cover 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_manhole_cover_01_ref"
   }
 }
 Assets {
@@ -476,6 +602,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3184287767971321831
+  Name: "Urban Cardboard Box 01 - Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_001_base_01_ref"
+  }
+}
+Assets {
   Id: 2922842638408882506
   Name: "Military Loudspeaker Unintelligible Broadcast Loop 01 SFX"
   PlatformAssetType: 7
@@ -494,12 +629,30 @@ Assets {
   }
 }
 Assets {
+  Id: 2755843002639173471
+  Name: "Urban Pedestrian Barrier 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_barrier_pedestrian_001"
+  }
+}
+Assets {
   Id: 2437966292102537916
   Name: "Curb 8m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_8m_001"
+  }
+}
+Assets {
+  Id: 2325066732959655602
+  Name: "Urban Cardboard Box Damaged 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_damaged_003_ref"
   }
 }
 Assets {
@@ -521,21 +674,21 @@ Assets {
   }
 }
 Assets {
+  Id: 2165003908783811626
+  Name: "Cafe Chair"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_chair_cafe_001"
+  }
+}
+Assets {
   Id: 1674406783270633985
   Name: "Sci-fi Barrel 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_barrel_002_ref"
-  }
-}
-Assets {
-  Id: 1649456766954840161
-  Name: "Decal Stone Cracks Variants 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stone_cracks_001"
   }
 }
 Assets {

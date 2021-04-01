@@ -198,6 +198,45 @@ Assets {
               Id: 4222977977652522667
             }
           }
+          Overrides {
+            Name: "ma:Font.Sides:color"
+            Color {
+              R: 0.339664519
+              G: 0.32021004
+              B: 0.410000026
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Faces:color"
+            Color {
+              R: 0.339664519
+              G: 0.32021004
+              B: 0.410000026
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Bevel:color"
+            Color {
+              R: 0.339664519
+              G: 0.32021004
+              B: 0.410000026
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font.Bevel:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Font.Faces:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Font.Sides:smart"
+            Bool: false
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

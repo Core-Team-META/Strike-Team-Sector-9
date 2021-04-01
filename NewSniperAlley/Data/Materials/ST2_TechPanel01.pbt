@@ -20,6 +20,15 @@ Assets {
         Name: "roughness_multiplier"
         Float: 1
       }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 2
+          G: 2
+          B: 2
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 17608036586245849503

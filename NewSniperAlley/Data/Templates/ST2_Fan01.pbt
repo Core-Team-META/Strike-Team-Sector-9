@@ -172,6 +172,7 @@ Assets {
             Id: 17331405778350051027
           }
           AutoPlay: true
+          Repeat: true
           Volume: 0.488055408
           Falloff: 10000
           Radius: -1

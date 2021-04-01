@@ -1,21 +1,21 @@
 Assets {
-  Id: 7469622917927319467
+  Id: 13523431015618948046
   Name: "ST2_Tarp01"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 7029132444171142854
+      RootId: 6863113607861238426
       Objects {
-        Id: 7029132444171142854
+        Id: 6863113607861238426
         Name: "ST2_Tarp01"
         Transform {
           Scale {
-            X: 2.25
-            Y: 2
-            Z: 0.25
+            X: 1.25
+            Y: 0.25
+            Z: 1.75
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 12578246469069653620
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -35,7 +35,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16609600499553782676
+            Id: 17656495108824350163
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -51,12 +51,12 @@ Assets {
       }
     }
     Assets {
-      Id: 16609600499553782676
-      Name: "Fantasy Sack Laying"
+      Id: 17656495108824350163
+      Name: "Corrugated Sheet Small"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_sack_003_ref"
+        AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
       }
     }
     PrimaryAssetId {

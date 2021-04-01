@@ -14,6 +14,12 @@ Assets {
           A: 1
         }
       }
+      Overrides {
+        Name: "color_lights"
+        Color {
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 6787262208996147711
