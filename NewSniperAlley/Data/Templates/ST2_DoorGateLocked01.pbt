@@ -19,10 +19,8 @@ Assets {
         ChildIds: 1615892013773098233
         ChildIds: 17232688352833499445
         ChildIds: 9827695656320474110
-        ChildIds: 12523203768044448292
-        ChildIds: 12203776965020595464
-        ChildIds: 12329621802971142374
-        ChildIds: 7767874076139916712
+        ChildIds: 11815010843023291186
+        ChildIds: 13301483358902753752
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -69,7 +67,7 @@ Assets {
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
-            Float: 14.5282459
+            Float: 2.13949656
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:vtile"
@@ -78,9 +76,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.347
-              G: 0.347
-              B: 0.347
+              R: 0.441
+              G: 0.437734872
+              B: 0.429534018
               A: 1
             }
           }
@@ -152,9 +150,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.232000008
-              G: 0.232000008
-              B: 0.232000008
+              R: 0.593000054
+              G: 0.593000054
+              B: 0.593000054
               A: 1
             }
           }
@@ -208,9 +206,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.504
-              G: 0.504
-              B: 0.504
+              R: 0.441
+              G: 0.437734872
+              B: 0.429534018
               A: 1
             }
           }
@@ -247,18 +245,17 @@ Assets {
         }
       }
       Objects {
-        Id: 12523203768044448292
-        Name: "Military Tank Historic Armor Skirt 01 - Mid"
+        Id: 11815010843023291186
+        Name: "Urban Vehicle Car - Light Roof 01"
         Transform {
           Location {
-            X: -249.962616
-            Y: 65.7286224
-            Z: 18.1275635
+            X: 44.9999886
+            Y: 40.0000114
+            Z: 280
           }
           Rotation {
             Pitch: -90
-            Yaw: -36.8698845
-            Roll: -53.1300964
+            Roll: -90
           }
           Scale {
             X: 1
@@ -267,6 +264,119 @@ Assets {
           }
         }
         ParentId: 9522479352552790471
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 1876355522385362244
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:id"
+            AssetReference {
+              Id: 14563714857969510279
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:id"
+            AssetReference {
+              Id: 14563714857969510279
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.950000048
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights2:color"
+            Color {
+              R: 0.950000048
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11085376824642961392
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13301483358902753752
+        Name: "MergedModel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9522479352552790471
+        ChildIds: 12523203768044448292
+        ChildIds: 12203776965020595464
+        ChildIds: 12329621802971142374
+        ChildIds: 7767874076139916712
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 12523203768044448292
+        Name: "Military Tank Historic Armor Skirt 01 - Mid"
+        Transform {
+          Location {
+            X: -249.962418
+            Y: 65.7284698
+            Z: 18.1275635
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -9.46233559
+            Roll: -80.5376282
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13301483358902753752
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -317,8 +427,8 @@ Assets {
         Name: "Military Tank Historic Armor Skirt 01 - Mid"
         Transform {
           Location {
-            X: 330.036316
-            Y: 65.7283936
+            X: 330.036072
+            Y: 65.7285767
             Z: 18.1275635
           }
           Rotation {
@@ -331,7 +441,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9522479352552790471
+        ParentId: 13301483358902753752
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -382,9 +492,9 @@ Assets {
         Name: "Urban Fence Lock"
         Transform {
           Location {
-            X: -184.963058
-            Y: 40.7285767
-            Z: 8.12757874
+            X: -184.962891
+            Y: 40.7284698
+            Z: 8.12756348
           }
           Rotation {
             Yaw: 179.998779
@@ -395,7 +505,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9522479352552790471
+        ParentId: 13301483358902753752
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail4:color"
@@ -436,13 +546,14 @@ Assets {
         Name: "Military Tank Historic Armor Skirt 01 - Mid"
         Transform {
           Location {
-            X: 39.9999886
-            Y: 94.9999847
+            X: 39.9999809
+            Y: 95.0000076
             Z: 220
           }
           Rotation {
-            Yaw: 180
-            Roll: 89.9999924
+            Pitch: -6.83018879e-06
+            Yaw: -179.999969
+            Roll: 89.9999466
           }
           Scale {
             X: 1.6590625
@@ -450,7 +561,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9522479352552790471
+        ParentId: 13301483358902753752
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -531,6 +642,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_frames_9slice_005"
+      }
+    }
+    Assets {
+      Id: 11085376824642961392
+      Name: "Urban Vehicle Car - Light Roof 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_veh_urb_car_acc_light_exterior_003_ref"
       }
     }
     Assets {

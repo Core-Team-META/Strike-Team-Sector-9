@@ -1,6 +1,836 @@
 Name: "Keppu(Antti)"
 RootId: 13806498739066217100
 Objects {
+  Id: 13812017866273790409
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -9000
+      Y: 3035
+      Z: 25
+    }
+    Rotation {
+      Roll: 90
+    }
+    Scale {
+      X: 2.25
+      Y: 2
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 6536142658192885136
+  Name: "Decal Graffiti Murals 01 (Variants)"
+  Transform {
+    Location {
+      X: -9840
+      Y: 2970
+      Z: 20
+    }
+    Rotation {
+      Pitch: 25
+      Roll: 90
+    }
+    Scale {
+      X: 0.622121811
+      Y: 0.622121811
+      Z: 0.622121811
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Color Secondary"
+      Color {
+        R: 0.793377638
+        G: 0.7
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.78
+        G: 0.650860965
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color Tertiary"
+      Color {
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17429250688696520263
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 14108706478731660242
+  Name: "Decal Graffiti Murals 01 (Variants)"
+  Transform {
+    Location {
+      X: -9480
+      Y: 2974.34961
+      Z: 20
+    }
+    Rotation {
+      Pitch: 180
+      Roll: 90
+    }
+    Scale {
+      X: 0.622121811
+      Y: 0.622121811
+      Z: 0.622121811
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.433443576
+        G: 0.85
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color Secondary"
+      Color {
+        R: 0.98
+        G: 0.389404
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17429250688696520263
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 2099401463225182992
+  Name: "Decal Graffiti Murals 02 (Variants)"
+  Transform {
+    Location {
+      X: -9670
+      Y: 3015
+      Z: 49.8120575
+    }
+    Rotation {
+      Roll: 89.9999847
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17008962275525995819
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 10553895851569829462
+  Name: "Decal Graffiti Murals 01 (Variants)"
+  Transform {
+    Location {
+      X: -8310
+      Y: 2970
+      Z: 20
+    }
+    Rotation {
+      Pitch: -20
+      Roll: 90
+    }
+    Scale {
+      X: 0.622121811
+      Y: 0.622121811
+      Z: 0.622121811
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 1
+    }
+    Overrides {
+      Name: "bp:Color Secondary"
+      Color {
+        R: 0.13
+        G: 1
+        B: 0.965430498
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        G: 0.77
+        B: 0.555827916
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Color Tertiary"
+      Color {
+        G: 0.77
+        B: 0.555827916
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17429250688696520263
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 17819107494502853636
+  Name: "Decal Graffiti Murals 01 (Variants)"
+  Transform {
+    Location {
+      X: -8635
+      Y: 2974.34961
+      Z: 20
+    }
+    Rotation {
+      Roll: 90
+    }
+    Scale {
+      X: 0.622121811
+      Y: 0.622121811
+      Z: 0.622121811
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17429250688696520263
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 17661781272279297299
+  Name: "Decal Graffiti Murals 02 (Variants)"
+  Transform {
+    Location {
+      X: -8474.46777
+      Y: 3015
+      Z: 49.8120575
+    }
+    Rotation {
+      Roll: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17008962275525995819
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 64002591340223588
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -12280
+      Y: 2330
+      Z: 975
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 1.92582059
+      Y: 1.50000107
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11190154100572037358
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -11175
+      Y: 2733.16406
+      Z: 715
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -89.999939
+    }
+    Scale {
+      X: 0.75
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2763512945682346802
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -9671.95215
+      Y: 1979.9801
+      Z: 949.532715
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.577695727
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7040070341600090349
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -8340
+      Y: 1355
+      Z: 375
+    }
+    Rotation {
+      Roll: -12.5007629
+    }
+    Scale {
+      X: 7.25
+      Y: 3.0275445
+      Z: 0.0775603279
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10128884331981734128
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18001130677840133516
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: -8318.94434
+      Y: 1499.56592
+      Z: 399.331116
+    }
+    Rotation {
+      Roll: -96.8023682
+    }
+    Scale {
+      X: 2.58218765
+      Y: 0.919570506
+      Z: 0.562795401
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14343624183948889909
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -9266.46777
+      Y: 1535
+      Z: 361.673676
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.44878936
+      Y: 1.49999905
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1295676444187669054
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -7984.6333
+      Y: 1984.99902
+      Z: 59.8602448
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -89.999939
+    }
+    Scale {
+      X: 0.784347415
+      Y: 1.50000119
+      Z: 1.50000119
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2465991201970116499
+  Name: "Curb 8m"
+  Transform {
+    Location {
+      X: -8918.2041
+      Y: 1980.552
+      Z: 385.433655
+    }
+    Rotation {
+      Roll: -90
+    }
+    Scale {
+      X: 2.44869256
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2437966292102537916
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 1140192555527273128
   Name: "Windows"
   Transform {
@@ -43,16 +873,16 @@ Objects {
   Name: "Window Blinds"
   Transform {
     Location {
-      X: 54.1738205
-      Y: 35.6093788
-      Z: 159.087158
+      X: 54.1738091
+      Y: 35.6094055
+      Z: 170.722107
     }
     Rotation {
       Roll: -90
     }
     Scale {
       X: 1.90457761
-      Y: 2.58014631
+      Y: 2.78357911
       Z: 11.9999971
     }
   }
@@ -407,9 +1237,9 @@ Objects {
   Name: "Whitebox Wall 01 Doorway 01"
   Transform {
     Location {
-      X: -50
-      Y: 9.91650391
-      Z: -5
+      X: -50.0000267
+      Y: 52.381813
+      Z: -3.17266846
     }
     Rotation {
     }
@@ -616,7 +1446,7 @@ Objects {
     Location {
       X: -7925
       Y: 2350
-      Z: 361.673706
+      Z: 362.516
     }
     Rotation {
       Yaw: 90
@@ -733,9 +1563,9 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -9842.12598
-      Y: 1563.8728
-      Z: 975
+      X: -9839.9043
+      Y: 1540.20801
+      Z: 949.532715
     }
     Rotation {
     }
@@ -1327,8 +2157,8 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -11159.4141
-      Y: 2345
+      X: -11175
+      Y: 1895
       Z: 715
     }
     Rotation {
@@ -1894,14 +2724,14 @@ Objects {
   Name: "Curb 8m"
   Transform {
     Location {
-      X: -9380.28125
+      X: -8945.47559
       Y: 3033.45093
       Z: 420
     }
     Rotation {
     }
     Scale {
-      X: 3.55947161
+      X: 2.47572184
       Y: 0.848784149
       Z: 1.5
     }
@@ -2732,9 +3562,9 @@ Objects {
   Name: "Whitebox Wall 01 Doorway 01"
   Transform {
     Location {
-      X: -50
-      Y: 9.91650391
-      Z: -5
+      X: -50.0000114
+      Y: 52.3818207
+      Z: -6.63720703
     }
     Rotation {
     }
@@ -3848,8 +4678,8 @@ Objects {
       Z: 25
     }
     Rotation {
-      Pitch: -19.9999886
-      Yaw: -89.9999847
+      Pitch: -20
+      Yaw: -90
       Roll: 89.9999847
     }
     Scale {
@@ -3970,7 +4800,7 @@ Objects {
       Z: 25
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
       Roll: 89.9999847
     }
     Scale {
@@ -5643,14 +6473,14 @@ Objects {
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 3.4172132
+      Float: 2.58988
     }
     Overrides {
       Name: "bp:Albedo"
       Color {
         R: 1
-        G: 0.638410568
-        B: 0.399999976
+        G: 1
+        B: 1
         A: 1
       }
     }

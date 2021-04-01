@@ -341,15 +341,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16587363211812844610
-  Name: "Street Light Pole Extension 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_pole_ext_002"
-  }
-}
-Assets {
   Id: 16569967721778793374
   Name: "Transparent Bubble Glass"
   PlatformAssetType: 2
@@ -1511,15 +1502,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11085376824642961392
-  Name: "Urban Vehicle Car - Light Roof 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_light_exterior_003_ref"
-  }
-}
-Assets {
   Id: 11036095586913707253
   Name: "Donut"
   PlatformAssetType: 1
@@ -2165,15 +2147,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_wall_001_mid_02_ref"
-  }
-}
-Assets {
-  Id: 7311138711848276222
-  Name: "Text 03: U"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_020"
   }
 }
 Assets {
@@ -2996,15 +2969,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1967454480797501765
-  Name: "Cylinder - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_001"
-  }
-}
-Assets {
   Id: 1966905298560770071
   Name: "Square Column Topper 02"
   PlatformAssetType: 1
@@ -3101,6 +3065,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
+  Id: 1621043139137004612
+  Name: "Bricks Stone Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bricks_stone_block_001"
   }
 }
 Assets {

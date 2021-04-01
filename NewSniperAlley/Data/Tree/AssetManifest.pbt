@@ -8,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16855776306829432893
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
+  Id: 16713605512330575878
+  Name: "Sci-fi Object Low Scanning Pulse Loop 01 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -23,6 +23,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
+  }
+}
+Assets {
+  Id: 16254595999441881258
+  Name: "Ambience Room Tone Laboratory Hallway Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_room_tone_laboratory_hallway_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -41,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
+  Id: 15855081481126140438
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -75,12 +93,39 @@ Assets {
   }
 }
 Assets {
+  Id: 14638816248421548289
+  Name: "Rubber Dot Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_001_uv"
+  }
+}
+Assets {
   Id: 14054176190919042885
   Name: "Metal Basic 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 14023212398559948573
+  Name: "Metal Chrome"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "chrome_001"
+  }
+}
+Assets {
+  Id: 13362988571131584785
+  Name: "Decal Sci-fi Details 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_scf_details_001_ref"
   }
 }
 Assets {
@@ -102,6 +147,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12604669115736314009
+  Name: "Ambience Ship Dock Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_ship_dock_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 12561355295683988809
   Name: "test3"
   PlatformAssetType: 23
@@ -112,6 +166,24 @@ Assets {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
+  }
+}
+Assets {
+  Id: 11534260051317427993
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
+  Id: 11378977399214175520
+  Name: "Air Conditioned Room Tone Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_air_condition_room_tone_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -130,6 +202,15 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
+  }
+}
+Assets {
+  Id: 10549684399192797779
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
   }
 }
 Assets {
@@ -152,6 +233,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 9635608271034126615
+  Name: "Rubber Pattern 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_003_uv"
+  }
+}
+Assets {
+  Id: 8976318233260387419
+  Name: "Car Paint Advanced 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_advanced_001_uv_ref"
   }
 }
 Assets {
@@ -186,6 +285,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8105941569596900735
+  Name: "Military Tank Modern Light 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_light_002_ref"
+  }
+}
+Assets {
   Id: 8027963421494365694
   Name: "Sci-fi Base Capsule 02 8m"
   PlatformAssetType: 1
@@ -195,12 +303,57 @@ Assets {
   }
 }
 Assets {
+  Id: 6656501280773318390
+  Name: "Cube - Arched"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_arched_001"
+  }
+}
+Assets {
+  Id: 6588567122613861857
+  Name: "Metal 9 Slice Frame 005"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_9slice_005"
+  }
+}
+Assets {
   Id: 4947731560831887899
   Name: "Sci-fi Console Screen 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_screen_002_ref"
+  }
+}
+Assets {
+  Id: 3220575346520405379
+  Name: "Ambience City Night Distant Traffic Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_city_night_distant_traffic_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 2922842638408882506
+  Name: "Military Loudspeaker Unintelligible Broadcast Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_military_loudspeaker_unintelligible_broadcast_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 2824939083585481187
+  Name: "Machine Servo Turret Movement Loop 02 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_machine_servo_turret_movement_loop_02_Cue_ref"
   }
 }
 Assets {
@@ -219,6 +372,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
+  Id: 997059390493998755
+  Name: "Metal Cart Heavy Rolling Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_metal_cart_heavy_rolling_loop_01_Cue_ref"
   }
 }
 Assets {
