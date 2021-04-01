@@ -1396,6 +1396,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13377766700605935757
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -1454,6 +1460,12 @@ Objects {
         G: 0.005
         B: 0.005
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1621043139137004612
       }
     }
   }
@@ -2054,6 +2066,12 @@ Objects {
         G: 0.005
         B: 0.005
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9019906865641666322
       }
     }
   }
@@ -17728,6 +17746,12 @@ Objects {
         G: 0.0590000041
         B: 0.0590000041
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9019906865641666322
       }
     }
   }

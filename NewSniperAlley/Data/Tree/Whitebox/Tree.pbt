@@ -5363,7 +5363,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -6216,7 +6216,7 @@ Objects {
   Transform {
     Location {
       X: -8793.47
-      Y: 7025.39355
+      Y: 6870
       Z: -190.087097
     }
     Rotation {
@@ -6981,7 +6981,7 @@ Objects {
   Transform {
     Location {
       X: -10070.9697
-      Y: 7025.39355
+      Y: 6870
       Z: -349.999878
     }
     Rotation {
@@ -7034,7 +7034,7 @@ Objects {
   Transform {
     Location {
       X: -10280
-      Y: 7025.39355
+      Y: 6870
       Z: -349.999878
     }
     Rotation {
@@ -7086,8 +7086,8 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -10635.3838
-      Y: 6502.39746
+      X: -10625
+      Y: 6264.55176
       Z: -350
     }
     Rotation {
@@ -7138,8 +7138,8 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -10635.3838
-      Y: 6807.8457
+      X: -10625
+      Y: 6570
       Z: -350
     }
     Rotation {
@@ -9412,7 +9412,7 @@ Objects {
   Transform {
     Location {
       X: -10881.0273
-      Y: 7945
+      Y: 7835
       Z: -515
     }
     Rotation {
@@ -9464,7 +9464,7 @@ Objects {
   Transform {
     Location {
       X: -8093.58447
-      Y: 8085.02441
+      Y: 7978.1958
       Z: -515
     }
     Rotation {
@@ -9516,7 +9516,7 @@ Objects {
   Transform {
     Location {
       X: -9503.25879
-      Y: 7945
+      Y: 7838.17139
       Z: -515
     }
     Rotation {
@@ -9911,7 +9911,7 @@ Objects {
   Transform {
     Location {
       X: -6515
-      Y: 7480
+      Y: 7525
       Z: 387.870239
     }
     Rotation {
@@ -9955,7 +9955,7 @@ Objects {
   Transform {
     Location {
       X: -1275
-      Y: -905
+      Y: -1131.35986
       Z: -307.477112
     }
     Rotation {
@@ -9984,7 +9984,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -12239,7 +12239,7 @@ Objects {
   Transform {
     Location {
       X: -5885
-      Y: 7480
+      Y: 7570
       Z: 387.870239
     }
     Rotation {
@@ -12400,7 +12400,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
