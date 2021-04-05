@@ -31,6 +31,14 @@ Assets {
         Name: "clear_coat_roughness"
         Float: 1
       }
+      Overrides {
+        Name: "fresnel_amount"
+        Float: 0
+      }
+      Overrides {
+        Name: "metallic"
+        Float: 0
+      }
     }
     Assets {
       Id: 2249794126015640337

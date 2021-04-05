@@ -17,8 +17,8 @@ Assets {
       Overrides {
         Name: "color b"
         Color {
-          R: 0.958000064
-          B: 0.558833063
+          G: 0.186668
+          B: 0.328125
           A: 1
         }
       }
@@ -49,11 +49,11 @@ Assets {
       }
       Overrides {
         Name: "magic gradient high"
-        Float: 8.45889187
+        Float: 6.74290371
       }
       Overrides {
         Name: "scale"
-        Float: 10
+        Float: 0.821811676
       }
       Overrides {
         Name: "object normal strength"
@@ -61,7 +61,19 @@ Assets {
       }
       Overrides {
         Name: "brightness"
-        Float: 49.0206413
+        Float: 50
+      }
+      Overrides {
+        Name: "magic distortion"
+        Float: 0
+      }
+      Overrides {
+        Name: "magic gradient low"
+        Float: 0.206835732
+      }
+      Overrides {
+        Name: "speed"
+        Float: 0.398089647
       }
     }
     Assets {

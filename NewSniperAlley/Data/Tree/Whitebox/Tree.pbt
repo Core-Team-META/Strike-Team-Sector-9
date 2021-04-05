@@ -1,6 +1,65 @@
 Name: "Whitebox"
 RootId: 17903806154062347974
 Objects {
+  Id: 15938536649000956677
+  Name: "Capture point"
+  Transform {
+    Location {
+      X: -9145
+      Y: 5175
+      Z: -307.477
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10.25
+      Y: 10.25
+      Z: 59.5000076
+    }
+  }
+  ParentId: 17903806154062347974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.00111257145
+        G: 0.0210000016
+        A: 0.165
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13206135842285396679
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7195564222692247037
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 6038431788679260730
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -779,16 +838,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17315070957124721441
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.622
-        G: 0.277
-        B: 0.228896
-        A: 1
+        Id: 5051175310908681706
       }
     }
   }
@@ -839,16 +889,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17315070957124721441
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.622
-        G: 0.277
-        B: 0.228896
-        A: 1
+        Id: 5051175310908681706
       }
     }
   }
@@ -901,16 +942,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 17315070957124721441
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.622
-        G: 0.277
-        B: 0.228896
-        A: 1
+        Id: 5051175310908681706
       }
     }
   }

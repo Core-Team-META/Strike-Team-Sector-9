@@ -96,9 +96,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0729166642
-              G: 0.0729166642
-              B: 0.0729166642
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -157,9 +157,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0729166642
-              G: 0.0729166642
-              B: 0.0729166642
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -218,9 +218,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0729166642
-              G: 0.0729166642
-              B: 0.0729166642
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -280,9 +280,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0729166642
-              G: 0.0729166642
-              B: 0.0729166642
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -342,9 +342,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0729166642
-              G: 0.0729166642
-              B: 0.0729166642
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -397,8 +397,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.125
-              G: 0.0223510116
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -457,8 +458,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.125
-              G: 0.0223510116
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }
@@ -517,8 +519,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.125
-              G: 0.0223510116
+              R: 0.614
+              G: 0.614
+              B: 0.614
               A: 1
             }
           }

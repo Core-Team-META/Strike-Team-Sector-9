@@ -5,7 +5,7 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: -7050
+      X: -6570
       Y: 3040
       Z: 9.99998474
     }

@@ -233,15 +233,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17403316637749788051
-  Name: "Vehicle Train Passenger Interior Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_vehicle_train_passenger_interior_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 17357257902648977758
   Name: "Sci-fi Base Capsule 01 Base"
   PlatformAssetType: 1
@@ -368,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16713605512330575878
-  Name: "Sci-fi Object Low Scanning Pulse Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 16701471895469829501
   Name: "Text 01: A"
   PlatformAssetType: 1
@@ -392,15 +374,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_frosted_glass"
-  }
-}
-Assets {
-  Id: 16609600499553782676
-  Name: "Fantasy Sack Laying"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_sack_003_ref"
   }
 }
 Assets {
@@ -518,15 +491,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_meter_parking_top_001_ref"
-  }
-}
-Assets {
-  Id: 16254595999441881258
-  Name: "Ambience Room Tone Laboratory Hallway Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_room_tone_laboratory_hallway_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -827,15 +791,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14638816248421548289
-  Name: "Rubber Dot Panels 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_001_uv"
-  }
-}
-Assets {
   Id: 14591455445996474079
   Name: "Ceramic Tiles Octagon Dot 01"
   PlatformAssetType: 2
@@ -1025,15 +980,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14023212398559948573
-  Name: "Metal Chrome"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "chrome_001"
-  }
-}
-Assets {
   Id: 14021425836031181800
   Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
@@ -1148,15 +1094,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
-  }
-}
-Assets {
-  Id: 13362988571131584785
-  Name: "Decal Sci-fi Details 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_scf_details_001_ref"
   }
 }
 Assets {
@@ -1826,15 +1763,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10549684399192797779
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
   Id: 10507400395406811830
   Name: "Barrier Plastic 01"
   PlatformAssetType: 1
@@ -2060,15 +1988,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9635608271034126615
-  Name: "Rubber Pattern 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_003_uv"
-  }
-}
-Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -2165,15 +2084,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Straight"
-  }
-}
-Assets {
-  Id: 8976318233260387419
-  Name: "Car Paint Advanced 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_car-paint_advanced_001_uv_ref"
   }
 }
 Assets {
@@ -2291,15 +2201,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_floor_003_4m_ref"
-  }
-}
-Assets {
-  Id: 8105941569596900735
-  Name: "Military Tank Modern Light 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_light_002_ref"
   }
 }
 Assets {
@@ -2615,15 +2516,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_sidewalk-straight_001"
-  }
-}
-Assets {
-  Id: 6656501280773318390
-  Name: "Cube - Arched"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_arched_001"
   }
 }
 Assets {
@@ -3293,15 +3185,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2824939083585481187
-  Name: "Machine Servo Turret Movement Loop 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_machine_servo_turret_movement_loop_02_Cue_ref"
-  }
-}
-Assets {
   Id: 2805121172112350453
   Name: "Metal 9 Slice Lockers 01"
   PlatformAssetType: 2
@@ -3668,15 +3551,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_005_corner_ref"
-  }
-}
-Assets {
-  Id: 997059390493998755
-  Name: "Metal Cart Heavy Rolling Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_metal_cart_heavy_rolling_loop_01_Cue_ref"
   }
 }
 Assets {

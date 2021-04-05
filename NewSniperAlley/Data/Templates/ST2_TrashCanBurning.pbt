@@ -16,10 +16,9 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 2456662932289274050
-        ChildIds: 978020837547943910
         ChildIds: 14508412751128458956
-        ChildIds: 12514810628346029141
+        ChildIds: 2456662932289274050
+        ChildIds: 6056063762630306394
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -31,114 +30,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 2456662932289274050
-        Name: "Point Light"
-        Transform {
-          Location {
-            X: 15.2380371
-            Z: 142.287628
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6154959236174666482
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Light {
-          Intensity: 56.5351601
-          Color {
-            R: 2
-            G: 0.397351027
-            A: 1
-          }
-          CastShadows: true
-          TeamSettings {
-          }
-          Light {
-            Temperature: 6500
-            LocalLight {
-              AttenuationRadius: 1658.7644
-              PointLight {
-                SourceRadius: 274.107819
-                SoftSourceRadius: 302.667694
-                FallOffExponent: 5.11686373
-              }
-            }
-            MaxDrawDistance: 5000
-            MaxDistanceFadeRange: 1000
-          }
-        }
-      }
-      Objects {
-        Id: 978020837547943910
-        Name: "Fire Volume VFX"
-        Transform {
-          Location {
-            X: 8.72509766
-            Y: -3.16583252
-            Z: 82.2925415
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.26931861
-            Y: 0.26931861
-            Z: 0.26931861
-          }
-        }
-        ParentId: 6154959236174666482
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 0.324868828
-          }
-          Overrides {
-            Name: "bp:Volume Type"
-            Enum {
-              Value: "mc:evfxvolumetype:0"
-            }
-          }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 41.1195221
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13110421772076029559
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -195,6 +86,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableCastShadows: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -204,12 +96,12 @@ Assets {
         }
       }
       Objects {
-        Id: 12514810628346029141
+        Id: 2456662932289274050
         Name: "Point Light"
         Transform {
           Location {
-            X: 12.2692871
-            Z: 134.16922
+            X: 15.2382813
+            Z: 155
           }
           Rotation {
           }
@@ -230,25 +122,23 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 50
+          Intensity: 56.5351601
           Color {
             R: 2
             G: 0.397351027
             A: 1
           }
           CastShadows: true
-          VolumetricIntensity: 5.69858694
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 326.617889
+              AttenuationRadius: 1658.7644
               PointLight {
-                SourceRadius: 20
-                SoftSourceRadius: 20
-                FallOffExponent: 8
-                UseFallOffExponent: true
+                SourceRadius: 274.107819
+                SoftSourceRadius: 302.667694
+                FallOffExponent: 5.11686373
               }
             }
             MaxDrawDistance: 5000
@@ -256,14 +146,90 @@ Assets {
           }
         }
       }
-    }
-    Assets {
-      Id: 13110421772076029559
-      Name: "Fire Volume VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_fire_volume_vfx"
+      Objects {
+        Id: 6056063762630306394
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6154959236174666482
+        ChildIds: 978020837547943910
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 978020837547943910
+        Name: "Fire Volume VFX"
+        Transform {
+          Location {
+            X: 8.72509766
+            Y: -3.16577148
+            Z: 82.2925415
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.26931861
+            Y: 0.26931861
+            Z: 0.26931861
+          }
+        }
+        ParentId: 6056063762630306394
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.324868828
+          }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:0"
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 41.1195221
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13110421772076029559
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
       }
     }
     Assets {
@@ -273,6 +239,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_trash_public_001"
+      }
+    }
+    Assets {
+      Id: 13110421772076029559
+      Name: "Fire Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_fire_volume_vfx"
       }
     }
     PrimaryAssetId {

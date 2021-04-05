@@ -809,15 +809,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12648550473195782623
-  Name: "Concrete Sidewalk"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_sidewalk_001"
-  }
-}
-Assets {
   Id: 12637668167369790225
   Name: "Text 02: P"
   PlatformAssetType: 1
