@@ -11426,7 +11426,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.97661161
+      X: 1.93915546
       Y: 2.60402393
       Z: 1
     }
@@ -12976,7 +12976,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 5195
+      X: 16070
       Y: 11385
       Z: 1510
     }

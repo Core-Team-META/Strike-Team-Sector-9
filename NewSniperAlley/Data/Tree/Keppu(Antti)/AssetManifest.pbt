@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16586186569353536175
+  Name: "Text 06: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_004"
+  }
+}
+Assets {
   Id: 16285172041817233770
   Name: "Advanced Color Grading Post Process"
   PlatformAssetType: 6
@@ -35,21 +44,21 @@ Assets {
   }
 }
 Assets {
-  Id: 15897705887741699672
-  Name: "Urban Pipe Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_straight_001_ref"
-  }
-}
-Assets {
   Id: 14697405062555329113
   Name: "Ambient Occlusion Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_ao"
+  }
+}
+Assets {
+  Id: 14252477554119905253
+  Name: "Text 06: #"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_039"
   }
 }
 Assets {
@@ -89,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10237054757922467893
+  Name: "Text 06: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_020"
+  }
+}
+Assets {
   Id: 9649146038661330211
   Name: "Office Cubicle Cabinet 03"
   PlatformAssetType: 1
@@ -116,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3654123690471764078
+  Name: "Text 06: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_001"
+  }
+}
+Assets {
   Id: 3471881598561556181
   Name: "Motion Blur Post Process"
   PlatformAssetType: 20
@@ -125,12 +152,48 @@ Assets {
   }
 }
 Assets {
+  Id: 3076412631196887594
+  Name: "Text 06: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_024"
+  }
+}
+Assets {
+  Id: 2968082076867468797
+  Name: "Text 06: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_018"
+  }
+}
+Assets {
+  Id: 2813132699335812984
+  Name: "Text 06: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_011"
+  }
+}
+Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 550227170375246561
+  Name: "Plane 4m - Two Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_002"
   }
 }
 Assets {

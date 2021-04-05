@@ -9,8 +9,8 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          G: 1.49999917
-          B: 2.5
+          G: 1.799999
+          B: 3
           A: 1
         }
       }

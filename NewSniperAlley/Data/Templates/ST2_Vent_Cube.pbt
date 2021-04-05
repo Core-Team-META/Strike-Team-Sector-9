@@ -145,7 +145,7 @@ Assets {
             Z: 65.0387573
           }
           Rotation {
-            Yaw: -89.9999542
+            Yaw: -89.999939
           }
           Scale {
             X: 1.48757434
@@ -158,12 +158,20 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13350788509335358264
+              Id: 18131936251569509837
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.302431196
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.313513219
           }
         }
         Collidable_v2 {
@@ -284,7 +292,7 @@ Assets {
         Name: "Sci-fi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: 70.4765625
+            X: 58.6640625
             Y: 72.6550293
             Z: 0.000122070313
           }
@@ -293,9 +301,9 @@ Assets {
             Roll: -89.999939
           }
           Scale {
-            X: 0.728694916
-            Y: 0.309782267
-            Z: 0.309782
+            X: 0.728699863
+            Y: 0.309782922
+            Z: 0.797448
           }
         }
         ParentId: 9368663069328238622
@@ -350,18 +358,18 @@ Assets {
         Name: "Sci-fi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: -69.8645
-            Y: 72.6549072
+            X: -55.0581055
+            Y: 72.6547852
           }
           Rotation {
             Pitch: 6.83018879e-06
             Yaw: 90.0000687
-            Roll: -89.9999313
+            Roll: -89.999939
           }
           Scale {
-            X: 0.728694916
-            Y: 0.309782267
-            Z: 0.309782
+            X: 0.728699863
+            Y: 0.309782922
+            Z: 0.797448
           }
         }
         ParentId: 9368663069328238622
@@ -449,12 +457,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13350788509335358264
-      Name: "Metal Corrugated 01"
+      Id: 18131936251569509837
+      Name: "Metal Vent Duct Square 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
+        AssetId: "mi_urb_vent_duct_square_001_uv_ref"
       }
     }
     Assets {

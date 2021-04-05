@@ -600,17 +600,21 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16280113279026806375
+              Id: 18131936251569509837
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.765000045
+              G: 0.765000045
+              B: 0.765000045
               A: 1
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -659,7 +663,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16280113279026806375
+              Id: 18131936251569509837
             }
           }
           Overrides {
@@ -883,6 +887,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_003"
+      }
+    }
+    Assets {
+      Id: 18131936251569509837
+      Name: "Metal Vent Duct Square 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_urb_vent_duct_square_001_uv_ref"
       }
     }
     PrimaryAssetId {

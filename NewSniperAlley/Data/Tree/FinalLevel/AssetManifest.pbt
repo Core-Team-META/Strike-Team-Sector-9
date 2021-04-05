@@ -1628,6 +1628,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11121990662013850694
+  Name: "Hesco Grid 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_hescoe_grid_001_uv_ref"
+  }
+}
+Assets {
   Id: 11111447611931661974
   Name: "Craftsman Stairs 01 Railing"
   PlatformAssetType: 1
