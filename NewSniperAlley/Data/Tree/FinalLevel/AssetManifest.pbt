@@ -188,15 +188,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17574211455635082249
-  Name: "Text 05: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_004"
-  }
-}
-Assets {
   Id: 17560617045900804652
   Name: "Column Base 02"
   PlatformAssetType: 1
@@ -293,15 +284,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_002"
-  }
-}
-Assets {
-  Id: 16954609655144784247
-  Name: "Humanoid 1 Viper Helmet"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_hat_scifi_001_ref"
   }
 }
 Assets {
@@ -782,15 +764,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14738524806015956578
-  Name: "Text 05: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_024"
-  }
-}
-Assets {
   Id: 14591455445996474079
   Name: "Ceramic Tiles Octagon Dot 01"
   PlatformAssetType: 2
@@ -1040,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_rack_storage_rail_bottom_mid_001_ref"
-  }
-}
-Assets {
-  Id: 13603351768712987773
-  Name: "Humanoid 1 Cassidy"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_001_ref"
   }
 }
 Assets {
@@ -1430,6 +1394,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 11998078646685907456
   Name: "Main Street Trim Roof 01 - Corner"
   PlatformAssetType: 1
@@ -1781,15 +1754,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10455374281433081979
-  Name: "Text 05: R"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_017"
-  }
-}
-Assets {
   Id: 10420895239212533739
   Name: "Animated Neon Sign - Hand Thumbs Up"
   PlatformAssetType: 1
@@ -1886,15 +1850,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_012"
-  }
-}
-Assets {
-  Id: 10038687211292323623
-  Name: "Sci-fi Barrel 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_barrel_001_ref"
   }
 }
 Assets {
@@ -2165,15 +2120,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
-  }
-}
-Assets {
-  Id: 8317679741492838839
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
@@ -2726,15 +2672,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5546359925665541106
-  Name: "Text 05: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_002"
-  }
-}
-Assets {
   Id: 5517650793586535881
   Name: "Main Street Wall 01 - Doorway 01"
   PlatformAssetType: 1
@@ -2939,15 +2876,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_wall_003_uv_ref"
-  }
-}
-Assets {
-  Id: 4343715601199152368
-  Name: "Text 03: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_002"
   }
 }
 Assets {
@@ -3464,30 +3392,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1547287109932923518
-  Name: "Text 05: B"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_001"
-  }
-}
-Assets {
   Id: 1537048863130072605
   Name: "Electric Spark Short 01 SFX"
   PlatformAssetType: 7
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_electric_spark_short_01_ref"
-  }
-}
-Assets {
-  Id: 1461448635993541112
-  Name: "Text 03: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_011"
   }
 }
 Assets {
@@ -3563,15 +3473,6 @@ Assets {
   }
 }
 Assets {
-  Id: 978916223442242776
-  Name: "Text 03: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_000"
-  }
-}
-Assets {
   Id: 962531297881391870
   Name: "Text 04: E"
   PlatformAssetType: 1
@@ -3605,15 +3506,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
-  }
-}
-Assets {
-  Id: 874365167851496878
-  Name: "Text 05: ~"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F6_Text_036"
   }
 }
 Assets {
@@ -3713,15 +3605,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001"
-  }
-}
-Assets {
-  Id: 306471646271968506
-  Name: "Text 03: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F5_Text_014"
   }
 }
 Assets {

@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2899842837741361229
+  Name: "Concrete Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_tiles_001"
+  }
+}
+Assets {
   Id: 2727467945905195560
   Name: "Wedge"
   PlatformAssetType: 1

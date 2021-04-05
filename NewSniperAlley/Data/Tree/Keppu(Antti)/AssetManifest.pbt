@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16630259605395466384
+  Name: "Frosted Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_frosted_glass"
+  }
+}
+Assets {
   Id: 16586186569353536175
   Name: "Text 06: E"
   PlatformAssetType: 1
@@ -44,12 +53,57 @@ Assets {
   }
 }
 Assets {
+  Id: 16261184967792815036
+  Name: "Street Light 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_light_001"
+  }
+}
+Assets {
+  Id: 16206231426180209164
+  Name: "Metal Door & Hatch Close Shut Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_metal_doors_ref"
+  }
+}
+Assets {
+  Id: 15614794363849386760
+  Name: "Urban Door Steel 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
+  }
+}
+Assets {
   Id: 14697405062555329113
   Name: "Ambient Occlusion Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_ao"
+  }
+}
+Assets {
+  Id: 14614056576813174129
+  Name: "Metal Diamond Plates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_diamond-plate_001"
+  }
+}
+Assets {
+  Id: 14436456058292222270
+  Name: "Office Cubicle Cabinet 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_off_cubicle_cabinet_002_ref"
   }
 }
 Assets {
@@ -80,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12621970885948864169
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
+  }
+}
+Assets {
   Id: 11905645224756837966
   Name: "Ambient Occlusion Recolor Post Process"
   PlatformAssetType: 6
@@ -98,12 +161,39 @@ Assets {
   }
 }
 Assets {
+  Id: 11163148617413220239
+  Name: "Sci-fi Base Ramp 02 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_floor_002_4m_angled_ref"
+  }
+}
+Assets {
+  Id: 10850769815684373087
+  Name: "Plane 1m - Two Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_002"
+  }
+}
+Assets {
   Id: 10237054757922467893
   Name: "Text 06: U"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_020"
+  }
+}
+Assets {
+  Id: 10030873852422428647
+  Name: "I-Beam 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_i-beam_4m_001"
   }
 }
 Assets {
@@ -125,12 +215,30 @@ Assets {
   }
 }
 Assets {
+  Id: 8081775035435034954
+  Name: "Main Street Wall 02 - Half Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_half_doorway_ref"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 5734988360010929569
+  Name: "Military Tank Historic Armor Skirt 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_skirt_001_mid_ref"
   }
 }
 Assets {
@@ -161,6 +269,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2988815621715415588
+  Name: "Craftsman Part - Inside Lower Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_intTrim_001_low"
+  }
+}
+Assets {
   Id: 2968082076867468797
   Name: "Text 06: S"
   PlatformAssetType: 1
@@ -185,6 +302,33 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 1385909602603260515
+  Name: "Whitebox Wall 01 Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_tri"
+  }
+}
+Assets {
+  Id: 1104198953447072835
+  Name: "Object Domestic Doors & Creaks Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_object_domestic_door_ref"
+  }
+}
+Assets {
+  Id: 697130077529532955
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
   }
 }
 Assets {

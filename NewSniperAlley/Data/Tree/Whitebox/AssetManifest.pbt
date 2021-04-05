@@ -44,12 +44,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7531058706496198656
+  Name: "Whitebox Wall 01 Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
+  }
+}
+Assets {
   Id: 7195564222692247037
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_circle_001"
+  }
+}
+Assets {
+  Id: 783814044870915271
+  Name: "Whitebox Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }
 Assets {

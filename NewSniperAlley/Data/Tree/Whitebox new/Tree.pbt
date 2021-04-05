@@ -8346,78 +8346,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5291558599040964385
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -4875
-      Y: 2410
-      Z: 900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.75
-      Y: 0.5
-      Z: 1
-    }
-  }
-  ParentId: 14926047197083522403
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.777
-        G: 0.777
-        B: 0.777
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Ceiling:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11635162136967954539
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 10508639520754818763
   Name: "Group"
   Transform {
@@ -11202,7 +11130,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -7285
+      X: -7290.60498
       Y: 2873.71289
       Z: 310
     }
@@ -11226,21 +11154,15 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Building_Ceiling:color"
-      Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
-        A: 1
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2899842837741361229
       }
     }
     Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 1876355522385362244
       }
     }
   }
@@ -11380,12 +11302,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2899842837741361229
       }
     }
   }
@@ -11452,12 +11371,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2899842837741361229
       }
     }
   }
@@ -11642,7 +11558,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.85032201
+      X: 1
       Y: 2.5
       Z: 1
     }
@@ -11668,12 +11584,9 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Building_Floor:color"
-      Color {
-        R: 1
-        G: 0.149802
-        B: 0.010033
-        A: 1
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 2899842837741361229
       }
     }
   }
