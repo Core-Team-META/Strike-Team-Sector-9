@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9608867807191114934
-  Name: "Metal Steel Brushed"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stainless-steel_001_uv"
-  }
-}
-Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1

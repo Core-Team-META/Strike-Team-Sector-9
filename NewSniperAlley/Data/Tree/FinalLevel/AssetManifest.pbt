@@ -2330,6 +2330,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7311138711848276222
+  Name: "Text 03: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_020"
+  }
+}
+Assets {
   Id: 7283825798727192743
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -3533,6 +3542,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_001_ref"
+  }
+}
+Assets {
+  Id: 783814044870915271
+  Name: "Whitebox Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }
 Assets {

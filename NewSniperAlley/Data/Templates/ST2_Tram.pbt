@@ -17,7 +17,7 @@ Assets {
         }
         ParentId: 9636578199057030717
         ChildIds: 16381709934975685966
-        ChildIds: 11498215635919298856
+        ChildIds: 16725853100344533427
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -211,8 +211,8 @@ Assets {
         }
       }
       Objects {
-        Id: 11498215635919298856
-        Name: "ClientContext"
+        Id: 16725853100344533427
+        Name: "StaticContext"
         Transform {
           Location {
           }
@@ -237,7 +237,7 @@ Assets {
         ChildIds: 2425165596266161558
         WantsNetworking: true
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -246,6 +246,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
+          Type: RuntimeStatic
         }
       }
       Objects {
@@ -266,7 +267,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -308,7 +309,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -351,7 +352,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -389,7 +390,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -419,12 +420,12 @@ Assets {
         Transform {
           Location {
             X: -50.4998894
-            Y: 132.114594
+            Y: 132.114471
             Z: 155
           }
           Rotation {
             Yaw: -179.999954
-            Roll: -89.9999084
+            Roll: -89.9998779
           }
           Scale {
             X: 1.16410184
@@ -432,7 +433,7 @@ Assets {
             Z: 0.309953511
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -472,12 +473,12 @@ Assets {
         Transform {
           Location {
             X: -210.000107
-            Y: -229.999664
+            Y: -229.999542
             Z: 265
           }
           Rotation {
             Yaw: -179.999954
-            Roll: 89.9998932
+            Roll: 89.9998627
           }
           Scale {
             X: 0.999999881
@@ -485,7 +486,7 @@ Assets {
             Z: 0.0648512542
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -525,12 +526,12 @@ Assets {
         Transform {
           Location {
             X: -50.5000954
-            Y: -153.459503
+            Y: -153.459381
             Z: 153.254059
           }
           Rotation {
-            Yaw: 1.36603612e-05
-            Roll: -89.9998627
+            Yaw: 1.36603558e-05
+            Roll: -89.9998245
           }
           Scale {
             X: 1.16410184
@@ -538,7 +539,7 @@ Assets {
             Z: 0.309953511
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -578,12 +579,12 @@ Assets {
         Transform {
           Location {
             X: -209.999802
-            Y: 198.272675
+            Y: 198.272552
             Z: 265
           }
           Rotation {
             Yaw: 3.41509076e-06
-            Roll: 89.9998856
+            Roll: 89.9998627
           }
           Scale {
             X: 0.999999881
@@ -591,7 +592,7 @@ Assets {
             Z: 0.0648512542
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -641,7 +642,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         ChildIds: 8336620060759758339
         ChildIds: 16597028844471263185
         ChildIds: 1502993808688814251
@@ -2115,7 +2116,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11498215635919298856
+        ParentId: 16725853100344533427
         ChildIds: 14674717210091594738
         ChildIds: 16661817130020310539
         ChildIds: 8456036356682119367
