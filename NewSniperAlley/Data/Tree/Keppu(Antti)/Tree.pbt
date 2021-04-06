@@ -1,6 +1,776 @@
 Name: "Keppu(Antti)"
 RootId: 13806498739066217100
 Objects {
+  Id: 1254859095528067753
+  Name: "Urban Pipe Cap 03"
+  Transform {
+    Location {
+      X: -7028.52148
+      Y: 3460
+      Z: -270
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.08978963
+      Y: 1.08978963
+      Z: 1.75520873
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.333
+        G: 0.333
+        B: 0.333
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12632251234297570874
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12461369260345211802
+  Name: "Urban Pipe Cap 03"
+  Transform {
+    Location {
+      X: -7028.52148
+      Y: 3460
+      Z: -120
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.08978963
+      Y: 1.08978963
+      Z: 1.75520873
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.333
+        G: 0.333
+        B: 0.333
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12632251234297570874
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7087329242566901775
+  Name: "Urban Pipe Cap 03"
+  Transform {
+    Location {
+      X: -7028.52148
+      Y: 2875
+      Z: -75
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.08978963
+      Y: 1.08978963
+      Z: 1.75520873
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.333
+        G: 0.333
+        B: 0.333
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12632251234297570874
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1390295878623052477
+  Name: "Urban Pipe Cap 03"
+  Transform {
+    Location {
+      X: -7028.52148
+      Y: 3460
+      Z: -42.1797867
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.08978963
+      Y: 1.08978963
+      Z: 1.75520873
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.333
+        G: 0.333
+        B: 0.333
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12632251234297570874
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8697375168939450365
+  Name: "ST2_ScalableFence03"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2889859889088553185
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.818334937
+            Y: -6.14747405e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.89484477
+            Y: 0.999993503
+            Z: 1.00000048
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3712550031101505668
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_ScalableFence03"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7034.12256
+            Y: 3152.50293
+            Z: -335.100616
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 176.061096
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8069907526763362760
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.814908206
+            Y: 7.02440739e-05
+            Z: 0.105041504
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.89484477
+            Y: 0.999993503
+            Z: 1.00000048
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4189590155313452733
+    }
+  }
+}
+Objects {
+  Id: 13824246447233899577
+  Name: "SignPostArrowDecals"
+  Transform {
+    Location {
+      X: -8080
+      Y: 7305
+      Z: 10.076561
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: -89.9999771
+      Roll: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  ChildIds: 16344583163791476657
+  ChildIds: 11101511588356834599
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11101511588356834599
+  Name: "Decal Road Sign Symbols"
+  Transform {
+    Location {
+      Y: 46.8369141
+    }
+    Rotation {
+      Yaw: -89.9999924
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 0.290949315
+      Y: 0.290949315
+      Z: 0.290949315
+    }
+  }
+  ParentId: 13824246447233899577
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.5
+        G: 0.655629
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9398431931771867526
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 16344583163791476657
+  Name: "Decal Road Sign Symbols"
+  Transform {
+    Location {
+      Y: -46.8369141
+    }
+    Rotation {
+      Yaw: -89.9999924
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.290949315
+      Y: 0.290949315
+      Z: 0.290949315
+    }
+  }
+  ParentId: 13824246447233899577
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.5
+        G: 0.655629
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9398431931771867526
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 10704700219026285465
+  Name: "SignPostArrowDecals"
+  Transform {
+    Location {
+      X: -11126.3701
+      Y: 3284.65405
+      Z: 10.0765915
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  ChildIds: 11869995463601684459
+  ChildIds: 17534960554478315325
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17534960554478315325
+  Name: "Decal Road Sign Symbols"
+  Transform {
+    Location {
+      Y: 46.8369141
+    }
+    Rotation {
+      Yaw: -89.9999924
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 0.290949315
+      Y: 0.290949315
+      Z: 0.290949315
+    }
+  }
+  ParentId: 10704700219026285465
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.5
+        G: 0.655629
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9398431931771867526
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 11869995463601684459
+  Name: "Decal Road Sign Symbols"
+  Transform {
+    Location {
+      Y: -46.8369141
+    }
+    Rotation {
+      Yaw: -89.9999924
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 0.290949315
+      Y: 0.290949315
+      Z: 0.290949315
+    }
+  }
+  ParentId: 10704700219026285465
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1.5
+        G: 0.655629
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 10
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 9398431931771867526
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 14412830890639479217
+  Name: "Corner - Smoothed - 01"
+  Transform {
+    Location {
+      X: -1225
+      Y: 5420
+      Z: 1305
+    }
+    Rotation {
+      Pitch: -1.36603776e-05
+      Yaw: 180
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.25
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14563714857969510279
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 348110065424704878
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12251411296848886975
+  Name: "Corner - Smoothed - 01"
+  Transform {
+    Location {
+      X: -420
+      Y: 5420
+      Z: 1360
+    }
+    Rotation {
+      Roll: -89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.25
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 14563714857969510279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 348110065424704878
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15046925657313160933
+  Name: "ST2_TrashContainer"
+  Transform {
+    Location {
+      X: -6900
+      Y: 2925
+      Z: -345.701965
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 0.806910872
+      Y: 0.806910872
+      Z: 0.806910872
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4016452087856112601
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_TrashContainer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7781.19971
+            Y: 2746.08032
+            Z: -345.701965
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.806910872
+            Y: 0.806910872
+            Z: 0.806910872
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10906124830661525638
+    }
+  }
+}
+Objects {
   Id: 15284963825699475846
   Name: "ST2_Vending_Machine_Advance_03"
   Transform {
@@ -2732,10 +3502,10 @@ Objects {
   ChildIds: 17582719780028834143
   ChildIds: 16178514448903926718
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3048,10 +3818,10 @@ Objects {
   ChildIds: 17008067940213908024
   ChildIds: 14317751057640076173
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5278,8 +6048,8 @@ Objects {
   Name: "Top Button"
   Transform {
     Location {
-      X: -250
-      Y: 125
+      X: -249.999969
+      Y: 143.612152
     }
     Rotation {
     }
@@ -5295,10 +6065,10 @@ Objects {
   ChildIds: 15719196827011772013
   ChildIds: 15307041522860924734
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5611,10 +6381,10 @@ Objects {
   ChildIds: 43017018231007625
   ChildIds: 14867164670175224523
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -7660,13 +8430,13 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 1876355522385362244
+        Id: 5477765928097652277
       }
     }
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 12621970885948864169
+        Id: 5477765928097652277
       }
     }
     Overrides {
@@ -8314,13 +9084,13 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:id"
       AssetReference {
-        Id: 1876355522385362244
+        Id: 5477765928097652277
       }
     }
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 12182096140408725983
+        Id: 5477765928097652277
       }
     }
     Overrides {
@@ -8330,7 +9100,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 12621970885948864169
+        Id: 5477765928097652277
       }
     }
     Overrides {
@@ -8345,6 +9115,12 @@ Objects {
     Overrides {
       Name: "ma:Building_WallOuter:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_TrimInner:id"
+      AssetReference {
+        Id: 5477765928097652277
+      }
     }
   }
   Collidable_v2 {
@@ -9099,259 +9875,6 @@ Objects {
     }
   }
   ParentId: 12013832024471706347
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 13171200732535708403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 2.97927499
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 2.11541629
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7038191064136763
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 0.956667125
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.43848467
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1.02
-        G: 2.44927049
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 550227170375246561
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14077062180348863019
-  Name: "Windows"
-  Transform {
-    Location {
-      X: -7145
-      Y: 5910
-      Z: 1140
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13806498739066217100
-  ChildIds: 513682837902147074
-  ChildIds: 11380258714156137593
-  ChildIds: 7911671069251294722
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7911671069251294722
-  Name: "Office Cubicle Cabinet 03"
-  Transform {
-    Location {
-      X: -175
-      Y: 51.9604492
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 2
-      Y: 1
-      Z: 3
-    }
-  }
-  ParentId: 14077062180348863019
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 1876355522385362244
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14436456058292222270
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 11380258714156137593
-  Name: "Office Cubicle Cabinet 03"
-  Transform {
-    Location {
-      X: 225
-      Y: 51.9604492
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 2
-      Y: 1
-      Z: 3
-    }
-  }
-  ParentId: 14077062180348863019
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 1876355522385362244
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14436456058292222270
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 513682837902147074
-  Name: "WindowMetalSheet"
-  Transform {
-    Location {
-      X: -178.478516
-      Y: -40
-      Z: 156.841919
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 36.8698845
-      Roll: 53.130188
-    }
-    Scale {
-      X: 0.692675829
-      Y: 1.96868193
-      Z: 2.40285063
-    }
-  }
-  ParentId: 14077062180348863019
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -10286,11 +10809,12 @@ Objects {
       Z: -25
     }
     Rotation {
+      Pitch: 15.6748323
     }
     Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
+      X: 0.635869741
+      Y: 0.635869741
+      Z: 0.635869741
     }
   }
   ParentId: 13806498739066217100
@@ -10353,13 +10877,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.77
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
@@ -10370,6 +10887,14 @@ Objects {
       Name: "ma:Font.Bevel:color"
       Color {
         R: 0.77
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10437,13 +10962,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.77
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
@@ -10454,6 +10972,14 @@ Objects {
       Name: "ma:Font.Bevel:color"
       Color {
         R: 0.77
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10488,7 +11014,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
-      X: -200
+      X: -240
     }
     Rotation {
       Yaw: -179.999954
@@ -10527,16 +11053,17 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
+      Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
         A: 1
       }
     }
     Overrides {
-      Name: "ma:Font.Sides:color"
+      Name: "ma:Font.Faces:color"
       Color {
-        R: 0.77
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10571,7 +11098,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
-      X: -100
+      X: -140
     }
     Rotation {
       Yaw: -179.999954
@@ -10610,16 +11137,17 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
+      Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
         A: 1
       }
     }
     Overrides {
-      Name: "ma:Font.Sides:color"
+      Name: "ma:Font.Faces:color"
       Color {
-        R: 0.77
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10654,6 +11182,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
+      X: -40
     }
     Rotation {
       Yaw: -179.999969
@@ -10692,16 +11221,17 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
+      Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
         A: 1
       }
     }
     Overrides {
-      Name: "ma:Font.Sides:color"
+      Name: "ma:Font.Faces:color"
       Color {
-        R: 0.77
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10742,9 +11272,9 @@ Objects {
       Yaw: -179.999985
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.5
+      Y: 1.5
+      Z: 1.5
     }
   }
   ParentId: 17377718413777456040
@@ -10775,16 +11305,17 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
+      Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
         A: 1
       }
     }
     Overrides {
-      Name: "ma:Font.Sides:color"
+      Name: "ma:Font.Faces:color"
       Color {
-        R: 0.77
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10852,13 +11383,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.77
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
@@ -10869,6 +11393,14 @@ Objects {
       Name: "ma:Font.Bevel:color"
       Color {
         R: 0.77
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10936,13 +11468,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Font.Faces:color"
-      Color {
-        R: 0.77
-        A: 1
-      }
-    }
-    Overrides {
       Name: "ma:Font.Sides:color"
       Color {
         R: 0.77
@@ -10953,6 +11478,14 @@ Objects {
       Name: "ma:Font.Bevel:color"
       Color {
         R: 0.77
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:color"
+      Color {
+        R: 0.852318048
+        B: 0.9
         A: 1
       }
     }
@@ -10987,16 +11520,17 @@ Objects {
   Name: "Buy"
   Transform {
     Location {
-      X: -9150
+      X: -9154.08887
       Y: 6800
-      Z: 175
+      Z: 142.882172
     }
     Rotation {
+      Pitch: -6.68704224
     }
     Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
+      X: 0.618979096
+      Y: 0.618979096
+      Z: 0.618979096
     }
   }
   ParentId: 13806498739066217100
@@ -11025,7 +11559,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
-      X: -210
+      X: -253.525391
       Z: 25
     }
     Rotation {
@@ -11065,22 +11599,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11112,7 +11630,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
-      X: -210
+      X: -253.525391
       Z: 100
     }
     Rotation {
@@ -11146,22 +11664,6 @@ Objects {
     }
     Overrides {
       Name: "ma:Font.Faces:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
       Color {
         G: 0.88
         B: 0.075761795
@@ -11239,22 +11741,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11326,22 +11812,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11373,7 +11843,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
-      X: -105
+      X: -150
     }
     Rotation {
       Yaw: -179.999954
@@ -11412,22 +11882,6 @@ Objects {
         A: 1
       }
     }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -11459,6 +11913,7 @@ Objects {
   Name: "Text 06: B"
   Transform {
     Location {
+      X: -45
     }
     Rotation {
       Yaw: -179.999969
@@ -11491,22 +11946,6 @@ Objects {
     }
     Overrides {
       Name: "ma:Font.Faces:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
       Color {
         G: 0.88
         B: 0.075761795
@@ -11550,9 +11989,9 @@ Objects {
       Yaw: -179.999985
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.25
+      Y: 1.25
+      Z: 1.25
     }
   }
   ParentId: 6756241614531738607
@@ -11577,22 +12016,6 @@ Objects {
     }
     Overrides {
       Name: "ma:Font.Faces:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Sides:color"
-      Color {
-        G: 0.88
-        B: 0.075761795
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Font.Bevel:color"
       Color {
         G: 0.88
         B: 0.075761795
@@ -15104,33 +15527,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 978020837547943910
-      value {
-        Overrides {
-          Name: "bp:Wind Speed"
-          Vector {
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 8.72509766
-            Y: 2.8203125
-            Z: 84.6078186
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.2395197
-            Y: 0.2395197
-            Z: 0.2395197
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 6154959236174666482
       value {
         Overrides {
@@ -15148,14 +15544,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -16564,7 +16952,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Intensity"
-      Float: 0.535091519
+      Float: 1.14081395
     }
     Overrides {
       Name: "bp:Blend Amount"

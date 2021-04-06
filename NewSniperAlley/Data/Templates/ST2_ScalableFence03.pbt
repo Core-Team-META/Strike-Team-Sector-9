@@ -36,14 +36,18 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: 0.818359375
+            X: 0.814940929
+            Y: -1.94297144e-07
+            Z: 0.105041504
           }
           Rotation {
-            Yaw: 95.5354691
+            Pitch: -0.354736328
+            Yaw: 95.524086
+            Roll: 3.66260719
           }
           Scale {
-            X: 0.439005733
-            Y: 0.999978185
+            X: 2.8182714
+            Y: 0.999992549
             Z: 1
           }
         }
@@ -58,9 +62,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.321
-              G: 0.321
-              B: 0.321
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
           }
@@ -102,11 +106,13 @@ Assets {
             X: -0.818359375
           }
           Rotation {
-            Yaw: 95.5354691
+            Pitch: -0.354736328
+            Yaw: 95.524086
+            Roll: 3.66260719
           }
           Scale {
-            X: 0.439005733
-            Y: 0.999978185
+            X: 2.8182714
+            Y: 0.999992549
             Z: 1
           }
         }

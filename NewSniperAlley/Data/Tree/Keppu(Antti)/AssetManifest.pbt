@@ -188,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12632251234297570874
+  Name: "Urban Pipe Cap 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
+  }
+}
+Assets {
   Id: 12621970885948864169
   Name: "Wood Planks Beveled Raised 01"
   PlatformAssetType: 2
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_cabinet_003_ref"
+  }
+}
+Assets {
+  Id: 9398431931771867526
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
   }
 }
 Assets {
@@ -473,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_wall_01"
+  }
+}
+Assets {
+  Id: 348110065424704878
+  Name: "Corner - Smoothed - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corner_smooth_001_ref"
   }
 }
 Assets {

@@ -59,13 +59,40 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12077323529323451140
+              Id: 4201650381714901540
             }
           }
           Overrides {
             Name: "ma:Shared_Lights:id"
             AssetReference {
               Id: 12077323529323451140
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              R: 0.149
+              G: 0.149
+              B: 0.149
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.149
+              G: 0.149
+              B: 0.149
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              R: 0.149
+              G: 0.149
+              B: 0.149
+              A: 1
             }
           }
         }
@@ -180,15 +207,15 @@ Assets {
         Transform {
           Location {
             X: 8.72509766
-            Y: -3.16577148
-            Z: 82.2925415
+            Y: 2.8203125
+            Z: 84.6078186
           }
           Rotation {
           }
           Scale {
-            X: 0.26931861
-            Y: 0.26931861
-            Z: 0.26931861
+            X: 0.2395197
+            Y: 0.2395197
+            Z: 0.2395197
           }
         }
         ParentId: 6056063762630306394
@@ -206,6 +233,12 @@ Assets {
           Overrides {
             Name: "bp:Emissive Boost"
             Float: 41.1195221
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+              Z: 100
+            }
           }
         }
         Collidable_v2 {

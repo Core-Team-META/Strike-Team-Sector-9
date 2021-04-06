@@ -19,8 +19,6 @@ local UPELEVATOR = script:GetCustomProperty("UpElevator")-- Keppu (Antti) Apr. 6
 local isMoving = false
 local isAtBottom = true			-- Or moving towards the bottom
 
-Task.Wait(1)
-if not UPELEVATOR then SendElevator(false) end
 
 function SendElevator(toBottom)
 	isMoving = true
@@ -90,3 +88,5 @@ function OnBeginOverlap(theTrigger, player)
 end
 AUTOACTIVE_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
 
+Task.Wait(1)
+if not UPELEVATOR then SendElevator(false) end

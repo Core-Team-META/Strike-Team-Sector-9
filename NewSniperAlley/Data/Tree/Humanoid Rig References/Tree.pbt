@@ -1,6 +1,65 @@
 Name: "Humanoid Rig References"
 RootId: 11431536855007929012
 Objects {
+  Id: 4053872033439888889
+  Name: "Humanoid 2 Rig"
+  Transform {
+    Location {
+      X: -4295
+      Y: 6295
+      Z: 9.99989319
+    }
+    Rotation {
+      Yaw: 135
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11431536855007929012
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16237330725608463998
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+      SkinnedMeshes {
+        Id: 17759641504777558449
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+      SkinnedMeshes {
+        Id: 841534158063459245
+      }
+    }
+  }
+}
+Objects {
   Id: 5376322217575429370
   Name: "Humanoid 2 Rig"
   Transform {
@@ -1481,65 +1540,6 @@ Objects {
     }
     Rotation {
       Yaw: 157.500092
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11431536855007929012
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16237330725608463998
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-      SkinnedMeshes {
-        Id: 17759641504777558449
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-    }
-  }
-}
-Objects {
-  Id: 593765680584342357
-  Name: "Humanoid 2 Rig"
-  Transform {
-    Location {
-      X: -7340
-      Y: 2520
-      Z: 9.99989319
-    }
-    Rotation {
-      Yaw: 135
     }
     Scale {
       X: 1

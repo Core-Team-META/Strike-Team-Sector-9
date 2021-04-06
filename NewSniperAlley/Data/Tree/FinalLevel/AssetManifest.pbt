@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13832572340236658068
+  Name: "Metal Frame 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_001_uv"
+  }
+}
+Assets {
   Id: 13826046615942597993
   Name: "Ceramic Tile Rectangle 01"
   PlatformAssetType: 2
@@ -3122,6 +3131,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2829304148396294310
+  Name: "Metal Grates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_002_uv"
+  }
+}
+Assets {
   Id: 2825736010572694941
   Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
   PlatformAssetType: 7
@@ -3344,6 +3362,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon3_Ender_1s_db"
+  }
+}
+Assets {
+  Id: 1748546920278996658
+  Name: "Tech Panel 05"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_005"
   }
 }
 Assets {

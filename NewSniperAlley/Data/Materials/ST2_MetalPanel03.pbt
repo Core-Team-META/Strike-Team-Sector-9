@@ -27,9 +27,9 @@ Assets {
       Overrides {
         Name: "color_lights"
         Color {
-          R: 0.253000021
-          G: 0.253000021
-          B: 0.253000021
+          R: 0.052
+          G: 0.052
+          B: 0.052
           A: 1
         }
       }
@@ -48,6 +48,10 @@ Assets {
       Overrides {
         Name: "roughness_multiplier"
         Float: 1
+      }
+      Overrides {
+        Name: "material_scale"
+        Float: 3
       }
     }
     Assets {

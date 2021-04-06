@@ -17,7 +17,7 @@ Assets {
       }
       Overrides {
         Name: "roughness_multiplier"
-        Float: 1
+        Float: 0.393817574
       }
       Overrides {
         Name: "material_scale"
