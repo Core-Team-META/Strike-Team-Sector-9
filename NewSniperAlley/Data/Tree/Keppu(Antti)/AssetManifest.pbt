@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14436456058292222270
-  Name: "Office Cubicle Cabinet 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_off_cubicle_cabinet_002_ref"
-  }
-}
-Assets {
   Id: 14252477554119905253
   Name: "Text 06: #"
   PlatformAssetType: 1

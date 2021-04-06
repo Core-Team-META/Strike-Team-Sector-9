@@ -1,6 +1,397 @@
 Name: "Keppu(Antti)"
 RootId: 13806498739066217100
 Objects {
+  Id: 8967887193917862172
+  Name: "ST2_Windows01"
+  Transform {
+    Location {
+      X: -4280
+      Y: 1190
+      Z: 402.313385
+    }
+    Rotation {
+      Yaw: 89.9999924
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8751353678416831899
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Windows01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4280
+            Y: 490
+            Z: 402.313385
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17721521038531540087
+    }
+  }
+}
+Objects {
+  Id: 17877416149862355388
+  Name: "ST2_Windows01"
+  Transform {
+    Location {
+      X: -4820
+      Y: 1998.79639
+      Z: 402.313385
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8751353678416831899
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Windows01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4280
+            Y: 1190
+            Z: 402.313385
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17721521038531540087
+    }
+  }
+}
+Objects {
+  Id: 8722303602785889116
+  Name: "ST2_AdWallStand"
+  Transform {
+    Location {
+      X: -4365
+      Y: 2257.47607
+      Z: 337.202637
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7286582204002177204
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Roll: 68.2747955
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11022247828051661699
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Roll: 75.6443787
+          }
+        }
+        Overrides {
+          Name: "ma:Building_WallInner:color"
+          Color {
+            R: 4.43708897
+            B: 5
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Building_WallInner2:color"
+          Color {
+            R: 4.43708897
+            B: 5
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13509168203250605150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_AdWallStand"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7885.84424
+            Y: 1237.91907
+            Z: 358.808655
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -166.477554
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5431699516081451782
+    }
+  }
+}
+Objects {
+  Id: 14477138372038048587
+  Name: "ST2_Windows01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8751353678416831899
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Windows01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4820
+            Y: 1998.79639
+            Z: 402.313385
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17721521038531540087
+    }
+  }
+}
+Objects {
+  Id: 1178002564469271863
+  Name: "ST2_VentilationSystemSingle01"
+  Transform {
+    Location {
+      X: -6497.83447
+      Y: 5855
+      Z: 2118.69067
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 0.822817385
+      Y: 0.822817385
+      Z: 0.822817385
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17100982661065910884
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 17.2050781
+            Y: 17.1720581
+            Z: 3.59423828
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17401520069693517717
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_VentilationSystemSingle01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4954.84033
+            Y: 5783.57813
+            Z: 1247.90503
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.563448906
+            Y: 0.563448906
+            Z: 0.563448906
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6425158626833403444
+    }
+  }
+}
+Objects {
+  Id: 8173870986576114096
+  Name: "ST2_WindowsNarrow01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9983978317185264800
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_WindowsNarrow01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6422.23535
+            Y: 2010.00708
+            Z: 410
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1494024171489524223
+    }
+  }
+}
+Objects {
   Id: 1254859095528067753
   Name: "Urban Pipe Cap 03"
   Transform {
@@ -799,7 +1190,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -5235
-            Y: 2665
+            Y: 2575
             Z: -335
           }
         }
@@ -852,8 +1243,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4480
-            Y: 4390
+            X: -5230
+            Y: 2815
             Z: -334.999878
           }
         }
@@ -1382,6 +1773,277 @@ Objects {
     }
   }
   ParentId: 10687259465387511810
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Neon:color"
+      Color {
+        R: 0.849999189
+        G: 0.849999189
+        B: 10
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14692022753705478714
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12723072952016865292
+  Name: "Group"
+  Transform {
+    Location {
+      X: -6164.77051
+      Y: 3850.17114
+      Z: 870.528381
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.239823461
+      Y: 0.239823461
+      Z: 0.239823461
+    }
+  }
+  ParentId: 13806498739066217100
+  ChildIds: 3668424691860856583
+  ChildIds: 2192693598354674231
+  ChildIds: 11468328946056803009
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 11468328946056803009
+  Name: "Sign Font 1 Neon Outline: {"
+  Transform {
+    Location {
+      X: -505.923828
+      Y: -0.00219726563
+    }
+    Rotation {
+      Yaw: 179.999878
+    }
+    Scale {
+      X: 7.00000048
+      Y: 7.00000048
+      Z: 7.00000048
+    }
+  }
+  ParentId: 12723072952016865292
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Neon:color"
+      Color {
+        R: 0.849999189
+        G: 0.849999189
+        B: 10
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14831429118183852393
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2192693598354674231
+  Name: "Sign Font 1 Neon Outline: {"
+  Transform {
+    Location {
+      X: -85.9238281
+      Y: -0.00268554688
+    }
+    Rotation {
+      Yaw: 179.999878
+    }
+    Scale {
+      X: 7.00000048
+      Y: 7.00000048
+      Z: 7.00000048
+    }
+  }
+  ParentId: 12723072952016865292
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Font_Neon:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font_Neon:color"
+      Color {
+        R: 0.849999189
+        G: 0.849999189
+        B: 10
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 11942190256914025501
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 268928820224367692
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3668424691860856583
+  Name: "Sign Font 1 Neon Outline: {"
+  Transform {
+    Location {
+      X: 591.848145
+      Y: 0.00439453125
+    }
+    Rotation {
+      Yaw: 179.999924
+    }
+    Scale {
+      X: 7.00000048
+      Y: 7.00000048
+      Z: 7.00000048
+    }
+  }
+  ParentId: 12723072952016865292
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -6737,8 +7399,8 @@ Objects {
   Transform {
     Location {
       X: -4960
-      Y: 1913.82324
-      Z: 920.099854
+      Y: 1990
+      Z: 900
     }
     Rotation {
     }
@@ -8180,7 +8842,7 @@ Objects {
   Transform {
     Location {
       X: -6104.92041
-      Y: 5315
+      Y: 5330
       Z: 1020.72571
     }
     Rotation {
@@ -9024,7 +9686,7 @@ Objects {
   Transform {
     Location {
       X: -900
-      Y: -400
+      Y: -395
     }
     Rotation {
       Roll: 180
@@ -9759,195 +10421,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12013832024471706347
-  Name: "Window"
-  Transform {
-    Location {
-      X: -5049.66357
-      Y: 5932.44824
-      Z: 1140
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13806498739066217100
-  ChildIds: 2689017922680454898
-  ChildIds: 13683580411205097457
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13683580411205097457
-  Name: "Office Cubicle Cabinet 03"
-  Transform {
-    Location {
-      X: 225
-      Y: 51.9604492
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
-    Scale {
-      X: 2
-      Y: 1
-      Z: 3
-    }
-  }
-  ParentId: 12013832024471706347
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 1876355522385362244
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14436456058292222270
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2689017922680454898
-  Name: "WindowMetalSheet"
-  Transform {
-    Location {
-      X: 25.1049805
-      Y: -40
-      Z: 156.841919
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 36.8698845
-      Roll: 53.130188
-    }
-    Scale {
-      X: 0.69267565
-      Y: 0.972119391
-      Z: 2.40284944
-    }
-  }
-  ParentId: 12013832024471706347
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 13171200732535708403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 2.97927499
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 2.11541629
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7038191064136763
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 0.956667125
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.43848467
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1.02
-        G: 2.44927049
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 550227170375246561
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 1079291834171887243
   Name: "Windows"
   Transform {
@@ -10010,6 +10483,10 @@ Objects {
       AssetReference {
         Id: 1876355522385362244
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -10135,7 +10612,7 @@ Objects {
   Name: "Windows"
   Transform {
     Location {
-      X: -5045
+      X: -4730
       Y: 5910
       Z: 1540
     }
@@ -10150,9 +10627,6 @@ Objects {
   ParentId: 13806498739066217100
   ChildIds: 14781700282099280265
   ChildIds: 557428294768738194
-  ChildIds: 7415065591075842840
-  ChildIds: 1385616028015880489
-  ChildIds: 3997838818881394608
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10164,285 +10638,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 3997838818881394608
-  Name: "WindowMetalSheet"
-  Transform {
-    Location {
-      X: -2005
-      Y: -145
-      Z: 5490
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 90
-      Roll: 5.34057617e-05
-    }
-    Scale {
-      X: 18.25
-      Y: 1.25
-      Z: 2.5
-    }
-  }
-  ParentId: 11941913418185027758
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 13171200732535708403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 2.97927499
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 2.11541629
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7038191064136763
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 11.8796835
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.43848467
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1.02
-        G: 2.44927049
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 550227170375246561
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1385616028015880489
-  Name: "WindowMetalSheet"
-  Transform {
-    Location {
-      X: -1455
-      Y: -145
-      Z: 5490
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 26.565033
-      Roll: 63.4350281
-    }
-    Scale {
-      X: 18.25
-      Y: 1.25
-      Z: 2.5
-    }
-  }
-  ParentId: 11941913418185027758
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 13171200732535708403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 2.97927499
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 2.11541629
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7038191064136763
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 11.8796835
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.43848467
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1.02
-        G: 2.44927049
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 550227170375246561
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7415065591075842840
-  Name: "WindowMetalSheet"
-  Transform {
-    Location {
-      X: -905
-      Y: -145
-      Z: 5490
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -90
-      Roll: -179.999924
-    }
-    Scale {
-      X: 18.25
-      Y: 1.25
-      Z: 2.5
-    }
-  }
-  ParentId: 11941913418185027758
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 13171200732535708403
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:utile"
-      Float: 2.97927499
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:vtile"
-      Float: 2.11541629
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7038191064136763
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 11.8796835
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.43848467
-    }
-    Overrides {
-      Name: "ma:Shared_Detail2:color"
-      Color {
-        R: 1.02
-        G: 2.44927049
-        B: 3
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 550227170375246561
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
   }
 }
 Objects {
@@ -10475,6 +10670,10 @@ Objects {
       AssetReference {
         Id: 1876355522385362244
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -12241,7 +12440,7 @@ Objects {
   Name: "Windows"
   Transform {
     Location {
-      X: -4655
+      X: -4335
       Y: 6700
       Z: 1140
     }
@@ -12361,6 +12560,10 @@ Objects {
         Id: 1876355522385362244
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -12417,6 +12620,10 @@ Objects {
       AssetReference {
         Id: 1876355522385362244
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -13675,6 +13882,10 @@ Objects {
         Id: 1876355522385362244
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -14566,73 +14777,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7976944970058828945
-  Name: "ST2_VentilationSystemSingle01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13806498739066217100
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17100982661065910884
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 17.2050781
-            Y: 17.1720581
-            Z: 3.59423828
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17401520069693517717
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_VentilationSystemSingle01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6497.83447
-            Y: 5855
-            Z: 2118.69067
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -179.999985
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.822817385
-            Y: 0.822817385
-            Z: 0.822817385
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6425158626833403444
-    }
-  }
-}
-Objects {
   Id: 12628314410255825686
   Name: "ST2_Vent_Cube"
   Transform {
@@ -14740,6 +14884,10 @@ Objects {
       AssetReference {
         Id: 1876355522385362244
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -14923,6 +15071,10 @@ Objects {
         Id: 1876355522385362244
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -15104,6 +15256,10 @@ Objects {
       AssetReference {
         Id: 1876355522385362244
       }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -16132,6 +16288,67 @@ Objects {
     }
     TemplateAsset {
       Id: 14793034343264454762
+    }
+  }
+}
+Objects {
+  Id: 14739987922399586026
+  Name: "ST2_AdWallStand"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13806498739066217100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7286582204002177204
+      value {
+        Overrides {
+          Name: "ma:Building_WallInner:color"
+          Color {
+            R: 4.43708897
+            B: 5
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Building_WallInner2:color"
+          Color {
+            R: 4.43708897
+            B: 5
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13509168203250605150
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_AdWallStand"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4365
+            Y: 2257.47607
+            Z: 337.202637
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5431699516081451782
     }
   }
 }

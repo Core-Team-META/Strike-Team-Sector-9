@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
   Id: 783814044870915271
   Name: "Whitebox Wall 01 Half"
   PlatformAssetType: 1

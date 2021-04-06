@@ -4,7 +4,7 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
-    BaseMaterialId: 2606200893917864133
+    BaseMaterialId: 18339968451170207572
     ParameterOverrides {
       Overrides {
         Name: "color"
@@ -25,12 +25,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2606200893917864133
-      Name: "Metal Painted 01"
+      Id: 18339968451170207572
+      Name: "Metal Painted Old 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_painted_new_001_uv"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
   }

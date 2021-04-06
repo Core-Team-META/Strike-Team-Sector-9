@@ -29,7 +29,8 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          G: 0.880794287
+          R: 1
+          G: 1
           B: 1
           A: 0.520000041
         }

@@ -6,6 +6,10 @@ Assets {
   CustomMaterialAsset {
     BaseMaterialId: 1778715206891753348
     ParameterOverrides {
+      Overrides {
+        Name: "roughness_multiplier"
+        Float: 0.635335803
+      }
     }
     Assets {
       Id: 1778715206891753348

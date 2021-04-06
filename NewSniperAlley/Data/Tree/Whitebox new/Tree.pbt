@@ -11345,7 +11345,7 @@ Objects {
   Transform {
     Location {
       X: -7855
-      Y: 4950
+      Y: 4935
       Z: 1008.76221
     }
     Rotation {
@@ -11633,7 +11633,7 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
+      X: 0.75
       Y: 2.5
       Z: 1
     }
