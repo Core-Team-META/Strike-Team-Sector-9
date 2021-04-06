@@ -13,9 +13,14 @@ local ACTIVATION_DELAY = ELEVATOR_SYSTEM:GetCustomProperty("ActivationDelay")
 local BOTTOM_POSITION = BOTTOM_LANDING:GetWorldPosition()
 local TOP_POSITION = TOP_LANDING:GetWorldPosition()
 local MOVE_DURATION = (TOP_POSITION.z - BOTTOM_POSITION.z) / SPEED
+local WAIT_DURATION = script:GetCustomProperty("WaitDuration")-- Keppu (Antti) Apr. 6 2021
+local UPELEVATOR = script:GetCustomProperty("UpElevator")-- Keppu (Antti) Apr. 6 2021
 
 local isMoving = false
 local isAtBottom = true			-- Or moving towards the bottom
+
+Task.Wait(1)
+if not UPELEVATOR then SendElevator(false) end
 
 function SendElevator(toBottom)
 	isMoving = true
@@ -41,6 +46,10 @@ function SendElevator(toBottom)
 
 	ELEVATOR_TRIGGER.collision = Collision.INHERIT
 	isMoving = false
+
+	Task.Wait(WAIT_DURATION) -- Keppu (Antti) Apr. 6 2021
+	if UPELEVATOR then SendElevator(true) else SendElevator(false) end  -- Keppu (Antti) Apr. 6 2021
+
 end
 
 function OnInteracted_Bottom(trigger, player)
@@ -80,3 +89,4 @@ function OnBeginOverlap(theTrigger, player)
 	end
 end
 AUTOACTIVE_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
+

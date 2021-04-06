@@ -80,12 +80,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14831429118183852393
+  Name: "Text 02: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_002"
+  }
+}
+Assets {
   Id: 14697405062555329113
   Name: "Ambient Occlusion Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_ao"
+  }
+}
+Assets {
+  Id: 14692022753705478714
+  Name: "Text 02: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_012"
   }
 }
 Assets {
@@ -464,6 +482,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_car_crash_heavy_metal_impact_01a_Cue_ref"
+  }
+}
+Assets {
+  Id: 268928820224367692
+  Name: "Text 02: J"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_009"
   }
 }
 Assets {
