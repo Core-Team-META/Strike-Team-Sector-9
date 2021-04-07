@@ -31,7 +31,6 @@ Objects {
   ChildIds: 8481577982759061164
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
-  ChildIds: 12456634279631481812
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,52 +43,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 12456634279631481812
-  Name: "ST2_Shack1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13809542681028617261
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Shack1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4965
-            Y: 2615
-            Z: -330
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5553435739148436032
-    }
   }
 }
 Objects {

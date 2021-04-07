@@ -10,13 +10,14 @@ Assets {
         Name: "ST2_HangingVent01"
         Transform {
           Scale {
-            X: 0.818373859
-            Y: 0.818373859
-            Z: 0.818373859
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
           }
         }
         ParentId: 7129798475479384880
         ChildIds: 16726929325659430345
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -48,6 +49,7 @@ Assets {
         ChildIds: 18322994608235510341
         ChildIds: 8578452778040941161
         ChildIds: 11465306164776463426
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -143,6 +145,8 @@ Assets {
         ChildIds: 15118140364096015512
         ChildIds: 17890053981617006569
         ChildIds: 4851662067846889724
+        ChildIds: 5097934084011658711
+        ChildIds: 17111888124157868250
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -613,6 +617,132 @@ Assets {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+        ParentId: 8578452778040941161
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 5527318950799690726
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.869075656
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.67952621
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1967454480797501765
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5097934084011658711
+        Name: "VentPiece"
+        Transform {
+          Location {
+            Y: -63.7902
+            Z: 51.692379
+          }
+          Rotation {
+            Roll: 128.860474
+          }
+          Scale {
+            X: 0.999999642
+            Y: 0.999999642
+            Z: 0.999999642
+          }
+        }
+        ParentId: 8578452778040941161
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 5527318950799690726
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.869075656
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 0.67952621
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 1967454480797501765
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17111888124157868250
+        Name: "VentPiece"
+        Transform {
+          Location {
+            Y: 599.997681
+            Z: -19.77425
+          }
+          Rotation {
+            Roll: 55.7855148
+          }
+          Scale {
+            X: 0.999999642
+            Y: 0.999999642
+            Z: 0.999999642
           }
         }
         ParentId: 8578452778040941161

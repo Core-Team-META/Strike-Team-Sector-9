@@ -377,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16586186569353536175
+  Name: "Text 06: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_004"
+  }
+}
+Assets {
   Id: 16569967721778793374
   Name: "Transparent Bubble Glass"
   PlatformAssetType: 2
@@ -473,6 +482,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_meter_parking_top_001_ref"
+  }
+}
+Assets {
+  Id: 16261184967792815036
+  Name: "Street Light 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_light_001"
   }
 }
 Assets {
@@ -719,6 +737,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14831429118183852393
+  Name: "Text 02: C"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_002"
+  }
+}
+Assets {
   Id: 14800789141718969789
   Name: "Column Topper 02"
   PlatformAssetType: 1
@@ -761,6 +788,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_square_thin_ref"
+  }
+}
+Assets {
+  Id: 14692022753705478714
+  Name: "Text 02: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_012"
+  }
+}
+Assets {
+  Id: 14614056576813174129
+  Name: "Metal Diamond Plates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_diamond-plate_001"
   }
 }
 Assets {
@@ -881,6 +926,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14252477554119905253
+  Name: "Text 06: #"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_039"
+  }
+}
+Assets {
   Id: 14231809728886464860
   Name: "Wood Raw White"
   PlatformAssetType: 2
@@ -896,6 +950,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
+  Id: 14172315365702108387
+  Name: "Car Crash Heavy Metal Impact 02 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_car_crash_heavy_metal_impact_02a_Cue_ref"
   }
 }
 Assets {
@@ -950,6 +1013,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Boba"
+  }
+}
+Assets {
+  Id: 14032689756719721565
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -1031,6 +1103,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_001"
+  }
+}
+Assets {
+  Id: 13564316571812339847
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -1304,15 +1385,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12604669115736314009
-  Name: "Ambience Ship Dock Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_ship_dock_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 12598129352734110789
   Name: "Corrugated Sheet Large"
   PlatformAssetType: 1
@@ -1430,6 +1502,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11917007313670209110
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
   Id: 11887549032181544333
   Name: "Impact Sparks VFX"
   PlatformAssetType: 8
@@ -1538,15 +1619,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11378977399214175520
-  Name: "Air Conditioned Room Tone Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_air_condition_room_tone_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 11378886407339488354
   Name: "Office Carpet Basic 01"
   PlatformAssetType: 2
@@ -1607,6 +1679,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_clear-coat_001"
+  }
+}
+Assets {
+  Id: 11163148617413220239
+  Name: "Sci-fi Base Ramp 02 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_floor_002_4m_angled_ref"
   }
 }
 Assets {
@@ -1790,6 +1871,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10237054757922467893
+  Name: "Text 06: U"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_020"
+  }
+}
+Assets {
   Id: 10211762008731431648
   Name: "Main Street Trim 04"
   PlatformAssetType: 1
@@ -1835,6 +1925,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10118410057604672200
+  Name: "Mechanical Gears Squeaky 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_mechanical_gears_squeaky_01_Cue_ref"
+  }
+}
+Assets {
   Id: 10116332148539442832
   Name: "Urban Parking Meter Pole"
   PlatformAssetType: 1
@@ -1859,6 +1958,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_012"
+  }
+}
+Assets {
+  Id: 10030873852422428647
+  Name: "I-Beam 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_i-beam_4m_001"
   }
 }
 Assets {
@@ -2168,6 +2276,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8081775035435034954
+  Name: "Main Street Wall 02 - Half Doorway 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_half_doorway_ref"
+  }
+}
+Assets {
   Id: 8027963421494365694
   Name: "Sci-fi Base Capsule 02 8m"
   PlatformAssetType: 1
@@ -2231,15 +2348,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7839208677685505157
-  Name: "Ambience Cave Designed 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_cave_designed_01_Cue_ref"
-  }
-}
-Assets {
   Id: 7766997663479197753
   Name: "Text 01: L"
   PlatformAssetType: 1
@@ -2291,6 +2399,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_kite_001"
+  }
+}
+Assets {
+  Id: 7480552155571412389
+  Name: "Metal Diamond Plates 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_diamond-plate_002"
+  }
+}
+Assets {
+  Id: 7432621314570877942
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -2465,6 +2591,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6789594608035311611
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
   Id: 6787262208996147711
   Name: "Metal Complex Tech Panel Wall 03"
   PlatformAssetType: 2
@@ -2480,6 +2615,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonFont2_Text_008"
+  }
+}
+Assets {
+  Id: 6713301730188216932
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
   }
 }
 Assets {
@@ -2606,6 +2750,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_005_ref"
+  }
+}
+Assets {
+  Id: 5998301750682578824
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -2960,6 +3113,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3654123690471764078
+  Name: "Text 06: B"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_001"
+  }
+}
+Assets {
   Id: 3604252656281658198
   Name: "Whitebox Stairs 01 L"
   PlatformAssetType: 1
@@ -3011,15 +3173,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
-  }
-}
-Assets {
-  Id: 3220575346520405379
-  Name: "Ambience City Night Distant Traffic Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_city_night_distant_traffic_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -3086,12 +3239,30 @@ Assets {
   }
 }
 Assets {
+  Id: 3076412631196887594
+  Name: "Text 06: Y"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_024"
+  }
+}
+Assets {
   Id: 3016527118274735730
   Name: "Road Ramp Midsection Center"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_ramp_mid_mid_001"
+  }
+}
+Assets {
+  Id: 2968082076867468797
+  Name: "Text 06: S"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_018"
   }
 }
 Assets {
@@ -3104,12 +3275,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2922842638408882506
-  Name: "Military Loudspeaker Unintelligible Broadcast Loop 01 SFX"
-  PlatformAssetType: 7
+  Id: 2942971563143602674
+  Name: "Shipping Container Side 6m"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_military_loudspeaker_unintelligible_broadcast_loop_01_Cue_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wall_shipping_container_6m_001"
   }
 }
 Assets {
@@ -3149,6 +3320,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2813132699335812984
+  Name: "Text 06: L"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F8_Text_011"
+  }
+}
+Assets {
   Id: 2805121172112350453
   Name: "Metal 9 Slice Lockers 01"
   PlatformAssetType: 2
@@ -3164,6 +3344,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_barrier_pedestrian_001"
+  }
+}
+Assets {
+  Id: 2727467945905195560
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -3455,6 +3644,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1385909602603260515
+  Name: "Whitebox Wall 01 Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_tri"
+  }
+}
+Assets {
   Id: 1378719400991316622
   Name: "Urban Trash Can 02"
   PlatformAssetType: 1
@@ -3470,6 +3668,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_topper_corner_001"
+  }
+}
+Assets {
+  Id: 1226156609164735191
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
   }
 }
 Assets {
@@ -3626,6 +3833,15 @@ Assets {
   }
 }
 Assets {
+  Id: 550227170375246561
+  Name: "Plane 4m - Two Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_4m_002"
+  }
+}
+Assets {
   Id: 539670975280601370
   Name: "Chain Link 01"
   PlatformAssetType: 2
@@ -3650,6 +3866,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
+  Id: 348110065424704878
+  Name: "Corner - Smoothed - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corner_smooth_001_ref"
+  }
+}
+Assets {
+  Id: 335575088398859448
+  Name: "Car Crash Heavy Metal Impact 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_car_crash_heavy_metal_impact_01a_Cue_ref"
+  }
+}
+Assets {
+  Id: 268928820224367692
+  Name: "Text 02: J"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "Text_009"
   }
 }
 Assets {
