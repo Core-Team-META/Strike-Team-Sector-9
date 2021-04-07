@@ -1,6 +1,6 @@
 Assets {
   Id: 13491739100585827813
-  Name: "Custom Concrete Basic 01"
+  Name: "ST_ConcreteGradient"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {

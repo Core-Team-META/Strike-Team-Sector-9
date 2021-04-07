@@ -449,15 +449,6 @@ Assets {
   }
 }
 Assets {
-  Id: 697130077529532955
-  Name: "Metal Painted Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_painted_metal_basic_001"
-  }
-}
-Assets {
   Id: 550227170375246561
   Name: "Plane 4m - Two Sided"
   PlatformAssetType: 1

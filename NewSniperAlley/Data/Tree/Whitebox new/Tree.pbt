@@ -2781,6 +2781,7 @@ Objects {
   ChildIds: 12422254231614702010
   ChildIds: 1153115445407188645
   ChildIds: 9814672176351124037
+  ChildIds: 16080831485931722464
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2792,6 +2793,50 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 16080831485931722464
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -1485
+      Y: -530
+      Z: 435
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.5
+      Y: 46
+      Z: 3.5
+    }
+  }
+  ParentId: 13560713532936808680
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -11662,6 +11707,12 @@ Objects {
       Name: "ma:Building_Floor:id"
       AssetReference {
         Id: 2899842837741361229
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 17921777321927090544
       }
     }
   }
