@@ -2,7 +2,7 @@ Assets {
   Id: 12494902583794210842
   Name: "ST2_MetalGreeblesBG"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 6945099431221796926
     ParameterOverrides {

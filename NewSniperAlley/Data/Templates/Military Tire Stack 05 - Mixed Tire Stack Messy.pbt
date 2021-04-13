@@ -404,5 +404,5 @@ Assets {
       AssetId: "Military_Tire_Stack_05_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

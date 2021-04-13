@@ -1943,5 +1943,5 @@ Assets {
       AssetId: "Rubble_Pile_Brick_-_Medium_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

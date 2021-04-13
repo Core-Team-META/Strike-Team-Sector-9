@@ -2,7 +2,7 @@ Assets {
   Id: 11189629668183138391
   Name: "ST2_ConcretePanelsPlaster01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
@@ -38,7 +38,7 @@ Assets {
       }
       Overrides {
         Name: "blend_amount"
-        Float: 0.284744829
+        Float: 0.276953936
       }
       Overrides {
         Name: "cmp:Material2"

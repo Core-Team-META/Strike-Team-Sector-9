@@ -13308,5 +13308,5 @@ Assets {
       AssetId: "Main_Street_Building_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 13456385994051131563
   Name: "ST2_SignMotel"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 6208893264273673412
     ParameterOverrides {

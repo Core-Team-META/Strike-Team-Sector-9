@@ -259,5 +259,5 @@ Assets {
       AssetId: "Military_Epic_Crate"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

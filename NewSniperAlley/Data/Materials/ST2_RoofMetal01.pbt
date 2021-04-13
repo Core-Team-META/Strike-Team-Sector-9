@@ -2,7 +2,7 @@ Assets {
   Id: 13747881684161660445
   Name: "ST2_RoofMetal01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 6433162899036951357
     ParameterOverrides {

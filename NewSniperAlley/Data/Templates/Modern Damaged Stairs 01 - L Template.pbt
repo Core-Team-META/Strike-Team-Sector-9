@@ -1606,5 +1606,5 @@ Assets {
       AssetId: "Modern_Damaged_Stairs_01_-_L_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

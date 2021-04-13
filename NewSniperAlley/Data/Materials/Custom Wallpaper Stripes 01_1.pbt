@@ -2,7 +2,7 @@ Assets {
   Id: 1920252559167803865
   Name: "Custom Wallpaper Stripes 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 8450051059172333250
     ParameterOverrides {

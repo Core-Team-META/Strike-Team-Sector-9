@@ -2,7 +2,7 @@ Assets {
   Id: 4532450000513749159
   Name: "ST2_RubberFloor01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 14638816248421548289
     ParameterOverrides {

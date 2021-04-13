@@ -2,7 +2,7 @@ Assets {
   Id: 16440439344232270023
   Name: "Urban Car Truck Racing 01 - Mirror 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 83
   CustomMaterialAsset {
     BaseMaterialId: 3459300278646396071
     ParameterOverrides {

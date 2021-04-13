@@ -30052,5 +30052,5 @@ Assets {
       AssetId: "Damaged_Main_Street_Building_Wide_Template"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }

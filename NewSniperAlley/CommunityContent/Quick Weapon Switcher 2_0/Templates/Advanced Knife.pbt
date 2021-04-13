@@ -823,5 +823,5 @@ Assets {
       AssetId: "Advanced_Knife"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 83
 }
