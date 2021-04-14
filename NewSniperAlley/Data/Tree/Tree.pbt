@@ -28,6 +28,7 @@ Objects {
   ChildIds: 14500840413510156487
   ChildIds: 7103842444919765018
   ChildIds: 12899980660047576632
+  ChildIds: 9599341610176533243
   ChildIds: 8481577982759061164
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
@@ -2681,6 +2682,38 @@ Objects {
     SubobjectId: 2956578343692412855
     InstanceId: 18374213684223088802
     TemplateId: 10474175560297017285
+  }
+}
+Objects {
+  Id: 9599341610176533243
+  Name: "Eduard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Eduard"
   }
 }
 Objects {
