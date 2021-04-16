@@ -404,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16463294282783288209
+  Name: "Animated Neon Sign- Cards"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Cards"
+  }
+}
+Assets {
   Id: 16447630291553548532
   Name: "Metal Basic Steel"
   PlatformAssetType: 2
@@ -1184,6 +1193,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_damaged_002_ref"
+  }
+}
+Assets {
+  Id: 13206135842285396679
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -2321,15 +2339,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7912394905030614762
-  Name: "Animated Neon Sign- Battery"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Battery"
-  }
-}
-Assets {
   Id: 7909321749664205074
   Name: "Craftsman Part - Stair Rail"
   PlatformAssetType: 1
@@ -3407,15 +3416,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_skylight_001"
-  }
-}
-Assets {
-  Id: 2424595272811825214
-  Name: "Barrier Caution Light 1"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_caution_001"
   }
 }
 Assets {
