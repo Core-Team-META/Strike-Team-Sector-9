@@ -793,14 +793,14 @@ Assets {
         Name: "Foundation 01 Corner Mainstreet"
         Transform {
           Location {
-            X: -31.8857346
-            Y: -1.01122856
-            Z: 4.88601685
+            X: -31.8857803
+            Y: -1.01123357
+            Z: 11.1538248
           }
           Rotation {
           }
           Scale {
-            X: 0.884873271
+            X: 0.884873331
             Y: 2.05879021
             Z: 0.58163023
           }
