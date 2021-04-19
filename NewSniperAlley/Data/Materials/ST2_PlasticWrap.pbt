@@ -39,6 +39,18 @@ Assets {
         Name: "metallic"
         Float: 0
       }
+      Overrides {
+        Name: "material_scale"
+        Float: 0.1
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 20
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 20
+      }
     }
     Assets {
       Id: 2249794126015640337
