@@ -1,6 +1,6 @@
 Assets {
   Id: 2892942581184021341
-  Name: "ST_CrateJunkTarp01"
+  Name: "ST_CrateJunk01Tarp"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
