@@ -161,6 +161,7 @@ Assets {
         ChildIds: 15362114104937980616
         ChildIds: 1700930809078480963
         ChildIds: 3772669592443830615
+        ChildIds: 2771157059030778398
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -552,8 +553,8 @@ Assets {
         Name: "Decal Sci-fi Details 01"
         Transform {
           Location {
-            X: -5.15340471
-            Y: -35.9374924
+            X: -5.15340137
+            Y: -5.39428568
             Z: -127.669228
           }
           Rotation {
@@ -561,9 +562,9 @@ Assets {
             Roll: 89.9998398
           }
           Scale {
-            X: 0.351890057
+            X: 0.169243574
             Y: 0.117864199
-            Z: 0.0581672899
+            Z: 0.058167588
           }
         }
         ParentId: 5971005595964029074
@@ -695,6 +696,62 @@ Assets {
         Blueprint {
           BlueprintAsset {
             Id: 6513725703093912292
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 2771157059030778398
+        Name: "Decal Sci-fi Details 01"
+        Transform {
+          Location {
+            X: -5.15340137
+            Y: -67.1468048
+            Z: -127.669228
+          }
+          Rotation {
+            Yaw: -89.9998779
+            Roll: 89.9998093
+          }
+          Scale {
+            X: 0.169243574
+            Y: 0.117864199
+            Z: 0.058167588
+          }
+        }
+        ParentId: 5971005595964029074
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.146067202
+              G: 0.181000009
+              B: 0.17750673
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13362988571131584785
           }
           TeamSettings {
           }
