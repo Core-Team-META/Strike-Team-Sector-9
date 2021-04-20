@@ -7,7 +7,7 @@ Assets {
       RootId: 2532262526261114006
       Objects {
         Id: 2532262526261114006
-        Name: "ST_CrateJunkTarp01"
+        Name: "ST_CrateJunk01Tarp"
         Transform {
           Scale {
             X: 0.319441199
@@ -15,7 +15,7 @@ Assets {
             Z: 0.319441199
           }
         }
-        ParentId: 13806498739066217100
+        ParentId: 4781671109827199097
         ChildIds: 2366387053742170364
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -52,6 +52,7 @@ Assets {
         }
         ParentId: 2532262526261114006
         ChildIds: 3455200694772980239
+        ChildIds: 12491552703866093563
         ChildIds: 9510620127916277796
         ChildIds: 4812676024554405592
         ChildIds: 16843856646108036037
@@ -110,6 +111,60 @@ Assets {
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14796711042662669165
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12491552703866093563
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            Y: 12.4079895
+            Z: -5.94299555
+          }
+          Rotation {
+            Yaw: -179.999954
+          }
+          Scale {
+            X: 3.82415843
+            Y: 3.82415843
+            Z: 0.214860499
+          }
+        }
+        ParentId: 2366387053742170364
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -754,7 +809,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -770,6 +825,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -834,7 +901,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -850,6 +917,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -915,7 +994,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -931,6 +1010,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -994,7 +1085,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -1010,6 +1101,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -1085,15 +1188,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_scf_base_floor_002_4m_ref"
-      }
-    }
-    Assets {
-      Id: 14614056576813174129
-      Name: "Metal Diamond Plates 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_rust_diamond-plate_001"
       }
     }
     Assets {

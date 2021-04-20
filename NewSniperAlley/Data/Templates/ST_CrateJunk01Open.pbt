@@ -236,6 +236,7 @@ Assets {
         ParentId: 17942319407395314661
         ChildIds: 11709661897614838228
         ChildIds: 14185875128784089979
+        ChildIds: 4274066505037594713
         ChildIds: 14646242120332270844
         ChildIds: 32214783610368475
         ChildIds: 17120693018629082641
@@ -335,6 +336,60 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 5390120376389660115
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14796711042662669165
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4274066505037594713
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            Y: 19.6724148
+            Z: 11.7315359
+          }
+          Rotation {
+            Yaw: -179.999969
+          }
+          Scale {
+            X: 3.82415843
+            Y: 3.82415843
+            Z: 0.214860499
+          }
+        }
+        ParentId: 13301513785927925856
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -480,7 +535,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -496,6 +551,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -560,7 +627,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -576,6 +643,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -641,7 +720,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -657,6 +736,18 @@ Assets {
               G: 3
               B: 3
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -695,10 +786,10 @@ Assets {
           Location {
             X: 193.864243
             Y: 221.818329
+            Z: 406.86026
           }
           Rotation {
-            Yaw: -89.9999847
-            Roll: 89.9999619
+            Pitch: -90
           }
           Scale {
             X: 1
@@ -724,12 +815,9 @@ Assets {
             }
           }
           Overrides {
-            Name: "ma:Building_Floor:color"
-            Color {
-              R: 3
-              G: 3
-              B: 3
-              A: 1
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }

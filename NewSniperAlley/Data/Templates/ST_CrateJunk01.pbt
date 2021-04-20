@@ -15,7 +15,7 @@ Assets {
             Z: 0.319441199
           }
         }
-        ParentId: 13806498739066217100
+        ParentId: 4781671109827199097
         ChildIds: 14059168560430559417
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -52,6 +52,7 @@ Assets {
         }
         ParentId: 6842293607669783927
         ChildIds: 6814104207144390031
+        ChildIds: 982870649268979117
         ChildIds: 9996412868620430920
         ChildIds: 14094916791896571648
         ChildIds: 2163341009734501440
@@ -129,6 +130,60 @@ Assets {
         }
       }
       Objects {
+        Id: 982870649268979117
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: 3.79230278e-06
+            Y: 15.9060669
+            Z: 9.28102207
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.82415819
+            Y: 3.82415819
+            Z: 0.214860484
+          }
+        }
+        ParentId: 14059168560430559417
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 904731087450842576
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 14796711042662669165
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
         Id: 9996412868620430920
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
@@ -162,7 +217,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -242,7 +297,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -323,7 +378,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -375,12 +430,14 @@ Assets {
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
           Location {
-            X: 193.864243
-            Y: 221.818329
+            X: 193.86409
+            Y: -182.494843
+            Z: 5.13026142
           }
           Rotation {
-            Yaw: -89.9999847
-            Roll: 89.9999619
+            Pitch: 90
+            Yaw: -17.9743042
+            Roll: 162.025726
           }
           Scale {
             X: 1
@@ -406,12 +463,18 @@ Assets {
             }
           }
           Overrides {
-            Name: "ma:Building_Floor:color"
+            Name: "ma:Shared_Trim:color"
             Color {
-              R: 3
-              G: 3
-              B: 3
+              R: 0.10710001
+              G: 0.119
+              B: 0.114041671
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 904731087450842576
             }
           }
         }
@@ -476,7 +539,7 @@ Assets {
           Overrides {
             Name: "ma:Building_Floor:id"
             AssetReference {
-              Id: 14614056576813174129
+              Id: 904731087450842576
             }
           }
           Overrides {
@@ -549,15 +612,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_scf_base_floor_002_4m_ref"
-      }
-    }
-    Assets {
-      Id: 14614056576813174129
-      Name: "Metal Diamond Plates 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_rust_diamond-plate_001"
       }
     }
     Assets {
