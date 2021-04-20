@@ -962,15 +962,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14172315365702108387
-  Name: "Car Crash Heavy Metal Impact 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_02a_Cue_ref"
-  }
-}
-Assets {
   Id: 14150131608064648431
   Name: "Sci-fi Base - Window 01"
   PlatformAssetType: 1
@@ -1022,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Boba"
-  }
-}
-Assets {
-  Id: 14032689756719721565
-  Name: "Metal Steel Brushed"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -1112,15 +1094,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_001"
-  }
-}
-Assets {
-  Id: 13564316571812339847
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -1436,6 +1409,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_ramp_sidewalk_mid_001"
+  }
+}
+Assets {
+  Id: 12557978716900753162
+  Name: "Whitebox Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
   }
 }
 Assets {
@@ -1943,15 +1925,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10118410057604672200
-  Name: "Mechanical Gears Squeaky 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_mechanical_gears_squeaky_01_Cue_ref"
-  }
-}
-Assets {
   Id: 10116332148539442832
   Name: "Urban Parking Meter Pole"
   PlatformAssetType: 1
@@ -2411,24 +2384,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7480552155571412389
-  Name: "Metal Diamond Plates 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_002"
-  }
-}
-Assets {
-  Id: 7432621314570877942
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 7414428204400123611
   Name: "Main Street Awning 02"
   PlatformAssetType: 1
@@ -2600,15 +2555,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6789594608035311611
-  Name: "Wedge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
-  }
-}
-Assets {
   Id: 6787262208996147711
   Name: "Metal Complex Tech Panel Wall 03"
   PlatformAssetType: 2
@@ -2759,15 +2705,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_005_ref"
-  }
-}
-Assets {
-  Id: 5998301750682578824
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -3671,15 +3608,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1226156609164735191
-  Name: "Cylinder - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
   Id: 1161497408010170015
   Name: "Sign Font 1 Neon Outline: @"
   PlatformAssetType: 1
@@ -3875,15 +3803,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corner_smooth_001_ref"
-  }
-}
-Assets {
-  Id: 335575088398859448
-  Name: "Car Crash Heavy Metal Impact 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_01a_Cue_ref"
   }
 }
 Assets {
