@@ -907,7 +907,7 @@ Objects {
   ParentId: 14182584628260243986
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -916,7 +916,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Trigger {
-    Interactable: true
     InteractionLabel: "Activate Elevator"
     TeamSettings {
       IsTeamCollisionEnabled: true
@@ -6196,7 +6195,7 @@ Objects {
   ParentId: 18386776441626840044
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -6205,7 +6204,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Trigger {
-    Interactable: true
     InteractionLabel: "Activate Elevator"
     TeamSettings {
       IsTeamCollisionEnabled: true
