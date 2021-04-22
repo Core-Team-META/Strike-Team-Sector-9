@@ -39,7 +39,7 @@ Assets {
             Y: 20
           }
           Rotation {
-            Yaw: 95.5354691
+            Yaw: 90
           }
           Scale {
             X: 0.5
@@ -104,7 +104,7 @@ Assets {
             Y: 20
           }
           Rotation {
-            Yaw: 95.5354691
+            Yaw: 90
           }
           Scale {
             X: 0.5

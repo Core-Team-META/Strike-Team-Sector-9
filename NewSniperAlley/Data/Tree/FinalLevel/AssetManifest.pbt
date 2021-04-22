@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18333990656617810375
-  Name: "Modern Stairs Stringer 01 - Angled 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_angled_002_ref"
-  }
-}
-Assets {
   Id: 18288887982644722132
   Name: "Pipe - Quarter Thick - Large"
   PlatformAssetType: 1
@@ -368,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16587363211812844610
-  Name: "Street Light Pole Extension 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_pole_ext_002"
-  }
-}
-Assets {
   Id: 16586186569353536175
   Name: "Text 06: E"
   PlatformAssetType: 1
@@ -401,15 +383,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_003_ref"
-  }
-}
-Assets {
-  Id: 16463294282783288209
-  Name: "Animated Neon Sign- Cards"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Cards"
   }
 }
 Assets {
@@ -728,15 +701,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14905682372048534582
-  Name: "Modern Stairs Stringer 01 - Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_straight_001_ref"
-  }
-}
-Assets {
   Id: 14844207987662279749
   Name: "Barrier Light"
   PlatformAssetType: 1
@@ -869,15 +833,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_001_window_ref"
-  }
-}
-Assets {
-  Id: 14530549821576425562
-  Name: "Animated Neon Sign- Potion"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Potion"
   }
 }
 Assets {
@@ -1052,15 +1007,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13832572340236658068
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
-  }
-}
-Assets {
   Id: 13826046615942597993
   Name: "Ceramic Tile Rectangle 01"
   PlatformAssetType: 2
@@ -1184,15 +1130,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
-  Id: 13151094483699461398
-  Name: "Modern Stairs Stringer 01 - Angled 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_angled_003_ref"
   }
 }
 Assets {
@@ -1493,6 +1430,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11983015921011477172
+  Name: "Sign Neon Arrow Outline: Single Line Basic Pointed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_004"
+  }
+}
+Assets {
   Id: 11962195740089165680
   Name: "Girder Medium 4m"
   PlatformAssetType: 1
@@ -1571,15 +1517,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Skull"
-  }
-}
-Assets {
-  Id: 11571966449301977522
-  Name: "Craftsman Floor 01 4m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
   }
 }
 Assets {
@@ -1997,15 +1934,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9964489518529487489
-  Name: "Metal Corrugated 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
-  }
-}
-Assets {
   Id: 9906048860044247049
   Name: "Grass Clumps"
   PlatformAssetType: 2
@@ -2084,6 +2012,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_soil_cracks_001"
+  }
+}
+Assets {
+  Id: 9492096466236804032
+  Name: "Modern Damaged Stairs Railing 01 - Straight 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_02_ref"
   }
 }
 Assets {
@@ -2411,15 +2348,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7406772572059355525
-  Name: "Modern Stairs Steps 01 - 8m 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_steps_001_ref"
-  }
-}
-Assets {
   Id: 7364480474576366061
   Name: "Main Street Trim 04 Corner"
   PlatformAssetType: 1
@@ -2735,6 +2663,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5904229792949433869
+  Name: "Craftsman Stairs 01 Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001"
+  }
+}
+Assets {
   Id: 5868465374856696904
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -2807,6 +2744,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5513392585238593830
+  Name: "Modern Damaged Stairs Railing 01 - Straight 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_01_ref"
+  }
+}
+Assets {
   Id: 5381367210591412322
   Name: "Urban Pipe Elbow 01"
   PlatformAssetType: 1
@@ -2840,15 +2786,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tray_XtraLong"
-  }
-}
-Assets {
-  Id: 5178947421179229826
-  Name: "Modern Stairs Steps 01 - 2m 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_steps_003_ref"
   }
 }
 Assets {
@@ -3047,6 +2984,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_glass_refrac_001"
+  }
+}
+Assets {
+  Id: 3804561942186383868
+  Name: "Craftsman Stairs 01 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_150cm"
   }
 }
 Assets {
@@ -3257,15 +3203,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2829304148396294310
-  Name: "Metal Grates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_002_uv"
-  }
-}
-Assets {
   Id: 2825736010572694941
   Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
   PlatformAssetType: 7
@@ -3329,6 +3266,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2551749691384029320
+  Name: "Modern Damaged Stairs Railing 01 - Straight 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_03_ref"
+  }
+}
+Assets {
   Id: 2521409856080866625
   Name: "Large Girder 8m x 6m"
   PlatformAssetType: 1
@@ -3389,15 +3335,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tx_urb_dmg_int_trim_board_001_mid_02_ref"
-  }
-}
-Assets {
-  Id: 2276063147848152113
-  Name: "Modern Stairs Steps 01 - 4m 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_steps_002_ref"
   }
 }
 Assets {

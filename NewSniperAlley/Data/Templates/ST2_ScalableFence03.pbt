@@ -42,8 +42,7 @@ Assets {
           }
           Rotation {
             Pitch: -0.354736328
-            Yaw: 95.524086
-            Roll: 3.66260719
+            Yaw: 90
           }
           Scale {
             X: 2.8182714
@@ -108,8 +107,7 @@ Assets {
           }
           Rotation {
             Pitch: -0.354736328
-            Yaw: 95.524086
-            Roll: 3.66260719
+            Yaw: 90
           }
           Scale {
             X: 2.8182714

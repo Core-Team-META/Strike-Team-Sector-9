@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13806498739066217100
+        ParentId: 7129798475479384880
         ChildIds: 15364546875367460355
         ChildIds: 13596225980957610800
         Collidable_v2 {
@@ -174,6 +174,21 @@ Assets {
               G: 1
               B: 1
               A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 16234593645984050970
             }
           }
         }

@@ -154,57 +154,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17640213297039607491
-  Name: "SocialPoster"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13091511793549282541
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6686738985933109444
-      value {
-        Overrides {
-          Name: "Name"
-          String: "SocialPoster"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2473.34692
-            Y: 5952.66943
-            Z: 319.907562
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 90
-            Yaw: 7.12502289
-            Roll: 142.125061
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10079934740111338128
-    }
-  }
-}
-Objects {
   Id: 2768689386105795802
   Name: "Funnel"
   Transform {

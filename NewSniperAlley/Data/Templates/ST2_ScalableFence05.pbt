@@ -10,8 +10,8 @@ Assets {
         Name: "ST2_ScalableFence05"
         Transform {
           Scale {
-            X: 3
-            Y: 0.750000358
+            X: 6.75000048
+            Y: 1
             Z: 0.25
           }
         }
@@ -32,6 +32,15 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.59800005
+              G: 0.59800005
+              B: 0.59800005
+              A: 1
+            }
           }
         }
         Collidable_v2 {
