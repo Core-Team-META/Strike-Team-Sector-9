@@ -68,6 +68,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -108,6 +109,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -135,5 +137,5 @@ Assets {
       AssetId: "Animated_Neon_Sign_-_Thumbs_Up"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

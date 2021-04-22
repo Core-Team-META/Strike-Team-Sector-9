@@ -2,7 +2,7 @@ Assets {
   Id: 15857254613241877105
   Name: "ST2_PlasterFloor02"
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

@@ -88,6 +88,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -145,6 +146,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -198,6 +200,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -254,6 +257,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -312,6 +316,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -368,6 +373,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -426,6 +432,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -462,5 +469,5 @@ Assets {
       AssetId: "Urban_Fence_-_Intersection_4-Way"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

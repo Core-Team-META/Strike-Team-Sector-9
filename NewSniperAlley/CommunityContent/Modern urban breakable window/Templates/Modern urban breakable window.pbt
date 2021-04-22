@@ -108,6 +108,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -217,6 +218,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -264,6 +266,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -371,6 +374,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -536,6 +540,6 @@ Assets {
   Marketplace {
     Description: "Object must be over 650 unit/sec speed. You can customize it in the script properties.\r\n\r\nSpecial thanks to Core Creators discord server."
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
   DirectlyPublished: true
 }

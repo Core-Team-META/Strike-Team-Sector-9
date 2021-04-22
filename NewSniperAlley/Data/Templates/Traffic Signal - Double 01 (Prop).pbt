@@ -82,6 +82,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -122,6 +123,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -163,6 +165,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -264,6 +267,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -365,6 +369,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -499,6 +504,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -550,6 +556,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -614,6 +621,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -662,6 +670,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -737,6 +746,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -788,6 +798,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -852,6 +863,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -900,6 +912,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -942,6 +955,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1023,6 +1037,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1072,6 +1087,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1115,6 +1131,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1164,6 +1181,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1204,6 +1222,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1247,6 +1266,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1290,6 +1310,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1329,6 +1350,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1371,6 +1393,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1413,6 +1436,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1495,6 +1519,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1536,6 +1561,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1579,6 +1605,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1732,5 +1759,5 @@ Assets {
       AssetId: "tm_urm_trafficsignal_001_double_01"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

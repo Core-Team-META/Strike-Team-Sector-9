@@ -549,6 +549,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1034,6 +1035,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1111,6 +1113,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1159,6 +1162,6 @@ Assets {
   Marketplace {
     Description: "a sliding door from the wrekge of the ss.romeo (the ship from space wars)"
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
   DirectlyPublished: true
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 17560993665157780412
   Name: "Hardwood Floor"
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6186740028554550633
     ParameterOverrides {

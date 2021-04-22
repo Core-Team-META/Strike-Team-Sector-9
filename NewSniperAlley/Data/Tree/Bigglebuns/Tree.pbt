@@ -40,6 +40,7 @@ Objects {
         Mass: 100
         LinearDamping: 0.01
       }
+      BoundsScale: 1
     }
   }
 }
@@ -84,6 +85,7 @@ Objects {
         Mass: 100
         LinearDamping: 0.01
       }
+      BoundsScale: 1
     }
   }
 }
@@ -974,6 +976,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1027,6 +1030,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1080,6 +1084,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1130,6 +1135,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1183,6 +1189,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1228,6 +1235,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1273,6 +1281,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }
@@ -1326,6 +1335,7 @@ Objects {
     StaticMesh {
       Physics {
       }
+      BoundsScale: 1
     }
   }
 }

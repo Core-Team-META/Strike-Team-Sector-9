@@ -757,6 +757,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -818,6 +819,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -878,6 +880,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -922,6 +925,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -966,6 +970,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1010,6 +1015,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1054,6 +1060,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1098,6 +1105,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1402,5 +1410,5 @@ Assets {
       AssetId: "Advanced_Sniper_Rifle"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

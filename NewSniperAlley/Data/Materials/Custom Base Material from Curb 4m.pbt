@@ -2,7 +2,7 @@ Assets {
   Id: 2941188481358631055
   Name: "ST2_CurbConcrete"
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 12671617676790229312
     ParameterOverrides {

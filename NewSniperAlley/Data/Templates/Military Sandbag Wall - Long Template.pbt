@@ -82,6 +82,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -127,6 +128,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -180,6 +182,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -233,6 +236,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -278,6 +282,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -322,6 +327,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -366,6 +372,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -418,6 +425,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -462,6 +470,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -506,6 +515,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -550,6 +560,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -622,5 +633,5 @@ Assets {
       AssetId: "Military_Sandbag_Wall_-_Long_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

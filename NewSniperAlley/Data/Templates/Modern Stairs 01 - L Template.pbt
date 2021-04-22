@@ -131,6 +131,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -174,6 +175,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -218,6 +220,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -261,6 +264,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -305,6 +309,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -349,6 +354,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -423,6 +429,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -467,6 +474,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -509,6 +517,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -552,6 +561,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -594,6 +604,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -672,6 +683,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -716,6 +728,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -759,6 +772,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -801,6 +815,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -845,6 +860,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -917,5 +933,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_L_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

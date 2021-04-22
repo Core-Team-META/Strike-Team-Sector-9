@@ -82,6 +82,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -125,6 +126,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -168,6 +170,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -212,6 +215,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -255,6 +259,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -298,6 +303,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -341,6 +347,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -384,6 +391,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -428,6 +436,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -472,6 +481,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -516,6 +526,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -560,6 +571,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -605,5 +617,5 @@ Assets {
       AssetId: "Urban_Car_-_Storage_Rack_01__Prop_"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

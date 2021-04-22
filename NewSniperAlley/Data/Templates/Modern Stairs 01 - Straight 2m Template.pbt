@@ -71,6 +71,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -113,6 +114,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -154,6 +156,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -181,5 +184,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_Straight_2m_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 11349616726691993323
   Name: "ST2_ConcretePanelsBrightWet "
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6317093348408192352
     ParameterOverrides {

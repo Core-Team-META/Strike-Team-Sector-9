@@ -228,6 +228,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -280,6 +281,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -321,6 +323,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -370,6 +373,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -417,6 +421,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -465,6 +470,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -513,6 +519,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -579,6 +586,6 @@ Assets {
   Marketplace {
     Description: "\r\nNow updated for direction!!!\r\n\r\nThis asset will allow players to jump to higher elevations. Jump height can be adjusted in the properties of the tigger inside the script folder."
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
   DirectlyPublished: true
 }

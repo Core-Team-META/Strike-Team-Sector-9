@@ -69,6 +69,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -110,6 +111,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -151,6 +153,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -192,6 +195,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -219,5 +223,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_3x_Rounded_Straight_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

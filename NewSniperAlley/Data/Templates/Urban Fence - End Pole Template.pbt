@@ -67,6 +67,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -85,5 +86,5 @@ Assets {
       AssetId: "Urban_Fence_-_End_Pole_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }

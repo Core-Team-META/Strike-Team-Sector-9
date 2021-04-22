@@ -2,7 +2,7 @@ Assets {
   Id: 10382020642866042324
   Name: "ST2_RoadLines01"
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 3003881514440673167
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 13890743858694834532
   Name: "Custom Parallax Interior Example"
   PlatformAssetType: 13
-  SerializationVersion: 83
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 15404684505028161515
     ParameterOverrides {

@@ -68,6 +68,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -109,6 +110,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -150,6 +152,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -177,5 +180,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_2x_Arch_Template"
     }
   }
-  SerializationVersion: 83
+  SerializationVersion: 84
 }
