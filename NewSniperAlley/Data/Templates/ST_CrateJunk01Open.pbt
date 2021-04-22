@@ -478,6 +478,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceon"
@@ -828,6 +834,12 @@ Assets {
             Name: "ma:Building_Floor:id"
             AssetReference {
               Id: 904731087450842576
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              A: 1
             }
           }
         }

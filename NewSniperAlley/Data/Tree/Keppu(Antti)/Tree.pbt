@@ -1,6 +1,129 @@
 Name: "Keppu(Antti)"
 RootId: 13806498739066217100
 Objects {
+  Id: 10373503257530447012
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -2623.54077
+      Y: 7333.31396
+      Z: -951.940063
+    }
+    Rotation {
+      Pitch: -2.30569458
+      Yaw: 6.89932728
+      Roll: 12.7079163
+    }
+    Scale {
+      X: 1.13322675
+      Y: 1.05641651
+      Z: 0.926936626
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 5.11267424
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2.1356442
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2270909421445369633
+  Name: "Corrugated Sheet Tall"
+  Transform {
+    Location {
+      X: -2875.70044
+      Y: 7333.31396
+      Z: -951.940063
+    }
+    Rotation {
+      Pitch: -3.18084717
+      Yaw: 6.54343414
+      Roll: 20.1313915
+    }
+    Scale {
+      X: 2.98544264
+      Y: 1.05642092
+      Z: 0.92693764
+    }
+  }
+  ParentId: 13806498739066217100
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 5.11267424
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2.1356442
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17280976981586363031
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 9341934606301109240
   Name: "Decal Stains Round 01"
   Transform {
@@ -1234,14 +1357,6 @@ Objects {
             Yaw: -83.0427475
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.319441199
-            Y: 0.319441199
-            Z: 0.319441199
-          }
-        }
       }
     }
     TemplateAsset {
@@ -1362,7 +1477,7 @@ Objects {
     Location {
       X: 745
       Y: 6765
-      Z: -945
+      Z: -946.489319
     }
     Rotation {
       Yaw: -90
@@ -3365,14 +3480,14 @@ Objects {
           Vector {
             X: -450.561615
             Y: 6310
-            Z: -633.228577
+            Z: -611.013489
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 7.59690475
-            Yaw: -90.0000076
+            Pitch: 5.18205738
+            Yaw: -90
           }
         }
         Overrides {
@@ -10846,9 +10961,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.0994839445
-        G: 0.209
-        B: 0.0827639922
+        R: 0.0827639848
+        G: 0.162713453
+        B: 0.209
         A: 1
       }
     }
@@ -11194,7 +11309,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -620
-            Y: 6655
+            Y: 6678.79102
             Z: -535
           }
         }
@@ -54812,7 +54927,7 @@ Objects {
   Transform {
     Location {
       X: -725
-      Y: 6630
+      Y: 6849.97656
       Z: -740
     }
     Rotation {
@@ -54891,6 +55006,7 @@ Objects {
       Falloff: 2000
       Radius: 100
       EnableOcclusion: true
+      StartTime: 10
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true
     }
@@ -58496,7 +58612,6 @@ Objects {
   ChildIds: 1769994969704612661
   ChildIds: 9866483591749540113
   ChildIds: 16559600999058859526
-  ChildIds: 16509977912592025214
   ChildIds: 906094529398266053
   ChildIds: 9384272309305293548
   ChildIds: 12061420021837599518
@@ -58656,11 +58771,11 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 17.3830566
-      Y: 1037.94336
+      X: 59.276123
+      Y: 1004.67676
     }
     Rotation {
-      Yaw: -140.668701
+      Yaw: -134.930862
     }
     Scale {
       X: 1
@@ -58723,11 +58838,11 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 32.5236816
-      Y: 1177.1582
+      X: 60.5366211
+      Y: 1114.65234
     }
     Rotation {
-      Yaw: 125.6474
+      Yaw: 131.385101
     }
     Scale {
       X: 1
@@ -58771,54 +58886,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 3694419892625887874
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 16509977912592025214
-  Name: "Shipping Pallet - Square"
-  Transform {
-    Location {
-      X: -254.934814
-      Y: 1239.25098
-      Z: 148.441956
-    }
-    Rotation {
-      Roll: -84.5926666
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13052819477893185773
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9783373452716819494
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -58880,7 +58947,7 @@ Objects {
           Vector {
             X: -53.2253418
             Y: 398.796875
-            Z: 2.07458496
+            Z: -13.1618042
           }
         }
         Overrides {
@@ -59241,7 +59308,7 @@ Objects {
     Location {
       X: 43.6196289
       Y: 2661.29077
-      Z: 6.10351563e-05
+      Z: 2.68042
     }
     Rotation {
       Yaw: -4.53027344
@@ -62251,8 +62318,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 253.039551
-      Y: -194.252441
+      X: 458.906738
+      Y: -25.9208984
       Z: 3.0980835
     }
     Rotation {
