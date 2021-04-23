@@ -413,15 +413,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13559035777531304271
-  Name: "Frame Medium Straight - Neon Double 2 Sided Ending"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon2_Ender_2s_db"
-  }
-}
-Assets {
   Id: 13530676485430511258
   Name: "Tree Birch 02"
   PlatformAssetType: 1
@@ -818,15 +809,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9279130763178750287
-  Name: "Urban Fence Doorway"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_wall_01_door_001"
-  }
-}
-Assets {
   Id: 9176145884981181688
   Name: "Pipe - Half Thin"
   PlatformAssetType: 1
@@ -932,15 +914,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_scribbles_001"
-  }
-}
-Assets {
-  Id: 7930932716296535070
-  Name: "Urban Damaged Rebar - Lattice 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_rebar_002_ref"
   }
 }
 Assets {
@@ -1205,6 +1178,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3556098900785263519
+  Name: "Military Mobile Radar 01 - Arm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_radar_mobile_01_02_ref"
+  }
+}
+Assets {
   Id: 3471881598561556181
   Name: "Motion Blur Post Process"
   PlatformAssetType: 20
@@ -1238,6 +1220,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_stairs_001"
+  }
+}
+Assets {
+  Id: 3164251070761236489
+  Name: "Container - Rectangle Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_thin_ref"
   }
 }
 Assets {

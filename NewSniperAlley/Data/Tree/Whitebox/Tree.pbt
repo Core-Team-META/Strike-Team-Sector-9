@@ -6415,7 +6415,7 @@ Objects {
   Transform {
     Location {
       X: -7114.83301
-      Y: -13035
+      Y: -12950
       Z: 1155
     }
     Rotation {
@@ -6424,10 +6424,18 @@ Objects {
     Scale {
       X: 34.75
       Y: 72.5
-      Z: 26
+      Z: 20
     }
   }
   ParentId: 17903806154062347974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15931620319449765645
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6572,6 +6580,14 @@ Objects {
     }
   }
   ParentId: 17903806154062347974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18080397685168790491
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
