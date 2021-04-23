@@ -28,7 +28,7 @@ Assets {
       }
       Overrides {
         Name: "roughness_multiplier"
-        Float: 0
+        Float: 0.448353946
       }
       Overrides {
         Name: "gradient_shift"

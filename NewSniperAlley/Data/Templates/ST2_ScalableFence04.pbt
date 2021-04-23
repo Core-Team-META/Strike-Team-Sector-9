@@ -42,7 +42,7 @@ Assets {
           Overrides {
             Name: "ma:Building_WallInner2:id"
             AssetReference {
-              Id: 6588567122613861857
+              Id: 16286852612670934532
             }
           }
         }

@@ -1934,6 +1934,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9964489518529487489
+  Name: "Metal Corrugated 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
+  }
+}
+Assets {
   Id: 9906048860044247049
   Name: "Grass Clumps"
   PlatformAssetType: 2
@@ -3776,6 +3785,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 195773709446274697
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
   }
 }
 Assets {
