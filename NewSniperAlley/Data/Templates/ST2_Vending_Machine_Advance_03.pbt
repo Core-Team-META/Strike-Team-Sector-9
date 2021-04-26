@@ -2608,7 +2608,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 50
+          Intensity: 12.3450527
           Color {
             R: 0.0600000024
             G: 0.981324196

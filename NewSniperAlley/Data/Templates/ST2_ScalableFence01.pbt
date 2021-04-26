@@ -117,7 +117,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7699110249164925678
+              Id: 16599847093929380111
             }
           }
           Overrides {
@@ -177,15 +177,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_mil_chainlink_001_uv_ref"
-      }
-    }
-    Assets {
-      Id: 7699110249164925678
-      Name: "Metal 9 Slice Frame 004"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_frames_9slice_004"
       }
     }
     PrimaryAssetId {
