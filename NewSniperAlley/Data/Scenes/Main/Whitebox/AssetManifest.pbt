@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10843801298595352566
-  Name: "Cube - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
   Id: 10244512211031728539
   Name: "Arch"
   PlatformAssetType: 1

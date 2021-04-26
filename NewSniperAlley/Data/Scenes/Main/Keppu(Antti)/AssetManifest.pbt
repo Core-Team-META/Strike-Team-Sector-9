@@ -287,15 +287,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15018675491806598937
-  Name: "Rock 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_001"
-  }
-}
-Assets {
   Id: 14796711042662669165
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -368,39 +359,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14387117624274580623
-  Name: "Sci-fi Base Floor Trim 01 - 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_floor_trim_001_8m_ref"
-  }
-}
-Assets {
   Id: 14292869428683022472
   Name: "Barrier Concrete 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_street_barrier_001"
-  }
-}
-Assets {
-  Id: 14250420636917373162
-  Name: "Rock 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_003"
-  }
-}
-Assets {
-  Id: 14198415401224027527
-  Name: "Basic Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_basic_hologram"
   }
 }
 Assets {
@@ -455,15 +419,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_001_uv"
-  }
-}
-Assets {
-  Id: 13530676485430511258
-  Name: "Tree Birch 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_birch_003"
   }
 }
 Assets {
@@ -545,15 +500,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_rooftop_fan_002"
-  }
-}
-Assets {
-  Id: 12705485549889092347
-  Name: "Flower Wild Lily 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_wild_lily_001_ref"
   }
 }
 Assets {
@@ -653,15 +599,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
-  }
-}
-Assets {
-  Id: 11635162136967954539
-  Name: "Whitebox Floor 01 8m x 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
 Assets {
@@ -773,24 +710,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10261833050620348176
-  Name: "Flower Bellflower 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_bell_002_ref"
-  }
-}
-Assets {
-  Id: 10244512211031728539
-  Name: "Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
-  }
-}
-Assets {
   Id: 10222256584730616192
   Name: "Pipe - 90-Degree Short"
   PlatformAssetType: 1
@@ -854,15 +773,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9906048860044247049
-  Name: "Grass Clumps"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grass_002_uv"
-  }
-}
-Assets {
   Id: 9822624444030992000
   Name: "Military Tank Historic Hull 01 - Front"
   PlatformAssetType: 1
@@ -908,15 +818,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9176145884981181688
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -941,15 +842,6 @@ Assets {
   PrimaryAsset {
     AssetType: "SkeletonAssetRef"
     AssetId: "npc_gal_wireframe_001_ref"
-  }
-}
-Assets {
-  Id: 8256790731429809559
-  Name: "Flower Wild Lily 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_wild_lily_002_ref"
   }
 }
 Assets {
@@ -1070,15 +962,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7174633245249798048
-  Name: "Flower Wild Lily Patch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_wild_lily_patch_001_ref"
-  }
-}
-Assets {
   Id: 7131970830679182793
   Name: "Craftsman Garage Door 01"
   PlatformAssetType: 1
@@ -1130,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_8m_ref"
-  }
-}
-Assets {
-  Id: 5766229398150752367
-  Name: "Tree Birch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_birch_001"
   }
 }
 Assets {
@@ -1232,24 +1106,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4490076663981688430
-  Name: "Tree Oak 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_oak_001"
-  }
-}
-Assets {
-  Id: 4374825980653306076
-  Name: "Rock Pile 002"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_002"
-  }
-}
-Assets {
   Id: 4296357288588367821
   Name: "Girder Small 4m"
   PlatformAssetType: 1
@@ -1337,15 +1193,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
-  }
-}
-Assets {
-  Id: 3183406401151404830
-  Name: "Whitebox Stairs 01 Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001"
   }
 }
 Assets {
@@ -1457,30 +1304,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1784279137030675290
-  Name: "Flower Bellflower Patch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_flower_bell_patch_001_ref"
-  }
-}
-Assets {
   Id: 1628849511756280386
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
-  }
-}
-Assets {
-  Id: 1553305104100685690
-  Name: "Modern Stairs Railing 01 - Straight 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_railing_straight_001_ref"
   }
 }
 Assets {

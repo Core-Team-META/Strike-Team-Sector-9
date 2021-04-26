@@ -7961,7 +7961,6 @@ Objects {
   ChildIds: 5743921216601105781
   ChildIds: 13910418099089306087
   ChildIds: 13286208749867115011
-  ChildIds: 11512168536395940395
   ChildIds: 2965614062474122830
   ChildIds: 5131887499042024223
   ChildIds: 15105691125902532185
@@ -11234,67 +11233,6 @@ Objects {
     Scale {
       X: 41.1164703
       Y: 3.99142838
-      Z: 1
-    }
-  }
-  ParentId: 1183611574848517280
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.015
-        G: 0.015
-        B: 0.015
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 14527777705257830224
-    SubobjectId: 16950953383230962653
-    InstanceId: 4185106899347237523
-    TemplateId: 17101872842520397377
-  }
-}
-Objects {
-  Id: 11512168536395940395
-  Name: "Floor"
-  Transform {
-    Location {
-      X: 5783.9541
-      Y: -5531.18457
-      Z: 684.800415
-    }
-    Rotation {
-      Yaw: 0.127380401
-    }
-    Scale {
-      X: 41.1164703
-      Y: 4.78643942
       Z: 1
     }
   }
