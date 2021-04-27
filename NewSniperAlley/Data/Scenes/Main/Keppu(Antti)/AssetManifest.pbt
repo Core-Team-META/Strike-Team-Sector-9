@@ -215,12 +215,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16164854765417449972
+  Name: "Square Column Segment"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_column_square_segment_001"
+  }
+}
+Assets {
   Id: 16105687716078266600
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 16076924560798306934
+  Name: "Urban Damaged Concrete Panel 01 - 8x2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_001_8x2m_ref"
   }
 }
 Assets {
@@ -638,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11046465131003192669
+  Name: "Urban Damaged Concrete Panel 02 - 2x4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_002_2x4m_ref"
+  }
+}
+Assets {
   Id: 10906249897613043233
   Name: "Wedge - Convex Polished"
   PlatformAssetType: 1
@@ -773,6 +800,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9398431931771867526
+  Name: "Decal Road Sign Symbols"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_roadsigns_001"
+  }
+}
+Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -863,6 +899,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7971533233606131662
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_scribbles_001"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -926,6 +971,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6317093348408192352
+  Name: "Concrete Panels 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_002"
+  }
+}
+Assets {
   Id: 6314858928202309588
   Name: "Urban Floor Grate Fire Escape - 1m x 2m"
   PlatformAssetType: 1
@@ -950,6 +1004,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_trim_002_8m_ref"
+  }
+}
+Assets {
+  Id: 5868465374856696904
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -1238,6 +1301,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
+  Id: 2071683723773885729
+  Name: "Urban Damaged Concrete Pillar - Bottom 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_pillar_bottom_002_ref"
   }
 }
 Assets {
