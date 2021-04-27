@@ -43,7 +43,7 @@ Assets {
       Overrides {
         Name: "cmp:Material2"
         AssetReference {
-          Id: 6317093348408192352
+          Id: 5868465374856696904
         }
       }
       Overrides {
@@ -92,12 +92,12 @@ Assets {
       }
     }
     Assets {
-      Id: 6317093348408192352
-      Name: "Concrete Panels 02"
+      Id: 5868465374856696904
+      Name: "Concrete Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_panels_002"
+        AssetId: "mi_gen_concrete_001"
       }
     }
   }

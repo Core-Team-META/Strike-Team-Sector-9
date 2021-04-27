@@ -260,15 +260,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15253493102172001817
-  Name: "Computer Monitor 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_computer-monitor_001"
-  }
-}
-Assets {
   Id: 15246078607150945099
   Name: "Street Sign 02"
   PlatformAssetType: 1
@@ -347,15 +338,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Potion"
-  }
-}
-Assets {
-  Id: 14465453916988569854
-  Name: "Front Desk"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_desk_front_001"
   }
 }
 Assets {
@@ -764,15 +746,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9964489518529487489
-  Name: "Metal Corrugated 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
-  }
-}
-Assets {
   Id: 9822624444030992000
   Name: "Military Tank Historic Hull 01 - Front"
   PlatformAssetType: 1
@@ -959,15 +932,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_awning_002_ref"
-  }
-}
-Assets {
-  Id: 7131970830679182793
-  Name: "Craftsman Garage Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_door_garage_001"
   }
 }
 Assets {
