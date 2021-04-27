@@ -638,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10975066442102718841
-  Name: "Barrier Caution Light 2"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_caution_002"
-  }
-}
-Assets {
   Id: 10906249897613043233
   Name: "Wedge - Convex Polished"
   PlatformAssetType: 1
@@ -782,15 +773,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9398431931771867526
-  Name: "Decal Road Sign Symbols"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_roadsigns_001"
-  }
-}
-Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -878,15 +860,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
-  }
-}
-Assets {
-  Id: 7971533233606131662
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_urb_graffiti_scribbles_001"
   }
 }
 Assets {

@@ -1,19 +1,72 @@
 Name: "Whitebox"
 RootId: 17903806154062347974
 Objects {
+  Id: 6534466853481742503
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -6916.31738
+      Y: -5535
+      Z: 531.70874
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 10.5
+      Y: 22.5
+      Z: 4.5
+    }
+  }
+  ParentId: 17903806154062347974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5868465374856696904
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 4343971118541356636
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
       X: -8290.00098
-      Y: -5227.29639
+      Y: -5590
       Z: -10
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 16.5
+      X: 8.75
       Y: -6.25
       Z: 6
     }
@@ -111,7 +164,7 @@ Objects {
   Transform {
     Location {
       X: -11874.1514
-      Y: -4895
+      Y: -5005
       Z: -250.99234
     }
     Rotation {
@@ -123,6 +176,14 @@ Objects {
     }
   }
   ParentId: 17903806154062347974
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -154,9 +215,9 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -11362.7031
-      Y: -5810
-      Z: -10
+      X: -11325
+      Y: -5580
+      Z: -9.81713867
     }
     Rotation {
     }
@@ -314,7 +375,7 @@ Objects {
     Location {
       X: -11331.4629
       Y: -6718.53809
-      Z: 421.816833
+      Z: 410
     }
     Rotation {
       Yaw: 44.9999924

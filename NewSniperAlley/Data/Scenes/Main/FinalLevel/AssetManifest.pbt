@@ -2510,6 +2510,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6713301730188216932
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
+  }
+}
+Assets {
   Id: 6663102682384812978
   Name: "Road Sidewalk"
   PlatformAssetType: 1
