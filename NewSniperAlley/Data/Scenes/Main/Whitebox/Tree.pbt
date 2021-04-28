@@ -13183,51 +13183,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12929528895502437690
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -735
-      Y: 8215
-      Z: -340
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 14.75
-      Y: 35.5
-      Z: 19.0000057
-    }
-  }
-  ParentId: 17903806154062347974
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 7801380269095403089
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -13491,59 +13446,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 17315070957124721441
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 4343561346199990602
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 2434.90088
-      Y: 7933.17578
-      Z: -407.590698
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 14.75
-      Y: 154.25
-      Z: 32.5452499
-    }
-  }
-  ParentId: 17903806154062347974
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 18080397685168790491
       }
     }
   }

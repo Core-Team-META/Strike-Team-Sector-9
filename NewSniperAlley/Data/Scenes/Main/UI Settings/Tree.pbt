@@ -2708,6 +2708,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16846391926756276643
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -3255,6 +3261,12 @@ Objects {
         G: 0.015
         B: 0.015
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5415312787801914892
       }
     }
   }
@@ -8727,6 +8739,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12306622679456331034
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -9581,6 +9599,12 @@ Objects {
         G: 0.015
         B: 0.015
         A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10913798062856193811
       }
     }
   }
@@ -32345,7 +32369,7 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: 1544.48389
+      X: 1537.91235
       Y: -4602.51563
       Z: 50.4527588
     }

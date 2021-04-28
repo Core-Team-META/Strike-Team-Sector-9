@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12306622679456331034
+  Name: "Concrete Sidewalk"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_sidewalk_001"
+  }
+}
+Assets {
   Id: 5746113150348561912
   Name: "UI Game Tone Tube Beep 01 SFX"
   PlatformAssetType: 7
