@@ -8,7 +8,7 @@ Assets {
     ParameterOverrides {
       Overrides {
         Name: "rust_amount"
-        Float: 1
+        Float: 0.121135719
       }
       Overrides {
         Name: "roughness_multiplier"
@@ -47,11 +47,19 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 5
-          G: 5
-          B: 5
+          R: 0.859
+          G: 0.859
+          B: 0.859
           A: 1
         }
+      }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 5.68700027
       }
     }
     Assets {

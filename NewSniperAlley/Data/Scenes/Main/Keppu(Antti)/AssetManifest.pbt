@@ -368,6 +368,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14285279341781365881
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
   Id: 14148796293362564634
   Name: "Humanoid 1 Nancy"
   PlatformAssetType: 26
@@ -620,15 +629,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11437357827448453916
-  Name: "Container - Trapezoid 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_trapezoid_ref"
-  }
-}
-Assets {
   Id: 11378977399214175520
   Name: "Air Conditioned Room Tone Loop 01 SFX"
   PlatformAssetType: 7
@@ -800,6 +800,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9647297623024469013
+  Name: "Humanoid 1 Aparna"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_008_ref"
+  }
+}
+Assets {
   Id: 9398431931771867526
   Name: "Decal Road Sign Symbols"
   PlatformAssetType: 14
@@ -809,12 +818,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9267596960465789547
+  Name: "Trim Side 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trim_side_6m_001"
+  }
+}
+Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_hexagon_001"
+  }
+}
+Assets {
+  Id: 8617818292148704575
+  Name: "Craftsman Stairs 01 Pillar"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
   }
 }
 Assets {
