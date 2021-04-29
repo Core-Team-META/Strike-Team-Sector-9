@@ -863,15 +863,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14373933028864739004
-  Name: "Sci-fi Base Stairs 01 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_stairs_001_150cm_ref"
-  }
-}
-Assets {
   Id: 14292869428683022472
   Name: "Barrier Concrete 01"
   PlatformAssetType: 1
@@ -2276,15 +2267,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7930932716296535070
-  Name: "Urban Damaged Rebar - Lattice 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_rebar_002_ref"
-  }
-}
-Assets {
   Id: 7909321749664205074
   Name: "Craftsman Part - Stair Rail"
   PlatformAssetType: 1
@@ -3353,6 +3335,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_pillar_002_top_ref"
+  }
+}
+Assets {
+  Id: 2379980367253352415
+  Name: "Concrete Bunker"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_bunker_001"
   }
 }
 Assets {

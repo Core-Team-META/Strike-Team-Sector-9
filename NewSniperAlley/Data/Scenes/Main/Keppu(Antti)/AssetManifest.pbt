@@ -395,15 +395,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16198346205888411814
-  Name: "Urban Fence Door"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_door_01"
-  }
-}
-Assets {
   Id: 16164854765417449972
   Name: "Square Column Segment"
   PlatformAssetType: 1
@@ -944,15 +935,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13084610212546141882
-  Name: "Urban Fence Gate 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_gate_001"
-  }
-}
-Assets {
   Id: 13056377762012048845
   Name: "Military Tank Historic Hull 01 - Mid"
   PlatformAssetType: 1
@@ -1376,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10367042530068808401
+  Name: "Urban Damaged Concrete Panel 01 - 2x4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_001_2x4m_ref"
+  }
+}
+Assets {
   Id: 10351540616931965658
   Name: "Ring - Beveled Thin"
   PlatformAssetType: 1
@@ -1589,6 +1580,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_concave_001"
+  }
+}
+Assets {
+  Id: 9279130763178750287
+  Name: "Urban Fence Doorway"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_wall_01_door_001"
   }
 }
 Assets {
@@ -2366,15 +2366,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3844709690263076331
-  Name: "Urban Fence Pole - Gate End"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_pole_02_end_002"
-  }
-}
-Assets {
   Id: 3694419892625887874
   Name: "Military Hazard Barrel"
   PlatformAssetType: 1
@@ -2453,6 +2444,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
+  Id: 3183406401151404830
+  Name: "Whitebox Stairs 01 Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_stairs_001"
   }
 }
 Assets {
@@ -2717,6 +2717,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2015353903962974267
+  Name: "Urban Damaged Concrete Panel 01 - 4x4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_001_4x4m_ref"
+  }
+}
+Assets {
   Id: 1967454480797501765
   Name: "Cylinder - Rounded Bottom-Aligned"
   PlatformAssetType: 1
@@ -2822,6 +2831,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_001_ref"
+  }
+}
+Assets {
+  Id: 783814044870915271
+  Name: "Whitebox Wall 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }
 Assets {
