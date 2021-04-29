@@ -1,6 +1,59 @@
 Name: "Whitebox"
 RootId: 17360112169003464756
 Objects {
+  Id: 15863722763110722496
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -4715
+      Y: -5925
+      Z: 875
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 16
+      Y: 9.5
+      Z: 9.5
+    }
+  }
+  ParentId: 17360112169003464756
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18080397685168790491
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 8090237439755627001
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -856,17 +909,17 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -5560
-      Y: -5420
+      X: -5885
+      Y: -5535
       Z: 536.004822
     }
     Rotation {
       Yaw: -179.999954
     }
     Scale {
-      X: 22.5
-      Y: 19.5
-      Z: 86.46138
+      X: 16
+      Y: 17.25
+      Z: 86.5
     }
   }
   ParentId: 17360112169003464756
@@ -6758,14 +6811,14 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -2555
+      X: -2725
       Y: -6030
-      Z: 225
+      Z: 218.25177
     }
     Rotation {
     }
     Scale {
-      X: 33.25
+      X: 34.353405
       Y: 7.25
       Z: 6.5
     }
@@ -6775,7 +6828,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 2379980367253352415
+        Id: 5868465374856696904
       }
     }
   }
@@ -7788,8 +7841,8 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -4990
-      Y: -5420
+      X: -5500
+      Y: -5550
       Z: 875
     }
     Rotation {
@@ -7797,7 +7850,7 @@ Objects {
     }
     Scale {
       X: 22.5
-      Y: 19.4872379
+      Y: 17
       Z: 12
     }
   }
