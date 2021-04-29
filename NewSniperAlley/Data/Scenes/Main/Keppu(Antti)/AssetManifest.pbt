@@ -2330,15 +2330,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4262586342775220598
-  Name: "Whitebox Wall 01 Triangle - Inverted"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_triInverted"
-  }
-}
-Assets {
   Id: 4154706281836675321
   Name: "Metal Frame 04"
   PlatformAssetType: 2
