@@ -557,6 +557,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15961793866733316592
+  Name: "Frame Medium Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_4b_tray_straight"
+  }
+}
+Assets {
   Id: 15950976603585584640
   Name: "Fire Hydrant"
   PlatformAssetType: 1
@@ -1556,6 +1565,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11437357827448453916
+  Name: "Container - Trapezoid 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_trapezoid_ref"
+  }
+}
+Assets {
   Id: 11378886407339488354
   Name: "Office Carpet Basic 01"
   PlatformAssetType: 2
@@ -2213,6 +2231,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8105941569596900735
+  Name: "Military Tank Modern Light 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_light_002_ref"
+  }
+}
+Assets {
   Id: 8081775035435034954
   Name: "Main Street Wall 02 - Half Doorway 01"
   PlatformAssetType: 1
@@ -2507,6 +2534,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonFont2_Text_008"
+  }
+}
+Assets {
+  Id: 6713301730188216932
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
   }
 }
 Assets {
