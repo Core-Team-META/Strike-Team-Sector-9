@@ -1,7 +1,7 @@
 Name: "Humanoid Rig References"
-RootId: 11431536855007929012
+RootId: 16828891774418071733
 Objects {
-  Id: 13583682172517600270
+  Id: 5095486521584695721
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -63,7 +63,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6567822675933616434
+  Id: 7460873518395715775
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -122,7 +122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15356445244229494490
+  Id: 4521688280924438134
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -139,7 +139,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -181,7 +181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5057136509934580743
+  Id: 15939892444256042244
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -198,7 +198,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -240,7 +240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14093164423266938501
+  Id: 5781438758078378763
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -257,7 +257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -299,7 +299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15809476034584686464
+  Id: 16332567218128062459
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -316,7 +316,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -358,7 +358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12545089342629018752
+  Id: 2238951286081642939
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -375,7 +375,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -417,7 +417,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14299615486339525167
+  Id: 8527401669234639418
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -434,7 +434,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -476,7 +476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17557984636067584248
+  Id: 731439310887651961
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -493,7 +493,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -535,7 +535,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4053872033439888889
+  Id: 16224692856922510361
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -552,7 +552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -594,7 +594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5376322217575429370
+  Id: 13549168695780889222
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -610,7 +610,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -652,7 +652,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13488592479637229038
+  Id: 2867268808604054772
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -668,7 +668,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -710,7 +710,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11405031767299499714
+  Id: 9570305719390164552
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -726,7 +726,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -768,7 +768,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7926853766244589344
+  Id: 6077724184422257422
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -785,7 +785,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -827,7 +827,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16880696032386144217
+  Id: 570297961603048320
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -844,7 +844,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -886,7 +886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2953073708213856113
+  Id: 4197932864732691994
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -903,7 +903,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -945,7 +945,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4437674938368633299
+  Id: 16707875365772476572
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -962,7 +962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1004,7 +1004,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9142287786117459089
+  Id: 852993522966689900
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -1021,7 +1021,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1063,7 +1063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4304842697392742290
+  Id: 15009588839030095542
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -1080,7 +1080,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1122,7 +1122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10135313768766013988
+  Id: 7908051777125611442
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -1139,7 +1139,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1181,7 +1181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 305600436665713935
+  Id: 18378054634043630475
   Name: "Humanoid 1 Rig"
   Transform {
     Location {
@@ -1198,7 +1198,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1240,7 +1240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9139174791888083099
+  Id: 5656802641781420556
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1257,7 +1257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1299,7 +1299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9183375612640107664
+  Id: 6227918573000348343
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1316,7 +1316,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1358,7 +1358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9072075156712898193
+  Id: 17052626062584750651
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1375,7 +1375,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1417,7 +1417,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9089023024427870292
+  Id: 6643949242009913328
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1434,7 +1434,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1476,7 +1476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12359198177268863990
+  Id: 9880418104735979559
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1492,7 +1492,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1534,7 +1534,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8111890602921103323
+  Id: 6555560211360831660
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1551,7 +1551,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1593,7 +1593,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13490462511073125205
+  Id: 10704673874719597740
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1609,7 +1609,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1651,7 +1651,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14637349175285355934
+  Id: 7202810937027127814
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1668,7 +1668,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1710,7 +1710,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8602334635248241556
+  Id: 18352624939202107763
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1727,7 +1727,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1769,7 +1769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1173453955126348016
+  Id: 12617826821176221519
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1786,7 +1786,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1828,7 +1828,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10188960404941210588
+  Id: 12929646866140347672
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1845,7 +1845,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1887,7 +1887,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11177535554545138269
+  Id: 15634904913629876950
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1904,7 +1904,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1946,7 +1946,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5378599057854524122
+  Id: 14169689065942607558
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -1963,7 +1963,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2005,7 +2005,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6781231804854928261
+  Id: 2286973061637267453
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2022,7 +2022,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2064,7 +2064,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3715712192490209774
+  Id: 9658332209024111236
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2081,7 +2081,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2123,7 +2123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17301478194690948945
+  Id: 5668686776098515689
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2140,7 +2140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2182,7 +2182,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6930868108257108730
+  Id: 16173751760267382865
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2199,7 +2199,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2241,7 +2241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11584769424859201601
+  Id: 3822910338143876067
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2258,7 +2258,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2300,7 +2300,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5145223128813455507
+  Id: 3727482849524375643
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2317,7 +2317,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2359,7 +2359,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2772415287494267730
+  Id: 6424883992144046636
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2376,7 +2376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2418,7 +2418,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15639334625877796228
+  Id: 1785817923649247379
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2435,7 +2435,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2477,7 +2477,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1474419422498494919
+  Id: 6405570110732452351
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2494,7 +2494,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2536,7 +2536,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16852698805580365922
+  Id: 2869128466908384770
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2553,7 +2553,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2595,7 +2595,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9854307171985672716
+  Id: 8153208323576745911
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2612,7 +2612,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2654,7 +2654,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6783778123672770104
+  Id: 11463589931898836654
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2670,7 +2670,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2712,7 +2712,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3644874257548703717
+  Id: 3135814352939799077
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2729,7 +2729,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2771,7 +2771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2752086216136864487
+  Id: 4590675202828391088
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2788,7 +2788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2830,7 +2830,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9072061826107382177
+  Id: 11512579461489010720
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2847,7 +2847,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2889,7 +2889,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6018465168379378660
+  Id: 3342942167387358753
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2905,7 +2905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2947,7 +2947,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10538752310767496093
+  Id: 660266025938546734
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -2963,7 +2963,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3005,7 +3005,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1818466710300324811
+  Id: 13368652391364729836
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3022,7 +3022,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3064,7 +3064,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5527727288120079780
+  Id: 14332472321786368932
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3081,7 +3081,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3123,7 +3123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 611016105925369353
+  Id: 17808642666195615073
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3140,7 +3140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3182,7 +3182,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2264643841507762405
+  Id: 2937318729497514576
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3199,7 +3199,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3241,7 +3241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13242948560765890535
+  Id: 9714527741332586891
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3258,7 +3258,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3300,7 +3300,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7724319187906319201
+  Id: 1557020810563311246
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3317,7 +3317,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3359,7 +3359,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2460190188524118859
+  Id: 388962527702519857
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3376,7 +3376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3418,7 +3418,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15661861238115948406
+  Id: 7804227951270185446
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
@@ -3435,7 +3435,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11431536855007929012
+  ParentId: 16828891774418071733
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

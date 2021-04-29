@@ -14,8 +14,10 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 15418165806260383211
+  ChildIds: 6956512019038417955
   ChildIds: 14776702606467825888
-  ChildIds: 13806498739066217100
+  ChildIds: 906925363925354889
   ChildIds: 7624668735784682717
   ChildIds: 2240337295022429420
   ChildIds: 8882019402186461505
@@ -3069,7 +3071,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13806498739066217100
+  Id: 906925363925354889
   Name: "Keppu(Antti)"
   Transform {
     Scale {
@@ -3125,5 +3127,69 @@ Objects {
     VoxelSize: 100
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
+  }
+}
+Objects {
+  Id: 6956512019038417955
+  Name: "For Egg"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "For Egg"
+  }
+}
+Objects {
+  Id: 15418165806260383211
+  Name: "For Keppu"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "For Keppu"
   }
 }

@@ -29727,7 +29727,7 @@ Assets {
     }
     Assets {
       Id: 11146262818758114264
-      Name: "Urban Damaged Rebar Lattice 02"
+      Name: "Urban Damaged Rebar - Lattice 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -30402,7 +30402,7 @@ Assets {
     }
     Assets {
       Id: 5770722494384530191
-      Name: "Urban Damaged Rebar Lattice 02"
+      Name: "Urban Damaged Rebar - Lattice 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
