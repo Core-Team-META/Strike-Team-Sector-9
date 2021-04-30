@@ -1,0 +1,29 @@
+Assets {
+  Id: 810787383726714307
+  Name: "Custom Metal Basic 01_1"
+  PlatformAssetType: 13
+  SerializationVersion: 84
+  CustomMaterialAsset {
+    BaseMaterialId: 14054176190919042885
+    ParameterOverrides {
+      Overrides {
+        Name: "color"
+        Color {
+          R: 1
+          G: 1
+          B: 1
+          A: 1
+        }
+      }
+    }
+    Assets {
+      Id: 14054176190919042885
+      Name: "Metal Basic 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_basic_001"
+      }
+    }
+  }
+}

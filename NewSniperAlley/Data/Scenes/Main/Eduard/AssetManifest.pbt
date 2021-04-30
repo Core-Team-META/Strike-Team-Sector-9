@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17530944656157844219
-  Name: "Animated Neon Sign- Sun"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Sun"
-  }
-}
-Assets {
   Id: 17429250688696520263
   Name: "Decal Graffiti Murals 01 (Variants)"
   PlatformAssetType: 14
@@ -176,6 +167,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 16237330725608463998
+  Name: "Humanoid 2 Rig"
+  PlatformAssetType: 25
+  PrimaryAsset {
+    AssetType: "SkeletonAssetRef"
+    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
@@ -323,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14765158219383575624
+  Name: "Humanoid 1 Eva"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_basic_006_ref"
+  }
+}
+Assets {
   Id: 14639760462387153737
   Name: "Text 04: K"
   PlatformAssetType: 1
@@ -338,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_001_uv"
+  }
+}
+Assets {
+  Id: 14628878573634480270
+  Name: "Opaque Bubble Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_opaque_bubble_glass"
   }
 }
 Assets {
@@ -404,12 +422,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14212988502358508072
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 14198415401224027527
   Name: "Basic Hologram"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
+  Id: 14075289948846393778
+  Name: "Roof Metal 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_roof_metal_001_uv"
   }
 }
 Assets {
@@ -455,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_floor_001_8x8_ref"
+  }
+}
+Assets {
+  Id: 13642204757580273705
+  Name: "Cube - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_003"
   }
 }
 Assets {
@@ -530,6 +575,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13029209801789466339
+  Name: "Pipe - 90-Degree Short Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_004"
+  }
+}
+Assets {
   Id: 12815283627814003432
   Name: "Urban Rooftop Fan 02"
   PlatformAssetType: 1
@@ -581,6 +635,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
+  }
+}
+Assets {
+  Id: 12630862952169066180
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
   }
 }
 Assets {
@@ -707,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_trimitives_001_curve90_4m_ref"
+  }
+}
+Assets {
+  Id: 11279682431906909865
+  Name: "Sci-fi Base Railing 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_railing_002_ref"
   }
 }
 Assets {
@@ -917,12 +989,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8660254034038023104
-  Name: "Animated Neon Sign- Rain"
+  Id: 8619830679695120720
+  Name: "Prism - 6-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Rain"
+    AssetId: "sm_prism_hexagon_001"
   }
 }
 Assets {
@@ -1031,6 +1103,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
+  Id: 6878308890745792706
+  Name: "Metal 9 Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
   }
 }
 Assets {
@@ -1277,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3738589738198733425
+  Name: "Humanoid 2 Ramesh"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_guy_head_basic_008_ref"
+  }
+}
+Assets {
   Id: 3694419892625887874
   Name: "Military Hazard Barrel"
   PlatformAssetType: 1
@@ -1340,6 +1430,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3138483173048979605
+  Name: "Humanoid 1 Sonia"
+  PlatformAssetType: 26
+  PrimaryAsset {
+    AssetType: "SkinnedMeshAssetRef"
+    AssetId: "npc_human_gal_head_sport_001_ref"
+  }
+}
+Assets {
   Id: 3082960362570921562
   Name: "Main Street Wall 02 - Doorway 01"
   PlatformAssetType: 1
@@ -1364,6 +1463,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 2829304148396294310
+  Name: "Metal Grates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_002_uv"
   }
 }
 Assets {
@@ -1400,6 +1508,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_acc_hvac_001_ref"
+  }
+}
+Assets {
+  Id: 2231189782402832882
+  Name: "Metal Vent Duct Spiral 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vent_duct_round_001_uv_ref"
   }
 }
 Assets {
