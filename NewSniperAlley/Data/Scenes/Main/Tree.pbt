@@ -34,7 +34,7 @@ Objects {
   ChildIds: 8481577982759061164
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
-  ChildIds: 2031093846507367867
+  ChildIds: 6324845266199599566
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -50,7 +50,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2031093846507367867
+  Id: 6324845266199599566
   Name: "Julie"
   Transform {
     Scale {
@@ -66,19 +66,22 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14793182354525175001
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Julie"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9727070579395977841
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Julie"
+  }
+  InstanceHistory {
+    SelfId: 6324845266199599566
+    SubobjectId: 14793182354525175001
+    InstanceId: 2031093846507367867
+    TemplateId: 9727070579395977841
+    WasRoot: true
   }
 }
 Objects {
