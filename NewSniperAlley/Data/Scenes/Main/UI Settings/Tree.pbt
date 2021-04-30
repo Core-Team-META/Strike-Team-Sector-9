@@ -1900,6 +1900,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11541705719099405078
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"

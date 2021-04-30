@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11541705719099405078
+  Name: "Fabric Burlap New 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_fabric_burlap_002_uv"
+  }
+}
+Assets {
   Id: 5746113150348561912
   Name: "UI Game Tone Tube Beep 01 SFX"
   PlatformAssetType: 7
