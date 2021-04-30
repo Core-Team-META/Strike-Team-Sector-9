@@ -2,7 +2,7 @@ Assets {
   Id: 10451782890288275556
   Name: "ST2_WindowBlinds"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 3076470760766142207
     ParameterOverrides {

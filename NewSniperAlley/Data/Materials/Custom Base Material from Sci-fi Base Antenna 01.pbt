@@ -2,7 +2,7 @@ Assets {
   Id: 7251916648665635067
   Name: "ST2_BrushedMetal"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 10531941256825003003
     ParameterOverrides {
