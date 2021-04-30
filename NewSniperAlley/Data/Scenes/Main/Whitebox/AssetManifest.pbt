@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6921744610000133130
+  Name: "Concrete Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2

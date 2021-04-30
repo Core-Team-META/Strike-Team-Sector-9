@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17954713592453428552
-  Name: "Sign Neon Arrow Outline: Forward"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonArrows_01_Text_019"
-  }
-}
-Assets {
   Id: 17933570741495538470
   Name: "Military Common Crate Lid"
   PlatformAssetType: 1
@@ -158,15 +149,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
-  }
-}
-Assets {
-  Id: 17338260140091004521
-  Name: "Sign Font 2 Neon Outline: |"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_055"
   }
 }
 Assets {
@@ -503,15 +485,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15235102742283936033
-  Name: "Sign Font 2 Neon Outline: N"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_013"
-  }
-}
-Assets {
   Id: 15191120951180189582
   Name: "Concrete Bunker"
   PlatformAssetType: 2
@@ -536,15 +509,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
-  }
-}
-Assets {
-  Id: 14944061536842022896
-  Name: "Sign Font 2 Neon Outline: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_002"
   }
 }
 Assets {
@@ -860,15 +824,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_hull_001_rear_ref"
-  }
-}
-Assets {
-  Id: 13288629990613441188
-  Name: "Sign Font 2 Neon Outline: P"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_015"
   }
 }
 Assets {
@@ -1637,15 +1592,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8944623133567487727
-  Name: "Ring - Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_003"
-  }
-}
-Assets {
   Id: 8619830679695120720
   Name: "Prism - 6-Sided"
   PlatformAssetType: 1
@@ -1868,15 +1814,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_barrier_pedestrian_002_ref"
-  }
-}
-Assets {
-  Id: 7518816065895645721
-  Name: "Sign Font 2 Neon Outline: ."
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_063"
   }
 }
 Assets {
@@ -2510,15 +2447,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2880253289029153692
-  Name: "Sign Font 2 Neon Outline: D"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_003"
-  }
-}
-Assets {
   Id: 2841779215979196626
   Name: "Urban Cinderblock Debris 01"
   PlatformAssetType: 1
@@ -2609,15 +2537,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2448199706361737950
-  Name: "Sign Neon Arrow Outline: Long Pointed"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonArrows_01_Text_041"
-  }
-}
-Assets {
   Id: 2437966292102537916
   Name: "Curb 8m"
   PlatformAssetType: 1
@@ -2642,15 +2561,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_military_logo_001_ref"
-  }
-}
-Assets {
-  Id: 2309049725533211129
-  Name: "Sign Font 2 Neon Outline: U"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_020"
   }
 }
 Assets {
@@ -2696,15 +2606,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_pillar_bottom_002_ref"
-  }
-}
-Assets {
-  Id: 2034043914864551766
-  Name: "Ring 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_002"
   }
 }
 Assets {
@@ -2852,15 +2753,6 @@ Assets {
   }
 }
 Assets {
-  Id: 634110098894632676
-  Name: "Sign Font 2 Neon Outline: K"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_010"
-  }
-}
-Assets {
   Id: 567193264820089861
   Name: "Urban Fence Lock"
   PlatformAssetType: 1
@@ -2903,15 +2795,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_wall_01"
-  }
-}
-Assets {
-  Id: 401651739170233048
-  Name: "Sign Font 2 Neon Outline: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_004"
   }
 }
 Assets {

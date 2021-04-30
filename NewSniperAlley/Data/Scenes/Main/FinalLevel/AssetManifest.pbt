@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18075009058174876361
-  Name: "Craftsman Part - Doorway"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_doorway_001"
-  }
-}
-Assets {
   Id: 18009603480987123451
   Name: "Sci-fi Base Breakout Box 02"
   PlatformAssetType: 1
@@ -347,15 +338,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
-  }
-}
-Assets {
-  Id: 16392896844987521514
-  Name: "Sci-fi Base Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_door_001_ref"
   }
 }
 Assets {
@@ -950,15 +932,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
-  }
-}
-Assets {
-  Id: 13324134738449385310
-  Name: "Sci-fi Airlock Servo Movement Door Open 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_airlock_servo_movement_door_open_01_Cue_ref"
   }
 }
 Assets {
@@ -2969,15 +2942,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2825736010572694941
-  Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_airlock_servo_movement_door_close_01_Cue_ref"
-  }
-}
-Assets {
   Id: 2813132699335812984
   Name: "Text 06: L"
   PlatformAssetType: 1
@@ -3011,15 +2975,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_barrier_pedestrian_001"
-  }
-}
-Assets {
-  Id: 2727467945905195560
-  Name: "Wedge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
   }
 }
 Assets {

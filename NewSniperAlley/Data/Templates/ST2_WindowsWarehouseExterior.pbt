@@ -38,8 +38,8 @@ Assets {
         Name: "glass"
         Transform {
           Location {
-            X: -42.166214
-            Y: -16.4659348
+            X: -37.623291
+            Y: -14.9980469
             Z: 150
           }
           Rotation {
@@ -49,8 +49,8 @@ Assets {
           }
           Scale {
             X: 0.75
-            Y: 1.25
-            Z: 2.5
+            Y: 1.31116211
+            Z: 2.50000525
           }
         }
         ParentId: 4799386326856007871
@@ -141,8 +141,8 @@ Assets {
         Name: "black"
         Transform {
           Location {
-            X: -42.1643715
-            Y: -11.4659348
+            X: -37.2988281
+            Y: -11.4697266
             Z: 150
           }
           Rotation {
@@ -152,8 +152,8 @@ Assets {
           }
           Scale {
             X: 0.75
-            Y: 1.25
-            Z: 2.5
+            Y: 1.32372546
+            Z: 2.49999571
           }
         }
         ParentId: 4799386326856007871
@@ -262,7 +262,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2899842837741361229
+              Id: 18096809829322722385
             }
           }
           Overrides {
@@ -427,15 +427,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_off_cubicle_cabinet_003_ref"
-      }
-    }
-    Assets {
-      Id: 2899842837741361229
-      Name: "Concrete Tiles 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_gen_concrete_tiles_001"
       }
     }
     Assets {
