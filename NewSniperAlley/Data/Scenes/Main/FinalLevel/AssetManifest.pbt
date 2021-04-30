@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17485881147669499682
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
+  }
+}
+Assets {
   Id: 17437651838154271598
   Name: "Sign Font 2 Neon Outline: 4"
   PlatformAssetType: 1
