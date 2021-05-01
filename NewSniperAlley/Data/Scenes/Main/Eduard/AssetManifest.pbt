@@ -287,6 +287,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14974241780020394401
+  Name: "Prism - 6-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
   Id: 14844207987662279749
   Name: "Barrier Light"
   PlatformAssetType: 1
@@ -395,15 +404,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14278021748334546251
-  Name: "Frame Large Straight - Neon Double"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_Straight_Double"
-  }
-}
-Assets {
   Id: 14250420636917373162
   Name: "Rock 03"
   PlatformAssetType: 1
@@ -455,6 +455,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_007"
+  }
+}
+Assets {
+  Id: 14032689756719721565
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -728,15 +737,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11962195740089165680
-  Name: "Girder Medium 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_girder_medium_4m_1-5m_001"
-  }
-}
-Assets {
   Id: 11730308934333352162
   Name: "Main Street Window 01"
   PlatformAssetType: 1
@@ -941,6 +941,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_flower_daisy_001"
+  }
+}
+Assets {
+  Id: 9367762470209885204
+  Name: "Wedge - Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_concave_001"
   }
 }
 Assets {
@@ -1472,6 +1481,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_grates_002_uv"
+  }
+}
+Assets {
+  Id: 2479069085364386380
+  Name: "Window Blind Vertical 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_window_blind_vertical_uv_ref"
   }
 }
 Assets {
