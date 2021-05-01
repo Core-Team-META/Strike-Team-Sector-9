@@ -35,7 +35,7 @@ Objects {
   ChildIds: 8481577982759061164
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
-  ChildIds: 8331779043740953853
+  ChildIds: 6324845266199599566
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -51,13 +51,9 @@ Objects {
   }
 }
 Objects {
-  Id: 8331779043740953853
+  Id: 6324845266199599566
   Name: "Julie"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -80,6 +76,13 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Julie"
+  }
+  InstanceHistory {
+    SelfId: 6324845266199599566
+    SubobjectId: 14793182354525175001
+    InstanceId: 2031093846507367867
+    TemplateId: 9727070579395977841
+    WasRoot: true
   }
 }
 Objects {
