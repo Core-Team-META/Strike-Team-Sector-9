@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17548833617676089709
+  Name: "Decal Graffiti Murals 02 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_mural_002"
+  }
+}
+Assets {
   Id: 17499561666953172825
   Name: "Urban Brick Debris 02"
   PlatformAssetType: 1
@@ -242,6 +251,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14212988502358508072
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 14083853046973452695
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
@@ -251,12 +269,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14023144080669477239
+  Name: "Hill 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hill_002"
+  }
+}
+Assets {
   Id: 13924515375743805646
   Name: "Cabinet - Upper Narrow"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_narrow_001_cabient"
+  }
+}
+Assets {
+  Id: 13673284373607799807
+  Name: "Decal Graffiti Bubbles 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_bubbles_001"
   }
 }
 Assets {
@@ -320,15 +356,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_002_uv"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
   }
 }
 Assets {
@@ -494,6 +521,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7390126451591221646
+  Name: "Decal Snow Patch"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_snow_patch_001"
+  }
+}
+Assets {
   Id: 7372149666124795665
   Name: "Camouflage Net 01"
   PlatformAssetType: 2
@@ -527,6 +563,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_damaged_001_base_01_ref"
+  }
+}
+Assets {
+  Id: 7080077634480067575
+  Name: "Urban Plank Debris 05"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urban_destruction_debris_plank_05_ref"
   }
 }
 Assets {
