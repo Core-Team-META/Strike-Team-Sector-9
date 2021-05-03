@@ -142461,7 +142461,7 @@ Objects {
       Z: 967.160706
     }
     Rotation {
-      Roll: -89.9999924
+      Roll: -90
     }
     Scale {
       X: 0.295991838
@@ -142853,7 +142853,7 @@ Objects {
       Z: 921.782104
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 3.57526064
@@ -148919,9 +148919,9 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:color"
       Color {
-        R: 0.385417
-        G: 0.385417
-        B: 0.385417
+        R: 0.270497799
+        G: 0.196729973
+        B: 0.139306366
         A: 1
       }
     }
@@ -148929,6 +148929,12 @@ Objects {
       Name: "ma:Building_Floor:id"
       AssetReference {
         Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 59429732496382286
       }
     }
   }
@@ -148991,6 +148997,12 @@ Objects {
       Name: "ma:Building_Floor:id"
       AssetReference {
         Id: 10913798062856193811
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 59429732496382286
       }
     }
   }
@@ -161869,7 +161881,7 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 10913798062856193811
+        Id: 59429732496382286
       }
     }
     Overrides {
@@ -162617,7 +162629,7 @@ Objects {
       Z: 995
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 5.75

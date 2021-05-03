@@ -17,6 +17,24 @@ Assets {
   }
 }
 Assets {
+  Id: 17850784779650210910
+  Name: "Military Sandbag 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_001"
+  }
+}
+Assets {
+  Id: 17829005442119872736
+  Name: "Cardboard Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_cardboard_001_uv_ref"
+  }
+}
+Assets {
   Id: 17499561666953172825
   Name: "Urban Brick Debris 02"
   PlatformAssetType: 1
@@ -233,12 +251,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13924515375743805646
+  Name: "Cabinet - Upper Narrow"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cabinet_narrow_001_cabient"
+  }
+}
+Assets {
   Id: 13261598718209045828
   Name: "Urban Cardboard Box Damaged 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_damaged_002_ref"
+  }
+}
+Assets {
+  Id: 13085174305471638229
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
   }
 }
 Assets {
@@ -287,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 11951506208073665883
   Name: "Brick Red Old 01"
   PlatformAssetType: 2
@@ -302,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_02_ref"
+  }
+}
+Assets {
+  Id: 10975066442102718841
+  Name: "Barrier Caution Light 2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_caution_002"
   }
 }
 Assets {
@@ -476,6 +530,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6865249745567109080
+  Name: "Corrugated Sheet Bent"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+  }
+}
+Assets {
   Id: 6772521314436074053
   Name: "Urban Brick Debris 03"
   PlatformAssetType: 1
@@ -611,6 +674,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2966412212117305711
+  Name: "Sci-fi Chest Common Lid 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_crate_small_lid_001_ref"
+  }
+}
+Assets {
   Id: 2887966541650210293
   Name: "Invisible"
   PlatformAssetType: 2
@@ -662,6 +734,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_sack_002_ref"
+  }
+}
+Assets {
+  Id: 1714326510831253930
+  Name: "Military Tank Historic Container 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_container_001_ref"
   }
 }
 Assets {
@@ -734,5 +815,14 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
+  }
+}
+Assets {
+  Id: 103204866163876130
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
   }
 }
