@@ -2321,6 +2321,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4519163911553529386
+  Name: "Main Street Railing 01 - Post"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
+  }
+}
+Assets {
   Id: 4460516056516280630
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1

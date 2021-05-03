@@ -15,8 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 906925363925354889
         ChildIds: 17601527619653639521
+        ChildIds: 11139237203994999245
         ChildIds: 421553617558603793
         ChildIds: 7424051806462540836
         Collidable_v2 {
@@ -40,13 +41,13 @@ Assets {
         Name: "Barrier Light"
         Transform {
           Location {
-            X: 8.09155273
-            Y: 1.43164063
-            Z: 685
+            X: 8.09155178
+            Y: 1.43163967
+            Z: 685.000061
           }
           Rotation {
             Yaw: 90
-            Roll: 56.2499619
+            Roll: 56.2499046
           }
           Scale {
             X: 3.2609539
@@ -107,6 +108,70 @@ Assets {
               LinearDamping: 0.01
             }
             BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 11139237203994999245
+        Name: "Spotlight"
+        Transform {
+          Location {
+            X: -73.690918
+            Y: 0.515625
+            Z: 698.731689
+          }
+          Rotation {
+            Pitch: -63.977478
+            Yaw: 180
+            Roll: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13059821318773917191
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Light {
+          Intensity: 50
+          Color {
+            R: 1
+            G: 0.536423862
+            A: 1
+          }
+          VolumetricIntensity: 5
+          TeamSettings {
+          }
+          Light {
+            Temperature: 6500
+            LocalLight {
+              AttenuationRadius: 1444.86523
+              SpotLight {
+                SourceRadius: 20
+                SoftSourceRadius: 20
+                FallOffExponent: 8
+                UseFallOffExponent: true
+                InnerConeAngle: 30
+                OuterConeAngle: 40
+                Profile {
+                  Value: "mc:espotlightprofile:basicspotlight"
+                }
+              }
+            }
+            MaxDrawDistance: 5000
+            MaxDistanceFadeRange: 1000
           }
         }
       }

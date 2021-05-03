@@ -422,15 +422,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16206231426180209164
-  Name: "Metal Door & Hatch Close Shut Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_metal_doors_ref"
-  }
-}
-Assets {
   Id: 16200453037138456273
   Name: "Sci-fi Base Breakout Box 04"
   PlatformAssetType: 1
@@ -509,15 +500,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_numbers_002"
-  }
-}
-Assets {
-  Id: 15732777065278343437
-  Name: "Urban Pipe Clamp 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_clamp_001_ref"
   }
 }
 Assets {
@@ -770,15 +752,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_039"
-  }
-}
-Assets {
-  Id: 14231809728886464860
-  Name: "Wood Raw White"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_raw_white_001_uv"
   }
 }
 Assets {
@@ -1337,15 +1310,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_carpet_004_uv_ref"
-  }
-}
-Assets {
-  Id: 11333095049857697952
-  Name: "Urban Pipe Valve 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_valve_002_ref"
   }
 }
 Assets {
@@ -2474,15 +2438,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4932480955011522001
-  Name: "Pipe"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_001"
-  }
-}
-Assets {
   Id: 4909850481099204290
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -2753,15 +2708,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3082960362570921562
-  Name: "Main Street Wall 02 - Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_wall_002_doorway_ref"
-  }
-}
-Assets {
   Id: 3076412631196887594
   Name: "Text 06: Y"
   PlatformAssetType: 1
@@ -2960,15 +2906,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1966905298560770071
-  Name: "Square Column Topper 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_square_top_002"
-  }
-}
-Assets {
   Id: 1882399476102658604
   Name: "Text 01: U"
   PlatformAssetType: 1
@@ -3128,15 +3065,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_024"
-  }
-}
-Assets {
-  Id: 1104198953447072835
-  Name: "Object Domestic Doors & Creaks Set 01 SFX"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "sfxabp_object_domestic_door_ref"
   }
 }
 Assets {
