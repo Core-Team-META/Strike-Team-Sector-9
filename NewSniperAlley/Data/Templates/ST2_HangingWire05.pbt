@@ -16,9 +16,130 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 15848219624973126058
+        ChildIds: 1486947792886848259
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 1486947792886848259
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9962126602087804288
         ChildIds: 3352413907000442532
         ChildIds: 6355892130061909481
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 3352413907000442532
+        Name: "WireAnimation"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 5.51800346
+            Y: 5.51800346
+            Z: 5.51800346
+          }
+        }
+        ParentId: 1486947792886848259
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Wire"
+            ObjectReference {
+              SubObjectId: 6355892130061909481
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 3949190775138756950
+            }
+          }
+          Overrides {
+            Name: "cs:RotationStart"
+            Vector {
+              Y: -10
+            }
+          }
+          Overrides {
+            Name: "cs:RotationTarget"
+            Vector {
+              Y: 10
+            }
+          }
+          Overrides {
+            Name: "cs:RotationTime"
+            Float: 2
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16694857303524944949
+          }
+        }
+      }
+      Objects {
+        Id: 6355892130061909481
+        Name: "AnimationParent"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 5.51800346
+            Y: 5.51800346
+            Z: 5.51800346
+          }
+        }
+        ParentId: 1486947792886848259
+        ChildIds: 15848219624973126058
+        UnregisteredParameters {
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -41,12 +162,12 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.181224972
+            Y: 0.181224972
+            Z: 0.181224972
           }
         }
-        ParentId: 9962126602087804288
+        ParentId: 6355892130061909481
         ChildIds: 10754129707750184167
         ChildIds: 17462029568426833421
         ChildIds: 724513769428761688
@@ -1699,96 +1820,6 @@ Assets {
             }
             BoundsScale: 1
           }
-        }
-      }
-      Objects {
-        Id: 3352413907000442532
-        Name: "WireAnimation"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 5.51800394
-            Y: 5.51800394
-            Z: 5.51800394
-          }
-        }
-        ParentId: 9962126602087804288
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Wire"
-            ObjectReference {
-              SubObjectId: 6355892130061909481
-            }
-          }
-          Overrides {
-            Name: "cs:Ease3D"
-            AssetReference {
-              Id: 3949190775138756950
-            }
-          }
-          Overrides {
-            Name: "cs:RotationStart"
-            Vector {
-              Y: -10
-            }
-          }
-          Overrides {
-            Name: "cs:RotationTarget"
-            Vector {
-              Y: 10
-            }
-          }
-          Overrides {
-            Name: "cs:RotationTime"
-            Float: 2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16694857303524944949
-          }
-        }
-      }
-      Objects {
-        Id: 6355892130061909481
-        Name: "AnimationParent"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 5.51800394
-            Y: 5.51800394
-            Z: 5.51800394
-          }
-        }
-        ParentId: 9962126602087804288
-        UnregisteredParameters {
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
     }

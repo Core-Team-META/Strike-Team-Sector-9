@@ -890,15 +890,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13724243919183108251
-  Name: "Urban Vehicle Car - Storage Rack Bottom Rail 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rack_storage_rail_bottom_mid_001_ref"
-  }
-}
-Assets {
   Id: 13583156742950437506
   Name: "Text 01: B"
   PlatformAssetType: 1
@@ -1097,15 +1088,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12728146833340731999
-  Name: "Metal 9 Slice Frame 001"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_001"
-  }
-}
-Assets {
   Id: 12684181422670302428
   Name: "Modern Stairs Stringer 01 - Straight Corner"
   PlatformAssetType: 1
@@ -1277,30 +1259,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11917007313670209110
-  Name: "Play Bold"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "PlayBold_ref"
-  }
-}
-Assets {
   Id: 11887549032181544333
   Name: "Impact Sparks VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_impact_sparks"
-  }
-}
-Assets {
-  Id: 11730308934333352162
-  Name: "Main Street Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_part_window_001_ref"
   }
 }
 Assets {
@@ -1349,30 +1313,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11537703321447128324
-  Name: "Urban Vehicle Car - Storage Rack Top Rail 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rack_storage_rail_top_mid_001_ref"
-  }
-}
-Assets {
   Id: 11534260051317427993
   Name: "Decal Stains Round 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_round_001"
-  }
-}
-Assets {
-  Id: 11446105392780972536
-  Name: "Main Street Door Shopfront 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_door_002_ref"
   }
 }
 Assets {
@@ -1463,15 +1409,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
-  }
-}
-Assets {
-  Id: 11102342948357556422
-  Name: "Main Street Wall 03 - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_wall_003_window_01_ref"
   }
 }
 Assets {
@@ -1628,30 +1565,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10211762008731431648
-  Name: "Main Street Trim 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_004_ref"
-  }
-}
-Assets {
   Id: 10165548448862061711
   Name: "Urban Water Tank 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_watertank_modern_001"
-  }
-}
-Assets {
-  Id: 10153674808179595622
-  Name: "Arch Fancy Peaked 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_ogive_2m_001"
   }
 }
 Assets {
@@ -1715,15 +1634,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_cargo_001"
-  }
-}
-Assets {
-  Id: 10017292477379475263
-  Name: "Main Street Wall 03 - Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_wall_003_doorway_ref"
   }
 }
 Assets {
@@ -2087,15 +1997,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7699110249164925678
-  Name: "Metal 9 Slice Frame 004"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_004"
-  }
-}
-Assets {
   Id: 7531323142721961800
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -2129,15 +2030,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_awning_002_ref"
-  }
-}
-Assets {
-  Id: 7364480474576366061
-  Name: "Main Street Trim 04 Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_004_corner_ref"
   }
 }
 Assets {
@@ -2390,15 +2282,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_straight_001"
-  }
-}
-Assets {
-  Id: 6067711860393633075
-  Name: "Urban Vehicle Car - Storage Rack Top End 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rack_storage_rail_top_end_001_ref"
   }
 }
 Assets {
@@ -2735,15 +2618,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3998592366905403415
-  Name: "Glass 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_refrac_001"
-  }
-}
-Assets {
   Id: 3804561942186383868
   Name: "Craftsman Stairs 01 150cm"
   PlatformAssetType: 1
@@ -2924,15 +2798,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2942971563143602674
-  Name: "Shipping Container Side 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wall_shipping_container_6m_001"
-  }
-}
-Assets {
   Id: 2899842837741361229
   Name: "Concrete Tiles 01"
   PlatformAssetType: 2
@@ -2957,15 +2822,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F8_Text_011"
-  }
-}
-Assets {
-  Id: 2805121172112350453
-  Name: "Metal 9 Slice Lockers 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_advanced_9slice_lockers_001_ref"
   }
 }
 Assets {
@@ -3182,15 +3038,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_barrel_002_ref"
-  }
-}
-Assets {
-  Id: 1667319647809949701
-  Name: "Urban Vehicle Car - Storage Rack Bottom End 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_rack_storage_rail_001_bottom_end_001_ref"
   }
 }
 Assets {
