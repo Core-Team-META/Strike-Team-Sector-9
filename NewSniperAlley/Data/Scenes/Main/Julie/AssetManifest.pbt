@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17850784779650210910
-  Name: "Military Sandbag 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_sandbag_001"
-  }
-}
-Assets {
   Id: 17829005442119872736
   Name: "Cardboard Basic 01"
   PlatformAssetType: 2
@@ -278,15 +269,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13924515375743805646
-  Name: "Cabinet - Upper Narrow"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cabinet_narrow_001_cabient"
-  }
-}
-Assets {
   Id: 13673284373607799807
   Name: "Decal Graffiti Bubbles 01 (Variants)"
   PlatformAssetType: 14
@@ -305,15 +287,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13085174305471638229
-  Name: "Metal Painted Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_painted_old_001_uv"
-  }
-}
-Assets {
   Id: 12977585700991343703
   Name: "Decal Street Litter 01"
   PlatformAssetType: 14
@@ -329,6 +302,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
+  }
+}
+Assets {
+  Id: 12630862952169066180
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
   }
 }
 Assets {
@@ -359,6 +341,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 11951506208073665883
   Name: "Brick Red Old 01"
   PlatformAssetType: 2
@@ -374,6 +365,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_02_ref"
+  }
+}
+Assets {
+  Id: 11534260051317427993
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
   }
 }
 Assets {
@@ -410,6 +410,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fire_hydrant_001"
+  }
+}
+Assets {
+  Id: 10549684399192797779
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
   }
 }
 Assets {
@@ -638,6 +647,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5351428073291024820
+  Name: "Emissive Glow Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
@@ -683,6 +701,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3713504403173644544
+  Name: "Rocky Ground 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "rocky_001"
+  }
+}
+Assets {
   Id: 3694419892625887874
   Name: "Military Hazard Barrel"
   PlatformAssetType: 1
@@ -719,15 +746,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2966412212117305711
-  Name: "Sci-fi Chest Common Lid 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_crate_small_lid_001_ref"
-  }
-}
-Assets {
   Id: 2887966541650210293
   Name: "Invisible"
   PlatformAssetType: 2
@@ -752,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_barrier_pedestrian_001"
+  }
+}
+Assets {
+  Id: 2325066732959655602
+  Name: "Urban Cardboard Box Damaged 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_damaged_003_ref"
   }
 }
 Assets {
@@ -782,12 +809,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1714326510831253930
-  Name: "Military Tank Historic Container 01"
-  PlatformAssetType: 1
+  Id: 1500507774993218998
+  Name: "Water Jet VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_container_001_ref"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_water_jet"
   }
 }
 Assets {
@@ -860,14 +887,5 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
-  }
-}
-Assets {
-  Id: 103204866163876130
-  Name: "Plastic Shiny"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_shiny_001"
   }
 }
