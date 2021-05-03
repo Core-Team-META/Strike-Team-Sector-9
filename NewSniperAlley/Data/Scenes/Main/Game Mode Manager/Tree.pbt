@@ -1958,8 +1958,8 @@ Objects {
   Name: "Marker"
   Transform {
     Location {
-      X: -2065.00024
-      Y: -3665
+      X: -2192.75757
+      Y: -3747.03735
       Z: 905
     }
     Rotation {
@@ -2103,7 +2103,7 @@ Objects {
   Transform {
     Location {
       X: -1275
-      Y: -905
+      Y: -1152.56274
       Z: -329.874237
     }
     Rotation {
@@ -2150,7 +2150,7 @@ Objects {
   Transform {
     Location {
       X: -5915
-      Y: -8370
+      Y: -8143.99756
       Z: -165
     }
     Rotation {

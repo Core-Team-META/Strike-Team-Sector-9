@@ -186,7 +186,7 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -1781.41772
+      X: -1918.89917
       Y: -2317.28491
       Z: 996.679871
     }

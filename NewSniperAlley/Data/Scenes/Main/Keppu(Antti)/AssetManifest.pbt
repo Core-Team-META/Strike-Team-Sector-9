@@ -1322,15 +1322,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10823382209343292880
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
   Id: 10752071864741613435
   Name: "Cube - Polished"
   PlatformAssetType: 1

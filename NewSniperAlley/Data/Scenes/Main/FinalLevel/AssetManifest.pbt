@@ -350,30 +350,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16371622500121573784
-  Name: "Cylinder"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
   Id: 16361900871520744060
   Name: "Urban Stairs Fire Escape - 6m 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_stairs_firesc_001_ref"
-  }
-}
-Assets {
-  Id: 16357557897714794618
-  Name: "Pipe Thick 01 - Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_thick_lg_001_ref"
   }
 }
 Assets {
@@ -755,15 +737,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14198415401224027527
-  Name: "Basic Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_basic_hologram"
-  }
-}
-Assets {
   Id: 14150131608064648431
   Name: "Sci-fi Base - Window 01"
   PlatformAssetType: 1
@@ -1079,15 +1052,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12630862952169066180
-  Name: "Pipe"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_001"
-  }
-}
-Assets {
   Id: 12621970885948864169
   Name: "Wood Planks Beveled Raised 01"
   PlatformAssetType: 2
@@ -1148,15 +1112,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
-  }
-}
-Assets {
-  Id: 12498237228494553639
-  Name: "Game Portal"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_webportal"
   }
 }
 Assets {
@@ -1328,15 +1283,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_002_half_window_02_ref"
-  }
-}
-Assets {
-  Id: 11267528446476164903
-  Name: "Main Street Pillar 02 Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_pillar_002_base_ref"
   }
 }
 Assets {
@@ -1718,24 +1664,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9344290158071339761
-  Name: "Pipe - Half Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_003"
-  }
-}
-Assets {
-  Id: 9176145884981181688
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
   Id: 9171120742628567637
   Name: "Text 06: K"
   PlatformAssetType: 1
@@ -2057,15 +1985,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_door_garage_001"
-  }
-}
-Assets {
-  Id: 7091993363097197037
-  Name: "Text 01: !"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_037"
   }
 }
 Assets {
@@ -2483,30 +2402,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4794041361382728409
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
   Id: 4728953692936333655
   Name: "Decal Street Litter 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_002_ref"
-  }
-}
-Assets {
-  Id: 4567991919998467135
-  Name: "Pipe - Quarter Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter-pipe_003"
   }
 }
 Assets {
@@ -2690,15 +2591,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3159990177345922631
-  Name: "Main Street Pillar 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_pillar_002_ref"
-  }
-}
-Assets {
   Id: 3135521423375055406
   Name: "Wood Floor Light"
   PlatformAssetType: 2
@@ -2798,15 +2690,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2557549460494517044
-  Name: "Plane Ring - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_ring_001"
-  }
-}
-Assets {
   Id: 2551749691384029320
   Name: "Modern Damaged Stairs Railing 01 - Straight 03"
   PlatformAssetType: 1
@@ -2840,15 +2723,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_skylight_001"
-  }
-}
-Assets {
-  Id: 2416955756511904793
-  Name: "Main Street Pillar 02 Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_pillar_002_top_ref"
   }
 }
 Assets {
