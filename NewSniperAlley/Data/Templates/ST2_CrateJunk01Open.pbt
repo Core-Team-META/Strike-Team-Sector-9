@@ -1,6 +1,6 @@
 Assets {
   Id: 16774682769268742019
-  Name: "ST_CrateJunk01Open"
+  Name: "ST2_CrateJunk01Open"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

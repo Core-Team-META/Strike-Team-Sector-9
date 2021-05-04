@@ -1871,6 +1871,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7708829302333976186
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 7702486053253128313
   Name: "Military Epic Crate Base"
   PlatformAssetType: 1
