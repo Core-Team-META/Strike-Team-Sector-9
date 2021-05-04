@@ -2,7 +2,7 @@ Assets {
   Id: 3018634894455386776
   Name: "ST2_Metal Frame 05_1"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 14191534326482402645
     ParameterOverrides {

@@ -1,6 +1,73 @@
 Name: "Whitebox"
 RootId: 17360112169003464756
 Objects {
+  Id: 2831592892254358715
+  Name: "Whitebox Wall 01 Doorway 01"
+  Transform {
+    Location {
+      X: -4266.03
+      Y: -49.9999771
+      Z: 300
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 5.61205721
+      Y: 0.99999994
+      Z: 1
+    }
+  }
+  ParentId: 17360112169003464756
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 17921777321927090544
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 17315070957124721441
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        G: 1.49999917
+        B: 2.5
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 783814044870915271
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 13906915181817119440
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -2397,14 +2464,14 @@ Objects {
   Transform {
     Location {
       X: -6499.38184
-      Y: -20
+      Y: -70.8275146
       Z: 295.000061
     }
     Rotation {
       Yaw: 89.9999847
     }
     Scale {
-      X: 5.06217909
+      X: 5.18139
       Y: 1
       Z: 1
     }
@@ -2524,7 +2591,7 @@ Objects {
       Yaw: -90
     }
     Scale {
-      X: 5.25000048
+      X: 5.11754417
       Y: 1
       Z: 1
     }
@@ -7273,7 +7340,7 @@ Objects {
       Yaw: 89.9999542
     }
     Scale {
-      X: 1.99999976
+      X: 1.88628864
       Y: 5.99999952
       Z: 9.74999905
     }

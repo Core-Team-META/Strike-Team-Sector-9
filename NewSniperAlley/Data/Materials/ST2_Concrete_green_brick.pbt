@@ -2,7 +2,7 @@ Assets {
   Id: 16846391926756276643
   Name: "ST2_Concrete_green_brick"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {
