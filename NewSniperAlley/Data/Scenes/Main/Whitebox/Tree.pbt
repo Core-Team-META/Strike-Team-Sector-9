@@ -1,6 +1,59 @@
 Name: "Whitebox"
 RootId: 17360112169003464756
 Objects {
+  Id: 9716004792849908551
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -4259.70508
+      Y: -5010
+      Z: 1515
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 16
+      Y: 9.5
+      Z: 4.8001833
+    }
+  }
+  ParentId: 17360112169003464756
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18080397685168790491
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 18254363864921759632
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -59,7 +112,7 @@ Objects {
   Transform {
     Location {
       X: -4259.70508
-      Y: -5108.61621
+      Y: -5235.271
       Z: 874.999878
     }
     Rotation {
@@ -6711,17 +6764,16 @@ Objects {
     Location {
       X: 841.121765
       Y: -849.430603
-      Z: 1285.43384
+      Z: 1280.83008
     }
     Rotation {
       Pitch: 44.9999428
       Yaw: 89.9999695
-      Roll: -2.41483394e-06
     }
     Scale {
-      X: 9.90654564
-      Y: 23.177578
-      Z: 16.4486027
+      X: 10.3083239
+      Y: 23.1775742
+      Z: 16.4486065
     }
   }
   ParentId: 8689889359936539676
@@ -6766,17 +6818,16 @@ Objects {
     Location {
       X: -665.420776
       Y: -849.430603
-      Z: 1285.43384
+      Z: 1280.83008
     }
     Rotation {
       Pitch: 44.9999428
       Yaw: 89.9999695
-      Roll: -2.41483394e-06
     }
     Scale {
-      X: 9.90654564
-      Y: 23.177578
-      Z: 16.4486027
+      X: 10.3083239
+      Y: 23.1775742
+      Z: 16.4486065
     }
   }
   ParentId: 8689889359936539676
@@ -6821,7 +6872,7 @@ Objects {
     Location {
       X: 867.289246
       Y: 862.718689
-      Z: 1285.43372
+      Z: 1280.83008
     }
     Rotation {
       Pitch: 44.9999886
@@ -6829,9 +6880,9 @@ Objects {
       Roll: 2.41483622e-06
     }
     Scale {
-      X: 9.90654564
+      X: 10.3083239
       Y: 23.1775742
-      Z: 16.4486027
+      Z: 16.4486065
     }
   }
   ParentId: 8689889359936539676
@@ -6876,7 +6927,7 @@ Objects {
     Location {
       X: -639.252563
       Y: 862.718689
-      Z: 1285.43372
+      Z: 1280.83008
     }
     Rotation {
       Pitch: 44.9999886
@@ -6884,9 +6935,9 @@ Objects {
       Roll: 2.41483622e-06
     }
     Scale {
-      X: 9.90654564
+      X: 10.3083239
       Y: 23.1775742
-      Z: 16.4486027
+      Z: 16.4486065
     }
   }
   ParentId: 8689889359936539676
@@ -7198,6 +7249,14 @@ Objects {
     }
   }
   ParentId: 16842029073784669571
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5998301750682578824
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7297,6 +7356,14 @@ Objects {
     }
   }
   ParentId: 16842029073784669571
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5998301750682578824
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7448,7 +7515,7 @@ Objects {
   Transform {
     Location {
       X: -310
-      Y: -465
+      Y: -467.389282
       Z: -6.10351563e-05
     }
     Rotation {
@@ -7615,7 +7682,7 @@ Objects {
   Transform {
     Location {
       X: -3.06835938
-      Y: -465
+      Y: -468.05188
       Z: 580
     }
     Rotation {
@@ -7678,7 +7745,7 @@ Objects {
   Transform {
     Location {
       X: 310
-      Y: -465
+      Y: -467.389282
       Z: -6.10351563e-05
     }
     Rotation {
@@ -7739,6 +7806,7 @@ Objects {
   Transform {
     Location {
       X: 310
+      Y: 13.5004883
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8009,6 +8077,7 @@ Objects {
   Transform {
     Location {
       X: -310
+      Y: 13.5004883
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8069,6 +8138,7 @@ Objects {
   Transform {
     Location {
       X: -3.06835938
+      Y: 13.5004883
       Z: 580
     }
     Rotation {
@@ -8174,7 +8244,7 @@ Objects {
   Transform {
     Location {
       X: -310
-      Y: -465
+      Y: -469.345703
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8401,7 +8471,7 @@ Objects {
   Transform {
     Location {
       X: -3.06835938
-      Y: -465
+      Y: -469.345703
       Z: 580
     }
     Rotation {
@@ -8464,7 +8534,7 @@ Objects {
   Transform {
     Location {
       X: 310
-      Y: -465
+      Y: -469.345703
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8525,6 +8595,7 @@ Objects {
   Transform {
     Location {
       X: 310
+      Y: 5.56787109
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8585,6 +8656,7 @@ Objects {
   Transform {
     Location {
       X: -310
+      Y: 5.56787109
       Z: -6.10351563e-05
     }
     Rotation {
@@ -8645,6 +8717,7 @@ Objects {
   Transform {
     Location {
       X: -3.06835938
+      Y: 5.56787109
       Z: 580
     }
     Rotation {

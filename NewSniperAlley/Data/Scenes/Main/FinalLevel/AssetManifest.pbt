@@ -2195,6 +2195,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5998301750682578824
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
+  }
+}
+Assets {
   Id: 5906076877227777947
   Name: "Military Sandbag 02"
   PlatformAssetType: 1
