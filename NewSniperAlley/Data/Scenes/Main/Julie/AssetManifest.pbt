@@ -1,10 +1,28 @@
 Assets {
+  Id: 18439869872542090378
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
+  }
+}
+Assets {
   Id: 18267532276652392629
   Name: "Urban Cinderblock Debris 04"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_04_ref"
+  }
+}
+Assets {
+  Id: 18205316927619177531
+  Name: "Decal Military Posters 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_mil_posters_002_ref"
   }
 }
 Assets {
@@ -44,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17677556175693261697
+  Name: "Sci-fi Terminal Keyboard 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scifi_keyboard_001_ref"
+  }
+}
+Assets {
   Id: 17548833617676089709
   Name: "Decal Graffiti Murals 02 (Variants)"
   PlatformAssetType: 14
@@ -71,12 +98,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17391755111850488586
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
   Id: 17331405778350051027
   Name: "Industrial Room Tone Loop 01 SFX"
   PlatformAssetType: 7
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_industrial_room_tone_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 17280976981586363031
+  Name: "Corrugated Sheet Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
   }
 }
 Assets {
@@ -113,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_003_ref"
+  }
+}
+Assets {
+  Id: 16965777294932964901
+  Name: "Cube - Chamfered Large Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -230,6 +284,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 16076924560798306934
+  Name: "Urban Damaged Concrete Panel 01 - 8x2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dmg_concrete_panel_001_8x2m_ref"
+  }
+}
+Assets {
+  Id: 15864537660089476386
+  Name: "Urban Damaged Rebar - Twisted Ends 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_rebar_003_ref"
+  }
+}
+Assets {
+  Id: 15855081481126140438
+  Name: "Decal Numbers and Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_numbers_002"
   }
 }
 Assets {
@@ -365,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_001"
+  }
+}
+Assets {
+  Id: 13497954212257386805
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
   }
 }
 Assets {
@@ -575,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10221011215825579366
+  Name: "Urban Damaged Concrete Pillar 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_concrete_pillar_middle_001_ref"
+  }
+}
+Assets {
   Id: 10184847056121543272
   Name: "Basic Material"
   PlatformAssetType: 2
@@ -626,6 +725,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_001"
+  }
+}
+Assets {
+  Id: 9367762470209885204
+  Name: "Wedge - Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_concave_001"
   }
 }
 Assets {
@@ -944,12 +1052,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4706700669089266280
+  Name: "Cube - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_002"
+  }
+}
+Assets {
   Id: 4567991919998467135
   Name: "Pipe - Quarter Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter-pipe_003"
+  }
+}
+Assets {
+  Id: 4460516056516280630
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
   }
 }
 Assets {
@@ -968,6 +1094,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_03_ref"
+  }
+}
+Assets {
+  Id: 4069404977980235206
+  Name: "Sci-fi Console Screen 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scifi_screen_001_ref"
   }
 }
 Assets {
@@ -1034,6 +1169,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2919298788161118301
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
+  }
+}
+Assets {
   Id: 2887966541650210293
   Name: "Invisible"
   PlatformAssetType: 2
@@ -1049,6 +1193,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_01_ref"
+  }
+}
+Assets {
+  Id: 2821109502359403269
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -1133,12 +1286,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1796969037005147687
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
   Id: 1500507774993218998
   Name: "Water Jet VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_water_jet"
+  }
+}
+Assets {
+  Id: 1358463712937310634
+  Name: "Urban Damaged Rebar Twisted Ends 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dest_rebar_004_ref"
   }
 }
 Assets {
@@ -1247,5 +1418,14 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
+  }
+}
+Assets {
+  Id: 103204866163876130
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
   }
 }
