@@ -278,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16476204318341513043
+  Name: "Sign Font 1 Neon Outline: +"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeNeon_Outline_01_Text_050"
+  }
+}
+Assets {
   Id: 16463294282783288209
   Name: "Animated Neon Sign- Cards"
   PlatformAssetType: 1
