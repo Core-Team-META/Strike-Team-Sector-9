@@ -27,16 +27,11 @@ function OnBeginOverlap(whichTrigger, other)
 			end
 		end
 	end
-	UI.PrintToScreen("Entering Audio Zone")
+	print("Entering Audio Zone")
 end
 
 function OnEndOverlap(whichTrigger, other)
 	if other == Game.GetLocalPlayer() then
-		for _, child in ipairs(AudioFolderEnter:GetChildren()) do
-			if child:IsA("Audio") or child:IsA("SmartAudio") then
-				child:Stop()
-			end
-		end
 		
 		for _, child in ipairs(AudioFolderLeave:GetChildren()) do
 			if child:IsA("Audio") or child:IsA("SmartAudio") then
@@ -45,7 +40,7 @@ function OnEndOverlap(whichTrigger, other)
 		end
 		
 	end
-	UI.PrintToScreen("Leaving Audio Zone")
+	print("Leaving Audio Zone")
 end
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
 trigger.endOverlapEvent:Connect(OnEndOverlap)
