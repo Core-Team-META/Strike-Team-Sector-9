@@ -2,7 +2,7 @@ Assets {
   Id: 8556484998132393831
   Name: "ST2_Cloud"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 3284386588905551214
     ParameterOverrides {

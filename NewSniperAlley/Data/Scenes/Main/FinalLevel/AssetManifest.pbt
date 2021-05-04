@@ -89,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17804872816677549927
-  Name: "Main Street Floor 01 - 4m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_floor_001_4x4_ref"
-  }
-}
-Assets {
   Id: 17775019098342521252
   Name: "Main Street Wall 02"
   PlatformAssetType: 1
@@ -212,15 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_02_ref"
-  }
-}
-Assets {
-  Id: 17241186771114119414
-  Name: "Metal Gold 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_gold_001"
   }
 }
 Assets {
@@ -809,15 +791,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13913679398007785057
-  Name: "Craftsman Wall Interior 01 Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_int_001_corner"
-  }
-}
-Assets {
   Id: 13877856592080960583
   Name: "Urban Water Tower Base"
   PlatformAssetType: 1
@@ -1313,15 +1286,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11111447611931661974
-  Name: "Craftsman Stairs 01 Railing"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
-  }
-}
-Assets {
   Id: 11101756980272266861
   Name: "Animated Neon Sign - Hand"
   PlatformAssetType: 1
@@ -1427,15 +1391,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_rain_volume_vfx"
-  }
-}
-Assets {
-  Id: 10567192068688216948
-  Name: "Craftsman Stairs 01 L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_L"
   }
 }
 Assets {
@@ -1709,15 +1664,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8681899656752834670
-  Name: "Craftsman Wall Interior 01 Doorway"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_wall_int_001_doorway"
-  }
-}
-Assets {
   Id: 8617818292148704575
   Name: "Craftsman Stairs 01 Pillar"
   PlatformAssetType: 1
@@ -1988,15 +1934,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7066986369427601520
-  Name: "Craftsman Stairs 01 L Outer Wall"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_L_wall02"
-  }
-}
-Assets {
   Id: 7046531213084076619
   Name: "Metal Complex Tech Panel Wall 02"
   PlatformAssetType: 2
@@ -2129,15 +2066,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_bubbles_001"
-  }
-}
-Assets {
-  Id: 6358471158957620124
-  Name: "Craftsman Stairs 01 Railing Post"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_post"
   }
 }
 Assets {
@@ -2474,15 +2402,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4104236924212695614
-  Name: "Craftsman Stairs 01 L Inner Wall"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_L_wall01"
-  }
-}
-Assets {
   Id: 3804561942186383868
   Name: "Craftsman Stairs 01 150cm"
   PlatformAssetType: 1
@@ -2597,15 +2516,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_rectangle_thin_ref"
-  }
-}
-Assets {
-  Id: 3135521423375055406
-  Name: "Wood Floor Light"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_wood_floor_light_001_uv"
   }
 }
 Assets {
