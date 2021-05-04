@@ -2102,9 +2102,9 @@ Objects {
   Name: "Marker"
   Transform {
     Location {
-      X: -1275
-      Y: -1152.56274
-      Z: -329.874237
+      X: -1277.64233
+      Y: -419.617371
+      Z: -314.981049
     }
     Rotation {
       Pitch: -1.33218384

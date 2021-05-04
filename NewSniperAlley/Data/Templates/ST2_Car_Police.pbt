@@ -1932,6 +1932,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2144,6 +2150,12 @@ Assets {
               R: 0.057292
               G: 0.054234
               B: 0.0536620021
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
               A: 1
             }
           }
@@ -3628,6 +3640,12 @@ Assets {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3727,6 +3745,12 @@ Assets {
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3816,6 +3840,14 @@ Assets {
           }
         }
         ParentId: 16158921983739908857
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3860,6 +3892,14 @@ Assets {
           }
         }
         ParentId: 16158921983739908857
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Lights:color"
+            Color {
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

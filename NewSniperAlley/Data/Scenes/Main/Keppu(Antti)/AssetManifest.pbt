@@ -377,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16198346205888411814
+  Name: "Urban Fence Door"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_door_01"
+  }
+}
+Assets {
   Id: 16164854765417449972
   Name: "Square Column Segment"
   PlatformAssetType: 1

@@ -1151,15 +1151,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12189437943481407266
-  Name: "Decal Military Symbols 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_military_logo_2_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

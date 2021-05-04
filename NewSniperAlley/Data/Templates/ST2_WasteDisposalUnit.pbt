@@ -50,8 +50,6 @@ Assets {
           }
         }
         ParentId: 14599246535522245734
-        ChildIds: 12508357933661220820
-        ChildIds: 11625866700855866285
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -63,133 +61,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12508357933661220820
-        Name: "Decal Hazard Symbols 01"
-        Transform {
-          Location {
-            X: -128.320801
-            Y: -0.000122070313
-          }
-          Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: -89.999939
-            Roll: 89.9999619
-          }
-          Scale {
-            X: 0.628077626
-            Y: 0.628077924
-            Z: 0.05240383
-          }
-        }
-        ParentId: 2261675172948853571
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.219443545
-              B: 0.30400002
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Color Shapes"
-            Color {
-              R: 0.710000038
-              G: 0.155165583
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17740897917985438767
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-      }
-      Objects {
-        Id: 11625866700855866285
-        Name: "Decal Hazard Symbols 01"
-        Transform {
-          Location {
-            X: 128.320801
-            Z: 9.15527344e-05
-          }
-          Rotation {
-            Yaw: -89.999939
-            Roll: 89.9999771
-          }
-          Scale {
-            X: 0.628077626
-            Y: 0.628077924
-            Z: 0.05240383
-          }
-        }
-        ParentId: 2261675172948853571
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.219443545
-              B: 0.30400002
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Color Shapes"
-            Color {
-              R: 0.710000038
-              G: 0.155165583
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17740897917985438767
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -2482,15 +2353,6 @@ Assets {
             BoundsScale: 1
           }
         }
-      }
-    }
-    Assets {
-      Id: 17740897917985438767
-      Name: "Decal Hazard Symbols 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_hazard_symbols_001"
       }
     }
     Assets {
