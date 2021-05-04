@@ -665,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10260597922063654733
+  Name: "Ceramic Terracotta Pots 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_001_uv"
+  }
+}
+Assets {
   Id: 10221011215825579366
   Name: "Urban Damaged Concrete Pillar 01"
   PlatformAssetType: 1
@@ -836,30 +845,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7414428204400123611
-  Name: "Main Street Awning 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_awning_002_ref"
-  }
-}
-Assets {
   Id: 7390126451591221646
   Name: "Decal Snow Patch"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_snow_patch_001"
-  }
-}
-Assets {
-  Id: 7372149666124795665
-  Name: "Camouflage Net 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_kamo_net_001_uv_ref"
   }
 }
 Assets {
@@ -953,6 +944,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6033741828283651487
+  Name: "Sci-fi Base Trim 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_002_8m_ref"
+  }
+}
+Assets {
   Id: 6021347779703637982
   Name: "Main Street Trim 05"
   PlatformAssetType: 1
@@ -1022,15 +1022,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_015"
-  }
-}
-Assets {
-  Id: 5117227874850617562
-  Name: "Fantasy Staff Grip 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_fan_grip_staff_001"
   }
 }
 Assets {
@@ -1301,24 +1292,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_water_jet"
-  }
-}
-Assets {
-  Id: 1358463712937310634
-  Name: "Urban Damaged Rebar Twisted Ends 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_rebar_004_ref"
-  }
-}
-Assets {
-  Id: 1122175988664702743
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
   }
 }
 Assets {
