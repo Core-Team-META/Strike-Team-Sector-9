@@ -8,14 +8,23 @@ Assets {
     ParameterOverrides {
       Overrides {
         Name: "rust_amount"
-        Float: 0.23799938
+        Float: 1
       }
       Overrides {
         Name: "color_rust"
         Color {
-          R: 1
-          G: 1
-          B: 1
+          R: 0.644000053
+          G: 0.644000053
+          B: 0.644000053
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "color"
+        Color {
+          R: 0.133
+          G: 0.133
+          B: 0.133
           A: 1
         }
       }

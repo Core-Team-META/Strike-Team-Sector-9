@@ -2042,6 +2042,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6412754489533741111
+  Name: "Decal Graffiti Bubbles 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_bubbles_001"
+  }
+}
+Assets {
   Id: 6388401066989036925
   Name: "Pipe - Thin"
   PlatformAssetType: 1

@@ -7861,16 +7861,16 @@ Objects {
     Location {
       X: -0.193359375
       Y: -220
-      Z: 584.999939
+      Z: 566.884277
     }
     Rotation {
       Yaw: -179.999954
       Roll: 89.999939
     }
     Scale {
-      X: 6.25
+      X: 6.14697266
       Y: 6.25
-      Z: 3.62517619
+      Z: 3.62517643
     }
   }
   ParentId: 16970156562885908726
@@ -7878,7 +7878,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -7913,7 +7913,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -640
+      X: -635
       Y: -223.479
       Z: -6.10351563e-05
     }
@@ -7930,7 +7930,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -8140,7 +8140,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -8192,7 +8192,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -8229,15 +8229,15 @@ Objects {
     Location {
       X: -0.193359375
       Y: -235.109741
-      Z: 584.999939
+      Z: 571.060669
     }
     Rotation {
       Yaw: -179.999954
       Roll: 89.9999161
     }
     Scale {
-      X: 6.25
-      Y: 6.25
+      X: 6.1405077
+      Y: 6.25011444
       Z: 3.62517619
     }
   }
@@ -8246,7 +8246,15 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 16846391926756276643
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 3
+        G: 1.31125796
+        A: 1
       }
     }
   }
@@ -8298,7 +8306,15 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 16846391926756276643
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 3
+        G: 1.31125796
+        A: 1
       }
     }
   }
@@ -8551,7 +8567,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -8603,7 +8619,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -8983,7 +8999,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -9035,7 +9051,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -9089,7 +9105,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
@@ -9141,7 +9157,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 11189629668183138391
+        Id: 1876355522385362244
       }
     }
   }
