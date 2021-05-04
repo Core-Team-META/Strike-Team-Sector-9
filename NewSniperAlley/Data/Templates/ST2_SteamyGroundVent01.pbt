@@ -7,7 +7,7 @@ Assets {
       RootId: 5313260172254899196
       Objects {
         Id: 5313260172254899196
-        Name: "ST2_SteamyVent01"
+        Name: "ST2_SteamyGroundVent01"
         Transform {
           Scale {
             X: 1
@@ -169,6 +169,23 @@ Assets {
           }
         }
         ParentId: 5313260172254899196
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18339968451170207572
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.243000016
+              G: 0.243000016
+              B: 0.243000016
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -217,7 +234,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 841534158063459245
+              Id: 16234593645984050970
             }
           }
         }
@@ -273,6 +290,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_urb_dtn_floor_grate_firesc_1x2_001_ref"
+      }
+    }
+    Assets {
+      Id: 18339968451170207572
+      Name: "Metal Painted Old 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
     Assets {

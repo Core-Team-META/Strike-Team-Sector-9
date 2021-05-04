@@ -10,8 +10,8 @@ Assets {
         Name: "ST2_Vending_Machine_Basic_04"
         Transform {
           Scale {
-            X: 1.12771034
-            Y: 0.671238422
+            X: 1.1277107
+            Y: 1.11950958
             Z: 1.12771046
           }
         }
@@ -101,8 +101,8 @@ Assets {
         Name: "Decal Graffiti Bubbles 01 (Variants)"
         Transform {
           Location {
-            X: -3.45935059
-            Y: -50.7497559
+            X: -3.45921636
+            Y: -36.3672485
           }
           Rotation {
             Yaw: 90.0000076
@@ -196,8 +196,8 @@ Assets {
         Name: "Decal Graffiti Murals 02 (Variants)"
         Transform {
           Location {
-            X: 3.53750563
-            Y: -70.9729
+            X: 3.53761196
+            Y: -41.7365532
             Z: 92.2733307
           }
           Rotation {

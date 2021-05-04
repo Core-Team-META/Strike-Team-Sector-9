@@ -10,8 +10,8 @@ Assets {
         Name: "ST2_Vending_Machine_Basic_03"
         Transform {
           Scale {
-            X: 0.999999881
-            Y: 0.63800782
+            X: 0.999996424
+            Y: 1.16071486
             Z: 1
           }
         }

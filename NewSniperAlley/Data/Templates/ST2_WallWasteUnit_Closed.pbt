@@ -15,8 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 7918380236470988078
+        ParentId: 906925363925354889
         ChildIds: 17623852960621985107
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -29,70 +28,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7918380236470988078
-        Name: "Decal Hazard Symbols 01"
-        Transform {
-          Location {
-            X: -8.90722656
-            Y: 51.1801758
-            Z: 27.8996124
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: 89.999939
-          }
-          Scale {
-            X: 0.406201035
-            Y: 0.406201214
-            Z: 0.0338914953
-          }
-        }
-        ParentId: 12384446557410863787
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Shape Index"
-            Int: 1
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.475701481
-              B: 0.659000039
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Color Shapes"
-            Color {
-              R: 0.710000038
-              G: 0.155165583
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17740897917985438767
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -209,8 +144,8 @@ Assets {
           }
           Rotation {
             Pitch: 6.83018879e-06
-            Yaw: -89.9999542
-            Roll: -89.9999542
+            Yaw: -89.999939
+            Roll: -89.999939
           }
           Scale {
             X: 0.118800923
@@ -258,7 +193,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10752071864741613435
+            Id: 7708829302333976186
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -334,7 +269,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10752071864741613435
+            Id: 7708829302333976186
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -569,15 +504,6 @@ Assets {
       }
     }
     Assets {
-      Id: 17740897917985438767
-      Name: "Decal Hazard Symbols 01"
-      PlatformAssetType: 14
-      PrimaryAsset {
-        AssetType: "DecalBlueprintAssetRef"
-        AssetId: "bp_decal_hazard_symbols_001"
-      }
-    }
-    Assets {
       Id: 14974241780020394401
       Name: "Prism - 6-Sided Half"
       PlatformAssetType: 1
@@ -596,7 +522,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10752071864741613435
+      Id: 7708829302333976186
       Name: "Cube - Polished"
       PlatformAssetType: 1
       PrimaryAsset {

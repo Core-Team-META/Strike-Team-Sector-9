@@ -10,8 +10,8 @@ Assets {
         Name: "ST2_Vending_Machine_Basic_02"
         Transform {
           Scale {
-            X: 0.999999881
-            Y: 0.63800782
+            X: 1.00000334
+            Y: 1.09804523
             Z: 1
           }
         }
@@ -87,9 +87,9 @@ Assets {
         Name: "Decal Military Posters 01"
         Transform {
           Location {
-            X: -1.05023205
-            Y: 55.2443619
-            Z: 137.671295
+            X: -1.31304872
+            Y: 57.5613098
+            Z: 208.744766
           }
           Rotation {
             Pitch: 0.147252038
@@ -97,9 +97,9 @@ Assets {
             Roll: 90.0773849
           }
           Scale {
-            X: 0.999996305
-            Y: 1.56737959
-            Z: 0.242288142
+            X: 0.999996901
+            Y: 1.56737983
+            Z: 0.159551412
           }
         }
         ParentId: 11234340750214041748

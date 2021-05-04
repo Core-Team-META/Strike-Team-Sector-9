@@ -1680,7 +1680,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 12905923173550510229
+            Id: 14974241780020394401
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1754,7 +1754,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13924515375743805646
+            Id: 14974241780020394401
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1885,15 +1885,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_scf_crate_small_lid_001_ref"
-      }
-    }
-    Assets {
-      Id: 12905923173550510229
-      Name: "Cylinder - Polished"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_hq_test_001"
       }
     }
     PrimaryAssetId {
