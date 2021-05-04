@@ -413,6 +413,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14054176190919042885
+  Name: "Metal Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
   Id: 14023144080669477239
   Name: "Hill 02"
   PlatformAssetType: 1
@@ -599,6 +608,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
+  Id: 11235153861991886070
+  Name: "Decal Soil Cracks Smal Variants 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_soil_cracks_002"
   }
 }
 Assets {
@@ -1142,6 +1160,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3369583370173701670
+  Name: "Ceramic Terracotta Pots Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_002_uv"
+  }
+}
+Assets {
   Id: 3164251070761236489
   Name: "Container - Rectangle Thin 01"
   PlatformAssetType: 1
@@ -1400,5 +1427,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
+  Id: 70183373899417159
+  Name: "Prism - 3-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hq_001"
   }
 }
