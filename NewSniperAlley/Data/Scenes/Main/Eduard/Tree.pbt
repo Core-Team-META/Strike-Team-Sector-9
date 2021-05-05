@@ -124915,6 +124915,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 12224751833610640005
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
