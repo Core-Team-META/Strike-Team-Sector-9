@@ -1,6 +1,60 @@
 Name: "Julie"
 RootId: 6324845266199599566
 Objects {
+  Id: 12889252375455264434
+  Name: "ST2_Vending_Machine_Advance_03"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6324845266199599566
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6232872054435042760
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Vending_Machine_Advance_03"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1666.77979
+            Y: -3332.15039
+            Z: 285.253876
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -148.48761
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13584770986345207496
+    }
+  }
+}
+Objects {
   Id: 9432373703705222570
   Name: "Subway Station Interior"
   Transform {
@@ -61,7 +115,6 @@ Objects {
   ChildIds: 11498008261335764207
   ChildIds: 14519685760610469438
   ChildIds: 15844922379958807642
-  ChildIds: 5500238653410642985
   ChildIds: 16222089724548028616
   ChildIds: 5213169823187416900
   ChildIds: 1934981805480350220
@@ -151,6 +204,9 @@ Objects {
   ChildIds: 6686570649337746216
   ChildIds: 13257185659588116707
   ChildIds: 12496816646238002346
+  ChildIds: 2800952826139627201
+  ChildIds: 11418284360527525052
+  ChildIds: 14082267936307027554
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -165,6 +221,185 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14082267936307027554
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -1396.87744
+      Y: 2329.40356
+      Z: 411.933563
+    }
+    Rotation {
+      Pitch: -31.9345341
+      Yaw: 90.0000076
+      Roll: 90.0000076
+    }
+    Scale {
+      X: -1.34694099
+      Y: 1.62615693
+      Z: 0.268874019
+    }
+  }
+  ParentId: 9432373703705222570
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 8
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.0199999809
+        G: 0.00715231104
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 11418284360527525052
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -1394.91895
+      Y: 2125.58521
+      Z: 360.07196
+    }
+    Rotation {
+      Pitch: 3.4150944e-05
+      Yaw: 89.9999771
+      Roll: 89.9999313
+    }
+    Scale {
+      X: -1.34694099
+      Y: 1.62615693
+      Z: 0.268874019
+    }
+  }
+  ParentId: 9432373703705222570
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 4
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.279999971
+        G: 0.0222516581
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 2800952826139627201
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -1412.86157
+      Y: 1936.88159
+      Z: 432.780182
+    }
+    Rotation {
+      Yaw: 90.0000305
+      Roll: 89.9999924
+    }
+    Scale {
+      X: -1.34694099
+      Y: 1.62615693
+      Z: 0.268874019
+    }
+  }
+  ParentId: 9432373703705222570
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.114966869
+        G: 0.279999971
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -28524,86 +28759,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5500238653410642985
-  Name: "Bottle 01"
-  Transform {
-    Location {
-      X: 740.428955
-      Y: 1814.20044
-      Z: 4.56698608
-    }
-    Rotation {
-      Pitch: -82.6011047
-      Yaw: 27.5016117
-      Roll: 19.3306026
-    }
-    Scale {
-      X: 0.822946846
-      Y: 0.822946846
-      Z: 0.822946846
-    }
-  }
-  ParentId: 9432373703705222570
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_Detail2:id"
-      AssetReference {
-        Id: 2887966541650210293
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.0860927105
-        G: 0.200000048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14089568530156265558
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 2887966541650210293
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9749557133567525528
-    }
-    Teams {
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 12709498067001140836
-    SubobjectId: 3093014841643893619
-    InstanceId: 2031093846507367867
-    TemplateId: 9727070579395977841
-  }
-}
-Objects {
   Id: 15844922379958807642
   Name: "Decal Street Litter 01"
   Transform {
@@ -34581,15 +34736,15 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 10260597922063654733
+        Id: 3369583370173701670
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 1
-        G: 0.990529835
-        B: 0.89
+        G: 0.814238429
+        B: 0.49
         A: 1
       }
     }
@@ -34695,15 +34850,15 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 10260597922063654733
+        Id: 3369583370173701670
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
         R: 1
-        G: 0.990529835
-        B: 0.89
+        G: 0.814238429
+        B: 0.49
         A: 1
       }
     }
