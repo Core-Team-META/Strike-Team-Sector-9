@@ -683,15 +683,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10260597922063654733
-  Name: "Ceramic Terracotta Pots 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_terracotta_pots_001_uv"
-  }
-}
-Assets {
   Id: 10221011215825579366
   Name: "Urban Damaged Concrete Pillar 01"
   PlatformAssetType: 1
