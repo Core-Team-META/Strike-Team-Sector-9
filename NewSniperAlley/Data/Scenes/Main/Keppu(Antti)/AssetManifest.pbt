@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17891447625107566476
+  Name: "Hiragana Font 1: \343\201\274 (BO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_049"
+  }
+}
+Assets {
   Id: 17740897917985438767
   Name: "Decal Hazard Symbols 01"
   PlatformAssetType: 14
@@ -161,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17303180997739090003
+  Name: "Text 01: T"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_019"
+  }
+}
+Assets {
   Id: 17280976981586363031
   Name: "Corrugated Sheet Tall"
   PlatformAssetType: 1
@@ -194,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_002"
+  }
+}
+Assets {
+  Id: 16986510475576472101
+  Name: "Hiragana Font 1: \343\201\237 (TA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_025"
   }
 }
 Assets {
@@ -458,15 +485,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15659294955587728976
-  Name: "Text 04: T"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_019"
-  }
-}
-Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
@@ -527,6 +545,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 14934952303376649672
+  Name: "Katakana Font 1: \343\203\215 (NE)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_katakana_023"
   }
 }
 Assets {
@@ -728,15 +755,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14023528583957804470
-  Name: "Sign Font 2 Neon Outline: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_000"
-  }
-}
-Assets {
   Id: 14023212398559948573
   Name: "Metal Chrome"
   PlatformAssetType: 2
@@ -845,6 +863,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13377764251575694508
+  Name: "Text 01: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_014"
+  }
+}
+Assets {
   Id: 13362988571131584785
   Name: "Decal Sci-fi Details 01"
   PlatformAssetType: 14
@@ -896,6 +923,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
+  }
+}
+Assets {
+  Id: 13146199123139600184
+  Name: "Text 01: M"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_012"
   }
 }
 Assets {
@@ -986,15 +1022,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_kit_roof_001_ref"
-  }
-}
-Assets {
-  Id: 12783865392164197828
-  Name: "Text 04: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_011"
   }
 }
 Assets {
@@ -1115,6 +1142,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11966491119232826126
+  Name: "Hiragana Font 1: \343\201\256 (NO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_039"
+  }
+}
+Assets {
   Id: 11962195740089165680
   Name: "Girder Medium 4m"
   PlatformAssetType: 1
@@ -1232,6 +1268,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11312051364977333830
+  Name: "Hiragana Font 1: \344\270\211 (SAN / 3)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_080"
+  }
+}
+Assets {
   Id: 11195203350060388224
   Name: "Military Tank Historic Track 01 - Mid 4m"
   PlatformAssetType: 1
@@ -1292,15 +1337,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_014"
-  }
-}
-Assets {
-  Id: 10984437661641781482
-  Name: "Sign Font 2 Neon Outline: S"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_018"
   }
 }
 Assets {
@@ -1475,15 +1511,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10084579082453840554
-  Name: "Text 04: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_012"
-  }
-}
-Assets {
   Id: 10065681794430563526
   Name: "Sign Font 1 Neon Outline: 2"
   PlatformAssetType: 1
@@ -1508,6 +1535,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_cargo_001"
+  }
+}
+Assets {
+  Id: 9997774032960254197
+  Name: "Hiragana Font 1: \343\201\242 (DI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_031"
   }
 }
 Assets {
@@ -1556,6 +1592,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9798555348957227150
+  Name: "Hiragana Font 1: \343\201\252 (NA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_035"
+  }
+}
+Assets {
   Id: 9783373452716819494
   Name: "Shipping Pallet - Square"
   PlatformAssetType: 1
@@ -1589,15 +1634,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_cabinet_003_ref"
-  }
-}
-Assets {
-  Id: 9647297623024469013
-  Name: "Humanoid 1 Aparna"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_008_ref"
   }
 }
 Assets {
@@ -1646,24 +1682,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9135436491702005055
-  Name: "Sign Neon Arrow Outline: Semi-Circle Left"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonArrows_01_Text_007"
-  }
-}
-Assets {
-  Id: 8999400067380464690
-  Name: "Sign Font 2 Neon Outline: G"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_006"
-  }
-}
-Assets {
   Id: 8976318233260387419
   Name: "Car Paint Advanced 01"
   PlatformAssetType: 2
@@ -1679,15 +1697,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_hexagon_001"
-  }
-}
-Assets {
-  Id: 8609145440851971719
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -1844,6 +1853,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7983192630700777426
+  Name: "Text 01: E"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_004"
+  }
+}
+Assets {
   Id: 7971533233606131662
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   PlatformAssetType: 14
@@ -1880,12 +1898,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7708829302333976186
-  Name: "Cube - Polished"
+  Id: 7766997663479197753
+  Name: "Text 01: L"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
+    AssetId: "F1_Text_011"
   }
 }
 Assets {
@@ -1934,15 +1952,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7215214883174775190
-  Name: "Sign Neon Arrow Outline: Directional No Tabs"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonArrows_01_Text_050"
-  }
-}
-Assets {
   Id: 7203871647989153645
   Name: "Metal Diamond Plates 01"
   PlatformAssetType: 2
@@ -1985,6 +1994,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_05_ref"
+  }
+}
+Assets {
+  Id: 7046531213084076619
+  Name: "Metal Complex Tech Panel Wall 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_complex_tech_panel_002_uv"
   }
 }
 Assets {
@@ -2039,6 +2057,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_crate_lid_002_ref"
+  }
+}
+Assets {
+  Id: 6648051941461967847
+  Name: "Hiragana Font 1: \343\201\261 (PA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_050"
   }
 }
 Assets {
@@ -2102,6 +2129,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_001"
+  }
+}
+Assets {
+  Id: 6092438658981623122
+  Name: "Hiragana Font 1: \343\201\215 (KI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {
@@ -2735,6 +2771,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2064202923171618946
+  Name: "Katakana Font 1: \343\203\234 (BO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_katakana_034"
+  }
+}
+Assets {
   Id: 2015353903962974267
   Name: "Urban Damaged Concrete Panel 01 - 4x4m"
   PlatformAssetType: 1
@@ -2816,15 +2861,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1161497408010170015
-  Name: "Sign Font 1 Neon Outline: @"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_038"
-  }
-}
-Assets {
   Id: 1122175988664702743
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -2858,15 +2894,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_001_ref"
-  }
-}
-Assets {
-  Id: 962531297881391870
-  Name: "Text 04: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_004"
   }
 }
 Assets {
@@ -2906,6 +2933,15 @@ Assets {
   }
 }
 Assets {
+  Id: 766268022170783973
+  Name: "Hiragana Font 1: \343\201\214 (GA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_010"
+  }
+}
+Assets {
   Id: 697130077529532955
   Name: "Metal Painted Basic 01"
   PlatformAssetType: 2
@@ -2921,6 +2957,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_006"
+  }
+}
+Assets {
+  Id: 570519592603707188
+  Name: "Katakana Font 1: \343\203\260 (WI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_katakana_055"
   }
 }
 Assets {

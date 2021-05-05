@@ -161,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17437651838154271598
-  Name: "Sign Font 2 Neon Outline: 4"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_030"
-  }
-}
-Assets {
   Id: 17429250688696520263
   Name: "Decal Graffiti Murals 01 (Variants)"
   PlatformAssetType: 14
@@ -230,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_002"
+  }
+}
+Assets {
+  Id: 16986510475576472101
+  Name: "Hiragana Font 1: \343\201\237 (TA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_025"
   }
 }
 Assets {
@@ -296,15 +296,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16586186569353536175
-  Name: "Text 06: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_004"
-  }
-}
-Assets {
   Id: 16569967721778793374
   Name: "Transparent Bubble Glass"
   PlatformAssetType: 2
@@ -329,15 +320,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_angle_girder_001_ref"
-  }
-}
-Assets {
-  Id: 16361900871520744060
-  Name: "Urban Stairs Fire Escape - 6m 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_stairs_firesc_001_ref"
   }
 }
 Assets {
@@ -374,15 +356,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
-  }
-}
-Assets {
-  Id: 16225996946116169271
-  Name: "Main Street Railing 01 - 1m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_railing_002_ref"
   }
 }
 Assets {
@@ -464,15 +437,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_numbers_002"
-  }
-}
-Assets {
-  Id: 15660915727386990645
-  Name: "Sign Bracket - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_signbracket_square_001"
   }
 }
 Assets {
@@ -707,15 +671,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon3_Straight_Double"
-  }
-}
-Assets {
-  Id: 14252477554119905253
-  Name: "Text 06: #"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_039"
   }
 }
 Assets {
@@ -1097,15 +1052,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12336055700043431724
-  Name: "Main Street Wall 02 - Corner Trim 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_wall_002_corner_02_ref"
-  }
-}
-Assets {
   Id: 12329912718303648187
   Name: "Stone Railing 8m"
   PlatformAssetType: 1
@@ -1148,6 +1094,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonArrows_01_Text_004"
+  }
+}
+Assets {
+  Id: 11966491119232826126
+  Name: "Hiragana Font 1: \343\201\256 (NO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_039"
   }
 }
 Assets {
@@ -1394,15 +1349,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10507400395406811830
-  Name: "Barrier Plastic 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street_barrier_002"
-  }
-}
-Assets {
   Id: 10420895239212533739
   Name: "Animated Neon Sign - Hand Thumbs Up"
   PlatformAssetType: 1
@@ -1418,15 +1364,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_arch_001"
-  }
-}
-Assets {
-  Id: 10237054757922467893
-  Name: "Text 06: U"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_020"
   }
 }
 Assets {
@@ -1553,15 +1490,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_001"
-  }
-}
-Assets {
-  Id: 9691585235102710834
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
   }
 }
 Assets {
@@ -1808,15 +1736,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7909321749664205074
-  Name: "Craftsman Part - Stair Rail"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_stair_001_rail"
-  }
-}
-Assets {
   Id: 7900480577560620211
   Name: "Street Light Pole 02"
   PlatformAssetType: 1
@@ -2006,15 +1925,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6768970655409983518
-  Name: "Sign Font 2 Neon Outline: I"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_008"
-  }
-}
-Assets {
   Id: 6713301730188216932
   Name: "Prism - 3-Sided"
   PlatformAssetType: 1
@@ -2030,6 +1940,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_sidewalk-straight_001"
+  }
+}
+Assets {
+  Id: 6648051941461967847
+  Name: "Hiragana Font 1: \343\201\261 (PA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_050"
   }
 }
 Assets {
@@ -2093,6 +2012,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_straight_001"
+  }
+}
+Assets {
+  Id: 6092438658981623122
+  Name: "Hiragana Font 1: \343\201\215 (KI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {
@@ -2192,15 +2120,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_manhole_cover_01_ref"
-  }
-}
-Assets {
-  Id: 5605731744455320059
-  Name: "Urban Floor Grate Fire Escape - 1m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_1x4_001_ref"
   }
 }
 Assets {
@@ -2321,15 +2240,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4832010047877921553
-  Name: "Main Street Railing 01 - 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_railing_001_ref"
-  }
-}
-Assets {
   Id: 4811718779179670830
   Name: "Craftsman Part - Inside Upper Trim 01"
   PlatformAssetType: 1
@@ -2345,15 +2255,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_002_ref"
-  }
-}
-Assets {
-  Id: 4519163911553529386
-  Name: "Main Street Railing 01 - Post"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_railing_001_post_ref"
   }
 }
 Assets {
@@ -2426,15 +2327,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_barrel_01_ref"
-  }
-}
-Assets {
-  Id: 3654123690471764078
-  Name: "Text 06: B"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_001"
   }
 }
 Assets {
@@ -2519,30 +2411,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3076412631196887594
-  Name: "Text 06: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_024"
-  }
-}
-Assets {
   Id: 3016527118274735730
   Name: "Road Ramp Midsection Center"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_ramp_mid_mid_001"
-  }
-}
-Assets {
-  Id: 2968082076867468797
-  Name: "Text 06: S"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_018"
   }
 }
 Assets {
@@ -2570,15 +2444,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_invisible_001"
-  }
-}
-Assets {
-  Id: 2813132699335812984
-  Name: "Text 06: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F8_Text_011"
   }
 }
 Assets {
@@ -2858,15 +2723,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_024"
-  }
-}
-Assets {
-  Id: 1044749896523309167
-  Name: "Main Street Trim 05 Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_trim_005_corner_ref"
   }
 }
 Assets {

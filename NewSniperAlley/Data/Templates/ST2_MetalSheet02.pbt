@@ -10,9 +10,9 @@ Assets {
         Name: "ST2_MetalSheet02"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.557409644
+            Y: 0.557409644
+            Z: 0.557409644
           }
         }
         ParentId: 8766174116880648959
@@ -26,9 +26,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.321
-              G: 0.321
-              B: 0.321
+              R: 0.19600001
+              G: 0.19600001
+              B: 0.19600001
               A: 1
             }
           }
@@ -44,7 +44,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6865249745567109080
+            Id: 12598129352734110789
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -61,12 +61,12 @@ Assets {
       }
     }
     Assets {
-      Id: 6865249745567109080
-      Name: "Corrugated Sheet Bent"
+      Id: 12598129352734110789
+      Name: "Corrugated Sheet Large"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+        AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
       }
     }
     Assets {

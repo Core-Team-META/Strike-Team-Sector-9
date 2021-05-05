@@ -1,6 +1,68 @@
 Name: "Decals"
 RootId: 788990605066909357
 Objects {
+  Id: 4565414151852050189
+  Name: "Liquid Decal Wet Road Water Puddle"
+  Transform {
+    Location {
+      X: -6010.76
+      Y: 430.580933
+      Z: -539.362122
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 5.99985886
+      Y: 5.99985886
+      Z: 2.6720345
+    }
+  }
+  ParentId: 788990605066909357
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:eliquiddecaltype:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 7
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 4
+        G: 4
+        B: 4
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11445222157905148236
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 10484256412390459444
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
@@ -799,17 +861,17 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -2880
-      Y: 695
+      X: -1693.70557
+      Y: 1955
       Z: -254.934479
     }
     Rotation {
-      Yaw: -45
+      Yaw: -5
     }
     Scale {
-      X: 1.11479819
-      Y: 1.11479819
-      Z: 0.496474892
+      X: 9.75
+      Y: 5.75000095
+      Z: 0.5
     }
   }
   ParentId: 788990605066909357
@@ -822,7 +884,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Shape Index"
-      Int: 5
+      Int: 4
     }
     Overrides {
       Name: "bp:Color"
@@ -1050,132 +1112,10 @@ Objects {
     Location {
       X: -2865
       Y: 860
-      Z: -254.93428
+      Z: -280.686096
     }
     Rotation {
       Yaw: -45
-    }
-    Scale {
-      X: 1.11479819
-      Y: 1.11479819
-      Z: 0.496474892
-    }
-  }
-  ParentId: 788990605066909357
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:eliquiddecaltype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 5
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 4
-        G: 4
-        B: 4
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11445222157905148236
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 15496922202205438920
-  Name: "Liquid Decal Wet Road Water Puddle"
-  Transform {
-    Location {
-      X: -2849.60327
-      Y: 390
-      Z: -254.934235
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.11479819
-      Y: 1.11479819
-      Z: 0.496474892
-    }
-  }
-  ParentId: 788990605066909357
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:eliquiddecaltype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 5
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 4
-        G: 4
-        B: 4
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11445222157905148236
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 10529866604098024362
-  Name: "Liquid Decal Wet Road Water Puddle"
-  Transform {
-    Location {
-      X: -2710
-      Y: -40
-      Z: -254.934219
-    }
-    Rotation {
     }
     Scale {
       X: 1.11479819
