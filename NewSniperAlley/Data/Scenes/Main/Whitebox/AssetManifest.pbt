@@ -26,12 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12306622679456331034
-  Name: "Concrete Sidewalk"
+  Id: 13171200732535708403
+  Name: "Metal Corrugated 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_sidewalk_001"
+    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
   }
 }
 Assets {
