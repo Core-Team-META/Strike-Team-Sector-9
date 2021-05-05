@@ -933,5 +933,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_L_Template"
     }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }
