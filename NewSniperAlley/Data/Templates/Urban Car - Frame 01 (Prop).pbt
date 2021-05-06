@@ -608,5 +608,5 @@ Assets {
       AssetId: "Urban_Car_-_Frame_01__Prop_"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 84
 }

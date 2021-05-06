@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18005806658245892960
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
+  }
+}
+Assets {
   Id: 17548833617676089709
   Name: "Decal Graffiti Murals 02 (Variants)"
   PlatformAssetType: 14
@@ -314,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13642204757580273705
+  Name: "Cube - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
   Id: 13603351768712987773
   Name: "Humanoid 1 Cassidy"
   PlatformAssetType: 26
@@ -410,6 +428,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_wild_lily_001_ref"
+  }
+}
+Assets {
+  Id: 12704764869057814971
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -530,6 +557,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11162297399913732681
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 10988321735701093802
   Name: "Text 04: O"
   PlatformAssetType: 1
@@ -572,6 +608,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
+  Id: 10396917736734746205
+  Name: "Main Street Foundation 01 - Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_pillar_base_001_ref"
   }
 }
 Assets {
@@ -764,6 +809,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7757061955395221575
+  Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_scifi_electric_laser_tractor_beam_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 7708829302333976186
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -815,6 +869,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_001"
+  }
+}
+Assets {
+  Id: 6513725703093912292
+  Name: "Decal Stains Bottom 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_bottom_001"
   }
 }
 Assets {
