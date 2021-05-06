@@ -1412,6 +1412,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9906048860044247049
+  Name: "Grass Clumps"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_002_uv"
+  }
+}
+Assets {
   Id: 9842143421296066252
   Name: "Fantasy Castle Stairs 01 - 150cm"
   PlatformAssetType: 1
@@ -1526,6 +1535,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Straight"
+  }
+}
+Assets {
+  Id: 8619830679695120720
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
   }
 }
 Assets {

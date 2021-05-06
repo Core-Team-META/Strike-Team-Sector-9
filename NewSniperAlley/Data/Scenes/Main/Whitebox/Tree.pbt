@@ -4811,6 +4811,7 @@ Objects {
   ChildIds: 16941693302145536297
   ChildIds: 5566135387327749549
   ChildIds: 8692636264015763466
+  ChildIds: 10555298773414474267
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4828,13 +4829,66 @@ Objects {
   }
 }
 Objects {
+  Id: 10555298773414474267
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 459.14325
+      Y: 75.815918
+      Z: 150.000122
+    }
+    Rotation {
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1.5
+      Y: 5.5
+      Z: 8.99999905
+    }
+  }
+  ParentId: 8534252227297391453
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 8692636264015763466
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -441.411346
-      Y: -182.565598
-      Z: 7.91816807
+      X: -452.197418
+      Y: -167.480591
+      Z: -59.0740471
     }
     Rotation {
       Yaw: -179.999954
@@ -4885,16 +4939,16 @@ Objects {
   Name: "Arch"
   Transform {
     Location {
-      X: -25.622509
-      Y: -242.846786
-      Z: 580.003967
+      X: -35.7784958
+      Y: -226.098495
+      Z: 514.546814
     }
     Rotation {
       Roll: 89.9999466
     }
     Scale {
-      X: 9.25000095
-      Y: 7.25
+      X: 9.25
+      Y: 8.24999809
       Z: 1.25
     }
   }
@@ -4938,9 +4992,9 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 389.521912
-      Y: -182.565369
-      Z: 7.91816807
+      X: 378.73587
+      Y: -167.480209
+      Z: -59.0740471
     }
     Rotation {
       Yaw: -179.999985

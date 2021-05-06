@@ -764,15 +764,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14148796293362564634
-  Name: "Humanoid 1 Nancy"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_002_ref"
-  }
-}
-Assets {
   Id: 14126948567503170457
   Name: "Invisible"
   PlatformAssetType: 2
@@ -932,6 +923,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_014"
+  }
+}
+Assets {
+  Id: 13372691205743875705
+  Name: "Fern 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_003"
   }
 }
 Assets {
@@ -1868,6 +1868,24 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_car-paint_advanced_001_uv_ref"
+  }
+}
+Assets {
+  Id: 8960470652187272664
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
+  }
+}
+Assets {
+  Id: 8698530872141969228
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
   }
 }
 Assets {
@@ -2843,6 +2861,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2821109502359403269
+  Name: "Wedge"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
+  }
+}
+Assets {
   Id: 2805121172112350453
   Name: "Metal 9 Slice Lockers 01"
   PlatformAssetType: 2
@@ -3074,6 +3101,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_tri"
+  }
+}
+Assets {
+  Id: 1350712656798786743
+  Name: "Grass Short"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_002"
   }
 }
 Assets {

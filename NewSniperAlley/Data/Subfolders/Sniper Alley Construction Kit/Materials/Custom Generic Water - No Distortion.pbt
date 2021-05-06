@@ -40,9 +40,17 @@ Assets {
       Overrides {
         Name: "deep color"
         Color {
-          R: 0.0799999833
-          G: 0.707549572
+          R: 0.13
+          G: 0.222185314
           B: 1
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "shallow color"
+        Color {
+          G: 0.05
+          B: 0.04
           A: 1
         }
       }
