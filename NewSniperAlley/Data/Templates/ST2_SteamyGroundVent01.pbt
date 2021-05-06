@@ -122,11 +122,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
-            Float: 1.00345135
+            Float: 0.192693248
           }
           Overrides {
             Name: "bp:Life"
-            Float: 6.98243332
+            Float: 4.99486113
           }
         }
         Collidable_v2 {

@@ -1,6 +1,65 @@
 Name: "Whitebox"
 RootId: 17360112169003464756
 Objects {
+  Id: 5389411359427777849
+  Name: "Whitebox Wall 01 Doorway 01"
+  Transform {
+    Location {
+      X: -10015
+      Y: 660
+      Z: 1005
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17360112169003464756
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 17921777321927090544
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 6777045133803335889
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 13953710945178790162
   Name: "Cube - Bottom-Aligned"
   Transform {
@@ -10382,7 +10441,7 @@ Objects {
           SourceHeight: 3654.99683
         }
       }
-      MaxDrawDistance: 5000
+      MaxDrawDistance: 5070.31543
       MaxDistanceFadeRange: 1000
     }
   }

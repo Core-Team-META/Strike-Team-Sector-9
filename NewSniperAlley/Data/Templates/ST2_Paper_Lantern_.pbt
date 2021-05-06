@@ -15,7 +15,7 @@ Assets {
             Z: 0.738594055
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 906925363925354889
         ChildIds: 6423643763774393020
         ChildIds: 13999628297432118657
         Collidable_v2 {
@@ -123,7 +123,6 @@ Assets {
         ParentId: 2807180093513837264
         ChildIds: 10941748996144932363
         ChildIds: 7464476424521122476
-        ChildIds: 4233322567806952129
         ChildIds: 15355416587211505551
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -161,12 +160,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 6873870866151733811
+              Id: 14563714857969510279
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.754
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -251,60 +257,6 @@ Assets {
             Physics {
             }
             BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 4233322567806952129
-        Name: "Point Light"
-        Transform {
-          Location {
-            X: -1.46500587
-            Y: -2.3046751
-            Z: 35.2322311
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.867136121
-            Y: 0.867136121
-            Z: 0.867136121
-          }
-        }
-        ParentId: 13999628297432118657
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Light {
-          Intensity: 7.12048435
-          Color {
-            R: 1
-            G: 1
-            B: 1
-            A: 1
-          }
-          VolumetricIntensity: 14.7399797
-          TeamSettings {
-          }
-          Light {
-            UseTemperature: true
-            Temperature: 1170.09229
-            LocalLight {
-              AttenuationRadius: 246.001358
-              PointLight {
-                SourceRadius: 20
-                SoftSourceRadius: 20
-                FallOffExponent: 2
-              }
-            }
-            MaxDrawDistance: 10000
-            MaxDistanceFadeRange: 1000
           }
         }
       }
