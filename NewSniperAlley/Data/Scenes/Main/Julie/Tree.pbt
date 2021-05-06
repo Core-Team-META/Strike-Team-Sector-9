@@ -1,6 +1,34 @@
 Name: "Julie"
 RootId: 6324845266199599566
 Objects {
+  Id: 8615612276222760985
+  Name: "Transit Hallway TEST TEMPLATE"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6324845266199599566
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Transit Hallway TEST TEMPLATE"
+  }
+}
+Objects {
   Id: 6615815336421732694
   Name: "Transit Hallway"
   Transform {
