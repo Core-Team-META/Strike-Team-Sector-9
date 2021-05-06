@@ -37,6 +37,15 @@ Assets {
         Name: "speed"
         Float: 0.03
       }
+      Overrides {
+        Name: "deep color"
+        Color {
+          R: 0.0799999833
+          G: 0.707549572
+          B: 1
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 13888026977588837571
