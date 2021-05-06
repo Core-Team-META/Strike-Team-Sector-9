@@ -1,8 +1,8 @@
 Name: "Julie"
 RootId: 6324845266199599566
 Objects {
-  Id: 12889252375455264434
-  Name: "ST2_Vending_Machine_Advance_03"
+  Id: 6615815336421732694
+  Name: "Transit Hallway"
   Transform {
     Scale {
       X: 1
@@ -17,41 +17,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6232872054435042760
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Vending_Machine_Advance_03"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1666.77979
-            Y: -3332.15039
-            Z: 285.253876
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -148.48761
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13584770986345207496
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Transit Hallway"
   }
 }
 Objects {
