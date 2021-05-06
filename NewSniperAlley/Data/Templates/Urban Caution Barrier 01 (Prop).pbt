@@ -280,5 +280,5 @@ Assets {
       AssetId: "Urban_Caution_Barrier_01__Prop_"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 84
 }

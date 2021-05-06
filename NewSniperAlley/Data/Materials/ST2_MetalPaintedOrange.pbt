@@ -2,7 +2,7 @@ Assets {
   Id: 7308864149967513819
   Name: "ST2_MetalPaintedOrange"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 84
   CustomMaterialAsset {
     BaseMaterialId: 18339968451170207572
     ParameterOverrides {
