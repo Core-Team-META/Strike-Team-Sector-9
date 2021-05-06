@@ -1,10 +1,46 @@
 Assets {
+  Id: 18393437648231545508
+  Name: "Urban Pipe Flange 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
+  }
+}
+Assets {
+  Id: 18345313529173953901
+  Name: "Sci-fi Base Capsule Top 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_top_001_ref"
+  }
+}
+Assets {
   Id: 18339968451170207572
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
+  Id: 18236536682416522687
+  Name: "Decal Military Symbols 02"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_military_logo_2_ref"
+  }
+}
+Assets {
+  Id: 17740897917985438767
+  Name: "Decal Hazard Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_hazard_symbols_001"
   }
 }
 Assets {
@@ -26,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17009363609663707237
+  Name: "Urban Cardboard Box 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_003_ref"
+  }
+}
+Assets {
   Id: 16609600499553782676
   Name: "Fantasy Sack Laying"
   PlatformAssetType: 1
@@ -44,12 +89,30 @@ Assets {
   }
 }
 Assets {
-  Id: 15614794363849386760
-  Name: "Urban Door Steel 02"
+  Id: 16048367406070731799
+  Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
+  }
+}
+Assets {
+  Id: 14803841533992348173
+  Name: "Military Crate Hinge 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_hinge_002_ref"
   }
 }
 Assets {
@@ -71,21 +134,48 @@ Assets {
   }
 }
 Assets {
-  Id: 14021425836031181800
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 13261598718209045828
   Name: "Urban Cardboard Box Damaged 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_damaged_002_ref"
+  }
+}
+Assets {
+  Id: 13085174305471638229
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
+  Id: 12846336035250683029
+  Name: "Ring"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_004"
+  }
+}
+Assets {
+  Id: 12610149741243116648
+  Name: "Urban Pipe Wrap 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_005_ref"
+  }
+}
+Assets {
+  Id: 12598129352734110789
+  Name: "Corrugated Sheet Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
   }
 }
 Assets {
@@ -107,12 +197,48 @@ Assets {
   }
 }
 Assets {
+  Id: 9851802736654022465
+  Name: "Sci-fi Console Screen 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_002_ref"
+  }
+}
+Assets {
   Id: 9820333862526212022
   Name: "Shipping Pallet - Rectangular"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_001"
+  }
+}
+Assets {
+  Id: 9152619968203525726
+  Name: "Military Tank Historic Armor Plate 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_armorplate_002_ref"
+  }
+}
+Assets {
+  Id: 9140631613279100105
+  Name: "Liquid Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_liquid"
+  }
+}
+Assets {
+  Id: 8911415707698650199
+  Name: "Urban Cardboard Box 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_002_ref"
   }
 }
 Assets {
@@ -125,12 +251,75 @@ Assets {
   }
 }
 Assets {
+  Id: 8262065725279388658
+  Name: "Metal Frame 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_001_uv"
+  }
+}
+Assets {
   Id: 8191745799714348673
   Name: "Sci-fi Base Floor 02 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_floor_002_4m_ref"
+  }
+}
+Assets {
+  Id: 7971533233606131662
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_scribbles_001"
+  }
+}
+Assets {
+  Id: 6648688902516484551
+  Name: "Military Rare Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_lid_002_ref"
+  }
+}
+Assets {
+  Id: 5929715419674261671
+  Name: "Office Vending Machine 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_01_ref"
+  }
+}
+Assets {
+  Id: 5717544946372160630
+  Name: "Sci-fi Cockpit Back 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_back_001_ref"
+  }
+}
+Assets {
+  Id: 5607204438265284916
+  Name: "Sci-fi CockPit Control Yoke"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_yoke_001_ref"
+  }
+}
+Assets {
+  Id: 5458790514689601451
+  Name: "Military Rare Crate Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_002_ref"
   }
 }
 Assets {
@@ -143,12 +332,84 @@ Assets {
   }
 }
 Assets {
+  Id: 5381367210591412322
+  Name: "Urban Pipe Elbow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 5154493427538871909
+  Name: "Corrugated Sheet Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
   Id: 4728953692936333655
   Name: "Decal Street Litter 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_002_ref"
+  }
+}
+Assets {
+  Id: 4637749365065961292
+  Name: "Office Vending Machine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_03_ref"
+  }
+}
+Assets {
+  Id: 3694419892625887874
+  Name: "Military Hazard Barrel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_barrel_01_ref"
+  }
+}
+Assets {
+  Id: 3430791387829448742
+  Name: "Sci-fi Chair Armrest 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_chair_001_arms_ref"
+  }
+}
+Assets {
+  Id: 3184287767971321831
+  Name: "Urban Cardboard Box 01 - Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_cardboard_box_001_base_01_ref"
+  }
+}
+Assets {
+  Id: 3154414572354744145
+  Name: "Military Tank Historic Track 01 - Mid 1m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_track_001_mid_1m_ref"
+  }
+}
+Assets {
+  Id: 2887966541650210293
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
   }
 }
 Assets {
@@ -161,11 +422,29 @@ Assets {
   }
 }
 Assets {
-  Id: 1628849511756280386
-  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  Id: 1500507774993218998
+  Name: "Water Jet VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_water_jet"
+  }
+}
+Assets {
+  Id: 1122175988664702743
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
+  Id: 198353679974341757
+  Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_whitebox_wall_001_doorframe"
+    AssetId: "sm_cube_001"
   }
 }

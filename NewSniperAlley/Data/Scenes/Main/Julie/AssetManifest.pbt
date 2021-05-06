@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5794675601844797614
+  Name: "Sci-fi Ship Blaster 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_blaster_001_ref"
+  }
+}
+Assets {
   Id: 5721670808471238661
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -1304,12 +1313,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1628849511756280386
+  Name: "Whitebox Wall 01 Doorway 01 Frame"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
   Id: 1500507774993218998
   Name: "Water Jet VFX"
   PlatformAssetType: 8
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_water_jet"
+  }
+}
+Assets {
+  Id: 1358348230990081292
+  Name: "Sci-fi Door Security Panel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_security_panel_001"
   }
 }
 Assets {
