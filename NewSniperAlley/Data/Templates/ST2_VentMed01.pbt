@@ -278,7 +278,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 7.82776117
+            Float: 5.52094889
           }
           Overrides {
             Name: "bp:Initial Velocity High"
@@ -310,7 +310,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 1.90563846
+            Float: 1.2395817
           }
           Overrides {
             Name: "bp:Gravity"

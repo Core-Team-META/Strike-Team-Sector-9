@@ -494,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13085174305471638229
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
   Id: 13054793214920919028
   Name: "Text 01: S"
   PlatformAssetType: 1
@@ -797,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_HVAC_001"
+  }
+}
+Assets {
+  Id: 8158438355727892145
+  Name: "Trash Can - Urban 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_trash_public_001"
   }
 }
 Assets {

@@ -215,7 +215,6 @@ Assets {
         }
         ParentId: 5670646317254153210
         ChildIds: 12687697921191815659
-        ChildIds: 18441016811168961469
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -234,9 +233,9 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: -20.8659668
+            X: -20.8662109
             Y: -8.74688721
-            Z: 169.306366
+            Z: 91.4504395
           }
           Rotation {
           }
@@ -257,7 +256,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Light {
-          Intensity: 9.15028381
+          Intensity: 17.9732018
           Color {
             R: 0.75
             G: 0.16390729
@@ -269,59 +268,7 @@ Assets {
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 298.895752
-              PointLight {
-                SourceRadius: 20
-                SoftSourceRadius: 20
-                FallOffExponent: 8
-                UseFallOffExponent: true
-              }
-            }
-            MaxDrawDistance: 6436.76318
-            MaxDistanceFadeRange: 500
-          }
-        }
-      }
-      Objects {
-        Id: 18441016811168961469
-        Name: "Point Light"
-        Transform {
-          Location {
-            X: 19.3344727
-            Y: -42.4813232
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9477577306330924597
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Light {
-          Intensity: 4.30160904
-          Color {
-            G: 0.88
-            B: 0.86251688
-            A: 1
-          }
-          VolumetricIntensity: 5
-          TeamSettings {
-          }
-          Light {
-            Temperature: 6500
-            LocalLight {
-              AttenuationRadius: 235.814682
+              AttenuationRadius: 251.646835
               PointLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20

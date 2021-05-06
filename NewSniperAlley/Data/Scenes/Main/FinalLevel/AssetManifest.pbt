@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17858062676346065101
-  Name: "Steam Pressure Release Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_steam_pressure_release_looped_01_Cue_ref"
-  }
-}
-Assets {
   Id: 17850784779650210910
   Name: "Military Sandbag 01"
   PlatformAssetType: 1
@@ -122,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
-  }
-}
-Assets {
-  Id: 17591749222201037974
-  Name: "Urban Damaged Glass Shard  - 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dmg_glass_shard_001_ref"
   }
 }
 Assets {
@@ -347,15 +329,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_light_001"
-  }
-}
-Assets {
-  Id: 16245899296389337529
-  Name: "Urban Damaged Concrete Chunk 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_chunk_002_ref"
   }
 }
 Assets {
@@ -863,15 +836,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13105350100751157865
-  Name: "Steam Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_steam_volume_vfx"
-  }
-}
-Assets {
   Id: 13103517599490266136
   Name: "Stone Railing Curved 6m"
   PlatformAssetType: 1
@@ -1340,15 +1304,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10783917728922435042
-  Name: "Rain Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_rain_volume_vfx"
-  }
-}
-Assets {
   Id: 10420895239212533739
   Name: "Animated Neon Sign - Hand Thumbs Up"
   PlatformAssetType: 1
@@ -1448,21 +1403,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9980316909404850007
-  Name: "Urban Damaged Concrete Chunk 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
-  }
-}
-Assets {
   Id: 9964489518529487489
   Name: "Metal Corrugated 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
+  }
+}
+Assets {
+  Id: 9906048860044247049
+  Name: "Grass Clumps"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_002_uv"
   }
 }
 Assets {
@@ -1499,15 +1454,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_cubicle_cabinet_003_ref"
-  }
-}
-Assets {
-  Id: 9646355133109534865
-  Name: "Rain Splash Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_rainsplash_volume"
   }
 }
 Assets {
@@ -1589,6 +1535,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Straight"
+  }
+}
+Assets {
+  Id: 8619830679695120720
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
   }
 }
 Assets {
@@ -1994,15 +1949,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_002"
-  }
-}
-Assets {
-  Id: 6314858928202309588
-  Name: "Urban Floor Grate Fire Escape - 1m x 2m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_1x2_001_ref"
   }
 }
 Assets {

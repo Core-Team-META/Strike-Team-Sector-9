@@ -2630,7 +2630,7 @@ Assets {
                 UseFallOffExponent: true
               }
             }
-            MaxDrawDistance: 4658.98486
+            MaxDrawDistance: 2882.5415
             MaxDistanceFadeRange: 500
           }
         }
