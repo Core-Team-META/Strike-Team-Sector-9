@@ -84,6 +84,8 @@ Objects {
   ChildIds: 15629632860126384851
   ChildIds: 2370929950101179043
   ChildIds: 17815837752242243548
+  ChildIds: 237585655252628559
+  ChildIds: 13777713878196311900
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -98,6 +100,740 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 13777713878196311900
+  Name: "ST2_Pipe"
+  Transform {
+    Location {
+      X: -1539.15332
+      Y: -1056.78784
+      Z: 668.113281
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -90
+    }
+    Scale {
+      X: 0.535692
+      Y: 0.535692
+      Z: 0.535692
+    }
+  }
+  ParentId: 6258662704692753350
+  ChildIds: 8108476735516237317
+  ChildIds: 17307641011376477412
+  ChildIds: 10492230963753031362
+  ChildIds: 17094385281949843747
+  ChildIds: 1828057575601316018
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 237585655252628559
+    SubobjectId: 14598034948206288434
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1828057575601316018
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: 171.63768
+      Y: -1.78026639e-05
+      Z: 56.6057587
+    }
+    Rotation {
+      Yaw: 180
+      Roll: 180
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1.00000012
+    }
+  }
+  ParentId: 13777713878196311900
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.437086
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18393437648231545508
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5937722684070008713
+    SubobjectId: 11222326809160383988
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 17094385281949843747
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: 126.19072
+      Y: -7.12106521e-06
+      Z: 2.34804296
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 58.780304
+      Roll: -121.219727
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1.00000012
+    }
+  }
+  ParentId: 13777713878196311900
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.180860937
+        B: 0.0699999928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18339968451170207572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5381367210591412322
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5518403579755192689
+    SubobjectId: 9606177203919260428
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 10492230963753031362
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: 125.136627
+      Y: -6.77677099e-06
+      Z: 2.34771752
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 1.00000012
+      Y: 0.999999702
+      Z: 4.05608559
+    }
+  }
+  ParentId: 13777713878196311900
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.180860937
+        B: 0.0699999928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18339968451170207572
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.5369463
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 5.03502035
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15897705887741699672
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1474074180607488550
+    SubobjectId: 15973783252833032283
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 17307641011376477412
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: -123.628441
+      Z: 56.605629
+    }
+    Rotation {
+      Roll: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13777713878196311900
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.437086
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18393437648231545508
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5937722684070008713
+    SubobjectId: 11222326809160383988
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 8108476735516237317
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: -78.1789856
+      Y: 3.38838549e-06
+      Z: 2.34767675
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13777713878196311900
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.180860937
+        B: 0.0699999928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18339968451170207572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5381367210591412322
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5518403579755192689
+    SubobjectId: 9606177203919260428
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 237585655252628559
+  Name: "ST2_Pipe"
+  Transform {
+    Location {
+      X: -1539.15332
+      Y: -1028.86646
+      Z: 682.506104
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -90
+    }
+    Scale {
+      X: 1.12581563
+      Y: 1.12581563
+      Z: 1.12581563
+    }
+  }
+  ParentId: 6258662704692753350
+  ChildIds: 5518403579755192689
+  ChildIds: 5937722684070008713
+  ChildIds: 1474074180607488550
+  ChildIds: 569983872857783141
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 237585655252628559
+    SubobjectId: 14598034948206288434
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 569983872857783141
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: 140.129333
+      Y: -6.77677099e-06
+      Z: 2.42491841
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -105.793182
+      Roll: -105.793182
+    }
+    Scale {
+      X: 0.999998331
+      Y: 0.999998331
+      Z: 0.999998331
+    }
+  }
+  ParentId: 237585655252628559
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.437086
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18393437648231545508
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 569983872857783141
+    SubobjectId: 14858022628005695768
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 1474074180607488550
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: 125.136627
+      Y: -6.77677099e-06
+      Z: 2.34771752
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 1.00000012
+      Y: 0.999999702
+      Z: 4.05608559
+    }
+  }
+  ParentId: 237585655252628559
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.180860937
+        B: 0.0699999928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18339968451170207572
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 4.5369463
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 5.03502035
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15897705887741699672
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 1474074180607488550
+    SubobjectId: 15973783252833032283
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 5937722684070008713
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: -123.628441
+      Z: 56.605629
+    }
+    Rotation {
+      Roll: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 237585655252628559
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.437086
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18393437648231545508
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5937722684070008713
+    SubobjectId: 11222326809160383988
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
+  }
+}
+Objects {
+  Id: 5518403579755192689
+  Name: "Urban Pipe Elbow 01"
+  Transform {
+    Location {
+      X: -78.1789856
+      Y: 3.38838549e-06
+      Z: 2.34767675
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 237585655252628559
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.180860937
+        B: 0.0699999928
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18339968451170207572
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5381367210591412322
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  InstanceHistory {
+    SelfId: 5518403579755192689
+    SubobjectId: 9606177203919260428
+    InstanceId: 1989863698857636244
+    TemplateId: 7186768875865997581
   }
 }
 Objects {
@@ -128,9 +864,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -1535.66577
-            Y: -954.671631
-            Z: 649.220337
+            X: -1550.43311
+            Y: -894.415771
+            Z: 626.984924
           }
         }
         Overrides {
@@ -314,12 +1050,12 @@ Objects {
   Name: "Animated Neon Sign- Battery"
   Transform {
     Location {
-      X: -1546.74634
-      Y: -900.831299
-      Z: 584.981079
+      X: -1561.51367
+      Y: -840.575439
+      Z: 562.745667
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 0.5
@@ -478,9 +1214,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 42.1089058
-            Y: -1.9416168e-06
-            Z: 7.76646721e-06
+            X: 42.1089134
           }
         }
         Overrides {
@@ -488,7 +1222,7 @@ Objects {
           Vector {
             X: 1.00000012
             Y: 1.00000012
-            Z: 2.44057965
+            Z: 2.39666128
           }
         }
       }
@@ -604,9 +1338,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 42.1089058
-            Y: -1.9416168e-06
-            Z: 7.76646721e-06
+            X: 42.1089134
           }
         }
         Overrides {
@@ -614,7 +1346,7 @@ Objects {
           Vector {
             X: 1.00000012
             Y: 1.00000012
-            Z: 2.44057965
+            Z: 2.39666128
           }
         }
       }
@@ -741,7 +1473,7 @@ Objects {
           Vector {
             X: 1.00000012
             Y: 1.00000012
-            Z: 2.44057965
+            Z: 2.41200542
           }
         }
       }
@@ -859,7 +1591,7 @@ Objects {
           Vector {
             X: 1.00000012
             Y: 1.00000012
-            Z: 2.44057965
+            Z: 2.41200542
           }
         }
       }

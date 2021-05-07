@@ -8,6 +8,24 @@ Assets {
   }
 }
 Assets {
+  Id: 18393437648231545508
+  Name: "Urban Pipe Flange 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
+  }
+}
+Assets {
+  Id: 18339968451170207572
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
   Id: 18267532276652392629
   Name: "Urban Cinderblock Debris 04"
   PlatformAssetType: 1
@@ -293,6 +311,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
   }
 }
 Assets {
@@ -986,6 +1013,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_rubble_001_uv_ref"
+  }
+}
+Assets {
+  Id: 5381367210591412322
+  Name: "Urban Pipe Elbow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
   }
 }
 Assets {
