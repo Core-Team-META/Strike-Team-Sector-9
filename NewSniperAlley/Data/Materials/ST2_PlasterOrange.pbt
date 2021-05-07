@@ -74,7 +74,7 @@ Assets {
         Name: "cmpc:Material1"
         Color {
           R: 1.5
-          G: 0.375
+          G: 0.525000036
           A: 1
         }
       }
@@ -82,7 +82,7 @@ Assets {
         Name: "cmpc:Material2"
         Color {
           R: 1.5
-          G: 0.375
+          G: 0.525000036
           A: 1
         }
       }
