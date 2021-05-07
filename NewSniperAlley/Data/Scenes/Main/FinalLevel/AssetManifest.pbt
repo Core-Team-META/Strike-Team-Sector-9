@@ -1682,15 +1682,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8353147935132205805
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
-  }
-}
-Assets {
   Id: 8266239062619785653
   Name: "Text 04: V"
   PlatformAssetType: 1
@@ -2930,15 +2921,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "Text_009"
-  }
-}
-Assets {
-  Id: 255224006117058275
-  Name: "Cone"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_001"
   }
 }
 Assets {
