@@ -38,7 +38,7 @@ Assets {
       }
       Overrides {
         Name: "variation"
-        Float: 0.278042704
+        Float: 0
       }
       Overrides {
         Name: "grout_roughtness"
@@ -50,11 +50,11 @@ Assets {
       }
       Overrides {
         Name: "discoloration_amount"
-        Float: 0.179566026
+        Float: 0
       }
       Overrides {
         Name: "cracks"
-        Float: 0.136482462
+        Float: 0
       }
       Overrides {
         Name: "accent_color"

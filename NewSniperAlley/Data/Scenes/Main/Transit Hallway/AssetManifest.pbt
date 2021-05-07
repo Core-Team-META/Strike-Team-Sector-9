@@ -1,13 +1,4 @@
 Assets {
-  Id: 18393437648231545508
-  Name: "Urban Pipe Flange 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
-  }
-}
-Assets {
   Id: 18345313529173953901
   Name: "Sci-fi Base Capsule Top 01"
   PlatformAssetType: 1
@@ -98,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15897705887741699672
-  Name: "Urban Pipe Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_straight_001_ref"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
@@ -158,15 +140,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_004"
-  }
-}
-Assets {
-  Id: 12610149741243116648
-  Name: "Urban Pipe Wrap 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_coupling_005_ref"
   }
 }
 Assets {
@@ -332,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5381367210591412322
-  Name: "Urban Pipe Elbow 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
-  }
-}
-Assets {
   Id: 5154493427538871909
   Name: "Corrugated Sheet Medium"
   PlatformAssetType: 1
@@ -419,15 +383,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_sack_002_ref"
-  }
-}
-Assets {
-  Id: 1500507774993218998
-  Name: "Water Jet VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_water_jet"
   }
 }
 Assets {

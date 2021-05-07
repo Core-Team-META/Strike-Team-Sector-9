@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12363676297322450800
+  Name: "Bone Raw"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bone_raw_001_uv_ref"
+  }
+}
+Assets {
   Id: 12306622679456331034
   Name: "Concrete Sidewalk"
   PlatformAssetType: 2
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_game_tone_tube_beep_01a_Cue_ref"
+  }
+}
+Assets {
+  Id: 4247430867898109902
+  Name: "Stucco Tintable"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
