@@ -23,7 +23,6 @@ Objects {
   ChildIds: 11758271900808733775
   ChildIds: 9041060160820972849
   ChildIds: 3809217138019766764
-  ChildIds: 3526020595681683163
   ChildIds: 8973423336802313156
   ChildIds: 4057370377441486246
   ChildIds: 17449632386817814088
@@ -49,13 +48,8 @@ Objects {
   ChildIds: 4238257725196199524
   ChildIds: 14617889148384962081
   ChildIds: 1820072352825739738
-  ChildIds: 15672128532106300112
   ChildIds: 5674981755193408195
-  ChildIds: 15797080737033890855
   ChildIds: 958689560573781060
-  ChildIds: 5035046785489951228
-  ChildIds: 14809863970843601413
-  ChildIds: 14626750720633015406
   ChildIds: 18231456992771636220
   ChildIds: 12086858885489272490
   ChildIds: 11609737925621321411
@@ -70,6 +64,12 @@ Objects {
   ChildIds: 3355533873256251394
   ChildIds: 17642536045481176246
   ChildIds: 11817393456242524178
+  ChildIds: 8637849385460860470
+  ChildIds: 17477438323648116368
+  ChildIds: 16797595840176856362
+  ChildIds: 1808500982384484949
+  ChildIds: 4916052108376823187
+  ChildIds: 15091961827832627326
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -84,6 +84,453 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 15091961827832627326
+  Name: "Sci-fi Base Pillar 02 - Base 01"
+  Transform {
+    Location {
+      X: -14.6021729
+      Y: -919.902588
+      Z: 285.253937
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.713711739
+      Y: 0.628450692
+      Z: 0.928180933
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.0440000035
+        G: 0.0440000035
+        B: 0.0440000035
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.0440000035
+        G: 0.0440000035
+        B: 0.0440000035
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.498000026
+        G: 0.498000026
+        B: 0.498000026
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3242532795464898345
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4916052108376823187
+  Name: "Sci-fi Base Pillar 02 - Base 01"
+  Transform {
+    Location {
+      X: -27.9660645
+      Y: -1080.05688
+      Z: 285.253937
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.07633626
+      Y: 0.628450692
+      Z: 0.928180933
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.0440000035
+        G: 0.0440000035
+        B: 0.0440000035
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 0.0440000035
+        G: 0.0440000035
+        B: 0.0440000035
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.498000026
+        G: 0.498000026
+        B: 0.498000026
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3242532795464898345
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1808500982384484949
+  Name: "Sci-fi Base Breakout Box 04"
+  Transform {
+    Location {
+      X: -58.1169434
+      Y: -920.141846
+      Z: 571.216431
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
+    Scale {
+      X: 0.312872618
+      Y: 0.312872618
+      Z: 0.312872618
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.0440000035
+        G: 0.0440000035
+        B: 0.0440000035
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13085174305471638229
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.498000026
+        G: 0.498000026
+        B: 0.498000026
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17739225728025820872
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16797595840176856362
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 180.88501
+      Y: 752.160156
+      Z: 349.397278
+    }
+    Rotation {
+      Yaw: -90.7242126
+    }
+    Scale {
+      X: 0.307812899
+      Y: 0.423032731
+      Z: 0.83095336
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.464400053
+        G: 0.516000032
+        B: 0.494500041
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11642748949632175552
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17477438323648116368
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: 168.074951
+      Y: 760.090088
+      Z: 305.371216
+    }
+    Rotation {
+      Yaw: -83.5462952
+    }
+    Scale {
+      X: 0.307812899
+      Y: 0.423032731
+      Z: 0.83095336
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.464400053
+        G: 0.516000032
+        B: 0.494500041
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11642748949632175552
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8637849385460860470
+  Name: "Shipping Pallet - Rectangular"
+  Transform {
+    Location {
+      X: -749.271
+      Y: 192.121338
+      Z: 601.829773
+    }
+    Rotation {
+      Yaw: 90
+      Roll: -70.3237915
+    }
+    Scale {
+      X: 0.273480594
+      Y: 0.375849247
+      Z: 0.738271773
+    }
+  }
+  ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.464400053
+        G: 0.516000032
+        B: 0.494500041
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11642748949632175552
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableCastShadows: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -182,6 +629,15 @@ Objects {
             A: 1
           }
         }
+        Overrides {
+          Name: "ma:Shared_Detail2:color"
+          Color {
+            R: 0.0560000092
+            G: 0.0727999881
+            B: 0.0910000056
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -199,6 +655,15 @@ Objects {
             R: 0.0600000024
             G: 0.0600000024
             B: 0.0600000024
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail2:color"
+          Color {
+            R: 0.0560000092
+            G: 0.0727999881
+            B: 0.0910000056
             A: 1
           }
         }
@@ -2675,176 +3140,13 @@ Objects {
   }
 }
 Objects {
-  Id: 14626750720633015406
-  Name: "Shipping Pallet - Rectangular"
-  Transform {
-    Location {
-      X: -692.250244
-      Y: 241.631104
-      Z: 457.212311
-    }
-    Rotation {
-      Yaw: -90
-      Roll: 72.471077
-    }
-    Scale {
-      X: 1.03289592
-      Y: 0.933005929
-      Z: 0.933008075
-    }
-  }
-  ParentId: 6258662704692753350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9820333862526212022
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 14809863970843601413
-  Name: "Shipping Pallet - Rectangular"
-  Transform {
-    Location {
-      X: -746.614258
-      Y: 206.669678
-      Z: 470.556396
-    }
-    Rotation {
-      Yaw: -90
-      Roll: 76.7879639
-    }
-    Scale {
-      X: 1.10706
-      Y: 0.999997675
-      Z: 1
-    }
-  }
-  ParentId: 6258662704692753350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9820333862526212022
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 5035046785489951228
-  Name: "Urban Pedestrian Barrier 01"
-  Transform {
-    Location {
-      X: -194.940186
-      Y: -1114.86694
-      Z: 285.253967
-    }
-    Rotation {
-      Yaw: -77.1917419
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6258662704692753350
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8191402814560574490
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.729000032
-        G: 0.151207134
-        B: 0.0874799639
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2755843002639173471
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 958689560573781060
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -63.5917969
-      Y: 647.606201
-      Z: 370.56488
+      X: -124.532227
+      Y: 668.98
+      Z: 361.480408
     }
     Rotation {
       Yaw: 11.1255636
@@ -2902,61 +3204,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15797080737033890855
-  Name: "Shipping Pallet - Rectangular"
-  Transform {
-    Location {
-      X: 44.7402344
-      Y: 690.28125
-      Z: 329.292
-    }
-    Rotation {
-      Yaw: -93.2523193
-    }
-    Scale {
-      X: 1.10706
-      Y: 0.999997675
-      Z: 1
-    }
-  }
-  ParentId: 6258662704692753350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9820333862526212022
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 5674981755193408195
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 35.3496094
+      X: 4.57385254
       Y: 735.131592
-      Z: 500.879639
+      Z: 491.795166
     }
     Rotation {
       Yaw: -90
@@ -3014,61 +3268,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15672128532106300112
-  Name: "Shipping Pallet - Rectangular"
-  Transform {
-    Location {
-      X: 44.7402344
-      Y: 690.28125
-      Z: 285.253906
-    }
-    Rotation {
-      Yaw: -83.5462952
-    }
-    Scale {
-      X: 1.10706
-      Y: 0.999997675
-      Z: 1
-    }
-  }
-  ParentId: 6258662704692753350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9820333862526212022
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 1820072352825739738
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -10.6359863
+      X: -41.4117432
       Y: 735.131592
-      Z: 370.56488
+      Z: 361.480408
     }
     Rotation {
       Yaw: 11.1255283
@@ -3130,9 +3336,9 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 96.3951416
+      X: 65.6193848
       Y: 735.131592
-      Z: 370.56488
+      Z: 361.480408
     }
     Rotation {
       Yaw: -90
@@ -3194,20 +3400,31 @@ Objects {
   Name: "Shipping Pallet - Rectangular"
   Transform {
     Location {
-      X: -611.643311
-      Y: -49.8938
-      Z: 285.253906
+      X: -703.99707
+      Y: 81.2504883
+      Z: 302.814453
     }
     Rotation {
       Yaw: -3.39291382
     }
     Scale {
-      X: 1.10706
-      Y: 0.999997675
-      Z: 1
+      X: 0.273480594
+      Y: 0.375849247
+      Z: 0.738271773
     }
   }
   ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.464400053
+        G: 0.516000032
+        B: 0.494500041
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3222,7 +3439,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9820333862526212022
+      Id: 11642748949632175552
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -3242,20 +3459,31 @@ Objects {
   Name: "Shipping Pallet - Rectangular"
   Transform {
     Location {
-      X: -628.606934
-      Y: 314.752197
-      Z: 285.253906
+      X: -720.960693
+      Y: 445.896484
+      Z: 302.814453
     }
     Rotation {
       Yaw: 6.45369101
     }
     Scale {
-      X: 1.10706
-      Y: 0.999997675
-      Z: 1
+      X: 0.273480594
+      Y: 0.375849247
+      Z: 0.738271773
     }
   }
   ParentId: 6258662704692753350
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.464400053
+        G: 0.516000032
+        B: 0.494500041
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3270,7 +3498,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9820333862526212022
+      Id: 11642748949632175552
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -3290,8 +3518,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -54.7490234
-      Y: -980.311768
+      X: -150.386475
+      Y: -1061.80298
       Z: 418.373535
     }
     Rotation {
@@ -3354,8 +3582,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -54.7490234
-      Y: -1088.90063
+      X: -150.386475
+      Y: -1170.39185
       Z: 418.373535
     }
     Rotation {
@@ -3418,12 +3646,12 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -122.720947
-      Y: -1045.09741
+      X: -218.358398
+      Y: -1126.58862
       Z: 285.253906
     }
     Rotation {
-      Yaw: -49.7539825
+      Yaw: -49.7539673
     }
     Scale {
       X: 1
@@ -3482,8 +3710,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -54.7490234
-      Y: -947.577393
+      X: -150.386475
+      Y: -1029.0686
       Z: 285.253906
     }
     Rotation {
@@ -3546,8 +3774,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: -54.7490234
-      Y: -1132.05347
+      X: -150.386475
+      Y: -1213.54468
       Z: 285.253906
     }
     Rotation {
@@ -5573,8 +5801,8 @@ Objects {
   Transform {
     Location {
       X: -580.707764
-      Y: -112.180664
-      Z: 322.5047
+      Y: -135.769531
+      Z: 311.148132
     }
     Rotation {
       Yaw: 14.133543
@@ -5627,65 +5855,11 @@ Objects {
   Transform {
     Location {
       X: -569.248535
-      Y: 0.413085938
-      Z: 322.5047
+      Y: -23.1757813
+      Z: 311.148132
     }
     Rotation {
-      Yaw: -15.7154102
-    }
-    Scale {
-      X: 1.06669176
-      Y: 1.06669176
-      Z: 1.41032743
-    }
-  }
-  ParentId: 6258662704692753350
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12372617377995018547
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 14104218028058916668
-    SubobjectId: 6427078855159403051
-    InstanceId: 2031093846507367867
-    TemplateId: 9727070579395977841
-  }
-}
-Objects {
-  Id: 3526020595681683163
-  Name: "Road Cone 01"
-  Transform {
-    Location {
-      X: -668.058105
-      Y: 0.413085938
-      Z: 322.5047
-    }
-    Rotation {
-      Yaw: -2.28665161
+      Yaw: -15.7154236
     }
     Scale {
       X: 1.06669176
@@ -5735,11 +5909,11 @@ Objects {
   Transform {
     Location {
       X: -668.058105
-      Y: -112.180664
-      Z: 322.5047
+      Y: -135.769531
+      Z: 311.148132
     }
     Rotation {
-      Yaw: -12.2356758
+      Yaw: -12.2356873
     }
     Scale {
       X: 1.06669176
@@ -5789,8 +5963,8 @@ Objects {
   Transform {
     Location {
       X: -668.058105
-      Y: 0.413085938
-      Z: 322.5047
+      Y: -23.1757813
+      Z: 311.148132
     }
     Rotation {
       Yaw: -2.28665161
@@ -5842,12 +6016,12 @@ Objects {
   Name: "Road Cone 01"
   Transform {
     Location {
-      X: -183.038208
-      Y: -922.269775
+      X: -244.709106
+      Y: -936.74
       Z: 284.952881
     }
     Rotation {
-      Yaw: -126.380867
+      Yaw: -126.380859
     }
     Scale {
       X: 1.06669176

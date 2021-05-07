@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17009363609663707237
-  Name: "Urban Cardboard Box 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cardboard_box_003_ref"
-  }
-}
-Assets {
   Id: 16609600499553782676
   Name: "Fantasy Sack Laying"
   PlatformAssetType: 1
@@ -152,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11642748949632175552
+  Name: "Sci-fi Base Girder 8m 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_girder_003_ref"
+  }
+}
+Assets {
   Id: 11534260051317427993
   Name: "Decal Stains Round 01"
   PlatformAssetType: 14
@@ -176,15 +176,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_screen_002_ref"
-  }
-}
-Assets {
-  Id: 9820333862526212022
-  Name: "Shipping Pallet - Rectangular"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_001"
   }
 }
 Assets {
@@ -248,6 +239,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_scribbles_001"
+  }
+}
+Assets {
+  Id: 6865249745567109080
+  Name: "Corrugated Sheet Bent"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
   }
 }
 Assets {

@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17739225728025820872
+  Name: "Sci-fi Base Breakout Box 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_breakout_004_ref"
+  }
+}
+Assets {
   Id: 17677556175693261697
   Name: "Sci-fi Terminal Keyboard 01"
   PlatformAssetType: 1
@@ -554,6 +563,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_cinderblock_02_ref"
+  }
+}
+Assets {
+  Id: 11642748949632175552
+  Name: "Sci-fi Base Girder 8m 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_girder_003_ref"
   }
 }
 Assets {
@@ -1121,6 +1139,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_fan_terracotta_pots_002_uv"
+  }
+}
+Assets {
+  Id: 3242532795464898345
+  Name: "Sci-fi Base Pillar 02 - Base 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
   }
 }
 Assets {
