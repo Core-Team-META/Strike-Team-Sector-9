@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18131936251569509837
+  Name: "Metal Vent Duct Square 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vent_duct_square_001_uv_ref"
+  }
+}
+Assets {
   Id: 17958961814962950436
   Name: "Additive Edgeline Top Fade"
   PlatformAssetType: 2
@@ -44,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17656495108824350163
+  Name: "Corrugated Sheet Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
+  }
+}
+Assets {
   Id: 17391755111850488586
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -53,12 +71,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17127482943474275922
+  Name: "Metal Floor Panel 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_003_uv"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_002"
+  }
+}
+Assets {
+  Id: 16890205056291965690
+  Name: "Sign Bracket - Round"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_signbracket_round_001"
   }
 }
 Assets {
@@ -179,12 +215,30 @@ Assets {
   }
 }
 Assets {
+  Id: 15311694679467806527
+  Name: "Barbed Wire 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_barbed_wire_001_uv_ref"
+  }
+}
+Assets {
   Id: 15246078607150945099
   Name: "Street Sign 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_sign_002"
+  }
+}
+Assets {
+  Id: 15094280472468912408
+  Name: "Cylinder - 2-Toned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_003"
   }
 }
 Assets {
@@ -203,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 14929264817361254184
+  Name: "Urban Rooftop Fan 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_rooftop_fan_003"
   }
 }
 Assets {
@@ -359,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13474277590145046551
+  Name: "Urban Fence Bracket - End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_bracket_end_01"
+  }
+}
+Assets {
   Id: 13270996889730690600
   Name: "Street Sign Crossing 01"
   PlatformAssetType: 1
@@ -431,12 +503,30 @@ Assets {
   }
 }
 Assets {
+  Id: 12815283627814003432
+  Name: "Urban Rooftop Fan 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_rooftop_fan_002"
+  }
+}
+Assets {
   Id: 12630862952169066180
   Name: "Pipe"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 12598129352734110789
+  Name: "Corrugated Sheet Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
   }
 }
 Assets {
@@ -836,6 +926,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5998301750682578824
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
+  }
+}
+Assets {
   Id: 5868465374856696904
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -953,12 +1052,30 @@ Assets {
   }
 }
 Assets {
+  Id: 3844709690263076331
+  Name: "Urban Fence Pole - Gate End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_02_end_002"
+  }
+}
+Assets {
   Id: 3738589738198733425
   Name: "Humanoid 2 Ramesh"
   PlatformAssetType: 26
   PrimaryAsset {
     AssetType: "SkinnedMeshAssetRef"
     AssetId: "npc_human_guy_head_basic_008_ref"
+  }
+}
+Assets {
+  Id: 3694419892625887874
+  Name: "Military Hazard Barrel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_barrel_01_ref"
   }
 }
 Assets {
@@ -1022,6 +1139,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_022"
+  }
+}
+Assets {
+  Id: 2887966541650210293
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 2833325810340691992
+  Name: "Pipe - 90-Degree Short Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_003"
   }
 }
 Assets {
@@ -1133,6 +1268,15 @@ Assets {
   }
 }
 Assets {
+  Id: 887612434965164701
+  Name: "Metal Corrugated 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
+  }
+}
+Assets {
   Id: 567193264820089861
   Name: "Urban Fence Lock"
   PlatformAssetType: 1
@@ -1175,5 +1319,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 195773709446274697
+  Name: "Asphalt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_asphault_001"
   }
 }
