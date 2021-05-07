@@ -1619,15 +1619,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9997774032960254197
-  Name: "Hiragana Font 1: \343\201\242 (DI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_031"
-  }
-}
-Assets {
   Id: 9980316909404850007
   Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
@@ -1679,15 +1670,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_shipping_pallet_001"
-  }
-}
-Assets {
-  Id: 9798555348957227150
-  Name: "Hiragana Font 1: \343\201\252 (NA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_035"
   }
 }
 Assets {

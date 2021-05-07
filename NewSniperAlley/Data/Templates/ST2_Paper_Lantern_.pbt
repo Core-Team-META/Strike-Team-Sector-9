@@ -17,6 +17,7 @@ Assets {
         }
         ParentId: 906925363925354889
         ChildIds: 6423643763774393020
+        ChildIds: 10941748996144932363
         ChildIds: 13999628297432118657
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -104,48 +105,13 @@ Assets {
         }
       }
       Objects {
-        Id: 13999628297432118657
-        Name: "MergedModel"
-        Transform {
-          Location {
-            X: -1.75887096
-            Y: 0.0745310038
-            Z: -13.7277546
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2807180093513837264
-        ChildIds: 10941748996144932363
-        ChildIds: 7464476424521122476
-        ChildIds: 15355416587211505551
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          Model {
-          }
-        }
-      }
-      Objects {
         Id: 10941748996144932363
         Name: "Sphere"
         Transform {
           Location {
-            X: 0.488275081
-            Y: 0.76816231
-            Z: 53.7277565
+            X: -1.27054179
+            Y: 0.842593968
+            Z: 40
           }
           Rotation {
           }
@@ -155,7 +121,7 @@ Assets {
             Z: 1.04330087
           }
         }
-        ParentId: 13999628297432118657
+        ParentId: 2807180093513837264
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -197,6 +163,40 @@ Assets {
             Physics {
             }
             BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 13999628297432118657
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: -1.75887096
+            Y: 0.0745310038
+            Z: -13.7277546
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2807180093513837264
+        ChildIds: 7464476424521122476
+        ChildIds: 15355416587211505551
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          Model {
           }
         }
       }
