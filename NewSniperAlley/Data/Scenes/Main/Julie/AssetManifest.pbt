@@ -134,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17111555916046079582
+  Name: "Animated Neon Sign- Battery"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Battery"
+  }
+}
+Assets {
   Id: 17060098565254150050
   Name: "Urban Cardboard Box Damaged 01 - Lid"
   PlatformAssetType: 1
@@ -203,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_001_ref"
+  }
+}
+Assets {
+  Id: 16587363211812844610
+  Name: "Street Light Pole Extension 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_ext_002"
   }
 }
 Assets {
@@ -1061,15 +1079,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4247430867898109902
-  Name: "Stucco Tintable"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stucco_tint_001_uv"
-  }
-}
-Assets {
   Id: 4096954105294154559
   Name: "Urban Plank Debris 03"
   PlatformAssetType: 1
@@ -1130,15 +1139,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rocks_small_002"
-  }
-}
-Assets {
-  Id: 3369583370173701670
-  Name: "Ceramic Terracotta Pots Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_terracotta_pots_002_uv"
   }
 }
 Assets {
@@ -1304,6 +1304,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1621043139137004612
+  Name: "Bricks Stone Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bricks_stone_block_001"
+  }
+}
+Assets {
   Id: 1358348230990081292
   Name: "Sci-fi Door Security Panel 01"
   PlatformAssetType: 1
@@ -1418,6 +1427,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
+  Id: 99428546513861114
+  Name: "Urban Floor Grate Fire Escape - 2m x 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
   }
 }
 Assets {

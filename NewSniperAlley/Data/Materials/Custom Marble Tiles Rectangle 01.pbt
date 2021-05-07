@@ -22,23 +22,22 @@ Assets {
       Overrides {
         Name: "color_secondary"
         Color {
-          G: 0.0800000429
-          B: 0.0450331345
+          G: 0.103013091
+          B: 0.255000025
           A: 1
         }
       }
       Overrides {
         Name: "tertiary_color"
         Color {
-          R: 0.252285
-          G: 0.605
-          B: 0.527916789
+          G: 0.295799851
+          B: 0.493000031
           A: 1
         }
       }
       Overrides {
         Name: "variation"
-        Float: 0
+        Float: 0.358055025
       }
       Overrides {
         Name: "grout_roughtness"
@@ -50,7 +49,7 @@ Assets {
       }
       Overrides {
         Name: "discoloration_amount"
-        Float: 0
+        Float: 0.0133866007
       }
       Overrides {
         Name: "cracks"
@@ -59,8 +58,8 @@ Assets {
       Overrides {
         Name: "accent_color"
         Color {
-          G: 0.0800000429
-          B: 0.0450331345
+          G: 0.0884699598
+          B: 0.219000012
           A: 1
         }
       }
@@ -74,7 +73,7 @@ Assets {
       }
       Overrides {
         Name: "material_scale"
-        Float: 8
+        Float: 10
       }
     }
     Assets {
