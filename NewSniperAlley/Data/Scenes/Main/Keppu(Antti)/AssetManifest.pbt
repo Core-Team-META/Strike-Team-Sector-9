@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18005806658245892960
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
   Id: 17933570741495538470
   Name: "Military Common Crate Lid"
   PlatformAssetType: 1
@@ -80,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17850784779650210910
+  Name: "Military Sandbag 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_001"
+  }
+}
+Assets {
   Id: 17740897917985438767
   Name: "Decal Hazard Symbols 01"
   PlatformAssetType: 14
@@ -95,6 +95,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_004_ref"
+  }
+}
+Assets {
+  Id: 17680666645830167541
+  Name: "Urban Dumpster 01 - Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_trashbin_big_001_base_001_ref"
   }
 }
 Assets {
@@ -140,15 +149,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_001"
-  }
-}
-Assets {
-  Id: 17403316637749788051
-  Name: "Vehicle Train Passenger Interior Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_vehicle_train_passenger_interior_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -242,15 +242,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16890205056291965690
-  Name: "Sign Bracket - Round"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_signbracket_round_001"
-  }
-}
-Assets {
   Id: 16869814041125097620
   Name: "Urban Rooftop Fan 01"
   PlatformAssetType: 1
@@ -287,21 +278,21 @@ Assets {
   }
 }
 Assets {
-  Id: 16713605512330575878
-  Name: "Sci-fi Object Low Scanning Pulse Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 16630259605395466384
   Name: "Frosted Glass"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_frosted_glass"
+  }
+}
+Assets {
+  Id: 16607591849780623518
+  Name: "Decal Street Litter 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_debris_001_ref"
   }
 }
 Assets {
@@ -383,15 +374,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_light_001"
-  }
-}
-Assets {
-  Id: 16254595999441881258
-  Name: "Ambience Room Tone Laboratory Hallway Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_ambience_room_tone_laboratory_hallway_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -557,15 +539,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15311694679467806527
-  Name: "Barbed Wire 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_barbed_wire_001_uv_ref"
-  }
-}
-Assets {
   Id: 15246078607150945099
   Name: "Street Sign 02"
   PlatformAssetType: 1
@@ -581,15 +554,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_002"
-  }
-}
-Assets {
-  Id: 15094280472468912408
-  Name: "Cylinder - 2-Toned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_003"
   }
 }
 Assets {
@@ -692,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14578650661803892495
+  Name: "Military Tank Historic Hatch Lid 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hatch_001_lid_ref"
+  }
+}
+Assets {
   Id: 14567042036027251098
   Name: "\"Digital Horizons\" Music Construction Kit (Layers) 01"
   PlatformAssetType: 10
@@ -782,6 +755,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14083853046973452695
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
   Id: 14075289948846393778
   Name: "Roof Metal 01"
   PlatformAssetType: 2
@@ -815,15 +797,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stainless-steel_001_uv"
-  }
-}
-Assets {
-  Id: 14023212398559948573
-  Name: "Metal Chrome"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "chrome_001"
   }
 }
 Assets {
@@ -1124,15 +1097,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12704764869057814971
-  Name: "2D Basic Shapes Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_basicShapes"
-  }
-}
-Assets {
   Id: 12632251234297570874
   Name: "Urban Pipe Cap 03"
   PlatformAssetType: 1
@@ -1421,15 +1385,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11162297399913732681
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
   Id: 11085376824642961392
   Name: "Urban Vehicle Car - Light Roof 01"
   PlatformAssetType: 1
@@ -1529,15 +1484,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10549684399192797779
-  Name: "Decal Stains Top 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_top_001"
-  }
-}
-Assets {
   Id: 10507400395406811830
   Name: "Barrier Plastic 01"
   PlatformAssetType: 1
@@ -1547,30 +1493,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10431978243425830506
-  Name: "Arch Fancy 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_3m_001"
-  }
-}
-Assets {
   Id: 10415104586946721638
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
-  Id: 10396917736734746205
-  Name: "Main Street Foundation 01 - Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_urb_dtn_mst_pillar_base_001_ref"
   }
 }
 Assets {
@@ -1709,6 +1637,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9964489518529487489
+  Name: "Metal Corrugated 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_003_uv_ref"
+  }
+}
+Assets {
   Id: 9906048860044247049
   Name: "Grass Clumps"
   PlatformAssetType: 2
@@ -1772,15 +1709,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9691585235102710834
-  Name: "Metal Iron 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_001"
-  }
-}
-Assets {
   Id: 9649146038661330211
   Name: "Office Cubicle Cabinet 03"
   PlatformAssetType: 1
@@ -1799,12 +1727,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9635608271034126615
-  Name: "Rubber Pattern 01"
-  PlatformAssetType: 2
+  Id: 9605197959426201295
+  Name: "Tire Worn - Small"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_003_uv"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_tire_worn_02_ref"
   }
 }
 Assets {
@@ -1844,15 +1772,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9176145884981181688
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
   Id: 9152619968203525726
   Name: "Military Tank Historic Armor Plate 02"
   PlatformAssetType: 1
@@ -1877,6 +1796,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_004"
+  }
+}
+Assets {
+  Id: 8930532401678162557
+  Name: "Prism - 8-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_hq_001"
   }
 }
 Assets {
@@ -2105,15 +2033,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7757061955395221575
-  Name: "Sci-fi Electric Laser Tractor Beam Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_scifi_electric_laser_tractor_beam_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 7708829302333976186
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -2186,6 +2105,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7345203844688882865
+  Name: "Military Sandbag 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_sandbag_003"
+  }
+}
+Assets {
   Id: 7203871647989153645
   Name: "Metal Diamond Plates 01"
   PlatformAssetType: 2
@@ -2231,6 +2159,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6878308890745792706
+  Name: "Metal 9 Slice Shipping Container 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
   Id: 6865249745567109080
   Name: "Corrugated Sheet Bent"
   PlatformAssetType: 1
@@ -2246,15 +2183,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_001"
-  }
-}
-Assets {
-  Id: 6656501280773318390
-  Name: "Cube - Arched"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_arched_001"
   }
 }
 Assets {
@@ -2282,15 +2210,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_005"
-  }
-}
-Assets {
-  Id: 6513725703093912292
-  Name: "Decal Stains Bottom 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_stain_bottom_001"
   }
 }
 Assets {
@@ -2444,6 +2363,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
+  Id: 5457962044230310640
+  Name: "Urban Fence Crossbar - Panel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_crossbar_01"
   }
 }
 Assets {
@@ -2672,6 +2600,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3722419759708884904
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 3694419892625887874
   Name: "Military Hazard Barrel"
   PlatformAssetType: 1
@@ -2816,15 +2753,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2887966541650210293
-  Name: "Invisible"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_invisible_001"
-  }
-}
-Assets {
   Id: 2841779215979196626
   Name: "Urban Cinderblock Debris 01"
   PlatformAssetType: 1
@@ -2849,15 +2777,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_grates_002_uv"
-  }
-}
-Assets {
-  Id: 2824939083585481187
-  Name: "Machine Servo Turret Movement Loop 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_machine_servo_turret_movement_loop_02_Cue_ref"
   }
 }
 Assets {
@@ -2969,6 +2888,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2284390414358549215
+  Name: "Urban Damaged Interior Trim Board 01 - Mid 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tx_urb_dmg_int_trim_board_001_mid_02_ref"
+  }
+}
+Assets {
   Id: 2249012237014100713
   Name: "Military Tank Modern Skirt 01 - Mid"
   PlatformAssetType: 1
@@ -3056,6 +2984,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon3_Ender_1s_db"
+  }
+}
+Assets {
+  Id: 1714326510831253930
+  Name: "Military Tank Historic Container 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_container_001_ref"
   }
 }
 Assets {
@@ -3194,6 +3131,15 @@ Assets {
   }
 }
 Assets {
+  Id: 799030372745179236
+  Name: "Fantasy Chest Treasure Pile 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fantasy_chest_treasure_pile_001_ref"
+  }
+}
+Assets {
   Id: 795932075519654652
   Name: "Sci-fi Base Girder Corner 01"
   PlatformAssetType: 1
@@ -3236,6 +3182,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_006"
+  }
+}
+Assets {
+  Id: 628634007863935959
+  Name: "Urban Dumpster 01 - Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_trashbin_big_001_lid_001_ref"
   }
 }
 Assets {
@@ -3353,6 +3308,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_001_ref"
+  }
+}
+Assets {
+  Id: 103204866163876130
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
   }
 }
 Assets {

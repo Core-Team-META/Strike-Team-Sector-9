@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13806498739066217100
+        ParentId: 906925363925354889
         ChildIds: 17821857890440163354
         ChildIds: 1893317254095668301
         Collidable_v2 {
@@ -159,9 +159,9 @@ Assets {
         ChildIds: 11721539239722686180
         ChildIds: 7033566029329798050
         ChildIds: 15362114104937980616
+        ChildIds: 2771157059030778398
         ChildIds: 1700930809078480963
         ChildIds: 3772669592443830615
-        ChildIds: 2771157059030778398
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -207,6 +207,14 @@ Assets {
           Overrides {
             Name: "bp:Corner Rounding"
             Float: 0.104912966
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.692000031
+              G: 0.357456982
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -516,9 +524,8 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.146067202
-              G: 0.181000009
-              B: 0.17750673
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }
@@ -572,9 +579,63 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.146067202
-              G: 0.181000009
-              B: 0.17750673
+              G: 0.416666508
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13362988571131584785
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 2771157059030778398
+        Name: "Decal Sci-fi Details 01"
+        Transform {
+          Location {
+            X: -5.15340137
+            Y: -67.1468048
+            Z: -127.669228
+          }
+          Rotation {
+            Yaw: -89.9998779
+            Roll: 89.9998093
+          }
+          Scale {
+            X: 0.169243574
+            Y: 0.117864199
+            Z: 0.058167588
+          }
+        }
+        ParentId: 5971005595964029074
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }
@@ -609,9 +670,9 @@ Assets {
         Name: "Decal Stains Top 01"
         Transform {
           Location {
-            X: -1.61139166
-            Y: -33.0968628
-            Z: 12.8737259
+            X: 0.000254313141
+            Y: -33.0969238
+            Z: 12.8737383
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -629,7 +690,7 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              A: 0.193
+              A: 0.402
             }
           }
         }
@@ -707,62 +768,6 @@ Assets {
         }
       }
       Objects {
-        Id: 2771157059030778398
-        Name: "Decal Sci-fi Details 01"
-        Transform {
-          Location {
-            X: -5.15340137
-            Y: -67.1468048
-            Z: -127.669228
-          }
-          Rotation {
-            Yaw: -89.9998779
-            Roll: 89.9998093
-          }
-          Scale {
-            X: 0.169243574
-            Y: 0.117864199
-            Z: 0.058167588
-          }
-        }
-        ParentId: 5971005595964029074
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.146067202
-              G: 0.181000009
-              B: 0.17750673
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13362988571131584785
-          }
-          TeamSettings {
-          }
-          DecalBP {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:medium"
-        }
-      }
-      Objects {
         Id: 4852340421199911730
         Name: "Cube - Chamfered Small Polished"
         Transform {
@@ -790,9 +795,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0994699895
-              G: 0.204521328
-              B: 0.245
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }
@@ -849,9 +853,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.04872
-              G: 0.100173704
-              B: 0.120000005
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }
@@ -920,9 +923,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0994699895
-              G: 0.204521328
-              B: 0.245
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }
@@ -956,15 +958,15 @@ Assets {
         Name: "Foundation 01 Corner Mainstreet"
         Transform {
           Location {
-            X: -31.8857346
-            Y: -1.01122856
-            Z: 4.88601685
+            X: -31.8857422
+            Y: 1.94604492
+            Z: 4.88598633
           }
           Rotation {
           }
           Scale {
             X: 0.884873271
-            Y: 2.05879021
+            Y: 1.94494259
             Z: 0.58163023
           }
         }
@@ -1051,9 +1053,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0803879946
-              G: 0.165286586
-              B: 0.198000014
+              G: 0.416666508
+              B: 1
               A: 1
             }
           }

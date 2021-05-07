@@ -10,9 +10,9 @@ Assets {
         Name: "ST2_MetalSheet02"
         Transform {
           Scale {
-            X: 0.557409644
-            Y: 0.557409644
-            Z: 0.557409644
+            X: 1
+            Y: 0.5
+            Z: 0.5
           }
         }
         ParentId: 8766174116880648959
@@ -20,7 +20,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2805121172112350453
+              Id: 6878308890745792706
             }
           }
           Overrides {
@@ -70,12 +70,12 @@ Assets {
       }
     }
     Assets {
-      Id: 2805121172112350453
-      Name: "Metal 9 Slice Lockers 01"
+      Id: 6878308890745792706
+      Name: "Metal 9 Slice Shipping Container 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_advanced_9slice_lockers_001_ref"
+        AssetId: "mat_advanced_9slice_shipping_container001_ref"
       }
     }
     PrimaryAssetId {

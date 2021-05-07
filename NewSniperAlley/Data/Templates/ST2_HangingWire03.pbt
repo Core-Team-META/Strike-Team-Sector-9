@@ -10,12 +10,43 @@ Assets {
         Name: "ST2_HangingWire03"
         Transform {
           Scale {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 6352551756349200094
+        ChildIds: 2187884634918669915
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 2187884634918669915
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 2.49972105
+            Y: 3.48772337e-05
+          }
+          Rotation {
+          }
+          Scale {
             X: 1
             Y: 1
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10891926652399561650
         ChildIds: 14966132006056630515
         ChildIds: 4955664117793531311
         ChildIds: 2088100034140657145
@@ -39,8 +70,12 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
         Folder {
-          IsGroup: true
+          Model {
+          }
         }
       }
       Objects {
@@ -48,21 +83,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 915
-            Z: 245.519287
+            X: 912.500244
+            Y: -0.000187849626
+            Z: 245.519272
           }
           Rotation {
-            Pitch: 59.9999847
-            Yaw: 180
-            Roll: 180
+            Pitch: 59.9999084
+            Yaw: -179.999985
+            Roll: -179.999985
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -123,21 +159,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 795
+            X: 792.500183
+            Y: -0.000187849626
             Z: 175.519226
           }
           Rotation {
-            Pitch: 64.9999695
-            Yaw: 180
-            Roll: 180
+            Pitch: 64.9998703
+            Yaw: -180
+            Roll: -179.999985
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -198,21 +235,21 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 670.560547
-            Z: 117.760071
+            X: 668.06073
+            Z: 117.760109
           }
           Rotation {
-            Pitch: 69.9999924
-            Yaw: 180
-            Roll: 180
+            Pitch: 69.9998932
+            Yaw: -179.999985
+            Roll: -180
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -273,21 +310,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 540
-            Z: 70.5191879
+            X: 537.500305
+            Y: -0.000140887219
+            Z: 70.5191574
           }
           Rotation {
-            Pitch: 74.9999847
-            Yaw: 180
-            Roll: 180
+            Pitch: 74.9998169
+            Yaw: 179.999985
+            Roll: 179.999985
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -348,21 +386,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 410
-            Z: 35.5191879
+            X: 407.500214
+            Y: -0.000140887219
+            Z: 35.5191345
           }
           Rotation {
-            Pitch: 79.9999695
-            Yaw: 180
-            Roll: 180
+            Pitch: 79.9997101
+            Yaw: -180
+            Roll: -179.999985
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -423,21 +462,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 276.865234
-            Z: 11.8865204
+            X: 274.365448
+            Y: -9.3924813e-05
+            Z: 11.8864431
           }
           Rotation {
-            Pitch: 84.9999313
-            Yaw: 180
-            Roll: 180
+            Pitch: 84.9995728
+            Yaw: 179.999908
+            Roll: 179.999908
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -498,20 +538,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 140
+            X: 137.500336
+            Y: -0.000234812032
+            Z: -1.17406016e-05
           }
           Rotation {
             Pitch: 90
-            Yaw: -179.366989
-            Roll: -179.366989
+            Yaw: -25.2393761
+            Roll: -25.2393799
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -572,21 +614,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -910
-            Y: 0.00146484375
-            Z: 244.558167
+            X: -912.499268
+            Y: 0.00122102257
+            Z: 244.557983
           }
           Rotation {
-            Pitch: 59.9999695
-            Roll: -179.999985
+            Pitch: 59.9999313
+            Yaw: 2.45174903e-07
+            Roll: -179.999969
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -647,21 +690,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -790
-            Y: -0.00048828125
-            Z: 174.558105
+            X: -792.499451
+            Y: -0.000563548878
+            Z: 174.557968
           }
           Rotation {
-            Pitch: 64.9999619
+            Pitch: 64.9999
+            Yaw: -5.5520668e-06
             Roll: -179.999985
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -722,22 +766,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -665.563477
-            Y: -0.0029296875
-            Z: 116.79895
+            X: -668.062927
+            Y: -0.00309951883
+            Z: 116.798836
           }
           Rotation {
-            Pitch: 69.9999619
-            Yaw: 1.19031239e-12
-            Roll: -179.999985
+            Pitch: 69.9998932
+            Yaw: 1.64601272e-06
+            Roll: -179.999969
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -798,22 +842,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -535
-            Y: 0.0009765625
-            Z: 69.5580673
+            X: -537.499512
+            Y: 0.000892285723
+            Z: 69.5579453
           }
           Rotation {
-            Pitch: 74.9999161
-            Yaw: 1.57295422e-12
-            Roll: -179.999985
+            Pitch: 74.9998169
+            Yaw: -1.77751735e-05
+            Roll: 180
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -874,22 +918,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -405
-            Y: 0.00146484375
-            Z: 34.5580673
+            X: -407.499573
+            Y: 0.00136190979
+            Z: 34.5579567
           }
           Rotation {
-            Pitch: 79.9999237
-            Yaw: 2.34445536e-12
-            Roll: -179.999985
+            Pitch: 79.9997482
+            Yaw: -2.23376119e-05
+            Roll: 180
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -950,20 +994,22 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -271.866211
-            Z: 10.8046227
+            X: -274.365753
+            Y: -0.000211330829
+            Z: 10.8045349
           }
           Rotation {
-            Pitch: 85.7203751
-            Roll: 180
+            Pitch: 85.7200165
+            Yaw: -3.83785082e-05
+            Roll: 179.999969
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1024,19 +1070,21 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -135
+            X: -137.499634
+            Y: -7.04436097e-05
+            Z: -5.57678577e-05
           }
           Rotation {
             Pitch: 90
-            Roll: -179.999985
+            Roll: -179.999969
           }
           Scale {
-            X: 0.101753235
-            Y: 0.101761088
-            Z: 1.39633965
+            X: 0.101753227
+            Y: 0.10176108
+            Z: 1.39633954
           }
         }
-        ParentId: 10891926652399561650
+        ParentId: 2187884634918669915
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

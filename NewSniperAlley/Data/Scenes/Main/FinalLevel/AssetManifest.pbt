@@ -152,6 +152,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17403316637749788051
+  Name: "Vehicle Train Passenger Interior Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_vehicle_train_passenger_interior_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 17357257902648977758
   Name: "Sci-fi Base Capsule 01 Base"
   PlatformAssetType: 1
@@ -251,6 +260,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16713605512330575878
+  Name: "Sci-fi Object Low Scanning Pulse Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 16701471895469829501
   Name: "Text 01: A"
   PlatformAssetType: 1
@@ -329,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_light_001"
+  }
+}
+Assets {
+  Id: 16254595999441881258
+  Name: "Ambience Room Tone Laboratory Hallway Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_room_tone_laboratory_hallway_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -557,6 +584,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14638816248421548289
+  Name: "Rubber Dot Panels 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_001_uv"
+  }
+}
+Assets {
   Id: 14614056576813174129
   Name: "Metal Diamond Plates 01"
   PlatformAssetType: 2
@@ -701,6 +737,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14023212398559948573
+  Name: "Metal Chrome"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "chrome_001"
+  }
+}
+Assets {
   Id: 14021425836031181800
   Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
@@ -779,6 +824,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
+  }
+}
+Assets {
+  Id: 13362988571131584785
+  Name: "Decal Sci-fi Details 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_scf_details_001_ref"
   }
 }
 Assets {
@@ -1304,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10549684399192797779
+  Name: "Decal Stains Top 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_top_001"
+  }
+}
+Assets {
   Id: 10420895239212533739
   Name: "Animated Neon Sign - Hand Thumbs Up"
   PlatformAssetType: 1
@@ -1457,6 +1520,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9635608271034126615
+  Name: "Rubber Pattern 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_003_uv"
+  }
+}
+Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -1535,6 +1607,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Straight"
+  }
+}
+Assets {
+  Id: 8976318233260387419
+  Name: "Car Paint Advanced 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_advanced_001_uv_ref"
   }
 }
 Assets {
@@ -1895,6 +1976,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_sidewalk-straight_001"
+  }
+}
+Assets {
+  Id: 6656501280773318390
+  Name: "Cube - Arched"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_arched_001"
   }
 }
 Assets {
@@ -2393,6 +2483,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2824939083585481187
+  Name: "Machine Servo Turret Movement Loop 02 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_machine_servo_turret_movement_loop_02_Cue_ref"
+  }
+}
+Assets {
   Id: 2758266643690185227
   Name: "Stucco Wall"
   PlatformAssetType: 2
@@ -2615,15 +2714,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_electric_spark_short_01_ref"
-  }
-}
-Assets {
-  Id: 1419480028385412641
-  Name: "Street Light Pole Base 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_pole_001_base"
   }
 }
 Assets {

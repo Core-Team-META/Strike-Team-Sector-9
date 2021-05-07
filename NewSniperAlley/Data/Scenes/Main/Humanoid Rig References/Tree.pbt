@@ -832,12 +832,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: 1245
-      Y: 1040
+      X: 854.948608
+      Y: 1284.8717
       Z: 1272.99524
     }
     Rotation {
-      Yaw: -79.2569962
+      Yaw: -79.2569885
     }
     Scale {
       X: 1
@@ -2947,65 +2947,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9714527741332586891
-  Name: "Humanoid 2 Rig"
-  Transform {
-    Location {
-      X: 4750
-      Y: 6295
-      Z: 1272.99524
-    }
-    Rotation {
-      Yaw: -79.2569962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16828891774418071733
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16237330725608463998
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-      SkinnedMeshes {
-        Id: 17759641504777558449
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-      SkinnedMeshes {
-        Id: 841534158063459245
-      }
-    }
-  }
-}
-Objects {
   Id: 1557020810563311246
   Name: "Humanoid 2 Rig"
   Transform {
@@ -3128,12 +3069,12 @@ Objects {
   Name: "Humanoid 2 Rig"
   Transform {
     Location {
-      X: -3119.20117
-      Y: 1040
+      X: -2645.6582
+      Y: 2276.53271
       Z: 1272.99524
     }
     Rotation {
-      Yaw: -79.2570419
+      Yaw: -79.2570496
     }
     Scale {
       X: 1

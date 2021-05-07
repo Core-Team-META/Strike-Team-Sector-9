@@ -132,8 +132,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.105960459
-              B: 0.799999952
+              G: 0.245033026
+              B: 1
               A: 1
             }
           }
@@ -406,6 +406,15 @@ Assets {
               Id: 4201650381714901540
             }
           }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.07
+              G: 0.07
+              B: 0.07
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -532,8 +541,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.144039541
-              G: 0.75
+              R: 0.73
               A: 1
             }
           }
@@ -1329,6 +1337,15 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 4201650381714901540
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.07
+              G: 0.07
+              B: 0.07
+              A: 1
             }
           }
         }

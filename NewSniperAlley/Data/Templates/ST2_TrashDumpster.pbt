@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8766174116880648959
+        ParentId: 4781671109827199097
         ChildIds: 17990649124898098541
         ChildIds: 9529397973544967732
         ChildIds: 4912768956171075595
@@ -59,18 +59,12 @@ Assets {
         ChildIds: 8158857096242132672
         ChildIds: 15281536220653807324
         ChildIds: 2656823733363216567
-        ChildIds: 13627401500495697178
         ChildIds: 9618296969926662959
-        ChildIds: 11895919630646824936
         ChildIds: 16628093609222396659
         ChildIds: 11874633944731110846
         ChildIds: 12363119134109396043
         ChildIds: 509816458681561548
-        ChildIds: 14325557661564432526
-        ChildIds: 16959586349527598826
-        ChildIds: 9096161746773707976
         ChildIds: 7131784519792575282
-        ChildIds: 17667380355298726081
         ChildIds: 12830142148116916758
         ChildIds: 325219571338608154
         ChildIds: 7775479607901594862
@@ -608,80 +602,6 @@ Assets {
         }
       }
       Objects {
-        Id: 13627401500495697178
-        Name: "Bottle 01"
-        Transform {
-          Location {
-            X: 23.9866028
-            Y: 32.2697754
-            Z: -116.597183
-          }
-          Rotation {
-            Pitch: -87.5347748
-            Yaw: -52.2881622
-            Roll: 81.6289825
-          }
-          Scale {
-            X: 0.822946846
-            Y: 0.822946846
-            Z: 0.822946846
-          }
-        }
-        ParentId: 17990649124898098541
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 2887966541650210293
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0860927105
-              G: 0.200000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14089568530156265558
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 2887966541650210293
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9749557133567525528
-          }
-          Teams {
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
         Id: 9618296969926662959
         Name: "Military Sandbag 01"
         Transform {
@@ -746,82 +666,18 @@ Assets {
         }
       }
       Objects {
-        Id: 11895919630646824936
-        Name: "Small Open Crate"
-        Transform {
-          Location {
-            X: -158.968811
-            Y: 68.1940918
-            Z: -124.133743
-          }
-          Rotation {
-            Yaw: 132.533905
-          }
-          Scale {
-            X: 0.79884243
-            Y: 0.79884243
-            Z: 0.79884243
-          }
-        }
-        ParentId: 17990649124898098541
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5345703710708270820
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.369791657
-              G: 0.243117392
-              B: 0.117485881
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4249201813422598465
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
         Id: 16628093609222396659
         Name: "Decal Street Litter 01"
         Transform {
           Location {
             X: -112.137024
-            Y: 20.6030884
-            Z: -66.3115845
+            Y: 20.6030273
+            Z: -186.658142
           }
           Rotation {
-            Pitch: 2.44681263
-            Yaw: 0.98444736
-            Roll: 1.0210582
+            Pitch: 1.35474062
+            Yaw: 0.98382479
+            Roll: 1.00228822
           }
           Scale {
             X: 0.603272259
@@ -859,10 +715,10 @@ Assets {
           Location {
             X: 70.0153198
             Y: 36.019043
-            Z: -124.133774
+            Z: -207.405396
           }
           Rotation {
-            Yaw: -78.1825638
+            Yaw: -78.1825562
           }
           Scale {
             X: 0.72130096
@@ -1018,210 +874,6 @@ Assets {
         }
       }
       Objects {
-        Id: 14325557661564432526
-        Name: "Bottle 01"
-        Transform {
-          Location {
-            X: -147.154785
-            Y: 106.056458
-            Z: -106.874298
-          }
-          Rotation {
-            Pitch: -8.72814846
-            Yaw: -58.2948685
-            Roll: -37.3810921
-          }
-          Scale {
-            X: 0.822946846
-            Y: 0.822946846
-            Z: 0.822946846
-          }
-        }
-        ParentId: 17990649124898098541
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 2887966541650210293
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0860927105
-              G: 0.200000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14089568530156265558
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9749557133567525528
-          }
-          Teams {
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 16959586349527598826
-        Name: "Bottle 01"
-        Transform {
-          Location {
-            X: -21.7648926
-            Y: 47.8414917
-            Z: 47.3888397
-          }
-          Rotation {
-            Pitch: -43.5061493
-            Yaw: -19.5076
-            Roll: -55.828167
-          }
-          Scale {
-            X: 0.822946846
-            Y: 0.822946846
-            Z: 0.822946846
-          }
-        }
-        ParentId: 17990649124898098541
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 2887966541650210293
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0860927105
-              G: 0.200000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14089568530156265558
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9749557133567525528
-          }
-          Teams {
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 9096161746773707976
-        Name: "Bottle 01"
-        Transform {
-          Location {
-            X: 113.546906
-            Y: 32.2697754
-            Z: -117.495499
-          }
-          Rotation {
-            Pitch: -86.1671143
-            Yaw: -111.207794
-            Roll: 39.2100334
-          }
-          Scale {
-            X: 0.822946846
-            Y: 0.822946846
-            Z: 0.822946846
-          }
-        }
-        ParentId: 17990649124898098541
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:id"
-            AssetReference {
-              Id: 2887966541650210293
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0860927105
-              G: 0.200000048
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 14089568530156265558
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9749557133567525528
-          }
-          Teams {
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
         Id: 7131784519792575282
         Name: "Military Sandbag 03"
         Transform {
@@ -1275,52 +927,6 @@ Assets {
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 17667380355298726081
-        Name: "Urban Plank Debris 03"
-        Transform {
-          Location {
-            X: 46.3899231
-            Y: 64.1516724
-            Z: 17.8485413
-          }
-          Rotation {
-            Pitch: -31.9979191
-            Yaw: -173.503311
-            Roll: 84.6672516
-          }
-          Scale {
-            X: 0.698358536
-            Y: 0.698358536
-            Z: 0.698358536
-          }
-        }
-        ParentId: 17990649124898098541
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 10994759071928798573
-          }
-          Teams {
           }
           InteractWithTriggers: true
           StaticMesh {
@@ -1973,9 +1579,9 @@ Assets {
         Name: "Military Sandbag 03"
         Transform {
           Location {
-            X: -121.763702
-            Y: 106.336853
-            Z: -87.2984238
+            X: -79.8327637
+            Y: 106.336914
+            Z: -129.133667
           }
           Rotation {
             Pitch: 43.5437508
@@ -2263,39 +1869,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9749557133567525528
-      Name: "Bottle 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_fantasy_bottle_001"
-      }
-    }
-    Assets {
-      Id: 2887966541650210293
-      Name: "Invisible"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_invisible_001"
-      }
-    }
-    Assets {
       Id: 17850784779650210910
       Name: "Military Sandbag 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_mil_sandbag_001"
-      }
-    }
-    Assets {
-      Id: 4249201813422598465
-      Name: "Small Open Crate"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_crate_narrow_open_simple_160cm_001"
       }
     }
     Assets {
@@ -2332,15 +1911,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_mil_sandbag_003"
-      }
-    }
-    Assets {
-      Id: 10994759071928798573
-      Name: "Urban Plank Debris 03"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_urban_destruction_debris_plank_03_ref"
       }
     }
     Assets {

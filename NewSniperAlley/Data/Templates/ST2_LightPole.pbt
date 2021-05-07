@@ -121,7 +121,7 @@ Assets {
             Z: 698.731689
           }
           Rotation {
-            Pitch: -63.977478
+            Pitch: -55.9308472
             Yaw: 180
             Roll: -90
           }
@@ -157,14 +157,14 @@ Assets {
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 1165.06
+              AttenuationRadius: 1270.45374
               SpotLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
-                FallOffExponent: 8
+                FallOffExponent: 2
                 UseFallOffExponent: true
-                InnerConeAngle: 30
-                OuterConeAngle: 40
+                InnerConeAngle: 2
+                OuterConeAngle: 32.0572891
                 Profile {
                   Value: "mc:espotlightprofile:basicspotlight"
                 }

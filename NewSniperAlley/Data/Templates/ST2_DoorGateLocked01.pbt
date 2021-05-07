@@ -252,9 +252,9 @@ Assets {
         Name: "Urban Vehicle Car - Light Roof 01"
         Transform {
           Location {
-            X: 44.9999886
-            Y: 40.0000114
-            Z: 280
+            X: 45
+            Y: 65
+            Z: 256.505371
           }
           Rotation {
             Pitch: -90
