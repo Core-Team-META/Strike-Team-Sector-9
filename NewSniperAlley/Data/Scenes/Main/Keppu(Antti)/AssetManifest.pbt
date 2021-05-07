@@ -1880,6 +1880,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8930532401678162557
+  Name: "Prism - 8-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_hq_001"
+  }
+}
+Assets {
   Id: 8698530872141969228
   Name: "Fern 01"
   PlatformAssetType: 1
