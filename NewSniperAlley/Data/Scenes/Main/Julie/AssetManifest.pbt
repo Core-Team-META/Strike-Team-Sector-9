@@ -413,6 +413,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14041692737859807372
+  Name: "Animated Neon Sign- Boba"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Boba"
+  }
+}
+Assets {
   Id: 14010943251033244363
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -971,6 +980,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5768059525754404581
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
+  }
+}
+Assets {
   Id: 5721670808471238661
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -1175,6 +1193,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_001"
+  }
+}
+Assets {
+  Id: 2899842837741361229
+  Name: "Concrete Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_tiles_001"
   }
 }
 Assets {
