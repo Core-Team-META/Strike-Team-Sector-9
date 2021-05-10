@@ -10,9 +10,9 @@ Assets {
         Name: "ST2_MetalSheet02"
         Transform {
           Scale {
-            X: 1
-            Y: 0.5
-            Z: 0.5
+            X: 0.557409644
+            Y: 0.557409644
+            Z: 0.557409644
           }
         }
         ParentId: 8766174116880648959
@@ -26,9 +26,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.19600001
-              G: 0.19600001
-              B: 0.19600001
+              R: 2
+              G: 1.31
+              B: 0.343999863
               A: 1
             }
           }

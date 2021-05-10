@@ -306,67 +306,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7340646214368103939
-  Name: "Liquid Decal Wet Road"
-  Transform {
-    Location {
-      X: 10435.0605
-      Y: 990
-      Z: -243.674393
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.999414146
-      Y: 2
-      Z: 0.25
-    }
-  }
-  ParentId: 788990605066909357
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:eliquiddecaltype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 5
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.903000057
-        G: 0.903000057
-        B: 0.903000057
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11445222157905148236
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
   Id: 6779423302765129061
   Name: "Liquid Decal Wet Road"
   Transform {
