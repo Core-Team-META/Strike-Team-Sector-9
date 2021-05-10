@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18104742538578460642
+  Name: "Sci-fi Base Ceiling Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_ceiling_001_ref"
+  }
+}
+Assets {
   Id: 18098293923493844510
   Name: "Decal Rubble Concrete 02"
   PlatformAssetType: 14
@@ -491,6 +500,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
+  Id: 13056377762012048845
+  Name: "Military Tank Historic Hull 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
   }
 }
 Assets {
@@ -1337,6 +1355,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
+  Id: 1788726530532036176
+  Name: "Metal Simple Tech Panel Wall 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_tech_panel_002_uv"
   }
 }
 Assets {
