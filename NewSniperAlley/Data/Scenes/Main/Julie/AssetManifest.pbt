@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18131936251569509837
+  Name: "Metal Vent Duct Square 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vent_duct_square_001_uv_ref"
+  }
+}
+Assets {
   Id: 18104742538578460642
   Name: "Sci-fi Base Ceiling Trim 01"
   PlatformAssetType: 1
@@ -626,15 +635,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_003_ref"
-  }
-}
-Assets {
-  Id: 11001967573859652020
-  Name: "Cone - Truncated Hollow Wide"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_hollow_004"
   }
 }
 Assets {
@@ -1283,6 +1283,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_ring_001"
+  }
+}
+Assets {
+  Id: 2521409856080866625
+  Name: "Large Girder 8m x 6m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wall_girder_large_8m_001"
   }
 }
 Assets {
