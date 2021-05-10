@@ -1682,15 +1682,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9647297623024469013
-  Name: "Humanoid 1 Aparna"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_008_ref"
-  }
-}
-Assets {
   Id: 9605197959426201295
   Name: "Tire Worn - Small"
   PlatformAssetType: 1
@@ -1832,15 +1823,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
-  Id: 8317679741492838839
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
