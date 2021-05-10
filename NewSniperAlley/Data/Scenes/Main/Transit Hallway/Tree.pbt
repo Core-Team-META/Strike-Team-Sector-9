@@ -1,6 +1,121 @@
 Name: "Transit Hallway"
 RootId: 8615612276222760985
 Objects {
+  Id: 909026867521230864
+  Name: "ST2_Cement_Bench "
+  Transform {
+    Location {
+      X: 592.809326
+      Y: -3491.15
+      Z: 284.999756
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17079528941805268237
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Cement_Bench "
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1214.51013
+            Y: -3491.14966
+            Z: 284.999756
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5349175665739034197
+    }
+  }
+}
+Objects {
+  Id: 16581212909661425089
+  Name: "ST2_Cement_Bench "
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17079528941805268237
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Cement_Bench "
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 592.809326
+            Y: -3491.15
+            Z: 284.999756
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5349175665739034197
+    }
+  }
+}
+Objects {
   Id: 458767834911626088
   Name: "Military Hazard Barrel"
   Transform {

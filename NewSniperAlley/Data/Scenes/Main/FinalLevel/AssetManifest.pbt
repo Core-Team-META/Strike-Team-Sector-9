@@ -2402,6 +2402,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3369583370173701670
+  Name: "Ceramic Terracotta Pots Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_002_uv"
+  }
+}
+Assets {
   Id: 3242532795464898345
   Name: "Sci-fi Base Pillar 02 - Base 01"
   PlatformAssetType: 1
