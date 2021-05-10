@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12674703637300698321
+  Name: "Grid Basic"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "grid_blue_001"
+  }
+}
+Assets {
   Id: 12632251234297570874
   Name: "Urban Pipe Cap 03"
   PlatformAssetType: 1
