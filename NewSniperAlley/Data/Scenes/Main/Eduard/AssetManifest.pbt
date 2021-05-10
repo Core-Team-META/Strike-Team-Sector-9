@@ -422,6 +422,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13497954212257386805
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
+  }
+}
+Assets {
   Id: 13474277590145046551
   Name: "Urban Fence Bracket - End"
   PlatformAssetType: 1
@@ -485,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13029209801789466339
+  Name: "Pipe - 90-Degree Short Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_004"
+  }
+}
+Assets {
   Id: 12888726374622842928
   Name: "Modern Weapon - Disc 01"
   PlatformAssetType: 1
@@ -509,6 +527,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_rooftop_fan_002"
+  }
+}
+Assets {
+  Id: 12758036443323469769
+  Name: "Urban Fence Pole - Extender End"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_03_end_001"
   }
 }
 Assets {
@@ -818,6 +845,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7354330772943810642
+  Name: "Sci-fi Base Breakout Box 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_breakout_001_ref"
+  }
+}
+Assets {
   Id: 7195564222692247037
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1
@@ -860,6 +896,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mat_advanced_9slice_shipping_container001_ref"
+  }
+}
+Assets {
+  Id: 6865249745567109080
+  Name: "Corrugated Sheet Bent"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
   }
 }
 Assets {
@@ -935,6 +980,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5768059525754404581
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
+  }
+}
+Assets {
   Id: 5763416940929781403
   Name: "Office Drop Ceiling 01"
   PlatformAssetType: 2
@@ -989,6 +1043,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5154493427538871909
+  Name: "Corrugated Sheet Medium"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
   Id: 5133116907795621363
   Name: "Text 01: P"
   PlatformAssetType: 1
@@ -1022,6 +1085,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_trapezoid_001"
+  }
+}
+Assets {
+  Id: 4377893833927227742
+  Name: "Sci-fi Base HVAC 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_acc_hvac_001_ref"
   }
 }
 Assets {
@@ -1274,6 +1346,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_lock_001"
+  }
+}
+Assets {
+  Id: 539670975280601370
+  Name: "Chain Link 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_chainlink_001_uv_ref"
   }
 }
 Assets {
