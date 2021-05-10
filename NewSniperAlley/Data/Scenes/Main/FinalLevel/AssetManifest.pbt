@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12674703637300698321
+  Name: "Grid Basic"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "grid_blue_001"
+  }
+}
+Assets {
   Id: 12632251234297570874
   Name: "Urban Pipe Cap 03"
   PlatformAssetType: 1
@@ -1679,15 +1688,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon3_OutsideCorner"
-  }
-}
-Assets {
-  Id: 8353147935132205805
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
   }
 }
 Assets {
@@ -2402,6 +2402,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3369583370173701670
+  Name: "Ceramic Terracotta Pots Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_002_uv"
+  }
+}
+Assets {
   Id: 3242532795464898345
   Name: "Sci-fi Base Pillar 02 - Base 01"
   PlatformAssetType: 1
@@ -2930,15 +2939,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "Text_009"
-  }
-}
-Assets {
-  Id: 255224006117058275
-  Name: "Cone"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_001"
   }
 }
 Assets {

@@ -395,6 +395,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14150131608064648431
+  Name: "Sci-fi Base - Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_win_001_ref"
+  }
+}
+Assets {
   Id: 14083853046973452695
   Name: "Cylinder - Rounded"
   PlatformAssetType: 1
@@ -410,6 +419,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 14041692737859807372
+  Name: "Animated Neon Sign- Boba"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_Boba"
   }
 }
 Assets {
@@ -674,24 +692,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9820333862526212022
-  Name: "Shipping Pallet - Rectangular"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_001"
-  }
-}
-Assets {
-  Id: 9783373452716819494
-  Name: "Shipping Pallet - Square"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_002"
-  }
-}
-Assets {
   Id: 9749557133567525528
   Name: "Bottle 01"
   PlatformAssetType: 1
@@ -761,6 +761,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_HVAC_001"
+  }
+}
+Assets {
+  Id: 8256316472616181310
+  Name: "Sci-fi Base Capsule 01 Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_top_002_ref"
   }
 }
 Assets {
@@ -908,6 +917,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6625916772802830449
+  Name: "Sci-fi Base Breakout Box 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_breakout_003_ref"
+  }
+}
+Assets {
   Id: 6546195410298758983
   Name: "Concrete Rough"
   PlatformAssetType: 2
@@ -923,6 +941,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_glass_shard_003_ref"
+  }
+}
+Assets {
+  Id: 6314858928202309588
+  Name: "Urban Floor Grate Fire Escape - 1m x 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_1x2_001_ref"
   }
 }
 Assets {
@@ -968,6 +995,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_blaster_001_ref"
+  }
+}
+Assets {
+  Id: 5768059525754404581
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
   }
 }
 Assets {
@@ -1178,6 +1214,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2899842837741361229
+  Name: "Concrete Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_tiles_001"
+  }
+}
+Assets {
   Id: 2887966541650210293
   Name: "Invisible"
   PlatformAssetType: 2
@@ -1292,6 +1337,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "dcl_basicShapes"
+  }
+}
+Assets {
+  Id: 1674406783270633985
+  Name: "Sci-fi Barrel 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_barrel_002_ref"
   }
 }
 Assets {

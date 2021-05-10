@@ -1,4 +1,30 @@
 Assets {
+  Id: 15846704423136333646
+  Name: "2"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b442db765228484c8e5b9a9adaa3db8f"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 15134649676183497844
+  Name: "3"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "52fd9a4ac71b46339d270e5f0bf3c7ae"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 10698833128597864431
   Name: "Play Bold"
   PlatformAssetType: 28
@@ -8,12 +34,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9605176326538922949
-  Name: "Antti Storage"
+  Id: 6639588527131837362
+  Name: "1"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "a0cb2b4b64164d9c98f187c11e7d382b"
+      Key: "d4a0a48381454e9e93a17b8e8763fd4d"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -21,38 +47,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7765426482892982908
-  Name: "Antti LifetimeStats"
+  Id: 5840649883868045493
+  Name: "5"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "9d3858b6d4274623a7fa6453a661b7b9"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 6680240498118201942
-  Name: "Antti loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "c62e092803554d129989923fbdb1c2cd"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 4628293910694575561
-  Name: "Antti StatKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "8b14e259337d40acb0ca69722b7a138b"
+      Key: "5c841260c6fb468d82ad49486dd4401b"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

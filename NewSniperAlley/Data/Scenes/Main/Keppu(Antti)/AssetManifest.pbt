@@ -575,15 +575,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14934952303376649672
-  Name: "Katakana Font 1: \343\203\215 (NE)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_katakana_023"
-  }
-}
-Assets {
   Id: 14905682372048534582
   Name: "Modern Stairs Stringer 01 - Straight"
   PlatformAssetType: 1
@@ -1619,15 +1610,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9997774032960254197
-  Name: "Hiragana Font 1: \343\201\242 (DI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_031"
-  }
-}
-Assets {
   Id: 9980316909404850007
   Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
@@ -1670,24 +1652,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_hull_001_front_ref"
-  }
-}
-Assets {
-  Id: 9820333862526212022
-  Name: "Shipping Pallet - Rectangular"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_shipping_pallet_001"
-  }
-}
-Assets {
-  Id: 9798555348957227150
-  Name: "Hiragana Font 1: \343\201\252 (NA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_035"
   }
 }
 Assets {
@@ -2978,15 +2942,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1854893883431613466
-  Name: "Frame Large Straight - Neon Double 1 Sided Ending"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_Ender_1s_db"
-  }
-}
-Assets {
   Id: 1714326510831253930
   Name: "Military Tank Historic Container 01"
   PlatformAssetType: 1
@@ -3200,15 +3155,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "stone_001"
-  }
-}
-Assets {
-  Id: 570519592603707188
-  Name: "Katakana Font 1: \343\203\260 (WI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_katakana_055"
   }
 }
 Assets {
