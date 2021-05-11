@@ -638,6 +638,24 @@ Assets {
   }
 }
 Assets {
+  Id: 11024977997119225113
+  Name: "Sci-fi Cockpit Siderail 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_siderail_001_ref"
+  }
+}
+Assets {
+  Id: 11001967573859652020
+  Name: "Cone - Truncated Hollow Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_004"
+  }
+}
+Assets {
   Id: 10975066442102718841
   Name: "Barrier Caution Light 2"
   PlatformAssetType: 1
@@ -707,6 +725,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_003_ref"
+  }
+}
+Assets {
+  Id: 9922559587660436006
+  Name: "Pipe - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_lg_001_ref"
   }
 }
 Assets {
@@ -1148,15 +1175,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scifi_screen_001_ref"
-  }
-}
-Assets {
-  Id: 3713504403173644544
-  Name: "Rocky Ground 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "rocky_001"
   }
 }
 Assets {

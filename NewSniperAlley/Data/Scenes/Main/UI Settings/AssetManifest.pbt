@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15649200016799841916
+  Name: "Bricks Wall Flat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_wall_flat_001"
+  }
+}
+Assets {
   Id: 15266094661921614944
   Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
@@ -35,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12224751833610640005
+  Name: "Rubber Tiles 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_002_uv"
+  }
+}
+Assets {
   Id: 11541705719099405078
   Name: "Fabric Burlap New 01"
   PlatformAssetType: 2
@@ -50,24 +68,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_game_tone_tube_beep_01a_Cue_ref"
-  }
-}
-Assets {
-  Id: 4781461656608522595
-  Name: "Metal Greebles 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_greebles_002_uv_ref"
-  }
-}
-Assets {
-  Id: 4247430867898109902
-  Name: "Stucco Tintable"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
