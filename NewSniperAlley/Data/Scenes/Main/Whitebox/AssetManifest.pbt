@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14796711042662669165
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
+  }
+}
+Assets {
   Id: 13206135842285396679
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2

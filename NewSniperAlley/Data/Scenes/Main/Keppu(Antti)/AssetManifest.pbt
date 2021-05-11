@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17868552823851201768
+  Name: "Office Vending Machine 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_02_ref"
+  }
+}
+Assets {
   Id: 17850784779650210910
   Name: "Military Sandbag 01"
   PlatformAssetType: 1
@@ -140,6 +149,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_roof_002_arch"
+  }
+}
+Assets {
+  Id: 17485881147669499682
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
   }
 }
 Assets {
@@ -518,6 +536,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corelogo_shape_001"
+  }
+}
+Assets {
+  Id: 15431492687450082974
+  Name: "Office Vending Machine 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_01_ref"
   }
 }
 Assets {
@@ -1313,6 +1340,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11476426231281021703
+  Name: "Craftsman Roof 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001"
+  }
+}
+Assets {
   Id: 11460896157947755957
   Name: "Trim - Curve 90\302\260 - 04m Radius"
   PlatformAssetType: 1
@@ -1364,6 +1400,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_tread_001_mid_ref"
+  }
+}
+Assets {
+  Id: 11184139379736440764
+  Name: "Clear Coat 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_clear-coat_001"
   }
 }
 Assets {
@@ -1952,6 +1997,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7900480577560620211
+  Name: "Street Light Pole 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_002"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -2003,6 +2057,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_004"
+  }
+}
+Assets {
+  Id: 7648717670233836541
+  Name: "Craftsman Roof 01 Eaves"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_eaves_001"
   }
 }
 Assets {
@@ -2078,6 +2141,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7176226758264565402
+  Name: "Hiragana Font 1: \343\201\263 (BI)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_046"
+  }
+}
+Assets {
   Id: 7080077634480067575
   Name: "Urban Plank Debris 05"
   PlatformAssetType: 1
@@ -2120,6 +2192,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
+  }
+}
+Assets {
+  Id: 6842764727794571561
+  Name: "Container - Hex- Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_hex_rnd_001_ref"
   }
 }
 Assets {
@@ -2276,6 +2357,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5768059525754404581
+  Name: "Metal Painted Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_painted_metal_basic_001"
+  }
+}
+Assets {
   Id: 5734988360010929569
   Name: "Military Tank Historic Armor Skirt 01 - Mid"
   PlatformAssetType: 1
@@ -2300,6 +2390,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_cockpit_back_001_ref"
+  }
+}
+Assets {
+  Id: 5711247199587316769
+  Name: "Urban Fence Pole - Extender Connecting"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_pole_03_connect_001"
   }
 }
 Assets {
@@ -2336,6 +2435,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_elbow_001_ref"
+  }
+}
+Assets {
+  Id: 5351428073291024820
+  Name: "Emissive Glow Opaque"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
   }
 }
 Assets {
@@ -2933,6 +3041,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1639521161912320951
+  Name: "Hiragana Font 1: \343\201\273 (HO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_044"
+  }
+}
+Assets {
   Id: 1628849511756280386
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   PlatformAssetType: 1
@@ -2978,6 +3095,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1378719400991316622
+  Name: "Urban Trash Can 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_trash_can_003_ref"
+  }
+}
+Assets {
   Id: 1350712656798786743
   Name: "Grass Short"
   PlatformAssetType: 1
@@ -3002,6 +3128,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "CollegeNeon_Outline_01_Text_038"
+  }
+}
+Assets {
+  Id: 1149139527371785605
+  Name: "Hiragana Font 1: \343\201\267 (PU)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_052"
   }
 }
 Assets {
@@ -3101,6 +3236,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "meyiro_block_hiragana_010"
+  }
+}
+Assets {
+  Id: 697347799158381382
+  Name: "Modern Weapon - Slide 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_slide_001"
   }
 }
 Assets {

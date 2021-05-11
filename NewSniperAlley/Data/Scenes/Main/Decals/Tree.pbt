@@ -129,14 +129,14 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -1898.27563
-      Y: -3969.82568
+      X: -1926.68042
+      Y: -3891.0874
       Z: 985.33313
     }
     Rotation {
     }
     Scale {
-      X: 5.62552071
+      X: 4.1224103
       Y: 3.18377829
       Z: 0.135018349
     }
@@ -187,7 +187,7 @@ Objects {
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
-      X: -1974.34363
+      X: -1943.56628
       Y: -3969.82568
       Z: 982.171265
     }
