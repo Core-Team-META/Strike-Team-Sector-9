@@ -7,7 +7,7 @@ Assets {
       RootId: 16253280924196043871
       Objects {
         Id: 16253280924196043871
-        Name: "SAR_AirConditioner"
+        Name: "ST2_AirConditioner"
         Transform {
           Scale {
             X: 1.2
@@ -15,7 +15,7 @@ Assets {
             Z: 1.2
           }
         }
-        ParentId: 16373807130785117515
+        ParentId: 4781671109827199097
         ChildIds: 14944146350335522350
         ChildIds: 12101629168761278297
         ChildIds: 15708156490134108499
@@ -175,8 +175,6 @@ Assets {
           }
         }
         ParentId: 16253280924196043871
-        ChildIds: 3861890707548165533
-        ChildIds: 14766289033662617190
         ChildIds: 14344362840222539150
         ChildIds: 17570803228979625134
         ChildIds: 12704054681738614346
@@ -197,132 +195,6 @@ Assets {
         }
         Folder {
           Model {
-          }
-        }
-      }
-      Objects {
-        Id: 3861890707548165533
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -30.2750645
-            Y: 11.1311846
-            Z: 6.32863331
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: 179.999893
-            Roll: -89.9999619
-          }
-          Scale {
-            X: 0.807204783
-            Y: 0.807204783
-            Z: 0.807204783
-          }
-        }
-        ParentId: 15708156490134108499
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5635417991178029864
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.164
-              G: 0.164
-              B: 0.164
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 14766289033662617190
-        Name: "Ring - Quarter Thin"
-        Transform {
-          Location {
-            X: -30.2750645
-            Y: 11.1311846
-            Z: 6.32863331
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -5.71059704
-            Roll: 95.7105331
-          }
-          Scale {
-            X: 0.807204783
-            Y: 0.807204783
-            Z: 0.807204783
-          }
-        }
-        ParentId: 15708156490134108499
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 5635417991178029864
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.164
-              G: 0.164
-              B: 0.164
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6280154984963467322
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
           }
         }
       }
@@ -557,7 +429,7 @@ Assets {
             Z: 50.2104683
           }
           Rotation {
-            Roll: -89.9999847
+            Roll: -90
           }
           Scale {
             X: 0.21364
@@ -880,24 +752,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_metal_frames_003_uv"
-      }
-    }
-    Assets {
-      Id: 6280154984963467322
-      Name: "Ring - Quarter Thin"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_quarter_torus_001"
-      }
-    }
-    Assets {
-      Id: 5635417991178029864
-      Name: "Rubber Basic 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_scf_rubber_panels_004_uv"
       }
     }
     Assets {

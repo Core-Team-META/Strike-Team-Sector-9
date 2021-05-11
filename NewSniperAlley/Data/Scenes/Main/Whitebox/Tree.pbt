@@ -1,6 +1,50 @@
 Name: "Whitebox"
 RootId: 17360112169003464756
 Objects {
+  Id: 1495178099931847609
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 12510
+      Y: 3535
+      Z: -340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 16.75
+      Y: 21.25
+      Z: 19.5
+    }
+  }
+  ParentId: 17360112169003464756
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 5982626921667420907
   Name: "ST2_Arc"
   Transform {
@@ -14419,14 +14463,14 @@ Objects {
     Location {
       X: 12480
       Y: 785
-      Z: -340
+      Z: -390
     }
     Rotation {
     }
     Scale {
       X: 16.75
       Y: 21.25
-      Z: 19.5
+      Z: 42.25
     }
   }
   ParentId: 17360112169003464756
