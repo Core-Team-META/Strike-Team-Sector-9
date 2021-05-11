@@ -36,8 +36,6 @@ Objects {
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
   ChildIds: 6324845266199599566
-  ChildIds: 10233992490460601871
-  ChildIds: 3729235324937190608
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -50,100 +48,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 3729235324937190608
-  Name: "ST2_VentMed01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8918295198662462952
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_VentMed01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 7475
-            Y: 6185
-            Z: 1450
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6260993481852922249
-    }
-  }
-}
-Objects {
-  Id: 10233992490460601871
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4905
-            Y: 1570
-            Z: 1376.25635
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 45
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
   }
 }
 Objects {
