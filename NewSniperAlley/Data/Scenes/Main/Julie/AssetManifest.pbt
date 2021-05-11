@@ -890,6 +890,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7516257627012008757
+  Name: "Pipe - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_001"
+  }
+}
+Assets {
   Id: 7354330772943810642
   Name: "Sci-fi Base Breakout Box 01"
   PlatformAssetType: 1
@@ -1454,6 +1463,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_002_ref"
+  }
+}
+Assets {
+  Id: 559721854425496414
+  Name: "Ring - Beveled Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ring_faceted_002"
   }
 }
 Assets {
