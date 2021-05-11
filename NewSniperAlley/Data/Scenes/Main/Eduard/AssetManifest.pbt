@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17429250688696520263
+  Name: "Decal Graffiti Murals 01 (Variants)"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_graffiti_mural_001"
+  }
+}
+Assets {
   Id: 17391755111850488586
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -143,21 +152,21 @@ Assets {
   }
 }
 Assets {
+  Id: 16607591849780623518
+  Name: "Decal Street Litter 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_urb_debris_001_ref"
+  }
+}
+Assets {
   Id: 16371622500121573784
   Name: "Cylinder"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
-  }
-}
-Assets {
-  Id: 16237330725608463998
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
   }
 }
 Assets {
@@ -230,6 +239,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_sign_002"
+  }
+}
+Assets {
+  Id: 15235102742283936033
+  Name: "Sign Font 2 Neon Outline: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonFont2_Text_013"
   }
 }
 Assets {
@@ -638,6 +656,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11534260051317427993
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
+  }
+}
+Assets {
   Id: 11476426231281021703
   Name: "Craftsman Roof 01"
   PlatformAssetType: 1
@@ -653,6 +680,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_carpet_004_uv_ref"
+  }
+}
+Assets {
+  Id: 11311683108348493447
+  Name: "Sign Font 2 Neon Outline: W"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonFont2_Text_022"
   }
 }
 Assets {
@@ -734,6 +770,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pyramid_eighsided_truncated_001"
+  }
+}
+Assets {
+  Id: 9817962963358887504
+  Name: "Sign Neon Arrow Outline: Download"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_051"
   }
 }
 Assets {
@@ -971,6 +1016,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5897545881615604017
+  Name: "Sign Font 2 Neon Outline: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonFont2_Text_014"
+  }
+}
+Assets {
   Id: 5868465374856696904
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -1124,15 +1178,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3738589738198733425
-  Name: "Humanoid 2 Ramesh"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_basic_008_ref"
-  }
-}
-Assets {
   Id: 3694419892625887874
   Name: "Military Hazard Barrel"
   PlatformAssetType: 1
@@ -1211,6 +1256,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 2880253289029153692
+  Name: "Sign Font 2 Neon Outline: D"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonFont2_Text_003"
   }
 }
 Assets {
