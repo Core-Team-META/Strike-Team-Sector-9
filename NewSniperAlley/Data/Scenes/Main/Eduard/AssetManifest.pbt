@@ -242,15 +242,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15235102742283936033
-  Name: "Sign Font 2 Neon Outline: N"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_013"
-  }
-}
-Assets {
   Id: 15094280472468912408
   Name: "Cylinder - 2-Toned"
   PlatformAssetType: 1
@@ -683,15 +674,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11311683108348493447
-  Name: "Sign Font 2 Neon Outline: W"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_022"
-  }
-}
-Assets {
   Id: 11279682431906909865
   Name: "Sci-fi Base Railing 02"
   PlatformAssetType: 1
@@ -818,6 +800,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8459552447647928416
+  Name: "Text 03: N"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_013"
+  }
+}
+Assets {
   Id: 8317679741492838839
   Name: "Humanoid 1 Rig"
   PlatformAssetType: 25
@@ -878,6 +869,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F1_Text_011"
+  }
+}
+Assets {
+  Id: 7752641785889113235
+  Name: "Text 03: W"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_022"
   }
 }
 Assets {
@@ -1013,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
-  Id: 5897545881615604017
-  Name: "Sign Font 2 Neon Outline: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_014"
   }
 }
 Assets {
@@ -1259,15 +1250,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2880253289029153692
-  Name: "Sign Font 2 Neon Outline: D"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonFont2_Text_003"
-  }
-}
-Assets {
   Id: 2833325810340691992
   Name: "Pipe - 90-Degree Short Thick"
   PlatformAssetType: 1
@@ -1328,6 +1310,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_vent_duct_round_001_uv_ref"
+  }
+}
+Assets {
+  Id: 1910131758854519467
+  Name: "Text 03: D"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_003"
   }
 }
 Assets {
@@ -1436,6 +1427,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corner_smooth_001_ref"
+  }
+}
+Assets {
+  Id: 306471646271968506
+  Name: "Text 03: O"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F5_Text_014"
   }
 }
 Assets {
