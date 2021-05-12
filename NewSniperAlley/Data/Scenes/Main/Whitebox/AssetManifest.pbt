@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12085483327763957900
+  Name: "Gravel Raked 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gravel_001_uv"
+  }
+}
+Assets {
   Id: 10244512211031728539
   Name: "Arch"
   PlatformAssetType: 1

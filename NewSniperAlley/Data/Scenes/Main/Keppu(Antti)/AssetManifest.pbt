@@ -404,15 +404,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16237330725608463998
-  Name: "Humanoid 2 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_guy_wireframe_001_ref"
-  }
-}
-Assets {
   Id: 16200453037138456273
   Name: "Sci-fi Base Breakout Box 04"
   PlatformAssetType: 1
@@ -509,15 +500,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_clamp_001_ref"
-  }
-}
-Assets {
-  Id: 15659294955587728976
-  Name: "Text 04: T"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_019"
   }
 }
 Assets {
@@ -1088,15 +1070,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12783865392164197828
-  Name: "Text 04: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_011"
-  }
-}
-Assets {
   Id: 12758036443323469769
   Name: "Urban Fence Pole - Extender End"
   PlatformAssetType: 1
@@ -1265,15 +1238,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_hst_container_003_ref"
-  }
-}
-Assets {
-  Id: 11917007313670209110
-  Name: "Play Bold"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "PlayBold_ref"
   }
 }
 Assets {
@@ -1601,30 +1565,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10116332148539442832
-  Name: "Urban Parking Meter Pole"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_meter_parking_post_001_ref"
-  }
-}
-Assets {
   Id: 10106375602517479291
   Name: "Text 04: N"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_013"
-  }
-}
-Assets {
-  Id: 10084579082453840554
-  Name: "Text 04: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_012"
   }
 }
 Assets {
@@ -1733,6 +1679,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_tire_worn_02_ref"
+  }
+}
+Assets {
+  Id: 9492096466236804032
+  Name: "Modern Damaged Stairs Railing 01 - Straight 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_02_ref"
   }
 }
 Assets {
@@ -2519,15 +2474,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4843543754406251553
-  Name: "Humanoid 2 Minh"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_guy_head_basic_002_ref"
-  }
-}
-Assets {
   Id: 4837075670809400986
   Name: "Frame Large Straight - Neon"
   PlatformAssetType: 1
@@ -2870,6 +2816,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2551749691384029320
+  Name: "Modern Damaged Stairs Railing 01 - Straight 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_03_ref"
+  }
+}
+Assets {
   Id: 2521409856080866625
   Name: "Large Girder 8m x 6m"
   PlatformAssetType: 1
@@ -3122,15 +3077,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1161497408010170015
-  Name: "Sign Font 1 Neon Outline: @"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_038"
-  }
-}
-Assets {
   Id: 1149139527371785605
   Name: "Hiragana Font 1: \343\201\267 (PU)"
   PlatformAssetType: 1
@@ -3173,15 +3119,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dest_concrete_chunk_001_ref"
-  }
-}
-Assets {
-  Id: 962531297881391870
-  Name: "Text 04: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_004"
   }
 }
 Assets {
