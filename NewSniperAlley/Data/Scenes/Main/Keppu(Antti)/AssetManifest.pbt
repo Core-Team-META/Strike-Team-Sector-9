@@ -3176,15 +3176,6 @@ Assets {
   }
 }
 Assets {
-  Id: 697347799158381382
-  Name: "Modern Weapon - Slide 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_slide_001"
-  }
-}
-Assets {
   Id: 697130077529532955
   Name: "Metal Painted Basic 01"
   PlatformAssetType: 2
