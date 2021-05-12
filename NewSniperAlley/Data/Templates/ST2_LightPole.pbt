@@ -248,9 +248,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.647145
+            Y: 0.647145
+            Z: 0.967958093
           }
         }
         ParentId: 13059821318773917191
@@ -258,15 +258,15 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 14872034554416258189
+              Id: 13085174305471638229
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
-              G: 0.149802
-              B: 0.010033
+              R: 0.135416672
+              G: 0.135416672
+              B: 0.135416672
               A: 1
             }
           }
@@ -335,6 +335,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_urb_st_post_lights_pole_002"
+      }
+    }
+    Assets {
+      Id: 13085174305471638229
+      Name: "Metal Painted Old 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_metal_painted_old_001_uv"
       }
     }
     PrimaryAssetId {

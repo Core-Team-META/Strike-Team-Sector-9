@@ -35,15 +35,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18110116815392369742
-  Name: "Trim - Curve 90\302\260 - 02m Radius"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_curve90_2m_ref"
-  }
-}
-Assets {
   Id: 18009603480987123451
   Name: "Sci-fi Base Breakout Box 02"
   PlatformAssetType: 1
@@ -113,15 +104,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
-  }
-}
-Assets {
-  Id: 17560617045900804652
-  Name: "Column Base 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_bottom_002"
   }
 }
 Assets {
@@ -527,15 +509,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_rooftop_fan_003"
-  }
-}
-Assets {
-  Id: 14844207987662279749
-  Name: "Barrier Light"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_light_001"
   }
 }
 Assets {
@@ -2240,15 +2213,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4937555997507243807
-  Name: "Barrier Triangle Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_barrier_base_001"
-  }
-}
-Assets {
   Id: 4909850481099204290
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -2417,15 +2381,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_pillar_002_base_01_ref"
-  }
-}
-Assets {
-  Id: 3211391417075088690
-  Name: "Column Segment 1m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_segment_001"
   }
 }
 Assets {
