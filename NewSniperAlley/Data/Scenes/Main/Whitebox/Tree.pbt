@@ -15543,67 +15543,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11787531682993542865
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 3905
-      Y: 3450.10669
-      Z: -365
-    }
-    Rotation {
-    }
-    Scale {
-      X: 9.75
-      Y: 8.74999619
-      Z: 7.25
-    }
-  }
-  ParentId: 17360112169003464756
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5336036028698651373
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.615628719
-        G: 2
-        B: 0.440000057
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 8500760730484608226
   Name: "Cube - Bottom-Aligned"
   Transform {
