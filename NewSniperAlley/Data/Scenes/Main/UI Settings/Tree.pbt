@@ -1787,7 +1787,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 14198415401224027527
       }
     }
   }
@@ -2104,7 +2104,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 14198415401224027527
       }
     }
   }

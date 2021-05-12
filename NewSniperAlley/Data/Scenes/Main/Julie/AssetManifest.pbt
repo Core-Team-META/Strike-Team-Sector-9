@@ -260,21 +260,21 @@ Assets {
   }
 }
 Assets {
-  Id: 16357557897714794618
-  Name: "Pipe Thick 01 - Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_thick_lg_001_ref"
-  }
-}
-Assets {
   Id: 16349471502161833087
   Name: "Electricity Neon Light Humming Buzzing Loop 01 SFX"
   PlatformAssetType: 7
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_electricity_neon_light_humming_buzzing_loop_01_Cue_ref"
+  }
+}
+Assets {
+  Id: 16307885738901788481
+  Name: "Dirt 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "dirt_001"
   }
 }
 Assets {
@@ -347,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 14925834100825639572
+  Name: "Lens"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_lense_001"
   }
 }
 Assets {
@@ -473,6 +482,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_convex_001"
+  }
+}
+Assets {
+  Id: 13372691205743875705
+  Name: "Fern 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_003"
   }
 }
 Assets {
@@ -638,6 +656,24 @@ Assets {
   }
 }
 Assets {
+  Id: 11303134369797735562
+  Name: "Laptop Screen"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_computer_laptop_lid_001"
+  }
+}
+Assets {
+  Id: 11260467055138944908
+  Name: "Pipe Thin 01 - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_thin_lg_001_ref"
+  }
+}
+Assets {
   Id: 11024977997119225113
   Name: "Sci-fi Cockpit Siderail 01"
   PlatformAssetType: 1
@@ -797,6 +833,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_car-paint_advanced_001_uv_ref"
+  }
+}
+Assets {
+  Id: 8698530872141969228
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
   }
 }
 Assets {
@@ -989,6 +1034,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6388401066989036925
+  Name: "Pipe - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_003"
+  }
+}
+Assets {
   Id: 6333982242246389428
   Name: "Urban Damaged Glass Shard  - 02"
   PlatformAssetType: 1
@@ -1043,6 +1097,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5822913166312317804
+  Name: "Moss 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_moss_001_uv"
+  }
+}
+Assets {
   Id: 5794675601844797614
   Name: "Sci-fi Ship Blaster 01"
   PlatformAssetType: 1
@@ -1085,6 +1148,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_opaque_emissive"
+  }
+}
+Assets {
+  Id: 5253811867366632597
+  Name: "Grass Tall"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001"
   }
 }
 Assets {
@@ -1331,6 +1403,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2424595272811825214
+  Name: "Barrier Caution Light 1"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_caution_001"
+  }
+}
+Assets {
   Id: 2247888389600537611
   Name: "Sci-fi Base HVAC 01"
   PlatformAssetType: 1
@@ -1427,6 +1508,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bricks_stone_block_001"
+  }
+}
+Assets {
+  Id: 1465428865088289228
+  Name: "Keyboard"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_computer_keyboard_001"
   }
 }
 Assets {
