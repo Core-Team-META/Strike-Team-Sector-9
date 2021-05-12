@@ -34512,7 +34512,7 @@ Objects {
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 1.37104905
+      Float: 3.43865752
     }
   }
   Collidable_v2 {
