@@ -15,7 +15,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 906925363925354889
+        ChildIds: 11188272762998667054
+        ChildIds: 15530860299004826101
         ChildIds: 11157443991506253429
         ChildIds: 6123048082691145401
         Collidable_v2 {
@@ -29,6 +31,132 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11188272762998667054
+        Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
+        Transform {
+          Location {
+            X: -3.85297
+            Y: 200.66452
+            Z: 749.620667
+          }
+          Rotation {
+            Pitch: -84.999649
+            Yaw: 89.9996796
+          }
+          Scale {
+            X: 3.5
+            Y: 1.5
+            Z: 5
+          }
+        }
+        ParentId: 3791923339792954560
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 16631844235316136491
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12077323529323451140
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12715360250534035700
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 15530860299004826101
+        Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
+        Transform {
+          Location {
+            X: -3.85292649
+            Y: -99.3354645
+            Z: 749.620667
+          }
+          Rotation {
+            Pitch: -84.9996948
+            Yaw: -89.9997635
+          }
+          Scale {
+            X: 3.5
+            Y: 1.5
+            Z: 5
+          }
+        }
+        ParentId: 3791923339792954560
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 16631844235316136491
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 12077323529323451140
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12715360250534035700
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
         }
       }
       Objects {
@@ -140,8 +268,6 @@ Assets {
         ParentId: 6123048082691145401
         ChildIds: 4680972015074484658
         ChildIds: 12951863870107652673
-        ChildIds: 15530860299004826101
-        ChildIds: 11188272762998667054
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -274,133 +400,6 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 16200453037138456273
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 15530860299004826101
-        Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
-        Transform {
-          Location {
-            X: -8.77295
-            Y: 4.47533751
-            Z: 129.450012
-          }
-          Rotation {
-            Pitch: -84.999733
-            Yaw: -89.9997635
-          }
-          Scale {
-            X: 3.5
-            Y: 1.5
-            Z: 5
-          }
-        }
-        ParentId: 5881771991146408555
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 16631844235316136491
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12077323529323451140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12715360250534035700
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 11188272762998667054
-        Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
-        Transform {
-          Location {
-            X: -8.77294922
-            Y: 304.475311
-            Z: 129.450012
-          }
-          Rotation {
-            Pitch: -84.999733
-            Yaw: 89.9997253
-            Roll: 3.91825452e-05
-          }
-          Scale {
-            X: 3.5
-            Y: 1.5
-            Z: 5
-          }
-        }
-        ParentId: 5881771991146408555
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 16631844235316136491
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12077323529323451140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12715360250534035700
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1029,6 +1028,15 @@ Assets {
       }
     }
     Assets {
+      Id: 12715360250534035700
+      Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_veh_urb_car_acc_taillight_001_ref"
+      }
+    }
+    Assets {
       Id: 4881267807900689777
       Name: "Prism - 4-Sided Trapezoid Right"
       PlatformAssetType: 1
@@ -1044,15 +1052,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_ts_scf_base_breakout_004_ref"
-      }
-    }
-    Assets {
-      Id: 12715360250534035700
-      Name: "Urban Vehicle Accessory - Sedan Tail Light 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_veh_urb_car_acc_taillight_001_ref"
       }
     }
     Assets {
