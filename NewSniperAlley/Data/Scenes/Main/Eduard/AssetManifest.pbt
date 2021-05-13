@@ -1358,6 +1358,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1706857372373745734
+  Name: "Metal Floor Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_002_uv"
+  }
+}
+Assets {
   Id: 1385909602603260515
   Name: "Whitebox Wall 01 Triangle"
   PlatformAssetType: 1

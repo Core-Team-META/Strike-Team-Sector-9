@@ -1178,6 +1178,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3570691589230629264
+  Name: "Sci-fi Base Pillar 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_pillar_001_ref"
+  }
+}
+Assets {
   Id: 3377721323622766709
   Name: "Rock Pile 002"
   PlatformAssetType: 1
