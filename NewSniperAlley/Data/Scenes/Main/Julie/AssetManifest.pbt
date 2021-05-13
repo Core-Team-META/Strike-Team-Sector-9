@@ -8,6 +8,33 @@ Assets {
   }
 }
 Assets {
+  Id: 18393437648231545508
+  Name: "Urban Pipe Flange 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_001_ref"
+  }
+}
+Assets {
+  Id: 18345313529173953901
+  Name: "Sci-fi Base Capsule Top 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_top_001_ref"
+  }
+}
+Assets {
+  Id: 18339968451170207572
+  Name: "Metal Painted Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
   Id: 18267532276652392629
   Name: "Urban Cinderblock Debris 04"
   PlatformAssetType: 1
@@ -41,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_concrete_002_ref"
+  }
+}
+Assets {
+  Id: 17912306514263029407
+  Name: "Pyramid - 4-Sided Truncated Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_truncated_hq_001"
   }
 }
 Assets {
@@ -104,6 +140,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_001"
+  }
+}
+Assets {
+  Id: 17391755111850488586
+  Name: "Cube - Chamfered Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -176,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_9B_tray5_Corner"
+  }
+}
+Assets {
+  Id: 16965777294932964901
+  Name: "Cube - Chamfered Large Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -278,12 +332,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15851271444363751188
-  Name: "Whitebox Window Insert - Basic Frame"
+  Id: 15897705887741699672
+  Name: "Urban Pipe Straight"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_winInsert_001_frame"
+    AssetId: "sm_prop_urb_pipes_straight_001_ref"
   }
 }
 Assets {
@@ -422,6 +476,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14212988502358508072
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 14150131608064648431
   Name: "Sci-fi Base - Window 01"
   PlatformAssetType: 1
@@ -455,6 +518,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Boba"
+  }
+}
+Assets {
+  Id: 14032689756719721565
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -554,6 +626,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "grid_blue_001"
+  }
+}
+Assets {
+  Id: 12632251234297570874
+  Name: "Urban Pipe Cap 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
   }
 }
 Assets {
@@ -680,6 +761,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_girder_003_ref"
+  }
+}
+Assets {
+  Id: 11635307566386511296
+  Name: "Pipe - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_003"
   }
 }
 Assets {
@@ -899,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8027963421494365694
+  Name: "Sci-fi Base Capsule 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_acc_cap_whole_001_ref"
+  }
+}
+Assets {
   Id: 7971533233606131662
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   PlatformAssetType: 14
@@ -1034,6 +1133,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6033741828283651487
+  Name: "Sci-fi Base Trim 02 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_002_8m_ref"
+  }
+}
+Assets {
   Id: 5868465374856696904
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -1070,12 +1178,39 @@ Assets {
   }
 }
 Assets {
+  Id: 5717544946372160630
+  Name: "Sci-fi Cockpit Back 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_back_001_ref"
+  }
+}
+Assets {
+  Id: 5607204438265284916
+  Name: "Sci-fi CockPit Control Yoke"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_yoke_001_ref"
+  }
+}
+Assets {
   Id: 5585125180457902235
   Name: "Rubble Bricks 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_rubble_001_uv_ref"
+  }
+}
+Assets {
+  Id: 5381367210591412322
+  Name: "Urban Pipe Elbow 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_elbow_001_ref"
   }
 }
 Assets {
@@ -1187,6 +1322,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3430791387829448742
+  Name: "Sci-fi Chair Armrest 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_chair_001_arms_ref"
+  }
+}
+Assets {
   Id: 3377721323622766709
   Name: "Rock Pile 002"
   PlatformAssetType: 1
@@ -1286,12 +1430,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2379980367253352415
-  Name: "Concrete Bunker"
-  PlatformAssetType: 2
+  Id: 2334758909661228965
+  Name: "Decal Military Symbols 01"
+  PlatformAssetType: 14
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_bunker_001"
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_military_logo_001_ref"
   }
 }
 Assets {
@@ -1331,15 +1475,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1748546920278996658
-  Name: "Tech Panel 05"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_005"
-  }
-}
-Assets {
   Id: 1674406783270633985
   Name: "Sci-fi Barrel 02"
   PlatformAssetType: 1
@@ -1355,6 +1490,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
+  }
+}
+Assets {
+  Id: 1527224994251334627
+  Name: "Urban Pipe Flange 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
   }
 }
 Assets {
@@ -1409,6 +1553,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_mil_rubble_002_ref"
+  }
+}
+Assets {
+  Id: 584748350725171874
+  Name: "Text 01: V"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_021"
   }
 }
 Assets {
