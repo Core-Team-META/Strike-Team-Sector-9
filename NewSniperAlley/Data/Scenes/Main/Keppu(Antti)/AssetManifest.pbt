@@ -314,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16806279030337361658
+  Name: "Urban Mailbox 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_mailbox_001_ref"
+  }
+}
+Assets {
   Id: 16630259605395466384
   Name: "Frosted Glass"
   PlatformAssetType: 2
@@ -338,15 +347,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_pole_ext_002"
-  }
-}
-Assets {
-  Id: 16476204318341513043
-  Name: "Sign Font 1 Neon Outline: +"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_050"
   }
 }
 Assets {
@@ -491,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_4b_tray_straight"
+  }
+}
+Assets {
+  Id: 15950976603585584640
+  Name: "Fire Hydrant"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fire_hydrant_001"
   }
 }
 Assets {
@@ -710,24 +719,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14530549821576425562
-  Name: "Animated Neon Sign- Potion"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Potion"
-  }
-}
-Assets {
-  Id: 14499081038328444281
-  Name: "Decal Letters 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_letters_001"
-  }
-}
-Assets {
   Id: 14292869428683022472
   Name: "Barrier Concrete 01"
   PlatformAssetType: 1
@@ -761,15 +752,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_basic_hologram"
-  }
-}
-Assets {
-  Id: 14172315365702108387
-  Name: "Car Crash Heavy Metal Impact 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_02a_Cue_ref"
   }
 }
 Assets {
@@ -815,24 +797,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
-  }
-}
-Assets {
-  Id: 14041692737859807372
-  Name: "Animated Neon Sign- Boba"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Boba"
-  }
-}
-Assets {
-  Id: 14032689756719721565
-  Name: "Metal Steel Brushed"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -890,21 +854,21 @@ Assets {
   }
 }
 Assets {
+  Id: 13668720775929090807
+  Name: "Traffic Signal 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_traffic_001"
+  }
+}
+Assets {
   Id: 13642204757580273705
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
-  Id: 13564316571812339847
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -944,15 +908,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13362988571131584785
-  Name: "Decal Sci-fi Details 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_scf_details_001_ref"
-  }
-}
-Assets {
   Id: 13323390977081364917
   Name: "Counter - Cabinet Narrow"
   PlatformAssetType: 1
@@ -968,6 +923,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_hull_001_rear_ref"
+  }
+}
+Assets {
+  Id: 13270996889730690600
+  Name: "Street Sign Crossing 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_sign_xing_001"
   }
 }
 Assets {
@@ -1007,12 +971,12 @@ Assets {
   }
 }
 Assets {
-  Id: 13110421772076029559
-  Name: "Fire Volume VFX"
-  PlatformAssetType: 8
+  Id: 13136636915376819201
+  Name: "Craftsman Roof 01 Corner Out"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_fire_volume_vfx"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_001_cornerOut"
   }
 }
 Assets {
@@ -1076,6 +1040,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_test_001"
+  }
+}
+Assets {
+  Id: 12868138083867151982
+  Name: "Street Light Pole Clamp 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_clamp_001"
   }
 }
 Assets {
@@ -1268,15 +1241,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11887549032181544333
-  Name: "Impact Sparks VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_impact_sparks"
-  }
-}
-Assets {
   Id: 11802756401346630999
   Name: "Urban Cinderblock Debris 02"
   PlatformAssetType: 1
@@ -1358,15 +1322,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11353461757709897270
-  Name: "Container - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_ref"
-  }
-}
-Assets {
   Id: 11312051364977333830
   Name: "Hiragana Font 1: \344\270\211 (SAN / 3)"
   PlatformAssetType: 1
@@ -1391,6 +1346,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_thin_lg_001_ref"
+  }
+}
+Assets {
+  Id: 11241146599138551813
+  Name: "Craftsman Roof 01 Eaves Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_roof_eaves_001_corner"
   }
 }
 Assets {
@@ -1610,15 +1574,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10118410057604672200
-  Name: "Mechanical Gears Squeaky 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_mechanical_gears_squeaky_01_Cue_ref"
-  }
-}
-Assets {
   Id: 10106375602517479291
   Name: "Text 04: N"
   PlatformAssetType: 1
@@ -1655,6 +1610,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9988548749024356967
+  Name: "Pyramid - 8-Sided Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pyramid_eighsided_truncated_001"
+  }
+}
+Assets {
   Id: 9980316909404850007
   Name: "Urban Damaged Concrete Chunk 03"
   PlatformAssetType: 1
@@ -1688,15 +1652,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_grass_002_uv"
-  }
-}
-Assets {
-  Id: 9851802736654022465
-  Name: "Sci-fi Console Screen 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_002_ref"
   }
 }
 Assets {
@@ -1907,15 +1862,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8264236312157117638
-  Name: "Pipe - 90-Degree Long"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_curve90_002"
-  }
-}
-Assets {
   Id: 8262065725279388658
   Name: "Metal Frame 01"
   PlatformAssetType: 2
@@ -2123,24 +2069,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7480552155571412389
-  Name: "Metal Diamond Plates 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_002"
-  }
-}
-Assets {
-  Id: 7432621314570877942
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 7372149666124795665
   Name: "Camouflage Net 01"
   PlatformAssetType: 2
@@ -2177,12 +2105,30 @@ Assets {
   }
 }
 Assets {
+  Id: 7191687894898993971
+  Name: "Prism - 8-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
   Id: 7176226758264565402
   Name: "Hiragana Font 1: \343\201\263 (BI)"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "meyiro_block_hiragana_046"
+  }
+}
+Assets {
+  Id: 7141557408734280244
+  Name: "Capsule"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_capsule_001"
   }
 }
 Assets {
@@ -2249,12 +2195,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6789594608035311611
-  Name: "Wedge"
+  Id: 6744169753629394658
+  Name: "Pyramid - 4-Sided Truncated"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
+    AssetId: "sm_pyramid_truncated_001"
   }
 }
 Assets {
@@ -2555,12 +2501,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4923318647713364614
+  Name: "Urban Skylight Glass"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_skylight_glass_001"
+  }
+}
+Assets {
   Id: 4898031677353287770
   Name: "Decal Stains Bottom 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_stain_bottom_001"
+  }
+}
+Assets {
+  Id: 4881267807900689777
+  Name: "Prism - 4-Sided Trapezoid Right"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_trapezoid_001"
   }
 }
 Assets {
@@ -2678,6 +2642,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scifi_screen_001_ref"
+  }
+}
+Assets {
+  Id: 3897801123510710887
+  Name: "Cylinder - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_003"
   }
 }
 Assets {
@@ -2978,6 +2951,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2426365243272789686
+  Name: "Urban Skylight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_skylight_001"
+  }
+}
+Assets {
   Id: 2424595272811825214
   Name: "Barrier Caution Light 1"
   PlatformAssetType: 1
@@ -3095,6 +3077,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1875649979914107750
+  Name: "Office Vending Machine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_03_ref"
+  }
+}
+Assets {
   Id: 1860525514493543587
   Name: "Fantasy Sack Tied"
   PlatformAssetType: 1
@@ -3158,15 +3149,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1537048863130072605
-  Name: "Electric Spark Short 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_electric_spark_short_01_ref"
-  }
-}
-Assets {
   Id: 1500507774993218998
   Name: "Water Jet VFX"
   PlatformAssetType: 8
@@ -3182,15 +3164,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_computer_keyboard_001"
-  }
-}
-Assets {
-  Id: 1419480028385412641
-  Name: "Street Light Pole Base 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_st_post_lights_pole_001_base"
   }
 }
 Assets {
@@ -3221,15 +3194,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1226156609164735191
-  Name: "Cylinder - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
   Id: 1149139527371785605
   Name: "Hiragana Font 1: \343\201\267 (PU)"
   PlatformAssetType: 1
@@ -3254,15 +3218,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_024"
-  }
-}
-Assets {
-  Id: 1085692155132102910
-  Name: "Decal Burnt Streaks 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_burned_streak_002_ref"
   }
 }
 Assets {
@@ -3335,15 +3290,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_painted_metal_basic_001"
-  }
-}
-Assets {
-  Id: 682612052439398241
-  Name: "Pipe - 90-Degree Long Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_curve90_006"
   }
 }
 Assets {
@@ -3434,15 +3380,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corner_smooth_001_ref"
-  }
-}
-Assets {
-  Id: 335575088398859448
-  Name: "Car Crash Heavy Metal Impact 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_01a_Cue_ref"
   }
 }
 Assets {
