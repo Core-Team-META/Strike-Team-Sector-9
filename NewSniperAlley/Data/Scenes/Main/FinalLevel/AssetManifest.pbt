@@ -836,15 +836,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12988223822026641316
-  Name: "Bark Redwood 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_redwood_001_uv"
-  }
-}
-Assets {
   Id: 12977585700991343703
   Name: "Decal Street Litter 01"
   PlatformAssetType: 14
@@ -1040,15 +1031,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_impact_sparks"
-  }
-}
-Assets {
-  Id: 11692130059731908639
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
   }
 }
 Assets {

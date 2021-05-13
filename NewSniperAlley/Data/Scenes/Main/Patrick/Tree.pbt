@@ -2969,7 +2969,7 @@ Objects {
   Name: "Victory Screen"
   Transform {
     Location {
-      X: -2197.30615
+      X: -2955
       Y: -943.403442
       Z: -381.273407
     }

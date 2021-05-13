@@ -66,6 +66,14 @@ Assets {
               Id: 12077323529323451140
             }
           }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.616688251
+              B: 0.960000038
+              A: 1
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -127,6 +135,14 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 12077323529323451140
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.616688251
+              B: 0.960000038
+              A: 1
             }
           }
         }
@@ -195,9 +211,8 @@ Assets {
         Light {
           Intensity: 100
           Color {
-            R: 1
-            G: 0.445960283
-            B: 0.110000014
+            G: 0.616688251
+            B: 0.960000038
             A: 1
           }
           VolumetricIntensity: 5
@@ -437,9 +452,6 @@ Assets {
         ChildIds: 12356357443006551616
         ChildIds: 13788654966502109494
         ChildIds: 7549438437120290840
-        ChildIds: 15114071269867391486
-        ChildIds: 1331876742778479393
-        ChildIds: 6845800787078754592
         ChildIds: 14485615086333075309
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -813,162 +825,6 @@ Assets {
             Physics {
               Mass: 100
               LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 15114071269867391486
-        Name: "Street Light Pole Clamp 01"
-        Transform {
-          Location {
-            X: 0.0211795568
-            Y: -1.6545409
-            Z: 390.014252
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 0.279463351
-            Y: 0.279463351
-            Z: 0.101231359
-          }
-        }
-        ParentId: 10096967506287139036
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12077323529323451140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 8930532401678162557
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 1331876742778479393
-        Name: "Street Light Pole Clamp 01"
-        Transform {
-          Location {
-            X: 0.0211795568
-            Y: -1.6545409
-            Z: 168.445755
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 0.279463351
-            Y: 0.279463351
-            Z: 0.101231359
-          }
-        }
-        ParentId: 10096967506287139036
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12077323529323451140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 8930532401678162557
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
-        }
-      }
-      Objects {
-        Id: 6845800787078754592
-        Name: "Street Light Pole Clamp 01"
-        Transform {
-          Location {
-            X: 0.0212366786
-            Y: -1.65453792
-            Z: 90.1263123
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 0.931622088
-            Y: 0.931622088
-            Z: 2.55868
-          }
-        }
-        ParentId: 10096967506287139036
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 12077323529323451140
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9988548749024356967
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
             }
             BoundsScale: 1
           }

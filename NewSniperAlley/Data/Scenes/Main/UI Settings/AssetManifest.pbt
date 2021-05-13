@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15649200016799841916
-  Name: "Bricks Wall Flat 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_wall_flat_001"
-  }
-}
-Assets {
   Id: 15266094661921614944
   Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
@@ -35,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14198415401224027527
-  Name: "Basic Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_basic_hologram"
-  }
-}
-Assets {
   Id: 12306622679456331034
   Name: "Concrete Sidewalk"
   PlatformAssetType: 2
@@ -53,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11541705719099405078
-  Name: "Fabric Burlap New 01"
+  Id: 10260597922063654733
+  Name: "Ceramic Terracotta Pots 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_fabric_burlap_002_uv"
+    AssetId: "mi_fan_terracotta_pots_001_uv"
   }
 }
 Assets {
