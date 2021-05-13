@@ -1421,6 +1421,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2448199706361737950
+  Name: "Sign Neon Arrow Outline: Long Pointed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_041"
+  }
+}
+Assets {
   Id: 2442930441714228913
   Name: "Sci-fi Base Girder 6m 01"
   PlatformAssetType: 1

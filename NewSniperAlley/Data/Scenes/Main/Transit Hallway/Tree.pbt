@@ -1,6 +1,308 @@
 Name: "Transit Hallway"
 RootId: 8615612276222760985
 Objects {
+  Id: 4350038305542163192
+  Name: "Decal Military Symbols 01"
+  Transform {
+    Location {
+      X: 2195.00049
+      Y: -170.413223
+      Z: 469.766357
+    }
+    Rotation {
+      Pitch: 1.23952222
+      Yaw: 89.9999924
+      Roll: 89.9999924
+    }
+    Scale {
+      X: 2.53934407
+      Y: 0.552699506
+      Z: 0.552694559
+    }
+  }
+  ParentId: 8615612276222760985
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 13
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.789999962
+        G: 0.392384112
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2334758909661228965
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 11729827915580993028
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 1867.40955
+      Y: -3004.5564
+      Z: 283.913757
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.719811678
+      Y: 0.719811678
+      Z: -0.0306706
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11534260051317427993
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 5757517659670267762
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 2628.45557
+      Y: 580.021606
+      Z: 285
+    }
+    Rotation {
+      Yaw: 119.844894
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.042209506
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11534260051317427993
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 18252072727674366378
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 3212.45313
+      Y: 580.021606
+      Z: 285
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.042209506
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11534260051317427993
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 261654370478163740
+  Name: "Decal Stains Round 01"
+  Transform {
+    Location {
+      X: 1884.84839
+      Y: -287.284973
+      Z: 285.000031
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: -0.0456347391
+    }
+  }
+  ParentId: 8615612276222760985
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11534260051317427993
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 12601824283046565844
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 2135.19165
+      Y: -1325.66748
+      Z: 287.713959
+    }
+    Rotation {
+      Pitch: -1.89630127
+      Yaw: -85.7264404
+      Roll: 11.9300785
+    }
+    Scale {
+      X: -2.11928773
+      Y: 0.373571038
+      Z: 1.75181139
+    }
+  }
+  ParentId: 8615612276222760985
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2.77374291
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.944648445
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.841059566
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 909026867521230864
   Name: "ST2_Cement_Bench "
   Transform {
@@ -9011,12 +9313,12 @@ Objects {
   Name: "ST2_PalletJack"
   Transform {
     Location {
-      X: 2093.16113
-      Y: -1243.57495
+      X: 2059.15259
+      Y: -1861.69019
       Z: 286.27533
     }
     Rotation {
-      Yaw: 102.762505
+      Yaw: 85.5584793
     }
     Scale {
       X: 1.54244292
@@ -12726,14 +13028,14 @@ Objects {
   Name: "Corrugated Sheet Medium"
   Transform {
     Location {
-      X: 2158.64697
+      X: 2135.19165
       Y: -1467.45667
       Z: 287.713959
     }
     Rotation {
-      Pitch: -1.54168284
-      Yaw: -85.5864868
-      Roll: 7.26142454
+      Pitch: -1.89630127
+      Yaw: -85.7265
+      Roll: 11.9300508
     }
     Scale {
       X: 1.6697998
@@ -12745,7 +13047,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:utile"
-      Float: 2.77374291
+      Float: 6.01571417
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:vtile"
@@ -12782,66 +13084,18 @@ Objects {
   }
 }
 Objects {
-  Id: 10904284936008960379
-  Name: "Shipping Pallet - Rectangular"
-  Transform {
-    Location {
-      X: 1870.47852
-      Y: -1369.79102
-      Z: 337.244049
-    }
-    Rotation {
-      Yaw: 15.0826912
-    }
-    Scale {
-      X: 0.273480594
-      Y: 0.375849247
-      Z: 0.738271773
-    }
-  }
-  ParentId: 8615612276222760985
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11642748949632175552
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 3041916855787681511
   Name: "Shipping Pallet - Rectangular"
   Transform {
     Location {
-      X: 1889.4137
-      Y: -1369.79102
-      Z: 302.216156
+      X: 2112.79077
+      Y: -646.970215
+      Z: 287.806549
     }
     Rotation {
-      Yaw: 4.44007826
+      Pitch: -0.683837891
+      Yaw: 88.2922821
+      Roll: 78.1433487
     }
     Scale {
       X: 0.273480594
@@ -12872,6 +13126,7 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
+    DisableReceiveDecals: true
     StaticMesh {
       Physics {
         Mass: 100

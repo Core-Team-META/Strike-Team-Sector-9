@@ -377,6 +377,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2334758909661228965
+  Name: "Decal Military Symbols 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_military_logo_001_ref"
+  }
+}
+Assets {
   Id: 1860525514493543587
   Name: "Fantasy Sack Tied"
   PlatformAssetType: 1
