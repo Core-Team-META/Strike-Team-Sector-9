@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17828004970017454132
-  Name: "Text 01: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_024"
-  }
-}
-Assets {
   Id: 17775019098342521252
   Name: "Main Street Wall 02"
   PlatformAssetType: 1
@@ -221,15 +212,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_scifi_object_lowscanpulse_loop_01_Cue_ref"
-  }
-}
-Assets {
-  Id: 16701471895469829501
-  Name: "Text 01: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_000"
   }
 }
 Assets {
@@ -386,15 +368,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15659294955587728976
-  Name: "Text 04: T"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_019"
-  }
-}
-Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
@@ -446,15 +419,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_sign_002"
-  }
-}
-Assets {
-  Id: 15232603397834190844
-  Name: "Text 04: C"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_002"
   }
 }
 Assets {
@@ -656,48 +620,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14010943251033244363
-  Name: "Cylinder - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
-  Id: 13877856592080960583
-  Name: "Urban Water Tower Base"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_watertower_base_002"
-  }
-}
-Assets {
   Id: 13751408475123645462
   Name: "Main Street Floor 01 - 8m x 8m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_floor_001_8x8_ref"
-  }
-}
-Assets {
-  Id: 13583156742950437506
-  Name: "Text 01: B"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_001"
-  }
-}
-Assets {
-  Id: 13510797511506354084
-  Name: "Text 04: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_000"
   }
 }
 Assets {
@@ -782,15 +710,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13110421772076029559
-  Name: "Fire Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_fire_volume_vfx"
-  }
-}
-Assets {
   Id: 13103517599490266136
   Name: "Stone Railing Curved 6m"
   PlatformAssetType: 1
@@ -827,15 +746,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13054793214920919028
-  Name: "Text 01: S"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_018"
-  }
-}
-Assets {
   Id: 12977585700991343703
   Name: "Decal Street Litter 01"
   PlatformAssetType: 14
@@ -851,15 +761,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_rooftop_fan_002"
-  }
-}
-Assets {
-  Id: 12783865392164197828
-  Name: "Text 04: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_011"
   }
 }
 Assets {
@@ -896,15 +797,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
-  }
-}
-Assets {
-  Id: 12619559196295511488
-  Name: "Metal 9 Slice Frame 002"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_002"
   }
 }
 Assets {
@@ -950,15 +842,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
-  }
-}
-Assets {
-  Id: 12444572401020615185
-  Name: "Text 01: N"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_013"
   }
 }
 Assets {
@@ -1022,15 +905,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_medium_4m_1-5m_001"
-  }
-}
-Assets {
-  Id: 11887549032181544333
-  Name: "Impact Sparks VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_impact_sparks"
   }
 }
 Assets {
@@ -1178,15 +1052,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10988321735701093802
-  Name: "Text 04: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_014"
-  }
-}
-Assets {
   Id: 10975066442102718841
   Name: "Barrier Caution Light 2"
   PlatformAssetType: 1
@@ -1283,24 +1148,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_meter_parking_post_001_ref"
-  }
-}
-Assets {
-  Id: 10106375602517479291
-  Name: "Text 04: N"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_013"
-  }
-}
-Assets {
-  Id: 10084579082453840554
-  Name: "Text 04: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_012"
   }
 }
 Assets {
@@ -1448,15 +1295,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8987660903937091019
-  Name: "Frame Medium Straight - Neon"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon2_Straight"
-  }
-}
-Assets {
   Id: 8976318233260387419
   Name: "Car Paint Advanced 01"
   PlatformAssetType: 2
@@ -1511,39 +1349,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8448622295464365122
-  Name: "Frame Medium Outside Corner - Neon"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_OutsideCorner"
-  }
-}
-Assets {
-  Id: 8266239062619785653
-  Name: "Text 04: V"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_021"
-  }
-}
-Assets {
   Id: 8243311917055672270
   Name: "Curb 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_4m_001"
-  }
-}
-Assets {
-  Id: 8158438355727892145
-  Name: "Trash Can - Urban 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trash_public_001"
   }
 }
 Assets {
@@ -1607,15 +1418,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_st_post_lights_pole_002"
-  }
-}
-Assets {
-  Id: 7766997663479197753
-  Name: "Text 01: L"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_011"
   }
 }
 Assets {
@@ -2051,15 +1853,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4837075670809400986
-  Name: "Frame Large Straight - Neon"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_Straight"
-  }
-}
-Assets {
   Id: 4811718779179670830
   Name: "Craftsman Part - Inside Upper Trim 01"
   PlatformAssetType: 1
@@ -2231,15 +2024,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2965407751154133105
-  Name: "Text 01: W"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F1_Text_022"
-  }
-}
-Assets {
   Id: 2899842837741361229
   Name: "Concrete Tiles 01"
   PlatformAssetType: 2
@@ -2285,15 +2069,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2611548225149256512
-  Name: "Frame Medium Straight - Neon 1 Sided Ending"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon2_Ender_1s"
-  }
-}
-Assets {
   Id: 2551749691384029320
   Name: "Modern Damaged Stairs Railing 01 - Straight 03"
   PlatformAssetType: 1
@@ -2318,15 +2093,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_curb_8m_001"
-  }
-}
-Assets {
-  Id: 2426365243272789686
-  Name: "Urban Skylight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_skylight_001"
   }
 }
 Assets {
@@ -2483,15 +2249,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1537048863130072605
-  Name: "Electric Spark Short 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_electric_spark_short_01_ref"
-  }
-}
-Assets {
   Id: 1408146242668923075
   Name: "Wallpaper Imperial Trellis 01"
   PlatformAssetType: 2
@@ -2516,33 +2273,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cabinet_topper_corner_001"
-  }
-}
-Assets {
-  Id: 1161497408010170015
-  Name: "Sign Font 1 Neon Outline: @"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_038"
-  }
-}
-Assets {
-  Id: 1115657846336343337
-  Name: "Text 04: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_024"
-  }
-}
-Assets {
-  Id: 962531297881391870
-  Name: "Text 04: E"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "F7_Text_004"
   }
 }
 Assets {
