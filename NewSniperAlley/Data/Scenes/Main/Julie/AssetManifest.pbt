@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17608036586245849503
+  Name: "Tech Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_001"
+  }
+}
+Assets {
   Id: 17548833617676089709
   Name: "Decal Graffiti Murals 02 (Variants)"
   PlatformAssetType: 14
@@ -224,12 +233,30 @@ Assets {
   }
 }
 Assets {
+  Id: 16997933143121942585
+  Name: "Metal Abstract Tech Panel 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_abstract_tech_panel_003_uv"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_002"
+  }
+}
+Assets {
+  Id: 16959665425430576486
+  Name: "Metal Grates 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_004_uv"
   }
 }
 Assets {
@@ -728,6 +755,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11983015921011477172
+  Name: "Sign Neon Arrow Outline: Single Line Basic Pointed"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "NeonArrows_01_Text_004"
+  }
+}
+Assets {
   Id: 11962195740089165680
   Name: "Girder Medium 4m"
   PlatformAssetType: 1
@@ -770,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_003"
+  }
+}
+Assets {
+  Id: 11534260051317427993
+  Name: "Decal Stains Round 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_round_001"
   }
 }
 Assets {
@@ -1241,6 +1286,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4898031677353287770
+  Name: "Decal Stains Bottom 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_stain_bottom_001"
+  }
+}
+Assets {
   Id: 4728953692936333655
   Name: "Decal Street Litter 02"
   PlatformAssetType: 14
@@ -1274,6 +1328,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_wall_003_uv_ref"
+  }
+}
+Assets {
+  Id: 4296357288588367821
+  Name: "Girder Small 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_girder_19th_century_4m_001"
   }
 }
 Assets {
@@ -1421,15 +1484,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2448199706361737950
-  Name: "Sign Neon Arrow Outline: Long Pointed"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "NeonArrows_01_Text_041"
-  }
-}
-Assets {
   Id: 2442930441714228913
   Name: "Sci-fi Base Girder 6m 01"
   PlatformAssetType: 1
@@ -1508,6 +1562,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_flange_002_ref"
+  }
+}
+Assets {
+  Id: 1497291486067537307
+  Name: "Glitchy Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_hologram"
   }
 }
 Assets {

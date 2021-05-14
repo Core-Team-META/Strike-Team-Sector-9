@@ -77,13 +77,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Julie"
   }
-  InstanceHistory {
-    SelfId: 6324845266199599566
-    SubobjectId: 14793182354525175001
-    InstanceId: 2031093846507367867
-    TemplateId: 9727070579395977841
-    WasRoot: true
-  }
 }
 Objects {
   Id: 10540743459009823668
