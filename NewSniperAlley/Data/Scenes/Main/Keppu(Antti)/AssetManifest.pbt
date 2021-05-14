@@ -548,15 +548,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15413475261054210225
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
   Id: 15350786019694843238
   Name: "Cabinet Door"
   PlatformAssetType: 1
@@ -1067,15 +1058,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_001_ref"
-  }
-}
-Assets {
-  Id: 12905923173550510229
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
   }
 }
 Assets {
@@ -2453,6 +2435,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
+  Id: 5513392585238593830
+  Name: "Modern Damaged Stairs Railing 01 - Straight 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_railing_straight_001_damaged_01_ref"
   }
 }
 Assets {
