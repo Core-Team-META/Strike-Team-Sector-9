@@ -15,7 +15,7 @@ Assets {
             Z: 2.36917901
           }
         }
-        ParentId: 736355340197827864
+        ParentId: 906925363925354889
         ChildIds: 4236548737939611356
         ChildIds: 7816577497454921573
         ChildIds: 5872921476107547700
@@ -43,14 +43,14 @@ Assets {
           Location {
             X: -0.0305023901
             Y: 2.22322249
-            Z: 294.129
+            Z: 335.819366
           }
           Rotation {
           }
           Scale {
-            X: 0.446107417
-            Y: 1.02887404
-            Z: 6.48565292
+            X: 0.150312752
+            Y: 0.217930466
+            Z: 7.07481146
           }
         }
         ParentId: 17745747361458935639
@@ -87,7 +87,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:forceoff"
@@ -386,7 +386,7 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -451,7 +451,7 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1359,7 +1359,7 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1506,7 +1506,7 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"

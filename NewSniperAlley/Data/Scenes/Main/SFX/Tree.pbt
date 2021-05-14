@@ -5,6 +5,8 @@ Objects {
   Name: "Metal Cart Rolling Rattle Loop 02 SFX"
   Transform {
     Location {
+      Y: 293.332916
+      Z: 6.66666603
     }
     Rotation {
     }
@@ -29,7 +31,7 @@ Objects {
       Id: 10151018847596256645
     }
     AutoPlay: true
-    Volume: 1
+    Volume: 3.76792789
     Falloff: -1
     Radius: -1
     EnableOcclusion: true
