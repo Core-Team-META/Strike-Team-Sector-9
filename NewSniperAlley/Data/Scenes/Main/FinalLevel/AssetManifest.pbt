@@ -125,6 +125,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17331405778350051027
+  Name: "Industrial Room Tone Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_industrial_room_tone_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 17303180997739090003
   Name: "Text 01: T"
   PlatformAssetType: 1
@@ -242,6 +251,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 16313303550199064158
   Name: "Modern Stairs Post 01"
   PlatformAssetType: 1
@@ -311,6 +329,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_chamfer"
+  }
+}
+Assets {
+  Id: 16077824162186241922
+  Name: "Sci-fi Panel 2x3m Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_2x3m_triangle_001"
   }
 }
 Assets {
@@ -599,6 +626,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_floor_001_8x8_ref"
+  }
+}
+Assets {
+  Id: 13642204757580273705
+  Name: "Cube - Chamfered Small Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_003"
   }
 }
 Assets {
@@ -1052,6 +1088,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10752071864741613435
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 10549684399192797779
   Name: "Decal Stains Top 01"
   PlatformAssetType: 14
@@ -1304,6 +1349,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8262065725279388658
+  Name: "Metal Frame 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_001_uv"
+  }
+}
+Assets {
   Id: 8243311917055672270
   Name: "Curb 4m"
   PlatformAssetType: 1
@@ -1454,6 +1508,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_020"
+  }
+}
+Assets {
+  Id: 7203871647989153645
+  Name: "Metal Diamond Plates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_rust_diamond-plate_001"
   }
 }
 Assets {
@@ -1628,12 +1691,30 @@ Assets {
   }
 }
 Assets {
+  Id: 6388401066989036925
+  Name: "Pipe - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_003"
+  }
+}
+Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_panels_002"
+  }
+}
+Assets {
+  Id: 6280154984963467322
+  Name: "Ring - Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_torus_001"
   }
 }
 Assets {
@@ -1754,6 +1835,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5635417991178029864
+  Name: "Rubber Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
   Id: 5549379117761037396
   Name: "Concrete Basic 01"
   PlatformAssetType: 2
@@ -1862,12 +1952,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4794041361382728409
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
   Id: 4728953692936333655
   Name: "Decal Street Litter 02"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_002_ref"
+  }
+}
+Assets {
+  Id: 4679924433031865767
+  Name: "Metal Frame 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {
@@ -1925,6 +2033,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3564147007220152735
+  Name: "Cylinder - 2-Toned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_003"
+  }
+}
+Assets {
   Id: 3561802186483994182
   Name: "Sci-fi Base Floor Trim 01 - 4m"
   PlatformAssetType: 1
@@ -1949,6 +2066,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
+  }
+}
+Assets {
+  Id: 3369583370173701670
+  Name: "Ceramic Terracotta Pots Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_fan_terracotta_pots_002_uv"
   }
 }
 Assets {
@@ -2390,6 +2516,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_concrete_001"
+  }
+}
+Assets {
+  Id: 132672053610873933
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {

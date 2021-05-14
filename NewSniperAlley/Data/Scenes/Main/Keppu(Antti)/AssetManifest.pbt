@@ -1178,6 +1178,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12684181422670302428
+  Name: "Modern Stairs Stringer 01 - Straight Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mod_stairs_stringer_straight_corner_001_ref"
+  }
+}
+Assets {
   Id: 12632251234297570874
   Name: "Urban Pipe Cap 03"
   PlatformAssetType: 1
