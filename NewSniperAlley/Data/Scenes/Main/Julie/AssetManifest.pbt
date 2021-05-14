@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17912306514263029407
-  Name: "Pyramid - 4-Sided Truncated Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pyramid_truncated_hq_001"
-  }
-}
-Assets {
   Id: 17740897917985438767
   Name: "Decal Hazard Symbols 01"
   PlatformAssetType: 14
@@ -104,15 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
-  }
-}
-Assets {
-  Id: 17608036586245849503
-  Name: "Tech Panel 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_001"
   }
 }
 Assets {
@@ -149,15 +131,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_graffiti_mural_001"
-  }
-}
-Assets {
-  Id: 17391755111850488586
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -221,33 +194,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_cardboard_box_damaged_001_lid_01_ref"
-  }
-}
-Assets {
-  Id: 17060093491718284345
-  Name: "Frame Large Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_9B_tray5_Corner"
-  }
-}
-Assets {
-  Id: 16997933143121942585
-  Name: "Metal Abstract Tech Panel 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_abstract_tech_panel_003_uv"
-  }
-}
-Assets {
-  Id: 16965777294932964901
-  Name: "Cube - Chamfered Large Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -377,15 +323,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15484605620023334162
-  Name: "Wedge - Corner Complex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_corelogo_shape_001"
-  }
-}
-Assets {
   Id: 15385195988779076100
   Name: "Cylinder - Rounded Small"
   PlatformAssetType: 1
@@ -449,24 +386,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14474180358060273267
-  Name: "Trim - Straight - 08m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_straight_8m_ref"
-  }
-}
-Assets {
-  Id: 14465453916988569854
-  Name: "Front Desk"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_desk_front_001"
-  }
-}
-Assets {
   Id: 14350082106632942891
   Name: "Decal Rubble Bricks 01"
   PlatformAssetType: 14
@@ -482,15 +401,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
-  }
-}
-Assets {
-  Id: 14278021748334546251
-  Name: "Frame Large Straight - Neon Double"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_Neon3_Straight_Double"
   }
 }
 Assets {
@@ -584,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13103517599490266136
-  Name: "Stone Railing Curved 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_railing_6m_bend_001"
-  }
-}
-Assets {
   Id: 13091512434361803159
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -644,15 +545,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_torus_004"
-  }
-}
-Assets {
-  Id: 12674703637300698321
-  Name: "Grid Basic"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "grid_blue_001"
   }
 }
 Assets {
@@ -710,24 +602,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12329912718303648187
-  Name: "Stone Railing 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_railing_6m_001"
-  }
-}
-Assets {
-  Id: 12306622679456331034
-  Name: "Concrete Sidewalk"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_sidewalk_001"
-  }
-}
-Assets {
   Id: 12224751833610640005
   Name: "Rubber Tiles 01"
   PlatformAssetType: 2
@@ -761,15 +635,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonArrows_01_Text_004"
-  }
-}
-Assets {
-  Id: 11962195740089165680
-  Name: "Girder Medium 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_girder_medium_4m_1-5m_001"
   }
 }
 Assets {
@@ -872,15 +737,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10244512211031728539
-  Name: "Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
-  }
-}
-Assets {
   Id: 10128884331981734128
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -917,30 +773,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9757895685135231834
-  Name: "Clear Coat Reflector Triangle 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_reflector_tri_002"
-  }
-}
-Assets {
   Id: 9749557133567525528
   Name: "Bottle 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_bottle_001"
-  }
-}
-Assets {
-  Id: 9649146038661330211
-  Name: "Office Cubicle Cabinet 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_off_cubicle_cabinet_003_ref"
   }
 }
 Assets {
@@ -977,15 +815,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_car-paint_advanced_001_uv_ref"
-  }
-}
-Assets {
-  Id: 8547555202929038780
-  Name: "Trim - Curve 90\302\260 - 16m Radius"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_curve90_16m_ref"
   }
 }
 Assets {
@@ -1115,15 +944,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7046531213084076619
-  Name: "Metal Complex Tech Panel Wall 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_complex_tech_panel_002_uv"
-  }
-}
-Assets {
   Id: 6865249745567109080
   Name: "Corrugated Sheet Bent"
   PlatformAssetType: 1
@@ -1166,15 +986,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dmg_glass_shard_003_ref"
-  }
-}
-Assets {
-  Id: 6317093348408192352
-  Name: "Concrete Panels 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_panels_002"
   }
 }
 Assets {
@@ -1274,15 +1085,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_opaque_emissive"
-  }
-}
-Assets {
-  Id: 5186266192997647835
-  Name: "Frame Extra Large Straight"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tray_XtraLong"
   }
 }
 Assets {
@@ -1574,15 +1376,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1497291486067537307
-  Name: "Glitchy Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_hologram"
-  }
-}
-Assets {
   Id: 1358348230990081292
   Name: "Sci-fi Door Security Panel 01"
   PlatformAssetType: 1
@@ -1607,24 +1400,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_brick_05_ref"
-  }
-}
-Assets {
-  Id: 829612294998153104
-  Name: "Frame Small Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_2B_tray_Corner"
-  }
-}
-Assets {
-  Id: 697347799158381382
-  Name: "Modern Weapon - Slide 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_slide_001"
   }
 }
 Assets {
