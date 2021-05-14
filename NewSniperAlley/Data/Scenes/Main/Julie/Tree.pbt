@@ -83,8 +83,6 @@ Objects {
   ChildIds: 6705866763919510444
   ChildIds: 1236571254670992673
   ChildIds: 14519565563908303627
-  ChildIds: 5969833104226170264
-  ChildIds: 5233750972060432698
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,114 +97,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 5233750972060432698
-  Name: "ST2_FuelPipes"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8658487575193413499
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1008297245073670457
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_FuelPipes"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -132.749634
-            Y: -1751.90967
-            Z: 63.8032837
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11636173438861703136
-    }
-  }
-}
-Objects {
-  Id: 5969833104226170264
-  Name: "ST2_Pipe"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8658487575193413499
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14598034948206288434
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Pipe"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -355.265869
-            Y: -1675.99023
-            Z: 110.620972
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -90
-            Roll: -90
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.56299543
-            Y: 1.56299543
-            Z: 1.56299543
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7186768875865997581
-    }
   }
 }
 Objects {

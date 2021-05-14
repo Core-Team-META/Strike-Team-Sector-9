@@ -171214,7 +171214,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
@@ -171226,9 +171226,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:color"
       Color {
-        R: 0.15625
-        G: 0.15625
-        B: 0.15625
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
         A: 1
       }
     }
@@ -171296,7 +171296,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -171414,7 +171423,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171532,7 +171550,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171590,7 +171617,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171649,7 +171685,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171708,7 +171753,7 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
@@ -171723,9 +171768,9 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:color"
       Color {
-        R: 0.15625
-        G: 0.15625
-        B: 0.15625
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
         A: 1
       }
     }
@@ -171785,7 +171830,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171844,7 +171898,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.338541657
+        G: 0.338541657
+        B: 0.338541657
+        A: 1
       }
     }
   }
@@ -171949,13 +172012,22 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172008,13 +172080,22 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172067,13 +172148,22 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172126,13 +172216,22 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172185,13 +172284,22 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
       }
     }
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172250,7 +172358,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -172309,7 +172426,16 @@ Objects {
     Overrides {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
-        Id: 14032689756719721565
+        Id: 16933444342207655932
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -173023,6 +173149,21 @@ Objects {
         Id: 195773709446274697
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -173076,6 +173217,21 @@ Objects {
       Name: "ma:Building_Floor:id"
       AssetReference {
         Id: 195773709446274697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -173132,6 +173288,21 @@ Objects {
         Id: 195773709446274697
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -173184,6 +173355,21 @@ Objects {
       Name: "ma:Building_Floor:id"
       AssetReference {
         Id: 195773709446274697
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.651041687
+        G: 0.651041687
+        B: 0.651041687
+        A: 1
       }
     }
   }
@@ -173274,6 +173460,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -173322,6 +173525,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -173370,6 +173590,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -173418,6 +173655,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -173466,6 +173720,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -173514,6 +173785,23 @@ Objects {
     }
   }
   ParentId: 14186164797269828990
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 5763416940929781403
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:color"
+      Color {
+        R: 0.385417
+        G: 0.385417
+        B: 0.385417
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -174138,6 +174426,27 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -174194,6 +174503,27 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -174246,6 +174576,27 @@ Objects {
         R: 0.777
         G: 0.777
         B: 0.777
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
         A: 1
       }
     }
@@ -180565,6 +180916,27 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Ceiling:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -181615,7 +181987,22 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
@@ -183493,7 +183880,22 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
@@ -183555,7 +183957,22 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
@@ -183617,7 +184034,22 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
@@ -183679,6 +184111,21 @@ Objects {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
         Id: 12224751833610640005
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
@@ -186395,7 +186842,22 @@ Objects {
     Overrides {
       Name: "ma:Building_Ceiling:id"
       AssetReference {
-        Id: 12224751833610640005
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:id"
+      AssetReference {
+        Id: 1706857372373745734
+      }
+    }
+    Overrides {
+      Name: "ma:Building_Floor:color"
+      Color {
+        R: 0.0731253102
+        G: 0.0738288
+        B: 0.078
+        A: 1
       }
     }
   }
