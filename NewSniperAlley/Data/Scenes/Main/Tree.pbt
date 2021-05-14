@@ -36,6 +36,7 @@ Objects {
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
   ChildIds: 6324845266199599566
+  ChildIds: 8121514920823004263
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -48,6 +49,51 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8121514920823004263
+  Name: "Railing Custom Collision"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16203938951205053048
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Railing Custom Collision"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6965
+            Y: -2510
+            Z: 1070
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12989944269180939262
+    }
   }
 }
 Objects {
