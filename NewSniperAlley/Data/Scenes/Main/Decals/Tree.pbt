@@ -7,7 +7,7 @@ Objects {
     Location {
       X: -6010.76
       Y: 430.580933
-      Z: -539.362122
+      Z: -530
     }
     Rotation {
       Yaw: -45
@@ -494,7 +494,7 @@ Objects {
     Location {
       X: -290
       Y: 1369.64038
-      Z: -298.262054
+      Z: -285.000031
     }
     Rotation {
       Yaw: -45
@@ -556,7 +556,7 @@ Objects {
     Location {
       X: -2096.67261
       Y: 1595
-      Z: -254.934464
+      Z: -265
     }
     Rotation {
       Yaw: -45
@@ -618,7 +618,7 @@ Objects {
     Location {
       X: -5145
       Y: 830
-      Z: -256.142578
+      Z: -290
     }
     Rotation {
     }
@@ -734,75 +734,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6184899252559022143
-  Name: "Liquid Decal Wet Road Water Puddle"
-  Transform {
-    Location {
-      X: -613.169067
-      Y: 1335.21814
-      Z: -285.746094
-    }
-    Rotation {
-      Yaw: -45
-    }
-    Scale {
-      X: 1.11479819
-      Y: 1.11479819
-      Z: 0.496474892
-    }
-  }
-  ParentId: 788990605066909357
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:eliquiddecaltype:1"
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 5
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 4
-        G: 4
-        B: 4
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 11445222157905148236
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
   Id: 7259375413632411372
   Name: "Liquid Decal Wet Road Water Puddle"
   Transform {
     Location {
       X: -1693.70557
       Y: 1955
-      Z: -254.934479
+      Z: -280
     }
     Rotation {
       Yaw: -5
