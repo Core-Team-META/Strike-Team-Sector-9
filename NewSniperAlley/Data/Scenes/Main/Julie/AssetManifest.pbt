@@ -989,6 +989,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8539981025625262831
+  Name: "Decal Painted Lines 01"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_lines_001"
+  }
+}
+Assets {
   Id: 8483451495408102647
   Name: "HVAC Unit"
   PlatformAssetType: 1
