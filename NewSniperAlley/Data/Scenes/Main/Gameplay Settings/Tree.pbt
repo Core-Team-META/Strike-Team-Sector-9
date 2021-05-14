@@ -613,7 +613,6 @@ Objects {
   ChildIds: 17310065642888545290
   ChildIds: 9675536684687847939
   ChildIds: 14556105905762274464
-  ChildIds: 7771194832936262350
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -625,39 +624,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 7771194832936262350
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -10865
-      Y: 3645
-      Z: -10
-    }
-    Rotation {
-      Yaw: 55.4292221
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11613372419568643009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-    PlayerScaleMultiplier: 1
   }
 }
 Objects {

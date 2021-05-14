@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17656495108824350163
+  Name: "Corrugated Sheet Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_corrugated_sheet_04_ref"
+  }
+}
+Assets {
   Id: 17501882913104705053
   Name: "Curb 2m"
   PlatformAssetType: 1
@@ -158,15 +167,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "meyiro_block_hiragana_025"
-  }
-}
-Assets {
-  Id: 16869814041125097620
-  Name: "Urban Rooftop Fan 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_rooftop_fan_001"
   }
 }
 Assets {
@@ -782,15 +782,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12619559196295511488
-  Name: "Metal 9 Slice Frame 002"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_002"
-  }
-}
-Assets {
   Id: 12598129352734110789
   Name: "Corrugated Sheet Large"
   PlatformAssetType: 1
@@ -998,30 +989,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11121990662013850694
-  Name: "Hesco Grid 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_hescoe_grid_001_uv_ref"
-  }
-}
-Assets {
   Id: 11101756980272266861
   Name: "Animated Neon Sign - Hand"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_NeonSign_Thumbs"
-  }
-}
-Assets {
-  Id: 11085376824642961392
-  Name: "Urban Vehicle Car - Light Roof 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_veh_urb_car_acc_light_exterior_003_ref"
   }
 }
 Assets {
@@ -1040,6 +1013,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_hollow_004"
+  }
+}
+Assets {
+  Id: 11001788240134690440
+  Name: "Military Epic Crate Lid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_lid_003_ref"
   }
 }
 Assets {
@@ -1412,6 +1394,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7702486053253128313
+  Name: "Military Epic Crate Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_003_ref"
+  }
+}
+Assets {
   Id: 7531323142721961800
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
@@ -1472,6 +1463,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_sidewalk-corner_001"
+  }
+}
+Assets {
+  Id: 7161670475529641425
+  Name: "Text 01: X"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_023"
   }
 }
 Assets {
@@ -1826,6 +1826,24 @@ Assets {
   }
 }
 Assets {
+  Id: 4937555997507243807
+  Name: "Barrier Triangle Base"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_base_001"
+  }
+}
+Assets {
+  Id: 4916037612258779559
+  Name: "Modern Weapon - Body 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_body_003"
+  }
+}
+Assets {
   Id: 4898031677353287770
   Name: "Decal Stains Bottom 01"
   PlatformAssetType: 14
@@ -1931,15 +1949,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
-  }
-}
-Assets {
-  Id: 3369583370173701670
-  Name: "Ceramic Terracotta Pots Old 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_terracotta_pots_002_uv"
   }
 }
 Assets {
@@ -2096,6 +2105,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1967454480797501765
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
+  }
+}
+Assets {
   Id: 1882399476102658604
   Name: "Text 01: U"
   PlatformAssetType: 1
@@ -2120,6 +2138,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_006"
+  }
+}
+Assets {
+  Id: 1860525514493543587
+  Name: "Fantasy Sack Tied"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_fantasy_sack_002_ref"
   }
 }
 Assets {
@@ -2156,15 +2183,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
-  }
-}
-Assets {
-  Id: 1621043139137004612
-  Name: "Bricks Stone Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bricks_stone_block_001"
   }
 }
 Assets {
