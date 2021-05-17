@@ -20544,7 +20544,6 @@ Objects {
   ParentId: 16269656183615423942
   ChildIds: 6237932801934532487
   ChildIds: 11291440359408054310
-  ChildIds: 4912204892433053838
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -20556,62 +20555,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 4912204892433053838
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: 10.4187012
-      Y: -22.7854
-      Z: 221.049377
-    }
-    Rotation {
-      Yaw: 3.25688738e-12
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13776797300917461104
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 12.3450527
-    Color {
-      R: 0.0600000024
-      G: 0.981324196
-      B: 1
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 2.62552977
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 691.451538
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 4658.98486
-      MaxDistanceFadeRange: 500
-    }
   }
 }
 Objects {
