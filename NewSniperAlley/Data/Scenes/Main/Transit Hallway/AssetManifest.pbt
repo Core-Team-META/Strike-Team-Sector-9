@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16048367406070731799
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
@@ -170,15 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9851802736654022465
-  Name: "Sci-fi Console Screen 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_002_ref"
-  }
-}
-Assets {
   Id: 9152619968203525726
   Name: "Military Tank Historic Armor Plate 02"
   PlatformAssetType: 1
@@ -212,15 +194,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_001"
-  }
-}
-Assets {
-  Id: 8262065725279388658
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
   }
 }
 Assets {
@@ -401,14 +374,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
-  Id: 198353679974341757
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }

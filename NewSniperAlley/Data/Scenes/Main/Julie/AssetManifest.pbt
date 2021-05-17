@@ -305,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13110421772076029559
-  Name: "Fire Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_fire_volume_vfx"
-  }
-}
-Assets {
   Id: 13091512434361803159
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -545,15 +536,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_acc_cap_top_002_ref"
-  }
-}
-Assets {
-  Id: 8158438355727892145
-  Name: "Trash Can - Urban 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trash_public_001"
   }
 }
 Assets {
