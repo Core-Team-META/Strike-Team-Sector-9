@@ -36,8 +36,6 @@ Objects {
   ChildIds: 14797038986290514050
   ChildIds: 10540743459009823668
   ChildIds: 6324845266199599566
-  ChildIds: 10088698686080733594
-  ChildIds: 14201676897690784298
   UnregisteredParameters {
   }
   Collidable_v2 {
