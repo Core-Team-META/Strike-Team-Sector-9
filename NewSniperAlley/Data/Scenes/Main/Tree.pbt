@@ -51,6 +51,111 @@ Objects {
   }
 }
 Objects {
+  Id: 14201676897690784298
+  Name: "ST2_Vent_Rectangle"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2793061021768837472
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Vent_Rectangle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5345
+            Y: 2075
+            Z: 800
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3624029346370756026
+    }
+  }
+}
+Objects {
+  Id: 10088698686080733594
+  Name: "ST2_Vent_Cube"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6353926605699600706
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.72981509e-05
+            Y: -72.5536804
+            Z: 66.0148926
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11453350360926877944
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Vent_Cube"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5355
+            Y: 2065
+            Z: 575
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17390275074788313697
+    }
+  }
+}
+Objects {
   Id: 6324845266199599566
   Name: "Julie"
   Transform {
