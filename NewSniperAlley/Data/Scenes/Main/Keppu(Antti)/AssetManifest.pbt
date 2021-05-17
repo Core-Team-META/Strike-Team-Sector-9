@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4725821361569478001
+  Name: "Military Loudspeaker Unintelligible Broadcast Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_military_loudspeaker_unintelligible_broadcast_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 3220575346520405379
   Name: "Ambience City Night Distant Traffic Loop 01 SFX"
   PlatformAssetType: 7
