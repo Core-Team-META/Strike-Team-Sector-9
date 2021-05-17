@@ -60,6 +60,10 @@ Assets {
         Name: "scanline scale"
         Float: 3.33432555
       }
+      Overrides {
+        Name: "scanline min value"
+        Float: 0
+      }
     }
     Assets {
       Id: 14198415401224027527

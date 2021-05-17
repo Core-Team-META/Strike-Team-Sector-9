@@ -9007,59 +9007,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5916558077667505998
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -8350
-      Y: -645
-      Z: 1590
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 24.75
-      Y: 24
-      Z: 27.9786854
-    }
-  }
-  ParentId: 17360112169003464756
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 6777045133803335889
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 13620018288981188700
   Name: "Cube - Bottom-Aligned"
   Transform {
