@@ -8987,7 +8987,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 5.44428635
+    Intensity: 56.5351601
     Color {
       R: 2
       G: 0.397351027
@@ -23109,12 +23109,12 @@ Objects {
   Name: "Modern Stairs Railing 01 - Angled 01"
   Transform {
     Location {
-      X: -7285
+      X: -7197.70605
       Y: 255
       Z: 1245.53772
     }
     Rotation {
-      Pitch: -57.5000305
+      Pitch: 67.4999924
     }
     Scale {
       X: 1
@@ -23138,7 +23138,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -54104,7 +54104,7 @@ Objects {
       LocalLight {
         AttenuationRadius: 703.575256
         SpotLight {
-          SourceRadius: 4.30876207
+          SourceRadius: 20
           SoftSourceRadius: 20
           FallOffExponent: 5.6542387
           UseFallOffExponent: true
@@ -58963,7 +58963,6 @@ Objects {
       B: 0.110000014
       A: 1
     }
-    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -96636,7 +96635,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 8.95432854
+    Intensity: 56.5351601
     Color {
       R: 2
       G: 0.397351027
