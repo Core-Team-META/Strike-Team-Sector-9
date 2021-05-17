@@ -1,6 +1,75 @@
 Name: "Transit Hallway"
 RootId: 8615612276222760985
 Objects {
+  Id: 3324183267033101626
+  Name: "Corrugated Sheet Medium"
+  Transform {
+    Location {
+      X: 1648.4176
+      Y: -1819.55969
+      Z: 287.713959
+    }
+    Rotation {
+      Pitch: 0.0198075473
+      Yaw: -85.3251953
+      Roll: -12.1968079
+    }
+    Scale {
+      X: -1.93265295
+      Y: 0.257380396
+      Z: 1.2069515
+    }
+  }
+  ParentId: 8615612276222760985
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2.77374291
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.944648445
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.5
+        G: 0.841059566
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5154493427538871909
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 4350038305542163192
   Name: "Decal Military Symbols 01"
   Transform {
@@ -551,7 +620,7 @@ Objects {
   Transform {
     Location {
       X: 1657.98779
-      Y: -159.804291
+      Y: -593.786133
       Z: 286.017822
     }
     Rotation {
@@ -611,1101 +680,6 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 7893666008843395927
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -1846.55896
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 801.647217
-            Y: -2796.19702
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999771
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 8109164424496549963
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1913.34717
-            Y: -57.8469238
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 6048693404698242531
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -573.066284
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.373000026
-            G: 0.179534078
-            B: 0.0410300083
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1913.34717
-            Y: -624.176514
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 5922732990934389320
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -1139.39575
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1913.34717
-            Y: -1245.04224
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 2649235696745782218
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -624.176392
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1913.34717
-            Y: -2412.88867
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 4891704088692722221
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -57.8469849
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1913.34717
-            Y: -1846.55896
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 12763975832295264642
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -1245.04224
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1403.16406
-            Y: -2796.19702
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999771
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 1067019121894561184
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -3033.75439
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -385.547974
-            Y: -2796.19702
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999771
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
-    }
-  }
-}
-Objects {
-  Id: 16035913927010917110
-  Name: "ST2_CeilingLight01"
-  Transform {
-    Location {
-      X: 1913.34717
-      Y: -2412.88867
-      Z: 701.609497
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09253263
-      Y: 1.09253263
-      Z: 1.09253263
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5293631684452522431
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6147095519711171265
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8280325779128511584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 0.2
-            G: 0.0962649137
-            B: 0.0220000148
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8349022100220771746
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_CeilingLight01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 235.317749
-            Y: -2796.19702
-            Z: 701.609497
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.09253263
-            Y: 1.09253263
-            Z: 1.09253263
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -89.9999771
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11435873228861332503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 8191402814560574490
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.149802
-            B: 0.010033
-            A: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1720627349378846630
     }
   }
 }
@@ -4516,120 +3490,6 @@ Objects {
   }
 }
 Objects {
-  Id: 3279505532118980244
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: -66.2507553
-      Y: -2811.82739
-      Z: 400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Light {
-    Intensity: 2.47328782
-    Color {
-      R: 0.459999979
-      G: 0.957085967
-      B: 1
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 567.30426
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 13238459068272642261
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: 279.865
-      Y: -2893.8689
-      Z: 400
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8615612276222760985
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Light {
-    Intensity: 2.47328782
-    Color {
-      R: 1
-      G: 0.99735105
-      B: 0.6
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 400.886902
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
   Id: 8963810459434414103
   Name: "ST_CrateJunk01Tarp"
   Transform {
@@ -7174,8 +6034,8 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 674.564575
-      Y: -2680.47266
+      X: 517.777161
+      Y: -2566.55225
       Z: 285.257385
     }
     Rotation {
@@ -13141,7 +12001,7 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 1751.0896
+      X: 1732.57507
       Y: -587.783875
       Z: 415.134369
     }
@@ -13197,7 +12057,7 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 1751.0896
+      X: 1732.57507
       Y: -587.04895
       Z: 285.000031
     }
@@ -14471,7 +13331,7 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
-      X: 1751.80493
+      X: 1661.05444
       Y: -427.909058
       Z: 285.000031
     }
@@ -14527,13 +13387,13 @@ Objects {
   Transform {
     Location {
       X: 1657.98779
-      Y: -525.056
+      Y: -1069.48584
       Z: 281.275574
     }
     Rotation {
-      Pitch: -7.40795898
-      Yaw: -89.7710266
-      Roll: -5.08822632
+      Pitch: -0.473449707
+      Yaw: -89.7729187
+      Roll: -5.06054688
     }
     Scale {
       X: 1.24021733
