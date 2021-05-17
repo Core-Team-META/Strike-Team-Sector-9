@@ -654,27 +654,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -748,27 +745,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -843,27 +837,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -938,27 +929,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -1033,27 +1021,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -1130,27 +1115,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
@@ -1227,27 +1209,24 @@ Assets {
           Overrides {
             Name: "ma:Font_Sides:color"
             Color {
-              R: 0.0510000065
-              G: 0.285158932
-              B: 0.3
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Faces:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 2
+              G: 1.07288361e-06
               A: 1
             }
           }
           Overrides {
             Name: "ma:Font_Bevel:color"
             Color {
-              R: 0.170000017
-              G: 0.950529754
-              B: 1
+              R: 0.74
+              G: 3.52859502e-07
               A: 1
             }
           }

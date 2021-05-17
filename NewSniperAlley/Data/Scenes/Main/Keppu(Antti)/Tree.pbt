@@ -1,6 +1,188 @@
 Name: "Keppu(Antti)"
 RootId: 906925363925354889
 Objects {
+  Id: 14829960160641040027
+  Name: "ST2_Sign_Random02"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 906925363925354889
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 299646713648082571
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Sign_Random02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7449.95605
+            Y: -1946.28711
+            Z: 410.270264
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.059991
+            Y: 1.059991
+            Z: 1.059991
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9262426004329665655
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            B: 0.0397343636
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12728744465026738405
+    }
+  }
+}
+Objects {
+  Id: 4997277682816831970
+  Name: "ST2_Traffic_Light_Recolored"
+  Transform {
+    Location {
+      X: 4560
+      Y: -2095
+      Z: -340
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 906925363925354889
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7410406792992553849
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Traffic_Light_Recolored"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3835
+            Y: -510
+            Z: -340
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -5.00000238
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7673174114546388707
+    }
+  }
+}
+Objects {
+  Id: 12863802552758975148
+  Name: "ST2_Traffic_Light_Recolored"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 906925363925354889
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7410406792992553849
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_Traffic_Light_Recolored"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4560
+            Y: -2095
+            Z: -340
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7673174114546388707
+    }
+  }
+}
+Objects {
   Id: 8766174116880648959
   Name: "FinalLevel"
   Transform {
@@ -50,6 +232,7 @@ Objects {
   ChildIds: 10286062977225293382
   ChildIds: 17906678178859992005
   ChildIds: 11235206613419377194
+  ChildIds: 14018410285829464636
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -60,6 +243,47 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 14018410285829464636
+  Name: "Military Loudspeaker Unintelligible Broadcast Loop 01 SFX"
+  Transform {
+    Location {
+      X: -625
+      Y: -360
+      Z: 410
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3042142847795431628
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 4725821361569478001
+    }
+    AutoPlay: true
+    Repeat: true
+    Volume: 0.0951375
+    Falloff: -1
+    Radius: -1
   }
 }
 Objects {
