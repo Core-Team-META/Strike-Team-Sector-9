@@ -127,7 +127,7 @@ Assets {
             Y: -176.393921
           }
           Rotation {
-            Yaw: -89.9999161
+            Yaw: -89.9999084
             Roll: -179.999954
           }
           Scale {
@@ -371,6 +371,7 @@ Assets {
         ChildIds: 15571736784029857382
         ChildIds: 10337249643226013847
         ChildIds: 16740053030366198748
+        ChildIds: 11603801945822572027
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -576,6 +577,114 @@ Assets {
             Color {
               R: 0.87
               G: 0.138278171
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.334000021
+              G: 0.334000021
+              B: 0.334000021
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11933945362074882928
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableCastShadows: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 11603801945822572027
+        Name: "Military Tank Historic Container 03"
+        Transform {
+          Location {
+            X: -24.9399414
+            Y: -307.536133
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -90
+          }
+          Scale {
+            X: 2.75
+            Y: 5.50000143
+            Z: 1.5
+          }
+        }
+        ParentId: 7290395953984175033
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13085174305471638229
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:id"
+            AssetReference {
+              Id: 13085174305471638229
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 13085174305471638229
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:utile"
+            Float: 2.8728931
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 3.65966415
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.87
+              G: 0.138278171
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.87
+              G: 0.138278171
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.334000021
+              G: 0.334000021
+              B: 0.334000021
               A: 1
             }
           }
