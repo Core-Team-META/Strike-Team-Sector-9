@@ -1,0 +1,24 @@
+Assets {
+  Id: 3427725350982354316
+  Name: "Custom Tech Panel 01_2"
+  PlatformAssetType: 13
+  SerializationVersion: 84
+  CustomMaterialAsset {
+    BaseMaterialId: 17608036586245849503
+    ParameterOverrides {
+      Overrides {
+        Name: "rotate_material"
+        Float: 90
+      }
+    }
+    Assets {
+      Id: 17608036586245849503
+      Name: "Tech Panel 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_sf_gen_tech-panel_001"
+      }
+    }
+  }
+}
