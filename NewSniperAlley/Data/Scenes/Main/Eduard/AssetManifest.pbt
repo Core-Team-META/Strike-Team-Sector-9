@@ -665,6 +665,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9140631613279100105
+  Name: "Liquid Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_liquid"
+  }
+}
+Assets {
   Id: 9065570772823211085
   Name: "Prism - 6-Sided Polished"
   PlatformAssetType: 1
