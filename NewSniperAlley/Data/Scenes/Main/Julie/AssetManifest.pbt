@@ -494,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13110421772076029559
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
   Id: 13091512434361803159
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -899,6 +908,24 @@ Assets {
   }
 }
 Assets {
+  Id: 7414428204400123611
+  Name: "Main Street Awning 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_awning_002_ref"
+  }
+}
+Assets {
+  Id: 7372149666124795665
+  Name: "Camouflage Net 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_kamo_net_001_uv_ref"
+  }
+}
+Assets {
   Id: 7354330772943810642
   Name: "Sci-fi Base Breakout Box 01"
   PlatformAssetType: 1
@@ -1094,6 +1121,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_03_ref"
+  }
+}
+Assets {
+  Id: 5117227874850617562
+  Name: "Fantasy Staff Grip 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_grip_staff_001"
   }
 }
 Assets {
