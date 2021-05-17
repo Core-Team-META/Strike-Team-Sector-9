@@ -3770,6 +3770,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4422592697194756909
+  Name: "Plane Ring - One Sided Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_ring_002"
+  }
+}
+Assets {
   Id: 4344775540932160826
   Name: "Office Wall Panel 03"
   PlatformAssetType: 2
@@ -4181,15 +4190,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_Neon2_Ender_1s"
-  }
-}
-Assets {
-  Id: 2557549460494517044
-  Name: "Plane Ring - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_ring_001"
   }
 }
 Assets {
