@@ -10,6 +10,22 @@ Assets {
         Name: "rotate_material"
         Float: 90
       }
+      Overrides {
+        Name: "u_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "v_tiles"
+        Float: 1
+      }
+      Overrides {
+        Name: "u_offset"
+        Float: 0
+      }
+      Overrides {
+        Name: "v_offset"
+        Float: 0
+      }
     }
     Assets {
       Id: 17608036586245849503
