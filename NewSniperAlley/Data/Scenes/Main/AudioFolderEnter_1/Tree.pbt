@@ -1,7 +1,7 @@
 Name: "AudioFolderEnter_1"
-RootId: 9787922492446557768
+RootId: 14780380930415267082
 Objects {
-  Id: 10651744659796735545
+  Id: 5089642063689483546
   Name: "Wire Chain Link Fence Gate Hit Impact Heavy 01 SFX"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9787922492446557768
+  ParentId: 14780380930415267082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

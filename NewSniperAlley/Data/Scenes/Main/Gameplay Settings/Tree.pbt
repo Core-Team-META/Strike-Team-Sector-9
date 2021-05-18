@@ -576,7 +576,6 @@ Objects {
   ParentId: 7624668735784682717
   ChildIds: 17337691892068336800
   ChildIds: 6779990624868928309
-  ChildIds: 15429108440009215683
   ChildIds: 4094097439378004868
   ChildIds: 15534340935497815916
   ChildIds: 2823504182860534230
@@ -584,7 +583,6 @@ Objects {
   ChildIds: 12589540384003999848
   ChildIds: 17618885052490879372
   ChildIds: 8341424864921642746
-  ChildIds: 2519373182657057131
   ChildIds: 2769381345126094090
   ChildIds: 16264618168650922044
   ChildIds: 2394245667304781316
@@ -600,7 +598,6 @@ Objects {
   ChildIds: 9436112453698711421
   ChildIds: 2998074334862483304
   ChildIds: 4559496550006553112
-  ChildIds: 7604763546538822408
   ChildIds: 16891152509425389907
   ChildIds: 5685870081206853070
   ChildIds: 3975443584498338403
@@ -894,12 +891,12 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1040
-      Y: -7770
+      X: 1100
+      Y: -7440
       Z: 560
     }
     Rotation {
-      Yaw: 45.4303551
+      Yaw: 0.43036437
     }
     Scale {
       X: 1
@@ -1022,39 +1019,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7604763546538822408
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 10595
-      Y: 340
-      Z: -209.999985
-    }
-    Rotation {
-      Yaw: -179.56958
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11613372419568643009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 4559496550006553112
   Name: "Spawn Point"
   Transform {
@@ -1126,7 +1090,7 @@ Objects {
   Transform {
     Location {
       X: 8280
-      Y: 3820
+      Y: 3760
       Z: -210
     }
     Rotation {
@@ -1550,39 +1514,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2519373182657057131
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -3650
-      Y: -6165
-      Z: 1015
-    }
-    Rotation {
-      Yaw: 40.4297028
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11613372419568643009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 8341424864921642746
   Name: "Spawn Point"
   Transform {
@@ -1653,8 +1584,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -10970
-      Y: -5065
+      X: -10910
+      Y: -5095
       Z: -220
     }
     Rotation {
@@ -1814,45 +1745,12 @@ Objects {
   }
 }
 Objects {
-  Id: 15429108440009215683
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 6347.45557
-      Y: 95.1034546
-      Z: -198.981873
-    }
-    Rotation {
-      Yaw: -17.4844971
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11613372419568643009
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 6779990624868928309
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 751.305908
-      Y: 6178.13818
+      X: 1050
+      Y: 7055
       Z: 1036.65527
     }
     Rotation {

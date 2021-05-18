@@ -1,7 +1,7 @@
 Name: "AudioFolderLeave_2"
-RootId: 14677805954134280799
+RootId: 11863608261982772995
 Objects {
-  Id: 14534209045152169464
+  Id: 7295241870954093001
   Name: "Wire Chain Link Fence Rattle Hit Impact 01 SFX"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14677805954134280799
+  ParentId: 11863608261982772995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

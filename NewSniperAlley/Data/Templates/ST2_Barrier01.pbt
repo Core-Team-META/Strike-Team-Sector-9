@@ -36,8 +36,8 @@ Assets {
         Name: "Barrier Plastic 01"
         Transform {
           Location {
-            X: 7.13818359
-            Y: -0.74609375
+            X: -54.0767708
+            Y: 10.0477629
           }
           Rotation {
           }
@@ -93,12 +93,12 @@ Assets {
         Name: "Decal Painted Lines 01"
         Transform {
           Location {
-            X: -7.13769531
-            Y: 0.746337891
+            X: -52.0720291
+            Y: 5.45831156
             Z: 153.471298
           }
           Rotation {
-            Roll: -89.9999924
+            Roll: -90
           }
           Scale {
             X: 0.369494975
