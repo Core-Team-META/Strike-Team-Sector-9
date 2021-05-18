@@ -167,5 +167,5 @@ Assets {
       AssetId: "Military_Fence_-_End_Pole_Template"
     }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }

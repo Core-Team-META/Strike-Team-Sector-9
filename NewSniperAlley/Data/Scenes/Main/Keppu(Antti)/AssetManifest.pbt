@@ -53,6 +53,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17739225728025820872
+  Name: "Sci-fi Base Breakout Box 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_breakout_004_ref"
+  }
+}
+Assets {
   Id: 17677556175693261697
   Name: "Sci-fi Terminal Keyboard 01"
   PlatformAssetType: 1
@@ -305,6 +314,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15732777065278343437
+  Name: "Urban Pipe Clamp 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_clamp_001_ref"
+  }
+}
+Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
@@ -329,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_stringer_angled_001_ref"
+  }
+}
+Assets {
+  Id: 15246078607150945099
+  Name: "Street Sign 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_sign_002"
   }
 }
 Assets {
@@ -440,12 +467,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14277620614058209524
+  Name: "Street Light Pole Clamp 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_clamp_001"
+  }
+}
+Assets {
   Id: 14198415401224027527
   Name: "Basic Hologram"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_basic_hologram"
+  }
+}
+Assets {
+  Id: 14150131608064648431
+  Name: "Sci-fi Base - Window 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_win_001_ref"
   }
 }
 Assets {
@@ -656,12 +701,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12498237228494553639
-  Name: "Game Portal"
-  PlatformAssetType: 6
+  Id: 12557978716900753162
+  Name: "Whitebox Floor 01 4m x 4m"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_webportal"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
   }
 }
 Assets {
@@ -1061,21 +1106,21 @@ Assets {
   }
 }
 Assets {
-  Id: 9176145884981181688
-  Name: "Pipe - Half Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
   Id: 9163339440331291354
   Name: "Sign Font 2 Neon Outline: E"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonFont2_Text_004"
+  }
+}
+Assets {
+  Id: 8976318233260387419
+  Name: "Car Paint Advanced 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_car-paint_advanced_001_uv_ref"
   }
 }
 Assets {
@@ -1574,6 +1619,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4958632981558562894
+  Name: "Text 01: I"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_008"
+  }
+}
+Assets {
   Id: 4947754901116769504
   Name: "Sign Font 1 Neon Outline: 0"
   PlatformAssetType: 1
@@ -1697,6 +1751,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_003"
+  }
+}
+Assets {
+  Id: 3561802186483994182
+  Name: "Sci-fi Base Floor Trim 01 - 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_floor_trim_001_4m_ref"
+  }
+}
+Assets {
+  Id: 3453125660196790227
+  Name: "Military Tank Modern Tread Frame 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
   }
 }
 Assets {
@@ -1967,15 +2039,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mod_stairs_railing_straight_001_ref"
-  }
-}
-Assets {
-  Id: 1465428865088289228
-  Name: "Keyboard"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_computer_keyboard_001"
   }
 }
 Assets {

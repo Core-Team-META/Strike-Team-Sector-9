@@ -2,7 +2,7 @@ Assets {
   Id: 6754002872129290571
   Name: "Custom Base Material from Urban Vehicle Sedan - Body Rear 01"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 2161032696548825298
     ParameterOverrides {

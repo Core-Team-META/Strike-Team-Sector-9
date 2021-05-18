@@ -2,7 +2,7 @@ Assets {
   Id: 10031140005615906048
   Name: "ST2_Car"
   PlatformAssetType: 13
-  SerializationVersion: 84
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 17608036586245849503
     ParameterOverrides {

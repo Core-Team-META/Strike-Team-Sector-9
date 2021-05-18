@@ -1079,15 +1079,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14150131608064648431
-  Name: "Sci-fi Base - Window 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_win_001_ref"
-  }
-}
-Assets {
   Id: 14126948567503170457
   Name: "Invisible"
   PlatformAssetType: 2
@@ -2006,15 +1997,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11101756980272266861
-  Name: "Animated Neon Sign - Hand"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_Thumbs"
-  }
-}
-Assets {
   Id: 11085376824642961392
   Name: "Urban Vehicle Car - Light Roof 01"
   PlatformAssetType: 1
@@ -2174,15 +2156,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F6_Text_017"
-  }
-}
-Assets {
-  Id: 10420895239212533739
-  Name: "Animated Neon Sign - Hand Thumbs Up"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_animatedNeon_handThumbsUp"
   }
 }
 Assets {
@@ -3393,7 +3366,7 @@ Assets {
 }
 Assets {
   Id: 5770722494384530191
-  Name: "Urban Damaged Rebar Lattice 02"
+  Name: "Urban Damaged Rebar - Lattice 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -3929,15 +3902,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_part_window_002_ref"
-  }
-}
-Assets {
-  Id: 3453125660196790227
-  Name: "Military Tank Modern Tread Frame 01 - Mid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
   }
 }
 Assets {
@@ -4496,15 +4460,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_whitebox_wall_001_doorframe"
-  }
-}
-Assets {
-  Id: 1621043139137004612
-  Name: "Bricks Stone Block 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bricks_stone_block_001"
   }
 }
 Assets {
