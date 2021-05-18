@@ -242,15 +242,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14765158219383575624
-  Name: "Humanoid 1 Eva"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_006_ref"
-  }
-}
-Assets {
   Id: 14628878573634480270
   Name: "Opaque Bubble Glass"
   PlatformAssetType: 2
@@ -266,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_floor_trim_001_8m_ref"
+  }
+}
+Assets {
+  Id: 14285279341781365881
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -1013,15 +1013,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_container_rectangle_thin_ref"
-  }
-}
-Assets {
-  Id: 3138483173048979605
-  Name: "Humanoid 1 Sonia"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_sport_001_ref"
   }
 }
 Assets {
