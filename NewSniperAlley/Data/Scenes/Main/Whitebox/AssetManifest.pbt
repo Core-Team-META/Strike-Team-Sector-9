@@ -1,28 +1,10 @@
 Assets {
-  Id: 15484605620023334162
-  Name: "Wedge - Corner Complex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_corelogo_shape_001"
-  }
-}
-Assets {
   Id: 15191120951180189582
   Name: "Concrete Bunker"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_bunker_001"
-  }
-}
-Assets {
-  Id: 14796711042662669165
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }
 Assets {

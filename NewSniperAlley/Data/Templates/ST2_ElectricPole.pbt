@@ -15,14 +15,9 @@ Assets {
             Z: 2.36917901
           }
         }
-        ParentId: 906925363925354889
+        ParentId: 8766174116880648959
         ChildIds: 4236548737939611356
-        ChildIds: 7816577497454921573
-        ChildIds: 5872921476107547700
-        ChildIds: 2198583593777023251
-        ChildIds: 12926885048250891988
-        ChildIds: 8731308331689680216
-        ChildIds: 11181295556688358194
+        ChildIds: 15724136606838440685
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -111,13 +106,12 @@ Assets {
         }
       }
       Objects {
-        Id: 7816577497454921573
+        Id: 15724136606838440685
         Name: "MergedModel"
         Transform {
           Location {
-            X: 0.0815403312
-            Y: 2.22320747
-            Z: -24.8074799
+            Y: -20
+            Z: -25
           }
           Rotation {
           }
@@ -128,6 +122,47 @@ Assets {
           }
         }
         ParentId: 17745747361458935639
+        ChildIds: 7816577497454921573
+        ChildIds: 5872921476107547700
+        ChildIds: 2198583593777023251
+        ChildIds: 12926885048250891988
+        ChildIds: 8731308331689680216
+        ChildIds: 11181295556688358194
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          Model {
+          }
+        }
+      }
+      Objects {
+        Id: 7816577497454921573
+        Name: "MergedModel"
+        Transform {
+          Location {
+            X: 0.0816224292
+            Y: 22.2232
+            Z: 0.192520574
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15724136606838440685
         ChildIds: 13561041444293403406
         ChildIds: 12606997017154727079
         ChildIds: 2136444510468432054
@@ -546,9 +581,9 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: -0.0305786133
-            Y: 1.91543579
-            Z: 51.026062
+            X: -0.0304945409
+            Y: 21.9154205
+            Z: 76.0260696
           }
           Rotation {
           }
@@ -558,7 +593,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17745747361458935639
+        ParentId: 15724136606838440685
         ChildIds: 18391651182070488492
         ChildIds: 11081851370196048677
         ChildIds: 11684279152695402723
@@ -990,9 +1025,9 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: -0.0305790976
-            Y: -16.4328728
-            Z: 211.633865
+            X: -0.0305011012
+            Y: 3.56712937
+            Z: 236.633865
           }
           Rotation {
           }
@@ -1002,7 +1037,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17745747361458935639
+        ParentId: 15724136606838440685
         ChildIds: 2154019916474624257
         ChildIds: 14743882719069832187
         ChildIds: 2086043960332132655
@@ -1537,9 +1572,9 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: -0.0305791777
-            Y: 2.30681562
-            Z: 451.824677
+            X: -0.0304944
+            Y: 22.3068123
+            Z: 476.824646
           }
           Rotation {
           }
@@ -1549,7 +1584,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17745747361458935639
+        ParentId: 15724136606838440685
         ChildIds: 15254613559962346649
         ChildIds: 2073321597240135379
         ChildIds: 2474391068313676533
@@ -2103,9 +2138,9 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: 0.302776337
-            Y: -62.3447266
-            Z: 554.640137
+            X: 0.302741587
+            Y: -42.3446846
+            Z: 579.640137
           }
           Rotation {
           }
@@ -2115,7 +2150,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17745747361458935639
+        ParentId: 15724136606838440685
         ChildIds: 18283802305613662253
         ChildIds: 5015276818363336217
         ChildIds: 3968230002784688330
@@ -3324,9 +3359,9 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: -0.0305791758
-            Y: -45.1934738
-            Z: 599.945251
+            X: -0.0305113886
+            Y: -25.1934605
+            Z: 624.945251
           }
           Rotation {
           }
@@ -3336,7 +3371,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17745747361458935639
+        ParentId: 15724136606838440685
         ChildIds: 11941781189433869417
         ChildIds: 14830723585435756533
         ChildIds: 7647158447745025371
