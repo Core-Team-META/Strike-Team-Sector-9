@@ -3811,7 +3811,7 @@ Assets {
     }
     Assets {
       Id: 5770722494384530191
-      Name: "Urban Damaged Rebar Lattice 02"
+      Name: "Urban Damaged Rebar - Lattice 02"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
@@ -3904,5 +3904,5 @@ Assets {
       AssetId: "Rubble_Pile_Brick_-_Large_Template"
     }
   }
-  SerializationVersion: 84
+  SerializationVersion: 85
 }
