@@ -107,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7516257627012008757
-  Name: "Pipe - Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half-pipe_001"
-  }
-}
-Assets {
   Id: 7195564222692247037
   Name: "Plane Circle - One Sided"
   PlatformAssetType: 1

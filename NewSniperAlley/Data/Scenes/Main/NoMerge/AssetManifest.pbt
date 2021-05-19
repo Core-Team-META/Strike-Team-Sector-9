@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4958632981558562894
+  Name: "Text 01: I"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F1_Text_008"
+  }
+}
+Assets {
   Id: 2887966541650210293
   Name: "Invisible"
   PlatformAssetType: 2
@@ -140,6 +149,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_computer_keyboard_001"
+  }
+}
+Assets {
+  Id: 348110065424704878
+  Name: "Corner - Smoothed - 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_corner_smooth_001_ref"
   }
 }
 Assets {
