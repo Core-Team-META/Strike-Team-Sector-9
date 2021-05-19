@@ -350,15 +350,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13603351768712987773
-  Name: "Humanoid 1 Cassidy"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_001_ref"
-  }
-}
-Assets {
   Id: 13583156742950437506
   Name: "Text 01: B"
   PlatformAssetType: 1
@@ -482,15 +473,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_01_ref"
-  }
-}
-Assets {
-  Id: 12577563649059889738
-  Name: "Whitebox Wall 01 Window Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_windowL"
   }
 }
 Assets {
@@ -638,15 +620,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9647297623024469013
-  Name: "Humanoid 1 Aparna"
-  PlatformAssetType: 26
-  PrimaryAsset {
-    AssetType: "SkinnedMeshAssetRef"
-    AssetId: "npc_human_gal_head_basic_008_ref"
-  }
-}
-Assets {
   Id: 9635608271034126615
   Name: "Rubber Pattern 01"
   PlatformAssetType: 2
@@ -698,15 +671,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F5_Text_013"
-  }
-}
-Assets {
-  Id: 8317679741492838839
-  Name: "Humanoid 1 Rig"
-  PlatformAssetType: 25
-  PrimaryAsset {
-    AssetType: "SkeletonAssetRef"
-    AssetId: "npc_gal_wireframe_001_ref"
   }
 }
 Assets {
@@ -905,15 +869,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
-  Id: 5549379117761037396
-  Name: "Concrete Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
