@@ -26,57 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14021425836031181800
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
-  Id: 13832572340236658068
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
-  }
-}
-Assets {
-  Id: 13206135842285396679
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
   Id: 13171200732535708403
   Name: "Metal Corrugated 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
-  Id: 12306622679456331034
-  Name: "Concrete Sidewalk"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_sidewalk_001"
-  }
-}
-Assets {
-  Id: 12085483327763957900
-  Name: "Gravel Raked 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gravel_001_uv"
   }
 }
 Assets {
@@ -89,30 +44,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10128884331981734128
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
-  }
-}
-Assets {
-  Id: 7195564222692247037
-  Name: "Plane Circle - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_circle_001"
   }
 }
 Assets {
@@ -152,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2829304148396294310
-  Name: "Metal Grates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_002_uv"
-  }
-}
-Assets {
   Id: 2379980367253352415
   Name: "Concrete Bunker"
   PlatformAssetType: 2
@@ -185,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_half"
-  }
-}
-Assets {
-  Id: 567193264820089861
-  Name: "Urban Fence Lock"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_lock_001"
   }
 }
 Assets {
