@@ -953,15 +953,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13261598718209045828
-  Name: "Urban Cardboard Box Damaged 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_cardboard_box_damaged_002_ref"
-  }
-}
-Assets {
   Id: 13206135842285396679
   Name: "Emissive Glow Transparent"
   PlatformAssetType: 2
@@ -977,15 +968,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
-  Id: 13148505073156703051
-  Name: "Urban Pipe Clamp 04"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_clamp_004_ref"
   }
 }
 Assets {
@@ -1085,15 +1067,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_001"
-  }
-}
-Assets {
-  Id: 12684181422670302428
-  Name: "Modern Stairs Stringer 01 - Straight Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mod_stairs_stringer_straight_corner_001_ref"
   }
 }
 Assets {
@@ -1454,15 +1427,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_convex_hq_001"
-  }
-}
-Assets {
-  Id: 10850769815684373087
-  Name: "Plane 1m - Two Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_002"
   }
 }
 Assets {
@@ -1907,15 +1871,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7531323142721961800
-  Name: "Metal Iron Rusted 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_002"
-  }
-}
-Assets {
   Id: 7531058706496198656
   Name: "Whitebox Wall 01 Doorway 01"
   PlatformAssetType: 1
@@ -2024,15 +1979,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7035286367024276026
-  Name: "Metal Iron Rusted 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
   Id: 7029954145321885546
   Name: "Main Street Wall 03 - Doorway 01"
   PlatformAssetType: 1
@@ -2102,15 +2048,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_arched_001"
-  }
-}
-Assets {
-  Id: 6648688902516484551
-  Name: "Military Rare Crate Lid"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_crate_lid_002_ref"
   }
 }
 Assets {
@@ -2660,15 +2597,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scf_crate_small_lid_001_ref"
-  }
-}
-Assets {
-  Id: 2942971563143602674
-  Name: "Shipping Container Side 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wall_shipping_container_6m_001"
   }
 }
 Assets {

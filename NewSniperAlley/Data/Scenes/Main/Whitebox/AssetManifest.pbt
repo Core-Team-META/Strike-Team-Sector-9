@@ -17,24 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10244512211031728539
-  Name: "Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_001"
-  }
-}
-Assets {
-  Id: 7531058706496198656
-  Name: "Whitebox Wall 01 Doorway 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_doorway"
-  }
-}
-Assets {
   Id: 6921744610000133130
   Name: "Concrete Panels 01"
   PlatformAssetType: 2
@@ -71,30 +53,21 @@ Assets {
   }
 }
 Assets {
+  Id: 2437966292102537916
+  Name: "Curb 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_curb_8m_001"
+  }
+}
+Assets {
   Id: 2379980367253352415
   Name: "Concrete Bunker"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_bunker_001"
-  }
-}
-Assets {
-  Id: 1628849511756280386
-  Name: "Whitebox Wall 01 Doorway 01 Frame"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_whitebox_wall_001_doorframe"
-  }
-}
-Assets {
-  Id: 783814044870915271
-  Name: "Whitebox Wall 01 Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001_half"
   }
 }
 Assets {
