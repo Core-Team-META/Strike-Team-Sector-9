@@ -467,15 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16198346205888411814
-  Name: "Urban Fence Door"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_door_01"
-  }
-}
-Assets {
   Id: 16164854765417449972
   Name: "Square Column Segment"
   PlatformAssetType: 1
@@ -737,15 +728,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14292869428683022472
-  Name: "Barrier Concrete 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_street_barrier_001"
-  }
-}
-Assets {
   Id: 14285279341781365881
   Name: "Plastic Matte"
   PlatformAssetType: 2
@@ -980,6 +962,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13105350100751157865
+  Name: "Steam Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_steam_volume_vfx"
+  }
+}
+Assets {
   Id: 13091512434361803159
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -1004,6 +995,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_mil_fence_gate_001"
+  }
+}
+Assets {
+  Id: 13056377762012048845
+  Name: "Military Tank Historic Hull 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
   }
 }
 Assets {
@@ -1121,15 +1121,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_wall_001_windowL"
-  }
-}
-Assets {
-  Id: 12557978716900753162
-  Name: "Whitebox Floor 01 4m x 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_4x4"
   }
 }
 Assets {
@@ -1643,15 +1634,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_concave_001"
-  }
-}
-Assets {
-  Id: 9279130763178750287
-  Name: "Urban Fence Doorway"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_wall_01_door_001"
   }
 }
 Assets {
@@ -2732,15 +2714,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_barrier_caution_001"
-  }
-}
-Assets {
-  Id: 2379980367253352415
-  Name: "Concrete Bunker"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_bunker_001"
   }
 }
 Assets {

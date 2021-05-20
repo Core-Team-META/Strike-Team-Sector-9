@@ -8,24 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13171200732535708403
-  Name: "Metal Corrugated 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
-  }
-}
-Assets {
-  Id: 6921744610000133130
-  Name: "Concrete Panels 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_panels_001"
-  }
-}
-Assets {
   Id: 6317093348408192352
   Name: "Concrete Panels 02"
   PlatformAssetType: 2
@@ -53,30 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2437966292102537916
-  Name: "Curb 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_curb_8m_001"
-  }
-}
-Assets {
   Id: 2379980367253352415
   Name: "Concrete Bunker"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_bunker_001"
-  }
-}
-Assets {
-  Id: 397361870061653419
-  Name: "Whitebox Wall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_wall_001"
   }
 }
 Assets {
