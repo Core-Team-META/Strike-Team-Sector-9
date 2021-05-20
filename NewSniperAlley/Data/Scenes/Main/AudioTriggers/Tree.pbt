@@ -1,6 +1,364 @@
 Name: "AudioTriggers"
 RootId: 1350750335174088235
 Objects {
+  Id: 774382586178948104
+  Name: "ST2_AudioTriggerZoneFence"
+  Transform {
+    Location {
+      X: -2946.94849
+      Y: -6385.5415
+      Z: -239.424316
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1350750335174088235
+  ChildIds: 8125858652447254100
+  ChildIds: 3002120388318125086
+  ChildIds: 9273933530392553582
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 9273933530392553582
+  Name: "AudioFolderLeave"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 774382586178948104
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AudioFolderLeave_8"
+  }
+}
+Objects {
+  Id: 3002120388318125086
+  Name: "AudioFolderEnter"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 774382586178948104
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AudioFolderEnter_8"
+  }
+}
+Objects {
+  Id: 8125858652447254100
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 47.1789551
+      Y: 368.057617
+      Z: -82.3014832
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10.2624531
+      Y: 7.5808897
+      Z: 5.31741953
+    }
+  }
+  ParentId: 774382586178948104
+  ChildIds: 3216433573803989066
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AudioFolderEnter"
+      ObjectReference {
+        SelfId: 3002120388318125086
+      }
+    }
+    Overrides {
+      Name: "cs:AudioFolderLeave"
+      ObjectReference {
+        SelfId: 9273933530392553582
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 3216433573803989066
+  Name: "AudioTriggerZone"
+  Transform {
+    Location {
+      Z: -39.7053299
+    }
+    Rotation {
+      Pitch: -6.83018879e-06
+      Yaw: 1.79292383e-05
+      Roll: 1.21395897e-05
+    }
+    Scale {
+      X: 0.444936812
+      Y: 4.82611561
+      Z: 1.13693035
+    }
+  }
+  ParentId: 8125858652447254100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18393697990382900335
+    }
+  }
+}
+Objects {
+  Id: 13130832849917025441
+  Name: "ST2_AudioTriggerZoneFence"
+  Transform {
+    Location {
+      X: -3865
+      Y: -4255
+      Z: -172.630615
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1350750335174088235
+  ChildIds: 5622323075958268168
+  ChildIds: 2463478387018824676
+  ChildIds: 11768336683272240422
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11768336683272240422
+  Name: "AudioFolderLeave"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 13130832849917025441
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AudioFolderLeave"
+  }
+}
+Objects {
+  Id: 2463478387018824676
+  Name: "AudioFolderEnter"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -6.83018789e-06
+    }
+    Scale {
+      X: 1
+      Y: 0.99999994
+      Z: 0.99999994
+    }
+  }
+  ParentId: 13130832849917025441
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AudioFolderEnter"
+  }
+}
+Objects {
+  Id: 5622323075958268168
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 25
+      Y: -10
+      Z: 17.6306152
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.50000048
+      Y: 0.5
+      Z: 3.25
+    }
+  }
+  ParentId: 13130832849917025441
+  ChildIds: 5648001353895902313
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AudioFolderEnter"
+      ObjectReference {
+        SelfId: 2463478387018824676
+      }
+    }
+    Overrides {
+      Name: "cs:AudioFolderLeave"
+      ObjectReference {
+        SelfId: 11768336683272240422
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 5648001353895902313
+  Name: "AudioTriggerZone"
+  Transform {
+    Location {
+      Z: -39.7053299
+    }
+    Rotation {
+      Pitch: -6.83018879e-06
+      Yaw: 1.79292383e-05
+      Roll: 1.21395897e-05
+    }
+    Scale {
+      X: 0.444936812
+      Y: 4.82611561
+      Z: 1.13693035
+    }
+  }
+  ParentId: 5622323075958268168
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18393697990382900335
+    }
+  }
+}
+Objects {
   Id: 5391539267494263710
   Name: "ST2_AudioTriggerZoneFence"
   Transform {
@@ -242,7 +600,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave"
+    FilePartitionName: "AudioFolderLeave_1"
   }
 }
 Objects {
@@ -272,7 +630,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter"
+    FilePartitionName: "AudioFolderEnter_1"
   }
 }
 Objects {
@@ -423,7 +781,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_1"
+    FilePartitionName: "AudioFolderLeave_3"
   }
 }
 Objects {
@@ -453,7 +811,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_1"
+    FilePartitionName: "AudioFolderEnter_3"
   }
 }
 Objects {
@@ -604,7 +962,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_3"
+    FilePartitionName: "AudioFolderLeave_4"
   }
 }
 Objects {
@@ -634,7 +992,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_3"
+    FilePartitionName: "AudioFolderEnter_4"
   }
 }
 Objects {
@@ -785,7 +1143,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_4"
+    FilePartitionName: "AudioFolderLeave_5"
   }
 }
 Objects {
@@ -815,7 +1173,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_4"
+    FilePartitionName: "AudioFolderEnter_5"
   }
 }
 Objects {
@@ -967,7 +1325,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_5"
+    FilePartitionName: "AudioFolderLeave_6"
   }
 }
 Objects {
@@ -999,7 +1357,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_5"
+    FilePartitionName: "AudioFolderEnter_6"
   }
 }
 Objects {
@@ -1150,7 +1508,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_6"
+    FilePartitionName: "AudioFolderLeave_7"
   }
 }
 Objects {
@@ -1180,7 +1538,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_6"
+    FilePartitionName: "AudioFolderEnter_7"
   }
 }
 Objects {
@@ -1329,7 +1687,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_7"
+    FilePartitionName: "AudioFolderLeave_9"
   }
 }
 Objects {
@@ -1358,7 +1716,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_7"
+    FilePartitionName: "AudioFolderEnter_9"
   }
 }
 Objects {
@@ -1506,7 +1864,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_8"
+    FilePartitionName: "AudioFolderLeave_10"
   }
 }
 Objects {
@@ -1536,7 +1894,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_8"
+    FilePartitionName: "AudioFolderEnter_10"
   }
 }
 Objects {
@@ -1685,7 +2043,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_9"
+    FilePartitionName: "AudioFolderLeave_11"
   }
 }
 Objects {
@@ -1714,7 +2072,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_9"
+    FilePartitionName: "AudioFolderEnter_11"
   }
 }
 Objects {
@@ -1862,7 +2220,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderLeave_10"
+    FilePartitionName: "AudioFolderLeave_12"
   }
 }
 Objects {
@@ -1891,7 +2249,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "AudioFolderEnter_10"
+    FilePartitionName: "AudioFolderEnter_12"
   }
 }
 Objects {

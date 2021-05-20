@@ -17,6 +17,24 @@ Assets {
   }
 }
 Assets {
+  Id: 17891447625107566476
+  Name: "Hiragana Font 1: \343\201\274 (BO)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_049"
+  }
+}
+Assets {
+  Id: 17775019098342521252
+  Name: "Main Street Wall 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_ref"
+  }
+}
+Assets {
   Id: 17331405778350051027
   Name: "Industrial Room Tone Loop 01 SFX"
   PlatformAssetType: 7
@@ -125,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15420619461682934966
+  Name: "Main Street Wall 02 - Window 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_wall_002_window_02_ref"
+  }
+}
+Assets {
   Id: 15246078607150945099
   Name: "Street Sign 02"
   PlatformAssetType: 1
@@ -170,12 +197,39 @@ Assets {
   }
 }
 Assets {
+  Id: 14745239382337859486
+  Name: "Container - Square Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_thin_ref"
+  }
+}
+Assets {
   Id: 14638816248421548289
   Name: "Rubber Dot Panels 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_001_uv"
+  }
+}
+Assets {
+  Id: 14591455445996474079
+  Name: "Ceramic Tiles Octagon Dot 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_ceramic_tile_square_002"
+  }
+}
+Assets {
+  Id: 14541379120575232735
+  Name: "Urban Pipe Coupling 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_pipes_acc_coupling_001_ref"
   }
 }
 Assets {
@@ -206,12 +260,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14021425836031181800
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
   Id: 14010943251033244363
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_001"
+  }
+}
+Assets {
+  Id: 13751408475123645462
+  Name: "Main Street Floor 01 - 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_floor_001_8x8_ref"
   }
 }
 Assets {
@@ -260,12 +332,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13105350100751157865
+  Name: "Steam Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_steam_volume_vfx"
+  }
+}
+Assets {
   Id: 13085174305471638229
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_painted_old_001_uv"
+  }
+}
+Assets {
+  Id: 13056377762012048845
+  Name: "Military Tank Historic Hull 01 - Mid"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_hull_001_mid_ref"
   }
 }
 Assets {
@@ -284,6 +374,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_rooftop_fan_002"
+  }
+}
+Assets {
+  Id: 12728337217389179065
+  Name: "Craftsman Wall 02 Corner"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_002_corner"
+  }
+}
+Assets {
+  Id: 12621970885948864169
+  Name: "Wood Planks Beveled Raised 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_bevel_raised_planks_white_001_uv"
   }
 }
 Assets {
@@ -359,6 +467,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11312051364977333830
+  Name: "Hiragana Font 1: \344\270\211 (SAN / 3)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_080"
+  }
+}
+Assets {
   Id: 11001967573859652020
   Name: "Cone - Truncated Hollow Wide"
   PlatformAssetType: 1
@@ -374,6 +491,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_014"
+  }
+}
+Assets {
+  Id: 10906249897613043233
+  Name: "Wedge - Convex Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_hq_001"
   }
 }
 Assets {
@@ -527,6 +653,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
+  }
+}
+Assets {
+  Id: 8483451495408102647
+  Name: "HVAC Unit"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_HVAC_001"
   }
 }
 Assets {
@@ -719,12 +854,48 @@ Assets {
   }
 }
 Assets {
+  Id: 4811718779179670830
+  Name: "Craftsman Part - Inside Upper Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_part_intTrim_001_up"
+  }
+}
+Assets {
+  Id: 4247430867898109902
+  Name: "Stucco Tintable"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stucco_tint_001_uv"
+  }
+}
+Assets {
+  Id: 3564147007220152735
+  Name: "Cylinder - 2-Toned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_003"
+  }
+}
+Assets {
   Id: 3561802186483994182
   Name: "Sci-fi Base Floor Trim 01 - 4m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_floor_trim_001_4m_ref"
+  }
+}
+Assets {
+  Id: 3456686779070553167
+  Name: "Main Street Window 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_mst_part_window_002_ref"
   }
 }
 Assets {
@@ -809,6 +980,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2046248182654598336
+  Name: "Wallpaper Geometric 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_abstract_003_uv"
+  }
+}
+Assets {
   Id: 1928150346551514706
   Name: "Concrete Damaged 01"
   PlatformAssetType: 2
@@ -854,6 +1034,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1408146242668923075
+  Name: "Wallpaper Imperial Trellis 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wallpaper_abstract_001_uv"
+  }
+}
+Assets {
   Id: 1385909602603260515
   Name: "Whitebox Wall 01 Triangle"
   PlatformAssetType: 1
@@ -878,6 +1067,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_024"
+  }
+}
+Assets {
+  Id: 766268022170783973
+  Name: "Hiragana Font 1: \343\201\214 (GA)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_010"
   }
 }
 Assets {
@@ -941,5 +1139,23 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
+  }
+}
+Assets {
+  Id: 132672053610873933
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 99428546513861114
+  Name: "Urban Floor Grate Fire Escape - 2m x 2m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
   }
 }

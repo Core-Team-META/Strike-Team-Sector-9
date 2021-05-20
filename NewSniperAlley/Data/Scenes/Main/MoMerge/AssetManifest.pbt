@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16371622500121573784
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 14021425836031181800
   Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
@@ -41,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_9slice_005"
+  }
+}
+Assets {
+  Id: 4679924433031865767
+  Name: "Metal Frame 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {
