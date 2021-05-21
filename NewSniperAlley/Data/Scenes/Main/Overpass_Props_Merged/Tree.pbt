@@ -2883,63 +2883,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4371013972910693242
-  Name: "Decal Military Symbols 02"
-  Transform {
-    Location {
-      X: 1908.54688
-      Y: -2453.6521
-      Z: 279.576019
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.20822513
-      Y: 1.20822513
-      Z: 0.244273722
-    }
-  }
-  ParentId: 8615612276222760985
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 5
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.820000052
-        G: 0.358410627
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18236536682416522687
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
   Id: 14327399466062126914
   Name: "ST2_TrashContainer"
   Transform {
