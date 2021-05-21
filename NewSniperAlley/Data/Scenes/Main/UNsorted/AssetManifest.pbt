@@ -152,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16048367406070731799
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 15855081481126140438
   Name: "Decal Numbers and Symbols 01"
   PlatformAssetType: 14
@@ -404,15 +395,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9851802736654022465
-  Name: "Sci-fi Console Screen 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_scf_screen_002_ref"
-  }
-}
-Assets {
   Id: 9635608271034126615
   Name: "Rubber Pattern 01"
   PlatformAssetType: 2
@@ -464,15 +446,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_lines_001"
-  }
-}
-Assets {
-  Id: 8262065725279388658
-  Name: "Metal Frame 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_001_uv"
   }
 }
 Assets {
@@ -671,15 +644,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_002_ref"
-  }
-}
-Assets {
-  Id: 4637749365065961292
-  Name: "Office Vending Machine 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_vending_machine_03_ref"
   }
 }
 Assets {
