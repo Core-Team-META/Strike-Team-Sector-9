@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17567173218522296435
-  Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_wall_found_001_pillar_01"
-  }
-}
-Assets {
   Id: 17548833617676089709
   Name: "Decal Graffiti Murals 02 (Variants)"
   PlatformAssetType: 14
@@ -188,15 +179,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15484605620023334162
-  Name: "Wedge - Corner Complex"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_corelogo_shape_001"
-  }
-}
-Assets {
   Id: 15246078607150945099
   Name: "Street Sign 02"
   PlatformAssetType: 1
@@ -215,30 +197,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14800789141718969789
-  Name: "Column Topper 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_top_002"
-  }
-}
-Assets {
   Id: 14796711042662669165
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 14474180358060273267
-  Name: "Trim - Straight - 08m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_straight_8m_ref"
   }
 }
 Assets {
@@ -341,15 +305,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13103517599490266136
-  Name: "Stone Railing Curved 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_railing_6m_bend_001"
-  }
-}
-Assets {
   Id: 13085174305471638229
   Name: "Metal Painted Old 01"
   PlatformAssetType: 2
@@ -374,15 +329,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
-  }
-}
-Assets {
-  Id: 12329912718303648187
-  Name: "Stone Railing 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_railing_6m_001"
   }
 }
 Assets {
@@ -557,15 +503,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8547555202929038780
-  Name: "Trim - Curve 90\302\260 - 16m Radius"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_curve90_16m_ref"
-  }
-}
-Assets {
   Id: 8262065725279388658
   Name: "Metal Frame 01"
   PlatformAssetType: 2
@@ -683,15 +620,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7046531213084076619
-  Name: "Metal Complex Tech Panel Wall 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_complex_tech_panel_002_uv"
-  }
-}
-Assets {
   Id: 6878308890745792706
   Name: "Metal 9 Slice Shipping Container 01"
   PlatformAssetType: 2
@@ -707,15 +635,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
-  }
-}
-Assets {
-  Id: 6787262208996147711
-  Name: "Metal Complex Tech Panel Wall 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_complex_tech_panel_003_uv"
   }
 }
 Assets {

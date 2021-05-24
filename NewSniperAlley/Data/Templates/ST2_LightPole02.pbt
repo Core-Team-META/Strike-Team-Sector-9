@@ -185,9 +185,9 @@ Assets {
             Z: 730
           }
           Rotation {
-            Pitch: -45
-            Yaw: -89.9915771
-            Roll: 90
+            Pitch: -90
+            Yaw: -89.9310913
+            Roll: 89.9372635
           }
           Scale {
             X: 1
@@ -224,7 +224,7 @@ Assets {
               AttenuationRadius: 998.023438
               AreaLight {
                 SourceWidth: 666.162781
-                SourceHeight: 160.859512
+                SourceHeight: 2.04124498
               }
             }
             MaxDrawDistance: 7299.48047

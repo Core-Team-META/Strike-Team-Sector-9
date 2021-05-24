@@ -1,13 +1,4 @@
 Assets {
-  Id: 16060214784296519809
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 15266094661921614944
   Name: "Center Circle 001 Outline"
   PlatformAssetType: 9
@@ -23,24 +14,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "CenterArrow_009"
-  }
-}
-Assets {
-  Id: 12306622679456331034
-  Name: "Concrete Sidewalk"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_concrete_sidewalk_001"
-  }
-}
-Assets {
-  Id: 10260597922063654733
-  Name: "Ceramic Terracotta Pots 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_terracotta_pots_001_uv"
   }
 }
 Assets {

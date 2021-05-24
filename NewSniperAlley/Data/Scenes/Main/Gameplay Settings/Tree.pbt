@@ -275,9 +275,9 @@ Objects {
   Name: "First Person Camera"
   Transform {
     Location {
-      Z: 500
     }
     Rotation {
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -309,7 +309,7 @@ Objects {
     RotationOffset {
     }
     FieldOfView: 100
-    ViewWidth: 1200
+    ViewWidth: 50000
     UseCameraSocket: true
     RotationMode {
       Value: "mc:erotationmode:lookangle"

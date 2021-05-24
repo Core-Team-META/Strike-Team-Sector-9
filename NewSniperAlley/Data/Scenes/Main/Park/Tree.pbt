@@ -54701,7 +54701,7 @@ Objects {
 }
 Objects {
   Id: 5420636087565116503
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -972.864258
@@ -54709,7 +54709,7 @@ Objects {
       Z: 1332.06812
     }
     Rotation {
-      Yaw: -89.9999542
+      Yaw: -89.999939
     }
     Scale {
       X: 5.75
@@ -59529,7 +59529,7 @@ Objects {
 }
 Objects {
   Id: 9830200653800863909
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 49.1958
@@ -59537,7 +59537,7 @@ Objects {
       Z: 2955.16675
     }
     Rotation {
-      Yaw: -44.9999924
+      Yaw: -45
     }
     Scale {
       X: 0.878304839
@@ -60005,7 +60005,7 @@ Objects {
 }
 Objects {
   Id: 15455777828654432236
-  Name: "Whitebox Wall 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 87.6040039
@@ -61096,7 +61096,7 @@ Objects {
 }
 Objects {
   Id: 14995680173355622217
-  Name: "Whitebox Wall 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 95.034668
@@ -68230,7 +68230,7 @@ Objects {
 }
 Objects {
   Id: 8883243688671789135
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 581.439941
@@ -68728,7 +68728,7 @@ Objects {
 }
 Objects {
   Id: 16637170080653769155
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -2367.63843
@@ -68789,7 +68789,7 @@ Objects {
 }
 Objects {
   Id: 3785260857280697933
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -159.402832
@@ -68857,7 +68857,7 @@ Objects {
 }
 Objects {
   Id: 86316211068577735
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -2367.63843
@@ -69454,7 +69454,7 @@ Objects {
 }
 Objects {
   Id: 8908451432963268086
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -76.1047363
@@ -69829,7 +69829,7 @@ Objects {
 }
 Objects {
   Id: 11026142199488138841
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -835.242432
@@ -70027,7 +70027,7 @@ Objects {
 }
 Objects {
   Id: 10037489558521164336
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 592.678
@@ -70095,7 +70095,7 @@ Objects {
 }
 Objects {
   Id: 16701759315591059911
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 592.678
@@ -70163,7 +70163,7 @@ Objects {
 }
 Objects {
   Id: 3794807971831492115
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 54.364502
@@ -73055,7 +73055,7 @@ Objects {
 }
 Objects {
   Id: 14455063525952137047
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -3350
@@ -73786,7 +73786,7 @@ Objects {
 }
 Objects {
   Id: 7595954655867121163
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1604.23706

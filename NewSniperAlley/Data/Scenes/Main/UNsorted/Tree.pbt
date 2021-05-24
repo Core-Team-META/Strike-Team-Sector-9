@@ -1,6 +1,166 @@
 Name: "Unsorted"
 RootId: 8766174116880648959
 Objects {
+  Id: 6797095804142629508
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 1930
+      Y: 610
+      Z: 405
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -179.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8766174116880648959
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 65.726593
+    Color {
+      R: 0.87
+      G: 0.449404
+      A: 1
+    }
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 735.092102
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 284.041779
+          SourceHeight: 234.611755
+        }
+      }
+      MaxDrawDistance: 5070.31543
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 3878361862962014491
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 1930
+      Y: -2335
+      Z: 385
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 2.73207552e-05
+      Roll: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8766174116880648959
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 65.726593
+    Color {
+      R: 0.87
+      G: 0.449404
+      A: 1
+    }
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 735.092102
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 284.041779
+          SourceHeight: 234.611755
+        }
+      }
+      MaxDrawDistance: 5070.31543
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 9719863166802339368
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 530
+      Y: -2800
+      Z: 385
+    }
+    Rotation {
+      Pitch: -90
+      Roll: -179.999969
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8766174116880648959
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 100
+    Color {
+      R: 0.87
+      G: 0.449404
+      A: 1
+    }
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 735.092102
+        AreaLight {
+          BarnDoorAngle: 50
+          SourceWidth: 284.041779
+          SourceHeight: 779.562
+        }
+      }
+      MaxDrawDistance: 5070.31543
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
   Id: 13327954459666312323
   Name: "Area Light"
   Transform {
@@ -59380,7 +59540,6 @@ Objects {
   ParentId: 8459636142620230994
   ChildIds: 7175419235137929332
   ChildIds: 17220171754504407348
-  ChildIds: 617781474163763600
   ChildIds: 1881353947917518118
   ChildIds: 1736770868654152433
   ChildIds: 1460089149971518786
@@ -59649,90 +59808,6 @@ Objects {
   }
 }
 Objects {
-  Id: 617781474163763600
-  Name: "Environment Fog Volumetric"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6018998941497996881
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Volumetric Fog"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Opacity"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Fog Density"
-      Float: 4.3051877
-    }
-    Overrides {
-      Name: "bp:Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Directional Inscattering Exponent"
-      Float: 2
-    }
-    Overrides {
-      Name: "bp:Directional Inscattering Color"
-      Color {
-        R: 0.447
-        G: 0.638
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Albedo"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Layered Fog Density"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Falloff"
-      Float: 0.253818274
-    }
-    Overrides {
-      Name: "bp:Light Absorption Amount"
-      Float: 1.00451708
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2224571462023946700
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
   Id: 17220171754504407348
   Name: "Environment Fog Normal"
   Transform {
@@ -59920,7 +59995,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 2
+      Float: 5
     }
     Overrides {
       Name: "bp:Indirect Intensity"

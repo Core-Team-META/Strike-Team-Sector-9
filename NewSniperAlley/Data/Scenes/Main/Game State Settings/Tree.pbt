@@ -143,6 +143,12 @@ Objects {
             Id: 11974742996071064388
           }
         }
+        Overrides {
+          Name: "Script"
+          AssetReference {
+            Id: 9688397502893697193
+          }
+        }
       }
     }
     ParameterOverrideMap {

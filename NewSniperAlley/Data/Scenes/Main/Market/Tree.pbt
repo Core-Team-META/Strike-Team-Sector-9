@@ -7353,7 +7353,7 @@ Objects {
 }
 Objects {
   Id: 14178940706080124113
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 860.96167
@@ -7467,7 +7467,7 @@ Objects {
 }
 Objects {
   Id: 13343645039919822167
-  Name: "Whitebox Stairs 01 L"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 1611.32861
@@ -8240,7 +8240,7 @@ Objects {
 }
 Objects {
   Id: 7234962034242372135
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 840.005615
@@ -8293,7 +8293,7 @@ Objects {
 }
 Objects {
   Id: 658292123718987584
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 860.821716
@@ -50576,7 +50576,7 @@ Objects {
 }
 Objects {
   Id: 8878744781996066632
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 1155.56299
@@ -50661,7 +50661,7 @@ Objects {
 }
 Objects {
   Id: 11945612501436254915
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1464.43701
@@ -50740,7 +50740,7 @@ Objects {
 }
 Objects {
   Id: 2611537249573329210
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 255.562988
@@ -50819,7 +50819,7 @@ Objects {
 }
 Objects {
   Id: 7479623386940631155
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1444.43701
@@ -54557,7 +54557,7 @@ Objects {
 }
 Objects {
   Id: 4177924454140688810
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1464.43408
@@ -71498,7 +71498,7 @@ Objects {
 }
 Objects {
   Id: 12414066239889474470
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1560.99268
@@ -71672,7 +71672,7 @@ Objects {
 }
 Objects {
   Id: 11915442695061929534
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1560.99268
@@ -71807,7 +71807,7 @@ Objects {
 }
 Objects {
   Id: 16566328473664328186
-  Name: "Whitebox Stairs 01 L"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 394.007324
@@ -71815,7 +71815,7 @@ Objects {
       Z: 695
     }
     Rotation {
-      Yaw: -89.9999619
+      Yaw: -89.9999695
     }
     Scale {
       X: 1.25
@@ -71866,7 +71866,7 @@ Objects {
 }
 Objects {
   Id: 9277244006516955177
-  Name: "Whitebox Wall 01 Doorway 01"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 359.007324
@@ -74133,7 +74133,7 @@ Objects {
 }
 Objects {
   Id: 281045229040512095
-  Name: "Cube - Bottom-Aligned"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -936.679688
@@ -74624,7 +74624,7 @@ Objects {
 }
 Objects {
   Id: 15798004865930103224
-  Name: "Curb 8m"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: 238.320313
@@ -95927,8 +95927,6 @@ Objects {
   ChildIds: 12274820977370263410
   ChildIds: 15485075364069258175
   ChildIds: 5597129322941763282
-  ChildIds: 16281359642572671782
-  ChildIds: 12263771205349552787
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95943,96 +95941,6 @@ Objects {
   }
   Folder {
     Model {
-    }
-  }
-}
-Objects {
-  Id: 12263771205349552787
-  Name: "Sci-fi Base Antenna 01"
-  Transform {
-    Location {
-      X: -21814.082
-      Y: 32304.1211
-      Z: 24445
-    }
-    Rotation {
-      Yaw: 175
-    }
-    Scale {
-      X: 11.25
-      Y: 11.25
-      Z: 35.5000076
-    }
-  }
-  ParentId: 5682970867462532758
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12584778807284305302
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 16281359642572671782
-  Name: "Sci-fi Base Antenna 01"
-  Transform {
-    Location {
-      X: -14103.9297
-      Y: -12448.7871
-      Z: 22495
-    }
-    Rotation {
-      Yaw: 55
-    }
-    Scale {
-      X: 11.25
-      Y: 11.25
-      Z: 35.5000076
-    }
-  }
-  ParentId: 5682970867462532758
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12584778807284305302
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
     }
   }
 }
@@ -96515,7 +96423,7 @@ Objects {
 }
 Objects {
   Id: 2345199387122609112
-  Name: "Sci-fi Base Ramp 02 4m"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -1025
@@ -96566,7 +96474,7 @@ Objects {
 }
 Objects {
   Id: 2171059591736431176
-  Name: "Sci-fi Base Ramp 02 4m"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -525
@@ -97149,7 +97057,7 @@ Objects {
 }
 Objects {
   Id: 9157999408767607939
-  Name: "Whitebox Stairs 01 L"
+  Name: "RoofDisable"
   Transform {
     Location {
       X: -915.07959
