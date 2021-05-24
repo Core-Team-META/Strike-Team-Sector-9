@@ -1,6 +1,76 @@
 Name: "Roofs_NoUnder"
 RootId: 7029092707572906147
 Objects {
+  Id: 12020636517433428437
+  Name: "Roof_NoUnder"
+  Transform {
+    Location {
+      X: -6575
+      Y: -6295
+      Z: -1507.85547
+    }
+    Rotation {
+      Yaw: 0.127724484
+    }
+    Scale {
+      X: 10.5
+      Y: 8
+      Z: 0.25
+    }
+  }
+  ParentId: 7029092707572906147
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.35
+        G: 0.35
+        B: 0.35
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.35
+        G: 0.35
+        B: 0.35
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 10914694099782445382
   Name: "Roof_NoUnder"
   Transform {
