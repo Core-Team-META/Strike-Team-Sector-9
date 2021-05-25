@@ -350,7 +350,7 @@ Objects {
   Name: "Girders"
   Transform {
     Location {
-      X: -7308.47
+      X: -7290
       Y: -3488.55371
       Z: -1476.39221
     }
@@ -358,8 +358,8 @@ Objects {
       Yaw: -179.999969
     }
     Scale {
-      X: 3.50000048
-      Y: 15.725111
+      X: 3.75
+      Y: 15.75
       Z: 1
     }
   }

@@ -1,6 +1,1546 @@
 Name: "Railings"
 RootId: 5672017890360782653
 Objects {
+  Id: 4805812574835424904
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -45.0090332
+      Y: -100.556091
+      Z: -1627.38513
+    }
+    Rotation {
+      Yaw: 0.127353579
+    }
+    Scale {
+      X: 27.5
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 13235586067635515770
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -1418.49072
+      Y: -1729.99646
+      Z: -1627.38513
+    }
+    Rotation {
+      Yaw: 90.1273575
+    }
+    Scale {
+      X: 33
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8617756129354311049
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -1595.00513
+      Y: 619.591431
+      Z: -1627.38513
+    }
+    Rotation {
+      Yaw: 0.127772361
+    }
+    Scale {
+      X: 11.249999
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5749859185207879014
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -2125.18457
+      Y: -1049.99805
+      Z: -1627.38513
+    }
+    Rotation {
+      Yaw: 90.1273575
+    }
+    Scale {
+      X: 33.5
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1024738555402816737
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -3380.30542
+      Y: -2703.66626
+      Z: -1627.38513
+    }
+    Rotation {
+      Yaw: 0.127772361
+    }
+    Scale {
+      X: 25.4903355
+      Y: 0.49999252
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12195318393150046417
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -7573.61084
+      Y: -4298.76563
+      Z: -1287.85547
+    }
+    Rotation {
+      Yaw: 0.127772361
+    }
+    Scale {
+      X: 8.98423
+      Y: 0.499999404
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6559164650413066307
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -9569.98535
+      Y: -7580.50684
+      Z: -2527.85547
+    }
+    Rotation {
+      Yaw: 0.127833843
+    }
+    Scale {
+      X: 16
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1107329096641414968
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -12322.3926
+      Y: -7676.86523
+      Z: -2527.85547
+    }
+    Rotation {
+      Yaw: -44.8721313
+    }
+    Scale {
+      X: 17.2500114
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15747016434843639486
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -11595
+      Y: -6150
+      Z: -1287.85547
+    }
+    Rotation {
+      Yaw: -89.8721619
+    }
+    Scale {
+      X: 4.5
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16882091820749865013
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -11185
+      Y: -6350
+      Z: -1287.85547
+    }
+    Rotation {
+      Yaw: 0.127772361
+    }
+    Scale {
+      X: 8.24999809
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6518687054662906518
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -13315
+      Y: -3775
+      Z: -1287.85547
+    }
+    Rotation {
+      Yaw: -44.8721313
+    }
+    Scale {
+      X: 10.25
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16278731177508480004
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -11275
+      Y: 2340
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: -179.872
+    }
+    Scale {
+      X: 6
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3218883092795780275
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -10720
+      Y: 2880
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: 90.1280441
+    }
+    Scale {
+      X: 6
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18347031150171774906
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -10810
+      Y: 3585
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: -179.871918
+    }
+    Scale {
+      X: 8
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4135435023649190158
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -8975
+      Y: 3585
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: -179.871918
+    }
+    Scale {
+      X: 7.75000095
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1417933322166784494
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -10005
+      Y: 6085
+      Z: -2692.85547
+    }
+    Rotation {
+      Yaw: -179.871918
+    }
+    Scale {
+      X: 2.75
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 15886355933108568010
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -7870
+      Y: 5400
+      Z: -2692.85547
+    }
+    Rotation {
+      Yaw: 90.1280594
+    }
+    Scale {
+      X: 14.2500057
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 939799598374506182
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -8585
+      Y: 6085
+      Z: -2692.85547
+    }
+    Rotation {
+      Yaw: -179.871918
+    }
+    Scale {
+      X: 14.2500057
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12366791031073424417
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -9345
+      Y: 6910
+      Z: -2692.85547
+    }
+    Rotation {
+      Yaw: -179.871918
+    }
+    Scale {
+      X: 5.50000048
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14670315941175223188
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -14715
+      Y: 855
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: 0.127844945
+    }
+    Scale {
+      X: 1.5
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11015751851722072523
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -13290
+      Y: 855
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: 0.127844945
+    }
+    Scale {
+      X: 15.0000057
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9489709939175721687
+  Name: "Railing"
+  Transform {
+    Location {
+      X: -11975
+      Y: 855
+      Z: -2547.85547
+    }
+    Rotation {
+      Yaw: 0.127844945
+    }
+    Scale {
+      X: 4
+      Y: 0.5
+      Z: 0.25
+    }
+  }
+  ParentId: 5672017890360782653
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.2
+        G: 0.2
+        B: 0.2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.399000019
+        G: 0.399000019
+        B: 0.399000019
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 3279260758032305773
   Name: "Railing"
   Transform {
@@ -23,9 +1563,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -93,9 +1633,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -163,9 +1703,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -233,9 +1773,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -303,9 +1843,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -373,9 +1913,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -443,9 +1983,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -513,9 +2053,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -583,9 +2123,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -653,9 +2193,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -723,9 +2263,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }
@@ -793,9 +2333,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.3
-        G: 0.3
-        B: 0.3
+        R: 0.2
+        G: 0.2
+        B: 0.2
         A: 1
       }
     }

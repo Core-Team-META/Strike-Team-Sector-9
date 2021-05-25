@@ -22,9 +22,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -92,9 +92,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -162,9 +162,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -232,9 +232,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -302,9 +302,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -371,9 +371,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -440,9 +440,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -509,9 +509,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }
@@ -578,9 +578,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.01
-        G: 0.01
-        B: 0.01
+        R: 0.005
+        G: 0.005
+        B: 0.005
         A: 1
       }
     }

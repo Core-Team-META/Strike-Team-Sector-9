@@ -22457,85 +22457,19 @@ Objects {
   Name: "Decal Graffiti Murals 01 (Variants)"
   Transform {
     Location {
-      X: -10097.6914
-      Y: -335.089233
-      Z: 262.506592
+      X: -9892.08496
+      Y: -317.274719
+      Z: 265.902039
     }
     Rotation {
-      Pitch: -0.939328551
-      Yaw: -175.0802
-      Roll: 108.643524
+      Pitch: 1.34828615
+      Yaw: -179.53421
+      Roll: 117.164345
     }
     Scale {
-      X: 1.00000453
-      Y: 0.80438
-      Z: 0.248632789
-    }
-  }
-  ParentId: 8766174116880648959
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color Secondary"
-      Color {
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 1
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.160199136
-        B: 0.590000033
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 17429250688696520263
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 1649736879385628929
-  Name: "Decal Graffiti Murals 01 (Variants)"
-  Transform {
-    Location {
-      X: -10169.9805
-      Y: -165.372314
-      Z: 262.506592
-    }
-    Rotation {
-      Pitch: 0.686488628
-      Yaw: 90.1712418
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 1.00000453
-      Y: 0.80438
-      Z: 0.248632789
+      X: 0.999998689
+      Y: 0.80437988
+      Z: 0.144452751
     }
   }
   ParentId: 8766174116880648959
@@ -44599,7 +44533,6 @@ Objects {
   ChildIds: 11847001376937434668
   ChildIds: 1676304603925733383
   ChildIds: 12817565359557842334
-  ChildIds: 6437424483610906325
   ChildIds: 10302542222668485976
   ChildIds: 2699367646953853486
   ChildIds: 15072942635482245299
@@ -44613,6 +44546,9 @@ Objects {
   ChildIds: 5993869619873662565
   ChildIds: 770445500813493231
   ChildIds: 2894381871513938195
+  ChildIds: 15152835800064026133
+  ChildIds: 14277532359596137676
+  ChildIds: 791030790394692945
   ChildIds: 8838456478839934161
   ChildIds: 15889388628232703140
   ChildIds: 12808879182547603604
@@ -44622,7 +44558,6 @@ Objects {
   ChildIds: 4576823147696932205
   ChildIds: 7751685422354828065
   ChildIds: 5187448842211768263
-  ChildIds: 13693230709651773836
   ChildIds: 16477452417140168290
   ChildIds: 13968733030059396844
   ChildIds: 8235873371991338292
@@ -44632,11 +44567,8 @@ Objects {
   ChildIds: 8427954884045343339
   ChildIds: 3034650022637776403
   ChildIds: 3719514462744901664
-  ChildIds: 15152835800064026133
-  ChildIds: 14277532359596137676
   ChildIds: 10468049996237749200
   ChildIds: 17263587354117821932
-  ChildIds: 791030790394692945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44651,65 +44583,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 791030790394692945
-  Name: "Decal Military Symbols 01"
-  Transform {
-    Location {
-      X: 10.7053223
-      Y: -289.008301
-      Z: 461.764923
-    }
-    Rotation {
-      Yaw: -179.999954
-      Roll: 89.9999466
-    }
-    Scale {
-      X: 0.848837137
-      Y: 0.20762594
-      Z: 0.0214754343
-    }
-  }
-  ParentId: 3090763336173666067
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 13
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.73
-        G: 0.362582833
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2334758909661228965
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -44846,121 +44719,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-}
-Objects {
-  Id: 14277532359596137676
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  Transform {
-    Location {
-      X: 206.236572
-      Y: -280
-      Z: 240
-    }
-    Rotation {
-      Pitch: 93.9023
-      Roll: 90
-    }
-    Scale {
-      X: 1
-      Y: 1.00000012
-      Z: 0.417060524
-    }
-  }
-  ParentId: 3090763336173666067
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        G: 0.72
-        B: 0.376688927
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7971533233606131662
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 15152835800064026133
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  Transform {
-    Location {
-      X: -211.580811
-      Y: -270.043457
-      Z: 240.903259
-    }
-    Rotation {
-      Pitch: -108.5979
-      Yaw: 13.472702
-      Roll: 90
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000036
-      Z: 0.130722672
-    }
-  }
-  ParentId: 3090763336173666067
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.25
-        G: 0.114238411
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7971533233606131662
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -45615,58 +45373,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13693230709651773836
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: -145.988159
-      Y: 162.02002
-      Z: 295
-    }
-    Rotation {
-      Pitch: 5.33394718
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 0.581684291
-      Y: 0.581684291
-      Z: 0.581684291
-    }
-  }
-  ParentId: 3090763336173666067
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 0
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18205316927619177531
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
   Id: 5187448842211768263
   Name: "Decal Sci-fi Details 01"
   Transform {
@@ -46287,6 +45993,180 @@ Objects {
   }
 }
 Objects {
+  Id: 791030790394692945
+  Name: "Decal Military Symbols 01"
+  Transform {
+    Location {
+      X: 10.7053223
+      Y: -289.008301
+      Z: 461.764923
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: 89.9999466
+    }
+    Scale {
+      X: 0.848837137
+      Y: 0.20762594
+      Z: 0.0214754343
+    }
+  }
+  ParentId: 3090763336173666067
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 13
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.73
+        G: 0.362582833
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2334758909661228965
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 14277532359596137676
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: 206.236572
+      Y: -280
+      Z: 240
+    }
+    Rotation {
+      Pitch: 93.9023
+      Roll: 90
+    }
+    Scale {
+      X: 1
+      Y: 1.00000012
+      Z: 0.417060524
+    }
+  }
+  ParentId: 3090763336173666067
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        G: 0.72
+        B: 0.376688927
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 15152835800064026133
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -211.580811
+      Y: -270.043457
+      Z: 240.903259
+    }
+    Rotation {
+      Pitch: -108.5979
+      Yaw: 13.472702
+      Roll: 90
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000036
+      Z: 0.130722672
+    }
+  }
+  ParentId: 3090763336173666067
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.25
+        G: 0.114238411
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 2894381871513938195
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   Transform {
@@ -46674,7 +46554,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46700,14 +46580,14 @@ Objects {
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   Transform {
     Location {
-      X: 126.010376
-      Y: 140.337891
-      Z: 310
+      X: 55.7101707
+      Y: 140.337906
+      Z: 303.817383
     }
     Rotation {
-      Pitch: -25.1537781
-      Yaw: -179.999969
-      Roll: 89.9999542
+      Pitch: -5.15377808
+      Yaw: 180
+      Roll: 90
     }
     Scale {
       X: 1.25
@@ -46719,13 +46599,13 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Shape Index"
-      Int: 4
+      Int: 6
     }
     Overrides {
       Name: "bp:Color"
       Color {
-        R: 0.399999976
-        G: 0.0874172151
+        G: 0.659999967
+        B: 0.45019877
         A: 1
       }
     }
@@ -46734,7 +46614,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46794,7 +46674,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46854,7 +46734,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46914,7 +46794,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -46975,63 +46855,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7971533233606131662
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 6437424483610906325
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  Transform {
-    Location {
-      X: -106.991455
-      Y: 135.585449
-      Z: 240.903259
-    }
-    Rotation {
-      Pitch: 26.4023685
-      Yaw: -179.999985
-      Roll: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.5
-    }
-  }
-  ParentId: 3090763336173666067
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.25
-        G: 0.114238411
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -48873,6 +48697,10 @@ Objects {
   ChildIds: 13965831911267092297
   ChildIds: 6857696469569902838
   ChildIds: 1385277832873641243
+  ChildIds: 17073173675593829900
+  ChildIds: 9886636658546468633
+  ChildIds: 6629508442125313603
+  ChildIds: 9375937250054214285
   ChildIds: 17408619382007343119
   ChildIds: 17751298358082743895
   ChildIds: 6261380139662642919
@@ -48882,21 +48710,16 @@ Objects {
   ChildIds: 17362985729040519378
   ChildIds: 12530509681906575613
   ChildIds: 2003917282974212360
-  ChildIds: 11680125205369392850
   ChildIds: 4287735344891466155
   ChildIds: 14472372189430455063
-  ChildIds: 17073173675593829900
   ChildIds: 6555116155901839366
   ChildIds: 9080091427652624832
   ChildIds: 12732325877418879625
   ChildIds: 10382329448400303001
   ChildIds: 5509767850096890703
   ChildIds: 12330183915401891955
-  ChildIds: 9886636658546468633
-  ChildIds: 6629508442125313603
   ChildIds: 13679229508393176576
   ChildIds: 17963702989703295983
-  ChildIds: 9375937250054214285
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -48911,65 +48734,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 9375937250054214285
-  Name: "Decal Military Symbols 01"
-  Transform {
-    Location {
-      X: 10.7053223
-      Y: -289.008301
-      Z: 461.764923
-    }
-    Rotation {
-      Yaw: -179.999954
-      Roll: 89.9999466
-    }
-    Scale {
-      X: 0.848837137
-      Y: 0.20762594
-      Z: 0.0214754343
-    }
-  }
-  ParentId: 1550916888176886781
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 13
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.73
-        G: 0.362582833
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2334758909661228965
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -49106,121 +48870,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-}
-Objects {
-  Id: 6629508442125313603
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  Transform {
-    Location {
-      X: 206.236572
-      Y: -280
-      Z: 240
-    }
-    Rotation {
-      Pitch: 93.9023
-      Roll: 90
-    }
-    Scale {
-      X: 1
-      Y: 1.00000012
-      Z: 0.417060524
-    }
-  }
-  ParentId: 1550916888176886781
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        G: 0.72
-        B: 0.376688927
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7971533233606131662
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 9886636658546468633
-  Name: "Decal Graffiti Scribbles 01 (Variants)"
-  Transform {
-    Location {
-      X: -211.580811
-      Y: -270.043457
-      Z: 240.903259
-    }
-    Rotation {
-      Pitch: -108.5979
-      Yaw: 13.472702
-      Roll: 90
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000036
-      Z: 0.130722672
-    }
-  }
-  ParentId: 1550916888176886781
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.25
-        G: 0.114238411
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7971533233606131662
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -49598,7 +49247,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -2.3293457
+      X: -2.32935047
       Y: -276.148926
       Z: 105.483307
     }
@@ -49607,8 +49256,8 @@ Objects {
     }
     Scale {
       X: 5
-      Y: 0.254462928
-      Z: 12.2988939
+      Y: 0.25
+      Z: 13.7500019
     }
   }
   ParentId: 1550916888176886781
@@ -49668,65 +49317,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-}
-Objects {
-  Id: 17073173675593829900
-  Name: "Decal Military Symbols 01"
-  Transform {
-    Location {
-      X: 10.7053223
-      Y: -289.008301
-      Z: 81.5833282
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: 89.9999542
-    }
-    Scale {
-      X: 0.848837137
-      Y: 0.20762594
-      Z: 0.0214754343
-    }
-  }
-  ParentId: 1550916888176886781
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 13
-    }
-    Overrides {
-      Name: "bp:Color"
-      Color {
-        R: 0.73
-        G: 0.362582833
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2334758909661228965
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -49881,58 +49471,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-}
-Objects {
-  Id: 11680125205369392850
-  Name: "Decal Military Posters 01"
-  Transform {
-    Location {
-      X: -145.988159
-      Y: 162.02002
-      Z: 295
-    }
-    Rotation {
-      Pitch: 5.33394718
-      Yaw: -179.999985
-      Roll: 89.9999847
-    }
-    Scale {
-      X: 0.581684291
-      Y: 0.581684291
-      Z: 0.581684291
-    }
-  }
-  ParentId: 1550916888176886781
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Shape Index"
-      Int: 0
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 18205316927619177531
-    }
-    TeamSettings {
-    }
-    DecalBP {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -50556,6 +50094,239 @@ Objects {
   }
 }
 Objects {
+  Id: 9375937250054214285
+  Name: "Decal Military Symbols 01"
+  Transform {
+    Location {
+      X: 10.7053223
+      Y: -289.008301
+      Z: 461.764923
+    }
+    Rotation {
+      Yaw: -179.999954
+      Roll: 89.9999466
+    }
+    Scale {
+      X: 0.848837137
+      Y: 0.20762594
+      Z: 0.0214754343
+    }
+  }
+  ParentId: 1550916888176886781
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 13
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.73
+        G: 0.362582833
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2334758909661228965
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 6629508442125313603
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: 206.236572
+      Y: -280
+      Z: 240
+    }
+    Rotation {
+      Pitch: 93.9023
+      Roll: 90
+    }
+    Scale {
+      X: 1
+      Y: 1.00000012
+      Z: 0.417060524
+    }
+  }
+  ParentId: 1550916888176886781
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        G: 0.72
+        B: 0.376688927
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 9886636658546468633
+  Name: "Decal Graffiti Scribbles 01 (Variants)"
+  Transform {
+    Location {
+      X: -211.580811
+      Y: -270.043457
+      Z: 240.903259
+    }
+    Rotation {
+      Pitch: -108.5979
+      Yaw: 13.472702
+      Roll: 90
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000036
+      Z: 0.130722672
+    }
+  }
+  ParentId: 1550916888176886781
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.25
+        G: 0.114238411
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7971533233606131662
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
+  Id: 17073173675593829900
+  Name: "Decal Military Symbols 01"
+  Transform {
+    Location {
+      X: 10.7053223
+      Y: -289.008301
+      Z: 81.5833282
+    }
+    Rotation {
+      Yaw: -179.999969
+      Roll: 89.9999542
+    }
+    Scale {
+      X: 0.848837137
+      Y: 0.20762594
+      Z: 0.0214754343
+    }
+  }
+  ParentId: 1550916888176886781
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Shape Index"
+      Int: 13
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.73
+        G: 0.362582833
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2334758909661228965
+    }
+    TeamSettings {
+    }
+    DecalBP {
+    }
+  }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
+  }
+}
+Objects {
   Id: 1385277832873641243
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   Transform {
@@ -50592,7 +50363,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50651,7 +50422,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50696,7 +50467,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50749,7 +50520,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50794,7 +50565,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50840,7 +50611,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50885,7 +50656,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -50943,7 +50714,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51003,7 +50774,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51063,7 +50834,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51123,7 +50894,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51183,7 +50954,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51244,7 +51015,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -51300,7 +51071,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
