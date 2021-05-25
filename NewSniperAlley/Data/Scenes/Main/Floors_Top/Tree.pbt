@@ -1,6 +1,972 @@
 Name: "Floors_Top"
 RootId: 11785758236262013711
 Objects {
+  Id: 294507024061103970
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1239.77197
+      Y: 6369.83691
+      Z: -1352.85547
+    }
+    Rotation {
+      Yaw: -175.153381
+    }
+    Scale {
+      X: 3.41581321
+      Y: 2.75000381
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11718443638086429412
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1198.71533
+      Y: 6366.35547
+      Z: -1352.85547
+    }
+    Rotation {
+      Yaw: 134.313339
+    }
+    Scale {
+      X: 5.72122383
+      Y: 2.74999738
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2359868506198662406
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1089.60693
+      Y: 6585.33887
+      Z: -1352.85547
+    }
+    Rotation {
+      Yaw: 90.1274185
+    }
+    Scale {
+      X: 1.81743741
+      Y: 7.38578606
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16356922342698822371
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1454.9873
+      Y: 6279.83105
+      Z: -1352.85547
+    }
+    Rotation {
+      Yaw: 90.1274185
+    }
+    Scale {
+      X: 7.75
+      Y: 2.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7951832826164299376
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1072.8584
+      Y: 6249.1167
+      Z: -1352.85547
+    }
+    Rotation {
+      Yaw: 135.127411
+    }
+    Scale {
+      X: 8.39392185
+      Y: 1.4999969
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7725788485406997454
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: -415
+      Y: 2460
+      Z: -1327.85547
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 4.25
+      Y: 8.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1610547679469334497
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 272.487061
+      Y: 1889.67554
+      Z: -1327.85547
+    }
+    Rotation {
+      Yaw: -129.872528
+    }
+    Scale {
+      X: 7.5
+      Y: 13.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14945126667217258521
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1567.77148
+      Y: 2304.3667
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 135.127411
+    }
+    Scale {
+      X: 7.5
+      Y: 13.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9749208989770920134
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 659.025879
+      Y: 2193.91431
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 135.127411
+    }
+    Scale {
+      X: 13.000001
+      Y: 13.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6970961733054152171
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1579.98682
+      Y: 2839.0166
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 90.1274185
+    }
+    Scale {
+      X: 4
+      Y: 24.5000076
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4459738256959195388
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 2024.8877
+      Y: 2494.99316
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 90.1274185
+    }
+    Scale {
+      X: 4
+      Y: 20.25
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 8374273346028646650
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 2786.6792
+      Y: 2891.95361
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 45.1273766
+    }
+    Scale {
+      X: 2.5
+      Y: 7
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12966592367283978114
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 1589.98682
+      Y: 3124.91821
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 90.1274185
+    }
+    Scale {
+      X: 2.5
+      Y: 20.25
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1979304364379127399
+  Name: "Floor_Top"
+  Transform {
+    Location {
+      X: 75.9902344
+      Y: 2666.18188
+      Z: -1512.85547
+    }
+    Rotation {
+      Yaw: 135.127411
+    }
+    Scale {
+      X: 2.5
+      Y: 13.75
+      Z: 1
+    }
+  }
+  ParentId: 11785758236262013711
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.045
+        G: 0.045
+        B: 0.045
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.86
+        B: 0.803046048
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 6850007488952781136
   Name: "Floor_Top"
   Transform {
@@ -15,7 +981,7 @@ Objects {
     Scale {
       X: 5.50000143
       Y: 31.2500019
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -23,9 +989,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -84,7 +1050,7 @@ Objects {
     Scale {
       X: 2.75
       Y: 8.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -92,9 +1058,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -153,7 +1119,7 @@ Objects {
     Scale {
       X: 6.25
       Y: 4.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -161,9 +1127,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -222,7 +1188,7 @@ Objects {
     Scale {
       X: 5.25
       Y: 4.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -230,9 +1196,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -291,7 +1257,7 @@ Objects {
     Scale {
       X: 9.5
       Y: 6.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -299,9 +1265,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -360,7 +1326,7 @@ Objects {
     Scale {
       X: 12
       Y: 6.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -368,9 +1334,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -429,7 +1395,7 @@ Objects {
     Scale {
       X: 12
       Y: 3.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -437,9 +1403,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -498,7 +1464,7 @@ Objects {
     Scale {
       X: 12
       Y: 7.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -506,9 +1472,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -567,7 +1533,7 @@ Objects {
     Scale {
       X: 12
       Y: 8.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -575,9 +1541,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -636,7 +1602,7 @@ Objects {
     Scale {
       X: 12
       Y: 8.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -644,9 +1610,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -705,7 +1671,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 8
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -713,9 +1679,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -774,7 +1740,7 @@ Objects {
     Scale {
       X: 3.5
       Y: 11.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -782,9 +1748,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -843,7 +1809,7 @@ Objects {
     Scale {
       X: 3.5
       Y: 11.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -851,9 +1817,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -912,7 +1878,7 @@ Objects {
     Scale {
       X: 8.75
       Y: 12.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -920,9 +1886,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -971,8 +1937,8 @@ Objects {
   Name: "Floor_Top"
   Transform {
     Location {
-      X: -5950.24414
-      Y: 5060
+      X: -5950.21484
+      Y: 5044.98682
       Z: -1602.85547
     }
     Rotation {
@@ -980,8 +1946,8 @@ Objects {
     }
     Scale {
       X: 8.75
-      Y: 12.25
-      Z: 0.25
+      Y: 12
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -989,9 +1955,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1040,8 +2006,8 @@ Objects {
   Name: "Floor_Top"
   Transform {
     Location {
-      X: -5688.8042
-      Y: 5182.93408
+      X: -5767.71973
+      Y: 4985.96973
       Z: -1602.85547
     }
     Rotation {
@@ -1049,8 +2015,8 @@ Objects {
     }
     Scale {
       X: 8.75
-      Y: 12.25
-      Z: 0.25
+      Y: 8.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1058,9 +2024,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1109,8 +2075,8 @@ Objects {
   Name: "Floor_Top"
   Transform {
     Location {
-      X: -3135
-      Y: 5060
+      X: -3134.88623
+      Y: 5009.98682
       Z: -1602.85547
     }
     Rotation {
@@ -1118,8 +2084,8 @@ Objects {
     }
     Scale {
       X: 8.75
-      Y: 12.25
-      Z: 0.25
+      Y: 11.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1127,9 +2093,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1178,8 +2144,8 @@ Objects {
   Name: "Floor_Top"
   Transform {
     Location {
-      X: -3431.58936
-      Y: 5182.93408
+      X: -3327.55469
+      Y: 4961.11963
       Z: -1602.85547
     }
     Rotation {
@@ -1187,8 +2153,8 @@ Objects {
     }
     Scale {
       X: 8.75
-      Y: 12.25
-      Z: 0.25
+      Y: 7.24999905
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1196,9 +2162,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1257,7 +2223,7 @@ Objects {
     Scale {
       X: 8.75
       Y: 12.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1265,9 +2231,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1326,7 +2292,7 @@ Objects {
     Scale {
       X: 2.5
       Y: 11.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1334,9 +2300,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1395,7 +2361,7 @@ Objects {
     Scale {
       X: 2.5
       Y: 11.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1403,9 +2369,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1464,7 +2430,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 10.500001
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1472,9 +2438,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1533,7 +2499,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 10.500001
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1541,9 +2507,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1602,7 +2568,7 @@ Objects {
     Scale {
       X: 2.25
       Y: 3.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1610,9 +2576,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1671,7 +2637,7 @@ Objects {
     Scale {
       X: 2.25
       Y: 5.75000048
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1679,9 +2645,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1740,7 +2706,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 8
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1748,9 +2714,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -1809,7 +2775,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 8
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -1817,492 +2783,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 6648245750609520411
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7308.47
-      Y: -3488.55371
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 3.50000048
-      Y: 15.725111
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 9720745651105095415
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7287.30664
-      Y: -2164.36475
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 178.569931
-    }
-    Scale {
-      X: 3.50000048
-      Y: 15.725111
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 7442592922178189802
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7235
-      Y: -615
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 177.611908
-    }
-    Scale {
-      X: 3.50000048
-      Y: 15.725111
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13143656204817692535
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7188.92188
-      Y: 813.015869
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 178.519638
-    }
-    Scale {
-      X: 3.49999666
-      Y: 14.107378
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 6600039069388633901
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7180
-      Y: 2640
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: -179.872543
-    }
-    Scale {
-      X: 3.49999976
-      Y: 27.4999962
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13192418385421541145
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7621.43457
-      Y: 1432.61719
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 90.1277084
-    }
-    Scale {
-      X: 3.38398647
-      Y: 13.8878069
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 16968587823173353948
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -7625.39844
-      Y: 4150.67676
-      Z: -1476.39221
-    }
-    Rotation {
-      Yaw: 90.1277084
-    }
-    Scale {
-      X: 3.38398647
-      Y: 13.8878069
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2361,7 +2844,7 @@ Objects {
     Scale {
       X: 7
       Y: 2.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2369,9 +2852,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2430,7 +2913,7 @@ Objects {
     Scale {
       X: 7
       Y: 2.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2438,9 +2921,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2499,7 +2982,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 2.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2507,9 +2990,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2568,7 +3051,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 3
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2576,9 +3059,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2637,7 +3120,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 3
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2645,9 +3128,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2706,7 +3189,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 8.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2714,9 +3197,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2775,7 +3258,7 @@ Objects {
     Scale {
       X: 6.00000048
       Y: 7.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2783,78 +3266,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.86
-        B: 0.803046048
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 5087584725025821623
-  Name: "Floor_Top"
-  Transform {
-    Location {
-      X: -10502.0117
-      Y: 19.4981689
-      Z: -1432.85547
-    }
-    Rotation {
-      Yaw: -79.8718262
-    }
-    Scale {
-      X: 3
-      Y: 12.25
-      Z: 0.25
-    }
-  }
-  ParentId: 11785758236262013711
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2913,7 +3327,7 @@ Objects {
     Scale {
       X: 8.74999809
       Y: 12.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2921,9 +3335,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -2982,7 +3396,7 @@ Objects {
     Scale {
       X: 4.5
       Y: 12.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -2990,9 +3404,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3051,7 +3465,7 @@ Objects {
     Scale {
       X: 4.50000095
       Y: 12.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3059,9 +3473,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3120,7 +3534,7 @@ Objects {
     Scale {
       X: 4.5
       Y: 12.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3128,9 +3542,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3189,7 +3603,7 @@ Objects {
     Scale {
       X: 9.75000095
       Y: 5.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3197,9 +3611,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3258,7 +3672,7 @@ Objects {
     Scale {
       X: 7.50000048
       Y: 2.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3266,9 +3680,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3327,7 +3741,7 @@ Objects {
     Scale {
       X: 7.75
       Y: 3.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3335,9 +3749,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3396,7 +3810,7 @@ Objects {
     Scale {
       X: 7.50000048
       Y: 2.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3404,9 +3818,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3465,7 +3879,7 @@ Objects {
     Scale {
       X: 7.50000048
       Y: 2.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3473,9 +3887,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3534,7 +3948,7 @@ Objects {
     Scale {
       X: 4
       Y: 12.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3542,9 +3956,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3603,7 +4017,7 @@ Objects {
     Scale {
       X: 4.5
       Y: 12.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3611,9 +4025,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3672,7 +4086,7 @@ Objects {
     Scale {
       X: 7.74999905
       Y: 12.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3680,9 +4094,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3741,7 +4155,7 @@ Objects {
     Scale {
       X: 11.500001
       Y: 11.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3749,9 +4163,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3810,7 +4224,7 @@ Objects {
     Scale {
       X: 10.5
       Y: 8
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3818,9 +4232,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3879,7 +4293,7 @@ Objects {
     Scale {
       X: 18.75
       Y: 11.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3887,9 +4301,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -3948,7 +4362,7 @@ Objects {
     Scale {
       X: 12.75
       Y: 7.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -3956,9 +4370,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4017,7 +4431,7 @@ Objects {
     Scale {
       X: 16.25
       Y: 5.25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4025,9 +4439,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4086,7 +4500,7 @@ Objects {
     Scale {
       X: 12.75
       Y: 7.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4094,9 +4508,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4155,7 +4569,7 @@ Objects {
     Scale {
       X: 1.79980516
       Y: 3.99999905
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4163,9 +4577,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4224,7 +4638,7 @@ Objects {
     Scale {
       X: 4.10212088
       Y: 4.01455164
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4232,9 +4646,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4293,7 +4707,7 @@ Objects {
     Scale {
       X: 5
       Y: 4.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4301,9 +4715,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4362,7 +4776,7 @@ Objects {
     Scale {
       X: 5.25
       Y: 12.000001
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4370,9 +4784,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4431,7 +4845,7 @@ Objects {
     Scale {
       X: 5
       Y: 25
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4439,9 +4853,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4500,7 +4914,7 @@ Objects {
     Scale {
       X: 4.14899397
       Y: 22
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4508,9 +4922,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4569,7 +4983,7 @@ Objects {
     Scale {
       X: 32.9999962
       Y: 4.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4577,9 +4991,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4638,7 +5052,7 @@ Objects {
     Scale {
       X: 15.75
       Y: 22
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4646,9 +5060,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4707,7 +5121,7 @@ Objects {
     Scale {
       X: 14.5000057
       Y: 12.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4715,9 +5129,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4776,7 +5190,7 @@ Objects {
     Scale {
       X: 18.75
       Y: 8.5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4784,9 +5198,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4847,7 +5261,7 @@ Objects {
     Scale {
       X: 10.25
       Y: 5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4855,9 +5269,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4916,7 +5330,7 @@ Objects {
     Scale {
       X: 5.25
       Y: 5.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4924,9 +5338,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -4987,7 +5401,7 @@ Objects {
     Scale {
       X: 10.25
       Y: 5
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -4995,9 +5409,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -5056,7 +5470,7 @@ Objects {
     Scale {
       X: 8.25
       Y: 12.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -5064,9 +5478,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -5125,7 +5539,7 @@ Objects {
     Scale {
       X: 11
       Y: 17.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -5133,9 +5547,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -5194,7 +5608,7 @@ Objects {
     Scale {
       X: 8.25
       Y: 12.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -5202,9 +5616,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }
@@ -5263,7 +5677,7 @@ Objects {
     Scale {
       X: 4.5
       Y: 12.75
-      Z: 0.25
+      Z: 1
     }
   }
   ParentId: 11785758236262013711
@@ -5271,9 +5685,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.0395462364
-        G: 0.0395462364
-        B: 0.0395462364
+        R: 0.045
+        G: 0.045
+        B: 0.045
         A: 1
       }
     }

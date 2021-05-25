@@ -1021,15 +1021,16 @@ Objects {
     }
   }
   ParentId: 4640656666554656207
-  ChildIds: 7029092707572906147
+  ChildIds: 5672017890360782653
+  ChildIds: 16784286148707766175
   ChildIds: 7504169939027488986
-  ChildIds: 16946389480615430834
-  ChildIds: 15955438703316902905
-  ChildIds: 12540001724276366097
-  ChildIds: 8510093783530742575
   ChildIds: 11785758236262013711
-  ChildIds: 6556430839478484623
+  ChildIds: 15955438703316902905
+  ChildIds: 8510093783530742575
+  ChildIds: 7189575281797509683
+  ChildIds: 5753028465361904328
   ChildIds: 1263786822384087330
+  ChildIds: 4973729552742677746
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1041,6 +1042,38 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4973729552742677746
+  Name: "Girders"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Girders"
   }
 }
 Objects {
@@ -1076,8 +1109,8 @@ Objects {
   }
 }
 Objects {
-  Id: 6556430839478484623
-  Name: "Borders"
+  Id: 5753028465361904328
+  Name: "Roads"
   Transform {
     Location {
     }
@@ -1104,12 +1137,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Borders"
+    FilePartitionName: "Roads"
   }
 }
 Objects {
-  Id: 11785758236262013711
-  Name: "Floors_Top"
+  Id: 7189575281797509683
+  Name: "RoofOnTop"
   Transform {
     Location {
     }
@@ -1136,7 +1169,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Floors_Top"
+    FilePartitionName: "RoofOnTop"
   }
 }
 Objects {
@@ -1172,38 +1205,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12540001724276366097
-  Name: "Floors_Industry_Mid"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16967589606165470062
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Floors_Industry_Mid"
-  }
-}
-Objects {
   Id: 15955438703316902905
   Name: "Floors_2Floor"
   Transform {
@@ -1236,8 +1237,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16946389480615430834
-  Name: "Stairs"
+  Id: 11785758236262013711
+  Name: "Floors_Top"
   Transform {
     Location {
     }
@@ -1264,7 +1265,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Stairs"
+    FilePartitionName: "Floors_Top"
   }
 }
 Objects {
@@ -1303,8 +1304,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7029092707572906147
-  Name: "Roofs_NoUnder"
+  Id: 16784286148707766175
+  Name: "Walls"
   Transform {
     Location {
     }
@@ -1331,7 +1332,39 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Roofs_NoUnder"
+    FilePartitionName: "Walls"
+  }
+}
+Objects {
+  Id: 5672017890360782653
+  Name: "Railings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Railings"
   }
 }
 Objects {

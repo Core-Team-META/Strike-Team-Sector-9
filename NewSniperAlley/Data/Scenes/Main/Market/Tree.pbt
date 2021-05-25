@@ -40738,7 +40738,8 @@ Objects {
   Transform {
     Location {
       X: 115
-      Y: 4.78295898
+      Y: 2.42553711
+      Z: 8.69793701
     }
     Rotation {
       Roll: -96.8023682
@@ -40803,7 +40804,8 @@ Objects {
   Transform {
     Location {
       X: -70
-      Y: 4.78295898
+      Y: 2.42553711
+      Z: 8.69793701
     }
     Rotation {
       Roll: -96.8023682
