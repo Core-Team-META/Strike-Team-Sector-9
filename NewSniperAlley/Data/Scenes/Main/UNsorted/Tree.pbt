@@ -63923,17 +63923,17 @@ Objects {
   Name: "Sci-fi Base Capsule 02 8m"
   Transform {
     Location {
-      X: -1270
-      Y: -4940
+      X: -1285.92834
+      Y: -4923.11
       Z: 1096.12427
     }
     Rotation {
       Yaw: -90
     }
     Scale {
-      X: 1.13150609
-      Y: 1.13150609
-      Z: 0.903494835
+      X: 1.08932662
+      Y: 1.08932662
+      Z: 0.869815
     }
   }
   ParentId: 8766174116880648959
@@ -64000,16 +64000,16 @@ Objects {
   Name: "Sci-fi Base Capsule 02 8m"
   Transform {
     Location {
-      X: -1270
-      Y: -5377.36963
+      X: -1285.92834
+      Y: -5387.604
       Z: 1096.12427
     }
     Rotation {
     }
     Scale {
-      X: 1.13150609
-      Y: 1.13150609
-      Z: 0.903494835
+      X: 1.08932662
+      Y: 1.08932662
+      Z: 0.869815
     }
   }
   ParentId: 8766174116880648959

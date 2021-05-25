@@ -1029,6 +1029,7 @@ Objects {
   ChildIds: 8510093783530742575
   ChildIds: 11785758236262013711
   ChildIds: 6556430839478484623
+  ChildIds: 1263786822384087330
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1040,6 +1041,38 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1263786822384087330
+  Name: "Floors_Ground"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Floors_Ground"
   }
 }
 Objects {
@@ -1076,7 +1109,7 @@ Objects {
 }
 Objects {
   Id: 11785758236262013711
-  Name: "Floors_Plaza"
+  Name: "Floors_Top"
   Transform {
     Location {
     }
@@ -1103,12 +1136,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Floors_Plaza"
+    FilePartitionName: "Floors_Top"
   }
 }
 Objects {
   Id: 8510093783530742575
-  Name: "Floors_Industry_Bot"
+  Name: "Floors_Platforms"
   Transform {
     Location {
     }
@@ -1135,7 +1168,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Floors_Industry_Bot"
+    FilePartitionName: "Floors_Platforms"
   }
 }
 Objects {

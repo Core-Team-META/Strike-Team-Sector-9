@@ -1,6 +1,1651 @@
 Name: "Roof_NoAccess"
 RootId: 7504169939027488986
 Objects {
+  Id: 2759093679690204610
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 7825
+      Y: 735
+      Z: -165
+    }
+    Rotation {
+      Yaw: -89.8722839
+    }
+    Scale {
+      X: 4.75000095
+      Y: 5.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2043371861609238677
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3687.56226
+      Y: 2941.56372
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 1.5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16213079263579214090
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4157.78857
+      Y: 3411.78955
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 2.5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9892931854311015099
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4275
+      Y: 3472.89404
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10932872407671857128
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4965
+      Y: 3472.89404
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1044781166915577315
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 5580
+      Y: 3472.89404
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2911631467373995381
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6217.25098
+      Y: 3472.89404
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 4498609451328928783
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6300.32178
+      Y: 3443.60962
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5373481188765477216
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6718.1792
+      Y: 3026.02393
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 1.75
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5754022344187357563
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6750
+      Y: 2774.99976
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2542838819174105267
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3195
+      Y: 2190
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12469609616137563864
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3280
+      Y: 2255
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5095333987289060248
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3132.48267
+      Y: 2379.41455
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -135
+    }
+    Scale {
+      X: 5
+      Y: 1.75
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14545143659264609060
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4569.33301
+      Y: 1055.70544
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -5
+    }
+    Scale {
+      X: 7.75
+      Y: 1.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 13214866453207988980
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4797.71875
+      Y: 1195.0105
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 7.75
+      Y: 1.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7717769873953124374
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4620
+      Y: 935
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.75
+      Y: 1.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3360335994669242126
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4564.37354
+      Y: 1322.28979
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 7.75
+      Y: 2.75
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10611054677630265764
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 4210
+      Y: 1125
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.75
+      Y: 5.00000191
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10709464549953052486
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3455
+      Y: 1255
+      Z: 1802.01501
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.75
+      Y: 8.75000095
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11225291970098405590
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 2933.46948
+      Y: 1542.66846
+      Z: 1802.01501
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 14.5
+      Y: 5.5
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 1003039903632069840
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 3668.54126
+      Y: 1634.74426
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -39.8721313
+    }
+    Scale {
+      X: 14.7500038
+      Y: 5.5
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 545885068280359992
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 5781.79834
+      Y: 1895.72559
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -44.8721924
+    }
+    Scale {
+      X: 10.5
+      Y: 11.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2903322586251042282
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6060.48438
+      Y: 1580.36121
+      Z: 1845
+    }
+    Rotation {
+      Yaw: -44.8722229
+    }
+    Scale {
+      X: 10.5
+      Y: 10.7500019
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9426635912918812551
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 6340.22119
+      Y: 2114.99487
+      Z: 1845
+    }
+    Rotation {
+      Yaw: 0.127724484
+    }
+    Scale {
+      X: 10.5
+      Y: 10.7500019
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 16082895123269462950
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: -7140.01758
+      Y: 1129.99719
+      Z: 375
+    }
+    Rotation {
+      Yaw: 0.127724484
+    }
+    Scale {
+      X: 4.25
+      Y: 3.75
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5208384338808802939
+  Name: "Roof_NoAccess"
+  Transform {
+    Location {
+      X: 119.999702
+      Y: -2205.02393
+      Z: -165
+    }
+    Rotation {
+      Yaw: 0.127724484
+    }
+    Scale {
+      X: 4.75000095
+      Y: 5.25
+      Z: 0.25
+    }
+  }
+  ParentId: 7504169939027488986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 16170368896177716397
   Name: "Roof_NoAccess"
   Transform {
