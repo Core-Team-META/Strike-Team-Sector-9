@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -128,7 +128,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -172,7 +172,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -220,7 +220,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -230,7 +230,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -270,7 +270,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -328,7 +328,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -355,7 +355,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -413,7 +413,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -440,7 +440,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -488,7 +488,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -498,7 +498,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -538,11 +538,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -586,7 +586,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -596,7 +596,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -636,11 +636,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -684,7 +684,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -694,7 +694,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -734,11 +734,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -782,7 +782,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -792,7 +792,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -832,11 +832,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -880,7 +880,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -890,7 +890,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -930,11 +930,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -978,7 +978,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -988,7 +988,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1028,11 +1028,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1076,7 +1076,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1086,7 +1086,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1126,11 +1126,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1174,7 +1174,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1184,7 +1184,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1224,11 +1224,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1272,7 +1272,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1282,7 +1282,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1322,11 +1322,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1370,7 +1370,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1380,7 +1380,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1420,11 +1420,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1468,7 +1468,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1478,7 +1478,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1518,11 +1518,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1566,7 +1566,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3722419759708884904
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1576,7 +1576,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 11460019733850282625
+              Id: 8672213093082683866
             }
           }
           Overrides {
@@ -1616,11 +1616,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 1254954322323649728
+            Id: 4034288542561480967
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1712,7 +1712,7 @@ Assets {
       }
     }
     Assets {
-      Id: 11460019733850282625
+      Id: 8672213093082683866
       Name: "Ceramic Terracotta Pots Old 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1730,7 +1730,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3722419759708884904
+      Id: 7283825798727192743
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -1748,7 +1748,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1254954322323649728
+      Id: 4034288542561480967
       Name: "Cone - Truncated Narrow"
       PlatformAssetType: 1
       PrimaryAsset {

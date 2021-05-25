@@ -7,7 +7,7 @@ Assets {
       RootId: 6140102532710196450
       Objects {
         Id: 6140102532710196450
-        Name: "Easter Mamba_Scope"
+        Name: "SCOPE_SR_T055_Easter"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -296,25 +296,25 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -409,7 +409,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
         }
@@ -779,7 +779,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -854,13 +854,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -924,7 +924,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -945,7 +945,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 1778446291070997431
+              Id: 10498479629754026470
             }
           }
         }
@@ -2323,7 +2323,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -2395,7 +2395,7 @@ Assets {
       }
     }
     Assets {
-      Id: 1778446291070997431
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {

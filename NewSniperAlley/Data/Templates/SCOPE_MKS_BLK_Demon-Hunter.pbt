@@ -115,7 +115,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -727,7 +727,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -950,7 +950,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1133,7 +1133,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3770287877712236950
+      Id: 2606200893917864133
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {

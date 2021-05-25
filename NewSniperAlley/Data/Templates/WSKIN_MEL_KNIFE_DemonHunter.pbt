@@ -27,7 +27,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -179,7 +179,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -267,7 +267,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -386,11 +386,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 217094956185289111
+            Id: 17677837148037018153
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -454,11 +454,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -523,11 +523,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 13623297126733972691
+            Id: 8886444384822756582
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -589,7 +589,7 @@ Assets {
       }
     }
     Assets {
-      Id: 217094956185289111
+      Id: 17677837148037018153
       Name: "Fantasy Crossbow Bow 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -598,7 +598,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13623297126733972691
+      Id: 8886444384822756582
       Name: "Bone Human Skull 01"
       PlatformAssetType: 1
       PrimaryAsset {

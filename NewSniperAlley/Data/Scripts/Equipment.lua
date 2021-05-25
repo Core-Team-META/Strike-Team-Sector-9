@@ -112,6 +112,19 @@ function Equipment:GetSlot()
     return self.data.slot
 end
 
+function Equipment:GetScale()
+    return self.data.scale
+end
+
+function Equipment:GetOffset()
+    return self.data.offset
+end
+
+
+function Equipment:GetRarity()
+    return self.data.rarity
+end
+
 function Equipment:GetWeapon()
     return self.data.weapon
 end

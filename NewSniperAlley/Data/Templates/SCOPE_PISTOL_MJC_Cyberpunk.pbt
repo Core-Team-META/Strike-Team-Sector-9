@@ -7,7 +7,7 @@ Assets {
       RootId: 12300771815709501493
       Objects {
         Id: 12300771815709501493
-        Name: "Burst Pistol Scope Cyber Punk Skin"
+        Name: "SCOPE_PISTOL_MJC_Cyberpunk"
         Transform {
           Scale {
             X: 1
@@ -100,8 +100,8 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 43.6852417
-            Z: -17.6313477
+            X: 43.6855431
+            Z: -17.329
           }
           Rotation {
           }
@@ -142,7 +142,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -601,7 +601,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -689,7 +689,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10306372201280469432
+            Id: 6401267888352383342
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1048,7 +1048,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1156,7 +1156,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15308732615554893201
+            Id: 11163553518068168146
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1945,7 +1945,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10306372201280469432
+      Id: 6401267888352383342
       Name: "Military Tank Modern Gear 02"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -1972,7 +1972,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15308732615554893201
+      Id: 11163553518068168146
       Name: "Fantasy Shield 03"
       PlatformAssetType: 1
       PrimaryAsset {

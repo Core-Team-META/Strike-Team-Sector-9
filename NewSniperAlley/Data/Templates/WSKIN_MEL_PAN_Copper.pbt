@@ -65,7 +65,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -408,7 +408,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17247144728659008027
+              Id: 880438725694603599
             }
           }
           Overrides {
@@ -890,7 +890,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17247144728659008027
+      Id: 880438725694603599
       Name: "Rubber Basic 01"
       PlatformAssetType: 2
       PrimaryAsset {

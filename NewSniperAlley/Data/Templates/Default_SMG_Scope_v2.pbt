@@ -7,7 +7,7 @@ Assets {
       RootId: 4723594518962803813
       Objects {
         Id: 4723594518962803813
-        Name: "Default_SMG_Scope_v2"
+        Name: "SCOPE_SMG_ESTC_Default"
         Transform {
           Scale {
             X: 1
@@ -88,7 +88,7 @@ Assets {
         Transform {
           Location {
             X: 10.9029541
-            Z: -25.4387894
+            Z: -25.25
           }
           Rotation {
           }
@@ -139,7 +139,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -187,7 +187,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -309,11 +309,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 9498823304973238158
+            Id: 11860040597399652835
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1978,9 +1978,11 @@ Assets {
           }
         }
         ParentId: 6123199446032038086
-        ChildIds: 14666074680691088436
-        ChildIds: 10271611493782431715
-        ChildIds: 7052923871556968554
+        ChildIds: 5353175156344604787
+        ChildIds: 18062575759391698115
+        ChildIds: 8456074485115318313
+        ChildIds: 9597138934863697805
+        ChildIds: 9169102562158858411
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1996,23 +1998,21 @@ Assets {
         }
       }
       Objects {
-        Id: 14666074680691088436
+        Id: 5353175156344604787
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: 4.38813782
-            Y: -0.39
-            Z: -0.600006104
+            X: -6.91516113
+            Z: -0.190002441
           }
           Rotation {
-            Pitch: -44.999939
-            Yaw: 89.9999695
-            Roll: 90.000267
+            Pitch: -90
+            Roll: -179.99971
           }
           Scale {
-            X: 0.000539184606
-            Y: 0.0110000027
-            Z: 0.002
+            X: 0.001
+            Y: 0.001
+            Z: 0.005
           }
         }
         ParentId: 10906031639091399384
@@ -2046,7 +2046,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2654247951300160945
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2061,44 +2061,23 @@ Assets {
         }
       }
       Objects {
-        Id: 10271611493782431715
-        Name: "Modern Weapon - Scope 01"
+        Id: 18062575759391698115
+        Name: "Group"
         Transform {
           Location {
-            X: 4.38813782
-            Y: 0.39
-            Z: -0.600006104
+            X: -6.91516113
+            Z: -0.190002441
           }
           Rotation {
-            Pitch: -44.9999695
-            Yaw: -89.999939
-            Roll: -89.9998169
           }
           Scale {
-            X: 0.000539184606
-            Y: 0.0110000027
-            Z: 0.002
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 10906031639091399384
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17592276739556605565
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              A: 1
-            }
-          }
-        }
+        ChildIds: 16788183645790791269
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2107,30 +2086,19 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        CoreMesh {
-          MeshAsset {
-            Id: 2654247951300160945
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          DisableReceiveDecals: true
-          StaticMesh {
-            Physics {
-            }
-            BoundsScale: 1
-          }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
-        Id: 7052923871556968554
+        Id: 16788183645790791269
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -6.91519928
+            Y: 0.119140625
+            Z: 0.119
           }
           Rotation {
             Pitch: -90
@@ -2142,7 +2110,7 @@ Assets {
             Z: 0.002
           }
         }
-        ParentId: 10906031639091399384
+        ParentId: 18062575759391698115
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2173,7 +2141,295 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14125111047322222726
+            Id: 13662191397276538134
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8456074485115318313
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: 90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10906031639091399384
+        ChildIds: 3817504534197552336
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3817504534197552336
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            Y: 0.118988022
+            Z: 0.119
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
+          }
+        }
+        ParentId: 8456074485115318313
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17592276739556605565
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13662191397276538134
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9597138934863697805
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10906031639091399384
+        ChildIds: 3948605820344581497
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3948605820344581497
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            Y: 0.118988022
+            Z: 0.119
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
+          }
+        }
+        ParentId: 9597138934863697805
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17592276739556605565
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13662191397276538134
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 9169102562158858411
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: 180
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10906031639091399384
+        ChildIds: 13182604338177974270
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13182604338177974270
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            Y: 0.119140536
+            Z: 0.119
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
+          }
+        }
+        ParentId: 9169102562158858411
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17592276739556605565
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13662191397276538134
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2207,7 +2463,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9498823304973238158
+      Id: 11860040597399652835
       Name: "Modern Weapon Barrel 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2369,6 +2625,15 @@ Assets {
       }
     }
     Assets {
+      Id: 3294723259559680467
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
       Id: 17592276739556605565
       Name: "Asphalt 01"
       PlatformAssetType: 2
@@ -2378,12 +2643,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14125111047322222726
-      Name: "Ring - Thin"
+      Id: 13662191397276538134
+      Name: "Pipe - Quarter Thin"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_torus_003"
+        AssetId: "sm_quarter-pipe_002"
       }
     }
     PrimaryAssetId {

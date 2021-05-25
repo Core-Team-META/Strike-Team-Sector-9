@@ -7,7 +7,7 @@ Assets {
       RootId: 14114284006936051336
       Objects {
         Id: 14114284006936051336
-        Name: "Demon Mamba_Scope"
+        Name: "SCOPE_SR_T055_Demon-Hunter"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -265,13 +265,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim2:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 13909276548079333532
+              Id: 7283825798727192743
             }
           }
           Overrides {
@@ -1699,7 +1699,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1780,7 +1780,7 @@ Assets {
       }
     }
     Assets {
-      Id: 13909276548079333532
+      Id: 7283825798727192743
       Name: "Metal Iron Rusted 02"
       PlatformAssetType: 2
       PrimaryAsset {

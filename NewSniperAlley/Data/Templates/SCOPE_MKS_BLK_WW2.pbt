@@ -7,7 +7,7 @@ Assets {
       RootId: 15534727108297707878
       Objects {
         Id: 15534727108297707878
-        Name: "Default_Marksman_Scope_Skin_9"
+        Name: "SCOPE_MKS_BLK_WW2"
         Transform {
           Scale {
             X: 1
@@ -125,7 +125,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -220,7 +220,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 2409369221136182156
+              Id: 6721774561700172060
             }
           }
           Overrides {
@@ -2698,7 +2698,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -2767,6 +2767,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 6721774561700172060
+      Name: "Emissive Glow Opaque"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxma_opaque_emissive"
       }
     }
     Assets {

@@ -1,6 +1,6 @@
 Assets {
   Id: 9739679157152791353
-  Name: "Mace_Skin"
+  Name: "Mace_Skin_2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -119,11 +119,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 5117227874850617562
+            Id: 6722267691116138132
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -214,7 +214,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -304,11 +304,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 3682206342183528038
+            Id: 9969516154188733547
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -352,7 +352,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5117227874850617562
+      Id: 6722267691116138132
       Name: "Fantasy Staff Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -370,7 +370,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3682206342183528038
+      Id: 9969516154188733547
       Name: "Fantasy Sword Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {

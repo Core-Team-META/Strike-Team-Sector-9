@@ -1,7 +1,7 @@
 Name: "Funnel"
-RootId: 2768689386105795802
+RootId: 13857458739110810493
 Objects {
-  Id: 10086626025584312299
+  Id: 7839623364847512879
   Name: "FunnelStepRoundsPlayed - 8"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -41,7 +41,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17282351809310720618
+  Id: 8284322248329575320
   Name: "FunnelStepRoundsPlayed - 7"
   Transform {
     Location {
@@ -54,7 +54,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -81,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10146591207850532384
+  Id: 4066227245923821105
   Name: "FunnelStepRoundsPlayed - 6"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8951556006775135773
+  Id: 18395833213345143268
   Name: "FunnelStepRoundsPlayed - 5"
   Transform {
     Location {
@@ -134,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -161,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6620014862426212036
+  Id: 12238903892728810644
   Name: "FunnelStepRoundsPlayed - 4"
   Transform {
     Location {
@@ -174,7 +174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1288359144969900064
+  Id: 18050899104104655166
   Name: "FunnelStepRoundsPlayed - 3"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7618548060548629444
+  Id: 14208953773674807674
   Name: "FunnelStepRoundsPlayed - 2"
   Transform {
     Location {
@@ -254,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -281,7 +281,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6226351509254061338
+  Id: 16366465383067586670
   Name: "FunnelStepVotedGameMode"
   Transform {
     Location {
@@ -294,7 +294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -317,7 +317,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5592787648884569748
+  Id: 15273707238772170539
   Name: "FunnelStepResourceGained"
   Transform {
     Location {
@@ -330,7 +330,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResourceName"
@@ -361,7 +361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14632988730262146401
+  Id: 6065325499821462178
   Name: "FunnelStepRoundEnded"
   Transform {
     Location {
@@ -374,7 +374,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -397,7 +397,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1000066095573771895
+  Id: 3903700507833745360
   Name: "FunnelStepPlayerGotKill"
   Transform {
     Location {
@@ -410,7 +410,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -433,7 +433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8268329684536953680
+  Id: 12682874970253546284
   Name: "FunnelStepPlayerRespawned"
   Transform {
     Location {
@@ -446,7 +446,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -469,7 +469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 730009840593636691
+  Id: 2264089333862511453
   Name: "FunnelStepPlayerDied"
   Transform {
     Location {
@@ -482,7 +482,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -505,7 +505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5599309858746189691
+  Id: 11928138594021146255
   Name: "FunnelStepPlayerJoined"
   Transform {
     Location {
@@ -518,7 +518,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   UnregisteredParameters {
     Overrides {
       Name: "cs:StepNumber"
@@ -541,7 +541,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5162677633965549065
+  Id: 8812559464059725644
   Name: "FunnelStatTracker"
   Transform {
     Location {
@@ -554,7 +554,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2768689386105795802
+  ParentId: 13857458739110810493
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

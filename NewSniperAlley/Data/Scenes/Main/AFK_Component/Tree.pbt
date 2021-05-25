@@ -1,7 +1,7 @@
 Name: "AFK_Component"
-RootId: 9046518886037277588
+RootId: 9973183366441603364
 Objects {
-  Id: 15808785814078988038
+  Id: 1618348947665007058
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9046518886037277588
-  ChildIds: 858726415677685832
-  ChildIds: 4129098294290683147
+  ParentId: 9973183366441603364
+  ChildIds: 14408524313087469287
+  ChildIds: 5820292628805246753
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,13 +24,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 4129098294290683147
+  Id: 5820292628805246753
   Name: "MetaAfk_Client"
   Transform {
     Location {
@@ -43,24 +43,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15808785814078988038
+  ParentId: 1618348947665007058
   UnregisteredParameters {
     Overrides {
       Name: "cs:AFK_Component"
       ObjectReference {
-        SelfId: 9046518886037277588
+        SelfId: 9973183366441603364
       }
     }
     Overrides {
       Name: "cs:AFK_PANEL"
       ObjectReference {
-        SelfId: 2050595066418905313
+        SelfId: 4019408799077120933
       }
     }
     Overrides {
       Name: "cs:Kick_Text"
       ObjectReference {
-        SelfId: 11719277610928164086
+        SelfId: 8591494439916817540
       }
     }
   }
@@ -80,7 +80,7 @@ Objects {
   }
 }
 Objects {
-  Id: 858726415677685832
+  Id: 14408524313087469287
   Name: "UI"
   Transform {
     Location {
@@ -93,8 +93,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15808785814078988038
-  ChildIds: 5336372583256157685
+  ParentId: 1618348947665007058
+  ChildIds: 12140053155594967324
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5336372583256157685
+  Id: 12140053155594967324
   Name: "UI Container"
   Transform {
     Location {
@@ -122,8 +122,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 858726415677685832
-  ChildIds: 2050595066418905313
+  ParentId: 14408524313087469287
+  ChildIds: 4019408799077120933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -156,7 +156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2050595066418905313
+  Id: 4019408799077120933
   Name: "AFK_PANEL"
   Transform {
     Location {
@@ -169,11 +169,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5336372583256157685
-  ChildIds: 1599469305384942588
-  ChildIds: 4689853065666803096
-  ChildIds: 13534790147468008726
-  ChildIds: 11719277610928164086
+  ParentId: 12140053155594967324
+  ChildIds: 11515342927711140728
+  ChildIds: 16006177141817441109
+  ChildIds: 11170621077329378593
+  ChildIds: 8591494439916817540
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11719277610928164086
+  Id: 8591494439916817540
   Name: "Kick_Text"
   Transform {
     Location {
@@ -221,7 +221,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050595066418905313
+  ParentId: 4019408799077120933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -272,7 +272,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13534790147468008726
+  Id: 11170621077329378593
   Name: "TitleText"
   Transform {
     Location {
@@ -285,7 +285,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050595066418905313
+  ParentId: 4019408799077120933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -334,7 +334,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4689853065666803096
+  Id: 16006177141817441109
   Name: "TitleText"
   Transform {
     Location {
@@ -347,7 +347,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050595066418905313
+  ParentId: 4019408799077120933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -396,7 +396,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1599469305384942588
+  Id: 11515342927711140728
   Name: "Background"
   Transform {
     Location {
@@ -409,7 +409,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2050595066418905313
+  ParentId: 4019408799077120933
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -453,7 +453,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3895076810972217436
+  Id: 10739057606121546695
   Name: "ServerContext"
   Transform {
     Location {
@@ -466,8 +466,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9046518886037277588
-  ChildIds: 18173744133094188380
+  ParentId: 9973183366441603364
+  ChildIds: 1515124686354727741
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -482,7 +482,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18173744133094188380
+  Id: 1515124686354727741
   Name: "MetaAfk_Server"
   Transform {
     Location {
@@ -495,12 +495,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3895076810972217436
+  ParentId: 10739057606121546695
   UnregisteredParameters {
     Overrides {
       Name: "cs:AFK_Component"
       ObjectReference {
-        SelfId: 9046518886037277588
+        SelfId: 9973183366441603364
       }
     }
   }

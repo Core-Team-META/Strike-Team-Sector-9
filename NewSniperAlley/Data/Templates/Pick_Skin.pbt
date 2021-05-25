@@ -1,6 +1,6 @@
 Assets {
   Id: 6261047094663700340
-  Name: "Pick_Skin"
+  Name: "Pick_Skin_5"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -28,7 +28,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -129,11 +129,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 5117227874850617562
+            Id: 6722267691116138132
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -210,7 +210,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -290,11 +290,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 4801985963367974663
+            Id: 7532887057692828593
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -370,11 +370,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 4801985963367974663
+            Id: 7532887057692828593
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -459,11 +459,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 3682206342183528038
+            Id: 9969516154188733547
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -507,7 +507,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5117227874850617562
+      Id: 6722267691116138132
       Name: "Fantasy Staff Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -534,7 +534,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4801985963367974663
+      Id: 7532887057692828593
       Name: "Fantasy Sword Blade 03"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -552,7 +552,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3682206342183528038
+      Id: 9969516154188733547
       Name: "Fantasy Sword Grip 01"
       PlatformAssetType: 1
       PrimaryAsset {

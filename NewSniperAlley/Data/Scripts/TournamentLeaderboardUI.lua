@@ -3,6 +3,7 @@ local ROW_TEMPLATE = script:GetCustomProperty("LeaderboardRowTemplate")
 
 local SERVER_SCRIPT = script:GetCustomProperty("ServerScript"):WaitForObject()
 local LEADERBOARD_REF = SERVER_SCRIPT:GetCustomProperty("LeaderboardReference")
+local CLOCK_SCRIPT = script:GetCustomProperty("ClockScript"):WaitForObject()
 
 local SHOW_TOP_PLAYERS = script:GetCustomProperty("ShowTopPlayers")
 
@@ -20,8 +21,13 @@ local LEADERBOARD_TYPE = LeaderboardType.GLOBAL
 local rows = {}
 
 
+function IsTournamentEnabled()
+	return CLOCK_SCRIPT:GetCustomProperty("IsEventEnabled")
+end
+
+
 function GenerateLeaderboard()
-	if not LEADERBOARD_REF then return end
+	if not LEADERBOARD_REF or not IsTournamentEnabled() then return end
 	
 	local leaderboardData = GetLeaderboardData()
 	if not leaderboardData then return end
@@ -74,10 +80,10 @@ function GenerateLeaderboard()
 			if endIndex > #leaderboardData then
 				endIndex = #leaderboardData
 			end
-			script.parent.visibility = Visibility.FORCE_ON
+			script.parent.visibility = Visibility.INHERIT
 		end
 	else
-		script.parent.visibility = Visibility.FORCE_ON
+		script.parent.visibility = Visibility.INHERIT
 	end
 	
 	-- Build the UI rows

@@ -1,7 +1,7 @@
 Name: "Lifetime Stats"
-RootId: 6804054941684102335
+RootId: 4541586771122342511
 Objects {
-  Id: 3765361005732137079
+  Id: 12790043552690082827
   Name: "LifetimeStats"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6804054941684102335
+  ParentId: 4541586771122342511
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

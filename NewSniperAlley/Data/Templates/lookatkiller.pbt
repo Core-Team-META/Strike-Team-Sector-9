@@ -7,7 +7,7 @@ Assets {
       RootId: 9374846198566407657
       Objects {
         Id: 9374846198566407657
-        Name: "lookatkiller"
+        Name: "Death Camera"
         Transform {
           Scale {
             X: 1
@@ -54,7 +54,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -74,6 +74,12 @@ Assets {
           }
         }
         ParentId: 5668932479257377967
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Enabled"
+            Bool: true
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

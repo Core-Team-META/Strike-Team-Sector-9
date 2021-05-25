@@ -7,7 +7,7 @@ Assets {
       RootId: 18117628786095770959
       Objects {
         Id: 18117628786095770959
-        Name: "Default_Marksman_Scope_v2"
+        Name: "SCOPE_MKS_BLK_Default"
         Transform {
           Scale {
             X: 1
@@ -89,7 +89,7 @@ Assets {
         Transform {
           Location {
             X: 6.54760742
-            Z: -28.830307
+            Z: -28.806
           }
           Rotation {
           }
@@ -113,7 +113,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -925,7 +925,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5351428073291024820
+              Id: 6721774561700172060
             }
           }
           Overrides {
@@ -1658,7 +1658,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1793,7 +1793,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5351428073291024820
+      Id: 6721774561700172060
       Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {

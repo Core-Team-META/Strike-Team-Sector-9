@@ -379,29 +379,29 @@ function MarkNemesis()
 				
 			if theirNemesisOfEntryText[number][2] <= 3 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
+				SetChildrenText(nemesisOfLabelText, "CRUSHED")
 				
 			elseif theirNemesisOfEntryText[number][2] <= 5 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU WRECKED")
+				SetChildrenText(nemesisOfLabelText, "WRECKED")
 
 			elseif theirNemesisOfEntryText[number][2] <= 7 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU PULVERIZED")
+				SetChildrenText(nemesisOfLabelText, "PULVERIZED")
 					
 			elseif theirNemesisOfEntryText[number][2] <= 10 then
 				
-				SetChildrenText(nemesisOfLabelText, "YOU DECIMATED")
+				SetChildrenText(nemesisOfLabelText, "DECIMATED")
 					
 			else
 				
-				SetChildrenText(nemesisOfLabelText, "YOU HUMILIATED")
+				SetChildrenText(nemesisOfLabelText, "HUMILIATED")
 					
 			end
 				
 		else 
 			
-			SetChildrenText(nemesisOfLabelText, "YOU CRUSHED")
+			SetChildrenText(nemesisOfLabelText, "CRUSHED")
 				
 		end 
 			
@@ -415,23 +415,23 @@ function MarkNemesis()
 	
 	if yourKillCountAsNemesis <= 3 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU CRUSHED")
+		SetChildrenText(nemesisOfStatText, "CRUSHED")
 				
 	elseif yourKillCountAsNemesis <= 5 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU WRECKED")
+		SetChildrenText(nemesisOfStatText, "WRECKED")
 
 	elseif yourKillCountAsNemesis <= 7 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU PULVERIZED")
+		SetChildrenText(nemesisOfStatText, "PULVERIZED")
 					
 	elseif yourKillCountAsNemesis <= 10 then
 				
-		SetChildrenText(nemesisOfStatText, "YOU DECIMATED")
+		SetChildrenText(nemesisOfStatText, "DECIMATED")
 					
 	else
 				
-		SetChildrenText(nemesisOfStatText, "YOU HUMILIATED")
+		SetChildrenText(nemesisOfStatText, "HUMILIATED")
 					
 	end
 	

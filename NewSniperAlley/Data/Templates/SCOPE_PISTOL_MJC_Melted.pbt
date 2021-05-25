@@ -7,7 +7,7 @@ Assets {
       RootId: 7179886263252776151
       Objects {
         Id: 7179886263252776151
-        Name: "Melted Burst Scope"
+        Name: "SCOPE_PISTOL_MJC_Melted"
         Transform {
           Scale {
             X: 1
@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 10741081801753122115
         ChildIds: 9259552981057003570
+        ChildIds: 4324306087971116616
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -26,56 +26,9 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 10741081801753122115
-        Name: "WeaponMoveReturnOnExecuteClient"
-        Transform {
-          Location {
-            X: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.03
-            Y: 0.03
-            Z: 0.03
-          }
-        }
-        ParentId: 7179886263252776151
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:ComponentRoot"
-            ObjectReference {
-              SubObjectId: 7179886263252776151
-            }
-          }
-          Overrides {
-            Name: "cs:LocalMoveOffset"
-            Vector {
-              X: -2
-              Z: 1.5
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 16135316138749006068
-          }
         }
       }
       Objects {
@@ -83,9 +36,9 @@ Assets {
         Name: "Geo"
         Transform {
           Location {
-            X: 41.8227539
-            Y: 0.0540771484
-            Z: -18.2136612
+            X: 41.8222618
+            Y: 0.094
+            Z: -18.4339981
           }
           Rotation {
           }
@@ -873,7 +826,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16048367406070731799
+            Id: 14021425836031181800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -994,7 +947,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1066,7 +1019,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1138,7 +1091,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1210,7 +1163,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1282,7 +1235,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1790,7 +1743,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1943,7 +1896,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10759972527112030472
+            Id: 17237692812658431496
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2042,7 +1995,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16048367406070731799
+            Id: 14021425836031181800
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2810,6 +2763,66 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 4324306087971116616
+        Name: "ScopeAnimation"
+        Transform {
+          Location {
+            X: 2295.87793
+            Y: 3844.92
+            Z: 269.915833
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+        ParentId: 7179886263252776151
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 7179886263252776151
+            }
+          }
+          Overrides {
+            Name: "cs:RotationOffset"
+            Rotator {
+              Pitch: 1
+            }
+          }
+          Overrides {
+            Name: "cs:GEO"
+            ObjectReference {
+              SubObjectId: 9259552981057003570
+            }
+          }
+          Overrides {
+            Name: "cs:PositionOffset"
+            Vector {
+              X: -5
+              Z: 0.1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3786383836679515830
+          }
+        }
+      }
     }
     Assets {
       Id: 3350581364753243189
@@ -2893,7 +2906,7 @@ Assets {
       }
     }
     Assets {
-      Id: 16048367406070731799
+      Id: 14021425836031181800
       Name: "Plane 1m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2911,7 +2924,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15569338977597403090
+      Id: 1920010878601219178
       Name: "Fantasy Sword Guard 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -2956,7 +2969,7 @@ Assets {
       }
     }
     Assets {
-      Id: 10759972527112030472
+      Id: 17237692812658431496
       Name: "Fantasy Staff Head 01"
       PlatformAssetType: 1
       PrimaryAsset {

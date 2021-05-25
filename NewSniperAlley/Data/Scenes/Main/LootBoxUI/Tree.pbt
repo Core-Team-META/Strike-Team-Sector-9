@@ -1,7 +1,7 @@
 Name: "LootBoxUI"
-RootId: 340063135991819370
+RootId: 11459850922126087257
 Objects {
-  Id: 3628245826411440681
+  Id: 12318675434759627710
   Name: "ServerContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 340063135991819370
-  ChildIds: 16076145003369305405
-  ChildIds: 12278336818727599292
+  ParentId: 11459850922126087257
+  ChildIds: 7530127971718826836
+  ChildIds: 17281179852440668343
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12278336818727599292
+  Id: 17281179852440668343
   Name: "LootBoxScript_Api"
   Transform {
     Location {
@@ -44,7 +44,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3628245826411440681
+  ParentId: 12318675434759627710
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -63,7 +63,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16076145003369305405
+  Id: 7530127971718826836
   Name: "LootSelector"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3628245826411440681
+  ParentId: 12318675434759627710
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -93,7 +93,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10254416611927576324
+  Id: 4752765385091363660
   Name: "ClientContext"
   Transform {
     Location {
@@ -109,11 +109,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 340063135991819370
-  ChildIds: 3316323335857419206
-  ChildIds: 14695039710916751831
-  ChildIds: 12858562878613179395
-  ChildIds: 15884133167498574385
+  ParentId: 11459850922126087257
+  ChildIds: 16108251431567642641
+  ChildIds: 1301142614249523890
+  ChildIds: 10117669027786798881
+  ChildIds: 7952939707301615641
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -121,13 +121,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 15884133167498574385
+  Id: 7952939707301615641
   Name: "UI Container"
   Transform {
     Location {
@@ -143,8 +143,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10254416611927576324
-  ChildIds: 1917892566808165779
+  ParentId: 4752765385091363660
+  ChildIds: 15794286188628903859
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -177,7 +177,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1917892566808165779
+  Id: 15794286188628903859
   Name: "SkipAnimation"
   Transform {
     Location {
@@ -193,9 +193,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15884133167498574385
-  ChildIds: 15253745903418658290
-  ChildIds: 2978513141560883178
+  ParentId: 7952939707301615641
+  ChildIds: 4061106012459895540
+  ChildIds: 14509273438829000536
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -231,7 +231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2978513141560883178
+  Id: 14509273438829000536
   Name: "SkipLootAnimation"
   Transform {
     Location {
@@ -246,18 +246,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1917892566808165779
+  ParentId: 15794286188628903859
   UnregisteredParameters {
     Overrides {
       Name: "cs:SkipAnimation"
       ObjectReference {
-        SelfId: 1917892566808165779
+        SelfId: 15794286188628903859
       }
     }
     Overrides {
       Name: "cs:SkipButton"
       ObjectReference {
-        SelfId: 15253745903418658290
+        SelfId: 4061106012459895540
       }
     }
   }
@@ -277,7 +277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15253745903418658290
+  Id: 4061106012459895540
   Name: "SkipButton"
   Transform {
     Location {
@@ -292,7 +292,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1917892566808165779
+  ParentId: 15794286188628903859
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -371,7 +371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12858562878613179395
+  Id: 10117669027786798881
   Name: "LootBoxScript_Api"
   Transform {
     Location {
@@ -387,7 +387,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10254416611927576324
+  ParentId: 4752765385091363660
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -404,7 +404,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14695039710916751831
+  Id: 1301142614249523890
   Name: "RouletWheel"
   Transform {
     Location {
@@ -420,7 +420,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10254416611927576324
+  ParentId: 4752765385091363660
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -437,7 +437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3316323335857419206
+  Id: 16108251431567642641
   Name: "UIOverlayConnection"
   Transform {
     Location {
@@ -453,7 +453,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10254416611927576324
+  ParentId: 4752765385091363660
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -467,5 +467,34 @@ Objects {
     ScriptAsset {
       Id: 12570153350421845829
     }
+  }
+}
+Objects {
+  Id: 5736609311666769355
+  Name: "Crate "
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11459850922126087257
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Crate"
   }
 }

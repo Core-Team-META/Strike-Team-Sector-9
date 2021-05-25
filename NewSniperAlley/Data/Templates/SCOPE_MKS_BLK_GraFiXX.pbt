@@ -133,7 +133,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -1481,7 +1481,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 5351428073291024820
+              Id: 6721774561700172060
             }
           }
           Overrides {
@@ -1717,7 +1717,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1888,7 +1888,7 @@ Assets {
       }
     }
     Assets {
-      Id: 5351428073291024820
+      Id: 6721774561700172060
       Name: "Emissive Glow Opaque"
       PlatformAssetType: 2
       PrimaryAsset {

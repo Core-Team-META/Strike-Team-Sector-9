@@ -40,7 +40,9 @@ end
 
 function ActivateFire()
     if WEAPON.clientUserData.SHOOT_ABILITY:GetCurrentPhase() == AbilityPhase.READY then
-        WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+        if WEAPON.clientUserData.SHOOT_ABILITY.owner == LOCAL_PLAYER then 
+            WEAPON.clientUserData.SHOOT_ABILITY:Activate()
+        end
     end
 end
 
@@ -55,7 +57,11 @@ function FireAbility()
             Task.Wait(1/WEAPON.shotsPerSecond )
         end
     else
-        while true do 
+        while true do
+            if not Object.IsValid(WEAPON) then
+                --warn(script.name .. " - FireAbility():  Attempted to access an object that has been destroyed.")
+                return
+            end
             if CheckFiring() or WEAPON.clientUserData.SHOOT_ABILITY.owner ~= LOCAL_PLAYER then
                 ResetFire()
                 return 

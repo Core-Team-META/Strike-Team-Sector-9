@@ -7,7 +7,7 @@ Assets {
       RootId: 5564187136150746867
       Objects {
         Id: 5564187136150746867
-        Name: "Default_Sniper_Scope_Skin2"
+        Name: "SCOPE_SR_T055_Laser"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -2091,7 +2091,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }

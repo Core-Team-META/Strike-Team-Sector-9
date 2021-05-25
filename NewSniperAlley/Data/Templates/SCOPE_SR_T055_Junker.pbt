@@ -7,7 +7,7 @@ Assets {
       RootId: 14114284006936051336
       Objects {
         Id: 14114284006936051336
-        Name: "Junker Mamba_Scope"
+        Name: "SCOPE_SR_T055_Junker"
         Transform {
           Scale {
             X: 1
@@ -170,7 +170,7 @@ Assets {
         Transform {
           Location {
             X: 6.54766846
-            Z: -28.830307
+            Z: -28.81
           }
           Rotation {
           }
@@ -193,7 +193,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -1625,7 +1625,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }

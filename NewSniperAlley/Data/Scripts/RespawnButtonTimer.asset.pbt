@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:RadialTimer"
         ObjectReference {
-          SelfId: 16079104830586016267
+          SelfId: 4994418192176709105
           SubObjectId: 7842716023592873322
           InstanceId: 15122172075155036172
           TemplateId: 10649890679662904080
@@ -16,7 +16,7 @@ Assets {
       Overrides {
         Name: "cs:BANNER"
         ObjectReference {
-          SelfId: 13207494641972129436
+          SelfId: 12157983452238375348
         }
       }
     }

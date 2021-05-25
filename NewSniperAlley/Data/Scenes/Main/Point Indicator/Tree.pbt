@@ -1,7 +1,7 @@
 Name: "Point Indicator"
-RootId: 6634084826907940695
+RootId: 16140598810383963541
 Objects {
-  Id: 12242967842994962714
+  Id: 6340193578157518566
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6634084826907940695
-  ChildIds: 9774597838382993629
-  ChildIds: 15947595219162421050
+  ParentId: 16140598810383963541
+  ChildIds: 13715599676277664840
+  ChildIds: 8658283918868203422
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,13 +24,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 15947595219162421050
+  Id: 8658283918868203422
   Name: "GAMEMODE_PointManager_Client"
   Transform {
     Location {
@@ -43,18 +43,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12242967842994962714
+  ParentId: 6340193578157518566
   UnregisteredParameters {
     Overrides {
       Name: "cs:Spawned_Objects"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
     Overrides {
       Name: "cs:UIContainer"
       ObjectReference {
-        SelfId: 2902450933349094518
+        SelfId: 6963986892586985686
       }
     }
   }
@@ -74,7 +74,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9774597838382993629
+  Id: 13715599676277664840
   Name: "UI Container"
   Transform {
     Location {
@@ -87,8 +87,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12242967842994962714
-  ChildIds: 2902450933349094518
+  ParentId: 6340193578157518566
+  ChildIds: 6963986892586985686
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2902450933349094518
+  Id: 6963986892586985686
   Name: "UI Panel"
   Transform {
     Location {
@@ -134,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9774597838382993629
+  ParentId: 13715599676277664840
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,10 +1,10 @@
 Assets {
-  Id: 15846704423136333646
-  Name: "2"
+  Id: 16060770712832029882
+  Name: "storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b442db765228484c8e5b9a9adaa3db8f"
+      Key: "622a1fb067b54cafac0b23f9a200451c"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15134649676183497844
-  Name: "3"
+  Id: 14786061396242088328
+  Name: "statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "52fd9a4ac71b46339d270e5f0bf3c7ae"
+      Key: "0b19aaed23174f448a5aed32da3e8121"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,21 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10698833128597864431
-  Name: "Play Bold"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "PlayBold_ref"
-  }
-}
-Assets {
-  Id: 6639588527131837362
-  Name: "1"
+  Id: 9540400860879011563
+  Name: "loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "d4a0a48381454e9e93a17b8e8763fd4d"
+      Key: "e03cb32f106d4d938fec834918210c54"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -47,12 +38,25 @@ Assets {
   }
 }
 Assets {
-  Id: 5840649883868045493
-  Name: "5"
+  Id: 9078345458256264958
+  Name: "Misc"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5c841260c6fb468d82ad49486dd4401b"
+      Key: "da947128d53a40c08be68c05dabc3459"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 6009121019369791375
+  Name: "lifetime"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "f3aca06731e04858bca356f132d21792"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

@@ -7,7 +7,7 @@ Assets {
       RootId: 16671993031585528870
       Objects {
         Id: 16671993031585528870
-        Name: "SP2.0_WEAPON"
+        Name: "WEAPON_PRI_SMG_EST-CMB0"
         Transform {
           Scale {
             X: 0.99999994
@@ -231,7 +231,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Ability {
           IsEnabled: true
@@ -301,7 +301,7 @@ Assets {
           Value: "mc:evisibilitysetting:forceoff"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Ability {
           IsEnabled: true
@@ -387,11 +387,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 30
+            Float: 35
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 60
+            Float: 45
           }
         }
         Collidable_v2 {
@@ -484,7 +484,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }

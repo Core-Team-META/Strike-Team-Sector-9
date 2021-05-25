@@ -5,7 +5,17 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:EventScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:ServerScript"
+        ObjectReference {
+        }
+      }
+      Overrides {
+        Name: "cs:ClockScript"
         ObjectReference {
         }
       }
@@ -26,6 +36,11 @@ Assets {
       }
       Overrides {
         Name: "cs:TournamentTitle"
+        ObjectReference {
+        }
+      }
+      Overrides {
+        Name: "cs:InfoPanel"
         ObjectReference {
         }
       }

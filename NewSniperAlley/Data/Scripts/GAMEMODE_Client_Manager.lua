@@ -65,7 +65,7 @@ local function SetScores(str)
             scoreScript.context.MAX_SCORE = tonumber(currentScore)
 
             --##TODO ADD KILL CONFIRMED & FREEZE TAG
-    elseif currentGameId == 3 then -- Strike Points
+        elseif currentGameId == 3 then -- Strike Points
             local panel = World.SpawnAsset(STRIKE_POINT_SCORE_UI, {parent = PARENT_PANEL})
             local scoreScript = panel:GetCustomProperty("SCORE_SCRIPT"):WaitForObject()
             scoreScript.context.MAX_SCORE = tonumber(currentScore)

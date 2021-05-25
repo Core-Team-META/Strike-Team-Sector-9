@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -5606,7 +5606,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3702191406046426907
+              Id: 9012634881940008866
             }
           }
           Overrides {
@@ -9331,7 +9331,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3702191406046426907
+      Id: 9012634881940008866
       Name: "Emissive Glow Transparent"
       PlatformAssetType: 2
       PrimaryAsset {

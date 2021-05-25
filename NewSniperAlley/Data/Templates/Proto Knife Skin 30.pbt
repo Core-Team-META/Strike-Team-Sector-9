@@ -27,7 +27,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -94,7 +94,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15065464593564885032
+              Id: 608238971399249484
             }
           }
           Overrides {
@@ -109,7 +109,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -152,7 +152,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 15065464593564885032
+              Id: 608238971399249484
             }
           }
           Overrides {
@@ -167,7 +167,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -271,7 +271,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -294,7 +294,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -343,7 +343,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 17758469563435218554
+              Id: 4248821402812702112
             }
           }
           Overrides {
@@ -382,7 +382,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -411,7 +411,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15065464593564885032
+      Id: 608238971399249484
       Name: "Rock Obsidian 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -429,7 +429,7 @@ Assets {
       }
     }
     Assets {
-      Id: 17758469563435218554
+      Id: 4248821402812702112
       Name: "Burning Wood"
       PlatformAssetType: 2
       PrimaryAsset {

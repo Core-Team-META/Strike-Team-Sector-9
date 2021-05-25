@@ -1,7 +1,7 @@
 Name: "Game Mode Manager"
-RootId: 5740934596799920840
+RootId: 5666581829229958885
 Objects {
-  Id: 16822128672148941902
+  Id: 15824596139154346270
   Name: "GAMEMODE_Networked"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
+  ParentId: 5666581829229958885
   UnregisteredParameters {
     Overrides {
       Name: "cs:GAME_TYPE_ID"
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6050299572735879174
+  Id: 11192825345746752337
   Name: "Spawned_Objects"
   Transform {
     Location {
@@ -71,7 +71,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
+  ParentId: 5666581829229958885
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -86,7 +86,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15035346582998822116
+  Id: 6618452732413383567
   Name: "Voting System"
   Transform {
     Location {
@@ -99,9 +99,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
-  ChildIds: 6573443838971946707
-  ChildIds: 6384065849643160609
+  ParentId: 5666581829229958885
+  ChildIds: 3879305398599098224
+  ChildIds: 14220636930207443187
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6384065849643160609
+  Id: 14220636930207443187
   Name: "ClientContext"
   Transform {
     Location {
@@ -129,9 +129,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15035346582998822116
-  ChildIds: 13330849163232561257
-  ChildIds: 761141373949498506
+  ParentId: 6618452732413383567
+  ChildIds: 3718952849194587990
+  ChildIds: 1649850262166137852
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -139,13 +139,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 761141373949498506
+  Id: 1649850262166137852
   Name: "GAMEMODE_Voting_Client"
   Transform {
     Location {
@@ -158,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6384065849643160609
+  ParentId: 14220636930207443187
   UnregisteredParameters {
     Overrides {
       Name: "cs:PARENT_PANEL"
@@ -231,7 +231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13330849163232561257
+  Id: 3718952849194587990
   Name: "VOTING_CONTAINER"
   Transform {
     Location {
@@ -244,8 +244,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6384065849643160609
-  ChildIds: 17000827752349873203
+  ParentId: 14220636930207443187
+  ChildIds: 7240582498128522115
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -278,7 +278,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17000827752349873203
+  Id: 7240582498128522115
   Name: "PARENT_PANEL"
   Transform {
     Location {
@@ -291,12 +291,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13330849163232561257
-  ChildIds: 12601775357275919812
-  ChildIds: 1529244233972860319
-  ChildIds: 13891106359821184187
-  ChildIds: 3796097730267359884
-  ChildIds: 856661068760080206
+  ParentId: 3718952849194587990
+  ChildIds: 7543886672088920661
+  ChildIds: 10401607186101392255
+  ChildIds: 16948909942219253659
+  ChildIds: 7362409042923045279
+  ChildIds: 12484370681170911594
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -331,7 +331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 856661068760080206
+  Id: 12484370681170911594
   Name: "TIME_REMAINING"
   Transform {
     Location {
@@ -344,7 +344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17000827752349873203
+  ParentId: 7240582498128522115
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -395,7 +395,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3796097730267359884
+  Id: 7362409042923045279
   Name: "TIME_REMAINING_STATIC"
   Transform {
     Location {
@@ -408,7 +408,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17000827752349873203
+  ParentId: 7240582498128522115
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -459,7 +459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13891106359821184187
+  Id: 16948909942219253659
   Name: "GAME_MODES"
   Transform {
     Location {
@@ -472,8 +472,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17000827752349873203
-  ChildIds: 7407650504126964506
+  ParentId: 7240582498128522115
+  ChildIds: 15408624558691594056
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -508,7 +508,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7407650504126964506
+  Id: 15408624558691594056
   Name: "GAMEMODE_Panel_Template"
   Transform {
     Scale {
@@ -517,7 +517,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13891106359821184187
+  ParentId: 16948909942219253659
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -559,7 +559,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1529244233972860319
+  Id: 10401607186101392255
   Name: "TITLE"
   Transform {
     Location {
@@ -572,7 +572,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17000827752349873203
+  ParentId: 7240582498128522115
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -622,7 +622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12601775357275919812
+  Id: 7543886672088920661
   Name: "BACKGROUND"
   Transform {
     Location {
@@ -635,7 +635,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17000827752349873203
+  ParentId: 7240582498128522115
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -679,7 +679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6573443838971946707
+  Id: 3879305398599098224
   Name: "ServerContext"
   Transform {
     Location {
@@ -692,8 +692,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15035346582998822116
-  ChildIds: 18029931007313368582
+  ParentId: 6618452732413383567
+  ChildIds: 7552653557318290234
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -708,7 +708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18029931007313368582
+  Id: 7552653557318290234
   Name: "GAMEMODE_Voting_Server"
   Transform {
     Location {
@@ -721,7 +721,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6573443838971946707
+  ParentId: 3879305398599098224
   UnregisteredParameters {
     Overrides {
       Name: "cs:APIBasicGameState"
@@ -732,13 +732,7 @@ Objects {
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 5740934596799920840
-      }
-    }
-    Overrides {
-      Name: "cs:NETWORKED"
-      ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 5666581829229958885
       }
     }
   }
@@ -758,7 +752,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2069827930317499916
+  Id: 13332047254433018822
   Name: "Game Mode System"
   Transform {
     Location {
@@ -771,15 +765,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
-  ChildIds: 12932247767215667596
-  ChildIds: 7944863804587469569
-  ChildIds: 13648822973857975151
-  ChildIds: 15001286557911721936
-  ChildIds: 16188491060560870685
-  ChildIds: 10869994821200846007
-  ChildIds: 17717572726573708135
-  ChildIds: 653551731733177093
+  ParentId: 5666581829229958885
+  ChildIds: 8335355704553292943
+  ChildIds: 15990582303888294468
+  ChildIds: 12992829209838175568
+  ChildIds: 3963140174428052816
+  ChildIds: 7907241526096001093
+  ChildIds: 11858803720580715751
+  ChildIds: 5344906914963471441
+  ChildIds: 17323179896672358705
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -794,7 +788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 653551731733177093
+  Id: 17323179896672358705
   Name: "Search And Destroy"
   Transform {
     Location {
@@ -807,8 +801,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 1049222257639028939
+  ParentId: 13332047254433018822
+  ChildIds: 11227429172105489768
   UnregisteredParameters {
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -845,7 +839,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1049222257639028939
+  Id: 11227429172105489768
   Name: "Search And Destroy"
   Transform {
     Location {
@@ -858,7 +852,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 653551731733177093
+  ParentId: 17323179896672358705
   UnregisteredParameters {
     Overrides {
       Name: "cs:ID"
@@ -885,7 +879,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17717572726573708135
+  Id: 5344906914963471441
   Name: "Keep Away"
   Transform {
     Location {
@@ -898,8 +892,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 8905830892347792238
+  ParentId: 13332047254433018822
+  ChildIds: 6990745697549051857
   UnregisteredParameters {
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -936,7 +930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8905830892347792238
+  Id: 6990745697549051857
   Name: "Keep Away"
   Transform {
     Location {
@@ -949,7 +943,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17717572726573708135
+  ParentId: 5344906914963471441
   UnregisteredParameters {
     Overrides {
       Name: "cs:ID"
@@ -976,7 +970,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10869994821200846007
+  Id: 11858803720580715751
   Name: "Infection"
   Transform {
     Location {
@@ -989,8 +983,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 9660372624243441899
+  ParentId: 13332047254433018822
+  ChildIds: 151900630780406119
   UnregisteredParameters {
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -1027,7 +1021,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9660372624243441899
+  Id: 151900630780406119
   Name: "Infection"
   Transform {
     Location {
@@ -1040,7 +1034,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10869994821200846007
+  ParentId: 11858803720580715751
   UnregisteredParameters {
     Overrides {
       Name: "cs:ID"
@@ -1067,7 +1061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16188491060560870685
+  Id: 7907241526096001093
   Name: "Kill The King"
   Transform {
     Location {
@@ -1080,8 +1074,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 4570505790572802781
+  ParentId: 13332047254433018822
+  ChildIds: 14338211521219046040
   UnregisteredParameters {
     Overrides {
       Name: "cs:SHOULD_RESPAWN"
@@ -1124,7 +1118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4570505790572802781
+  Id: 14338211521219046040
   Name: "ServerContext"
   Transform {
     Location {
@@ -1137,8 +1131,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16188491060560870685
-  ChildIds: 16654725010215172910
+  ParentId: 7907241526096001093
+  ChildIds: 6361308061294660515
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1153,7 +1147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16654725010215172910
+  Id: 6361308061294660515
   Name: "GAMEMODE_Server"
   Transform {
     Location {
@@ -1166,12 +1160,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4570505790572802781
+  ParentId: 14338211521219046040
   UnregisteredParameters {
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 16188491060560870685
+        SelfId: 7907241526096001093
       }
     }
   }
@@ -1191,7 +1185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15001286557911721936
+  Id: 3963140174428052816
   Name: "Tags"
   Transform {
     Location {
@@ -1204,10 +1198,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 9569143680156430007
-  ChildIds: 148950711619812547
-  ChildIds: 17186102832666343823
+  ParentId: 13332047254433018822
+  ChildIds: 3867186322368645654
+  ChildIds: 12340253017525343427
+  ChildIds: 16539758642303731992
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
@@ -1264,7 +1258,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17186102832666343823
+  Id: 16539758642303731992
   Name: "TagCollectMarkers"
   Transform {
     Location {
@@ -1277,9 +1271,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15001286557911721936
-  ChildIds: 927918230322188206
-  ChildIds: 8127964785991815351
+  ParentId: 3963140174428052816
+  ChildIds: 1125146797430887940
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1294,7 +1287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8127964785991815351
+  Id: 1125146797430887940
   Name: "Team2"
   Transform {
     Location {
@@ -1310,7 +1303,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17186102832666343823
+  ParentId: 16539758642303731992
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1318,7 +1311,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -1340,53 +1333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 927918230322188206
-  Name: "Team1"
-  Transform {
-    Location {
-      X: 5040.11572
-      Y: 7052.50635
-      Z: 4.5321579
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17186102832666343823
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7126240526640323471
-    }
-    Teams {
-      TeamInt: 1
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 148950711619812547
+  Id: 12340253017525343427
   Name: "ClientContext"
   Transform {
     Location {
@@ -1399,9 +1346,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15001286557911721936
-  ChildIds: 3608271333292027410
-  ChildIds: 10214898496065849105
+  ParentId: 3963140174428052816
+  ChildIds: 3002102040373922405
+  ChildIds: 6903312090321920817
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -1409,13 +1356,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 10214898496065849105
+  Id: 6903312090321920817
   Name: "GAMEMODE_Tags_Client"
   Transform {
     Location {
@@ -1428,18 +1375,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 148950711619812547
+  ParentId: 12340253017525343427
   UnregisteredParameters {
     Overrides {
       Name: "cs:AMMOUNT"
       ObjectReference {
-        SelfId: 13022932365148108670
+        SelfId: 13359147852507672490
       }
     }
     Overrides {
       Name: "cs:UIPanel"
       ObjectReference {
-        SelfId: 13789589663886315470
+        SelfId: 3081060595773089881
       }
     }
     Overrides {
@@ -1457,7 +1404,7 @@ Objects {
     Overrides {
       Name: "cs:Tags"
       ObjectReference {
-        SelfId: 15001286557911721936
+        SelfId: 3963140174428052816
       }
     }
   }
@@ -1477,7 +1424,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3608271333292027410
+  Id: 3002102040373922405
   Name: "UI Container"
   Transform {
     Location {
@@ -1490,8 +1437,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 148950711619812547
-  ChildIds: 13789589663886315470
+  ParentId: 12340253017525343427
+  ChildIds: 3081060595773089881
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1524,7 +1471,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13789589663886315470
+  Id: 3081060595773089881
   Name: "UI Panel"
   Transform {
     Location {
@@ -1537,10 +1484,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3608271333292027410
-  ChildIds: 9096986706390008520
-  ChildIds: 9312470878760385407
-  ChildIds: 13022932365148108670
+  ParentId: 3002102040373922405
+  ChildIds: 11719952192189917912
+  ChildIds: 6801302498137540361
+  ChildIds: 13359147852507672490
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1577,7 +1524,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13022932365148108670
+  Id: 13359147852507672490
   Name: "AMMOUNT"
   Transform {
     Location {
@@ -1590,7 +1537,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13789589663886315470
+  ParentId: 3081060595773089881
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1641,7 +1588,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9312470878760385407
+  Id: 6801302498137540361
   Name: "ICON"
   Transform {
     Location {
@@ -1654,7 +1601,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13789589663886315470
+  ParentId: 3081060595773089881
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1702,7 +1649,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9096986706390008520
+  Id: 11719952192189917912
   Name: "BackGround"
   Transform {
     Location {
@@ -1715,7 +1662,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13789589663886315470
+  ParentId: 3081060595773089881
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1759,7 +1706,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9569143680156430007
+  Id: 3867186322368645654
   Name: "ServerContext"
   Transform {
     Location {
@@ -1772,8 +1719,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15001286557911721936
-  ChildIds: 18307726277386704962
+  ParentId: 3963140174428052816
+  ChildIds: 11546283074609911095
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1788,7 +1735,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18307726277386704962
+  Id: 11546283074609911095
   Name: "GAMEMODE_Tags_Server"
   Transform {
     Location {
@@ -1801,30 +1748,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9569143680156430007
+  ParentId: 3867186322368645654
   UnregisteredParameters {
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 15001286557911721936
+        SelfId: 3963140174428052816
       }
     }
     Overrides {
       Name: "cs:NETWORKED"
       ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 15824596139154346270
       }
     }
     Overrides {
       Name: "cs:SPAWNED_OBJECTS"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
     Overrides {
       Name: "cs:TagCollectMarkers"
       ObjectReference {
-        SelfId: 17186102832666343823
+        SelfId: 16539758642303731992
       }
     }
   }
@@ -1844,7 +1791,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13648822973857975151
+  Id: 12992829209838175568
   Name: "STRIKE POINTS"
   Transform {
     Location {
@@ -1857,9 +1804,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 1365597725282657501
-  ChildIds: 5555918133323464641
+  ParentId: 13332047254433018822
+  ChildIds: 3130898913923468195
+  ChildIds: 8159923620929613694
+  ChildIds: 14055908983680720681
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
@@ -1920,10 +1868,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5555918133323464641
-  Name: "StrikePointMarkers"
+  Id: 14055908983680720681
+  Name: "ChopperMapCenter"
   Transform {
     Location {
+      X: 700
+      Y: 7200
+      Z: 4500
     }
     Rotation {
     }
@@ -1933,13 +1884,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13648822973857975151
-  ChildIds: 13940177877721405764
-  ChildIds: 4626955904380142013
-  ChildIds: 13657320334307290504
-  ChildIds: 17839423306179304205
-  ChildIds: 12786934810076485972
-  ChildIds: 15277980707442441369
+  ParentId: 12992829209838175568
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1954,7 +1899,41 @@ Objects {
   }
 }
 Objects {
-  Id: 15277980707442441369
+  Id: 8159923620929613694
+  Name: "StrikePointMarkers"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12992829209838175568
+  ChildIds: 5063095019634245310
+  ChildIds: 12101494866616617599
+  ChildIds: 5315099332584685346
+  ChildIds: 11095840927534073921
+  ChildIds: 8585435318480483539
+  ChildIds: 7824523037079163637
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7824523037079163637
   Name: "Marker"
   Transform {
     Location {
@@ -1963,8 +1942,8 @@ Objects {
       Z: 905
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6916809
+      Pitch: -1.33217371
+      Yaw: -60.6916771
       Roll: 2.1350111e-07
     }
     Scale {
@@ -1973,7 +1952,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2002,7 +1981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12786934810076485972
+  Id: 8585435318480483539
   Name: "Marker"
   Transform {
     Location {
@@ -2011,8 +1990,8 @@ Objects {
       Z: 795
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6916809
+      Pitch: -1.33217371
+      Yaw: -60.6916771
       Roll: 2.1350111e-07
     }
     Scale {
@@ -2021,7 +2000,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2050,7 +2029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17839423306179304205
+  Id: 11095840927534073921
   Name: "Marker"
   Transform {
     Location {
@@ -2059,8 +2038,8 @@ Objects {
       Z: -360
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6916809
+      Pitch: -1.33217371
+      Yaw: -60.6916771
       Roll: 2.1350111e-07
     }
     Scale {
@@ -2069,7 +2048,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2098,7 +2077,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13657320334307290504
+  Id: 5315099332584685346
   Name: "Marker"
   Transform {
     Location {
@@ -2107,8 +2086,8 @@ Objects {
       Z: -314.981049
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6917114
+      Pitch: -1.33217371
+      Yaw: -60.6916924
     }
     Scale {
       X: 1
@@ -2116,7 +2095,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2145,7 +2124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4626955904380142013
+  Id: 12101494866616617599
   Name: "Marker"
   Transform {
     Location {
@@ -2154,8 +2133,8 @@ Objects {
       Z: -165
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6916809
+      Pitch: -1.33217371
+      Yaw: -60.6916771
       Roll: 2.1350111e-07
     }
     Scale {
@@ -2164,7 +2143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2193,7 +2172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13940177877721405764
+  Id: 5063095019634245310
   Name: "Marker"
   Transform {
     Location {
@@ -2202,9 +2181,9 @@ Objects {
       Z: -315.001099
     }
     Rotation {
-      Pitch: -1.33218384
-      Yaw: -60.6916809
-      Roll: 5.33752775e-08
+      Pitch: -1.33217371
+      Yaw: -60.6916771
+      Roll: 2.1350111e-07
     }
     Scale {
       X: 1
@@ -2212,7 +2191,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5555918133323464641
+  ParentId: 8159923620929613694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2241,7 +2220,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1365597725282657501
+  Id: 3130898913923468195
   Name: "ServerContext"
   Transform {
     Location {
@@ -2254,8 +2233,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13648822973857975151
-  ChildIds: 3701674108836325227
+  ParentId: 12992829209838175568
+  ChildIds: 8238396039583053302
+  ChildIds: 7002063964530485426
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2270,7 +2250,38 @@ Objects {
   }
 }
 Objects {
-  Id: 3701674108836325227
+  Id: 7002063964530485426
+  Name: "Chopper Start Position"
+  Transform {
+    Location {
+      X: -5500
+      Y: 7200
+      Z: 4500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3130898913923468195
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8238396039583053302
   Name: "GAMEMODE_StrikePoints_Server"
   Transform {
     Location {
@@ -2283,18 +2294,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1365597725282657501
+  ParentId: 3130898913923468195
   UnregisteredParameters {
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 13648822973857975151
+        SelfId: 12992829209838175568
       }
     }
     Overrides {
       Name: "cs:HillMarkers"
       ObjectReference {
-        SelfId: 5555918133323464641
+        SelfId: 8159923620929613694
       }
     }
     Overrides {
@@ -2304,9 +2315,21 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Chopper"
+      AssetReference {
+        Id: 9253170342008343433
+      }
+    }
+    Overrides {
+      Name: "cs:ChopperStartPosition"
+      ObjectReference {
+        SelfId: 7002063964530485426
+      }
+    }
+    Overrides {
       Name: "cs:Hills"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
   }
@@ -2326,7 +2349,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7944863804587469569
+  Id: 15990582303888294468
   Name: "Freeze Tag"
   Transform {
     Location {
@@ -2339,8 +2362,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 7207997224443651230
+  ParentId: 13332047254433018822
+  ChildIds: 16486615283172669061
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
@@ -2397,7 +2420,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7207997224443651230
+  Id: 16486615283172669061
   Name: "ServerContext"
   Transform {
     Location {
@@ -2410,8 +2433,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7944863804587469569
-  ChildIds: 2104415673579874018
+  ParentId: 15990582303888294468
+  ChildIds: 9857924699851871063
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2426,7 +2449,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2104415673579874018
+  Id: 9857924699851871063
   Name: "GAMEMODE_FreezeTag_Server"
   Transform {
     Location {
@@ -2439,24 +2462,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7207997224443651230
+  ParentId: 16486615283172669061
   UnregisteredParameters {
     Overrides {
       Name: "cs:NETWORKED"
       ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 15824596139154346270
       }
     }
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 7944863804587469569
+        SelfId: 15990582303888294468
       }
     }
     Overrides {
       Name: "cs:SPAWNED_OBJECTS"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
     Overrides {
@@ -2482,7 +2505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12932247767215667596
+  Id: 8335355704553292943
   Name: "Team Death Match"
   Transform {
     Location {
@@ -2495,8 +2518,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2069827930317499916
-  ChildIds: 18138514129617742640
+  ParentId: 13332047254433018822
+  ChildIds: 13916289376813473567
   UnregisteredParameters {
     Overrides {
       Name: "cs:ENABLED"
@@ -2553,7 +2576,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18138514129617742640
+  Id: 13916289376813473567
   Name: "ServerContext"
   Transform {
     Location {
@@ -2566,8 +2589,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12932247767215667596
-  ChildIds: 5055027908557577934
+  ParentId: 8335355704553292943
+  ChildIds: 2669345100527970057
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2582,7 +2605,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5055027908557577934
+  Id: 2669345100527970057
   Name: "GAMEMODE_Server"
   Transform {
     Location {
@@ -2595,7 +2618,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18138514129617742640
+  ParentId: 13916289376813473567
   UnregisteredParameters {
     Overrides {
       Name: "cs:GameTypeAPI"
@@ -2606,13 +2629,13 @@ Objects {
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 12932247767215667596
+        SelfId: 8335355704553292943
       }
     }
     Overrides {
       Name: "cs:SPAWNED_OBJECTS"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
   }
@@ -2632,7 +2655,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4919763209775509420
+  Id: 8796359411358112409
   Name: "ClientContext"
   Transform {
     Location {
@@ -2645,10 +2668,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
-  ChildIds: 10085588117092034099
-  ChildIds: 5121709925116329059
-  ChildIds: 9322754532337599327
+  ParentId: 5666581829229958885
+  ChildIds: 1733075608393014038
+  ChildIds: 8760267320327489367
+  ChildIds: 6351042082516185513
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -2656,13 +2679,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 9322754532337599327
+  Id: 6351042082516185513
   Name: "UI"
   Transform {
     Location {
@@ -2675,9 +2698,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4919763209775509420
-  ChildIds: 17256018072525539888
-  ChildIds: 16034620276097518349
+  ParentId: 8796359411358112409
+  ChildIds: 4327054226212531309
+  ChildIds: 8294796531280925646
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2692,7 +2715,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16034620276097518349
+  Id: 8294796531280925646
   Name: "GAMEMODE_InfoPanel_Client"
   Transform {
     Location {
@@ -2705,30 +2728,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9322754532337599327
+  ParentId: 6351042082516185513
   UnregisteredParameters {
     Overrides {
       Name: "cs:GAMEMODE_NAME"
       ObjectReference {
-        SelfId: 18374538261419046683
+        SelfId: 7779689975640768055
       }
     }
     Overrides {
       Name: "cs:NETWORKED"
       ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 15824596139154346270
       }
     }
     Overrides {
       Name: "cs:INFOPANEL"
       ObjectReference {
-        SelfId: 8773795666206082033
+        SelfId: 8480823395830732121
       }
     }
     Overrides {
       Name: "cs:CAPTUREINFO"
       ObjectReference {
-        SelfId: 9332445309826049017
+        SelfId: 18122356767945626274
       }
     }
   }
@@ -2748,7 +2771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17256018072525539888
+  Id: 4327054226212531309
   Name: "INFO_CONTAINER"
   Transform {
     Location {
@@ -2761,9 +2784,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9322754532337599327
-  ChildIds: 8773795666206082033
-  ChildIds: 9332445309826049017
+  ParentId: 6351042082516185513
+  ChildIds: 8480823395830732121
+  ChildIds: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2796,7 +2819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9332445309826049017
+  Id: 18122356767945626274
   Name: "CAPTURE INFO"
   Transform {
     Location {
@@ -2809,19 +2832,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17256018072525539888
-  ChildIds: 16393105279383135423
-  ChildIds: 12669839046350326577
-  ChildIds: 11335686080374680370
-  ChildIds: 9935278292560286820
-  ChildIds: 17825104969279491451
-  ChildIds: 18178622813431692020
-  ChildIds: 4096353170911665529
+  ParentId: 4327054226212531309
+  ChildIds: 2740452248939551175
+  ChildIds: 625480627565303664
+  ChildIds: 4897569508725727355
+  ChildIds: 2204905421252139309
+  ChildIds: 7256631763743239573
+  ChildIds: 15661396515934178926
+  ChildIds: 12638552176279106089
   UnregisteredParameters {
     Overrides {
       Name: "cs:POINT_STATUS"
       ObjectReference {
-        SelfId: 11335686080374680370
+        SelfId: 4897569508725727355
       }
     }
   }
@@ -2861,7 +2884,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4096353170911665529
+  Id: 12638552176279106089
   Name: "Border Bottom"
   Transform {
     Location {
@@ -2874,7 +2897,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2920,7 +2943,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18178622813431692020
+  Id: 15661396515934178926
   Name: "Border Top"
   Transform {
     Location {
@@ -2933,7 +2956,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2979,7 +3002,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17825104969279491451
+  Id: 7256631763743239573
   Name: "Border Left"
   Transform {
     Location {
@@ -2992,7 +3015,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3038,7 +3061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9935278292560286820
+  Id: 2204905421252139309
   Name: "Border Right"
   Transform {
     Location {
@@ -3051,7 +3074,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3097,7 +3120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11335686080374680370
+  Id: 4897569508725727355
   Name: "POINT_STATUS"
   Transform {
     Location {
@@ -3110,7 +3133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3161,7 +3184,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12669839046350326577
+  Id: 625480627565303664
   Name: "BG Image"
   Transform {
     Location {
@@ -3174,7 +3197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3222,7 +3245,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16393105279383135423
+  Id: 2740452248939551175
   Name: "BG Image"
   Transform {
     Location {
@@ -3235,7 +3258,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332445309826049017
+  ParentId: 18122356767945626274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3281,7 +3304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8773795666206082033
+  Id: 8480823395830732121
   Name: "INFO PANEL"
   Transform {
     Location {
@@ -3294,15 +3317,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17256018072525539888
-  ChildIds: 6684516588920905648
-  ChildIds: 16246454316626500326
-  ChildIds: 18374538261419046683
-  ChildIds: 6956209420724672488
-  ChildIds: 1472215683352172380
-  ChildIds: 3726563686265702316
-  ChildIds: 413723956368276098
-  ChildIds: 10555075059962728034
+  ParentId: 4327054226212531309
+  ChildIds: 8724996989940395550
+  ChildIds: 2081534653371767938
+  ChildIds: 7779689975640768055
+  ChildIds: 8886199919597403127
+  ChildIds: 1908693019448003747
+  ChildIds: 11086926219598878913
+  ChildIds: 14000607571006239867
+  ChildIds: 5756892006095611317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3339,7 +3362,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10555075059962728034
+  Id: 5756892006095611317
   Name: "Game Mode Panel"
   Transform {
     Location {
@@ -3352,8 +3375,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
-  ChildIds: 8567966129341145887
+  ParentId: 8480823395830732121
+  ChildIds: 13153865297127252655
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3389,7 +3412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8567966129341145887
+  Id: 13153865297127252655
   Name: "Tab Panel"
   Transform {
     Location {
@@ -3402,10 +3425,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10555075059962728034
-  ChildIds: 14695511638327368389
-  ChildIds: 133896334440874629
-  ChildIds: 6377959869487575713
+  ParentId: 5756892006095611317
+  ChildIds: 15654431136535562001
+  ChildIds: 17456039724357518812
+  ChildIds: 1455554477950931369
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3443,7 +3466,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6377959869487575713
+  Id: 1455554477950931369
   Name: "GAMEMODE_NAME"
   Transform {
     Location {
@@ -3456,7 +3479,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8567966129341145887
+  ParentId: 13153865297127252655
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3509,7 +3532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 133896334440874629
+  Id: 17456039724357518812
   Name: "UI Image"
   Transform {
     Location {
@@ -3522,7 +3545,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8567966129341145887
+  ParentId: 13153865297127252655
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3568,7 +3591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14695511638327368389
+  Id: 15654431136535562001
   Name: "UI Image"
   Transform {
     Location {
@@ -3581,7 +3604,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8567966129341145887
+  ParentId: 13153865297127252655
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3627,7 +3650,7 @@ Objects {
   }
 }
 Objects {
-  Id: 413723956368276098
+  Id: 14000607571006239867
   Name: "Border Bottom"
   Transform {
     Location {
@@ -3640,7 +3663,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3686,7 +3709,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3726563686265702316
+  Id: 11086926219598878913
   Name: "Border Top"
   Transform {
     Location {
@@ -3699,7 +3722,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3745,7 +3768,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1472215683352172380
+  Id: 1908693019448003747
   Name: "Border Left"
   Transform {
     Location {
@@ -3758,7 +3781,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3804,7 +3827,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6956209420724672488
+  Id: 8886199919597403127
   Name: "Border Right"
   Transform {
     Location {
@@ -3817,7 +3840,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3863,7 +3886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18374538261419046683
+  Id: 7779689975640768055
   Name: "GAMEMODE_NAME"
   Transform {
     Location {
@@ -3876,7 +3899,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3926,7 +3949,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16246454316626500326
+  Id: 2081534653371767938
   Name: "BG Image"
   Transform {
     Location {
@@ -3939,7 +3962,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3986,7 +4009,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6684516588920905648
+  Id: 8724996989940395550
   Name: "BG Image"
   Transform {
     Location {
@@ -3999,7 +4022,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8773795666206082033
+  ParentId: 8480823395830732121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4044,7 +4067,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5121709925116329059
+  Id: 8760267320327489367
   Name: "GAMEMODE_Client_Manager"
   Transform {
     Location {
@@ -4057,24 +4080,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4919763209775509420
+  ParentId: 8796359411358112409
   UnregisteredParameters {
     Overrides {
       Name: "cs:Spawned_Objects"
       ObjectReference {
-        SelfId: 6050299572735879174
+        SelfId: 11192825345746752337
       }
     }
     Overrides {
       Name: "cs:GAME_MODE_INFO"
       ObjectReference {
-        SelfId: 17499711518036647159
+        SelfId: 5224650719507152241
       }
     }
     Overrides {
       Name: "cs:GAMEMODE_Networked"
       ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 15824596139154346270
       }
     }
     Overrides {
@@ -4098,13 +4121,7 @@ Objects {
     Overrides {
       Name: "cs:PARENT_PANEL"
       ObjectReference {
-        SelfId: 15417021440351739771
-      }
-    }
-    Overrides {
-      Name: "cs:GameTypesData"
-      ObjectReference {
-        SelfId: 2069827930317499916
+        SelfId: 3745535253484215434
       }
     }
   }
@@ -4124,7 +4141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10085588117092034099
+  Id: 1733075608393014038
   Name: "GAMEMODE_API"
   Transform {
     Location {
@@ -4137,7 +4154,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4919763209775509420
+  ParentId: 8796359411358112409
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4154,7 +4171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1910498352853034346
+  Id: 13538783424183954068
   Name: "ServerContext"
   Transform {
     Location {
@@ -4167,9 +4184,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5740934596799920840
-  ChildIds: 4858939407005837093
-  ChildIds: 7396617829175629489
+  ParentId: 5666581829229958885
+  ChildIds: 6274644520436019457
+  ChildIds: 7613979745637337416
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4184,7 +4201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7396617829175629489
+  Id: 7613979745637337416
   Name: "GAMEMODE_ServerManager"
   Transform {
     Location {
@@ -4197,24 +4214,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1910498352853034346
+  ParentId: 13538783424183954068
   UnregisteredParameters {
     Overrides {
       Name: "cs:GameTypesData"
       ObjectReference {
-        SelfId: 2069827930317499916
+        SelfId: 13332047254433018822
       }
     }
     Overrides {
       Name: "cs:GameTypeNetworked"
       ObjectReference {
-        SelfId: 16822128672148941902
+        SelfId: 15824596139154346270
       }
     }
     Overrides {
       Name: "cs:ROOT"
       ObjectReference {
-        SelfId: 5740934596799920840
+        SelfId: 5666581829229958885
       }
     }
     Overrides {
@@ -4246,7 +4263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4858939407005837093
+  Id: 6274644520436019457
   Name: "GAMEMODE_API"
   Transform {
     Location {
@@ -4259,7 +4276,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1910498352853034346
+  ParentId: 13538783424183954068
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

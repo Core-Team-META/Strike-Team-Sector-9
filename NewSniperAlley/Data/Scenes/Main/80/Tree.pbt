@@ -1,7 +1,7 @@
 Name: "80"
-RootId: 4320026728396466708
+RootId: 5358823914723447360
 Objects {
-  Id: 13125498790935289142
+  Id: 17979390765339881414
   Name: "Muddy Lens Post Process"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4320026728396466708
+  ParentId: 5358823914723447360
   UnregisteredParameters {
     Overrides {
       Name: "bp:Dirt Mask Tint"
@@ -43,11 +43,5 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 16110503402750183717
-    SubobjectId: 14685942102297361620
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

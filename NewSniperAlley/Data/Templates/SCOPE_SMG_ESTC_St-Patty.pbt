@@ -7,7 +7,7 @@ Assets {
       RootId: 14929239481961597594
       Objects {
         Id: 14929239481961597594
-        Name: "St. Patty\'s SP99_Scope"
+        Name: "SCOPE_SMG_ESTC_St-Patty"
         Transform {
           Scale {
             X: 1
@@ -101,7 +101,7 @@ Assets {
         }
         ParentId: 14929239481961597594
         ChildIds: 2003374937724737713
-        ChildIds: 1598150653653868127
+        ChildIds: 1428090222423930857
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -112,7 +112,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Folder {
           IsGroup: true
@@ -124,8 +124,8 @@ Assets {
         Transform {
           Location {
             X: 16.836792
-            Y: -27.0379639
-            Z: 0.312927246
+            Y: -27.0380859
+            Z: 0.613
           }
           Rotation {
           }
@@ -214,13 +214,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -308,7 +308,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -413,13 +413,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -442,7 +442,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -509,13 +509,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
         }
@@ -531,7 +531,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 9498823304973238158
+            Id: 11860040597399652835
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -568,13 +568,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -655,13 +655,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -733,7 +733,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -751,7 +751,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -813,7 +813,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -887,7 +887,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -962,7 +962,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1032,13 +1032,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1305,7 +1305,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1317,7 +1317,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail2:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1339,7 +1339,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -1447,13 +1447,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1563,13 +1563,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1639,7 +1639,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1738,7 +1738,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -1815,13 +1815,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2073,19 +2073,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2185,7 +2185,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
@@ -2267,19 +2267,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2380,19 +2380,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2493,19 +2493,19 @@ Assets {
           Overrides {
             Name: "ma:Font.Bevel:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Faces:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Font.Sides:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2695,19 +2695,19 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3770287877712236950
+              Id: 2606200893917864133
             }
           }
           Overrides {
@@ -2802,13 +2802,13 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 8120533963385098208
+              Id: 5825015806398044810
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4270565736417276453
+              Id: 10498479629754026470
             }
           }
           Overrides {
@@ -2847,26 +2847,28 @@ Assets {
         }
       }
       Objects {
-        Id: 1598150653653868127
-        Name: "Dont Delete"
+        Id: 1428090222423930857
+        Name: "Group"
         Transform {
           Location {
-            X: 24.3488979
-            Y: -27.0257988
-            Z: 25.5499268
+            X: 24.0524292
+            Y: -27.0068359
+            Z: 26.0422668
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
           }
         }
         ParentId: 5516146394135453653
-        ChildIds: 4952376707059917377
-        ChildIds: 17401453668039278842
-        ChildIds: 5592620501402976435
+        ChildIds: 14253812723524501461
+        ChildIds: 5494644770489926040
+        ChildIds: 13661122157047461437
+        ChildIds: 14419220475351011518
+        ChildIds: 8079309320763911206
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2882,25 +2884,24 @@ Assets {
         }
       }
       Objects {
-        Id: 4952376707059917377
+        Id: 14253812723524501461
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: -3.76778412
-            Y: 0.0197143555
-            Z: 0.300003052
+            X: -6.91516113
+            Z: -0.190002441
           }
           Rotation {
             Pitch: -90
             Roll: -179.99971
           }
           Scale {
-            X: 0.0065
-            Y: 0.0065
-            Z: 0.001
+            X: 0.001
+            Y: 0.001
+            Z: 0.005
           }
         }
-        ParentId: 1598150653653868127
+        ParentId: 1428090222423930857
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2931,7 +2932,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 14125111047322222726
+            Id: 3294723259559680467
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2946,25 +2947,56 @@ Assets {
         }
       }
       Objects {
-        Id: 17401453668039278842
+        Id: 5494644770489926040
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1428090222423930857
+        ChildIds: 15421846782191140386
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 15421846782191140386
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: 1.88388824
-            Y: 0.167419434
+            Y: 0.119140625
+            Z: 0.119
           }
           Rotation {
-            Pitch: -44.999958
-            Yaw: -89.9999466
-            Roll: -89.9998245
+            Pitch: -90
+            Roll: -179.99971
           }
           Scale {
-            X: 0.000269592303
-            Y: 0.00550000137
-            Z: 0.001
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
           }
         }
-        ParentId: 1598150653653868127
+        ParentId: 5494644770489926040
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2995,7 +3027,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2654247951300160945
+            Id: 13662191397276538134
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3010,25 +3042,57 @@ Assets {
         }
       }
       Objects {
-        Id: 5592620501402976435
+        Id: 13661122157047461437
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: 90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1428090222423930857
+        ChildIds: 10756310997885890812
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 10756310997885890812
         Name: "Modern Weapon - Scope 01"
         Transform {
           Location {
-            X: 1.88388824
-            Y: -0.187072754
+            Y: 0.118988022
+            Z: 0.119
           }
           Rotation {
-            Pitch: -44.999958
-            Yaw: 89.9999542
-            Roll: -89.9999695
+            Pitch: -90
+            Roll: -179.99971
           }
           Scale {
-            X: 0.000269592303
-            Y: 0.00550000137
-            Z: 0.001
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
           }
         }
-        ParentId: 1598150653653868127
+        ParentId: 13661122157047461437
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -3059,7 +3123,199 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2654247951300160945
+            Id: 13662191397276538134
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14419220475351011518
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1428090222423930857
+        ChildIds: 17249820660768749371
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 17249820660768749371
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            Y: 0.118988022
+            Z: 0.119
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
+          }
+        }
+        ParentId: 14419220475351011518
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17592276739556605565
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13662191397276538134
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          DisableReceiveDecals: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 8079309320763911206
+        Name: "Group"
+        Transform {
+          Location {
+            X: -6.91516113
+            Z: -0.190002441
+          }
+          Rotation {
+            Roll: 180
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1428090222423930857
+        ChildIds: 8738285276697994182
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8738285276697994182
+        Name: "Modern Weapon - Scope 01"
+        Transform {
+          Location {
+            Y: 0.119140536
+            Z: 0.119
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -179.99971
+          }
+          Scale {
+            X: 0.013
+            Y: 0.013
+            Z: 0.002
+          }
+        }
+        ParentId: 8079309320763911206
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17592276739556605565
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              A: 1
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13662191397276538134
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -3084,7 +3340,7 @@ Assets {
       }
     }
     Assets {
-      Id: 4270565736417276453
+      Id: 10498479629754026470
       Name: "Plastic Shiny"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -3093,7 +3349,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3770287877712236950
+      Id: 2606200893917864133
       Name: "Metal Painted 01"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -3120,7 +3376,7 @@ Assets {
       }
     }
     Assets {
-      Id: 8120533963385098208
+      Id: 5825015806398044810
       Name: "Metal Old Beaten Gold 02"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -3129,7 +3385,7 @@ Assets {
       }
     }
     Assets {
-      Id: 9498823304973238158
+      Id: 11860040597399652835
       Name: "Modern Weapon Barrel 01"
       PlatformAssetType: 1
       PrimaryAsset {
@@ -3300,12 +3556,12 @@ Assets {
       }
     }
     Assets {
-      Id: 14125111047322222726
-      Name: "Ring - Thin"
+      Id: 3294723259559680467
+      Name: "Cylinder"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_torus_003"
+        AssetId: "sm_cylinder_002"
       }
     }
     Assets {
@@ -3315,6 +3571,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_gen_asphault_001"
+      }
+    }
+    Assets {
+      Id: 13662191397276538134
+      Name: "Pipe - Quarter Thin"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_quarter-pipe_002"
       }
     }
     PrimaryAssetId {

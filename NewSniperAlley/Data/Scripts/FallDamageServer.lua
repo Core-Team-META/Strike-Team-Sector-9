@@ -24,7 +24,6 @@ local LETHAL_SPEED = TEMPLATE_ROOT:GetCustomProperty("LethalSpeed")
 local HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS = TEMPLATE_ROOT:GetCustomProperty("HearOtherPlayersDamageSounds")
 
 local SPHERE = script:GetCustomProperty("Sphere")
-local modelGender = "Male"
 
 -- Check user properties
 if MAXIMUM_SAFE_SPEED <= 0.0 then
@@ -37,38 +36,6 @@ if LETHAL_SPEED < MAXIMUM_SAFE_SPEED then
 	LETHAL_SPEED = MAXIMUM_SAFE_SPEED
 end
 
-function AttachPoints(player)
-
-    local Left = World.SpawnAsset(SPHERE)
-    local Right = World.SpawnAsset(SPHERE)
-
-    Left.collision = Collision.FORCE_OFF
-    Right.collision = Collision.FORCE_OFF
-    Left.visibility = Visibility.FORCE_OFF
-    Right.visibility = Visibility.FORCE_OFF
-
-	Task.Wait(1)
-
-	Left:AttachToPlayer(player, "left_clavicle")
-    Right:AttachToPlayer(player, "right_clavicle")
-
-	if((Left:GetWorldPosition() - Right:GetWorldPosition()).size <= 6) then
-        modelGender = "Female" -- Female
-    else
-        modelGender = "Male" -- Male
-    end
-
-	if (Object.IsValid(Left)) then
-		Left:Detach()
-		Left:Destroy()
-	end
-	if (Object.IsValid(Right)) then
-		Right:Detach()
-		Right:Destroy()
-	end
-    
-end
-
 -- Variables
 local previousFallingSpeeds = {}		-- Player -> float
 local previousGroundedStates = {}		-- Player -> bool
@@ -76,7 +43,7 @@ local previousGroundedStates = {}		-- Player -> bool
 -- nil OnPlayerJoined(Player)
 -- Sets up data for a new player
 function OnPlayerJoined(player)
-	AttachPoints(player)
+--	AttachPoints(player)
 	previousFallingSpeeds[player] = 0.0
 	previousGroundedStates[player] = true
 end
@@ -98,7 +65,7 @@ function Tick(deltaTime)
 		-- Did this player hit the ground since last frame
 		if not player.serverUserData.FallResistant then
 		if isGrounded and not previousGroundedStates[player] then
-			if (previousFallingSpeeds[player] or 10) > MAXIMUM_SAFE_SPEED then
+			if (previousFallingSpeeds[player] or 0 ) > MAXIMUM_SAFE_SPEED then
 				-- How much damage should we deal, from none (0.0) to all (1.0)
 				local t = 1.0
 
@@ -113,9 +80,9 @@ function Tick(deltaTime)
 
 				-- Send an event so the client can play sounds
 				if HEAR_OTHER_PLAYERS_DAMAGE_SOUNDS then
-					Events.BroadcastToAllPlayers("FallDamage", player, modelGender)
+					Events.BroadcastToAllPlayers("FallDamage", player)
 				else
-					Events.BroadcastToPlayer(player, "FallDamage", player, modelGender)
+					Events.BroadcastToPlayer(player, "FallDamage", player)
 				end
 			end
 		end
@@ -130,6 +97,6 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Game.playerLeftEvent:Connect(OnPlayerLeft)
 
-Events.Connect("UpdateSkin", AttachPoints)
+--Events.Connect("UpdateSkin", AttachPoints)
 
 

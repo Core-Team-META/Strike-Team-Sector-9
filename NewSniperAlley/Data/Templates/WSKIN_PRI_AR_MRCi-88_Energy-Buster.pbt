@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -299,7 +299,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -1980,7 +1980,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2496,7 +2496,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -2578,7 +2578,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3605030238014728915
+              Id: 15501818394444556140
             }
           }
           Overrides {
@@ -3237,7 +3237,7 @@ Assets {
       }
     }
     Assets {
-      Id: 3605030238014728915
+      Id: 15501818394444556140
       Name: "Wood Planks"
       PlatformAssetType: 2
       PrimaryAsset {

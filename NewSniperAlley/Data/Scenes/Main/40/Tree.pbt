@@ -1,7 +1,7 @@
 Name: "40"
-RootId: 2030049201315561871
+RootId: 3723196682377798442
 Objects {
-  Id: 12687612879585349933
+  Id: 10205554746168445210
   Name: "Color Grading Post Process"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2030049201315561871
+  ParentId: 3723196682377798442
   UnregisteredParameters {
     Overrides {
       Name: "bp:Color Saturation"
@@ -38,8 +38,8 @@ Objects {
       Name: "bp:Scene Tint"
       Color {
         R: 1
-        G: 0.385
-        B: 0.385
+        G: 0.64
+        B: 0.64
         A: 1
       }
     }
@@ -60,15 +60,9 @@ Objects {
     TeamSettings {
     }
   }
-  InstanceHistory {
-    SelfId: 12405227260751411386
-    SubobjectId: 13290909214996352331
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
-  }
 }
 Objects {
-  Id: 11941441024051162191
+  Id: 8016957858701863591
   Name: "Muddy Lens Post Process"
   Transform {
     Location {
@@ -81,7 +75,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2030049201315561871
+  ParentId: 3723196682377798442
   UnregisteredParameters {
     Overrides {
       Name: "bp:Dirt Mask Tint"
@@ -110,11 +104,5 @@ Objects {
     }
     TeamSettings {
     }
-  }
-  InstanceHistory {
-    SelfId: 17183417845662292426
-    SubobjectId: 18027118251137936443
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

@@ -51,7 +51,7 @@ Assets {
           Overrides {
             Name: "cs:Spawned_Objects"
             ObjectReference {
-              SelfId: 6050299572735879174
+              SelfId: 11192825345746752337
             }
           }
         }
@@ -62,7 +62,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -10276,7 +10276,7 @@ Assets {
           Overrides {
             Name: "cs:Spawned_Objects"
             ObjectReference {
-              SelfId: 6050299572735879174
+              SelfId: 11192825345746752337
             }
           }
           Overrides {

@@ -1,7 +1,392 @@
 Name: "Feed Icons"
-RootId: 13987158713816059164
+RootId: 10580633710846159148
 Objects {
-  Id: 17565408083698036657
+  Id: 13749060656641974936
+  Name: "Railgun"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10580633710846159148
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 11800016107628846849
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 4118856167718178250
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 17582367140764135335
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.546
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        X: 4
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Offset"
+      Vector2 {
+        X: 3
+        Y: -1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 4118856167718178250
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05"
+      AssetReference {
+        Id: 96162478431907100
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_WidthHeight"
+      Vector2 {
+        X: -22
+        Y: -22
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Color"
+      Color {
+        R: 0.0887415633
+        G: 0.669999957
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_05_Offset"
+      Vector2 {
+        X: -7
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06"
+      AssetReference {
+        Id: 17289448223043935888
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Color"
+      Color {
+        R: 0.0887415633
+        G: 0.669999957
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_WidthHeight"
+      Vector2 {
+        X: -29
+        Y: -10
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Rotate"
+      Float: 77
+    }
+    Overrides {
+      Name: "cs:Layer_06_Offset"
+      Vector2 {
+        X: 7
+        Y: -2
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+}
+Objects {
+  Id: 9620596236446261376
+  Name: "HLK"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10580633710846159148
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 6891319963479194532
+      }
+    }
+    Overrides {
+      Name: "cs:Name"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Layer_03"
+      AssetReference {
+        Id: 4122335080923778541
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Color"
+      Color {
+        R: 0.9
+        G: 0.268212
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02"
+      AssetReference {
+        Id: 17582367140764135335
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_Color"
+      Color {
+        R: 0.919999957
+        G: 0.274172246
+        A: 0.546
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_02_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_WidthHeight"
+      Vector2 {
+        X: 4
+        Y: 4
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_WidthHeight"
+      Vector2 {
+        X: 5
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01"
+      AssetReference {
+        Id: 7870036508509870963
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_01_Color"
+      Color {
+        R: 0.62
+        G: 0.0985432193
+        A: 0.676000059
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_04_Rotate"
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Layer_01_WidthHeight"
+      Vector2 {
+        X: 15
+        Y: 15
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_03_Offset"
+      Vector2 {
+        X: 4
+        Y: 2
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04"
+      AssetReference {
+        Id: 4122335080923778541
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06"
+      AssetReference {
+        Id: 17289448223043935888
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Color"
+      Color {
+        R: 0.0887415633
+        G: 0.669999957
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Rotate"
+      Float: 77
+    }
+    Overrides {
+      Name: "cs:Layer_06_WidthHeight"
+      Vector2 {
+        X: -29
+        Y: -12
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_06_Offset"
+      Vector2 {
+        X: 9
+        Y: -4
+      }
+    }
+    Overrides {
+      Name: "cs:Layer_04_Offset"
+      Vector2 {
+        X: 3
+        Y: -1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18143543578217522570
+    }
+  }
+}
+Objects {
+  Id: 11642363487295712169
   Name: "Axe"
   Transform {
     Location {
@@ -14,7 +399,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -138,15 +523,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 1840193231321597728
-    SubobjectId: 10214478570024792351
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 16151515492065374635
+  Id: 17313425855967700300
   Name: "Mace"
   Transform {
     Location {
@@ -159,7 +538,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -269,15 +648,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 9583335047461667614
-    SubobjectId: 1204268323973068065
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 6794771082009792277
+  Id: 10430373972365770010
   Name: "icepick"
   Transform {
     Location {
@@ -290,7 +663,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -400,15 +773,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 10719504863978744520
-    SubobjectId: 39379263738879223
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 11779988416143432738
+  Id: 17933434443575227682
   Name: "Pick"
   Transform {
     Location {
@@ -421,7 +788,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -522,15 +889,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 16194584868840822723
-    SubobjectId: 8427935816344805884
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 12788037637680907165
+  Id: 14617283041840870913
   Name: "Pan"
   Transform {
     Location {
@@ -543,7 +904,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -734,15 +1095,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 16194584868840822723
-    SubobjectId: 8427935816344805884
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 7427357173508280897
+  Id: 2056579211707667814
   Name: "Bat"
   Transform {
     Location {
@@ -755,7 +1110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -865,15 +1220,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 11665608824098524389
-    SubobjectId: 3867504324987091674
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 2281667898613225601
+  Id: 5310925499307390768
   Name: "Grenade"
   Transform {
     Location {
@@ -886,7 +1235,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1000,15 +1349,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 2951532381427415683
-    SubobjectId: 13600097687417474236
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 11672099551674864953
+  Id: 1364016934418290653
   Name: "Molitov"
   Transform {
     Location {
@@ -1021,7 +1364,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1138,15 +1481,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 9814934003892439881
-    SubobjectId: 2052820799148211574
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 2774344743601634053
+  Id: 12494869506896325071
   Name: "burst"
   Transform {
     Location {
@@ -1159,7 +1496,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1276,15 +1613,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 4781718377092890698
-    SubobjectId: 15426130948998968949
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 6189422402911426884
+  Id: 17646788230623935020
   Name: "pistol"
   Transform {
     Location {
@@ -1297,7 +1628,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1414,15 +1745,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 6724280368740924737
-    SubobjectId: 14490827149034195838
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 16377015024688439573
+  Id: 8433487856190204218
   Name: "Knife"
   Transform {
     Location {
@@ -1435,7 +1760,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1552,15 +1877,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 7904339313352621293
-    SubobjectId: 18012544060977564370
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 2100303330211833318
+  Id: 14687329395563850228
   Name: "LMG"
   Transform {
     Location {
@@ -1573,7 +1892,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1690,15 +2009,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 10196360868321315519
-    SubobjectId: 1857862344925133952
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 11584153507864380975
+  Id: 9803923317167307879
   Name: "Sniper"
   Transform {
     Location {
@@ -1711,7 +2024,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1828,15 +2141,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 11249294963882820418
-    SubobjectId: 600445436221322621
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 14491007752202250538
+  Id: 10800783227826443645
   Name: "SVAA"
   Transform {
     Location {
@@ -1849,7 +2156,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1966,15 +2273,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 3253999627040043524
-    SubobjectId: 13357734433618379835
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 603165087281568665
+  Id: 9896971763980522517
   Name: "Shotgun"
   Transform {
     Location {
@@ -1987,7 +2288,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2104,15 +2405,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 3725507470167058619
-    SubobjectId: 12104297647594364548
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 18252199801440107455
+  Id: 11263053490888704738
   Name: "Manticore (Rocket)"
   Transform {
     Location {
@@ -2125,7 +2420,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2242,15 +2537,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 8193025268739843511
-    SubobjectId: 16572062217271497608
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 3295699364066078499
+  Id: 4477918256405661283
   Name: "SP"
   Transform {
     Location {
@@ -2263,7 +2552,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2387,15 +2676,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 2372371688090244402
-    SubobjectId: 13016784603023303437
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 3560767436486400660
+  Id: 13424022721118835174
   Name: "HK99"
   Transform {
     Location {
@@ -2408,7 +2691,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -2536,15 +2819,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 8901087214965601893
-    SubobjectId: 17280224303377399898
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 10089451028818257207
+  Id: 15465380065809468793
   Name: "PlayerJoined"
   Transform {
     Location {
@@ -2557,7 +2834,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2607,15 +2884,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 5955748078834104786
-    SubobjectId: 14334854847461150701
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 14295128170334608949
+  Id: 13097164269757305697
   Name: "PlayerLeft"
   Transform {
     Location {
@@ -2628,7 +2899,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2686,15 +2957,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 10721048094489838524
-    SubobjectId: 36138378962957699
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 12757173017978804419
+  Id: 6221393983874531345
   Name: "PlayerLoadout"
   Transform {
     Location {
@@ -2707,7 +2972,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2764,15 +3029,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 10721048094489838524
-    SubobjectId: 36138378962957699
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 14467596199610760126
+  Id: 3348479978927948882
   Name: "Default icon"
   Transform {
     Location {
@@ -2785,7 +3044,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2806,15 +3065,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 14177134926407141542
-    SubobjectId: 5834411944586673817
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 1836070044959381688
+  Id: 4214240212952346337
   Name: "WorldKill"
   Transform {
     Location {
@@ -2827,7 +3080,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -2932,15 +3185,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 15628870861719372772
-    SubobjectId: 5524884181677962715
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 16749409970366292589
+  Id: 15310974264822113029
   Name: "Suicide"
   Transform {
     Location {
@@ -2953,7 +3200,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -3116,15 +3363,9 @@ Objects {
       Id: 18143543578217522570
     }
   }
-  InstanceHistory {
-    SelfId: 1307303175262046661
-    SubobjectId: 9686339643290058746
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
-  }
 }
 Objects {
-  Id: 2763579724478453352
+  Id: 11008863768300508700
   Name: "Headshot"
   Transform {
     Location {
@@ -3137,7 +3378,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987158713816059164
+  ParentId: 10580633710846159148
   UnregisteredParameters {
     Overrides {
       Name: "cs:Layer_01"
@@ -3258,11 +3499,5 @@ Objects {
     ScriptAsset {
       Id: 18143543578217522570
     }
-  }
-  InstanceHistory {
-    SelfId: 1307303175262046661
-    SubobjectId: 9686339643290058746
-    InstanceId: 8298575278826370010
-    TemplateId: 17637473600633499804
   }
 }

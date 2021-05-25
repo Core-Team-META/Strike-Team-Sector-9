@@ -26,7 +26,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -801,7 +801,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -883,7 +883,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 15569338977597403090
+            Id: 1920010878601219178
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -4385,7 +4385,7 @@ Assets {
       }
     }
     Assets {
-      Id: 15569338977597403090
+      Id: 1920010878601219178
       Name: "Fantasy Sword Guard 01"
       PlatformAssetType: 1
       PrimaryAsset {

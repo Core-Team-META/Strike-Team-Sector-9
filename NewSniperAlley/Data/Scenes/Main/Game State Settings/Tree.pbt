@@ -1,7 +1,7 @@
 Name: "Game State Settings"
-RootId: 17865277309481751466
+RootId: 13065126000389949516
 Objects {
-  Id: 17962881389256585395
+  Id: 12006180547754253050
   Name: "Lobby Start Reset Team Scores"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17865277309481751466
+  ParentId: 13065126000389949516
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -40,7 +40,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1190064734146805403
+  Id: 15687727964245245427
   Name: "Lobby Required Players"
   Transform {
     Scale {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17865277309481751466
+  ParentId: 13065126000389949516
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -114,7 +114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8291381865721376540
+  Id: 9923325592812109165
   Name: "Lobby Start Respawn Players"
   Transform {
     Scale {
@@ -123,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17865277309481751466
+  ParentId: 13065126000389949516
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -172,7 +172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16241650262358117605
+  Id: 8976005282604115323
   Name: "Basic Game State Manager"
   Transform {
     Location {
@@ -185,9 +185,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17865277309481751466
-  ChildIds: 17657620925774264536
-  ChildIds: 13952408187977801008
+  ParentId: 13065126000389949516
+  ChildIds: 2921546160180533747
+  ChildIds: 15012539507917907946
   UnregisteredParameters {
     Overrides {
       Name: "cs:LobbyHasDuration"
@@ -266,16 +266,9 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 1178817802251444676
-    SubobjectId: 16086570097188718822
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
-    WasRoot: true
-  }
 }
 Objects {
-  Id: 13952408187977801008
+  Id: 15012539507917907946
   Name: "ClientContext"
   Transform {
     Location {
@@ -288,8 +281,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16241650262358117605
-  ChildIds: 12036692631600872294
+  ParentId: 8976005282604115323
+  ChildIds: 13776954157927756104
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -303,15 +296,9 @@ Objects {
   }
   NetworkContext {
   }
-  InstanceHistory {
-    SelfId: 4142355757297100730
-    SubobjectId: 17734718294272544408
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
-  }
 }
 Objects {
-  Id: 12036692631600872294
+  Id: 13776954157927756104
   Name: "GameStateManagerClient"
   Transform {
     Location {
@@ -324,7 +311,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13952408187977801008
+  ParentId: 15012539507917907946
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -335,7 +322,7 @@ Objects {
     Overrides {
       Name: "cs:ServerScript"
       ObjectReference {
-        SelfId: 17657620925774264536
+        SelfId: 2921546160180533747
       }
     }
   }
@@ -353,15 +340,9 @@ Objects {
       Id: 18347967775460952926
     }
   }
-  InstanceHistory {
-    SelfId: 12164164054030005643
-    SubobjectId: 7470680187010079913
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
-  }
 }
 Objects {
-  Id: 17657620925774264536
+  Id: 2921546160180533747
   Name: "BasicGameStateManagerServer"
   Transform {
     Location {
@@ -374,7 +355,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16241650262358117605
+  ParentId: 8976005282604115323
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -385,7 +366,7 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 16241650262358117605
+        SelfId: 8976005282604115323
       }
     }
     Overrides {
@@ -401,22 +382,6 @@ Objects {
       Float: 0
     }
     Overrides {
-      Name: "cs:TransferPlayers"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:RoundsBeforeLocking"
-      Int: 5
-    }
-    Overrides {
-      Name: "cs:SecondsBeforeTransfer"
-      Int: 5
-    }
-    Overrides {
-      Name: "cs:TransferGameId"
-      String: "14b0e1/strike-team-dev"
-    }
-    Overrides {
       Name: "cs:State:isrep"
       Bool: true
     }
@@ -426,22 +391,6 @@ Objects {
     }
     Overrides {
       Name: "cs:StateEndTime:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:RoundsBeforeLocking:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:SecondsBeforeTransfer:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:TransferPlayers:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:TransferGameId:isrep"
       Bool: true
     }
   }
@@ -460,15 +409,9 @@ Objects {
       Id: 2116866938673166392
     }
   }
-  InstanceHistory {
-    SelfId: 4422093152864602407
-    SubobjectId: 17454989556266754053
-    InstanceId: 5710679925734963918
-    TemplateId: 3683989391263939746
-  }
 }
 Objects {
-  Id: 6981846958286468556
+  Id: 11781211825575470806
   Name: "Game State Message"
   Transform {
     Scale {
@@ -477,7 +420,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17865277309481751466
+  ParentId: 13065126000389949516
   UnregisteredParameters {
   }
   Collidable_v2 {

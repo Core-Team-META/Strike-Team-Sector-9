@@ -29,7 +29,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -172,11 +172,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -295,7 +295,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -385,11 +385,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -475,11 +475,11 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
-            Id: 12746395962898980674
+            Id: 5386842465317264650
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -683,7 +683,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12746395962898980674
+      Id: 5386842465317264650
       Name: "Fantasy Crossbow Stock 01"
       PlatformAssetType: 1
       PrimaryAsset {

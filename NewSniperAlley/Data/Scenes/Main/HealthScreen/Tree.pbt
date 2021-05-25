@@ -1,7 +1,7 @@
 Name: "HealthScreen"
-RootId: 17850945980266445748
+RootId: 8178389646139060399
 Objects {
-  Id: 6414942995656485475
+  Id: 10202760546285283488
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,10 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17850945980266445748
-  ChildIds: 5158104788664156041
-  ChildIds: 15638028876540849209
-  ChildIds: 945441302312873453
+  ParentId: 8178389646139060399
+  ChildIds: 16054415458499070127
+  ChildIds: 12311930099323597221
+  ChildIds: 12564929820228677453
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -25,19 +25,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
-  InstanceHistory {
-    SelfId: 11800027962501352336
-    SubobjectId: 13229584614921043553
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
-  }
 }
 Objects {
-  Id: 945441302312873453
+  Id: 12564929820228677453
   Name: "ResetOverlayOnRespawn"
   Transform {
     Location {
@@ -50,7 +44,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6414942995656485475
+  ParentId: 10202760546285283488
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -67,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15638028876540849209
+  Id: 12311930099323597221
   Name: "HealthOverlay"
   Transform {
     Location {
@@ -80,12 +74,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6414942995656485475
+  ParentId: 10202760546285283488
   UnregisteredParameters {
     Overrides {
       Name: "cs:Post"
       ObjectReference {
-        SelfId: 5158104788664156041
+        SelfId: 16054415458499070127
       }
     }
   }
@@ -103,15 +97,9 @@ Objects {
       Id: 5005906046061439436
     }
   }
-  InstanceHistory {
-    SelfId: 3003587611444483940
-    SubobjectId: 4464211755105460885
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
-  }
 }
 Objects {
-  Id: 5158104788664156041
+  Id: 16054415458499070127
   Name: "Post"
   Transform {
     Location {
@@ -124,72 +112,72 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6414942995656485475
+  ParentId: 10202760546285283488
   UnregisteredParameters {
     Overrides {
       Name: "cs:10"
       ObjectReference {
-        SelfId: 5281923728142925254
+        SelfId: 13498808592600102960
       }
     }
     Overrides {
       Name: "cs:20"
       ObjectReference {
-        SelfId: 12133550744448520371
+        SelfId: 9722818928111021583
       }
     }
     Overrides {
       Name: "cs:30"
       ObjectReference {
-        SelfId: 7906121826388935213
+        SelfId: 13951210771121968285
       }
     }
     Overrides {
       Name: "cs:40"
       ObjectReference {
-        SelfId: 2030049201315561871
+        SelfId: 3723196682377798442
       }
     }
     Overrides {
       Name: "cs:50"
       ObjectReference {
-        SelfId: 3789552730832232161
+        SelfId: 13068491054615369037
       }
     }
     Overrides {
       Name: "cs:60"
       ObjectReference {
-        SelfId: 8855346939756860133
+        SelfId: 1078761089170365987
       }
     }
     Overrides {
       Name: "cs:70"
       ObjectReference {
-        SelfId: 14673641738575744396
+        SelfId: 12457076102570940777
       }
     }
     Overrides {
       Name: "cs:80"
       ObjectReference {
-        SelfId: 4320026728396466708
+        SelfId: 5358823914723447360
       }
     }
     Overrides {
       Name: "cs:90"
       ObjectReference {
-        SelfId: 11170795540067107645
+        SelfId: 8505198057394918799
       }
     }
     Overrides {
       Name: "cs:100"
       ObjectReference {
-        SelfId: 13788926584246926975
+        SelfId: 8828043770393904086
       }
     }
     Overrides {
       Name: "cs:0"
       ObjectReference {
-        SelfId: 11873272134315871764
+        SelfId: 244713140262827998
       }
     }
   }
@@ -205,11 +193,5 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Post"
-  }
-  InstanceHistory {
-    SelfId: 13762199270860055975
-    SubobjectId: 12297031120696266838
-    InstanceId: 10288110445807727604
-    TemplateId: 18254605239533031477
   }
 }

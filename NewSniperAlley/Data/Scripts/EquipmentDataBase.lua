@@ -9,8 +9,9 @@ local Raritys = {
     ["Rare"]  =Rarity.New("Rare",15000,375,2,2,5),
     ["Epic"]  =Rarity.New("Epic",25000,625,3,3,10),
     ["Legendary"]  =Rarity.New("Legendary",100000,2500,4,4,15),
-    ["Event"] = Rarity.New("Event",0,0,0,1,0),
-    ["Event2"] = Rarity.New("Event2",0,0,0,1,0),
+    ["Stpat"] = Rarity.New("Stpat",0,0,0,1,0),
+    ["Melted"] = Rarity.New("Melted",0,0,0,1,0),
+    ["Easter"] = Rarity.New("Easter",0,0,0,1,0),
 }
 
 local Database = {} 
@@ -126,6 +127,7 @@ function Database:GetPerk(weaponString)
 end
 
 function VerifyID(Data, NewItem)
+    if string.len(NewItem.id) ~= 2 then return false end 
     for k,Item in pairs(Data) do
         if(Item["id"] == NewItem["id"]) then return false end 
     end
@@ -160,7 +162,9 @@ function Database:RegisterEquipment()
                 NewItem["id"] = Item:GetCustomProperty("ID")
                 NewItem["ads_skin"] = Item:GetCustomProperty("ADSSkin")
                 NewItem["Hoister"] = Item:GetCustomProperty("Hoister")
+                NewItem["rarity"] = Item:GetCustomProperty("Rarity")
                 NewItem["Rotation_Offset"] = Item:GetCustomProperty("RotationOffset")
+                NewItem["offset"] = Item:GetCustomProperty("Offset")
                 NewItem["scale"] = Item:GetCustomProperty("Scale")
                 NewItem["icon"] = Item:GetCustomProperty("ICON")
                 NewItem["level"] = Item:GetCustomProperty("Level")
@@ -197,7 +201,7 @@ function Database:RegisterEquipment()
                     return Database.ReturnSkinRarity(a) > Database.ReturnSkinRarity(b)
                 end)
                 NewItem["skins"] = ItemSkins
-                assert(VerifyID(NewData, NewItem),"Clashing Id".. NewItem.name)
+                assert(VerifyID(NewData, NewItem),string.format("Clashing id %s with id %s", NewItem.name,NewItem.id))
                 table.insert(NewData,NewItem)
             end
         end

@@ -1,7 +1,7 @@
 Name: "KillManager"
-RootId: 13967983004676966328
+RootId: 9197704398363135439
 Objects {
-  Id: 1594603659387328652
+  Id: 3032155576001870825
   Name: "KillManagerClient"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13967983004676966328
-  ChildIds: 5430543806849157250
+  ParentId: 9197704398363135439
+  ChildIds: 2316584693099493412
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -23,13 +23,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 5430543806849157250
+  Id: 2316584693099493412
   Name: "KillManagerClient"
   Transform {
     Location {
@@ -42,8 +42,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1594603659387328652
-  ChildIds: 10780387186474160355
+  ParentId: 3032155576001870825
+  ChildIds: 15402234489272037302
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -60,7 +60,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10780387186474160355
+  Id: 15402234489272037302
   Name: "Group"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5430543806849157250
+  ParentId: 2316584693099493412
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,7 +88,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11202500490731091910
+  Id: 12371008860284064543
   Name: "KillManager"
   Transform {
     Location {
@@ -101,7 +101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13967983004676966328
+  ParentId: 9197704398363135439
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,7 +1,7 @@
 Name: "LootBox"
-RootId: 10755986820733603400
+RootId: 13137883699186509097
 Objects {
-  Id: 9882821344994390546
+  Id: 10732755597970412154
   Name: "LootBoxRoom"
   Transform {
     Location {
@@ -17,27 +17,27 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10755986820733603400
-  ChildIds: 7076070814600240090
-  ChildIds: 5627129608344687400
-  ChildIds: 8385837182886596070
-  ChildIds: 6533954142535476883
-  ChildIds: 2447802983444834469
-  ChildIds: 17532427584467573823
-  ChildIds: 14296840178320855372
-  ChildIds: 2930220209826346959
-  ChildIds: 8922844677141718059
-  ChildIds: 1565000881113103143
-  ChildIds: 16253748787176969365
-  ChildIds: 521431087281932414
-  ChildIds: 8711774417560303532
-  ChildIds: 10673969758219503566
-  ChildIds: 16150750304775198595
-  ChildIds: 3198448790894735902
-  ChildIds: 12408359611296211749
-  ChildIds: 18044605782965837040
-  ChildIds: 1234361036188593609
-  ChildIds: 1610085148715374896
+  ParentId: 13137883699186509097
+  ChildIds: 17948695037824391887
+  ChildIds: 7092004805597971848
+  ChildIds: 9957077265184251778
+  ChildIds: 4239747516837095366
+  ChildIds: 9790564620978844064
+  ChildIds: 10636706514883525864
+  ChildIds: 12788091597330240689
+  ChildIds: 14704741928413538716
+  ChildIds: 15468260018095979920
+  ChildIds: 10739819869986619299
+  ChildIds: 6211120377494691742
+  ChildIds: 16950813028022078422
+  ChildIds: 15902608158411863174
+  ChildIds: 10750064345054765982
+  ChildIds: 14618160366989616247
+  ChildIds: 2712224326587018920
+  ChildIds: 1120027293732422451
+  ChildIds: 14589440633612351659
+  ChildIds: 10388575482033370012
+  ChildIds: 9180909264118679811
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1610085148715374896
+  Id: 9180909264118679811
   Name: "Cube"
   Transform {
     Location {
@@ -75,7 +75,7 @@ Objects {
       Z: 0.404975653
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -128,7 +128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1234361036188593609
+  Id: 10388575482033370012
   Name: "Cube"
   Transform {
     Location {
@@ -145,7 +145,7 @@ Objects {
       Z: 0.404975653
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -198,7 +198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18044605782965837040
+  Id: 14589440633612351659
   Name: "Military Radio Tray"
   Transform {
     Location {
@@ -217,7 +217,7 @@ Objects {
       Z: 0.122637555
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12408359611296211749
+  Id: 1120027293732422451
   Name: "Military Radio Tray"
   Transform {
     Location {
@@ -280,7 +280,7 @@ Objects {
       Z: 0.122637235
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -318,7 +318,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3198448790894735902
+  Id: 2712224326587018920
   Name: "Group"
   Transform {
     Location {
@@ -335,18 +335,18 @@ Objects {
       Z: 0.250522673
     }
   }
-  ParentId: 9882821344994390546
-  ChildIds: 4323979199790891491
-  ChildIds: 14753883847384941739
-  ChildIds: 8785690551168955852
-  ChildIds: 13593510663310051211
-  ChildIds: 6134444058353569965
-  ChildIds: 15927694383714768002
-  ChildIds: 972769831061523886
-  ChildIds: 12148145923064847018
-  ChildIds: 3481833047952078426
-  ChildIds: 14237374201941525277
-  ChildIds: 13373152241875211646
+  ParentId: 10732755597970412154
+  ChildIds: 1124582122370999669
+  ChildIds: 14964877449183159737
+  ChildIds: 9809339641128669147
+  ChildIds: 3036078600491521112
+  ChildIds: 12863025961069746673
+  ChildIds: 18301503460937627575
+  ChildIds: 7056700734611745968
+  ChildIds: 6311514341802137617
+  ChildIds: 6832759405539986233
+  ChildIds: 2078449109014450147
+  ChildIds: 10914377358432933567
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -361,7 +361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13373152241875211646
+  Id: 10914377358432933567
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -380,7 +380,7 @@ Objects {
       Z: 0.0859292597
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -442,7 +442,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14237374201941525277
+  Id: 2078449109014450147
   Name: "Group"
   Transform {
     Location {
@@ -461,11 +461,11 @@ Objects {
       Z: 1.17118275
     }
   }
-  ParentId: 3198448790894735902
-  ChildIds: 8918663636427227949
-  ChildIds: 3535617065787503862
-  ChildIds: 11788062288869535307
-  ChildIds: 49134074921653929
+  ParentId: 2712224326587018920
+  ChildIds: 6585466273344753071
+  ChildIds: 6945082724442101191
+  ChildIds: 2194404503613498458
+  ChildIds: 10743092221059295439
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -480,7 +480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 49134074921653929
+  Id: 10743092221059295439
   Name: "Group"
   Transform {
     Location {
@@ -499,9 +499,9 @@ Objects {
       Z: 1.35699284
     }
   }
-  ParentId: 14237374201941525277
-  ChildIds: 738172441634517778
-  ChildIds: 11532069475393517251
+  ParentId: 2078449109014450147
+  ChildIds: 3461968469302827678
+  ChildIds: 3770679287768226970
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -516,7 +516,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11532069475393517251
+  Id: 3770679287768226970
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -535,12 +535,12 @@ Objects {
       Z: 0.0411038771
     }
   }
-  ParentId: 49134074921653929
+  ParentId: 10743092221059295439
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 704483541081345999
+        Id: 11436023202306815330
       }
     }
     Overrides {
@@ -597,7 +597,7 @@ Objects {
   }
 }
 Objects {
-  Id: 738172441634517778
+  Id: 3461968469302827678
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -610,12 +610,12 @@ Objects {
       Z: 0.252673984
     }
   }
-  ParentId: 49134074921653929
+  ParentId: 10743092221059295439
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 704483541081345999
+        Id: 11436023202306815330
       }
     }
     Overrides {
@@ -671,7 +671,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11788062288869535307
+  Id: 2194404503613498458
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -690,7 +690,7 @@ Objects {
       Z: 0.416496783
     }
   }
-  ParentId: 14237374201941525277
+  ParentId: 2078449109014450147
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -749,7 +749,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3535617065787503862
+  Id: 6945082724442101191
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -768,7 +768,7 @@ Objects {
       Z: 0.0165028647
     }
   }
-  ParentId: 14237374201941525277
+  ParentId: 2078449109014450147
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -830,7 +830,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8918663636427227949
+  Id: 6585466273344753071
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -844,7 +844,7 @@ Objects {
       Z: 1.88647676
     }
   }
-  ParentId: 14237374201941525277
+  ParentId: 2078449109014450147
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -889,7 +889,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3481833047952078426
+  Id: 6832759405539986233
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -906,7 +906,7 @@ Objects {
       Z: 3.80000043
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -950,7 +950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12148145923064847018
+  Id: 6311514341802137617
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -967,7 +967,7 @@ Objects {
       Z: 2.81143594
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1029,7 +1029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 972769831061523886
+  Id: 7056700734611745968
   Name: "Military Ammo Crate Large"
   Transform {
     Location {
@@ -1045,7 +1045,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1107,7 +1107,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15927694383714768002
+  Id: 18301503460937627575
   Name: "Cube"
   Transform {
     Location {
@@ -1124,7 +1124,7 @@ Objects {
       Z: 3.66401315
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1171,7 +1171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6134444058353569965
+  Id: 12863025961069746673
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1187,7 +1187,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1243,7 +1243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13593510663310051211
+  Id: 3036078600491521112
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1259,7 +1259,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1315,7 +1315,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8785690551168955852
+  Id: 9809339641128669147
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1331,7 +1331,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1387,7 +1387,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14753883847384941739
+  Id: 14964877449183159737
   Name: "Counter Drawer"
   Transform {
     Location {
@@ -1403,7 +1403,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1459,7 +1459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4323979199790891491
+  Id: 1124582122370999669
   Name: "Cube"
   Transform {
     Location {
@@ -1476,7 +1476,7 @@ Objects {
       Z: 3.66401315
     }
   }
-  ParentId: 3198448790894735902
+  ParentId: 2712224326587018920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1523,7 +1523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16150750304775198595
+  Id: 14618160366989616247
   Name: "Group"
   Transform {
     Location {
@@ -1540,32 +1540,32 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9882821344994390546
-  ChildIds: 5891274250529216289
-  ChildIds: 15524548732014172853
-  ChildIds: 15893548480145841538
-  ChildIds: 17788634200410906066
-  ChildIds: 9965535029651669438
-  ChildIds: 7504703272893105129
-  ChildIds: 2178679316884839918
-  ChildIds: 17802173498330729620
-  ChildIds: 6856813728179584293
-  ChildIds: 2709833094322418327
-  ChildIds: 9645365728553614903
-  ChildIds: 17696291465956299127
-  ChildIds: 13516438103838717815
-  ChildIds: 7756027083426405470
-  ChildIds: 10742631709766492256
-  ChildIds: 15201881632630778897
-  ChildIds: 5809495116217617615
-  ChildIds: 1552416298284864267
-  ChildIds: 7821109836996885729
-  ChildIds: 6751703679496859602
-  ChildIds: 8859284421180247400
-  ChildIds: 2379225295363574532
-  ChildIds: 3722570494701434283
-  ChildIds: 6752704982990271840
-  ChildIds: 4767932745624082085
+  ParentId: 10732755597970412154
+  ChildIds: 2755634916895477003
+  ChildIds: 10560931400570259086
+  ChildIds: 16661519438124322212
+  ChildIds: 11854792773963078265
+  ChildIds: 17389587829611893543
+  ChildIds: 12939641081573572791
+  ChildIds: 4257866461318872989
+  ChildIds: 6688315821234553674
+  ChildIds: 13699100480069696813
+  ChildIds: 15937666484190879313
+  ChildIds: 7265080639211543695
+  ChildIds: 15673148247048824912
+  ChildIds: 6950466771285117245
+  ChildIds: 6950158890333293349
+  ChildIds: 13154985138063267448
+  ChildIds: 14133123374419714310
+  ChildIds: 15827546035874405419
+  ChildIds: 2153827645255546468
+  ChildIds: 16406475158156932664
+  ChildIds: 3521431238089642462
+  ChildIds: 12314864355157705420
+  ChildIds: 3958171215348742366
+  ChildIds: 8944019835298067967
+  ChildIds: 16589590610997168670
+  ChildIds: 2585190762961778521
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1580,7 +1580,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4767932745624082085
+  Id: 2585190762961778521
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1597,7 +1597,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1632,7 +1632,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6752704982990271840
+  Id: 16589590610997168670
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1649,7 +1649,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1684,7 +1684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3722570494701434283
+  Id: 8944019835298067967
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1701,7 +1701,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1736,7 +1736,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2379225295363574532
+  Id: 3958171215348742366
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1753,7 +1753,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1788,7 +1788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8859284421180247400
+  Id: 12314864355157705420
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1805,7 +1805,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1840,7 +1840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6751703679496859602
+  Id: 3521431238089642462
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1857,7 +1857,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1892,7 +1892,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7821109836996885729
+  Id: 16406475158156932664
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1909,7 +1909,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1944,7 +1944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1552416298284864267
+  Id: 2153827645255546468
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -1961,7 +1961,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -1996,7 +1996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5809495116217617615
+  Id: 15827546035874405419
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -2013,7 +2013,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2048,7 +2048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15201881632630778897
+  Id: 14133123374419714310
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -2065,7 +2065,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2100,7 +2100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10742631709766492256
+  Id: 13154985138063267448
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -2117,7 +2117,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2152,7 +2152,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7756027083426405470
+  Id: 6950158890333293349
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -2169,7 +2169,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -2204,7 +2204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13516438103838717815
+  Id: 6950466771285117245
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2221,9 +2221,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 12780791314072208753
-  ChildIds: 5850623364892333132
+  ParentId: 14618160366989616247
+  ChildIds: 10342408523317566659
+  ChildIds: 6510730089610574695
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2238,7 +2238,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5850623364892333132
+  Id: 6510730089610574695
   Name: "Lid"
   Transform {
     Location {
@@ -2254,10 +2254,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13516438103838717815
-  ChildIds: 12701992539809447571
-  ChildIds: 14920399989323273503
-  ChildIds: 5578341781619392073
+  ParentId: 6950466771285117245
+  ChildIds: 11579917813487077216
+  ChildIds: 3765049977258394976
+  ChildIds: 719143657806502300
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2272,7 +2272,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5578341781619392073
+  Id: 719143657806502300
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2288,7 +2288,7 @@ Objects {
       Z: 0.617726266
     }
   }
-  ParentId: 5850623364892333132
+  ParentId: 6510730089610574695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2334,7 +2334,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14920399989323273503
+  Id: 3765049977258394976
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2348,7 +2348,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 5850623364892333132
+  ParentId: 6510730089610574695
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2375,7 +2375,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12701992539809447571
+  Id: 11579917813487077216
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2389,7 +2389,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 5850623364892333132
+  ParentId: 6510730089610574695
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2416,7 +2416,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12780791314072208753
+  Id: 10342408523317566659
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -2429,7 +2429,7 @@ Objects {
       Z: 0.530064285
     }
   }
-  ParentId: 13516438103838717815
+  ParentId: 6950466771285117245
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2475,7 +2475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17696291465956299127
+  Id: 15673148247048824912
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2492,9 +2492,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 1853911633905003024
-  ChildIds: 2522987327279318189
+  ParentId: 14618160366989616247
+  ChildIds: 5510539170973964759
+  ChildIds: 8855940007096901284
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2509,7 +2509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2522987327279318189
+  Id: 8855940007096901284
   Name: "Lid"
   Transform {
     Location {
@@ -2525,10 +2525,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17696291465956299127
-  ChildIds: 7630194876178365993
-  ChildIds: 9998001346305623298
-  ChildIds: 15831230739202846120
+  ParentId: 15673148247048824912
+  ChildIds: 11469825645296614874
+  ChildIds: 376187192187898801
+  ChildIds: 12154233099793734125
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2543,7 +2543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15831230739202846120
+  Id: 12154233099793734125
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2559,7 +2559,7 @@ Objects {
       Z: 0.617726266
     }
   }
-  ParentId: 2522987327279318189
+  ParentId: 8855940007096901284
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2605,7 +2605,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9998001346305623298
+  Id: 376187192187898801
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2619,7 +2619,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 2522987327279318189
+  ParentId: 8855940007096901284
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2646,7 +2646,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7630194876178365993
+  Id: 11469825645296614874
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2660,7 +2660,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 2522987327279318189
+  ParentId: 8855940007096901284
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2687,7 +2687,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1853911633905003024
+  Id: 5510539170973964759
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -2700,7 +2700,7 @@ Objects {
       Z: 0.530064285
     }
   }
-  ParentId: 17696291465956299127
+  ParentId: 15673148247048824912
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2746,7 +2746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9645365728553614903
+  Id: 7265080639211543695
   Name: "Street Utility Box 01"
   Transform {
     Location {
@@ -2764,7 +2764,7 @@ Objects {
       Z: 0.243718699
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2791,7 +2791,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2709833094322418327
+  Id: 15937666484190879313
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -2808,9 +2808,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 16853800789657396631
-  ChildIds: 10836673200380205526
+  ParentId: 14618160366989616247
+  ChildIds: 12687879978634280542
+  ChildIds: 1516231814206725097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2825,7 +2825,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10836673200380205526
+  Id: 1516231814206725097
   Name: "Lid"
   Transform {
     Location {
@@ -2841,10 +2841,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2709833094322418327
-  ChildIds: 11436242900412823491
-  ChildIds: 16476432244275163435
-  ChildIds: 7570734273364707602
+  ParentId: 15937666484190879313
+  ChildIds: 2787287441319593843
+  ChildIds: 17080643551345366539
+  ChildIds: 2492009831298678039
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2859,7 +2859,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7570734273364707602
+  Id: 2492009831298678039
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -2875,7 +2875,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10836673200380205526
+  ParentId: 1516231814206725097
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2922,7 +2922,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16476432244275163435
+  Id: 17080643551345366539
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2936,7 +2936,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 10836673200380205526
+  ParentId: 1516231814206725097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2963,7 +2963,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11436242900412823491
+  Id: 2787287441319593843
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -2977,7 +2977,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 10836673200380205526
+  ParentId: 1516231814206725097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3004,7 +3004,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16853800789657396631
+  Id: 12687879978634280542
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -3017,7 +3017,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2709833094322418327
+  ParentId: 15937666484190879313
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3064,7 +3064,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6856813728179584293
+  Id: 13699100480069696813
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -3081,9 +3081,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 18265229274723032227
-  ChildIds: 2820758341203689596
+  ParentId: 14618160366989616247
+  ChildIds: 8968106828407336717
+  ChildIds: 16754354232687626317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3098,7 +3098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2820758341203689596
+  Id: 16754354232687626317
   Name: "Lid"
   Transform {
     Location {
@@ -3114,10 +3114,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6856813728179584293
-  ChildIds: 8796198397650031435
-  ChildIds: 9312464083264912413
-  ChildIds: 15312102902593476276
+  ParentId: 13699100480069696813
+  ChildIds: 16136190299309375414
+  ChildIds: 6744726585828434074
+  ChildIds: 11994117386092076112
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3132,7 +3132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15312102902593476276
+  Id: 11994117386092076112
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -3148,7 +3148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2820758341203689596
+  ParentId: 16754354232687626317
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3195,7 +3195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9312464083264912413
+  Id: 6744726585828434074
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -3209,7 +3209,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 2820758341203689596
+  ParentId: 16754354232687626317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3236,7 +3236,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8796198397650031435
+  Id: 16136190299309375414
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -3250,7 +3250,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 2820758341203689596
+  ParentId: 16754354232687626317
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3277,7 +3277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18265229274723032227
+  Id: 8968106828407336717
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -3290,7 +3290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6856813728179584293
+  ParentId: 13699100480069696813
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3337,7 +3337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17802173498330729620
+  Id: 6688315821234553674
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3354,7 +3354,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3389,7 +3389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2178679316884839918
+  Id: 4257866461318872989
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3406,7 +3406,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3441,7 +3441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7504703272893105129
+  Id: 12939641081573572791
   Name: "Military Epic Crate Template"
   Transform {
     Location {
@@ -3458,9 +3458,9 @@ Objects {
       Z: 0.369199067
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 882941331765821267
-  ChildIds: 14874865633428540617
+  ParentId: 14618160366989616247
+  ChildIds: 9580783335633568007
+  ChildIds: 11129141658663341087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3475,7 +3475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14874865633428540617
+  Id: 11129141658663341087
   Name: "Lid"
   Transform {
     Location {
@@ -3491,10 +3491,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7504703272893105129
-  ChildIds: 16708925053673862049
-  ChildIds: 15486972847101657285
-  ChildIds: 14973105563612346456
+  ParentId: 12939641081573572791
+  ChildIds: 7016740948488534067
+  ChildIds: 1810463453074223761
+  ChildIds: 9507114014981040870
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3509,7 +3509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14973105563612346456
+  Id: 9507114014981040870
   Name: "Military Epic Crate Lid"
   Transform {
     Location {
@@ -3525,7 +3525,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14874865633428540617
+  ParentId: 11129141658663341087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3552,7 +3552,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15486972847101657285
+  Id: 1810463453074223761
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -3566,7 +3566,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 14874865633428540617
+  ParentId: 11129141658663341087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3593,7 +3593,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16708925053673862049
+  Id: 7016740948488534067
   Name: "Military Epic Crate Hinge"
   Transform {
     Location {
@@ -3607,7 +3607,7 @@ Objects {
       Z: 1.14271653
     }
   }
-  ParentId: 14874865633428540617
+  ParentId: 11129141658663341087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3634,7 +3634,7 @@ Objects {
   }
 }
 Objects {
-  Id: 882941331765821267
+  Id: 9580783335633568007
   Name: "Military Epic Crate Base"
   Transform {
     Location {
@@ -3647,7 +3647,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7504703272893105129
+  ParentId: 12939641081573572791
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3674,7 +3674,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9965535029651669438
+  Id: 17389587829611893543
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3691,7 +3691,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3726,7 +3726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17788634200410906066
+  Id: 11854792773963078265
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -3743,7 +3743,7 @@ Objects {
       Z: 0.466477156
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -3778,7 +3778,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15893548480145841538
+  Id: 16661519438124322212
   Name: "Street Utility Box 01"
   Transform {
     Location {
@@ -3796,7 +3796,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 16150750304775198595
+  ParentId: 14618160366989616247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3823,7 +3823,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15524548732014172853
+  Id: 10560931400570259086
   Name: "Group"
   Transform {
     Location {
@@ -3837,13 +3837,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 9820666010271473856
-  ChildIds: 14041737905173929229
-  ChildIds: 3971526182571936145
-  ChildIds: 581653711313184052
-  ChildIds: 7315482878549200880
-  ChildIds: 7581419431158242464
+  ParentId: 14618160366989616247
+  ChildIds: 10403186805675323630
+  ChildIds: 15879063590738186686
+  ChildIds: 9933147618776033167
+  ChildIds: 13810822908611904409
+  ChildIds: 15332610270306927410
+  ChildIds: 15435437714041188014
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3858,7 +3858,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7581419431158242464
+  Id: 15435437714041188014
   Name: "Group"
   Transform {
     Location {
@@ -3874,10 +3874,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15524548732014172853
-  ChildIds: 17499888706521546068
-  ChildIds: 6124982721350318263
-  ChildIds: 16767583512051946161
+  ParentId: 10560931400570259086
+  ChildIds: 6115414909074862894
+  ChildIds: 6585319395130774197
+  ChildIds: 12107017763214470445
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3892,7 +3892,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16767583512051946161
+  Id: 12107017763214470445
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -3911,7 +3911,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 7581419431158242464
+  ParentId: 15435437714041188014
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3939,7 +3939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6124982721350318263
+  Id: 6585319395130774197
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -3957,7 +3957,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 7581419431158242464
+  ParentId: 15435437714041188014
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3985,7 +3985,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17499888706521546068
+  Id: 6115414909074862894
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4001,7 +4001,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 7581419431158242464
+  ParentId: 15435437714041188014
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4048,7 +4048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7315482878549200880
+  Id: 15332610270306927410
   Name: "Group"
   Transform {
     Location {
@@ -4064,10 +4064,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15524548732014172853
-  ChildIds: 2174131872976352146
-  ChildIds: 5634272733478131125
-  ChildIds: 13715302745201797987
+  ParentId: 10560931400570259086
+  ChildIds: 16289863465218711700
+  ChildIds: 5672386970565300621
+  ChildIds: 16697698039478154594
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4082,7 +4082,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13715302745201797987
+  Id: 16697698039478154594
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4101,7 +4101,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 7315482878549200880
+  ParentId: 15332610270306927410
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4129,7 +4129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5634272733478131125
+  Id: 5672386970565300621
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4147,7 +4147,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 7315482878549200880
+  ParentId: 15332610270306927410
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4175,7 +4175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2174131872976352146
+  Id: 16289863465218711700
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4191,7 +4191,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 7315482878549200880
+  ParentId: 15332610270306927410
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4238,7 +4238,7 @@ Objects {
   }
 }
 Objects {
-  Id: 581653711313184052
+  Id: 13810822908611904409
   Name: "Group"
   Transform {
     Location {
@@ -4253,10 +4253,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15524548732014172853
-  ChildIds: 13872697844691957194
-  ChildIds: 5454369585843887728
-  ChildIds: 3930988129078506326
+  ParentId: 10560931400570259086
+  ChildIds: 17232218747171763975
+  ChildIds: 18438908884218858566
+  ChildIds: 4678172054205097277
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4271,7 +4271,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3930988129078506326
+  Id: 4678172054205097277
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4290,7 +4290,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 581653711313184052
+  ParentId: 13810822908611904409
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4318,7 +4318,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5454369585843887728
+  Id: 18438908884218858566
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4336,7 +4336,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 581653711313184052
+  ParentId: 13810822908611904409
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4364,7 +4364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13872697844691957194
+  Id: 17232218747171763975
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4380,7 +4380,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 581653711313184052
+  ParentId: 13810822908611904409
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4427,7 +4427,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3971526182571936145
+  Id: 9933147618776033167
   Name: "Military Fence Gate 01"
   Transform {
     Location {
@@ -4442,7 +4442,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 15524548732014172853
+  ParentId: 10560931400570259086
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:utile"
@@ -4481,7 +4481,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14041737905173929229
+  Id: 15879063590738186686
   Name: "Military Fence Crossbar - Gate"
   Transform {
     Location {
@@ -4496,7 +4496,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 15524548732014172853
+  ParentId: 10560931400570259086
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4523,7 +4523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9820666010271473856
+  Id: 10403186805675323630
   Name: "Military Fence Pole - Gate End"
   Transform {
     Location {
@@ -4539,7 +4539,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 15524548732014172853
+  ParentId: 10560931400570259086
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4566,7 +4566,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5891274250529216289
+  Id: 2755634916895477003
   Name: "Group"
   Transform {
     Location {
@@ -4579,13 +4579,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16150750304775198595
-  ChildIds: 6086363402969231388
-  ChildIds: 1652750115234836835
-  ChildIds: 8477997857925735534
-  ChildIds: 8861955335619772453
-  ChildIds: 712531709937429994
-  ChildIds: 12563631282609438253
+  ParentId: 14618160366989616247
+  ChildIds: 9117366172385423166
+  ChildIds: 4165918572409260103
+  ChildIds: 12295270730698730055
+  ChildIds: 8955054466462524648
+  ChildIds: 9775200614932756625
+  ChildIds: 16187962137237259597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4600,7 +4600,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12563631282609438253
+  Id: 16187962137237259597
   Name: "Group"
   Transform {
     Location {
@@ -4616,10 +4616,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5891274250529216289
-  ChildIds: 10485659189576488398
-  ChildIds: 6582268764229324011
-  ChildIds: 9283926301597205221
+  ParentId: 2755634916895477003
+  ChildIds: 8066526925308258352
+  ChildIds: 9568137389641110812
+  ChildIds: 7532589893510018165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4634,7 +4634,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9283926301597205221
+  Id: 7532589893510018165
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4653,7 +4653,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 12563631282609438253
+  ParentId: 16187962137237259597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4681,7 +4681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6582268764229324011
+  Id: 9568137389641110812
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4699,7 +4699,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 12563631282609438253
+  ParentId: 16187962137237259597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4727,7 +4727,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10485659189576488398
+  Id: 8066526925308258352
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4743,7 +4743,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 12563631282609438253
+  ParentId: 16187962137237259597
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4790,7 +4790,7 @@ Objects {
   }
 }
 Objects {
-  Id: 712531709937429994
+  Id: 9775200614932756625
   Name: "Group"
   Transform {
     Location {
@@ -4806,10 +4806,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5891274250529216289
-  ChildIds: 14976707138806140557
-  ChildIds: 17148950463596386317
-  ChildIds: 14053913276012861071
+  ParentId: 2755634916895477003
+  ChildIds: 11891165556693243821
+  ChildIds: 4369603467719680463
+  ChildIds: 17795116940958868228
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4824,7 +4824,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14053913276012861071
+  Id: 17795116940958868228
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4843,7 +4843,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 712531709937429994
+  ParentId: 9775200614932756625
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4871,7 +4871,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17148950463596386317
+  Id: 4369603467719680463
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -4889,7 +4889,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 712531709937429994
+  ParentId: 9775200614932756625
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4917,7 +4917,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14976707138806140557
+  Id: 11891165556693243821
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -4933,7 +4933,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 712531709937429994
+  ParentId: 9775200614932756625
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4980,7 +4980,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8861955335619772453
+  Id: 8955054466462524648
   Name: "Group"
   Transform {
     Location {
@@ -4995,10 +4995,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5891274250529216289
-  ChildIds: 15101485773484852391
-  ChildIds: 16200833383417749626
-  ChildIds: 2009087450202507985
+  ParentId: 2755634916895477003
+  ChildIds: 4275741259795537669
+  ChildIds: 9361074192307655335
+  ChildIds: 11833878088862924754
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5013,7 +5013,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2009087450202507985
+  Id: 11833878088862924754
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5032,7 +5032,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 8861955335619772453
+  ParentId: 8955054466462524648
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5060,7 +5060,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16200833383417749626
+  Id: 9361074192307655335
   Name: "Urban Fence Pole - End"
   Transform {
     Location {
@@ -5078,7 +5078,7 @@ Objects {
       Z: 0.158156618
     }
   }
-  ParentId: 8861955335619772453
+  ParentId: 8955054466462524648
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5106,7 +5106,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15101485773484852391
+  Id: 4275741259795537669
   Name: "Cube - Rounded Bottom-Aligned"
   Transform {
     Location {
@@ -5122,7 +5122,7 @@ Objects {
       Z: 0.0242740549
     }
   }
-  ParentId: 8861955335619772453
+  ParentId: 8955054466462524648
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5169,7 +5169,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8477997857925735534
+  Id: 12295270730698730055
   Name: "Military Fence Gate 01"
   Transform {
     Location {
@@ -5184,7 +5184,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5891274250529216289
+  ParentId: 2755634916895477003
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:utile"
@@ -5223,7 +5223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1652750115234836835
+  Id: 4165918572409260103
   Name: "Military Fence Crossbar - Gate"
   Transform {
     Location {
@@ -5238,7 +5238,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5891274250529216289
+  ParentId: 2755634916895477003
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5265,7 +5265,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6086363402969231388
+  Id: 9117366172385423166
   Name: "Military Fence Pole - Gate End"
   Transform {
     Location {
@@ -5281,7 +5281,7 @@ Objects {
       Z: 0.352824748
     }
   }
-  ParentId: 5891274250529216289
+  ParentId: 2755634916895477003
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5308,7 +5308,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10673969758219503566
+  Id: 10750064345054765982
   Name: "Worklight"
   Transform {
     Location {
@@ -5326,12 +5326,12 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 9882821344994390546
-  ChildIds: 5886417718847904074
-  ChildIds: 5711504785255332378
-  ChildIds: 3004399397860705106
-  ChildIds: 13599779953318942263
-  ChildIds: 8009822809270810502
+  ParentId: 10732755597970412154
+  ChildIds: 13446828223679700988
+  ChildIds: 5502577798712679161
+  ChildIds: 1196991765206734411
+  ChildIds: 10932276078714355935
+  ChildIds: 7826870841811544354
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5346,7 +5346,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8009822809270810502
+  Id: 7826870841811544354
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5364,7 +5364,7 @@ Objects {
       Z: 6.11826563
     }
   }
-  ParentId: 10673969758219503566
+  ParentId: 10750064345054765982
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5400,7 +5400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13599779953318942263
+  Id: 10932276078714355935
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5418,7 +5418,7 @@ Objects {
       Z: 0.316025048
     }
   }
-  ParentId: 10673969758219503566
+  ParentId: 10750064345054765982
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5454,7 +5454,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3004399397860705106
+  Id: 1196991765206734411
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5472,7 +5472,7 @@ Objects {
       Z: 0.316025048
     }
   }
-  ParentId: 10673969758219503566
+  ParentId: 10750064345054765982
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5508,7 +5508,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5711504785255332378
+  Id: 5502577798712679161
   Name: "Cylinder - Bottom-Aligned"
   Transform {
     Location {
@@ -5525,8 +5525,14 @@ Objects {
       Z: 6.0751276
     }
   }
-  ParentId: 10673969758219503566
+  ParentId: 10750064345054765982
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6665863709646738069
+      }
+    }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
@@ -5563,7 +5569,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5886417718847904074
+  Id: 13446828223679700988
   Name: "Area Light"
   Transform {
     Location {
@@ -5580,7 +5586,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 10673969758219503566
+  ParentId: 10750064345054765982
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5618,7 +5624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8711774417560303532
+  Id: 15902608158411863174
   Name: "MiniMonitors"
   Transform {
     Location {
@@ -5634,10 +5640,10 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 9882821344994390546
-  ChildIds: 11687030639598497767
-  ChildIds: 5468395701018397683
-  ChildIds: 2994911714218081096
+  ParentId: 10732755597970412154
+  ChildIds: 18388607932749383763
+  ChildIds: 5648435077398492341
+  ChildIds: 11924776327124178343
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5652,7 +5658,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2994911714218081096
+  Id: 11924776327124178343
   Name: "Group"
   Transform {
     Location {
@@ -5670,9 +5676,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8711774417560303532
-  ChildIds: 11696494615476599692
-  ChildIds: 15919340048545395423
+  ParentId: 15902608158411863174
+  ChildIds: 2452357008016685942
+  ChildIds: 2535469098062629572
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5687,7 +5693,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15919340048545395423
+  Id: 2535469098062629572
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -5702,7 +5708,7 @@ Objects {
       Z: 0.36099273
     }
   }
-  ParentId: 2994911714218081096
+  ParentId: 11924776327124178343
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5737,7 +5743,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11696494615476599692
+  Id: 2452357008016685942
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -5753,7 +5759,7 @@ Objects {
       Z: 5.59999847
     }
   }
-  ParentId: 2994911714218081096
+  ParentId: 11924776327124178343
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -5806,7 +5812,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5468395701018397683
+  Id: 5648435077398492341
   Name: "AreaLight_MiniMonitor"
   Transform {
     Location {
@@ -5824,7 +5830,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 8711774417560303532
+  ParentId: 15902608158411863174
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5863,7 +5869,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11687030639598497767
+  Id: 18388607932749383763
   Name: "Monitor_Mini"
   Transform {
     Location {
@@ -5881,7 +5887,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8711774417560303532
+  ParentId: 15902608158411863174
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5896,7 +5902,7 @@ Objects {
   }
 }
 Objects {
-  Id: 521431087281932414
+  Id: 16950813028022078422
   Name: "Cube"
   Transform {
     Location {
@@ -5913,7 +5919,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5954,7 +5960,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16253748787176969365
+  Id: 6211120377494691742
   Name: "Cube"
   Transform {
     Location {
@@ -5971,7 +5977,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6012,7 +6018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1565000881113103143
+  Id: 10739819869986619299
   Name: "Cube"
   Transform {
     Location {
@@ -6029,7 +6035,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6070,7 +6076,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8922844677141718059
+  Id: 15468260018095979920
   Name: "LightMidTable"
   Transform {
     Location {
@@ -6085,26 +6091,26 @@ Objects {
       Z: 0.282881647
     }
   }
-  ParentId: 9882821344994390546
-  ChildIds: 11295024881517348543
-  ChildIds: 17431637009163748103
-  ChildIds: 7604292616338963978
-  ChildIds: 7500067754381737461
-  ChildIds: 5359600958278915614
-  ChildIds: 13048581835080962738
-  ChildIds: 17724377736682806639
-  ChildIds: 8621487102126242826
-  ChildIds: 13130544104931216020
-  ChildIds: 14319622222383473059
-  ChildIds: 10351720478945914282
-  ChildIds: 616511508960387031
-  ChildIds: 17755225096987199364
-  ChildIds: 13125331636158797495
-  ChildIds: 3123942450531757653
-  ChildIds: 7526154285401088836
-  ChildIds: 12404122967853437512
-  ChildIds: 1163012414647920553
-  ChildIds: 9754151504075516086
+  ParentId: 10732755597970412154
+  ChildIds: 12504299320811272804
+  ChildIds: 4060576928451365567
+  ChildIds: 14220124918599866372
+  ChildIds: 17435031522132747911
+  ChildIds: 8594204283044143475
+  ChildIds: 12012534965567982106
+  ChildIds: 10572391344958958907
+  ChildIds: 1240683707368263607
+  ChildIds: 14890167587754027210
+  ChildIds: 12430076922126248721
+  ChildIds: 9709795142856273040
+  ChildIds: 4035009671894032187
+  ChildIds: 13802650786522398211
+  ChildIds: 3752043096237606686
+  ChildIds: 1846507666162634653
+  ChildIds: 4827950510479012394
+  ChildIds: 74324467445299386
+  ChildIds: 4240759735667757561
+  ChildIds: 16731487610724311891
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6125,7 +6131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9754151504075516086
+  Id: 16731487610724311891
   Name: "Area Light"
   Transform {
     Location {
@@ -6142,7 +6148,7 @@ Objects {
       Z: 2.36579585
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6187,7 +6193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1163012414647920553
+  Id: 4240759735667757561
   Name: "Area Light"
   Transform {
     Location {
@@ -6204,7 +6210,7 @@ Objects {
       Z: 3.33333278
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6249,7 +6255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12404122967853437512
+  Id: 74324467445299386
   Name: "Cube - Chamfered Large"
   Transform {
     Location {
@@ -6265,8 +6271,14 @@ Objects {
       Z: 0.112560093
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6665863709646738069
+      }
+    }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
@@ -6309,7 +6321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7526154285401088836
+  Id: 4827950510479012394
   Name: "grid"
   Transform {
     Location {
@@ -6327,7 +6339,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6369,7 +6381,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3123942450531757653
+  Id: 1846507666162634653
   Name: "grid"
   Transform {
     Location {
@@ -6387,7 +6399,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6429,7 +6441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13125331636158797495
+  Id: 3752043096237606686
   Name: "grid"
   Transform {
     Location {
@@ -6447,7 +6459,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6489,7 +6501,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17755225096987199364
+  Id: 13802650786522398211
   Name: "grid"
   Transform {
     Location {
@@ -6507,7 +6519,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6549,7 +6561,7 @@ Objects {
   }
 }
 Objects {
-  Id: 616511508960387031
+  Id: 4035009671894032187
   Name: "grid"
   Transform {
     Location {
@@ -6567,7 +6579,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6609,7 +6621,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10351720478945914282
+  Id: 9709795142856273040
   Name: "grid"
   Transform {
     Location {
@@ -6627,7 +6639,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6669,7 +6681,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14319622222383473059
+  Id: 12430076922126248721
   Name: "grid"
   Transform {
     Location {
@@ -6687,7 +6699,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6729,7 +6741,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13130544104931216020
+  Id: 14890167587754027210
   Name: "grid"
   Transform {
     Location {
@@ -6747,7 +6759,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6789,7 +6801,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8621487102126242826
+  Id: 1240683707368263607
   Name: "grid"
   Transform {
     Location {
@@ -6807,7 +6819,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6849,7 +6861,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17724377736682806639
+  Id: 10572391344958958907
   Name: "grid"
   Transform {
     Location {
@@ -6867,7 +6879,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6909,7 +6921,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13048581835080962738
+  Id: 12012534965567982106
   Name: "grid"
   Transform {
     Location {
@@ -6927,7 +6939,7 @@ Objects {
       Z: 0.354710728
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6969,7 +6981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5359600958278915614
+  Id: 8594204283044143475
   Name: "Box"
   Transform {
     Location {
@@ -6987,7 +6999,7 @@ Objects {
       Z: 0.35471046
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7028,7 +7040,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7500067754381737461
+  Id: 17435031522132747911
   Name: "Military Common Crate Base"
   Transform {
     Location {
@@ -7046,7 +7058,7 @@ Objects {
       Z: 1.42001772
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -7104,7 +7116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7604292616338963978
+  Id: 14220124918599866372
   Name: "Cylinder"
   Transform {
     Location {
@@ -7120,7 +7132,7 @@ Objects {
       Z: 5.30334282
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7161,7 +7173,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17431637009163748103
+  Id: 4060576928451365567
   Name: "Cylinder"
   Transform {
     Location {
@@ -7177,7 +7189,7 @@ Objects {
       Z: 5.30334282
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7218,7 +7230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11295024881517348543
+  Id: 12504299320811272804
   Name: "Area Light"
   Transform {
     Location {
@@ -7235,7 +7247,7 @@ Objects {
       Z: 3.33333325
     }
   }
-  ParentId: 8922844677141718059
+  ParentId: 15468260018095979920
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7281,7 +7293,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2930220209826346959
+  Id: 14704741928413538716
   Name: "Cube"
   Transform {
     Location {
@@ -7297,7 +7309,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7338,7 +7350,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14296840178320855372
+  Id: 12788091597330240689
   Name: "Cube"
   Transform {
     Location {
@@ -7355,7 +7367,7 @@ Objects {
       Z: 6
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7396,7 +7408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17532427584467573823
+  Id: 10636706514883525864
   Name: "Cube"
   Transform {
     Location {
@@ -7413,7 +7425,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7454,7 +7466,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2447802983444834469
+  Id: 9790564620978844064
   Name: "Cube"
   Transform {
     Location {
@@ -7471,7 +7483,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7512,7 +7524,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6533954142535476883
+  Id: 4239747516837095366
   Name: "Cube"
   Transform {
     Location {
@@ -7529,7 +7541,7 @@ Objects {
       Z: 5.99999809
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7570,7 +7582,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8385837182886596070
+  Id: 9957077265184251778
   Name: "Cube"
   Transform {
     Location {
@@ -7586,7 +7598,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7639,7 +7651,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5627129608344687400
+  Id: 7092004805597971848
   Name: "Spotlight"
   Transform {
     Location {
@@ -7658,7 +7670,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7701,7 +7713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7076070814600240090
+  Id: 17948695037824391887
   Name: "Spotlight"
   Transform {
     Location {
@@ -7720,7 +7732,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9882821344994390546
+  ParentId: 10732755597970412154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7763,7 +7775,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15030250244762891780
+  Id: 14331056335593054113
   Name: "ClientContext"
   Transform {
     Location {
@@ -7776,11 +7788,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10755986820733603400
-  ChildIds: 15963494102421573855
-  ChildIds: 6805574002189498199
-  ChildIds: 4851800507296585875
-  ChildIds: 1647747832163266597
+  ParentId: 13137883699186509097
+  ChildIds: 13464641740008855647
+  ChildIds: 11646513572390593966
+  ChildIds: 9355538150338146700
+  ChildIds: 16621573770828491458
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -7788,7 +7800,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
@@ -7800,7 +7812,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1647747832163266597
+  Id: 16621573770828491458
   Name: "LootBoxMachine"
   Transform {
     Location {
@@ -7816,15 +7828,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15030250244762891780
-  ChildIds: 8340322549662399357
-  ChildIds: 17604284143291626956
-  ChildIds: 17689262075737387385
-  ChildIds: 9824999485967121180
-  ChildIds: 12323320916939549344
-  ChildIds: 1336860507786706461
-  ChildIds: 6163183195096507612
-  ChildIds: 15621160943359488365
+  ParentId: 14331056335593054113
+  ChildIds: 16108557700807299554
+  ChildIds: 4291444241971742568
+  ChildIds: 15679116013998145018
+  ChildIds: 3404312494084089073
+  ChildIds: 5331273640501381461
+  ChildIds: 11864063179959382414
+  ChildIds: 16002639504476828857
+  ChildIds: 7332227255902991766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7845,7 +7857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15621160943359488365
+  Id: 7332227255902991766
   Name: "Doo2"
   Transform {
     Location {
@@ -7858,8 +7870,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 3410049896927757471
+  ParentId: 16621573770828491458
+  ChildIds: 18390892091665073693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7880,7 +7892,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3410049896927757471
+  Id: 18390892091665073693
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -7897,7 +7909,7 @@ Objects {
       Z: 0.694894493
     }
   }
-  ParentId: 15621160943359488365
+  ParentId: 7332227255902991766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -7922,7 +7934,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -7949,7 +7961,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6163183195096507612
+  Id: 16002639504476828857
   Name: "Door1"
   Transform {
     Location {
@@ -7962,8 +7974,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 11299365742619483351
+  ParentId: 16621573770828491458
+  ChildIds: 15564442976010385964
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7984,7 +7996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11299365742619483351
+  Id: 15564442976010385964
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
@@ -8001,7 +8013,7 @@ Objects {
       Z: 0.694894493
     }
   }
-  ParentId: 6163183195096507612
+  ParentId: 16002639504476828857
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -8026,7 +8038,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8053,7 +8065,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1336860507786706461
+  Id: 11864063179959382414
   Name: "WeaponRackHolders"
   Transform {
     Location {
@@ -8066,15 +8078,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 17558931765073848182
-  ChildIds: 16817597889296757479
-  ChildIds: 11873309914617745898
-  ChildIds: 13987558235079145643
-  ChildIds: 4665894481620103706
-  ChildIds: 6676961197812048308
-  ChildIds: 8117757530111493970
-  ChildIds: 12896773084084901395
+  ParentId: 16621573770828491458
+  ChildIds: 8163280114868130980
+  ChildIds: 3104566014865459126
+  ChildIds: 13217750598449019310
+  ChildIds: 1219097096201039498
+  ChildIds: 17320107042679079848
+  ChildIds: 5012840296949601765
+  ChildIds: 15978694428260157902
+  ChildIds: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8095,7 +8107,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12896773084084901395
+  Id: 7949540280109321328
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8111,14 +8123,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 5683075935233155183
-  ChildIds: 3316120173867855168
-  ChildIds: 6354839640930012272
-  ChildIds: 10310119029932340922
-  ChildIds: 6744379499006897299
-  ChildIds: 9145961070172800485
-  ChildIds: 6314612774656103451
+  ParentId: 11864063179959382414
+  ChildIds: 1406144435358096929
+  ChildIds: 9830517697953206804
+  ChildIds: 12403227412127502672
+  ChildIds: 2153017245032008915
+  ChildIds: 14694769067088352548
+  ChildIds: 13764505998884572787
+  ChildIds: 14863711094544887783
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8139,7 +8151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6314612774656103451
+  Id: 14863711094544887783
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8156,7 +8168,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8164,7 +8176,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8191,7 +8203,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9145961070172800485
+  Id: 13764505998884572787
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -8207,7 +8219,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8228,7 +8240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6744379499006897299
+  Id: 14694769067088352548
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8245,7 +8257,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8253,7 +8265,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8280,7 +8292,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10310119029932340922
+  Id: 2153017245032008915
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8296,7 +8308,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8304,7 +8316,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8331,7 +8343,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6354839640930012272
+  Id: 12403227412127502672
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8348,7 +8360,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8364,7 +8376,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8391,7 +8403,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3316120173867855168
+  Id: 9830517697953206804
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8407,7 +8419,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8423,7 +8435,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8450,7 +8462,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5683075935233155183
+  Id: 1406144435358096929
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -8465,7 +8477,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 12896773084084901395
+  ParentId: 7949540280109321328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8473,7 +8485,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8500,7 +8512,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8117757530111493970
+  Id: 15978694428260157902
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8515,14 +8527,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 724198644564221174
-  ChildIds: 1780279569526365014
-  ChildIds: 692137409337901867
-  ChildIds: 4569308961684193957
-  ChildIds: 16979292147361492367
-  ChildIds: 4431499686621411755
-  ChildIds: 7989440800271166236
+  ParentId: 11864063179959382414
+  ChildIds: 8624128512503943903
+  ChildIds: 4156336154195141793
+  ChildIds: 7303323376880236244
+  ChildIds: 13252718504803956546
+  ChildIds: 18334251955152517314
+  ChildIds: 17690648700680799210
+  ChildIds: 3042906418844901242
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8543,7 +8555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7989440800271166236
+  Id: 3042906418844901242
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8560,7 +8572,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8568,7 +8580,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8595,7 +8607,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4431499686621411755
+  Id: 17690648700680799210
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -8610,7 +8622,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8631,7 +8643,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16979292147361492367
+  Id: 18334251955152517314
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8648,7 +8660,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8656,7 +8668,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8683,7 +8695,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4569308961684193957
+  Id: 13252718504803956546
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -8699,7 +8711,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8707,7 +8719,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8734,7 +8746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 692137409337901867
+  Id: 7303323376880236244
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8751,7 +8763,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8767,7 +8779,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8794,7 +8806,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1780279569526365014
+  Id: 4156336154195141793
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -8810,7 +8822,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -8826,7 +8838,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8853,7 +8865,7 @@ Objects {
   }
 }
 Objects {
-  Id: 724198644564221174
+  Id: 8624128512503943903
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -8868,7 +8880,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 8117757530111493970
+  ParentId: 15978694428260157902
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8876,7 +8888,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8903,7 +8915,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6676961197812048308
+  Id: 5012840296949601765
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -8919,14 +8931,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 8575969303235463280
-  ChildIds: 1944368975733327327
-  ChildIds: 12497176781742814287
-  ChildIds: 349093865920981625
-  ChildIds: 14741432495663657729
-  ChildIds: 12470894534097198582
-  ChildIds: 5431708606098269009
+  ParentId: 11864063179959382414
+  ChildIds: 3471228213978384708
+  ChildIds: 11928384490910486979
+  ChildIds: 11194649870715917855
+  ChildIds: 3450398814275086945
+  ChildIds: 5759796054455749942
+  ChildIds: 500555664795354775
+  ChildIds: 11076287418205057447
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8947,7 +8959,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5431708606098269009
+  Id: 11076287418205057447
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -8964,7 +8976,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8972,7 +8984,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -8999,7 +9011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12470894534097198582
+  Id: 500555664795354775
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9015,7 +9027,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9036,7 +9048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14741432495663657729
+  Id: 5759796054455749942
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9053,7 +9065,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9061,7 +9073,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9088,7 +9100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 349093865920981625
+  Id: 3450398814275086945
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9104,7 +9116,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9112,7 +9124,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9139,7 +9151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12497176781742814287
+  Id: 11194649870715917855
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9156,7 +9168,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9172,7 +9184,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9199,7 +9211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1944368975733327327
+  Id: 11928384490910486979
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9215,7 +9227,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9231,7 +9243,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9258,7 +9270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8575969303235463280
+  Id: 3471228213978384708
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -9273,7 +9285,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 6676961197812048308
+  ParentId: 5012840296949601765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9281,7 +9293,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9308,7 +9320,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4665894481620103706
+  Id: 17320107042679079848
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -9322,14 +9334,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 9558770087772871233
-  ChildIds: 2106333342160124017
-  ChildIds: 4554796033415725887
-  ChildIds: 6634956411369827294
-  ChildIds: 7734741792094697532
-  ChildIds: 8206039186741985542
-  ChildIds: 9916094437994078534
+  ParentId: 11864063179959382414
+  ChildIds: 999319303710946240
+  ChildIds: 17413129059649712749
+  ChildIds: 8003148834837007266
+  ChildIds: 10288349262300748887
+  ChildIds: 17848898061695496714
+  ChildIds: 8739908433832387483
+  ChildIds: 9842944689201890231
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9350,7 +9362,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9916094437994078534
+  Id: 9842944689201890231
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -9367,7 +9379,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9375,7 +9387,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9402,7 +9414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8206039186741985542
+  Id: 8739908433832387483
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9417,7 +9429,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9438,7 +9450,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7734741792094697532
+  Id: 17848898061695496714
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9455,7 +9467,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9463,7 +9475,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9490,7 +9502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6634956411369827294
+  Id: 10288349262300748887
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9506,7 +9518,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9514,7 +9526,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9541,7 +9553,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4554796033415725887
+  Id: 8003148834837007266
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9558,7 +9570,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9574,7 +9586,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9601,7 +9613,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2106333342160124017
+  Id: 17413129059649712749
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9617,7 +9629,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9633,7 +9645,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9660,7 +9672,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9558770087772871233
+  Id: 999319303710946240
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -9675,7 +9687,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 4665894481620103706
+  ParentId: 17320107042679079848
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9683,7 +9695,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9710,7 +9722,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13987558235079145643
+  Id: 1219097096201039498
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -9726,14 +9738,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 14768375677514055496
-  ChildIds: 11751848936581151489
-  ChildIds: 15482918415817826592
-  ChildIds: 806963688826928279
-  ChildIds: 15036727388961853493
-  ChildIds: 2034879498653077246
-  ChildIds: 17919234139629249444
+  ParentId: 11864063179959382414
+  ChildIds: 7840287088060772673
+  ChildIds: 15872497363262452835
+  ChildIds: 17375877086282006603
+  ChildIds: 15937295898231425285
+  ChildIds: 4677487109855652556
+  ChildIds: 10277542650725382366
+  ChildIds: 5883188949432974706
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9754,7 +9766,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17919234139629249444
+  Id: 5883188949432974706
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -9771,7 +9783,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9779,7 +9791,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9806,7 +9818,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2034879498653077246
+  Id: 10277542650725382366
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -9822,7 +9834,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9843,7 +9855,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15036727388961853493
+  Id: 4677487109855652556
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9860,7 +9872,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9868,7 +9880,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9895,7 +9907,7 @@ Objects {
   }
 }
 Objects {
-  Id: 806963688826928279
+  Id: 15937295898231425285
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -9911,7 +9923,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9919,7 +9931,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -9946,7 +9958,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15482918415817826592
+  Id: 17375877086282006603
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -9963,7 +9975,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -9979,7 +9991,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10006,7 +10018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11751848936581151489
+  Id: 15872497363262452835
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10022,7 +10034,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10038,7 +10050,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10065,7 +10077,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14768375677514055496
+  Id: 7840287088060772673
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -10080,7 +10092,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 13987558235079145643
+  ParentId: 1219097096201039498
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10088,7 +10100,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10115,7 +10127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11873309914617745898
+  Id: 13217750598449019310
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -10130,14 +10142,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 2732964587766911755
-  ChildIds: 12405173209720976133
-  ChildIds: 12608274703609779777
-  ChildIds: 7789490683475312195
-  ChildIds: 6504163851335296911
-  ChildIds: 18443840490392614366
-  ChildIds: 9643727228317168226
+  ParentId: 11864063179959382414
+  ChildIds: 16680237014471507504
+  ChildIds: 16400061546442859244
+  ChildIds: 3224346435087870305
+  ChildIds: 12821054190763598467
+  ChildIds: 17238653250381137413
+  ChildIds: 508783769257541230
+  ChildIds: 7971322323810263341
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10158,7 +10170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9643727228317168226
+  Id: 7971322323810263341
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -10175,7 +10187,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10183,7 +10195,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10210,7 +10222,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18443840490392614366
+  Id: 508783769257541230
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -10225,7 +10237,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10246,7 +10258,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6504163851335296911
+  Id: 17238653250381137413
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10263,7 +10275,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10271,7 +10283,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10298,7 +10310,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7789490683475312195
+  Id: 12821054190763598467
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10314,7 +10326,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10322,7 +10334,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10349,7 +10361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12608274703609779777
+  Id: 3224346435087870305
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10366,7 +10378,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10382,7 +10394,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10409,7 +10421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12405173209720976133
+  Id: 16400061546442859244
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10425,7 +10437,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10441,7 +10453,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10468,7 +10480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2732964587766911755
+  Id: 16680237014471507504
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -10483,7 +10495,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 11873309914617745898
+  ParentId: 13217750598449019310
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10491,7 +10503,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10518,7 +10530,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16817597889296757479
+  Id: 3104566014865459126
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -10534,14 +10546,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 5371621061835023669
-  ChildIds: 16777555889326742878
-  ChildIds: 4146301291663623249
-  ChildIds: 17141873604466085505
-  ChildIds: 12249396860382453151
-  ChildIds: 614865732147347553
-  ChildIds: 5215384268348587873
+  ParentId: 11864063179959382414
+  ChildIds: 9024597918380259873
+  ChildIds: 10419837952150047411
+  ChildIds: 12947470538922125473
+  ChildIds: 3030484047650772490
+  ChildIds: 17665387865935829979
+  ChildIds: 6991319700799059767
+  ChildIds: 6014698592862258451
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10562,7 +10574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5215384268348587873
+  Id: 6014698592862258451
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -10579,7 +10591,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10587,7 +10599,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10614,7 +10626,7 @@ Objects {
   }
 }
 Objects {
-  Id: 614865732147347553
+  Id: 6991319700799059767
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -10630,7 +10642,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10651,7 +10663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12249396860382453151
+  Id: 17665387865935829979
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10668,7 +10680,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10676,7 +10688,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10703,7 +10715,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17141873604466085505
+  Id: 3030484047650772490
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -10719,7 +10731,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10727,7 +10739,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10754,7 +10766,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4146301291663623249
+  Id: 12947470538922125473
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10771,7 +10783,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10787,7 +10799,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10814,7 +10826,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16777555889326742878
+  Id: 10419837952150047411
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -10830,7 +10842,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -10846,7 +10858,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10873,7 +10885,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5371621061835023669
+  Id: 9024597918380259873
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -10888,7 +10900,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 16817597889296757479
+  ParentId: 3104566014865459126
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10896,7 +10908,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -10923,7 +10935,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17558931765073848182
+  Id: 8163280114868130980
   Name: "LootBoxWeaponHolder"
   Transform {
     Location {
@@ -10938,14 +10950,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1336860507786706461
-  ChildIds: 6841749985757233761
-  ChildIds: 12389081016584943819
-  ChildIds: 8497791236816658609
-  ChildIds: 14901316370252098422
-  ChildIds: 15473180824200518242
-  ChildIds: 1978002820307435536
-  ChildIds: 6123046672544352870
+  ParentId: 11864063179959382414
+  ChildIds: 756228668006561396
+  ChildIds: 11972478911894328194
+  ChildIds: 16939056622089418745
+  ChildIds: 562865705538284817
+  ChildIds: 13696385343497164147
+  ChildIds: 7839598904556810238
+  ChildIds: 378911800771818615
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10966,7 +10978,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6123046672544352870
+  Id: 378911800771818615
   Name: "Modern Weapon - Magazine 03"
   Transform {
     Location {
@@ -10983,7 +10995,7 @@ Objects {
       Z: 2.69999957
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10991,7 +11003,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11018,7 +11030,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1978002820307435536
+  Id: 7839598904556810238
   Name: "WeaponPosition"
   Transform {
     Location {
@@ -11034,7 +11046,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11055,7 +11067,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15473180824200518242
+  Id: 13696385343497164147
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -11072,7 +11084,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11080,7 +11092,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11107,7 +11119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14901316370252098422
+  Id: 562865705538284817
   Name: "Modern Weapon - Sight Rear 02"
   Transform {
     Location {
@@ -11123,7 +11135,7 @@ Objects {
       Z: 5.49999809
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11131,7 +11143,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11158,7 +11170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8497791236816658609
+  Id: 16939056622089418745
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -11175,7 +11187,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -11191,7 +11203,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11218,7 +11230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12389081016584943819
+  Id: 11972478911894328194
   Name: "Modern Weapon - Sight 02"
   Transform {
     Location {
@@ -11234,7 +11246,7 @@ Objects {
       Z: 2.5
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -11250,7 +11262,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11277,7 +11289,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6841749985757233761
+  Id: 756228668006561396
   Name: "Modern Weapon - Scope 01"
   Transform {
     Location {
@@ -11292,7 +11304,7 @@ Objects {
       Z: 1.4
     }
   }
-  ParentId: 17558931765073848182
+  ParentId: 8163280114868130980
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11300,7 +11312,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11327,7 +11339,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12323320916939549344
+  Id: 5331273640501381461
   Name: "WeaponRackHousing"
   Transform {
     Location {
@@ -11340,11 +11352,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 8838497094832506647
-  ChildIds: 16120353715228668243
-  ChildIds: 10803257124520288103
-  ChildIds: 9675466858968352767
+  ParentId: 16621573770828491458
+  ChildIds: 3071106083513238507
+  ChildIds: 14430640288730906069
+  ChildIds: 9746684755982183620
+  ChildIds: 14511620312490428641
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11365,7 +11377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9675466858968352767
+  Id: 14511620312490428641
   Name: "Stylish Raging Rock Music Stinger Set 01"
   Transform {
     Location {
@@ -11380,7 +11392,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12323320916939549344
+  ParentId: 5331273640501381461
   UnregisteredParameters {
     Overrides {
       Name: "bp:Type"
@@ -11413,7 +11425,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10803257124520288103
+  Id: 9746684755982183620
   Name: "Mechanical Gears Squeaky 01 SFX"
   Transform {
     Location {
@@ -11428,7 +11440,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12323320916939549344
+  ParentId: 5331273640501381461
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11451,7 +11463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16120353715228668243
+  Id: 14430640288730906069
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -11468,7 +11480,7 @@ Objects {
       Z: 2.2
     }
   }
-  ParentId: 12323320916939549344
+  ParentId: 5331273640501381461
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11476,7 +11488,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11503,7 +11515,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8838497094832506647
+  Id: 3071106083513238507
   Name: "Military Rare Crate Base"
   Transform {
     Location {
@@ -11519,7 +11531,7 @@ Objects {
       Z: 2.2
     }
   }
-  ParentId: 12323320916939549344
+  ParentId: 5331273640501381461
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11527,7 +11539,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11554,7 +11566,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9824999485967121180
+  Id: 3404312494084089073
   Name: "WeaponRackSpinner"
   Transform {
     Location {
@@ -11567,10 +11579,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 2431819275217134545
-  ChildIds: 10486524483255456545
-  ChildIds: 1115824585578806327
+  ParentId: 16621573770828491458
+  ChildIds: 16419666822330570505
+  ChildIds: 12014390513055807826
+  ChildIds: 7473655739559044332
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11591,7 +11603,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1115824585578806327
+  Id: 7473655739559044332
   Name: "Modern Weapon - Grenade Canister 03"
   Transform {
     Location {
@@ -11605,7 +11617,7 @@ Objects {
       Z: 9.40014267
     }
   }
-  ParentId: 9824999485967121180
+  ParentId: 3404312494084089073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11613,7 +11625,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11640,7 +11652,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10486524483255456545
+  Id: 12014390513055807826
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -11657,7 +11669,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9824999485967121180
+  ParentId: 3404312494084089073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11665,7 +11677,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11692,7 +11704,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2431819275217134545
+  Id: 16419666822330570505
   Name: "Modern Weapon - Disc 01"
   Transform {
     Location {
@@ -11709,7 +11721,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 9824999485967121180
+  ParentId: 3404312494084089073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11717,7 +11729,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -11744,7 +11756,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17689262075737387385
+  Id: 15679116013998145018
   Name: "ReloadPoint"
   Transform {
     Location {
@@ -11758,7 +11770,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
+  ParentId: 16621573770828491458
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11779,7 +11791,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17604284143291626956
+  Id: 4291444241971742568
   Name: "DestinationPoint"
   Transform {
     Location {
@@ -11793,7 +11805,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
+  ParentId: 16621573770828491458
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11814,7 +11826,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8340322549662399357
+  Id: 16108557700807299554
   Name: "LootBoxCamera"
   Transform {
     Location {
@@ -11831,8 +11843,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1647747832163266597
-  ChildIds: 13218963555483625694
+  ParentId: 16621573770828491458
+  ChildIds: 2751535505703787098
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11865,7 +11877,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13218963555483625694
+  Id: 2751535505703787098
   Name: "UI Container"
   Transform {
     Location {
@@ -11884,8 +11896,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8340322549662399357
-  ChildIds: 15870299851603616955
+  ParentId: 16108557700807299554
+  ChildIds: 17967176999220244011
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11918,7 +11930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15870299851603616955
+  Id: 17967176999220244011
   Name: "WeaponText"
   Transform {
     Location {
@@ -11937,7 +11949,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13218963555483625694
+  ParentId: 2751535505703787098
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11986,7 +11998,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4851800507296585875
+  Id: 9355538150338146700
   Name: "OtherWeapons"
   Transform {
     Location {
@@ -12002,7 +12014,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15030250244762891780
+  ParentId: 14331056335593054113
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12023,7 +12035,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6805574002189498199
+  Id: 11646513572390593966
   Name: "SelectedWeapon"
   Transform {
     Location {
@@ -12039,7 +12051,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15030250244762891780
+  ParentId: 14331056335593054113
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12060,7 +12072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15963494102421573855
+  Id: 13464641740008855647
   Name: "LootboxAnimator"
   Transform {
     Location {
@@ -12076,7 +12088,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15030250244762891780
+  ParentId: 14331056335593054113
   UnregisteredParameters {
     Overrides {
       Name: "cs:RollEvent"
@@ -12093,73 +12105,73 @@ Objects {
     Overrides {
       Name: "cs:SelectedWeapon"
       ObjectReference {
-        SelfId: 6805574002189498199
+        SelfId: 11646513572390593966
       }
     }
     Overrides {
       Name: "cs:OtherWeapons"
       ObjectReference {
-        SelfId: 4851800507296585875
+        SelfId: 9355538150338146700
       }
     }
     Overrides {
       Name: "cs:WeaponRackSpinner"
       ObjectReference {
-        SelfId: 9824999485967121180
+        SelfId: 3404312494084089073
       }
     }
     Overrides {
       Name: "cs:WeaponRackHolders"
       ObjectReference {
-        SelfId: 1336860507786706461
+        SelfId: 11864063179959382414
       }
     }
     Overrides {
       Name: "cs:Door1"
       ObjectReference {
-        SelfId: 6163183195096507612
+        SelfId: 16002639504476828857
       }
     }
     Overrides {
       Name: "cs:Doo2"
       ObjectReference {
-        SelfId: 15621160943359488365
+        SelfId: 7332227255902991766
       }
     }
     Overrides {
       Name: "cs:LootBoxCamera"
       ObjectReference {
-        SelfId: 8340322549662399357
+        SelfId: 16108557700807299554
       }
     }
     Overrides {
       Name: "cs:DestinationPoint"
       ObjectReference {
-        SelfId: 17604284143291626956
+        SelfId: 4291444241971742568
       }
     }
     Overrides {
       Name: "cs:ReloadPoint"
       ObjectReference {
-        SelfId: 17689262075737387385
+        SelfId: 15679116013998145018
       }
     }
     Overrides {
       Name: "cs:RackSFX"
       ObjectReference {
-        SelfId: 10803257124520288103
+        SelfId: 9746684755982183620
       }
     }
     Overrides {
       Name: "cs:ChuggSFX"
       ObjectReference {
-        SelfId: 9675466858968352767
+        SelfId: 14511620312490428641
       }
     }
     Overrides {
       Name: "cs:WEAPON_TEXT"
       ObjectReference {
-        SelfId: 15870299851603616955
+        SelfId: 17967176999220244011
       }
     }
     Overrides {
