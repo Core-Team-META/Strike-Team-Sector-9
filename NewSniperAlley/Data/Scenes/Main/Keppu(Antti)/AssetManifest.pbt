@@ -467,15 +467,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16569967721778793374
-  Name: "Transparent Bubble Glass"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_transparent_bubble_glass"
-  }
-}
-Assets {
   Id: 16476204318341513043
   Name: "Sign Font 1 Neon Outline: +"
   PlatformAssetType: 1
@@ -1796,6 +1787,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_curved_convex_hq_001"
+  }
+}
+Assets {
+  Id: 10868260544352788496
+  Name: "Glass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_refrac_001"
   }
 }
 Assets {
@@ -3533,6 +3533,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_shipping_container_6m_001"
+  }
+}
+Assets {
+  Id: 2919298788161118301
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
   }
 }
 Assets {

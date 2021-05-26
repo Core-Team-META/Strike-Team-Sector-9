@@ -63,7 +63,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12077323529323451140
+              Id: 8191402814560574490
             }
           }
           Overrides {
@@ -134,7 +134,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12077323529323451140
+              Id: 8191402814560574490
             }
           }
           Overrides {
@@ -186,8 +186,8 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -0.0139882267
-            Roll: 0.0223195255
+            Yaw: -89.9310913
+            Roll: 89.9372635
           }
           Scale {
             X: 1
@@ -224,7 +224,7 @@ Assets {
               AttenuationRadius: 998.023438
               AreaLight {
                 SourceWidth: 666.162781
-                SourceHeight: 160.859512
+                SourceHeight: 2.04124498
               }
             }
             MaxDrawDistance: 7299.48047
@@ -373,7 +373,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12077323529323451140
+              Id: 8191402814560574490
             }
           }
           Overrides {
@@ -591,9 +591,9 @@ Assets {
         Name: "Prism - 6-Sided"
         Transform {
           Location {
-            X: 0.0211764984
-            Y: -1.65458679
-            Z: 33.9449692
+            X: 0.0208802801
+            Y: -2.56152034
+            Z: 33.9449768
           }
           Rotation {
           }

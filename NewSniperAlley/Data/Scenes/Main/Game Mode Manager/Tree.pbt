@@ -1939,7 +1939,7 @@ Objects {
     Location {
       X: -2192.75757
       Y: -3747.03735
-      Z: 905
+      Z: 895
     }
     Rotation {
       Pitch: -1.33217371
@@ -2081,9 +2081,9 @@ Objects {
   Name: "Marker"
   Transform {
     Location {
-      X: -1277.64233
-      Y: -419.617371
-      Z: -314.981049
+      X: -905
+      Y: -254.999939
+      Z: -339.999969
     }
     Rotation {
       Pitch: -1.33217371
@@ -2129,8 +2129,8 @@ Objects {
   Transform {
     Location {
       X: -5915
-      Y: -8143.99756
-      Z: -165
+      Y: -8114.99951
+      Z: -195
     }
     Rotation {
       Pitch: -1.33217371
@@ -2178,7 +2178,7 @@ Objects {
     Location {
       X: -9150
       Y: 5175
-      Z: -315.001099
+      Z: -325
     }
     Rotation {
       Pitch: -1.33217371

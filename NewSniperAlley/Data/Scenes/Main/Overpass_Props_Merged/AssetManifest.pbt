@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18236536682416522687
-  Name: "Decal Military Symbols 02"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_military_logo_2_ref"
-  }
-}
-Assets {
   Id: 17656495108824350163
   Name: "Corrugated Sheet Small"
   PlatformAssetType: 1
