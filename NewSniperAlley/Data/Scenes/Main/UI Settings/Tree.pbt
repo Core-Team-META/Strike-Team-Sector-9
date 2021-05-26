@@ -1021,11 +1021,12 @@ Objects {
     }
   }
   ParentId: 4640656666554656207
+  ChildIds: 7504169939027488986
   ChildIds: 10661634846319756127
+  ChildIds: 7145945272333006911
   ChildIds: 5672017890360782653
   ChildIds: 16784286148707766175
   ChildIds: 7189575281797509683
-  ChildIds: 7504169939027488986
   ChildIds: 11785758236262013711
   ChildIds: 15955438703316902905
   ChildIds: 4973729552742677746
@@ -1271,41 +1272,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7504169939027488986
-  Name: "Roof_NoAccess"
-  Transform {
-    Location {
-      X: -3680
-      Y: -290
-      Z: -2467.85547
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16967589606165470062
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Roof_NoAccess"
-  }
-}
-Objects {
   Id: 7189575281797509683
   Name: "RoofOnTop"
   Transform {
@@ -1399,6 +1365,38 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Railings"
+  }
+}
+Objects {
+  Id: 7145945272333006911
+  Name: "Covers"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Covers"
   }
 }
 Objects {
@@ -2532,6 +2530,41 @@ Objects {
       }
       BoundsScale: 1
     }
+  }
+}
+Objects {
+  Id: 7504169939027488986
+  Name: "RoofBlack_NoAccess"
+  Transform {
+    Location {
+      X: -3680
+      Y: -290
+      Z: -2467.85547
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "RoofBlack_NoAccess"
   }
 }
 Objects {

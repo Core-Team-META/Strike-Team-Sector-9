@@ -45199,7 +45199,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 352.09375
-            Y: -140.344727
+            Y: -129.959717
             Z: 3.84545898
           }
         }
@@ -45272,7 +45272,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 194.533203
-            Y: -140.344727
+            Y: -129.959717
             Z: 3.84545898
           }
         }
@@ -45315,7 +45315,7 @@ Objects {
   Transform {
     Location {
       X: 50.453125
-      Y: -206.791504
+      Y: -159.61499
     }
     Rotation {
       Yaw: 134.009186
@@ -45370,7 +45370,7 @@ Objects {
   Transform {
     Location {
       X: 72.4179688
-      Y: -96.2263184
+      Y: -49.0498047
     }
     Rotation {
       Yaw: 68.2069473
@@ -45424,6 +45424,7 @@ Objects {
   Name: "Military Hazard Barrel"
   Transform {
     Location {
+      Y: 10.3850098
     }
     Rotation {
       Yaw: 68.2069473
@@ -57570,7 +57571,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -121.108398
-            Y: 55.3369141
+            Y: 65.7219238
             Z: -0.000244140625
           }
         }
@@ -57631,7 +57632,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -110.003906
-            Y: -116.823
+            Y: -106.437988
           }
         }
         Overrides {
