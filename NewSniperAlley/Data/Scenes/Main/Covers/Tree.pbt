@@ -1,7 +1,7 @@
 Name: "Covers"
-RootId: 7145945272333006911
+RootId: 13843374095819729484
 Objects {
-  Id: 10506193533603900006
+  Id: 10302405445117205046
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11976292156268165276
+  Id: 831550720244876276
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -86,7 +86,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -139,7 +139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7869115866218537582
+  Id: 6602276832529879805
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5345787005143660121
+  Id: 14957910127076950120
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -225,7 +225,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -275,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14957670930322102711
+  Id: 8371479810458473727
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -292,7 +292,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -342,7 +342,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12204711065653205955
+  Id: 4947865618058306311
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -359,7 +359,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -412,7 +412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7273933191722098707
+  Id: 1930496002935032341
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -429,7 +429,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -482,7 +482,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13947964224109336950
+  Id: 11332709191614555852
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -499,7 +499,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -552,7 +552,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17601600775348842905
+  Id: 6023193557187655587
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -569,7 +569,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -622,7 +622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14110905215004195253
+  Id: 2638763781709316718
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -638,7 +638,7 @@ Objects {
       Y: 3.50000024
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -691,7 +691,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11750677963965819888
+  Id: 17795784057101730321
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -707,7 +707,7 @@ Objects {
       Y: 2.5
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -760,7 +760,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14103386440684559289
+  Id: 10382703166752370987
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -776,7 +776,7 @@ Objects {
       Y: 3
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -829,7 +829,7 @@ Objects {
   }
 }
 Objects {
-  Id: 321836069341006132
+  Id: 2653549996761812943
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -846,7 +846,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -899,7 +899,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12390058786429775820
+  Id: 100199488111570962
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -916,7 +916,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -969,7 +969,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3487480887252480100
+  Id: 322404200398236525
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -986,7 +986,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1039,7 +1039,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13256539547210822477
+  Id: 15836571241815276905
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1056,7 +1056,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1109,7 +1109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3250589481617463551
+  Id: 58692588717459483
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1126,7 +1126,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1179,7 +1179,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6725758569420446407
+  Id: 13720326594513743103
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1196,7 +1196,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1249,7 +1249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2475941659417488937
+  Id: 6198425664517153583
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1266,7 +1266,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1319,7 +1319,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4675670102082284092
+  Id: 8664642269856575855
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1336,7 +1336,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1389,7 +1389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11859542701626542098
+  Id: 9905612349839035429
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1406,7 +1406,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1459,7 +1459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14245941148408758433
+  Id: 5396500712856421409
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1476,7 +1476,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1529,7 +1529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8340269027045687810
+  Id: 9177708284407594801
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1546,7 +1546,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1599,7 +1599,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6020110549636753533
+  Id: 16936650600631249803
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1616,7 +1616,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1669,7 +1669,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17316336872923088105
+  Id: 12121935521005233720
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1686,7 +1686,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1739,7 +1739,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3413169096204517917
+  Id: 3530307200523114216
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1756,7 +1756,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1809,7 +1809,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12308723452061645921
+  Id: 16093321721084427985
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1826,7 +1826,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1879,7 +1879,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14176404560968708035
+  Id: 12193829742407644896
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1896,7 +1896,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1949,7 +1949,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8079464221569510803
+  Id: 16092750913565125758
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -1966,7 +1966,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2019,7 +2019,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1427114304526272651
+  Id: 17463252169819935819
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2036,7 +2036,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2089,7 +2089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13403068489129887676
+  Id: 18184931302029508332
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2106,7 +2106,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2159,7 +2159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13585218260271314241
+  Id: 7927632934311612905
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2176,7 +2176,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2229,7 +2229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15749015653996067151
+  Id: 70462128514414506
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2246,7 +2246,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2299,7 +2299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 305101794741223973
+  Id: 8312653933132707262
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2316,7 +2316,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2369,7 +2369,7 @@ Objects {
   }
 }
 Objects {
-  Id: 712637359330286367
+  Id: 7679906338660802294
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2386,7 +2386,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2439,7 +2439,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17043639793693092579
+  Id: 18424998615667356872
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2456,7 +2456,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2509,7 +2509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18108470701444176400
+  Id: 6649976790655330415
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2526,7 +2526,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2579,7 +2579,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5993038170116701496
+  Id: 9707641889493073896
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2596,7 +2596,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2649,7 +2649,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10652680178346880303
+  Id: 13906641031718892885
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2666,7 +2666,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2719,7 +2719,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2011268586437774524
+  Id: 18089855134282244335
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2736,7 +2736,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2789,7 +2789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8326696538462666762
+  Id: 13614090240287981563
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2806,7 +2806,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2859,7 +2859,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15633596031771931014
+  Id: 14987495236366427207
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2876,7 +2876,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2929,7 +2929,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8530109253592779666
+  Id: 3318382375953327126
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -2946,7 +2946,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -2999,7 +2999,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14135030587814132791
+  Id: 14278063850787888054
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3016,7 +3016,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3069,7 +3069,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2790320573423016145
+  Id: 9508564823004437414
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3086,7 +3086,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3139,7 +3139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8413546028784667880
+  Id: 5725519068109325342
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3156,7 +3156,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3209,7 +3209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5117139000328520260
+  Id: 10764400857540437079
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3226,7 +3226,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3279,7 +3279,7 @@ Objects {
   }
 }
 Objects {
-  Id: 661368249652226404
+  Id: 9555121911493907618
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3296,7 +3296,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3349,7 +3349,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7600437649607248696
+  Id: 4998556297278966425
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3366,7 +3366,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3419,7 +3419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4183883458377396519
+  Id: 17831202252715289373
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3436,7 +3436,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3489,7 +3489,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2355500405024831961
+  Id: 4294394479467614176
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3506,7 +3506,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3559,7 +3559,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12157005813380430633
+  Id: 12413153329277808260
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3576,7 +3576,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3629,7 +3629,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8273902731808406292
+  Id: 1297765166418732474
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3646,7 +3646,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3699,7 +3699,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2945971441650599345
+  Id: 1122557487487378266
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3716,7 +3716,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3769,7 +3769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10034135190977541576
+  Id: 15484558015951378481
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3786,7 +3786,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3839,7 +3839,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9000276078038186127
+  Id: 2203132534310811862
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3856,7 +3856,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3909,7 +3909,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11769307191586091011
+  Id: 5019339999667608170
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3926,7 +3926,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -3979,7 +3979,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8164665586604251147
+  Id: 6001710158543740126
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -3996,7 +3996,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4049,7 +4049,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12231228368058305470
+  Id: 9544315778608702188
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4066,7 +4066,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4119,7 +4119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18071919886860368910
+  Id: 3952512898490516606
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4136,7 +4136,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4189,7 +4189,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15494616551737585453
+  Id: 5413463584043130362
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4206,7 +4206,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4259,7 +4259,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15820107519921658182
+  Id: 8022178578978623312
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4276,7 +4276,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4329,7 +4329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9942149318240479454
+  Id: 17061897710493683681
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4346,7 +4346,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4399,7 +4399,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16643602979344408774
+  Id: 9071246256800845889
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4416,7 +4416,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4469,7 +4469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9602610264047265407
+  Id: 17302951141194176766
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4486,7 +4486,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4539,7 +4539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15662616297609465613
+  Id: 10311569696179717871
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4556,7 +4556,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4609,7 +4609,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7336886263991889980
+  Id: 11529835677195673665
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4626,7 +4626,7 @@ Objects {
       Z: 1.75
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4679,7 +4679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6436828772644584255
+  Id: 8465810477967266954
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4696,7 +4696,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4749,7 +4749,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2984098889817690610
+  Id: 935679267810959208
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4766,7 +4766,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4819,7 +4819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1250509485414504293
+  Id: 2855530129707994284
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4836,7 +4836,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4889,7 +4889,7 @@ Objects {
   }
 }
 Objects {
-  Id: 772913011172249463
+  Id: 14827284242580829181
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4906,7 +4906,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -4959,7 +4959,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16514027477611407623
+  Id: 8207948595419049090
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -4976,7 +4976,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5029,7 +5029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 60142385073597120
+  Id: 17429046119848765412
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5046,7 +5046,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5099,7 +5099,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17211159743616916483
+  Id: 819804365164136264
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5116,7 +5116,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5169,7 +5169,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11670488547083595226
+  Id: 11673898295274579373
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5186,7 +5186,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5239,7 +5239,7 @@ Objects {
   }
 }
 Objects {
-  Id: 928294466743755807
+  Id: 9666276951446925621
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5256,7 +5256,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5309,7 +5309,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16973578716996983020
+  Id: 14407392887449790998
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5326,7 +5326,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5379,7 +5379,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17350918864170260961
+  Id: 768501196150631009
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5396,7 +5396,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5449,7 +5449,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1353267266275418534
+  Id: 5798235596980327118
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5466,7 +5466,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5519,7 +5519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7404828308838908279
+  Id: 2055940313515199204
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5536,7 +5536,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5589,7 +5589,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17792167998727374491
+  Id: 9190014354625012386
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5606,7 +5606,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5659,7 +5659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6429565871699726361
+  Id: 15772240987059225320
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5676,7 +5676,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5729,7 +5729,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5008136897076365354
+  Id: 6826911737997239998
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5746,7 +5746,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5799,7 +5799,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18428797682819006635
+  Id: 10842006023774492055
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5816,7 +5816,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5869,7 +5869,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12215314301675027963
+  Id: 11788258493572750224
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5886,7 +5886,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -5939,7 +5939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9759640455162980472
+  Id: 6193228257034645573
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -5956,7 +5956,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -6009,7 +6009,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5313889762923645705
+  Id: 5131786034995557457
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -6026,7 +6026,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -6079,7 +6079,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14786986977853706543
+  Id: 9116389017569159574
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -6096,7 +6096,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -6149,7 +6149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16091418944405391886
+  Id: 7714212112963282666
   Name: "Obstacle_Transparent"
   Transform {
     Location {
@@ -6166,7 +6166,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 7145945272333006911
+  ParentId: 13843374095819729484
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"

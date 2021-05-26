@@ -1,7 +1,7 @@
 Name: "Girders"
-RootId: 4973729552742677746
+RootId: 7788597861200323013
 Objects {
-  Id: 11124133655726678355
+  Id: 10452822920044224859
   Name: "Girders"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9518108873080422667
+  Id: 11160684430282139200
   Name: "Girders"
   Transform {
     Location {
@@ -87,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -139,7 +139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13192418385421541145
+  Id: 2191232646024083741
   Name: "Girders"
   Transform {
     Location {
@@ -156,7 +156,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16968587823173353948
+  Id: 11280959980458211420
   Name: "Girders"
   Transform {
     Location {
@@ -225,7 +225,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -277,7 +277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6600039069388633901
+  Id: 12029036431473781958
   Name: "Girders"
   Transform {
     Location {
@@ -294,7 +294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -346,7 +346,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13143656204817692535
+  Id: 9513723717880338093
   Name: "Girders"
   Transform {
     Location {
@@ -363,7 +363,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -415,7 +415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7442592922178189802
+  Id: 1286203528906671351
   Name: "Girders"
   Transform {
     Location {
@@ -432,7 +432,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -484,7 +484,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6648245750609520411
+  Id: 13793058975954714263
   Name: "Girders"
   Transform {
     Location {
@@ -501,7 +501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -553,7 +553,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9720745651105095415
+  Id: 8396447889155960705
   Name: "Girders"
   Transform {
     Location {
@@ -570,7 +570,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -622,7 +622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5087584725025821623
+  Id: 3913900392546088008
   Name: "Girders"
   Transform {
     Location {
@@ -639,7 +639,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4973729552742677746
+  ParentId: 7788597861200323013
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"

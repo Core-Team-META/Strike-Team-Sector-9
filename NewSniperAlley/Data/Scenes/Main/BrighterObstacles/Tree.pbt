@@ -1,7 +1,7 @@
 Name: "BrighterObstacles"
-RootId: 11336079311454702404
+RootId: 4413661482061963062
 Objects {
-  Id: 7248271345312954581
+  Id: 12240239428853524039
   Name: "Park"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -70,7 +70,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1283657675817651148
+  Id: 15247830434417408030
   Name: "Park"
   Transform {
     Location {
@@ -87,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -139,7 +139,7 @@ Objects {
   }
 }
 Objects {
-  Id: 789049510754626306
+  Id: 380457524778924153
   Name: "Park"
   Transform {
     Location {
@@ -156,7 +156,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -208,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12545024668136564457
+  Id: 7953781446101690449
   Name: "Park"
   Transform {
     Location {
@@ -225,7 +225,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -277,7 +277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7291240913077000660
+  Id: 6291763802183602202
   Name: "Park"
   Transform {
     Location {
@@ -294,7 +294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -346,7 +346,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10867216872096665871
+  Id: 6622677242453291241
   Name: "Park"
   Transform {
     Location {
@@ -363,7 +363,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -415,7 +415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7951832826164299376
+  Id: 17437122123763909211
   Name: "Park"
   Transform {
     Location {
@@ -432,7 +432,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -484,7 +484,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16356922342698822371
+  Id: 18086040414551796545
   Name: "Park"
   Transform {
     Location {
@@ -501,7 +501,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -553,7 +553,7 @@ Objects {
   }
 }
 Objects {
-  Id: 294507024061103970
+  Id: 6193087734717810886
   Name: "Park"
   Transform {
     Location {
@@ -570,7 +570,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -622,7 +622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2359868506198662406
+  Id: 15849525184955738117
   Name: "Park"
   Transform {
     Location {
@@ -639,7 +639,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -691,7 +691,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3738693731636500731
+  Id: 4095445881017822083
   Name: "Park"
   Transform {
     Location {
@@ -708,7 +708,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -760,7 +760,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7115538252644331548
+  Id: 10073900223141387199
   Name: "Park"
   Transform {
     Location {
@@ -777,7 +777,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -829,7 +829,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17503387835737688346
+  Id: 9654189459065460068
   Name: "Park"
   Transform {
     Location {
@@ -846,7 +846,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -898,7 +898,7 @@ Objects {
   }
 }
 Objects {
-  Id: 226772464927596759
+  Id: 8598715768254383915
   Name: "Park"
   Transform {
     Location {
@@ -915,7 +915,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -967,7 +967,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12440529255157533744
+  Id: 15741600622856675399
   Name: "Park"
   Transform {
     Location {
@@ -984,7 +984,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1036,7 +1036,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2541574868394173506
+  Id: 16704323586594775285
   Name: "Park"
   Transform {
     Location {
@@ -1053,7 +1053,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1105,7 +1105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5216515878321403576
+  Id: 11463898710149041258
   Name: "Park"
   Transform {
     Location {
@@ -1122,7 +1122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
@@ -1174,7 +1174,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11718443638086429412
+  Id: 16525934085839130228
   Name: "Park"
   Transform {
     Location {
@@ -1191,7 +1191,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11336079311454702404
+  ParentId: 4413661482061963062
   UnregisteredParameters {
     Overrides {
       Name: "cs:Tint"
