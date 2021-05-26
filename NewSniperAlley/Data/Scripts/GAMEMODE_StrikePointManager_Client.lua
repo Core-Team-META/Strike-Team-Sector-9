@@ -112,11 +112,6 @@ local function UpdateCenterFlagColor(currentTeam)
 end
 
 local function ToggleObject(bool)
-	if bool then
-		ChopSpotRoot.visibility = Visibility.INHERIT
-	else
-		ChopSpotRoot.visibility = Visibility.FORCE_OFF
-	end
     ChopSpot.isTeamColorUsed = bool
     ChopSpotRoot.isTeamColorUsed = bool
     EDGE.isTeamColorUsed = bool
@@ -184,21 +179,21 @@ function OnNetworkChanged(object, string)
             end
 
             if data[PROGRESS] and data[PROGRESS] < 100 and data[PROGRESS] > 0 then
-                flagPos.z = 45 + (data[PROGRESS] * 2)
+                flagPos.z = 445 + (data[PROGRESS] * 2)
                 groundScale.x = 25 + (data[PROGRESS] * 0.75)
                 groundScale.y = 25 + (data[PROGRESS] * 0.75)
             elseif data[PROGRESS] == 100 and data[PROGRESS] ~= lastProgress then
                 --World.SpawnAsset(SFX_SUCCESS, {position = ROOT:GetWorldPosition()})
-                flagPos.z = 245
+                flagPos.z = 645
                 groundScale.x = 100
                 groundScale.y = 100
             elseif data[PROGRESS] and data[PROGRESS] > 0 then
-                flagPos.z = 45 - ((data[PROGRESS]) * 2)
+                flagPos.z = 445 - ((data[PROGRESS]) * 2)
                 groundScale.x = 25 - ((data[PROGRESS]) * 0.75)
                 groundScale.y = 25 - ((data[PROGRESS]) * 0.75)
             elseif data[PROGRESS] == 0 then
                 Events.Broadcast("Minimap.UpdateItem", ROOT, 0)
-                flagPos.z = 45
+                flagPos.z = 445
                 groundScale.x = 25
                 groundScale.y = 25
             end
