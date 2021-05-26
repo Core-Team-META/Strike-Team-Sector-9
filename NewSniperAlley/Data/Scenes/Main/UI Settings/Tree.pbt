@@ -1021,11 +1021,13 @@ Objects {
     }
   }
   ParentId: 4640656666554656207
+  ChildIds: 16200146816353672750
+  ChildIds: 16784286148707766175
+  ChildIds: 5672017890360782653
   ChildIds: 7504169939027488986
   ChildIds: 10661634846319756127
   ChildIds: 7145945272333006911
-  ChildIds: 5672017890360782653
-  ChildIds: 16784286148707766175
+  ChildIds: 11336079311454702404
   ChildIds: 7189575281797509683
   ChildIds: 11785758236262013711
   ChildIds: 15955438703316902905
@@ -1304,8 +1306,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16784286148707766175
-  Name: "Walls"
+  Id: 11336079311454702404
+  Name: "BrighterObstacles"
   Transform {
     Location {
     }
@@ -1332,44 +1334,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Walls"
-  }
-}
-Objects {
-  Id: 5672017890360782653
-  Name: "Railings"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16967589606165470062
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Railings"
+    FilePartitionName: "BrighterObstacles"
   }
 }
 Objects {
   Id: 7145945272333006911
-  Name: "Covers"
+  Name: "Obstacles_Transparent"
   Transform {
     Location {
     }
@@ -1433,6 +1403,7 @@ Objects {
   ChildIds: 12356471013853299420
   ChildIds: 15846095434445048741
   ChildIds: 4351912845493893171
+  ChildIds: 9685516624881655287
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1450,12 +1421,80 @@ Objects {
   }
 }
 Objects {
+  Id: 9685516624881655287
+  Name: "TransitHallwayTop"
+  Transform {
+    Location {
+      X: -14.9975586
+      Y: 1172.21973
+      Z: 2892.14453
+    }
+    Rotation {
+      Yaw: -179.872482
+    }
+    Scale {
+      X: 27
+      Y: 10
+      Z: 1
+    }
+  }
+  ParentId: 10661634846319756127
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.043
+        G: 0.043
+        B: 0.043
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.87
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 4351912845493893171
   Name: "MidBuilding"
   Transform {
     Location {
-      X: -857.445923
-      Y: -6619.06787
+      X: -857.442261
+      Y: -6619.0708
       Z: 612.144531
     }
     Rotation {
@@ -1523,8 +1562,8 @@ Objects {
   Name: "MidBuilding"
   Transform {
     Location {
-      X: -699.651245
-      Y: -6516.33594
+      X: -699.647583
+      Y: -6516.33887
       Z: 612.144531
     }
     Rotation {
@@ -1592,12 +1631,12 @@ Objects {
   Name: "MidBuilding"
   Transform {
     Location {
-      X: -1300
-      Y: -7025
+      X: -1299.99634
+      Y: -7025.00293
       Z: 612.144531
     }
     Rotation {
-      Yaw: -89.8723679
+      Yaw: -89.8723755
     }
     Scale {
       X: 16.0000076
@@ -1661,8 +1700,8 @@ Objects {
   Name: "MidBuilding"
   Transform {
     Location {
-      X: -684.154297
-      Y: -6946.25098
+      X: -684.150635
+      Y: -6946.25391
       Z: 612.144531
     }
     Rotation {
@@ -1730,12 +1769,12 @@ Objects {
   Name: "MidBuilding"
   Transform {
     Location {
-      X: -1300
-      Y: -7615
+      X: -1299.99634
+      Y: -7615.00293
       Z: 612.144531
     }
     Rotation {
-      Yaw: -89.8723679
+      Yaw: -89.8723755
     }
     Scale {
       X: 16.0000076
@@ -2162,9 +2201,9 @@ Objects {
     Overrides {
       Name: "cs:Tint"
       Color {
-        R: 0.08
-        G: 0.08
-        B: 0.08
+        R: 0.043
+        G: 0.043
+        B: 0.043
         A: 1
       }
     }
@@ -2565,6 +2604,102 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "RoofBlack_NoAccess"
+  }
+}
+Objects {
+  Id: 5672017890360782653
+  Name: "Railings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Railings"
+  }
+}
+Objects {
+  Id: 16784286148707766175
+  Name: "Walls"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Walls"
+  }
+}
+Objects {
+  Id: 16200146816353672750
+  Name: "Pillar_UG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16967589606165470062
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Pillar_UG"
   }
 }
 Objects {

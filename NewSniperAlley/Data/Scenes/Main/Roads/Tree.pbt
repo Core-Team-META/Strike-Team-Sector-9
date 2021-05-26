@@ -492,8 +492,8 @@ Objects {
   Name: "Road"
   Transform {
     Location {
-      X: -7140
-      Y: -1500
+      X: -7139.99609
+      Y: -1500.00293
       Z: -2792.85547
     }
     Rotation {

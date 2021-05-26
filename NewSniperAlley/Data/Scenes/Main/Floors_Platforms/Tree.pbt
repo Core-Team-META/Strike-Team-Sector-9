@@ -1,13 +1,82 @@
 Name: "Floors_Platforms"
 RootId: 8510093783530742575
 Objects {
+  Id: 11514534168210436052
+  Name: "Floors_Platform"
+  Transform {
+    Location {
+      X: 6774.99902
+      Y: 474.999939
+      Z: -2492.85547
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 11.75
+      Y: 8.25
+      Z: 1
+    }
+  }
+  ParentId: 8510093783530742575
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.022
+        G: 0.022
+        B: 0.022
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.359000027
+        B: 0.335224718
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 11946795977658978322
   Name: "Floors_Platform"
   Transform {
     Location {
       X: 6259.99902
       Y: 455
-      Z: -2127.85547
+      Z: -2492.85547
     }
     Rotation {
       Yaw: -90
@@ -358,7 +427,7 @@ Objects {
     }
     Scale {
       X: 4
-      Y: 1.75
+      Y: 2.5
       Z: 1
     }
   }
@@ -418,7 +487,7 @@ Objects {
   Name: "Floors_Platform"
   Transform {
     Location {
-      X: -11470
+      X: -11484.999
       Y: 2515
       Z: -2527.85547
     }
@@ -427,7 +496,7 @@ Objects {
     }
     Scale {
       X: 3.75
-      Y: 1.5
+      Y: 2
       Z: 1
     }
   }
@@ -1244,16 +1313,16 @@ Objects {
   Name: "Floors_Platform"
   Transform {
     Location {
-      X: 1883.12207
-      Y: -9513.44
+      X: 1868.94678
+      Y: -9497.19629
       Z: -2502.85547
     }
     Rotation {
       Yaw: 135.127441
     }
     Scale {
-      X: 5.25
-      Y: 3.50000024
+      X: 5.75000048
+      Y: 3.5
       Z: 0.25
     }
   }
@@ -1997,14 +2066,14 @@ Objects {
   Name: "Floors_Platform"
   Transform {
     Location {
-      X: -10875
+      X: -10930
       Y: 4910
       Z: -2642.25244
     }
     Rotation {
     }
     Scale {
-      X: 3.75
+      X: 5
       Y: 12.25
       Z: 1
     }
@@ -2065,14 +2134,14 @@ Objects {
   Name: "Floors_Platform"
   Transform {
     Location {
-      X: -10875
+      X: -10930
       Y: 4650
       Z: -2642.25244
     }
     Rotation {
     }
     Scale {
-      X: 3.75
+      X: 5
       Y: 12.25
       Z: 1
     }
@@ -5382,8 +5451,8 @@ Objects {
       Yaw: -89.8725281
     }
     Scale {
-      X: 3.5
-      Y: 3.75
+      X: 17.0000038
+      Y: 19
       Z: 0.25
     }
   }

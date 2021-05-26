@@ -1,19 +1,88 @@
 Name: "RoofOnTop"
 RootId: 7189575281797509683
 Objects {
+  Id: 18205351363412390100
+  Name: "RoofOnTop"
+  Transform {
+    Location {
+      X: -4104.99658
+      Y: 5331.79297
+      Z: 107.144531
+    }
+    Rotation {
+      Yaw: -89.8722839
+    }
+    Scale {
+      X: 5.25
+      Y: 18
+      Z: 1
+    }
+  }
+  ParentId: 7189575281797509683
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tint"
+      Color {
+        R: 0.1
+        G: 0.1
+        B: 0.1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.514
+        B: 0.111366682
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5351428073291024820
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16060214784296519809
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 15428843909154491445
   Name: "RoofOnTop"
   Transform {
     Location {
-      X: -4091.48828
-      Y: 3539.99048
+      X: -4090.08521
+      Y: 2909.99219
       Z: 2.14453125
     }
     Rotation {
       Yaw: -89.8722839
     }
     Scale {
-      X: 45.25
+      X: 32.75
       Y: 18
       Z: 1
     }
@@ -74,8 +143,8 @@ Objects {
   Name: "RoofOnTop"
   Transform {
     Location {
-      X: -4655.49268
-      Y: 2268.97583
+      X: -4740
+      Y: 2155
       Z: -252.855469
     }
     Rotation {
@@ -143,15 +212,15 @@ Objects {
   Name: "RoofOnTop"
   Transform {
     Location {
-      X: -4917.375
-      Y: 5363.50684
-      Z: 7.14453125
+      X: -5004.99658
+      Y: 5329.78662
+      Z: 107.144531
     }
     Rotation {
       Yaw: -89.8722839
     }
     Scale {
-      X: 22.25
+      X: 5.25
       Y: 18
       Z: 1
     }
@@ -220,77 +289,8 @@ Objects {
       Yaw: -89.8722839
     }
     Scale {
-      X: 45.25
+      X: 20.75
       Y: 18
-      Z: 1
-    }
-  }
-  ParentId: 7189575281797509683
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Tint"
-      Color {
-        R: 0.1
-        G: 0.1
-        B: 0.1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.514
-        B: 0.111366682
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5351428073291024820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 16060214784296519809
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 3427233700481313548
-  Name: "RoofOnTop"
-  Transform {
-    Location {
-      X: -950.006836
-      Y: 1249.98877
-      Z: -662.855469
-    }
-    Rotation {
-      Yaw: -89.8722839
-    }
-    Scale {
-      X: 14.5
-      Y: 1.75
       Z: 1
     }
   }

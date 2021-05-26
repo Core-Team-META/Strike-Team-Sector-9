@@ -21328,7 +21328,6 @@ Objects {
   ChildIds: 10396116912153951743
   ChildIds: 8899946282141177631
   ChildIds: 11489572756871200236
-  ChildIds: 13700682743109173370
   ChildIds: 3907590142253207650
   ChildIds: 7020237914727133737
   ChildIds: 7597795762100918158
@@ -22111,53 +22110,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 1378719400991316622
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13700682743109173370
-  Name: "Street Sign 02"
-  Transform {
-    Location {
-      X: 184.999207
-      Y: -585
-      Z: 285
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -1.13836484e-06
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5955942962247248937
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15246078607150945099
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -31043,8 +30995,8 @@ Objects {
   Name: "Street Sign 02"
   Transform {
     Location {
-      X: -511.982178
-      Y: -630.508301
+      X: -508.337158
+      Y: -612.192627
       Z: 275.000031
     }
     Rotation {
