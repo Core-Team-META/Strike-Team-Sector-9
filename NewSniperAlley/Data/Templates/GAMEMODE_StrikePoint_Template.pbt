@@ -202,7 +202,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -244,7 +244,7 @@ Assets {
           Overrides {
             Name: "cs:GAMEMODE_Networked"
             ObjectReference {
-              SelfId: 16822128672148941902
+              SelfId: 10857687478960459655
             }
           }
         }
