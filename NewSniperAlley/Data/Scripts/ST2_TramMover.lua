@@ -16,6 +16,7 @@ local MAX_TIME = script:GetCustomProperty("MaxTimeToTravel")
 local moveTime = math.random(MIN_TIME, MAX_TIME)
 
 OBJECT:SetWorldPosition(OBJECT_START_POSITION)
+OBJECT:SetRotation(Rotation.New( (OBJECT_END_POSITION- OBJECT_START_POSITION):GetNormalized(), Vector3.UP ))
 OBJECT:MoveTo(OBJECT_END_POSITION, moveTime)
 
 function Tick(deltaTime)
