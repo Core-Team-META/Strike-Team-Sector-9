@@ -809,6 +809,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9851802736654022465
+  Name: "Sci-fi Console Screen 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_002_ref"
+  }
+}
+Assets {
   Id: 9757895685135231834
   Name: "Clear Coat Reflector Triangle 02"
   PlatformAssetType: 2
@@ -1283,6 +1292,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_frames_003_uv"
+  }
+}
+Assets {
+  Id: 4637749365065961292
+  Name: "Office Vending Machine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_vending_machine_03_ref"
   }
 }
 Assets {

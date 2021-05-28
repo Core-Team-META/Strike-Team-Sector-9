@@ -2317,7 +2317,7 @@ Objects {
     Overrides {
       Name: "cs:Chopper"
       AssetReference {
-        Id: 18322866516141251956
+        Id: 9253170342008343433
       }
     }
     Overrides {
