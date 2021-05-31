@@ -15914,15 +15914,6 @@ Objects {
         Id: 887612434965164701
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.124150008
-        G: 0.157575
-        B: 0.191000015
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
