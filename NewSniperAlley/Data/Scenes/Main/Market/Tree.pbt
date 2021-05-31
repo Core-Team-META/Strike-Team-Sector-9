@@ -62933,12 +62933,12 @@ Objects {
   Name: "Corrugated Sheet Medium"
   Transform {
     Location {
-      X: -250.737305
+      X: -174.71875
       Y: 13.7092285
     }
     Rotation {
       Pitch: 0.236365512
-      Yaw: -7.69157553
+      Yaw: -7.69158936
       Roll: 14.3342419
     }
     Scale {
