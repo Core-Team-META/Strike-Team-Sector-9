@@ -161,48 +161,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14172315365702108387
-  Name: "Car Crash Heavy Metal Impact 02 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_02a_Cue_ref"
-  }
-}
-Assets {
-  Id: 14032689756719721565
-  Name: "Metal Steel Brushed"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stainless-steel_001_uv"
-  }
-}
-Assets {
   Id: 13845678474517861045
   Name: "Lensflare Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "fxbp_post_process_lensflare"
-  }
-}
-Assets {
-  Id: 13564316571812339847
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
-  }
-}
-Assets {
-  Id: 13362988571131584785
-  Name: "Decal Sci-fi Details 01"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_scf_details_001_ref"
   }
 }
 Assets {
@@ -239,15 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_urb_debris_001_ref"
-  }
-}
-Assets {
-  Id: 12728146833340731999
-  Name: "Metal 9 Slice Frame 001"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_9slice_001"
   }
 }
 Assets {
@@ -296,15 +251,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11353461757709897270
-  Name: "Container - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_ref"
-  }
-}
-Assets {
   Id: 11024977997119225113
   Name: "Sci-fi Cockpit Siderail 01"
   PlatformAssetType: 1
@@ -329,15 +275,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 10118410057604672200
-  Name: "Mechanical Gears Squeaky 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_mechanical_gears_squeaky_01_Cue_ref"
   }
 }
 Assets {
@@ -440,39 +377,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7480552155571412389
-  Name: "Metal Diamond Plates 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_002"
-  }
-}
-Assets {
-  Id: 7432621314570877942
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 6865249745567109080
   Name: "Corrugated Sheet Bent"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_corrugated_sheet_05_ref"
-  }
-}
-Assets {
-  Id: 6789594608035311611
-  Name: "Wedge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
   }
 }
 Assets {
@@ -584,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3202444740296431605
-  Name: "Rubber Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_004_uv"
-  }
-}
-Assets {
   Id: 3183406401151404830
   Name: "Whitebox Stairs 01 Straight"
   PlatformAssetType: 1
@@ -665,30 +566,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1226156609164735191
-  Name: "Cylinder - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_001"
-  }
-}
-Assets {
   Id: 1085692155132102910
   Name: "Decal Burnt Streaks 01"
   PlatformAssetType: 14
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_burned_streak_002_ref"
-  }
-}
-Assets {
-  Id: 887612434965164701
-  Name: "Metal Corrugated 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
   }
 }
 Assets {
@@ -716,15 +599,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_corner_smooth_001_ref"
-  }
-}
-Assets {
-  Id: 335575088398859448
-  Name: "Car Crash Heavy Metal Impact 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_car_crash_heavy_metal_impact_01a_Cue_ref"
   }
 }
 Assets {
