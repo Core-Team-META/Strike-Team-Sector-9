@@ -39184,7 +39184,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    DisableCastShadows: true
     StaticMesh {
       Physics {
         Mass: 100
@@ -40010,6 +40009,7 @@ Objects {
   ChildIds: 3902977237340894891
   ChildIds: 4435449406822006484
   ChildIds: 13595050304502769318
+  ChildIds: 4094456009289049284
   ChildIds: 1352741156240656235
   ChildIds: 11369978060737882895
   ChildIds: 1573983138958666615
@@ -44262,6 +44262,79 @@ Objects {
     }
     TemplateAsset {
       Id: 9480609698176159261
+    }
+  }
+}
+Objects {
+  Id: 4094456009289049284
+  Name: "ST2_BarrelsCovered01"
+  Transform {
+    Location {
+      X: -2359.78027
+      Y: 1999.51697
+      Z: 925.254
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.47816053
+      Y: 0.47816053
+      Z: 0.47816053
+    }
+  }
+  ParentId: 14013997551178473436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 271060714048740509
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -95.8343887
+            Y: 95.0133362
+            Z: -5.79364824
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10260973133391004781
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ST2_BarrelsCovered01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 759.62207
+            Y: 825.384766
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.47816053
+            Y: 0.47816053
+            Z: 0.47816053
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16807626256292874441
     }
   }
 }

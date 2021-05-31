@@ -1378,14 +1378,14 @@ Objects {
   Name: "Corrugated Sheet Large"
   Transform {
     Location {
-      X: -647.443848
-      Y: -50.7249756
-      Z: 589.061768
+      X: -645
+      Y: -40
+      Z: 590
     }
     Rotation {
       Pitch: 0.537173867
       Yaw: 6.15194416
-      Roll: -4.97113037
+      Roll: -4.97113514
     }
     Scale {
       X: 0.5
@@ -15891,19 +15891,19 @@ Objects {
   Name: "Corrugated Sheet Large"
   Transform {
     Location {
-      X: 669.171631
-      Y: 424.341644
+      X: 255
+      Y: 419.355377
       Z: 735
     }
     Rotation {
-      Pitch: -84.3024292
-      Yaw: -89.3102417
-      Roll: 90
+      Pitch: -84.3024902
+      Yaw: -89.9998245
+      Roll: 89.9998245
     }
     Scale {
-      X: 1.00000048
-      Y: 0.340269774
-      Z: 0.599508464
+      X: 0.99999994
+      Y: 0.203210711
+      Z: 1
     }
   }
   ParentId: 9068556854380534312
