@@ -1,7 +1,7 @@
 Name: "Gameplay Settings"
 RootId: 12992312101360056088
 Objects {
-  Id: 13023503440838633745
+  Id: 7550239754206438108
   Name: "CosmeticEquiper"
   Transform {
     Location {
@@ -15,392 +15,43 @@ Objects {
     }
   }
   ParentId: 12992312101360056088
-  ChildIds: 14490546017943633030
-  ChildIds: 3967841790776357026
-  ChildIds: 16996489630834808303
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 13023503440838633745
-    SubobjectId: 452116494493330957
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 16996489630834808303
-  Name: "ClientContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13023503440838633745
-  ChildIds: 5595942693578613558
-  ChildIds: 6601591550613392657
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 16996489630834808303
-    SubobjectId: 6423632433989145331
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
-  }
-}
-Objects {
-  Id: 6601591550613392657
-  Name: "JSON"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16996489630834808303
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Script {
-    ScriptAsset {
-      Id: 7541650775654773469
-    }
-  }
-}
-Objects {
-  Id: 5595942693578613558
-  Name: "CosmeticSystemClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16996489630834808303
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:DataFolder"
-      ObjectReference {
-        SelfId: 14490546017943633030
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 452116494493330957
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CosmeticEquiper"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17776384150567480456
+    TemplateAsset {
+      Id: 5923195015160557143
     }
-  }
-  InstanceHistory {
-    SelfId: 5595942693578613558
-    SubobjectId: 18397823320774878250
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
-  }
-}
-Objects {
-  Id: 3967841790776357026
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13023503440838633745
-  ChildIds: 3183529851405921280
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-  InstanceHistory {
-    SelfId: 3967841790776357026
-    SubobjectId: 9649632872481535934
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
-  }
-}
-Objects {
-  Id: 3183529851405921280
-  Name: "CosmeticSystemServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3967841790776357026
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:JSON"
-      AssetReference {
-        Id: 7541650775654773469
-      }
-    }
-    Overrides {
-      Name: "cs:DataFolder"
-      ObjectReference {
-        SelfId: 14490546017943633030
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14678306255233415416
-    }
-  }
-  InstanceHistory {
-    SelfId: 3183529851405921280
-    SubobjectId: 11445002792527981340
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
-  }
-}
-Objects {
-  Id: 14490546017943633030
-  Name: "CosmeticHander"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13023503440838633745
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Player1"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player2"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player3"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player4"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player5"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player6"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player7"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player8"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player9"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player10"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player11"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player12"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player13"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player14"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player15"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player16"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Player1:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player2:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player3:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player4:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player5:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player6:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player7:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player8:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player9:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player10:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player11:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player12:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player13:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player14:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player15:isrep"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Player16:isrep"
-      Bool: true
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 14490546017943633030
-    SubobjectId: 8926759237085182874
-    InstanceId: 12185903986577701614
-    TemplateId: 5923195015160557143
   }
 }
 Objects {

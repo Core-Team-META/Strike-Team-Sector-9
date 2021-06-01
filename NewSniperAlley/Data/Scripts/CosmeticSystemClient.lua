@@ -1,14 +1,17 @@
 local CosmeticApi = require(script:GetCustomProperty("Cosmetic_API"))
 local DataFolder = script:GetCustomProperty("DataFolder"):WaitForObject()
 local JSON = require(script:GetCustomProperty("JSON"))
-
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local function FindPlayer(id)
+    local Timeout = 0 
+    while Timeout < 5 do 
     for key, player in pairs(Game.GetPlayers()) do
         if player.id == id then 
             return player
         end
+    end
+    Timeout = Timeout + Task.Wait()
     end
 end
 
@@ -21,10 +24,12 @@ function SpawnEquipment(player)
         
         local p = FindPlayer( Decode.owner)
         if not p then return end
-        if p == player then 
-            local Strge = CosmeticApi.LoadData(p ,Data)
+        local Strge = CosmeticApi.LoadData(p ,Data)
+        p.clientUserData.CosStorage = Strge
+        if p == LOCAL_PLAYER then return end 
+        if p:IsA("Player") then
+            Strge:TakeoffAllEquipment()
             Strge:SpawnAllEquipment()
-            p.clientUserData.CosStorage = Strge
             return 
         end 
         
@@ -32,18 +37,21 @@ function SpawnEquipment(player)
 end
 
 function UpdateData(_,property)
-    Task.Wait()
-    local Data = DataFolder:GetCustomProperty(property)
-    if Data == "" then return end
-    local Decode = JSON.Decode(Data)
-    
-    local p = FindPlayer( Decode.owner)
-    if p == LOCAL_PLAYER then return end 
-    if not p then return end
-    
-    local Strge = CosmeticApi.LoadData(p ,Data)
-    Strge:SpawnAllEquipment()
-    p.clientUserData.CosStorage = Strge
+    Task.Spawn(function () 
+        local Data = DataFolder:GetCustomProperty(property)
+        if Data == "" then return end
+        local Decode = JSON.Decode(Data)
+        local p = FindPlayer( Decode.owner)
+        
+        if not p then return end
+        print(p.name )
+        local Strge = CosmeticApi.LoadData(p ,Data)
+        p.clientUserData.CosStorage = Strge
+        if p == LOCAL_PLAYER then return end 
+        
+        Strge:TakeoffAllEquipment()
+        Strge:SpawnAllEquipment()
+    end)
 
 end
 
@@ -57,7 +65,7 @@ Game.playerLeftEvent:Connect(Playerrleft)
 
 DataFolder.networkedPropertyChangedEvent:Connect( UpdateData)
 
-Game.playerJoinedEvent:Connect(SpawnEquipment)
+--Game.playerJoinedEvent:Connect(SpawnEquipment)
 
 Task.Wait()
 for key, value in pairs(DataFolder:GetCustomProperties()) do
