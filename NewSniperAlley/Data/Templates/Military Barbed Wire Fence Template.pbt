@@ -1082,5 +1082,5 @@ Assets {
       AssetId: "Barbed_Wire_Fence_Template"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

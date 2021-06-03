@@ -50850,7 +50850,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 4
+      Float: 3
     }
     Overrides {
       Name: "bp:Indirect Intensity"

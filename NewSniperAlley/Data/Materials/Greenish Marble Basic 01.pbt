@@ -2,7 +2,7 @@ Assets {
   Id: 10118967245928998878
   Name: "Greenish Marble Basic 01"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 15377096960086681777
     ParameterOverrides {

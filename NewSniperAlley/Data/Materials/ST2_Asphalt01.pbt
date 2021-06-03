@@ -2,7 +2,7 @@ Assets {
   Id: 13144702163278733163
   Name: "ST2_Asphalt01"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 6242693564613071554
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 15976386532575407118
   Name: "ST2_ConcreteBrownWorn"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

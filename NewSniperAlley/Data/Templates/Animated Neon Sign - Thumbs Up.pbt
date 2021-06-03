@@ -137,5 +137,5 @@ Assets {
       AssetId: "Animated_Neon_Sign_-_Thumbs_Up"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

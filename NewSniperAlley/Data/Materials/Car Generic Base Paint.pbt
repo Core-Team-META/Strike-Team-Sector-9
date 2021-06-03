@@ -2,7 +2,7 @@ Assets {
   Id: 9074015067865619258
   Name: "Car Generic Base Paint"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 10863917907820914891
     ParameterOverrides {

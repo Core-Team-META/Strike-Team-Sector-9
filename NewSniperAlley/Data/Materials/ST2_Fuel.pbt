@@ -2,7 +2,7 @@ Assets {
   Id: 15626486268736395509
   Name: "ST2_Fuel"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 12248821167098371533
     ParameterOverrides {

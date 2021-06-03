@@ -489,5 +489,5 @@ Assets {
       AssetId: "Sky_Nighttime_01"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

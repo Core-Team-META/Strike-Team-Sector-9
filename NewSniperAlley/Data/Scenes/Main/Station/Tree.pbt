@@ -28312,7 +28312,6 @@ Objects {
   ChildIds: 10537997421479662332
   ChildIds: 512276216361612911
   ChildIds: 10538650318682113356
-  ChildIds: 2483177255405681915
   ChildIds: 759874227928614288
   ChildIds: 2725208652818784071
   ChildIds: 11002855397531615095
@@ -32282,68 +32281,6 @@ Objects {
   }
 }
 Objects {
-  Id: 2483177255405681915
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -2049.59326
-      Y: 776.89917
-      Z: 5.00015259
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 17.5
-      Y: 0.75
-      Z: 6.5
-    }
-  }
-  ParentId: 9017946014033391950
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16846391926756276643
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 10538650318682113356
   Name: "Group"
   Transform {
@@ -33175,7 +33112,7 @@ Objects {
   Transform {
     Location {
       X: 942.866699
-      Y: 4124.83301
+      Y: 4114.60938
       Z: 974.443237
     }
     Rotation {
@@ -34714,7 +34651,7 @@ Objects {
   Transform {
     Location {
       X: 110
-      Y: 2500
+      Y: 2483.59
       Z: 1030
     }
     Rotation {
@@ -35779,15 +35716,15 @@ Objects {
   Transform {
     Location {
       X: -525
-      Y: 4126.48
-      Z: 630
+      Y: 4130
+      Z: 374.722046
     }
     Rotation {
     }
     Scale {
-      X: 4.00000048
-      Y: 1
-      Z: 0.574860215
+      X: 4
+      Y: 1.25
+      Z: 1.5
     }
   }
   ParentId: 9017946014033391950
@@ -39565,6 +39502,24 @@ Objects {
         Id: 11517834777195097018
       }
     }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.161885872
+        G: 0.54
+        B: 0.506528258
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.161885872
+        G: 0.54
+        B: 0.506528258
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -39622,6 +39577,24 @@ Objects {
       Name: "ma:Building_WallInner2:id"
       AssetReference {
         Id: 11517834777195097018
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 0.161885872
+        G: 0.54
+        B: 0.506528258
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.161885872
+        G: 0.54
+        B: 0.506528258
+        A: 1
       }
     }
   }

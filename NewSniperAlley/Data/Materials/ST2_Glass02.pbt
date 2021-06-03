@@ -2,7 +2,7 @@ Assets {
   Id: 12878550907749724167
   Name: "ST2_Glass02"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 14054176190919042885
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 78069825643377446
   Name: "ST2_PalmBark"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 12548070615489990248
     ParameterOverrides {

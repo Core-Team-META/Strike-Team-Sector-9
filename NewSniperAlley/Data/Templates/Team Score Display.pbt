@@ -179,6 +179,7 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -234,6 +235,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -449,5 +451,5 @@ Assets {
       AssetId: "Team_Score_Display"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

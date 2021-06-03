@@ -617,5 +617,5 @@ Assets {
       AssetId: "Urban_Car_-_Storage_Rack_01__Prop_"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 4836092378650645219
   Name: "ST2_GlassFrosted"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 16630259605395466384
     ParameterOverrides {

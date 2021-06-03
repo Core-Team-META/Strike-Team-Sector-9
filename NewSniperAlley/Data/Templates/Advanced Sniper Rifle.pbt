@@ -1410,5 +1410,5 @@ Assets {
       AssetId: "Advanced_Sniper_Rifle"
     }
   }
-  SerializationVersion: 85
+  SerializationVersion: 87
 }

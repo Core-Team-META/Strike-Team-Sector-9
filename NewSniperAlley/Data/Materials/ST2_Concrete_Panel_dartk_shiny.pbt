@@ -2,7 +2,7 @@ Assets {
   Id: 16933444342207655932
   Name: "ST2_Concrete_Panel_dartk_shiny"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 87
   CustomMaterialAsset {
     BaseMaterialId: 6317093348408192352
     ParameterOverrides {

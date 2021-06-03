@@ -1,6 +1,68 @@
 Name: "NoMerge"
 RootId: 2096898863905304610
 Objects {
+  Id: 2483177255405681915
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: -2409.95483
+      Y: 860.338379
+      Z: -24.7218933
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 17.5
+      Y: 0.75
+      Z: 6.5
+    }
+  }
+  ParentId: 2096898863905304610
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16846391926756276643
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 11973237843865325988
   Name: "Urban Fence Panel"
   Transform {
