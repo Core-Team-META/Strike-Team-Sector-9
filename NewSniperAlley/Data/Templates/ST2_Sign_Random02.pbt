@@ -10,9 +10,9 @@ Assets {
         Name: "ST2_Sign_Random02"
         Transform {
           Scale {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
+            X: 1.059991
+            Y: 1.059991
+            Z: 1.059991
           }
         }
         ParentId: 906925363925354889
@@ -96,8 +96,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.830000043
-              G: 0.709072948
+              R: 1
+              B: 0.0397343636
               A: 1
             }
           }
@@ -262,9 +262,9 @@ Assets {
         Name: "Hiragana Font 1: \343\201\202 (A)"
         Transform {
           Location {
-            X: -21.751421
-            Y: -29.3109
-            Z: 273.219086
+            X: -21.7514038
+            Y: -29.311018
+            Z: 135.669144
           }
           Rotation {
             Yaw: -84.9999695
@@ -352,9 +352,9 @@ Assets {
         Name: "Hiragana Font 1: \343\201\202 (A)"
         Transform {
           Location {
-            X: -22.0795918
-            Y: -18.4264584
-            Z: 138.835281
+            X: -22.0795841
+            Y: -18.4265137
+            Z: 270.445587
           }
           Rotation {
             Yaw: -84.9999695

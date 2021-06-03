@@ -1252,6 +1252,7 @@ Objects {
   ParentId: 18156004571311616304
   ChildIds: 13796317209023287785
   ChildIds: 15374825466134906198
+  ChildIds: 14816849223128467832
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1266,6 +1267,70 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14816849223128467832
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: -1260.88269
+      Y: -340.364
+      Z: 320.604919
+    }
+    Rotation {
+      Pitch: -78.8250961
+      Yaw: 89.9998779
+      Roll: -89.9998779
+    }
+    Scale {
+      X: 0.5
+      Y: 0.5
+      Z: 0.49999997
+    }
+  }
+  ParentId: 1756860880795891752
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6878308890745792706
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.865166128
+        B: 0.843
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -1294,9 +1359,8 @@ Objects {
   ChildIds: 16199153139804565563
   ChildIds: 11499444181587046619
   ChildIds: 3531181804471900308
-  ChildIds: 14816849223128467832
-  ChildIds: 231576899608338160
   ChildIds: 7389114243808573180
+  ChildIds: 231576899608338160
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1311,65 +1375,6 @@ Objects {
   }
   Folder {
     Model {
-    }
-  }
-}
-Objects {
-  Id: 7389114243808573180
-  Name: "Modern Stairs Railing 01 - Angled 01"
-  Transform {
-    Location {
-      X: -1050
-      Y: -85
-      Z: 605
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15374825466134906198
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8191402814560574490
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 8191402814560574490
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1553305104100685690
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
     }
   }
 }
@@ -1438,23 +1443,21 @@ Objects {
   }
 }
 Objects {
-  Id: 14816849223128467832
-  Name: "Corrugated Sheet Large"
+  Id: 7389114243808573180
+  Name: "Modern Stairs Railing 01 - Angled 01"
   Transform {
     Location {
-      X: -1120.88269
-      Y: -60.3640137
-      Z: 670.604919
+      X: -1050
+      Y: -85
+      Z: 605
     }
     Rotation {
-      Pitch: -78.8251724
-      Yaw: 89.9999084
-      Roll: -89.9999084
+      Yaw: 89.9999542
     }
     Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.49999997
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 15374825466134906198
@@ -1462,16 +1465,13 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6878308890745792706
+        Id: 8191402814560574490
       }
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.865166128
-        B: 0.843
-        A: 1
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 8191402814560574490
       }
     }
   }
@@ -1486,7 +1486,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 12598129352734110789
+      Id: 1553305104100685690
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -14448,6 +14448,7 @@ Objects {
     }
   }
   ParentId: 18156004571311616304
+  ChildIds: 8627267882011249227
   ChildIds: 9068556854380534312
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -14489,7 +14490,6 @@ Objects {
   ChildIds: 14527130350213568446
   ChildIds: 7803788120589546971
   ChildIds: 13075564363311126578
-  ChildIds: 8627267882011249227
   ChildIds: 3098528376973939376
   ChildIds: 6028306845558819711
   ChildIds: 10165563739935453914
@@ -15887,61 +15887,6 @@ Objects {
   }
 }
 Objects {
-  Id: 8627267882011249227
-  Name: "Corrugated Sheet Large"
-  Transform {
-    Location {
-      X: 255
-      Y: 419.355377
-      Z: 735
-    }
-    Rotation {
-      Pitch: -84.3024902
-      Yaw: -89.9998245
-      Roll: 89.9998245
-    }
-    Scale {
-      X: 0.99999994
-      Y: 0.203210711
-      Z: 1
-    }
-  }
-  ParentId: 9068556854380534312
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 887612434965164701
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12598129352734110789
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 13075564363311126578
   Name: "Modern Stairs Railing 01 - Angled 01"
   Transform {
@@ -16310,6 +16255,70 @@ Objects {
     }
     TemplateAsset {
       Id: 8041460155235181402
+    }
+  }
+}
+Objects {
+  Id: 8627267882011249227
+  Name: "Corrugated Sheet Large"
+  Transform {
+    Location {
+      X: -850
+      Y: 360.662628
+      Z: 385
+    }
+    Rotation {
+      Pitch: -75.834938
+      Yaw: -88.4466248
+      Roll: 89.9999847
+    }
+    Scale {
+      X: 0.99999994
+      Y: 0.203210711
+      Z: 1
+    }
+  }
+  ParentId: 11293982495740172811
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6878308890745792706
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.436000019
+        G: 0.262258381
+        B: 0.233696014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12598129352734110789
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
 }
@@ -34436,29 +34445,8 @@ Objects {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.059991
-            Y: 1.059991
-            Z: 1.059991
-          }
-        }
-        Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9262426004329665655
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            B: 0.0397343636
-            A: 1
           }
         }
       }
@@ -39825,8 +39813,8 @@ Objects {
   Transform {
     Location {
       X: -22.0795918
-      Y: -18.4264584
-      Z: 138.835281
+      Y: -18.4264488
+      Z: 275.629242
     }
     Rotation {
       Yaw: -84.9999695
@@ -39914,16 +39902,16 @@ Objects {
   Name: "Hiragana Font 1: \343\201\202 (A)"
   Transform {
     Location {
-      X: -21.751421
-      Y: -29.3109
-      Z: 273.219086
+      X: -21.7515469
+      Y: -29.310915
+      Z: 147.33255
     }
     Rotation {
       Yaw: -84.9999695
     }
     Scale {
       X: 0.609773099
-      Y: 1.2810266
+      Y: 1.28102648
       Z: 0.609773159
     }
   }

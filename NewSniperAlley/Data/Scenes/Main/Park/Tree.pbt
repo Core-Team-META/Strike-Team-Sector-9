@@ -27094,6 +27094,8 @@ Objects {
   ChildIds: 9230673715542738850
   ChildIds: 17880526657723726712
   ChildIds: 15812378672082621442
+  ChildIds: 10328983720050511235
+  ChildIds: 12996697131230781765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27108,6 +27110,117 @@ Objects {
   }
   Folder {
     Model {
+    }
+  }
+}
+Objects {
+  Id: 12996697131230781765
+  Name: "Cube - Chamfered Large"
+  Transform {
+    Location {
+      X: -3316.18555
+      Y: 997.944336
+      Z: 300
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 9.25
+      Y: 80.2500076
+      Z: 10.0000038
+    }
+  }
+  ParentId: 17591753609510619227
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 10328983720050511235
+  Name: "Cube - Chamfered Large"
+  Transform {
+    Location {
+      X: -386.185547
+      Y: 386.132813
+      Z: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 9.25
+      Y: 17.757988
+      Z: 4.75000143
+    }
+  }
+  ParentId: 17591753609510619227
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6317093348408192352
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14796711042662669165
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
     }
   }
 }
@@ -81195,14 +81308,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -2.93719482
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
           }
         }
       }

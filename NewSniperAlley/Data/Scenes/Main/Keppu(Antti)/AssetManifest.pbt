@@ -638,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16111220828493778383
-  Name: "Hiragana Font 1: \343\201\212 (O)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_004"
-  }
-}
-Assets {
   Id: 16105687716078266600
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -752,6 +743,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
+  }
+}
+Assets {
+  Id: 15586596237063330514
+  Name: "Hiragana Font 1: \343\201\210 (E)"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "meyiro_block_hiragana_003"
   }
 }
 Assets {

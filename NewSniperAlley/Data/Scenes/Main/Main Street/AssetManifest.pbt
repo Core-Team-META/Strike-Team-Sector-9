@@ -1034,15 +1034,6 @@ Assets {
   }
 }
 Assets {
-  Id: 887612434965164701
-  Name: "Metal Corrugated 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_mil_metal_corrugated_metal_002_uv_ref"
-  }
-}
-Assets {
   Id: 799030372745179236
   Name: "Fantasy Chest Treasure Pile 01"
   PlatformAssetType: 1

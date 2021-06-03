@@ -27897,19 +27897,19 @@ Objects {
   Name: "Decal Graffiti Murals 01 (Variants)"
   Transform {
     Location {
-      X: -4434.17822
-      Y: 545
-      Z: 210
+      X: -4379.56201
+      Y: 545.00177
+      Z: 209.998779
     }
     Rotation {
       Pitch: 9.31335831
       Yaw: 90.0016937
-      Roll: -90.0013809
+      Roll: -90.0013733
     }
     Scale {
-      X: 0.999988496
-      Y: 1.00001192
-      Z: 0.583486438
+      X: 0.999982238
+      Y: 1.00001812
+      Z: 0.367920071
     }
   }
   ParentId: 8766174116880648959
@@ -45459,40 +45459,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1129336236368140591
-  Name: "Group"
-  Transform {
-    Location {
-      X: -2985.56299
-      Y: 5849.58154
-      Z: -770.872192
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 16311471590801624148
   Name: "Decal Numbers and Symbols 01"
   Transform {
@@ -54656,69 +54622,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1450026085848653824
-  Name: "Windows"
-  Transform {
-    Location {
-      X: -8866.85449
-      Y: 1479.55896
-      Z: 1389.24951
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 5287837808649790202
-  Name: "Windows"
-  Transform {
-    Location {
-      X: -7895.38525
-      Y: 1887.48828
-      Z: 1389.24951
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 16372166654542407048
   Name: "Area Light"
   Transform {
@@ -54996,106 +54899,6 @@ Objects {
   }
 }
 Objects {
-  Id: 8857246142527094930
-  Name: "ST2_HallDoors01"
-  Transform {
-    Location {
-      X: -4230
-      Y: -9460
-      Z: 54.9999237
-    }
-    Rotation {
-      Yaw: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 745440701542022975
-  Name: "pipe"
-  Transform {
-    Location {
-      X: -11165.1025
-      Y: -5914.26514
-      Z: 2440
-    }
-    Rotation {
-      Yaw: -90
-      Roll: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1371644496775969934
-  Name: "ST2_HallDoors01"
-  Transform {
-    Location {
-      X: -7275
-      Y: -9458.58301
-      Z: 54.9999237
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 6530161273006441563
   Name: "Wall"
   Transform {
@@ -55159,71 +54962,6 @@ Objects {
   }
   EditorIndicatorVisibility {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 1790309142215751438
-  Name: "LightTube"
-  Transform {
-    Location {
-      X: -5141.25879
-      Y: 7245
-      Z: -195
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 17791098338817393438
-  Name: "Modern Stairs 01 - Straight 8m Template"
-  Transform {
-    Location {
-      X: -3680
-      Y: 5785
-      Z: -724.536682
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -55970,70 +55708,6 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:medium"
-  }
-}
-Objects {
-  Id: 17137261287724177464
-  Name: "Windows"
-  Transform {
-    Location {
-      X: -7895.38477
-      Y: 2615.8457
-      Z: 1389.24951
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 14746147892129245351
-  Name: "Fence"
-  Transform {
-    Location {
-      X: -5724.6748
-      Y: 7214.54199
-      Z: -120
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8766174116880648959
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
   }
 }
 Objects {

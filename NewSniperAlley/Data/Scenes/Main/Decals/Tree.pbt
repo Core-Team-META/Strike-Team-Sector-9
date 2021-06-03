@@ -1347,7 +1347,7 @@ Objects {
       Z: -319.999939
     }
     Rotation {
-      Yaw: -89.9999924
+      Yaw: -90
     }
     Scale {
       X: 2.25
