@@ -391,6 +391,22 @@ Assets {
               SubObjectId: 15612639122716044461
             }
           }
+          Overrides {
+            Name: "cs:MinBaseDamage"
+            Float: 26
+          }
+          Overrides {
+            Name: "cs:MinHeadshotDamage"
+            Float: 52
+          }
+          Overrides {
+            Name: "cs:MaxBaseDamage"
+            Float: 72
+          }
+          Overrides {
+            Name: "cs:MaxHeadshotDamage"
+            Float: 144
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

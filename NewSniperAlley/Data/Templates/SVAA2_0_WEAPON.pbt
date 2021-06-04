@@ -7,7 +7,7 @@ Assets {
       RootId: 13485202857273345291
       Objects {
         Id: 13485202857273345291
-        Name: "SVAA2.0_WEAPON"
+        Name: "WEAPON_PRI_MKS_BLK-NG7"
         Transform {
           Scale {
             X: 0.99999994
@@ -383,11 +383,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 58
+            Float: 40
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 116
+            Float: 85
           }
         }
         Collidable_v2 {

@@ -7,7 +7,7 @@ Assets {
       RootId: 8568020721695570181
       Objects {
         Id: 8568020721695570181
-        Name: "MAMBA2.0_WEAPON"
+        Name: "WEAPON_PRI_SR_T055"
         Transform {
           Scale {
             X: 0.99999994
@@ -382,11 +382,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 87
+            Float: 57
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 174
+            Float: 140
           }
         }
         Collidable_v2 {

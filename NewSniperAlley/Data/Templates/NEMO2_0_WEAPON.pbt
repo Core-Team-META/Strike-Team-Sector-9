@@ -7,7 +7,7 @@ Assets {
       RootId: 1760752495282157727
       Objects {
         Id: 1760752495282157727
-        Name: "NEMO2.0_WEAPON"
+        Name: "WEAPON_PRI_LMG_AWK-R0K"
         Transform {
           Scale {
             X: 0.99999994
@@ -393,11 +393,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 46
+            Float: 31
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 64
+            Float: 50
           }
         }
         Collidable_v2 {

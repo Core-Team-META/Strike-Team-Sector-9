@@ -7,7 +7,7 @@ Assets {
       RootId: 13485202857273345291
       Objects {
         Id: 13485202857273345291
-        Name: "SPECTOR452.0_WEAPON"
+        Name: "WEAPON_SEC_PISTOL_KZ99"
         Transform {
           Scale {
             X: 0.99999994
@@ -392,11 +392,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 31
+            Float: 22
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 62
+            Float: 44
           }
         }
         Collidable_v2 {

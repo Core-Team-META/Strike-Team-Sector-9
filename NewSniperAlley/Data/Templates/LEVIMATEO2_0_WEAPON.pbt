@@ -7,7 +7,7 @@ Assets {
       RootId: 16671993031585528870
       Objects {
         Id: 16671993031585528870
-        Name: "LEVIMATEO2.0_WEAPON"
+        Name: "WEAPON_PRI_SG_BCK-3000"
         Transform {
           Scale {
             X: 0.99999994
@@ -400,7 +400,7 @@ Assets {
           }
           Overrides {
             Name: "cs:HeadshotDamage"
-            Float: 46
+            Float: 33
           }
           Overrides {
             Name: "cs:BlendAmount"
@@ -408,7 +408,7 @@ Assets {
           }
           Overrides {
             Name: "cs:BaseDamage"
-            Float: 46
+            Float: 33
           }
         }
         Collidable_v2 {
