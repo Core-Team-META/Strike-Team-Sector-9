@@ -2073,6 +2073,87 @@ Objects {
   }
 }
 Objects {
+  Id: 4926489205899841963
+  Name: "PerfMap"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12992312101360056088
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15138082450048672673
+      value {
+        Overrides {
+          Name: "Name"
+          String: "PerfMap"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:PerfmapRecentData"
+          NetReference {
+            Key: "656D49D86BB9E949"
+            Type {
+              Value: "mc:enetreferencetype:leaderboard"
+            }
+          }
+        }
+        Overrides {
+          Name: "cs:PerfmapDataStorage1"
+          NetReference {
+            Key: "6e843d6f65f84d5bbdfd20d76b30b2f6"
+            Type {
+              Value: "mc:enetreferencetype:sharedpersistence"
+            }
+          }
+        }
+        Overrides {
+          Name: "cs:PerfmapDataStorage2"
+          NetReference {
+            Key: "cfe871b559f3424f89b9523483470ba0"
+            Type {
+              Value: "mc:enetreferencetype:sharedpersistence"
+            }
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17154811568450471656
+    }
+  }
+}
+Objects {
   Id: 5494539586868639549
   Name: "ChatCheats"
   Transform {

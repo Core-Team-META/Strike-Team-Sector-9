@@ -63,3 +63,29 @@ Assets {
     }
   }
 }
+Assets {
+  Id: 2244527099620561745
+  Name: "StrikeTeamCyber-Perfmap1"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "6e843d6f65f84d5bbdfd20d76b30b2f6"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 1478646570120963323
+  Name: "StrikeTeamCyber-Perfmap2"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "cfe871b559f3424f89b9523483470ba0"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
