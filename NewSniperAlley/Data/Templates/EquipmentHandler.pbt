@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 12992312101360056088
         ChildIds: 1419078558595428549
         ChildIds: 6571578897671206302
         ChildIds: 12733346808813737482
@@ -18478,6 +18478,7 @@ Assets {
         ChildIds: 5234536224426484346
         ChildIds: 10592473142247691484
         ChildIds: 5733418052774796153
+        ChildIds: 4914230353216574490
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -20924,6 +20925,68 @@ Assets {
           Overrides {
             Name: "cs:Rarity"
             String: "Easter"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6101204973524491137
+          }
+        }
+      }
+      Objects {
+        Id: 4914230353216574490
+        Name: "Bull"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11104468685180151017
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ICON"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+          Overrides {
+            Name: "cs:Cost"
+            Int: 500
+          }
+          Overrides {
+            Name: "cs:Weapon"
+            AssetReference {
+              Id: 18410810227111814677
+            }
+          }
+          Overrides {
+            Name: "cs:ID"
+            String: "JS"
+          }
+          Overrides {
+            Name: "cs:Offset"
+            Vector {
+              Z: 30
+            }
+          }
+          Overrides {
+            Name: "cs:Rarity"
+            String: "Legendary"
           }
         }
         Collidable_v2 {
