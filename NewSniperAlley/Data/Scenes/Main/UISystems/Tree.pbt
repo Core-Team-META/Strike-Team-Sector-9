@@ -16696,11 +16696,11 @@ Objects {
   Transform {
     Location {
       X: -850
-      Y: -1260.45911
-      Z: -362.337769
+      Y: 785
+      Z: -350
     }
     Rotation {
-      Yaw: -179.999954
+      Yaw: 90
     }
     Scale {
       X: 1
@@ -16887,6 +16887,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   Trigger {
     TeamSettings {
       IsTeamCollisionEnabled: true
@@ -16928,6 +16931,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   Trigger {
     TeamSettings {
@@ -16971,6 +16977,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   Trigger {
     TeamSettings {
       IsTeamCollisionEnabled: true
@@ -17012,6 +17021,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   Trigger {
     TeamSettings {
@@ -17055,6 +17067,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   Trigger {
     TeamSettings {
       IsTeamCollisionEnabled: true
@@ -17096,6 +17111,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   Trigger {
     TeamSettings {
@@ -17139,6 +17157,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   Trigger {
     TeamSettings {
       IsTeamCollisionEnabled: true
@@ -17180,6 +17201,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   Trigger {
     TeamSettings {

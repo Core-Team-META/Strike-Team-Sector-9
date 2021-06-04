@@ -28282,7 +28282,6 @@ Objects {
   ChildIds: 18263262610723606995
   ChildIds: 10695352462687217860
   ChildIds: 17961972578880998919
-  ChildIds: 1452593687473158811
   ChildIds: 2188320106828711886
   ChildIds: 491376679149619282
   ChildIds: 3858767492288402481
@@ -34954,7 +34953,7 @@ Objects {
     Location {
       X: 780
       Y: 140
-      Z: 45
+      Z: 34.7220459
     }
     Rotation {
       Yaw: 89.9999542
@@ -34993,58 +34992,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1452593687473158811
-  Name: "Sci-fi Base Breakout Box 02"
-  Transform {
-    Location {
-      X: 280
-      Y: 140
-      Z: 45
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 1
-      Y: 0.75
-      Z: 0.5
-    }
-  }
-  ParentId: 9017946014033391950
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18009603480987123451
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 17961972578880998919
   Name: "Sci-fi Base Breakout Box 02"
   Transform {
     Location {
       X: -235
       Y: 140
-      Z: 45
+      Z: 34.7220459
     }
     Rotation {
       Yaw: 89.9999542
