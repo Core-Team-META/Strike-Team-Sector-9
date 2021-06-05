@@ -2371,7 +2371,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LethalSpeed"
-      Float: 3500
+      Float: 3700
     }
     Overrides {
       Name: "cs:HearOtherPlayersDamageSounds"

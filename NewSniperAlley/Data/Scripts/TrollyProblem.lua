@@ -16,15 +16,19 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 --]]
 
 -- Internal custom property
+local HitSfx = script:GetCustomProperty("HitSfx")
+
 local KILL_TRIGGER = script.parent
 
 -- nil OnBeginOverlap(Trigger, Object)
 -- Kills a player when they enter the trigger
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
+        World.SpawnAsset(HitSfx).lifeSpan = 3
         local dmg = Damage.New(other.hitPoints)
         dmg.reason = DamageReason.MAP
         other:ApplyDamage(dmg)
+        Events.BroadcastToPlayer(other, "DeathByTrolly")
     end
 end
 
