@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16130756219291047358
-  Name: "storage"
+  Id: 17302083266734075775
+  Name: "cyber_lifetimeStats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "622a1fb067b54cafac0b23f9a200451c"
+      Key: "11256b4712be4090aafc4f045dde3dfe"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,38 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15685842331933966085
-  Name: "lifetime"
+  Id: 12678145626304223404
+  Name: "cyber_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "f3aca06731e04858bca356f132d21792"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 14272866346472689332
-  Name: "loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "e03cb32f106d4d938fec834918210c54"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 13278419134147897285
-  Name: "statkey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0b19aaed23174f448a5aed32da3e8121"
+      Key: "0614df367f2c463c99aea38245c65768"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -129,12 +103,38 @@ Assets {
   }
 }
 Assets {
-  Id: 7099228659197369566
-  Name: "Misc"
+  Id: 4398959996355891925
+  Name: "cyber_miscKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da947128d53a40c08be68c05dabc3459"
+      Key: "da3b427656de45498f2bc800a3933c3a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 2904046153829150741
+  Name: "cyber_statkey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 98340721451113243
+  Name: "cyber_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "949fe8b312704a138dd934cc57cfd55a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

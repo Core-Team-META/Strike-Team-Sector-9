@@ -246,34 +246,7 @@ Objects {
     Overrides {
       Name: "cs:LifetimeStats"
       NetReference {
-        Key: "f3aca06731e04858bca356f132d21792"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Storage"
-      NetReference {
-        Key: "622a1fb067b54cafac0b23f9a200451c"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:MiscKey"
-      NetReference {
-        Key: "da947128d53a40c08be68c05dabc3459"
-        Type {
-          Value: "mc:enetreferencetype:sharedpersistence"
-        }
-      }
-    }
-    Overrides {
-      Name: "cs:Loadout"
-      NetReference {
-        Key: "e03cb32f106d4d938fec834918210c54"
+        Key: "11256b4712be4090aafc4f045dde3dfe"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -282,11 +255,46 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "0b19aaed23174f448a5aed32da3e8121"
+        Key: "b98d958ee5c14580a68ffa5d844dc2bc"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
       }
+    }
+    Overrides {
+      Name: "cs:MiscKey"
+      NetReference {
+        Key: "da3b427656de45498f2bc800a3933c3a"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Storage"
+      NetReference {
+        Key: "0614df367f2c463c99aea38245c65768"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:Loadout"
+      NetReference {
+        Key: "949fe8b312704a138dd934cc57cfd55a"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:MainGameId"
+      String: "d41902/strike-team-cyberpunk"
+    }
+    Overrides {
+      Name: "cs:LoadoutGameId"
+      String: "fdb678/cyberpunkloadout"
     }
   }
   Collidable_v2 {

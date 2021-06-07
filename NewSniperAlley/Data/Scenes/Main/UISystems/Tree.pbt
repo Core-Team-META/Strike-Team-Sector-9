@@ -16,6 +16,7 @@ Objects {
   }
   ParentId: 14162413626785336573
   ChildIds: 7624446599273998722
+  ChildIds: 5292702803617026064
   ChildIds: 16848381823621938534
   ChildIds: 13585346020366891586
   ChildIds: 16410831270904811385
@@ -2015,6 +2016,74 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Pillar_UG"
+  }
+}
+Objects {
+  Id: 5292702803617026064
+  Name: "PlayersInView"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7881559855112352197
+  ChildIds: 18320222305881347621
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 18320222305881347621
+  Name: "PlayersInView"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5292702803617026064
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CheckEnemys"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TeamOnly"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9106067384455834602
+    }
   }
 }
 Objects {

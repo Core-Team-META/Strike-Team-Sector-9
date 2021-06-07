@@ -1,10 +1,10 @@
 Assets {
-  Id: 16060770712832029882
-  Name: "storage"
+  Id: 17673501280689626557
+  Name: "cyberPerfmapData1"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "622a1fb067b54cafac0b23f9a200451c"
+      Key: "02aee9e6eb0042368e576c1efde6eeb4"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14786061396242088328
-  Name: "statkey"
+  Id: 14993641127350947432
+  Name: "cyberPerfmapData2"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "0b19aaed23174f448a5aed32da3e8121"
+      Key: "3559a19283454c288a69cb7822b4db42"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9540400860879011563
-  Name: "loadout"
+  Id: 14810173980968486434
+  Name: "cyberStats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "e03cb32f106d4d938fec834918210c54"
+      Key: "7bf8942c1f3d4343a255a13c70c47ae2"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -38,12 +38,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9078345458256264958
-  Name: "Misc"
+  Id: 10909313921360430232
+  Name: "cyber_miscKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da947128d53a40c08be68c05dabc3459"
+      Key: "da3b427656de45498f2bc800a3933c3a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -51,12 +51,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6009121019369791375
-  Name: "lifetime"
+  Id: 8685785486084357130
+  Name: "cyber_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "f3aca06731e04858bca356f132d21792"
+      Key: "0614df367f2c463c99aea38245c65768"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -64,12 +64,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2244527099620561745
-  Name: "StrikeTeamCyber-Perfmap1"
+  Id: 8303644398911813702
+  Name: "cyber_lifetimeStats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "6e843d6f65f84d5bbdfd20d76b30b2f6"
+      Key: "11256b4712be4090aafc4f045dde3dfe"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -77,12 +77,25 @@ Assets {
   }
 }
 Assets {
-  Id: 1478646570120963323
-  Name: "StrikeTeamCyber-Perfmap2"
+  Id: 6799454315211882571
+  Name: "cyber_statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "cfe871b559f3424f89b9523483470ba0"
+      Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 3327841670527040733
+  Name: "cyber_loadout"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "949fe8b312704a138dd934cc57cfd55a"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
