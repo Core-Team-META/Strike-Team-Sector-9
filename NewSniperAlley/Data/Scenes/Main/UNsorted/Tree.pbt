@@ -1,6 +1,1193 @@
 Name: "Unsorted"
 RootId: 8766174116880648959
 Objects {
+  Id: 12384297929609871500
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -4453.5542
+      Y: 4090.05273
+      Z: 59.7228394
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8766174116880648959
+  ChildIds: 14323886549212101926
+  ChildIds: 11363969156239393391
+  ChildIds: 17924717477701302458
+  ChildIds: 18007339107682085523
+  ChildIds: 9263246384722541611
+  ChildIds: 6975428646035065088
+  ChildIds: 2531647633908220142
+  ChildIds: 9747852078047624671
+  ChildIds: 12274820977370263410
+  ChildIds: 3035891308714998065
+  ChildIds: 11512225794791400132
+  ChildIds: 17331846609873745981
+  ChildIds: 18271555568453511416
+  ChildIds: 5416019589526157033
+  ChildIds: 17615886445982199711
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 17615886445982199711
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 3448.55444
+      Y: -10390.0527
+      Z: 385.277161
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 38.1572037
+      Roll: -51.8427124
+    }
+    Scale {
+      X: 0.29118982
+      Y: 1
+      Z: -5.37083817
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 5416019589526157033
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 3448.55444
+      Y: -10390.0527
+      Z: 875.277161
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 46.5481529
+      Roll: -43.4516
+    }
+    Scale {
+      X: 0.291190177
+      Y: 0.999999344
+      Z: -6.50570822
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18271555568453511416
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -1147.01611
+      Y: 171.689941
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -3.4150944e-06
+      Roll: 1.13836541e-06
+    }
+    Scale {
+      X: 0.615161538
+      Y: 1
+      Z: 2.32300091
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 2.71648741
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17331846609873745981
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -3386.44385
+      Y: -230.609375
+      Z: 505.277161
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -7.12502289
+      Roll: 82.8749847
+    }
+    Scale {
+      X: 0.25
+      Y: 1.00000036
+      Z: 1.78288794
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.375320107
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11512225794791400132
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -3391.44385
+      Y: 851.625
+      Z: 1084.65845
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -7.12502289
+      Roll: 82.8749847
+    }
+    Scale {
+      X: 0.211653322
+      Y: 1.00000024
+      Z: 3.37902
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 3035891308714998065
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -3391.44092
+      Y: -233.973877
+      Z: 1005.27716
+    }
+    Rotation {
+      Pitch: 90
+      Roll: 90.0000076
+    }
+    Scale {
+      X: 0.298338324
+      Y: 1.00000048
+      Z: 1.79486072
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 12274820977370263410
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 2318.55127
+      Y: 3149.94678
+      Z: 2030.2771
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -2.73207552e-05
+      Roll: 6.83018152e-06
+    }
+    Scale {
+      X: 0.431468546
+      Y: 1.00000072
+      Z: 3.7041297
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9747852078047624671
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 176.795898
+      Y: 1804.94824
+      Z: 2029.98975
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -5.46415104e-05
+      Roll: 6.83017424e-06
+    }
+    Scale {
+      X: 0.42428425
+      Y: 1
+      Z: 5.98977947
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 13.2340384
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 2531647633908220142
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 171.758789
+      Y: 3114.99658
+      Z: 2030.2771
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: 26.565033
+      Roll: -63.4349976
+    }
+    Scale {
+      X: 0.431468248
+      Y: 1.00000072
+      Z: 2.1949935
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 6975428646035065088
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 1133.55322
+      Y: 3124.94678
+      Z: 1010.27716
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -3.4150944e-06
+      Roll: 1.13836541e-06
+    }
+    Scale {
+      X: 0.25
+      Y: 1
+      Z: 2.25
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 6.08796501
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.375320107
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 9263246384722541611
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: 1133.55322
+      Y: 3124.94678
+      Z: 510.068176
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -3.4150944e-06
+      Roll: 1.13836541e-06
+    }
+    Scale {
+      X: 0.25
+      Y: 1
+      Z: 2.25
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 6.08796501
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.375320107
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 18007339107682085523
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -116.038574
+      Y: 3224.24951
+      Z: 510.068115
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -90.0000305
+    }
+    Scale {
+      X: 0.25
+      Y: 1
+      Z: 5.75
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.375320107
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17924717477701302458
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -116.038574
+      Y: 3136.9668
+      Z: 1005.36505
+    }
+    Rotation {
+      Pitch: 90
+      Roll: -90.0000305
+    }
+    Scale {
+      X: 0.298337
+      Y: 1
+      Z: 5.59196854
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 11363969156239393391
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -141.445801
+      Y: -229.813965
+      Z: 1005.36505
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -3.4150944e-06
+      Roll: 1.13836541e-06
+    }
+    Scale {
+      X: 0.298336953
+      Y: 1
+      Z: 5.42241907
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.449311793
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 1876355522385362244
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 14323886549212101926
+  Name: "WallCorrugatedRed"
+  Transform {
+    Location {
+      X: -141.445801
+      Y: -229.813965
+      Z: 506.01947
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -3.4150944e-06
+      Roll: 1.13836541e-06
+    }
+    Scale {
+      X: 0.250000089
+      Y: 1
+      Z: 5.42241907
+    }
+  }
+  ParentId: 12384297929609871500
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner2:id"
+      AssetReference {
+        Id: 16672320846375934273
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:color"
+      Color {
+        R: 2
+        G: 1.16225922
+        B: 0.850967765
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:vtile"
+      Float: 10.663928
+    }
+    Overrides {
+      Name: "ma:Building_WallInner2:utile"
+      Float: 0.375320107
+    }
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 11189629668183138391
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 397361870061653419
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 6797095804142629508
   Name: "Area Light"
   Transform {
@@ -30776,10 +31963,11 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Light {
-    Intensity: 21.1627254
+    Intensity: 7.37187719
     Color {
       R: 1
-      G: 0.496688783
+      G: 0.419231534
+      B: 0.216999948
       A: 1
     }
     TeamSettings {
@@ -59882,5 +61070,86 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14768128767369939962
+  Name: "Urban Fence Panel"
+  Transform {
+    Location {
+      X: -5005
+      Y: -19.9999847
+      Z: 364.103058
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -46.6861343
+      Roll: -46.6861267
+    }
+    Scale {
+      X: 0.860953391
+      Y: 1.25
+      Z: 1.78848112
+    }
+  }
+  ParentId: 8766174116880648959
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 13171200732535708403
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:utile"
+      Float: 2.97927499
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:vtile"
+      Float: 2.11541629
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 0.472000033
+        G: 0.472000033
+        B: 0.472000033
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.227000013
+        G: 0.227000013
+        B: 0.227000013
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 472496642976630875
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }

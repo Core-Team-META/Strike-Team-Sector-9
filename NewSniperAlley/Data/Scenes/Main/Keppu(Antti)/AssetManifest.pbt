@@ -3122,6 +3122,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6494929092167397281
+  Name: "Rubber Old 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_rubber_old_001_uv_ref"
+  }
+}
+Assets {
   Id: 6470146679332547728
   Name: "Sphere"
   PlatformAssetType: 1

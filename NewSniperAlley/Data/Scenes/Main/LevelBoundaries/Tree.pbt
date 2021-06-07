@@ -1280,73 +1280,6 @@ Objects {
   }
 }
 Objects {
-  Id: 7934800047317230090
-  Name: "LevelBoundaryCollider"
-  Transform {
-    Location {
-      X: -3582.6626
-      Y: 7930.07227
-      Z: 1930
-    }
-    Rotation {
-      Yaw: -179.88385
-    }
-    Scale {
-      X: 36.25
-      Y: 15
-      Z: 52.5
-    }
-  }
-  ParentId: 17466895494306602947
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 1.6456362
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 1
-        G: 0.120000005
-        B: 0.784370303
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 198353679974341757
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-}
-Objects {
   Id: 2437871318232121808
   Name: "LevelBoundaryCollider"
   Transform {
@@ -2495,6 +2428,73 @@ Objects {
       X: -1
       Y: 15
       Z: 52.5000153
+    }
+  }
+  ParentId: 17466895494306602947
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1.6456362
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.120000005
+        B: 0.784370303
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 7934800047317230090
+  Name: "LevelBoundaryCollider"
+  Transform {
+    Location {
+      X: -3582.66357
+      Y: 7930.07129
+      Z: 1930
+    }
+    Rotation {
+      Yaw: -179.88385
+    }
+    Scale {
+      X: 36.25
+      Y: 15
+      Z: 52.5
     }
   }
   ParentId: 17466895494306602947

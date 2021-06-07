@@ -179,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13171200732535708403
+  Name: "Metal Corrugated 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_metal_corrugated_metal_001_uv_ref"
+  }
+}
+Assets {
   Id: 13110421772076029559
   Name: "Fire Volume VFX"
   PlatformAssetType: 8
@@ -590,6 +599,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_044"
+  }
+}
+Assets {
+  Id: 472496642976630875
+  Name: "Urban Fence Panel"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_mil_fence_wall_01"
+  }
+}
+Assets {
+  Id: 397361870061653419
+  Name: "Whitebox Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
   }
 }
 Assets {
