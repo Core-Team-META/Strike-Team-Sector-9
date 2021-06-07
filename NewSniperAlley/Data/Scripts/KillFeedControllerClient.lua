@@ -162,7 +162,7 @@ end
 
 
 function GetTeamColor(player)
-	if player:IsA("Player") then return end 
+	if not player:IsA("Player") then return end
 	if (player.team == LOCAL_PLAYER.team) then
 		return FRIENDLY_COLOR
 	else
