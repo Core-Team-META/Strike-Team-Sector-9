@@ -740,6 +740,12 @@ Objects {
         SelfId: 5666581829229958885
       }
     }
+    Overrides {
+      Name: "cs:NETWORKED"
+      ObjectReference {
+        SelfId: 15824596139154346270
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
