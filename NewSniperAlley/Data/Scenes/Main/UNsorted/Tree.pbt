@@ -1,6 +1,68 @@
 Name: "Unsorted"
 RootId: 8766174116880648959
 Objects {
+  Id: 5064496501063124873
+  Name: "Cube - Bottom-Aligned"
+  Transform {
+    Location {
+      X: 65
+      Y: 1095
+      Z: -796.209106
+    }
+    Rotation {
+      Yaw: 89.9999542
+    }
+    Scale {
+      X: 11.25
+      Y: 41
+      Z: 7
+    }
+  }
+  ParentId: 8766174116880648959
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.777
+        G: 0.777
+        B: 0.777
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11766467113026910646
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 198353679974341757
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 12384297929609871500
   Name: "WallCorrugatedRed"
   Transform {

@@ -88,12 +88,3 @@ Assets {
     AssetId: "sm_pipe_003"
   }
 }
-Assets {
-  Id: 5117326109845707677
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
-  }
-}
