@@ -27,6 +27,7 @@ Objects {
   ChildIds: 12992312101360056088
   ChildIds: 14162413626785336573
   ChildIds: 8113305824500074950
+  ChildIds: 16144882895893042286
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +40,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16144882895893042286
+  Name: "Roland"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Roland"
   }
 }
 Objects {
