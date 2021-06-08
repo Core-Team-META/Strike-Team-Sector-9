@@ -242,15 +242,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14054176190919042885
-  Name: "Metal Basic 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_basic_001"
-  }
-}
-Assets {
   Id: 14010943251033244363
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -1058,14 +1049,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_shiny_001"
-  }
-}
-Assets {
-  Id: 70183373899417159
-  Name: "Prism - 3-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_hq_001"
   }
 }
