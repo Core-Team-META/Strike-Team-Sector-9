@@ -106,7 +106,7 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
         KILLER_PLAYER_SOCIAL:SetImage(playerTitle.icon)
         KILLER_PLAYER_SOCIAL:SetColor(playerTitle.iconColor)
     else
-        KILLER_PLAYER_SOCIAL:SetImage("")
+        --KILLER_PLAYER_SOCIAL:SetImage("")
     end
 
     -- TEMP, if extraCode = 0 (normal weapon)
@@ -189,7 +189,7 @@ function ShowKilledByScreen(killerPlayer, killedPlayer, sourceObjectId, extraCod
             socialIcon:SetImage(playerTitle.icon)
             socialIcon:SetColor(playerTitle.iconColor)
         else
-            socialIcon:SetImage("")
+            --socialIcon:SetImage("")
         end
 
         
