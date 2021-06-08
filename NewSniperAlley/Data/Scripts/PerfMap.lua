@@ -182,7 +182,7 @@ function GenerateDataString()
     --str = str .. pmc.PackAsString(k, v.total / v.count)
     if count < pmc.maxSamplesPerKey then
       str = str .. pmc.PackAsString(k, v.max, v.total, v.count)
-    else
+    elseif count < pmc.maxSamplesPerKey * 2 then
       str2 = str2 .. pmc.PackAsString(k, v.max, v.total, v.count)
     end
     count = count + 1
