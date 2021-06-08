@@ -39085,13 +39085,13 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 445.029816
-      Y: -204.935287
+      X: 514.972778
+      Y: 225.07489
       Z: 644.999878
     }
     Rotation {
       Pitch: -90
-      Roll: 95.0083923
+      Roll: 90.0083923
     }
     Scale {
       X: 1
@@ -39113,9 +39113,10 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Light {
-    Intensity: 200
+    Intensity: 500
     Color {
-      G: 0.616688251
+      R: 0.129599944
+      G: 0.663035095
       B: 0.960000038
       A: 1
     }
@@ -39127,8 +39128,8 @@ Objects {
       LocalLight {
         AttenuationRadius: 995.796753
         AreaLight {
-          SourceWidth: 666.162781
-          SourceHeight: 160.859512
+          SourceWidth: 959.484192
+          SourceHeight: 2507.03
         }
       }
       MaxDrawDistance: 7299.48047
