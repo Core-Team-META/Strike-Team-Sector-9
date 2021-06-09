@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16986510475576472101
-  Name: "Hiragana Font 1: \343\201\237 (TA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_025"
-  }
-}
-Assets {
   Id: 16371622500121573784
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -89,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11966491119232826126
-  Name: "Hiragana Font 1: \343\201\256 (NO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_039"
-  }
-}
-Assets {
   Id: 11303134369797735562
   Name: "Laptop Screen"
   PlatformAssetType: 1
@@ -113,24 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half-pipe_002"
-  }
-}
-Assets {
-  Id: 6648051941461967847
-  Name: "Hiragana Font 1: \343\201\261 (PA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_050"
-  }
-}
-Assets {
-  Id: 6092438658981623122
-  Name: "Hiragana Font 1: \343\201\215 (KI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {

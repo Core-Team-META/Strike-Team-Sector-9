@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17891447625107566476
-  Name: "Hiragana Font 1: \343\201\274 (BO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_049"
-  }
-}
-Assets {
   Id: 17775019098342521252
   Name: "Main Street Wall 02"
   PlatformAssetType: 1
@@ -482,15 +473,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
-  }
-}
-Assets {
-  Id: 11312051364977333830
-  Name: "Hiragana Font 1: \344\270\211 (SAN / 3)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_080"
   }
 }
 Assets {
@@ -1112,15 +1094,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "F7_Text_024"
-  }
-}
-Assets {
-  Id: 766268022170783973
-  Name: "Hiragana Font 1: \343\201\214 (GA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_010"
   }
 }
 Assets {

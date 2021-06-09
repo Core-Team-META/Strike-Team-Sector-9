@@ -368,15 +368,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16986510475576472101
-  Name: "Hiragana Font 1: \343\201\237 (TA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_025"
-  }
-}
-Assets {
   Id: 16965777294932964901
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
@@ -647,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16089921527178404690
-  Name: "Hiragana Font 1: \343\201\240 (DA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_030"
-  }
-}
-Assets {
   Id: 16077824162186241922
   Name: "Sci-fi Panel 2x3m Triangle"
   PlatformAssetType: 1
@@ -728,30 +710,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15717080678766922388
-  Name: "Hiragana Font 1: \343\201\231 (SU)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_017"
-  }
-}
-Assets {
   Id: 15614794363849386760
   Name: "Urban Door Steel 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_door_steel_002_ref"
-  }
-}
-Assets {
-  Id: 15586596237063330514
-  Name: "Hiragana Font 1: \343\201\210 (E)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_003"
   }
 }
 Assets {
@@ -899,15 +863,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14802143113673819113
-  Name: "Hiragana Font 1: \344\270\200 (ICHI / 1)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_078"
-  }
-}
-Assets {
   Id: 14796711042662669165
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
@@ -968,15 +923,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_rust_diamond-plate_001"
-  }
-}
-Assets {
-  Id: 14611798651401695905
-  Name: "Hiragana Font 1: \344\271\235 (KU / 9)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_086"
   }
 }
 Assets {
@@ -1727,15 +1673,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11966491119232826126
-  Name: "Hiragana Font 1: \343\201\256 (NO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_039"
-  }
-}
-Assets {
   Id: 11962195740089165680
   Name: "Girder Medium 4m"
   PlatformAssetType: 1
@@ -1877,24 +1814,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_urb_office_carpet_004_uv_ref"
-  }
-}
-Assets {
-  Id: 11353461757709897270
-  Name: "Container - Rectangle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_ref"
-  }
-}
-Assets {
-  Id: 11312051364977333830
-  Name: "Hiragana Font 1: \344\270\211 (SAN / 3)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_080"
   }
 }
 Assets {
@@ -2240,15 +2159,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9997774032960254197
-  Name: "Hiragana Font 1: \343\201\242 (DI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_031"
-  }
-}
-Assets {
   Id: 9989821240073934753
   Name: "Frame Large Outside Corner"
   PlatformAssetType: 1
@@ -2309,15 +2219,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "NeonArrows_01_Text_051"
-  }
-}
-Assets {
-  Id: 9798555348957227150
-  Name: "Hiragana Font 1: \343\201\252 (NA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_035"
   }
 }
 Assets {
@@ -2507,15 +2408,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_car-paint_advanced_001_uv_ref"
-  }
-}
-Assets {
-  Id: 8918212443026609841
-  Name: "Hiragana Font 1: \343\201\202 (A)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_000"
   }
 }
 Assets {
@@ -3077,15 +2969,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6648051941461967847
-  Name: "Hiragana Font 1: \343\201\261 (PA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_050"
-  }
-}
-Assets {
   Id: 6625916772802830449
   Name: "Sci-fi Base Breakout Box 03"
   PlatformAssetType: 1
@@ -3191,15 +3074,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_road_straight_001"
-  }
-}
-Assets {
-  Id: 6092438658981623122
-  Name: "Hiragana Font 1: \343\201\215 (KI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {
@@ -3734,15 +3608,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3902254857118578780
-  Name: "Hiragana Font 1: \343\202\213 (RU)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_065"
-  }
-}
-Assets {
   Id: 3897801123510710887
   Name: "Cylinder - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -4022,15 +3887,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2874612624641153372
-  Name: "Hiragana Font 1: \343\201\276 (MA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_055"
-  }
-}
-Assets {
   Id: 2841779215979196626
   Name: "Urban Cinderblock Debris 01"
   PlatformAssetType: 1
@@ -4247,15 +4103,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2083563461897537940
-  Name: "Hiragana Font 1: \343\201\254 (NU)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_037"
-  }
-}
-Assets {
   Id: 2071683723773885729
   Name: "Urban Damaged Concrete Pillar - Bottom 01"
   PlatformAssetType: 1
@@ -4388,15 +4235,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_simple_floor_panel_002_uv"
-  }
-}
-Assets {
-  Id: 1639521161912320951
-  Name: "Hiragana Font 1: \343\201\273 (HO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_044"
   }
 }
 Assets {

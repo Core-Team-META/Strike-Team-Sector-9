@@ -314,15 +314,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12632251234297570874
-  Name: "Urban Pipe Cap 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_pipes_acc_cap_003_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -338,15 +329,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
-  }
-}
-Assets {
-  Id: 11460896157947755957
-  Name: "Trim - Curve 90\302\260 - 04m Radius"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_trimitives_001_curve90_4m_ref"
   }
 }
 Assets {
@@ -692,15 +674,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5721670808471238661
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
   Id: 5390120376389660115
   Name: "Invisible"
   PlatformAssetType: 2
@@ -833,15 +806,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_tread_frame_001_mid_ref"
-  }
-}
-Assets {
-  Id: 3164251070761236489
-  Name: "Container - Rectangle Thin 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_rectangle_thin_ref"
   }
 }
 Assets {
