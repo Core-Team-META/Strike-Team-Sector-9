@@ -134,15 +134,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16986510475576472101
-  Name: "Hiragana Font 1: \343\201\237 (TA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_025"
-  }
-}
-Assets {
   Id: 16869814041125097620
   Name: "Urban Rooftop Fan 01"
   PlatformAssetType: 1
@@ -593,15 +584,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11966491119232826126
-  Name: "Hiragana Font 1: \343\201\256 (NO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_039"
-  }
-}
-Assets {
   Id: 11802756401346630999
   Name: "Urban Cinderblock Debris 02"
   PlatformAssetType: 1
@@ -1043,15 +1025,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6648051941461967847
-  Name: "Hiragana Font 1: \343\201\261 (PA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_050"
-  }
-}
-Assets {
   Id: 6625916772802830449
   Name: "Sci-fi Base Breakout Box 03"
   PlatformAssetType: 1
@@ -1112,15 +1085,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_torus_001"
-  }
-}
-Assets {
-  Id: 6092438658981623122
-  Name: "Hiragana Font 1: \343\201\215 (KI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {

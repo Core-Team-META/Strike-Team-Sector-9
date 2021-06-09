@@ -80,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16986510475576472101
-  Name: "Hiragana Font 1: \343\201\237 (TA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_025"
-  }
-}
-Assets {
   Id: 16844107203508180063
   Name: "Rubble Concrete 01"
   PlatformAssetType: 2
@@ -149,24 +140,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_breakout_004_ref"
-  }
-}
-Assets {
-  Id: 16111220828493778383
-  Name: "Hiragana Font 1: \343\201\212 (O)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_004"
-  }
-}
-Assets {
-  Id: 16089921527178404690
-  Name: "Hiragana Font 1: \343\201\240 (DA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_030"
   }
 }
 Assets {
@@ -386,15 +359,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11966491119232826126
-  Name: "Hiragana Font 1: \343\201\256 (NO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_039"
-  }
-}
-Assets {
   Id: 11802756401346630999
   Name: "Urban Cinderblock Debris 02"
   PlatformAssetType: 1
@@ -530,15 +494,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8918212443026609841
-  Name: "Hiragana Font 1: \343\201\202 (A)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_000"
-  }
-}
-Assets {
   Id: 7900480577560620211
   Name: "Street Light Pole 02"
   PlatformAssetType: 1
@@ -647,15 +602,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6648051941461967847
-  Name: "Hiragana Font 1: \343\201\261 (PA)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_050"
-  }
-}
-Assets {
   Id: 6357071581542016026
   Name: "Urban Vehicle Sedan - Bumper Rear 01"
   PlatformAssetType: 1
@@ -680,15 +626,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_veh_urb_car_acc_seat_back_001_ref"
-  }
-}
-Assets {
-  Id: 6092438658981623122
-  Name: "Hiragana Font 1: \343\201\215 (KI)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_006"
   }
 }
 Assets {
@@ -968,15 +905,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_fantasy_sack_002_ref"
-  }
-}
-Assets {
-  Id: 1639521161912320951
-  Name: "Hiragana Font 1: \343\201\273 (HO)"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "meyiro_block_hiragana_044"
   }
 }
 Assets {

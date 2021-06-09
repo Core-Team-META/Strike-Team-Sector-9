@@ -10205,7 +10205,6 @@ Objects {
     }
   }
   ParentId: 1179788080028441117
-  ChildIds: 13624306334925325828
   ChildIds: 8395768164383214797
   ChildIds: 1161480005135748830
   ChildIds: 14305447985826326651
@@ -23317,184 +23316,6 @@ Objects {
       Physics {
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 13624306334925325828
-  Name: "ST2_Sign_Random01"
-  Transform {
-    Location {
-      X: -7155.50049
-      Y: -1480
-      Z: 1692.76184
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 1.5
-    }
-  }
-  ParentId: 6568985325123080509
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 367995290666537143
-      value {
-        Overrides {
-          Name: "ma:Font_Bevel:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Faces:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Sides:color"
-          Color {
-            R: 0.292000026
-            B: 0.272662044
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "StaticMesh"
-          AssetReference {
-            Id: 766268022170783973
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10045170830278451208
-      value {
-        Overrides {
-          Name: "ma:Font_Bevel:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Faces:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Sides:color"
-          Color {
-            R: 0.292000026
-            B: 0.272662044
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "StaticMesh"
-          AssetReference {
-            Id: 17891447625107566476
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13639032974279082946
-      value {
-        Overrides {
-          Name: "ma:Font_Bevel:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Faces:color"
-          Color {
-            R: 0.236556232
-            G: 0.76
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "ma:Font_Sides:color"
-          Color {
-            R: 0.292000026
-            B: 0.272662044
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "StaticMesh"
-          AssetReference {
-            Id: 11312051364977333830
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14000700620937660243
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            G: 0.710000038
-            B: 0.343245059
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15159014594497784324
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Sign_Random01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4140.00195
-            Y: 2409.99756
-            Z: 1305
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8645591193375631572
     }
   }
 }
@@ -57785,7 +57606,6 @@ Objects {
   ParentId: 8907930000585258671
   ChildIds: 1547819931108884398
   ChildIds: 12020021986902561577
-  ChildIds: 16427882213448500857
   ChildIds: 16067755629453681009
   ChildIds: 7502885651463040224
   Collidable_v2 {
@@ -57965,60 +57785,6 @@ Objects {
     }
     TemplateAsset {
       Id: 389007077381032017
-    }
-  }
-}
-Objects {
-  Id: 16427882213448500857
-  Name: "ST2_Sign_Random03"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17881596946342916676
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12907511581539095109
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Sign_Random03"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2471.60645
-            Y: -2859.40234
-            Z: 1427.06824
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Roll: 89.9999084
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7847592163347741402
     }
   }
 }
@@ -79031,8 +78797,6 @@ Objects {
   ChildIds: 16794024366645401915
   ChildIds: 11833803625533343539
   ChildIds: 17711100539596234488
-  ChildIds: 397486474901466742
-  ChildIds: 17090154953243228465
   ChildIds: 1666536439714901024
   ChildIds: 9658238293669584160
   ChildIds: 8974061136705451357
@@ -81214,106 +80978,6 @@ Objects {
         LinearDamping: 0.01
       }
       BoundsScale: 1
-    }
-  }
-}
-Objects {
-  Id: 17090154953243228465
-  Name: "ST2_AdsWallStand"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6403965036917419865
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13509168203250605150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_AdsWallStand"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3340.46191
-            Y: -1165.69727
-            Z: -86.1152344
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -30.0000191
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5431699516081451782
-    }
-  }
-}
-Objects {
-  Id: 397486474901466742
-  Name: "ST2_Sign_Random02"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6403965036917419865
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 299646713648082571
-      value {
-        Overrides {
-          Name: "Name"
-          String: "ST2_Sign_Random02"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1970.88135
-            Y: -960.697266
-            Z: 478.884766
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -2.93719482
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12728744465026738405
     }
   }
 }
