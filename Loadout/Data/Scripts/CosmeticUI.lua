@@ -287,9 +287,9 @@ function SetUpButtons(button, slot)
         if HoverItem then
             CosmeticStorage:HideSlot(slot)
             --Come back to this when bug is fixed
-            --Task.Wait(.05)
+            Task.Wait(.3)
             if HoverItem then
-            HoverItem:AttachToPlayer(LOCAL_PLAYER, HoverItem.socket)
+                HoverItem:AttachToPlayer(LOCAL_PLAYER, HoverItem.socket)
             end
         end
     end)
@@ -298,7 +298,10 @@ function SetUpButtons(button, slot)
             HoverItem:Destroy()
             HoverItem = nil
         end
-        CosmeticStorage:ShowSlot(slot)
+        Task.Wait(.3)
+        if not HoverItem then 
+            CosmeticStorage:ShowSlot(slot)
+        end
     end)
     button.releasedEvent:Connect(function()
         if Object.IsValid(ColourPanel) then ColourPanel:Destroy() end
@@ -342,7 +345,7 @@ function Open(panelsType)
     OpenedSlot = panelsSlot
     ScrollBar.visibility = Visibility.FORCE_ON
     Destroy()
-    local NewGrid = UIGrid.New(CosmeticPanelHolder,{rows = 6,columns = 4, rowGap = 1, columnGap = 1  })
+    local NewGrid = UIGrid.New(CosmeticPanelHolder,{rows = 6,columns = 4, rowGap = 0, columnGap = 0  })
     grid = NewGrid
     local items = Database:ReturnByType(panelsType)
     --SortForRarity

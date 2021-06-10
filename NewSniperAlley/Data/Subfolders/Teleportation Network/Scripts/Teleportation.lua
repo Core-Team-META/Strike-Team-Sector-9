@@ -19,18 +19,12 @@
 local ROOT = script.parent
 local DESTINATION = ROOT:GetCustomProperty("Destination"):WaitForObject()
 local TRIGGER = ROOT:FindChildByType("Trigger")
-local teleportationFX = script:GetCustomProperty("TeleportationFX")
 
 function OnBeginOverlap(theTrigger, player)
 	if player:IsA("Player") then
 		player:SetWorldPosition(DESTINATION:GetWorldPosition() + Vector3.New(0, 0, 100))
-		----player:SetWorldRotation(Rotation.New(0,0,-90)) -- Not enough to set player rotation
-		if Object.IsValid(DESTINATION) then
-			World.SpawnAsset(teleportationFX, { position = DESTINATION:GetWorldPosition() })
-		else
-				print("Teleportation DESTINATION not valid")
-		end
-	
+		player:SetWorldRotation(DESTINATION:GetWorldRotation())
+		
 	end
 end
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)

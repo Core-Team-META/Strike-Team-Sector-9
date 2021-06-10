@@ -24,11 +24,12 @@ local KILL_TRIGGER = script.parent
 -- Kills a player when they enter the trigger
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
+        Events.BroadcastToPlayer(other, "DeathByTrolly")
         World.SpawnAsset(HitSfx).lifeSpan = 3
         local dmg = Damage.New(other.hitPoints)
         dmg.reason = DamageReason.MAP
+
         other:ApplyDamage(dmg)
-        Events.BroadcastToPlayer(other, "DeathByTrolly")
     end
 end
 
