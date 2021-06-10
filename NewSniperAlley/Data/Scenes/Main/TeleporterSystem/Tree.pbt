@@ -10,6 +10,7 @@ Objects {
       Z: -310.000031
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -107,6 +108,7 @@ Objects {
       Z: 945
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -287,6 +289,7 @@ Objects {
     }
   }
   ParentId: 8732039663104026230
+  ChildIds: 11922592090684703082
   ChildIds: 9609827912080844029
   ChildIds: 3032224623431092987
   ChildIds: 8296513926709647977
@@ -318,6 +321,7 @@ Objects {
     Location {
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1.50646389
@@ -415,6 +419,7 @@ Objects {
     Location {
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -441,6 +446,72 @@ Objects {
   }
 }
 Objects {
+  Id: 11922592090684703082
+  Name: "ClientContext"
+  Transform {
+    Location {
+      X: -805.000061
+      Z: -1255
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1333105520656071169
+  ChildIds: 16721145989988935580
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 16721145989988935580
+  Name: "TeleportClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11922592090684703082
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9129830105436158766
+    }
+  }
+}
+Objects {
   Id: 10498295105794719746
   Name: "Teleporter_ToTop"
   Transform {
@@ -458,6 +529,7 @@ Objects {
     }
   }
   ParentId: 8732039663104026230
+  ChildIds: 18141871492621200671
   ChildIds: 2891910305770962097
   ChildIds: 6243325189000063132
   ChildIds: 15754702417809076678
@@ -608,6 +680,70 @@ Objects {
   Script {
     ScriptAsset {
       Id: 10233026519850589440
+    }
+  }
+}
+Objects {
+  Id: 18141871492621200671
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10498295105794719746
+  ChildIds: 8890428373612354976
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 8890428373612354976
+  Name: "TeleportClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18141871492621200671
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9129830105436158766
     }
   }
 }

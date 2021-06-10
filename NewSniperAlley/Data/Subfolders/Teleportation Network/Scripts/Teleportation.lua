@@ -23,6 +23,8 @@ local TRIGGER = ROOT:FindChildByType("Trigger")
 function OnBeginOverlap(theTrigger, player)
 	if player:IsA("Player") then
 		player:SetWorldPosition(DESTINATION:GetWorldPosition() + Vector3.New(0, 0, 100))
+		player:SetWorldRotation(DESTINATION:GetWorldRotation())
+		
 	end
 end
 TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
