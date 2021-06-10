@@ -24,7 +24,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 -- LOCAL VARIABLES
 ------------------------------------------------------------------------------------------------------------------------
 --#TODO Make Custom Properties
-local MAX_VIEW_DISTANCE = 16000
+local MAX_VIEW_DISTANCE = 24000 -- 20000 equates to 100m
 local MIN_VIEW_DISTANCE = 1000
 local MAX_VIEW_DISTANCE_SQ = MAX_VIEW_DISTANCE * MAX_VIEW_DISTANCE
 local MIN_VIEW_DISTANCE_SQ = MIN_VIEW_DISTANCE * MIN_VIEW_DISTANCE
