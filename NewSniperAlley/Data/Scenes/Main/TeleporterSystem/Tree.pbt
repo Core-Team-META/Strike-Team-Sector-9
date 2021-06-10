@@ -429,6 +429,12 @@ Objects {
   }
   ParentId: 1333105520656071169
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:TeleportationFX"
+      AssetReference {
+        Id: 13663140723193174694
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -667,6 +673,12 @@ Objects {
   }
   ParentId: 10498295105794719746
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:TeleportationFX"
+      AssetReference {
+        Id: 13663140723193174694
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
