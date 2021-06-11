@@ -43,7 +43,7 @@ Assets {
           Overrides {
             Name: "cs:ACHIEVEMENTS_DETAILS_UI"
             ObjectReference {
-              SelfId: 4686191015628418938
+              SelfId: 12734849286653362004
             }
           }
           Overrides {
