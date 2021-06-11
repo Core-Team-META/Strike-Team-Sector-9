@@ -257,10 +257,8 @@ Module.titles = {
 		playerMUIDs = {
 			"ef18f7661bf14d0eae60d7f31ea769af", -- TeamMETA
 
-			"d6d9d578840a44c79a3f05c15de23bf8", -- Aggripina
-			"a136c0d1d9454d539c9932354198fc29", -- Ooccoo
-
 			"eea739085f20445392c0ab999ab87bb6", -- Aj
+			"d6d9d578840a44c79a3f05c15de23bf8", -- Aggripina
 			"557d4f1ae17646579646dfd20dcb7b66", -- AwkwardGameDev
 			"05844b173bca411582347a1d07d953f2", -- Burnzie
 			"d5daea732ee3422fbe85aecb900e73ec", -- Coderz
@@ -272,11 +270,15 @@ Module.titles = {
 			"1f3edd620c904e30a4e0223dd64bcc2a", -- Keppu
 			"df38a4dc4cf245e48f6b961570137dc2", -- KidEgg
 			"fdb45035857a4e87b17344cd891c48c5", -- KonzZodrei
+			"111fdb0a14b0407cb48f5856cf6f8f6e", -- LotusCracker
 			"9cc8d222e6d14da68dc2ba0a9a4f0439", -- Melamoryxq
 			"91166471c6ea4d17be6772da4973e6b7", -- mjcortes782
 			"d1073dbcc404405cbef8ce728e53d380", -- Morticai
 			"94d3fd50c4824f019421895ec8dbf099", -- Mucusinator
 			"f9df3457225741c89209f6d484d0eba8", -- NicholasForeman
+			"ca1f49507ccf4675984c59be9191cde6", -- Ocylix
+			"a136c0d1d9454d539c9932354198fc29", -- Ooccoo
+			"c51d9bb1185a426fbee7e1b4ab27f26b", -- Outrun
 			"1f67a03d5a8f478b993aad1c79b45640", -- Rolok
 			"0e0d7d0be7fa44d296dae3d2b26410f5", -- StayPunny
 			"e730c40ae54d4c588658667927acc6d8", -- WindfallDrifter
