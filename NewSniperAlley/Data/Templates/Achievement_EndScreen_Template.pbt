@@ -2654,7 +2654,7 @@ Assets {
           }
           UseParentWidth: true
           Text {
-            Label: "PAC LEADER"
+            Label: "PACK LEADER"
             Color {
               R: 1
               G: 1
