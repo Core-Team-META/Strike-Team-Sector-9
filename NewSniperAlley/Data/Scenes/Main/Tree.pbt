@@ -26,8 +26,8 @@ Objects {
   ChildIds: 2167376234781294409
   ChildIds: 12992312101360056088
   ChildIds: 14162413626785336573
-  ChildIds: 8113305824500074950
   ChildIds: 16144882895893042286
+  ChildIds: 12163969153720961228
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,39 +43,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16144882895893042286
-  Name: "Roland"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Roland"
-  }
-}
-Objects {
-  Id: 8113305824500074950
+  Id: 12163969153720961228
   Name: "Spawn Settings"
   Transform {
     Location {
@@ -111,7 +79,7 @@ Objects {
       }
       StartSpawned: true
       SpawnMode {
-        Value: "mc:erespawnmode:random"
+        Value: "mc:erespawnmode:none"
       }
     }
   }
@@ -130,7 +98,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8113305824500074950
+  ParentId: 12163969153720961228
   ChildIds: 984415658736284838
   WantsNetworking: true
   Collidable_v2 {
@@ -196,6 +164,38 @@ Objects {
     SubobjectId: 2282737459666480023
     InstanceId: 5398719272500858279
     TemplateId: 12053913829146888381
+  }
+}
+Objects {
+  Id: 16144882895893042286
+  Name: "Roland"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Roland"
   }
 }
 Objects {

@@ -2984,8 +2984,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3017,8 +3020,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3049,8 +3055,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3082,8 +3091,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3115,8 +3127,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3148,8 +3163,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3181,8 +3199,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3214,8 +3235,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3246,6 +3270,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
@@ -3280,6 +3307,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -3312,6 +3342,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
@@ -3346,6 +3379,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -3379,8 +3415,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3412,8 +3451,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3445,8 +3487,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3478,8 +3523,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3511,8 +3559,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3544,8 +3595,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3577,8 +3631,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3610,8 +3667,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3642,6 +3702,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
@@ -3676,6 +3739,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -3709,6 +3775,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -3716,7 +3785,7 @@ Objects {
 }
 Objects {
   Id: 640067326728676040
-  Name: "Spawn Point"
+  Name: "f"
   Transform {
     Location {
       X: -5510
@@ -3775,6 +3844,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -3808,8 +3880,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3840,6 +3915,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
@@ -3874,8 +3952,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3907,8 +3988,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3940,8 +4024,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -3973,8 +4060,11 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
-    TeamInt: 2
+    TeamInt: 1
     PlayerScaleMultiplier: 1
   }
 }
@@ -4005,6 +4095,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
@@ -4039,6 +4132,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -4072,6 +4168,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     TeamInt: 2
     PlayerScaleMultiplier: 1
@@ -4104,6 +4203,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     TeamInt: 2
