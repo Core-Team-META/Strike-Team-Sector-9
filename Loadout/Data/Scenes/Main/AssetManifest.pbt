@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12678145626304223404
-  Name: "cyber_storage"
+  Id: 12786211289036711239
+  Name: "rk_statKey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "0614df367f2c463c99aea38245c65768"
+      Key: "5136aed1ee224d43ae31f585325283fa"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -116,12 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2904046153829150741
-  Name: "cyber_statkey"
+  Id: 1423240906340949889
+  Name: "rk_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

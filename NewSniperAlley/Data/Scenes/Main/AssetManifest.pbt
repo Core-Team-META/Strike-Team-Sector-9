@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14810173980968486434
-  Name: "cyberStats"
+  Id: 11074008864686874483
+  Name: "rk_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "7bf8942c1f3d4343a255a13c70c47ae2"
+      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -44,19 +44,6 @@ Assets {
   NetReferenceAsset {
     NetReference {
       Key: "da3b427656de45498f2bc800a3933c3a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 8685785486084357130
-  Name: "cyber_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0614df367f2c463c99aea38245c65768"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -96,6 +83,19 @@ Assets {
   NetReferenceAsset {
     NetReference {
       Key: "949fe8b312704a138dd934cc57cfd55a"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 1600949860142768890
+  Name: "rk_statKey"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "5136aed1ee224d43ae31f585325283fa"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

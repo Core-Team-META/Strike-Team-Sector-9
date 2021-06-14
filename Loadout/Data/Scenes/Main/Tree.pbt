@@ -193,7 +193,7 @@ Objects {
     Overrides {
       Name: "cs:StatKey"
       NetReference {
-        Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+        Key: "5136aed1ee224d43ae31f585325283fa"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
@@ -220,7 +220,7 @@ Objects {
     Overrides {
       Name: "cs:Storage"
       NetReference {
-        Key: "0614df367f2c463c99aea38245c65768"
+        Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
         Type {
           Value: "mc:enetreferencetype:sharedpersistence"
         }
