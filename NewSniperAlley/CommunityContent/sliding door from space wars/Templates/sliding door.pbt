@@ -1162,6 +1162,6 @@ Assets {
   Marketplace {
     Description: "a sliding door from the wrekge of the ss.romeo (the ship from space wars)"
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
   DirectlyPublished: true
 }

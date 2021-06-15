@@ -2,7 +2,7 @@ Assets {
   Id: 16631844235316136491
   Name: "ST2_LightWindow"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 13206135842285396679
     ParameterOverrides {

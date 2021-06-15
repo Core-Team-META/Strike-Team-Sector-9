@@ -86,5 +86,5 @@ Assets {
       AssetId: "Urban_Fence_-_End_Pole_Template"
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }
