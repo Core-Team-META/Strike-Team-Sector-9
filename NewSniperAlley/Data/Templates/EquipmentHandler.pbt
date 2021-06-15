@@ -860,7 +860,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 4014648287077104920
+              Id: 841534158063459245
             }
           }
         }
@@ -902,7 +902,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 13067401942076487199
+              Id: 7211224773787182097
             }
           }
           Overrides {
@@ -948,7 +948,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 12323123955837919902
+              Id: 12293225811783140791
             }
           }
         }
@@ -990,7 +990,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 1345047776282016116
+              Id: 1629573594676303663
             }
           }
           Overrides {
@@ -1036,7 +1036,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 5021078027896375540
+              Id: 8897966304867363982
             }
           }
           Overrides {
@@ -1082,7 +1082,7 @@ Assets {
           Overrides {
             Name: "cs:SKIN"
             AssetReference {
-              Id: 2413038413339510725
+              Id: 2665263833087461297
             }
           }
           Overrides {
