@@ -365,11 +365,11 @@ Assets {
             }
             Size: 18
             Justification {
-              Value: "mc:etextjustify:left"
+              Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
             Font {
-              Id: 841534158063459245
+              Id: 1144950805409236433
             }
             VerticalJustification {
               Value: "mc:everticaljustification:top"
@@ -439,7 +439,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
-              Id: 841534158063459245
+              Id: 1144950805409236433
             }
             VerticalJustification {
               Value: "mc:everticaljustification:bottom"
@@ -845,6 +845,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "UI_Urban_Icon_060"
+      }
+    }
+    Assets {
+      Id: 1144950805409236433
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     Assets {
