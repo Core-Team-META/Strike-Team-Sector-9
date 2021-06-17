@@ -79,7 +79,7 @@ end
 
 
 function GetOrbColor(fps)
-  if fps < propTime_Green then fps = propTime_Green
+  if fps < propTime_Green then return Color.GREEN
   elseif fps < propTime_Yellow then return Color.Lerp(Color.GREEN, Color.YELLOW, (fps - propTime_Green)/(propTime_Yellow - propTime_Green))
   elseif fps < propTime_Red then return Color.Lerp(Color.YELLOW, Color.RED, (fps - propTime_Yellow)/(propTime_Red - propTime_Yellow))
   elseif fps < 100 then return Color.Lerp(Color.RED, Color.BLACK, (fps - propTime_Red)/(100 - propTime_Red))
@@ -87,7 +87,7 @@ function GetOrbColor(fps)
 end
 
 function GetOrbSize(count, maxCount)
-  local amt = count / maxCount
+  local amt = (count + maxCount) / (maxCount * 2)
   return 3 * amt
 end
 
@@ -113,16 +113,26 @@ function StartViewingData()
     local avg = total / count
 
     local orb = World.SpawnAsset(propPerfGlowSphere, {parent = script.parent})
+    local propWorldTextContainer = orb:GetCustomProperty("WorldTextContainer"):WaitForObject()
+    local propWorldText = orb:GetCustomProperty("WorldText"):WaitForObject()
+
     orb:SetWorldPosition(vec * propGridResolution + Vector3.ONE * propGridResolution * 0.5)
 
     orbData[orb] = {average = avg, count = count}
+
+    propWorldText.text = string.format("%.1f\n%dfps", avg, math.floor(1000/avg))
+    propWorldTextContainer:LookAtLocalView()
     table.insert(spawnedOrbs, orb)
     maxCount = math.max(maxCount, count)
   end
 
   for orb, data in pairs(orbData) do
     local colorLerp = GetOrbColor(data.average)
-    orb:SetColor(colorLerp)
+    if colorLerp then
+      orb:SetColor(colorLerp)
+    else
+      print("---", data.average)
+    end
     local size = GetOrbSize(data.count, maxCount)
     --orb:SetScale(Vector3.New(size, size, 100))
     orb:SetScale(Vector3.ONE * size)
