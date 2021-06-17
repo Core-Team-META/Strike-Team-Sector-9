@@ -2,7 +2,7 @@ Assets {
   Id: 11066838507580470784
   Name: "Directional Arrows"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 8337888280042544487
     ParameterOverrides {

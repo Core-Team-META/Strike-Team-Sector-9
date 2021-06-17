@@ -2,7 +2,7 @@ Assets {
   Id: 16234593645984050970
   Name: "ST2_Black"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 5351428073291024820
     ParameterOverrides {

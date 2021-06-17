@@ -2,7 +2,7 @@ Assets {
   Id: 14172774666214479514
   Name: "ST2_MetalPanel02"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 6787262208996147711
     ParameterOverrides {

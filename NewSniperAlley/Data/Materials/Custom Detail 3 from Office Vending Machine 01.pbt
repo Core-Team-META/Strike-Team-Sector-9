@@ -2,7 +2,7 @@ Assets {
   Id: 5566931464557152297
   Name: "Custom Detail 3 from Office Vending Machine 01"
   PlatformAssetType: 13
-  SerializationVersion: 87
+  SerializationVersion: 89
   CustomMaterialAsset {
     BaseMaterialId: 13306897718857391207
     ParameterOverrides {

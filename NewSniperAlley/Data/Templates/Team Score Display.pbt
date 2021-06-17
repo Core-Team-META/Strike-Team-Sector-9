@@ -297,6 +297,10 @@ Assets {
             BackgroundColor {
             }
             Percent: 0.688910604
+            FillBrush {
+            }
+            BackgroundBrush {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -451,5 +455,5 @@ Assets {
       AssetId: "Team_Score_Display"
     }
   }
-  SerializationVersion: 87
+  SerializationVersion: 89
 }
