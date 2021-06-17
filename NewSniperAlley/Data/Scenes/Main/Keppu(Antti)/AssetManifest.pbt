@@ -1232,15 +1232,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13474277590145046551
-  Name: "Urban Fence Bracket - End"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_mil_fence_bracket_end_01"
-  }
-}
-Assets {
   Id: 13377764251575694508
   Name: "Text 01: O"
   PlatformAssetType: 1
