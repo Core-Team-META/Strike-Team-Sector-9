@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17302083266734075775
-  Name: "cyber_lifetimeStats"
+  Id: 17529870654468596474
+  Name: "st_statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "11256b4712be4090aafc4f045dde3dfe"
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,25 @@ Assets {
   }
 }
 Assets {
-  Id: 12786211289036711239
-  Name: "rk_statKey"
+  Id: 15224401653798067022
+  Name: "sts9-loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "5136aed1ee224d43ae31f585325283fa"
+      Key: "763fc13009a64bbcb77ff3e4230d7cea"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 10175118526734714267
+  Name: "st_storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -90,6 +103,19 @@ Assets {
   }
 }
 Assets {
+  Id: 7579817533435456556
+  Name: "sts9-lifetimestats"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "fe12355d82d24a8690c4e252e729b5bc"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 7531652432943028459
   Name: "StrikeCoin750"
   PlatformAssetType: 24
@@ -103,38 +129,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4398959996355891925
-  Name: "cyber_miscKey"
+  Id: 4396193236901147300
+  Name: "sts9-misckeys"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da3b427656de45498f2bc800a3933c3a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 1423240906340949889
-  Name: "rk_storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 98340721451113243
-  Name: "cyber_loadout"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "949fe8b312704a138dd934cc57cfd55a"
+      Key: "6a6b17214df44b1bb107fda5df718f0c"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }

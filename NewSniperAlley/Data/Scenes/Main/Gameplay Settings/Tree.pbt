@@ -2164,7 +2164,7 @@ Objects {
         Overrides {
           Name: "cs:PerfmapDataStorage1"
           NetReference {
-            Key: "02aee9e6eb0042368e576c1efde6eeb4"
+            Key: "33238ee71a944e13bb62bcc996300fd7"
             Type {
               Value: "mc:enetreferencetype:sharedpersistence"
             }
@@ -2173,7 +2173,7 @@ Objects {
         Overrides {
           Name: "cs:PerfmapDataStorage2"
           NetReference {
-            Key: "3559a19283454c288a69cb7822b4db42"
+            Key: "043fa1661b64445f9dfc554db1819bb9"
             Type {
               Value: "mc:enetreferencetype:sharedpersistence"
             }

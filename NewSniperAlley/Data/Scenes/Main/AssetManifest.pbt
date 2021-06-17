@@ -1,10 +1,10 @@
 Assets {
-  Id: 17673501280689626557
-  Name: "cyberPerfmapData1"
+  Id: 18377609565647451100
+  Name: "sts9-perf2"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "02aee9e6eb0042368e576c1efde6eeb4"
+      Key: "043fa1661b64445f9dfc554db1819bb9"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -12,12 +12,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14993641127350947432
-  Name: "cyberPerfmapData2"
+  Id: 16829520364215956423
+  Name: "sts9-loadout"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "3559a19283454c288a69cb7822b4db42"
+      Key: "763fc13009a64bbcb77ff3e4230d7cea"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -25,12 +25,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11074008864686874483
-  Name: "rk_storage"
+  Id: 16679735685004979714
+  Name: "sts9-perf1"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "f0eb1ca410a14625b9ac8078c7b3ebdf"
+      Key: "33238ee71a944e13bb62bcc996300fd7"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -38,12 +38,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10909313921360430232
-  Name: "cyber_miscKey"
+  Id: 13016218724239917240
+  Name: "sts9-lifetimestats"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "da3b427656de45498f2bc800a3933c3a"
+      Key: "fe12355d82d24a8690c4e252e729b5bc"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -51,12 +51,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8303644398911813702
-  Name: "cyber_lifetimeStats"
+  Id: 6897099061203180043
+  Name: "st_statkey"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "11256b4712be4090aafc4f045dde3dfe"
+      Key: "685e011c9fc04dd3b3c19bfbf31aab1d"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -64,12 +64,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6799454315211882571
-  Name: "cyber_statkey"
+  Id: 759523718589392391
+  Name: "sts9-misckeys"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "b98d958ee5c14580a68ffa5d844dc2bc"
+      Key: "6a6b17214df44b1bb107fda5df718f0c"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
@@ -77,25 +77,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3327841670527040733
-  Name: "cyber_loadout"
+  Id: 264388973670761264
+  Name: "st_storage"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "949fe8b312704a138dd934cc57cfd55a"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 1600949860142768890
-  Name: "rk_statKey"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "5136aed1ee224d43ae31f585325283fa"
+      Key: "14e8666bb5fc4042bd0625b1a7b87e05"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
