@@ -24,7 +24,6 @@ Text that has an image (<image sword>) which I think is very nice!</font>
 
 
 local text2 = [[
-<size 25><font play_bold>4/06/2021</font></size>
 <image gradient -1 3 #FF3300>
 <panel -1 #FF330022>For the most recent news check out the Strike Team channel on the player discord</panel>
 <panel -1 #FF330022>https://discord.gg/Cp7VEsqg</panel>
