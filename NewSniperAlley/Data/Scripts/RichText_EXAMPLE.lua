@@ -26,11 +26,7 @@ Text that has an image (<image sword>) which I think is very nice!</font>
 local text2 = [[
 <image gradient -1 3 #FF3300>
 <panel -1 #FF330022>For the most recent news check out the Strike Team channel on the player discord</panel>
-<<<<<<< HEAD
 <panel -1 #FF330022>https://discord.gg/coregames  #strike-team-announcements </panel>
-=======
-<panel -1 #FF330022>https://discord.gg/Cp7VEsqg</panel>
->>>>>>> 1dd32c4c (News set to direct to our player discord)
 
 ]]
 
