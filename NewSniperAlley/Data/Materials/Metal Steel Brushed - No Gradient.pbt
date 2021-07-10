@@ -2,7 +2,7 @@ Assets {
   Id: 8062847587797275735
   Name: "Metal Steel Brushed - No Gradient"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 6777447344140592468
     ParameterOverrides {

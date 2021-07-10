@@ -5948,5 +5948,5 @@ Assets {
       AssetId: "Military_Tank_Modern_01__Prop_"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

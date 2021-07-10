@@ -633,5 +633,5 @@ Assets {
       AssetId: "Military_Sandbag_Wall_-_Long_Template"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

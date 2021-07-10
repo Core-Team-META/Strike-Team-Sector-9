@@ -2,7 +2,7 @@ Assets {
   Id: 8067141794526711644
   Name: "ST2_CrosswalkWallDecal"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 3525177834597684768
     ParameterOverrides {

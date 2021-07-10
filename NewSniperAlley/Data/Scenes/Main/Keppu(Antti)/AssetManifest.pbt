@@ -351,7 +351,7 @@ Assets {
 }
 Assets {
   Id: 17111555916046079582
-  Name: "Animated Neon Sign- Battery"
+  Name: "Animated Neon Sign - Battery"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -513,7 +513,7 @@ Assets {
 }
 Assets {
   Id: 16463294282783288209
-  Name: "Animated Neon Sign- Cards"
+  Name: "Animated Neon Sign - Cards"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -954,7 +954,7 @@ Assets {
 }
 Assets {
   Id: 14530549821576425562
-  Name: "Animated Neon Sign- Potion"
+  Name: "Animated Neon Sign - Potion"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1098,7 +1098,7 @@ Assets {
 }
 Assets {
   Id: 14041692737859807372
-  Name: "Animated Neon Sign- Boba"
+  Name: "Animated Neon Sign - Boba"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
@@ -1746,7 +1746,7 @@ Assets {
 }
 Assets {
   Id: 11573315623214987718
-  Name: "Animated Neon Sign- Skull"
+  Name: "Animated Neon Sign - Skull"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

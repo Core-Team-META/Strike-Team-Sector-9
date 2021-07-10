@@ -5490,5 +5490,5 @@ Assets {
       AssetId: "Urban_Car_-_Sedan_Modified_01__Prop_"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

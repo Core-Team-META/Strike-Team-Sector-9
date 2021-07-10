@@ -2,7 +2,7 @@ Assets {
   Id: 15298193565057129559
   Name: "ST_MetalFrameUnlit"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 3496064729835474692
     ParameterOverrides {

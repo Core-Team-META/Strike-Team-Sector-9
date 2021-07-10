@@ -2,7 +2,7 @@ Assets {
   Id: 904731087450842576
   Name: "ST2_MetalDiamondRusted"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 14614056576813174129
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 4222977977652522667
   Name: "ST2_RubberWires"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 3202444740296431605
     ParameterOverrides {

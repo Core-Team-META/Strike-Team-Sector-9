@@ -2,7 +2,7 @@ Assets {
   Id: 16478338501499728149
   Name: "ST2_PalmLeaves"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 12263871192000562331
     ParameterOverrides {

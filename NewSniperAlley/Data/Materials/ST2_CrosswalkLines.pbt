@@ -2,7 +2,7 @@ Assets {
   Id: 1019499427182238987
   Name: "ST2_CrosswalkLines"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 3525177834597684768
     ParameterOverrides {

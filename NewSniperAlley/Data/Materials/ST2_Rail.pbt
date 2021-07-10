@@ -2,7 +2,7 @@ Assets {
   Id: 7786941293731162116
   Name: "ST2_Rail"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 3862723856031140371
     ParameterOverrides {

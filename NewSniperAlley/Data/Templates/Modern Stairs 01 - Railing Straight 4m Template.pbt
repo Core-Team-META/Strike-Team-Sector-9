@@ -142,5 +142,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_Railing_Straight_4m_Template"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

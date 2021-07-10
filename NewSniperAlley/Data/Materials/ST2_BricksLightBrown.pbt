@@ -2,7 +2,7 @@ Assets {
   Id: 5051175310908681706
   Name: "ST2_BricksLightBrown"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 1778715206891753348
     ParameterOverrides {

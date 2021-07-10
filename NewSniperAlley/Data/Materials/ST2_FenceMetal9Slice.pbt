@@ -2,7 +2,7 @@ Assets {
   Id: 8402165087428869117
   Name: "ST2_FenceMetal9Slice"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 7699110249164925678
     ParameterOverrides {

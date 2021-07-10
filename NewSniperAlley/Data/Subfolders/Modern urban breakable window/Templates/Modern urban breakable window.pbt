@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Object must be over 650 unit/sec speed. You can customize it in the script properties.\r\n\r\nSpecial thanks to Core Creators discord server."
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

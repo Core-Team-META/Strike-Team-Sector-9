@@ -2,7 +2,7 @@ Assets {
   Id: 13377766700605935757
   Name: "ST2_WallInterior02"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 9635608271034126615
     ParameterOverrides {

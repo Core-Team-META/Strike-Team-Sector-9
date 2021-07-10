@@ -2,7 +2,7 @@ Assets {
   Id: 2486675163799071096
   Name: "ST2_WareHouseDoor"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 9964489518529487489
     ParameterOverrides {

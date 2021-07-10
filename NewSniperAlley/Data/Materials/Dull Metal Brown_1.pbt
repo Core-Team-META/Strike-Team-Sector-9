@@ -2,7 +2,7 @@ Assets {
   Id: 10932775702444622624
   Name: "Dull Metal Brown"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 11064620649104099580
     ParameterOverrides {

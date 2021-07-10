@@ -54,7 +54,7 @@ Assets {
 }
 Assets {
   Id: 14041692737859807372
-  Name: "Animated Neon Sign- Boba"
+  Name: "Animated Neon Sign - Boba"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"

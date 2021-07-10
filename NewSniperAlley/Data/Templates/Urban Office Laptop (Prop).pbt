@@ -140,5 +140,5 @@ Assets {
       AssetId: "Urban_Office_Laptop__Prop_"
     }
   }
-  SerializationVersion: 89
+  SerializationVersion: 92
 }

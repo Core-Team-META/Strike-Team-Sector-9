@@ -2,7 +2,7 @@ Assets {
   Id: 5298111214056403780
   Name: "ST2_AnimatedEmissiveArrow"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 1030510998905829010
     ParameterOverrides {

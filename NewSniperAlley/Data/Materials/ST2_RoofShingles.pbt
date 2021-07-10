@@ -2,7 +2,7 @@ Assets {
   Id: 2845475123652944784
   Name: "ST2_RoofShingles"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 11461877017330116213
     ParameterOverrides {

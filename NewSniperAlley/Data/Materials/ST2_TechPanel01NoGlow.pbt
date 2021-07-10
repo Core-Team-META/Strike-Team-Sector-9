@@ -2,7 +2,7 @@ Assets {
   Id: 11820751953128122889
   Name: "ST2_TechPanel01NoGlow"
   PlatformAssetType: 13
-  SerializationVersion: 89
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 17608036586245849503
     ParameterOverrides {
