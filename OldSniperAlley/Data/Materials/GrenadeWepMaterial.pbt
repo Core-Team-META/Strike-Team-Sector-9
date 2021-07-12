@@ -2,7 +2,7 @@ Assets {
   Id: 9627269398219790576
   Name: "GrenadeWepMaterial"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 2556750270454784918
     ParameterOverrides {

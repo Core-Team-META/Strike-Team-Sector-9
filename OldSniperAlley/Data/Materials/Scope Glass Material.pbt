@@ -2,7 +2,7 @@ Assets {
   Id: 3782352254596838357
   Name: "Scope Glass Material"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 16845241941935487831
     ParameterOverrides {

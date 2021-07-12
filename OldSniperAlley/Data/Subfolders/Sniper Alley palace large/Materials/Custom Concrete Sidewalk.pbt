@@ -2,7 +2,7 @@ Assets {
   Id: 2956484768183282646
   Name: "Custom Concrete Sidewalk"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 12306622679456331034
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 16591386108208646728
   Name: "Custom Stucco Tintable_1"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 16710833078514376839
     ParameterOverrides {

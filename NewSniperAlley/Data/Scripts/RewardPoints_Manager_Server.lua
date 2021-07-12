@@ -27,7 +27,7 @@ function AddRewardPoints(player, rewardId)
             data[StorageKey] = data[StorageKey] or {}
             data[StorageKey][rewardId] = yearDay
             player:GrantRewardPoints(CoreMath.Round(RewardPoints[rewardId].amount), RewardPoints[rewardId].name)
-            player:SetPrivateNetworkedData("RewardPoints", RewardPoints[rewardId])
+            player:SetPrivateNetworkedData("RewardPoints" .. tostring(rewardId), RewardPoints[rewardId])
             Storage.SetPlayerData(player, data)
         end
     end

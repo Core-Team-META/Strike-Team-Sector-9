@@ -2,7 +2,7 @@ Assets {
   Id: 16868329354831873345
   Name: "Custom Silk Curtains"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 2269641588765989720
     ParameterOverrides {

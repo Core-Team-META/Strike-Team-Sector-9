@@ -2,7 +2,7 @@ Assets {
   Id: 1054069843581462545
   Name: "Custom Ceramic Tiles Octagon Dot 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 10041614114677710042
     ParameterOverrides {

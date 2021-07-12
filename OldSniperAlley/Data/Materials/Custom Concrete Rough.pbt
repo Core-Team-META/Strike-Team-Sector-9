@@ -2,7 +2,7 @@ Assets {
   Id: 2757569793018614439
   Name: "Custom Concrete Rough"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 16538811899510340732
     ParameterOverrides {

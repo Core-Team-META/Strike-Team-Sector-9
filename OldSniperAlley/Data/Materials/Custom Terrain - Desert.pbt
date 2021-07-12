@@ -2,7 +2,7 @@ Assets {
   Id: 14433286451641325580
   Name: "Custom Terrain - Desert"
   PlatformAssetType: 13
-  SerializationVersion: 77
+  SerializationVersion: 92
   CustomMaterialAsset {
     BaseMaterialId: 11216067682808882030
     ParameterOverrides {
