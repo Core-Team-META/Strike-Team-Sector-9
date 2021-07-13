@@ -197,7 +197,7 @@ function OnPlayerJoined(player)
 
   local data = Storage.GetPlayerData(player)
   --print("test value:", data.test,  1 << 31)
-  Storage.SetPlayerData(player, {test = 1 << 31})
+  --Storage.SetPlayerData(player, {test = 1 << 31})
 
   --player.bindingPressedEvent:Connect(OnBindingPressed)
 end

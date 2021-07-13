@@ -52,6 +52,35 @@ function AddRewardPointsProgress(player, rewardId, value)
         playerRewardData[rewardId] = "Claimed"
     end
     player.serverUserData.rewardPointsProgress = playerRewardData
+    player:SetPrivateNetworkedData("RewardPointClient", playerRewardData)
+end
+
+function OnPlayerJoined(player)
+    local data = Storage.GetPlayerData(player)
+    local yearDay = os.date("*t").yday
+    local playerRewardData = {}
+    if data[StorageKey] then
+        for i, day in pairs(data[StorageKey]) do
+            warn(tostring(i) .. " Day: " .. tostring(day))
+            if yearDay == day then
+                playerRewardData[i] = "Claimed"
+            else
+                playerRewardData[i] = 0
+            end
+        end
+        for i, _ in ipairs(RewardPoints) do
+            if not playerRewardData[i] then
+                playerRewardData[i] = 0
+            end
+        end
+    else
+        for i, _ in ipairs(RewardPoints) do
+            playerRewardData[i] = 0
+        end
+    end
+    player.serverUserData.rewardPointsProgress = playerRewardData
+    player:SetPrivateNetworkedData("RewardPointClient", playerRewardData)
 end
 
 Events.Connect("AddRewardPointsProgress", AddRewardPointsProgress)
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
