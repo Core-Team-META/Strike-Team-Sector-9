@@ -246,7 +246,7 @@ Assets {
           Location {
             X: 339.44397
             Y: -8.7857132
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -289,7 +289,7 @@ Assets {
           Location {
             X: -332.682495
             Y: 14.2957077
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -1587,5 +1587,5 @@ Assets {
       AssetId: "Military_Sandbag_Wall_-_Tall_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -1020,7 +1020,7 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 0.696289063
+            X: 0.696289062
             Y: 0.00048828125
           }
           Rotation {
@@ -1846,5 +1846,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

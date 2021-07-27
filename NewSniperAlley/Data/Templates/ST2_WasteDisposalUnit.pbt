@@ -2110,7 +2110,7 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            X: 1.06445313
+            X: 1.06445312
             Y: -94.0100098
             Z: 111.442696
           }
@@ -2432,5 +2432,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

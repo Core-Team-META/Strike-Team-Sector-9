@@ -4053,7 +4053,7 @@ Assets {
         Name: "Invisible Collider"
         Transform {
           Location {
-            X: -608.101563
+            X: -608.101562
             Y: 3075.62842
             Z: 100.614624
           }
@@ -6418,7 +6418,7 @@ Assets {
         Name: "Invisible Collider"
         Transform {
           Location {
-            X: 634.570313
+            X: 634.570312
             Y: -6688.80859
             Z: -564.941101
           }
@@ -6573,5 +6573,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

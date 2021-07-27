@@ -2,7 +2,7 @@ Assets {
   Id: 475026064142132902
   Name: "ST2_MetalCeilingLight"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 9131774006933301767
     ParameterOverrides {

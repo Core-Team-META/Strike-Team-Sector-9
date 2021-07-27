@@ -43,7 +43,7 @@ Assets {
         Name: "Urban Fence Gate 01"
         Transform {
           Location {
-            X: -325.976563
+            X: -325.976562
             Y: 3.78222656
           }
           Rotation {
@@ -783,7 +783,7 @@ Assets {
         Transform {
           Location {
             X: 454.521484
-            Y: 6.18945313
+            Y: 6.18945312
           }
           Rotation {
             Yaw: -179.999954
@@ -936,5 +936,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

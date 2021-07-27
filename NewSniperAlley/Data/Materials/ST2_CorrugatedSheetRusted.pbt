@@ -2,7 +2,7 @@ Assets {
   Id: 16672320846375934273
   Name: "ST2_CorrugatedSheetRusted"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 13924173399214448260
     ParameterOverrides {

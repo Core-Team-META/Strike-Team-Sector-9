@@ -103,7 +103,7 @@ Assets {
             Color {
               R: 0.421875
               G: 0.176275924
-              B: 0.0395507813
+              B: 0.0395507812
               A: 1
             }
           }
@@ -2694,5 +2694,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -2356,5 +2356,5 @@ Assets {
       AssetId: "Urban_Dumpster_-_Full_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

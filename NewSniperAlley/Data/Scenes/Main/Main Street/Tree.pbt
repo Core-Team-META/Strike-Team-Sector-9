@@ -2373,7 +2373,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -495
-            Y: -159.289063
+            Y: -159.289062
             Z: 589.521118
           }
         }
@@ -2404,7 +2404,7 @@ Objects {
   Transform {
     Location {
       X: -1133.61218
-      Y: -159.289063
+      Y: -159.289062
       Z: 589.521118
     }
     Rotation {
@@ -6401,7 +6401,7 @@ Objects {
   Transform {
     Location {
       X: 599.026611
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 16.7688217
     }
     Rotation {
@@ -6657,7 +6657,7 @@ Objects {
   Transform {
     Location {
       X: -103.596924
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 36.513649
     }
     Rotation {
@@ -6736,7 +6736,7 @@ Objects {
   Transform {
     Location {
       X: 222.496094
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
     }
     Rotation {
     }
@@ -8247,7 +8247,7 @@ Objects {
   Transform {
     Location {
       X: 1.84741211
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 122.956329
     }
     Rotation {
@@ -8414,7 +8414,7 @@ Objects {
   Transform {
     Location {
       X: 30.7817383
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 120.200104
     }
     Rotation {
@@ -8480,7 +8480,7 @@ Objects {
   Transform {
     Location {
       X: -156.575195
-      Y: 0.000122070313
+      Y: 0.000122070312
     }
     Rotation {
     }
@@ -8640,7 +8640,7 @@ Objects {
   Transform {
     Location {
       X: -153.575195
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 185.883881
     }
     Rotation {
@@ -11911,7 +11911,7 @@ Objects {
   Transform {
     Location {
       X: 599.026611
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 16.7688217
     }
     Rotation {
@@ -12167,7 +12167,7 @@ Objects {
   Transform {
     Location {
       X: -103.596924
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 36.513649
     }
     Rotation {
@@ -12246,7 +12246,7 @@ Objects {
   Transform {
     Location {
       X: 222.496094
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
     }
     Rotation {
     }
@@ -13751,7 +13751,7 @@ Objects {
   Transform {
     Location {
       X: 1.84741211
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 122.956329
     }
     Rotation {
@@ -13916,7 +13916,7 @@ Objects {
   Transform {
     Location {
       X: 30.7817383
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 120.200104
     }
     Rotation {
@@ -13988,7 +13988,7 @@ Objects {
   Transform {
     Location {
       X: -156.575195
-      Y: 0.000122070313
+      Y: 0.000122070312
     }
     Rotation {
     }
@@ -14148,7 +14148,7 @@ Objects {
   Transform {
     Location {
       X: -153.575195
-      Y: 6.10351563e-05
+      Y: 6.10351562e-05
       Z: 185.883881
     }
     Rotation {
@@ -22038,7 +22038,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6.15039063
+            X: -6.15039062
             Y: -1.02880859
             Z: 150.000366
           }
@@ -29758,7 +29758,7 @@ Objects {
     Location {
       X: -410.859375
       Y: -640.642822
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -29819,7 +29819,7 @@ Objects {
     Location {
       X: 385.4375
       Y: 611.422607
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -29880,7 +29880,7 @@ Objects {
     Location {
       X: 385.4375
       Y: 86.454834
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -29985,7 +29985,7 @@ Objects {
     Location {
       X: -277.714355
       Y: -638.171875
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Yaw: -89.9999924
@@ -30132,7 +30132,7 @@ Objects {
     Location {
       X: -410.859375
       Y: 86.454834
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -30193,7 +30193,7 @@ Objects {
     Location {
       X: -410.859375
       Y: 611.422607
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -30254,7 +30254,7 @@ Objects {
     Location {
       X: 285.4375
       Y: 84.3571777
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Yaw: 89.9999771
@@ -30361,7 +30361,7 @@ Objects {
     Location {
       X: 285.4375
       Y: 234.357178
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Yaw: 89.9999771
@@ -30423,7 +30423,7 @@ Objects {
     Location {
       X: 210.437988
       Y: 384.357178
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
       Yaw: 89.9999771
@@ -30644,7 +30644,7 @@ Objects {
     Location {
       X: 385.4375
       Y: -640.642822
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }

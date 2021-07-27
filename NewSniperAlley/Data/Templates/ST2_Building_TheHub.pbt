@@ -109,7 +109,7 @@ Assets {
           Location {
             X: -1595
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -289,7 +289,7 @@ Assets {
           Location {
             X: -1132.78223
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -469,7 +469,7 @@ Assets {
           Location {
             X: -674.172852
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -647,9 +647,9 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: 1471.39063
+            X: 1471.39062
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -830,7 +830,7 @@ Assets {
           Location {
             X: 1930
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -1011,7 +1011,7 @@ Assets {
           Location {
             X: 1009.17285
             Y: -270
-            Z: 1068.45313
+            Z: 1068.45312
           }
           Rotation {
           }
@@ -1777,7 +1777,7 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: -42.7070313
+            X: -42.7070312
             Y: 2369.5625
             Z: 1876.06531
           }
@@ -15933,5 +15933,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

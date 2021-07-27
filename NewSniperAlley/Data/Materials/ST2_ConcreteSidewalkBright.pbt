@@ -2,7 +2,7 @@ Assets {
   Id: 11766467113026910646
   Name: "ST2_ConcreteSidewalkBright"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 12648550473195782623
     ParameterOverrides {

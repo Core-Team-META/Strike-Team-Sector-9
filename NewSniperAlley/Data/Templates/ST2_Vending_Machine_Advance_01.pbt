@@ -39,7 +39,7 @@ Assets {
           Location {
             X: 8.88989258
             Y: -45.9394531
-            Z: 39.0351563
+            Z: 39.0351562
           }
           Rotation {
           }
@@ -1703,7 +1703,7 @@ Assets {
         Name: "Cube - Bottom-Aligned"
         Transform {
           Location {
-            X: 28.9570313
+            X: 28.9570312
             Y: -28.2026062
             Z: 26.5848618
           }
@@ -4629,7 +4629,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: -90
-            Roll: -6.10351563e-05
+            Roll: -6.10351562e-05
           }
           Scale {
             X: 0.107149146
@@ -5474,5 +5474,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -3797,7 +3797,7 @@ Assets {
           Location {
             X: 1600
             Y: 5
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -3863,7 +3863,7 @@ Assets {
           Location {
             X: 1600
             Y: -795
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -4604,7 +4604,7 @@ Assets {
           Location {
             X: 80.7573242
             Y: 239.999756
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -4691,7 +4691,7 @@ Assets {
           Location {
             X: 80.7575684
             Y: -155
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: 179.999954
@@ -6134,7 +6134,7 @@ Assets {
           Location {
             X: 1600
             Y: -800
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -6195,7 +6195,7 @@ Assets {
         Transform {
           Location {
             X: 1600
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -7460,7 +7460,7 @@ Assets {
           Location {
             X: 1600
             Y: -800
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -8885,7 +8885,7 @@ Assets {
         Transform {
           Location {
             X: 1600
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -90.0000534
@@ -13516,5 +13516,5 @@ Assets {
       AssetId: "Main_Street_Building_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

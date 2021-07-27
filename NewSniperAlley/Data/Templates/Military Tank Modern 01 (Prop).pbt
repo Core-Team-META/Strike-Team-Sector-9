@@ -2119,7 +2119,7 @@ Assets {
         Transform {
           Location {
             X: -242.777344
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 13.1827698
           }
           Rotation {
@@ -2453,7 +2453,7 @@ Assets {
           Location {
             X: 370
             Y: 300
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -2496,7 +2496,7 @@ Assets {
           Location {
             X: -230
             Y: 300
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -4145,7 +4145,7 @@ Assets {
         Transform {
           Location {
             X: -242.777344
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 13.1827698
           }
           Rotation {
@@ -4479,7 +4479,7 @@ Assets {
           Location {
             X: 370
             Y: 300
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -4522,7 +4522,7 @@ Assets {
           Location {
             X: -230
             Y: 300
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -5948,5 +5948,5 @@ Assets {
       AssetId: "Military_Tank_Modern_01__Prop_"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

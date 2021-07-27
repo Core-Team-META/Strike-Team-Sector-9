@@ -36,7 +36,7 @@ Assets {
         Name: "Urban Skylight Glass"
         Transform {
           Location {
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -136,5 +136,5 @@ Assets {
       AssetId: "Urban_Skylight_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

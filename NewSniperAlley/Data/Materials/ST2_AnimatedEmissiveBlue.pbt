@@ -2,7 +2,7 @@ Assets {
   Id: 17399406746024856025
   Name: "ST2_AnimatedEmissiveBlue"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 1030510998905829010
     ParameterOverrides {

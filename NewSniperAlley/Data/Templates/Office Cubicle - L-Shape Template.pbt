@@ -1960,7 +1960,7 @@ Assets {
         Transform {
           Location {
             X: 550
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 9.15527344e-05
           }
           Rotation {
@@ -2229,5 +2229,5 @@ Assets {
       AssetId: "Office_Cubicle_-_L-Shape_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

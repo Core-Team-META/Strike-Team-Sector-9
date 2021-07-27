@@ -39,7 +39,7 @@ Assets {
         Name: "Plane 1m - One Sided"
         Transform {
           Location {
-            X: -0.688476563
+            X: -0.688476562
             Y: -1.02880859
             Z: 150.000366
           }
@@ -199,5 +199,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

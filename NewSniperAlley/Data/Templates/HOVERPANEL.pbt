@@ -129,7 +129,7 @@ Assets {
         Name: "UI Image"
         Transform {
           Location {
-            X: 8655.51563
+            X: 8655.51562
             Y: -6873.36133
             Z: -1135
           }
@@ -401,5 +401,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

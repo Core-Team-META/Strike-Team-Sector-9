@@ -500,7 +500,7 @@ Assets {
         Name: "Hiragana Font 1: \343\201\202 (A)"
         Transform {
           Location {
-            X: 10.5351563
+            X: 10.5351562
             Y: 6.80957031
             Z: 587.668457
           }
@@ -630,5 +630,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }
