@@ -119,7 +119,8 @@ Objects {
   Control {
     Width: 266
     Height: 50
-    UIY: -77.2005386
+    UIX: 5
+    UIY: 2.79946136
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -446,6 +447,8 @@ Objects {
   Control {
     Width: 406
     Height: 200
+    UIX: 5
+    UIY: -60
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1200,7 +1203,7 @@ Objects {
       Brush {
       }
       Color {
-        A: 0.5
+        A: 0.948000073
       }
       TeamSettings {
       }

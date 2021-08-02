@@ -1,38 +1,6 @@
 Name: "Gameplay Settings"
 RootId: 12992312101360056088
 Objects {
-  Id: 11381013425666524486
-  Name: "Reward Points "
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12992312101360056088
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Reward Points"
-  }
-}
-Objects {
   Id: 7550239754206438108
   Name: "CosmeticEquiper"
   Transform {
