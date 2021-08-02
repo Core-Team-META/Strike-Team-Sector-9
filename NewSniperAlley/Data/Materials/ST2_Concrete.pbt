@@ -2,7 +2,7 @@ Assets {
   Id: 1876355522385362244
   Name: "ST2_Concrete"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 5549379117761037396
     ParameterOverrides {

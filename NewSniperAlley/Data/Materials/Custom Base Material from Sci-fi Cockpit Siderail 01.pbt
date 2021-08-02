@@ -2,7 +2,7 @@ Assets {
   Id: 2107016608057741599
   Name: "Custom Base Material from Sci-fi Cockpit Siderail 01"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 9264042149551037186
     ParameterOverrides {

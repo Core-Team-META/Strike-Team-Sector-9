@@ -1621,7 +1621,7 @@ Assets {
         Name: "Hatchet - Blade"
         Transform {
           Location {
-            X: -0.00219726563
+            X: -0.00219726562
             Y: -0.0258693695
             Z: 0.538009644
           }
@@ -2841,5 +2841,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

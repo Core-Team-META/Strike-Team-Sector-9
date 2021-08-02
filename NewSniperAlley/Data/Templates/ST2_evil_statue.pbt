@@ -41,7 +41,7 @@ Assets {
         Name: "planter"
         Transform {
           Location {
-            X: 2.98632813
+            X: 2.98632812
             Y: -0.444824219
           }
           Rotation {
@@ -3302,5 +3302,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

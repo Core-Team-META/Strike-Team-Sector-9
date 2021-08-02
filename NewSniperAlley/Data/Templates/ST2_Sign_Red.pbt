@@ -73,7 +73,7 @@ Assets {
         Name: "Sci-fi Base - Window 01"
         Transform {
           Location {
-            X: 28.0820313
+            X: 28.0820312
             Y: -63.2783203
             Z: 323.333374
           }
@@ -740,5 +740,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

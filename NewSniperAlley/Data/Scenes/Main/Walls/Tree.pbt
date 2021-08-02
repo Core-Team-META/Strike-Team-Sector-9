@@ -6305,7 +6305,7 @@ Objects {
   Name: "Wall"
   Transform {
     Location {
-      X: 3459.89063
+      X: 3459.89062
       Y: -3089.3147
       Z: -2672.85547
     }
@@ -8335,7 +8335,7 @@ Objects {
   Name: "Wall"
   Transform {
     Location {
-      X: -0.00903320313
+      X: -0.00903320312
       Y: -3774.89624
       Z: -1502.85547
     }
@@ -11976,7 +11976,7 @@ Objects {
   Transform {
     Location {
       X: -10200
-      Y: 685.539063
+      Y: 685.539062
       Z: -1503.94849
     }
     Rotation {
@@ -12186,7 +12186,7 @@ Objects {
   Transform {
     Location {
       X: -7972.39355
-      Y: 685.539063
+      Y: 685.539062
       Z: -1503.94849
     }
     Rotation {

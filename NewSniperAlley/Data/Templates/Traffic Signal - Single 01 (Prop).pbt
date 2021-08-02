@@ -1064,7 +1064,7 @@ Assets {
         Name: "Street Light 01"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
             Y: -325
             Z: 1450
           }
@@ -1226,5 +1226,5 @@ Assets {
       AssetId: "tm_urb_trafficsignal_001_single_01"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 14701610520193345189
   Name: "ST2_AdScreenBig"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 14198415401224027527
     ParameterOverrides {

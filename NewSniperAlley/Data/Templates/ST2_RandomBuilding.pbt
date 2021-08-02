@@ -1546,7 +1546,7 @@ Assets {
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 702.351563
+              AttenuationRadius: 702.351562
               AreaLight {
                 BarnDoorAngle: 50
                 BarnDoorLength: 20
@@ -3589,7 +3589,7 @@ Assets {
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 702.351563
+              AttenuationRadius: 702.351562
               AreaLight {
                 BarnDoorAngle: 50
                 BarnDoorLength: 20
@@ -3857,7 +3857,7 @@ Assets {
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 702.351563
+              AttenuationRadius: 702.351562
               AreaLight {
                 BarnDoorAngle: 50
                 BarnDoorLength: 20
@@ -6851,5 +6851,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -433,7 +433,7 @@ Assets {
           Location {
             X: -10
             Y: -400
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: 89.9999924
@@ -546,7 +546,7 @@ Assets {
         Transform {
           Location {
             X: -10
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -908,7 +908,7 @@ Assets {
         Transform {
           Location {
             X: -190
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 50
           }
           Rotation {
@@ -1064,7 +1064,7 @@ Assets {
         Transform {
           Location {
             X: 190
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 50
           }
           Rotation {
@@ -1632,5 +1632,5 @@ Assets {
       AssetId: "Modern_Damaged_Stairs_01_-_L_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

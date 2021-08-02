@@ -383,7 +383,7 @@ Assets {
             Z: 8.16821289
           }
           Rotation {
-            Pitch: -6.10351563e-05
+            Pitch: -6.10351562e-05
             Yaw: 1.93060487e-06
             Roll: 89.9996262
           }
@@ -1570,7 +1570,7 @@ Assets {
         Name: "Street Light 01"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
             Y: -325
             Z: 1450
           }
@@ -1759,5 +1759,5 @@ Assets {
       AssetId: "tm_urm_trafficsignal_001_double_01"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

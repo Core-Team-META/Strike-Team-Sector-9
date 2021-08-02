@@ -2,7 +2,7 @@ Assets {
   Id: 3447085949818863481
   Name: "ST2_MetalTram"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 2805121172112350453
     ParameterOverrides {

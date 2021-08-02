@@ -2370,7 +2370,7 @@ Assets {
             Z: 29.791954
           }
           Rotation {
-            Pitch: -0.000122070313
+            Pitch: -0.000122070312
             Yaw: 89.9998856
             Roll: -90.0003357
           }
@@ -2702,5 +2702,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 12598154055212659479
   Name: "ST2_Clear_Cloat_triangle_black"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 13666869816298136660
     ParameterOverrides {

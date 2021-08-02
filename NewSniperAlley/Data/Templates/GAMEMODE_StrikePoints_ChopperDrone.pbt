@@ -272,7 +272,7 @@ Assets {
           Location {
             X: -43.5292969
             Y: -19.140625
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -90
@@ -356,7 +356,7 @@ Assets {
           Location {
             X: -43.5292969
             Y: -19.140625
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -90
@@ -572,7 +572,7 @@ Assets {
           Location {
             X: 56.4707031
             Y: -19.140625
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -90
@@ -663,7 +663,7 @@ Assets {
           Location {
             X: -153.529297
             Y: -19.140625
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -90
@@ -2603,5 +2603,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -171,7 +171,7 @@ Assets {
         Transform {
           Location {
             X: -153.575195
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
             Z: 185.883881
           }
           Rotation {
@@ -295,7 +295,7 @@ Assets {
         Transform {
           Location {
             X: -156.575195
-            Y: 0.000122070313
+            Y: 0.000122070312
           }
           Rotation {
           }
@@ -370,7 +370,7 @@ Assets {
         Transform {
           Location {
             X: 30.7817383
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 120.200104
           }
           Rotation {
@@ -466,7 +466,7 @@ Assets {
         Transform {
           Location {
             X: 222.496094
-            Y: 6.10351563e-05
+            Y: 6.10351562e-05
           }
           Rotation {
           }
@@ -608,5 +608,5 @@ Assets {
       AssetId: "Urban_Car_-_Frame_01__Prop_"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

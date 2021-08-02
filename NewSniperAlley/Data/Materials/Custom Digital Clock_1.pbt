@@ -2,7 +2,7 @@ Assets {
   Id: 9472743497042738480
   Name: "ST2_Clock"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 13851539315079468207
     ParameterOverrides {

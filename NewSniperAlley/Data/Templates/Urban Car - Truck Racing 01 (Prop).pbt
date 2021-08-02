@@ -2375,7 +2375,7 @@ Assets {
         Name: "Urban Vehicle Accessory - Sedan Fenderflare 01"
         Transform {
           Location {
-            X: 265.132813
+            X: 265.132812
             Y: -142.064468
             Z: 119.883102
           }
@@ -2419,7 +2419,7 @@ Assets {
         Name: "Urban Vehicle Accessory - Sedan Fenderflare 01"
         Transform {
           Location {
-            X: 265.132813
+            X: 265.132812
             Y: 142.064
             Z: 119.883102
           }
@@ -4514,5 +4514,5 @@ Assets {
       AssetId: "Urban_Car_-_Truck_Racing_01__Prop_"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

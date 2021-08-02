@@ -4485,7 +4485,7 @@ Objects {
   Name: "Floor_Top"
   Transform {
     Location {
-      X: 2905.07813
+      X: 2905.07812
       Y: -8629.97949
       Z: -1617.85547
     }

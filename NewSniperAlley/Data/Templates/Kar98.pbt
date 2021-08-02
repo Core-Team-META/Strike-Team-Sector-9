@@ -1759,7 +1759,7 @@ Assets {
         Transform {
           Location {
             X: -30.8564453
-            Y: 7.28320313
+            Y: 7.28320312
             Z: 11.6789093
           }
           Rotation {
@@ -2877,7 +2877,7 @@ Assets {
         Name: "Sci-fi Gear Small 02"
         Transform {
           Location {
-            Y: -2.69726563
+            Y: -2.69726562
             Z: 11.8842163
           }
           Rotation {
@@ -3484,5 +3484,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

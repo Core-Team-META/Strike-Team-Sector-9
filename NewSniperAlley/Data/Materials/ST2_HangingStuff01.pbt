@@ -2,7 +2,7 @@ Assets {
   Id: 4246059396416968183
   Name: "ST2_HangingStuff01"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 4154706281836675321
     ParameterOverrides {

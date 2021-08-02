@@ -18599,7 +18599,7 @@ Objects {
   Transform {
     Location {
       X: 13596.2754
-      Y: 5673.20313
+      Y: 5673.20312
       Z: -36.425293
     }
     Rotation {
@@ -30445,7 +30445,7 @@ Objects {
   Transform {
     Location {
       X: -11135.4375
-      Y: 428.320313
+      Y: 428.320312
       Z: 223.572815
     }
     Rotation {
@@ -36790,7 +36790,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 0.696289063
+      X: 0.696289062
       Y: 0.00048828125
     }
     Rotation {
@@ -38464,7 +38464,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 0.696289063
+      X: 0.696289062
       Y: 0.00048828125
     }
     Rotation {
@@ -40137,7 +40137,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 0.696289063
+      X: 0.696289062
       Y: 0.00048828125
     }
     Rotation {
@@ -41495,7 +41495,7 @@ Objects {
     Location {
       X: 2.96777344
       Y: 107.069824
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: 126.559166
@@ -41882,7 +41882,7 @@ Objects {
     Location {
       X: 2.96777344
       Y: 107.069824
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: 126.559166
@@ -43674,7 +43674,7 @@ Objects {
     Location {
       X: 8.88989258
       Y: -45.9394531
-      Z: 39.0351563
+      Z: 39.0351562
     }
     Rotation {
     }
@@ -45064,7 +45064,7 @@ Objects {
   Name: "Decal Graffiti Murals 01 (Variants)"
   Transform {
     Location {
-      X: 6334.07813
+      X: 6334.07812
       Y: 207.572388
       Z: 206.261932
     }
@@ -52416,7 +52416,7 @@ Objects {
   Transform {
     Location {
       X: -6551.93896
-      Y: -5862.51563
+      Y: -5862.51562
       Z: 1540.8313
     }
     Rotation {
@@ -53044,7 +53044,7 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: 15.2382813
+      X: 15.2382812
       Z: 145
     }
     Rotation {
@@ -54571,7 +54571,7 @@ Objects {
   Transform {
     Location {
       X: -1702.48657
-      Y: -4205.32813
+      Y: -4205.32812
       Z: 1125.98291
     }
     Rotation {
@@ -59988,7 +59988,7 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: 15.2382813
+      X: 15.2382812
       Z: 140
     }
     Rotation {

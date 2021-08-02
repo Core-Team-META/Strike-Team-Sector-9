@@ -5906,7 +5906,7 @@ Assets {
           Location {
             X: -799.999451
             Y: 399.999725
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -5957,7 +5957,7 @@ Assets {
           Location {
             X: -0.000690460089
             Y: 399.999756
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -6008,7 +6008,7 @@ Assets {
           Location {
             X: 799.999084
             Y: 399.999664
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -6059,7 +6059,7 @@ Assets {
           Location {
             X: 799.999451
             Y: -399.999847
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -6110,7 +6110,7 @@ Assets {
           Location {
             X: -0.000286102266
             Y: -399.999878
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -6161,7 +6161,7 @@ Assets {
           Location {
             X: -800.000061
             Y: -399.999786
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -7629,7 +7629,7 @@ Assets {
           Location {
             X: -360
             Y: 260
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -55
@@ -7676,7 +7676,7 @@ Assets {
           Location {
             X: 520
             Y: -360
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -54.9999886
@@ -7723,7 +7723,7 @@ Assets {
           Location {
             X: 70
             Y: 900
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -10
@@ -8138,7 +8138,7 @@ Assets {
           Location {
             X: -864.998474
             Y: 399.999268
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -8193,7 +8193,7 @@ Assets {
           Location {
             X: -65.0006638
             Y: 399.999329
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -8248,7 +8248,7 @@ Assets {
           Location {
             X: 734.999084
             Y: -0.0009765625
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -8303,7 +8303,7 @@ Assets {
           Location {
             X: -65.0002518
             Y: -399.999817
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -8358,7 +8358,7 @@ Assets {
           Location {
             X: 734.999451
             Y: -399.999786
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -8456,7 +8456,7 @@ Assets {
           Location {
             X: 734.999084
             Y: -400.000977
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -23092,7 +23092,7 @@ Assets {
             Z: -0.000732421875
           }
           Rotation {
-            Pitch: -1.61132813
+            Pitch: -1.61132812
             Yaw: 90
           }
           Scale {
@@ -25151,7 +25151,7 @@ Assets {
           Location {
             X: -48.1899834
             Y: 267.02533
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -44.9199829
@@ -29164,7 +29164,7 @@ Assets {
           Location {
             X: 500
             Y: 70
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Pitch: -8.78009129
@@ -30468,5 +30468,5 @@ Assets {
       AssetId: "Damaged_Main_Street_Building_Wide_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

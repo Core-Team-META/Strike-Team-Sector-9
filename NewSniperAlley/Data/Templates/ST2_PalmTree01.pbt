@@ -554,7 +554,7 @@ Assets {
         Name: "Grass Tall"
         Transform {
           Location {
-            X: 7.91601563
+            X: 7.91601562
             Y: 17.0205078
             Z: 35.3242188
           }
@@ -1088,5 +1088,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

@@ -74,7 +74,7 @@ Assets {
         Name: "Sign Font 2 Neon Outline: 5"
         Transform {
           Location {
-            X: -53.9101563
+            X: -53.9101562
           }
           Rotation {
             Roll: -22.4998589
@@ -599,5 +599,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

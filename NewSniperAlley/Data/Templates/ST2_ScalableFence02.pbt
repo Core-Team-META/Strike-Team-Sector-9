@@ -37,7 +37,7 @@ Assets {
         Name: "Corrugated Sheet Bent"
         Transform {
           Location {
-            X: 40.8320313
+            X: 40.8320312
           }
           Rotation {
             Yaw: 90
@@ -258,5 +258,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

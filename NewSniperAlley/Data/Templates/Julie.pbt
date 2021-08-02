@@ -4275,7 +4275,7 @@ Assets {
         Transform {
           Location {
             X: -315.238281
-            Y: 633.945313
+            Y: 633.945312
             Z: 11.8603516
           }
           Rotation {
@@ -11264,7 +11264,7 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
           }
           Rotation {
           }
@@ -12433,5 +12433,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

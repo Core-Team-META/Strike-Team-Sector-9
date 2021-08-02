@@ -2,7 +2,7 @@ Assets {
   Id: 9019906865641666322
   Name: "ST2_PlasticWrap"
   PlatformAssetType: 13
-  SerializationVersion: 92
+  SerializationVersion: 94
   CustomMaterialAsset {
     BaseMaterialId: 2249794126015640337
     ParameterOverrides {

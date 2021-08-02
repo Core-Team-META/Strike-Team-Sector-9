@@ -1027,7 +1027,7 @@ Assets {
         Name: "Urban Brick Debris 03"
         Transform {
           Location {
-            X: 52.6757813
+            X: 52.6757812
             Y: -111.114502
             Z: 47.4272919
           }
@@ -1970,5 +1970,5 @@ Assets {
       AssetId: "Rubble_Pile_Brick_-_Medium_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

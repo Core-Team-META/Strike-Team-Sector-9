@@ -221,7 +221,7 @@ Objects {
   Name: "Decal Stains Round 01"
   Transform {
     Location {
-      X: 3212.45313
+      X: 3212.45312
       Y: 580.021606
       Z: 285
     }
@@ -620,7 +620,7 @@ Objects {
   Name: "Decal Graffiti Scribbles 01 (Variants)"
   Transform {
     Location {
-      X: 2088.76563
+      X: 2088.76562
       Y: -3112.10059
       Z: 501.758728
     }
@@ -7913,7 +7913,7 @@ Objects {
       Y: -120.93457
     }
     Rotation {
-      Yaw: 151.320313
+      Yaw: 151.320312
     }
     Scale {
       X: 1

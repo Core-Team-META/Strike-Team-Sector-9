@@ -254,7 +254,7 @@ Assets {
           Location {
             X: 130
             Y: -184.956177
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: -144.738953
@@ -1047,5 +1047,5 @@ Assets {
       AssetId: "Rubble_Pile_Concrete_-_Medium_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

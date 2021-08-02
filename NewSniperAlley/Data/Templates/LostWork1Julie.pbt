@@ -975,7 +975,7 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
           }
           Rotation {
           }
@@ -1519,7 +1519,7 @@ Assets {
         Name: "MergedModel"
         Transform {
           Location {
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
           }
           Rotation {
           }
@@ -2947,7 +2947,7 @@ Assets {
         Transform {
           Location {
             Y: -324.345703
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: 89.9999924
@@ -5594,7 +5594,7 @@ Assets {
           Location {
             X: 58.6640625
             Y: 72.6550293
-            Z: 0.000122070313
+            Z: 0.000122070312
           }
           Rotation {
             Yaw: 90.0000763
@@ -11238,7 +11238,7 @@ Assets {
         Name: "Point Light"
         Transform {
           Location {
-            X: 15.2382813
+            X: 15.2382812
             Z: 155
           }
           Rotation {
@@ -24589,8 +24589,8 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: 51.7070313
-            Z: 6.10351563e-05
+            X: 51.7070312
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -24655,7 +24655,7 @@ Assets {
         Transform {
           Location {
             X: -84.3181152
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -24886,8 +24886,8 @@ Assets {
         Name: "Cylinder - Chamfered Polished"
         Transform {
           Location {
-            X: 51.7070313
-            Z: 6.10351563e-05
+            X: 51.7070312
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -24952,7 +24952,7 @@ Assets {
         Transform {
           Location {
             X: -84.3181152
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -28982,5 +28982,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

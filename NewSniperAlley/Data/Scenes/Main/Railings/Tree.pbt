@@ -845,7 +845,7 @@ Objects {
   Name: "Railing"
   Transform {
     Location {
-      X: -9114.51563
+      X: -9114.51562
       Y: -10804.9658
       Z: -1937.85547
     }
@@ -4416,7 +4416,7 @@ Objects {
   Transform {
     Location {
       X: -7573.61084
-      Y: -4298.76563
+      Y: -4298.76562
       Z: -1287.85547
     }
     Rotation {
@@ -6376,7 +6376,7 @@ Objects {
   Transform {
     Location {
       X: -9929.98438
-      Y: -4298.76563
+      Y: -4298.76562
       Z: -1287.85547
     }
     Rotation {

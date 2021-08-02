@@ -186,7 +186,7 @@ Assets {
           Location {
             X: -10
             Y: -399.999969
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: 89.9999771
@@ -439,7 +439,7 @@ Assets {
         Transform {
           Location {
             X: 190
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 50
           }
           Rotation {
@@ -693,7 +693,7 @@ Assets {
         Transform {
           Location {
             X: -189.999924
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 50
           }
           Rotation {
@@ -825,7 +825,7 @@ Assets {
         Transform {
           Location {
             X: 190
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 50
           }
           Rotation {
@@ -933,5 +933,5 @@ Assets {
       AssetId: "Modern_Stairs_01_-_L_Template"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

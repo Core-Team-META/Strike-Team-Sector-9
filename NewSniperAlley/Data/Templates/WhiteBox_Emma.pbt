@@ -3865,7 +3865,7 @@ Assets {
         Name: "Default Floor"
         Transform {
           Location {
-            X: 471.632813
+            X: 471.632812
             Y: -191.085693
             Z: 316.426025
           }
@@ -7485,7 +7485,7 @@ Assets {
         Transform {
           Location {
             X: 160
-            Y: -840.070313
+            Y: -840.070312
             Z: 140
           }
           Rotation {
@@ -34723,7 +34723,7 @@ Assets {
         Transform {
           Location {
             X: 4875
-            Y: -865.226563
+            Y: -865.226562
             Z: 896.063721
           }
           Rotation {
@@ -34768,7 +34768,7 @@ Assets {
         Transform {
           Location {
             X: 4225
-            Y: -865.226563
+            Y: -865.226562
             Z: 896.063721
           }
           Rotation {
@@ -39654,5 +39654,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 92
+  SerializationVersion: 94
 }

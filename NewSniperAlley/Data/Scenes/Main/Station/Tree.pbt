@@ -1253,7 +1253,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1.84570313
+      X: -1.84570312
       Y: 2.95690918
       Z: 252.54451
     }
@@ -6760,7 +6760,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1.84570313
+      X: -1.84570312
       Y: 2.95690918
       Z: 252.54451
     }
@@ -10118,7 +10118,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1.84570313
+      X: -1.84570312
       Y: 2.95690918
       Z: 252.54451
     }
@@ -13943,7 +13943,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1.84570313
+      X: -1.84570312
       Y: 2.95690918
       Z: 252.54451
     }
@@ -18949,7 +18949,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1.84570313
+      X: -1.84570312
       Y: 2.95690918
       Z: 252.54451
     }
@@ -26668,7 +26668,7 @@ Objects {
   Transform {
     Location {
       X: 15
-      Z: 0.00122070313
+      Z: 0.00122070312
     }
     Rotation {
       Pitch: 90
@@ -39866,7 +39866,7 @@ Objects {
     Location {
       X: 58.6640625
       Y: 72.6550293
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: 90.0000763
@@ -40259,7 +40259,7 @@ Objects {
     Location {
       X: 58.6640625
       Y: 72.6550293
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: 90.0000763
@@ -52409,7 +52409,7 @@ Objects {
     Location {
       X: 436.240967
       Y: -329.615
-      Z: -25.2539063
+      Z: -25.2539062
     }
     Rotation {
       Yaw: 89.9999542
