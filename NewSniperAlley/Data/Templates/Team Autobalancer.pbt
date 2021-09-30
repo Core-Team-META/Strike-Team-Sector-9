@@ -116,5 +116,5 @@ Assets {
       AssetId: "Team_Autobalancer"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

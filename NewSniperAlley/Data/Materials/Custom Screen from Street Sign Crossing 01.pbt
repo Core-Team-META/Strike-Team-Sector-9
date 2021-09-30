@@ -2,7 +2,7 @@ Assets {
   Id: 9575501979942003292
   Name: "Custom Screen from Street Sign Crossing 01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 16260393305652431134
     ParameterOverrides {

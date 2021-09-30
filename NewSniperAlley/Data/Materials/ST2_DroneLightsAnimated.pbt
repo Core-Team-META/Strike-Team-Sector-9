@@ -2,7 +2,7 @@ Assets {
   Id: 7383145053924699846
   Name: "ST2_DroneLightsAnimated"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 1524584067271525537
     ParameterOverrides {

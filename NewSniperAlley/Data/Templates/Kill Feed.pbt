@@ -230,6 +230,14 @@ Assets {
           }
           Canvas {
             Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -304,5 +312,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

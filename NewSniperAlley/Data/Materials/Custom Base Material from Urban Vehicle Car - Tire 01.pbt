@@ -2,7 +2,7 @@ Assets {
   Id: 1351857023998218613
   Name: "Custom Base Material from Urban Vehicle Car - Tire 01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 12542223800925587202
     ParameterOverrides {

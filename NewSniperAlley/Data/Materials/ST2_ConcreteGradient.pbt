@@ -2,7 +2,7 @@ Assets {
   Id: 13491739100585827813
   Name: "ST2_ConcreteGradient"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 5868465374856696904
     ParameterOverrides {

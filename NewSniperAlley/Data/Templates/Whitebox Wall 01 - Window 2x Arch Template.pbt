@@ -180,5 +180,5 @@ Assets {
       AssetId: "Whitebox_Wall_01_-_Window_2x_Arch_Template"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

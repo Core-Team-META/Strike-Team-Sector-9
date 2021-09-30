@@ -2,7 +2,7 @@ Assets {
   Id: 2889198424215416298
   Name: "ST2_ConcreteBunkerBlue"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 2379980367253352415
     ParameterOverrides {

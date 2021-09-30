@@ -727,5 +727,5 @@ Assets {
       AssetId: "Advanced_Grenade"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

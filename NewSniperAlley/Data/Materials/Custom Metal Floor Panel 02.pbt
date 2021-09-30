@@ -2,7 +2,7 @@ Assets {
   Id: 10189408510553843954
   Name: "ST_Crate01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 1706857372373745734
     ParameterOverrides {

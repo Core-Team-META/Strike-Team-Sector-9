@@ -2,7 +2,7 @@ Assets {
   Id: 11008492251194866624
   Name: "Custom Base Material from Urban Trash Can 02"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 8706008393518087108
     ParameterOverrides {

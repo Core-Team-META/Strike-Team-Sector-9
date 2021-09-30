@@ -48,8 +48,19 @@ Assets {
             LinearDamping: 0.4
             AngularDamping: 0.4
           }
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
           Radius: 15.0928183
           Length: 200
+          DamageSettings {
+            StartImmortal: true
+            DestroyOnDeathClientTemplateId {
+            }
+            DestroyOnDeathNetworkedTemplateId {
+            }
+          }
         }
       }
       Objects {
@@ -330,5 +341,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

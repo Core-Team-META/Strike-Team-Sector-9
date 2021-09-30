@@ -2,7 +2,7 @@ Assets {
   Id: 8614787299235502174
   Name: "ST2_TechPanel01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 17608036586245849503
     ParameterOverrides {

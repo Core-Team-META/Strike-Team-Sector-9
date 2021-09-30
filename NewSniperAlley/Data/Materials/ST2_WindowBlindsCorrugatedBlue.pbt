@@ -2,7 +2,7 @@ Assets {
   Id: 7038191064136763
   Name: "ST2_WindowBlindsCorrugatedBlue"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 13171200732535708403
     ParameterOverrides {

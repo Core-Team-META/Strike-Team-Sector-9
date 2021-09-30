@@ -2,7 +2,7 @@ Assets {
   Id: 17315070957124721441
   Name: "ST2_Bricks01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

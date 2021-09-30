@@ -136,5 +136,5 @@ Assets {
       AssetId: "Urban_Skylight_Template"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

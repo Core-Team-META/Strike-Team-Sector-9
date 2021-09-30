@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13207494641972129436
+        ParentId: 4781671109827199097
         ChildIds: 16153224691134201634
         ChildIds: 11432307838264675080
         ChildIds: 7842716023592873322
@@ -290,7 +290,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 9878439610815201128
+              Id: 15266094661921614944
             }
             Color {
               R: 1
@@ -452,7 +452,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 9878439610815201128
+              Id: 15266094661921614944
             }
             Color {
               R: 1
@@ -597,12 +597,12 @@ Assets {
       }
     }
     Assets {
-      Id: 9878439610815201128
-      Name: "3D Frame Basic Circle"
+      Id: 15266094661921614944
+      Name: "Center Circle 001 Outline"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_3D_Frame_BasicCircle"
+        AssetId: "CenterCircle_001Outline"
       }
     }
     PrimaryAssetId {
@@ -610,5 +610,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 94
+  SerializationVersion: 100
 }

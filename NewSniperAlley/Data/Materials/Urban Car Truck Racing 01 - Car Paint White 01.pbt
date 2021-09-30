@@ -2,7 +2,7 @@ Assets {
   Id: 8463532141267244154
   Name: "Urban Car Truck Racing 01 - Car Paint White 01"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 100
   CustomMaterialAsset {
     BaseMaterialId: 26202327341816384
     ParameterOverrides {
