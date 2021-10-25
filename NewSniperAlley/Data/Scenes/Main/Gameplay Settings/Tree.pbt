@@ -2305,9 +2305,13 @@ Objects {
   }
 }
 Objects {
-  Id: 14402084832577653090
+  Id: 10096429080152539220
   Name: "EquipmentHandler"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -2321,29 +2325,19 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 777066251803753357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "EquipmentHandler"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12469272091380785429
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "EquipmentHandler"
+  }
+  InstanceHistory {
+    SelfId: 10096429080152539220
+    SubobjectId: 777066251803753357
+    InstanceId: 14402084832577653090
+    TemplateId: 12469272091380785429
+    WasRoot: true
   }
 }
 Objects {
