@@ -1759,5 +1759,5 @@ Assets {
       AssetId: "tm_urm_trafficsignal_001_double_01"
     }
   }
-  SerializationVersion: 100
+  SerializationVersion: 101
 }

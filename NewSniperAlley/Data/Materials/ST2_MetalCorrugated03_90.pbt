@@ -2,7 +2,7 @@ Assets {
   Id: 6351521260613336097
   Name: "ST2_MetalCorrugated03_90"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 9964489518529487489
     ParameterOverrides {

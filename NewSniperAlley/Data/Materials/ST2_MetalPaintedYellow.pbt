@@ -2,7 +2,7 @@ Assets {
   Id: 8191402814560574490
   Name: "ST2_MetalPaintedYellow"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 18339968451170207572
     ParameterOverrides {

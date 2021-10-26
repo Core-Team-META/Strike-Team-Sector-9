@@ -2,7 +2,7 @@ Assets {
   Id: 7405719169046826919
   Name: "ST2_FloorInteriorRubber"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 12224751833610640005
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 11517834777195097018
   Name: "ST2_PlasterYellow"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 6620060143328752136
     ParameterOverrides {

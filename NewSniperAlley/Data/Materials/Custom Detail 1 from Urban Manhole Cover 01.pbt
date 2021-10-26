@@ -2,7 +2,7 @@ Assets {
   Id: 9754961526866862462
   Name: "Custom Detail 1 from Urban Manhole Cover 01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 5517570133241301848
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 10893145410125854134
   Name: "ST2_Portcullis"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 3862723856031140371
     ParameterOverrides {

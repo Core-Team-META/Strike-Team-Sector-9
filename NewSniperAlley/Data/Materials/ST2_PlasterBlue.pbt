@@ -2,7 +2,7 @@ Assets {
   Id: 9711238917927104919
   Name: "ST2_PlasterBlue"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 4247430867898109902
     ParameterOverrides {

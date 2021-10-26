@@ -2,7 +2,7 @@ Assets {
   Id: 14563714857969510279
   Name: "ST2_LightTube"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 13206135842285396679
     ParameterOverrides {

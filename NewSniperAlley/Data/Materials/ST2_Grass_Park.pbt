@@ -2,7 +2,7 @@ Assets {
   Id: 10614929494030709614
   Name: "ST2_Grass_Park"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 15165646760951937992
     ParameterOverrides {

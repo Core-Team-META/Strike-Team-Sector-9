@@ -2,7 +2,7 @@ Assets {
   Id: 16599847093929380111
   Name: "ST2_Fence01"
   PlatformAssetType: 13
-  SerializationVersion: 100
+  SerializationVersion: 101
   CustomMaterialAsset {
     BaseMaterialId: 7699110249164925678
     ParameterOverrides {
