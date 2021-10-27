@@ -125,6 +125,7 @@ Objects {
   }
   ParentId: 9733402796029579419
   ChildIds: 16563623975085349559
+  ChildIds: 4949072528845134576
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -138,6 +139,65 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 4949072528845134576
+  Name: "CreatorEvents_UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17504466061919586292
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:REWARDATABASE"
+      ObjectReference {
+        SelfId: 5833399927720933215
+      }
+    }
+    Overrides {
+      Name: "cs:META_EventsAPI"
+      AssetReference {
+        Id: 10951157757427207286
+      }
+    }
+    Overrides {
+      Name: "cs:CashPanel"
+      ObjectReference {
+        SelfId: 16442983550829719026
+      }
+    }
+    Overrides {
+      Name: "cs:XPPanel"
+      ObjectReference {
+        SelfId: 18441116295725264506
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12509941993369968316
+    }
   }
 }
 Objects {
