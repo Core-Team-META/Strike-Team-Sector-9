@@ -54,7 +54,7 @@ Objects {
     Overrides {
       Name: "cs:Insignia"
       ObjectReference {
-        SelfId: 14667804636201365147
+        SelfId: 7488181506881278705
       }
     }
     Overrides {

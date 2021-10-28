@@ -1690,25 +1690,25 @@ Objects {
     Overrides {
       Name: "cs:YourNemesisText"
       ObjectReference {
-        SelfId: 1647242697531681722
+        SelfId: 14342266255292291886
       }
     }
     Overrides {
       Name: "cs:YourNemesisKillsText"
       ObjectReference {
-        SelfId: 10539710145696137164
+        SelfId: 2271492708971992542
       }
     }
     Overrides {
       Name: "cs:NemesisOfText"
       ObjectReference {
-        SelfId: 13099558207737567178
+        SelfId: 17550103477146258884
       }
     }
     Overrides {
       Name: "cs:NemesisOfKillsText"
       ObjectReference {
-        SelfId: 173774458547009244
+        SelfId: 14531650345115834289
       }
     }
     Overrides {
@@ -1720,7 +1720,7 @@ Objects {
     Overrides {
       Name: "cs:NemesisOfStatText"
       ObjectReference {
-        SelfId: 5119970537851288384
+        SelfId: 4304692537970113712
       }
     }
     Overrides {

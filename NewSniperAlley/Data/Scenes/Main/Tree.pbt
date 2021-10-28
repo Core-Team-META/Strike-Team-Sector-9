@@ -28,7 +28,7 @@ Objects {
   ChildIds: 14162413626785336573
   ChildIds: 16144882895893042286
   ChildIds: 12163969153720961228
-  ChildIds: 9733402796029579419
+  ChildIds: 2340544361857211109
   ChildIds: 5687125943016643678
   UnregisteredParameters {
   }
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9733402796029579419
+  Id: 2340544361857211109
   Name: "CreatorEventsServer"
   Transform {
     Location {
@@ -91,8 +91,8 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 2622940005356778843
-  ChildIds: 17504466061919586292
+  ChildIds: 4093742054343934251
+  ChildIds: 10589753090326746755
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -110,7 +110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17504466061919586292
+  Id: 10589753090326746755
   Name: "ClientContext"
   Transform {
     Location {
@@ -123,9 +123,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9733402796029579419
-  ChildIds: 16563623975085349559
-  ChildIds: 4949072528845134576
+  ParentId: 2340544361857211109
+  ChildIds: 12755338535090589738
+  ChildIds: 16539482427367890188
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -142,7 +142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4949072528845134576
+  Id: 16539482427367890188
   Name: "CreatorEvents_UI"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17504466061919586292
+  ParentId: 10589753090326746755
   UnregisteredParameters {
     Overrides {
       Name: "cs:REWARDATABASE"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16563623975085349559
+  Id: 12755338535090589738
   Name: "CreatorEventsServer"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17504466061919586292
+  ParentId: 10589753090326746755
   UnregisteredParameters {
     Overrides {
       Name: "cs:META_EventsAPI"
@@ -248,7 +248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2622940005356778843
+  Id: 4093742054343934251
   Name: "CreatorEventsServer"
   Transform {
     Location {
@@ -261,7 +261,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9733402796029579419
+  ParentId: 2340544361857211109
   UnregisteredParameters {
     Overrides {
       Name: "cs:META_EventsAPI"

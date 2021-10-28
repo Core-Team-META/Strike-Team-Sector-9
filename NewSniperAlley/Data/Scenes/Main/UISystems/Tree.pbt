@@ -14473,7 +14473,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1697581103185971910
+  Id: 1779700357737291160
   Name: "End Round UI Manager"
   Transform {
     Location {
@@ -14487,10 +14487,10 @@ Objects {
     }
   }
   ParentId: 14162413626785336573
-  ChildIds: 6164741113039281244
-  ChildIds: 16874842100875915167
-  ChildIds: 5093543600143462791
-  ChildIds: 128775739202102653
+  ChildIds: 15069906665987422446
+  ChildIds: 8125104445261474389
+  ChildIds: 3779427875007457401
+  ChildIds: 13965593799006290322
   UnregisteredParameters {
     Overrides {
       Name: "cs:UpdateWinnersEvent"
@@ -14511,7 +14511,7 @@ Objects {
   }
 }
 Objects {
-  Id: 128775739202102653
+  Id: 13965593799006290322
   Name: "EndgameUI"
   Transform {
     Location {
@@ -14524,7 +14524,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1697581103185971910
+  ParentId: 1779700357737291160
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14540,7 +14540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5093543600143462791
+  Id: 3779427875007457401
   Name: "EndUI"
   Transform {
     Location {
@@ -14553,7 +14553,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1697581103185971910
+  ParentId: 1779700357737291160
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14569,7 +14569,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16874842100875915167
+  Id: 8125104445261474389
   Name: "ClientContext"
   Transform {
     Location {
@@ -14582,11 +14582,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1697581103185971910
-  ChildIds: 380465287054955451
-  ChildIds: 15142423788770918536
-  ChildIds: 14007544631477828363
-  ChildIds: 16191887605542063851
+  ParentId: 1779700357737291160
+  ChildIds: 8288724537495493716
+  ChildIds: 16459251598990005767
+  ChildIds: 3158247845409715966
+  ChildIds: 12144623513258275835
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -14600,7 +14600,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16191887605542063851
+  Id: 12144623513258275835
   Name: "GoldGroup"
   Transform {
     Location {
@@ -14613,10 +14613,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16874842100875915167
-  ChildIds: 17617216210978501780
-  ChildIds: 9112756315194391445
-  ChildIds: 5374501215565345422
+  ParentId: 8125104445261474389
+  ChildIds: 7986375016770386621
+  ChildIds: 12591455093263496686
+  ChildIds: 10492060526951878592
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14631,7 +14631,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5374501215565345422
+  Id: 10492060526951878592
   Name: "GoldThumpSound"
   Transform {
     Location {
@@ -14647,7 +14647,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16191887605542063851
+  ParentId: 12144623513258275835
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14668,7 +14668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9112756315194391445
+  Id: 12591455093263496686
   Name: "GoldThumpSound"
   Transform {
     Location {
@@ -14684,7 +14684,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16191887605542063851
+  ParentId: 12144623513258275835
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14705,7 +14705,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17617216210978501780
+  Id: 7986375016770386621
   Name: "GoldThumpSound"
   Transform {
     Location {
@@ -14721,7 +14721,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16191887605542063851
+  ParentId: 12144623513258275835
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14742,7 +14742,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14007544631477828363
+  Id: 3158247845409715966
   Name: "TickGroup"
   Transform {
     Location {
@@ -14755,17 +14755,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16874842100875915167
-  ChildIds: 8382784290219174106
-  ChildIds: 4584766821370953779
-  ChildIds: 10005918585283891884
-  ChildIds: 6200421266445694774
-  ChildIds: 9149144171053066478
-  ChildIds: 12795784312299846225
-  ChildIds: 8930778637879490144
-  ChildIds: 2593649062594872030
-  ChildIds: 2874907954266250373
-  ChildIds: 9035232107008740211
+  ParentId: 8125104445261474389
+  ChildIds: 4476086393583274896
+  ChildIds: 8880400840467330973
+  ChildIds: 6616641503176995809
+  ChildIds: 11237140833320935345
+  ChildIds: 952658817799996903
+  ChildIds: 17339953156710833149
+  ChildIds: 5729633618161186704
+  ChildIds: 2667435924072211026
+  ChildIds: 358184026111099228
+  ChildIds: 17259178653541322670
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14780,7 +14780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9035232107008740211
+  Id: 17259178653541322670
   Name: "SFX"
   Transform {
     Location {
@@ -14796,7 +14796,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14817,7 +14817,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2874907954266250373
+  Id: 358184026111099228
   Name: "SFX"
   Transform {
     Location {
@@ -14833,7 +14833,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14854,7 +14854,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2593649062594872030
+  Id: 2667435924072211026
   Name: "SFX"
   Transform {
     Location {
@@ -14870,7 +14870,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14891,7 +14891,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8930778637879490144
+  Id: 5729633618161186704
   Name: "SFX"
   Transform {
     Location {
@@ -14907,7 +14907,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14928,7 +14928,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12795784312299846225
+  Id: 17339953156710833149
   Name: "SFX"
   Transform {
     Location {
@@ -14944,7 +14944,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -14965,7 +14965,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9149144171053066478
+  Id: 952658817799996903
   Name: "SFX"
   Transform {
     Location {
@@ -14981,7 +14981,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15002,7 +15002,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6200421266445694774
+  Id: 11237140833320935345
   Name: "SFX"
   Transform {
     Location {
@@ -15018,7 +15018,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15039,7 +15039,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10005918585283891884
+  Id: 6616641503176995809
   Name: "SFX"
   Transform {
     Location {
@@ -15055,7 +15055,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15076,7 +15076,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4584766821370953779
+  Id: 8880400840467330973
   Name: "SFX"
   Transform {
     Location {
@@ -15092,7 +15092,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15113,7 +15113,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8382784290219174106
+  Id: 4476086393583274896
   Name: "SFX"
   Transform {
     Location {
@@ -15129,7 +15129,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14007544631477828363
+  ParentId: 3158247845409715966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15150,7 +15150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15142423788770918536
+  Id: 16459251598990005767
   Name: "RollTextAnimationCompleteSFX"
   Transform {
     Scale {
@@ -15159,8 +15159,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16874842100875915167
-  ChildIds: 10800505529913226
+  ParentId: 8125104445261474389
+  ChildIds: 9391409213019733136
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15175,7 +15175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10800505529913226
+  Id: 9391409213019733136
   Name: "SFX"
   Transform {
     Location {
@@ -15188,7 +15188,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15142423788770918536
+  ParentId: 16459251598990005767
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -15210,7 +15210,7 @@ Objects {
   }
 }
 Objects {
-  Id: 380465287054955451
+  Id: 8288724537495493716
   Name: "EndRoundUIMainManagerClient"
   Transform {
     Location {
@@ -15223,7 +15223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16874842100875915167
+  ParentId: 8125104445261474389
   UnregisteredParameters {
     Overrides {
       Name: "cs:APIBasicGameState"
@@ -15252,43 +15252,43 @@ Objects {
     Overrides {
       Name: "cs:GainedXP"
       ObjectReference {
-        SelfId: 1865442133602130158
+        SelfId: 6547749128024169654
       }
     }
     Overrides {
       Name: "cs:ProgressBarText"
       ObjectReference {
-        SelfId: 16807595458415027672
+        SelfId: 15784829934727840075
       }
     }
     Overrides {
       Name: "cs:ProgressBar"
       ObjectReference {
-        SelfId: 7274331184330388253
+        SelfId: 9199399012057356825
       }
     }
     Overrides {
       Name: "cs:CashTotal"
       ObjectReference {
-        SelfId: 9494490252569695920
+        SelfId: 16314113216950895877
       }
     }
     Overrides {
       Name: "cs:EndRoundUIMainManager"
       ObjectReference {
-        SelfId: 6164741113039281244
+        SelfId: 15069906665987422446
       }
     }
     Overrides {
       Name: "cs:StatsWindow"
       ObjectReference {
-        SelfId: 5054901996623008769
+        SelfId: 10968263921600911050
       }
     }
     Overrides {
       Name: "cs:EntireRoundEndUI"
       ObjectReference {
-        SelfId: 11022618275848202799
+        SelfId: 12353276927268651687
       }
     }
     Overrides {
@@ -15299,7 +15299,7 @@ Objects {
     Overrides {
       Name: "cs:MainWindow"
       ObjectReference {
-        SelfId: 5054901996623008769
+        SelfId: 10968263921600911050
       }
     }
     Overrides {
@@ -15310,61 +15310,61 @@ Objects {
     Overrides {
       Name: "cs:GoldPercentBar"
       ObjectReference {
-        SelfId: 15200642455783149455
+        SelfId: 8346930627584890304
       }
     }
     Overrides {
       Name: "cs:GoldAmount"
       ObjectReference {
-        SelfId: 14496053206444990566
+        SelfId: 7115325918272246855
       }
     }
     Overrides {
       Name: "cs:CashPanel"
       ObjectReference {
-        SelfId: 17646269699167270883
+        SelfId: 10396560140155033076
       }
     }
     Overrides {
       Name: "cs:BIG_GOLD"
       ObjectReference {
-        SelfId: 9766067717378811094
+        SelfId: 4382304230418196859
       }
     }
     Overrides {
       Name: "cs:SMALL_GOLD"
       ObjectReference {
-        SelfId: 13066106599920770432
+        SelfId: 6080194265928914229
       }
     }
     Overrides {
       Name: "cs:LevelNumberText"
       ObjectReference {
-        SelfId: 1026870312141810946
+        SelfId: 15763675362799579356
       }
     }
     Overrides {
       Name: "cs:PlayerNameText"
       ObjectReference {
-        SelfId: 11450147313743546626
+        SelfId: 11900010701669103230
       }
     }
     Overrides {
       Name: "cs:CompleteSFX"
       ObjectReference {
-        SelfId: 10800505529913226
+        SelfId: 9391409213019733136
       }
     }
     Overrides {
       Name: "cs:TickGroup"
       ObjectReference {
-        SelfId: 14007544631477828363
+        SelfId: 3158247845409715966
       }
     }
     Overrides {
       Name: "cs:GoldGroup"
       ObjectReference {
-        SelfId: 16191887605542063851
+        SelfId: 12144623513258275835
       }
     }
     Overrides {
@@ -15376,7 +15376,25 @@ Objects {
     Overrides {
       Name: "cs:NEWS_WINDOW"
       ObjectReference {
-        SelfId: 7451123920533956627
+        SelfId: 15805078899908085065
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_GAINED_EXP_SHADOW"
+      ObjectReference {
+        SelfId: 14712831804258085298
+      }
+    }
+    Overrides {
+      Name: "cs:TITLE_GAINED_EXP"
+      ObjectReference {
+        SelfId: 14387923766271689895
+      }
+    }
+    Overrides {
+      Name: "cs:CASH_TOTAL"
+      ObjectReference {
+        SelfId: 9756795235120377569
       }
     }
   }
@@ -15396,7 +15414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6164741113039281244
+  Id: 15069906665987422446
   Name: "EndRoundUIMainManager"
   Transform {
     Location {
@@ -15409,7 +15427,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1697581103185971910
+  ParentId: 1779700357737291160
   UnregisteredParameters {
     Overrides {
       Name: "cs:APIBasicGameState"
@@ -15420,7 +15438,7 @@ Objects {
     Overrides {
       Name: "cs:EndRoundUIManager"
       ObjectReference {
-        SelfId: 1697581103185971910
+        SelfId: 1779700357737291160
       }
     }
     Overrides {

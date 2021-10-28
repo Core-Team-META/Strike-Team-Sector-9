@@ -759,19 +759,19 @@ Objects {
     Overrides {
       Name: "cs:ConfirmPanel"
       ObjectReference {
-        SelfId: 8916101347736570207
+        SelfId: 17068648316216637690
       }
     }
     Overrides {
       Name: "cs:Confirm"
       ObjectReference {
-        SelfId: 13970828381914533737
+        SelfId: 9389931339440970693
       }
     }
     Overrides {
       Name: "cs:Deny"
       ObjectReference {
-        SelfId: 7471225526068752410
+        SelfId: 16900460177821871732
       }
     }
     Overrides {

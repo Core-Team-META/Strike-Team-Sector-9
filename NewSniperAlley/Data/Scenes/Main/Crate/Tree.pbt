@@ -47,13 +47,13 @@ Objects {
     Overrides {
       Name: "cs:CrateTimerPanel"
       ObjectReference {
-        SelfId: 10028096737345481089
+        SelfId: 13183542742611507978
       }
     }
     Overrides {
       Name: "cs:CrateTimerText"
       ObjectReference {
-        SelfId: 6271426328865926945
+        SelfId: 16713423940045493103
       }
     }
   }
