@@ -1,4 +1,4 @@
-﻿-- Internal custom properties
+-- Internal custom properties
 local IMAGE = script:GetCustomProperty("Image"):WaitForObject()
 local PROGRESS_BAR = script:GetCustomProperty("ProgressBar"):WaitForObject()
 local WALK_ICON = script:GetCustomProperty("WalkIcon")

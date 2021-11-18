@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     Temp script to track headshots using resources.
  ]]
 

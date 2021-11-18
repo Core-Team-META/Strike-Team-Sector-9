@@ -1,4 +1,4 @@
-﻿local parent = script.parent
+local parent = script.parent
 local propUniqueID = script:GetCustomProperty("UniqueID")
 local openSound = script:GetCustomProperty("OpenSound")
 local closeSound = script:GetCustomProperty("CloseSound")

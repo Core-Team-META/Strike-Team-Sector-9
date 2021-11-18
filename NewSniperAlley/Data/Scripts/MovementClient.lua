@@ -1,4 +1,4 @@
-﻿-- Internal custom properties
+-- Internal custom properties
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 
 -- User exposed properties

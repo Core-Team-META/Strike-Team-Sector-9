@@ -1,4 +1,4 @@
-﻿local propObject = script:GetCustomProperty("Object"):WaitForObject()
+local propObject = script:GetCustomProperty("Object"):WaitForObject()
 local propDelayTime = script:GetCustomProperty("DelayTime")
 
 Task.Wait(propDelayTime)

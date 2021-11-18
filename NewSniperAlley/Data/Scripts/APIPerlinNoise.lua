@@ -1,4 +1,4 @@
-﻿-- original code by Ken Perlin: http://mrl.nyu.edu/~perlin/noise/
+-- original code by Ken Perlin: http://mrl.nyu.edu/~perlin/noise/
 
 perlin = {}
 perlin.p = {}

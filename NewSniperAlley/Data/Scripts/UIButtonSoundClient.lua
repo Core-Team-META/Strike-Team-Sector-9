@@ -1,4 +1,4 @@
-﻿local button = script.parent
+local button = script.parent
 local propSound = script:GetCustomProperty("Sound")
 
 function OnClicked()

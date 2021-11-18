@@ -1,4 +1,4 @@
-﻿local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
+local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
 local OBJECT_TO_MOVE = script:GetCustomProperty("Object"):WaitForObject()
 
 local EXECUTE_DURATION = script:GetCustomProperty("ExecuteDuration")

@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 	CAMERA SHAKE COMPONENT
 	This component shakes the local player's camera using position and rotation offset.
 	It listens to events to enable or disable shaking.

@@ -1,4 +1,4 @@
-﻿local button = script.parent
+local button = script.parent
 local propUniqueID = script:GetCustomProperty("UniqueID")
 local propOpen = script:GetCustomProperty("Open")
 

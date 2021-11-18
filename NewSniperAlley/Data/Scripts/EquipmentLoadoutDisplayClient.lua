@@ -1,4 +1,4 @@
-﻿-- Internal custom properties
+-- Internal custom properties
 local AEL = require(script:GetCustomProperty("API"))
 local ABGS = require(script:GetCustomProperty("ABGS"))
 local COMPONENT_ROOT = script:GetCustomProperty("ComponentRoot"):WaitForObject()
